@@ -12,6 +12,9 @@ import static io.restassured.config.RedirectConfig.redirectConfig;
 
 public class AccountCreationHelper {
 
+    public AccountCreationHelper() {
+    }
+
     public void createAcoount() {
         baseURI = "https://lista.atzma.im";
         RestAssured.config = config().redirect(redirectConfig().followRedirects(true).and().maxRedirects(10)).and().
