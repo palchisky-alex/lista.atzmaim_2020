@@ -21,6 +21,7 @@ import static org.testng.Assert.fail;
 public class ApplicationManager {
     Properties properties;
     AccountCreationHelper accountCreationHelper;
+    ServiceCreationHelper serviceCreationHelper;
 
     public ApplicationManager(String browser) {
         properties = new Properties();
@@ -32,6 +33,7 @@ public class ApplicationManager {
 
 
         accountCreationHelper = new AccountCreationHelper();
+        serviceCreationHelper = new ServiceCreationHelper();
 
     }
 
@@ -41,5 +43,6 @@ public class ApplicationManager {
     }
 
     public AccountCreationHelper accountCreationHelper() {return accountCreationHelper;}
+    public ServiceCreationHelper serviceCreationHelper() { return  serviceCreationHelper;}
 
 }

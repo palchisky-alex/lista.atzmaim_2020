@@ -6,6 +6,7 @@ public class CreateAccountTests extends TestBase {
 
     @Test
     public void creatNewAccount() {
-        app.accountCreationHelper().createAcoount();
+
+
     }
 }
