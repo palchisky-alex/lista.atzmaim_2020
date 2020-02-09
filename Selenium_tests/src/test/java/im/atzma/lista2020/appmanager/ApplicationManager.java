@@ -59,7 +59,7 @@ public class ApplicationManager {
         Map<String, String> mobileEmulation = new HashMap<>();
         mobileEmulation.put("deviceName", "iPhone X");
 
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.manage().window().maximize();
 
         navigationHelper = new NavigationHelper(driver);
@@ -83,8 +83,6 @@ public class ApplicationManager {
         }
         Runtime.getRuntime().exec("taskkill /F /IM chromedriver.exe");
     }
-    public HttpSession newSession() { return new HttpSession(this);}
-
 
     public NavigationHelper goTo() {
         return navigationHelper;

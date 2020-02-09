@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite_Menu">
+    <test verbose="1" preserve-order="true" name="testsService">
+        <classes>
+            <class name="im.atzma.lista2020.tests.CreateServiceTests">
+                <methods>
+                    <include name="creatNewService"/>
+                    <include name="appointmentList"/>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+</suite>

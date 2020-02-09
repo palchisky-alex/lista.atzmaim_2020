@@ -1,7 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1cdabc6-6ad8-4bab-8c1f-612c1b07adb5" name="Default Changelist" comment="" />
+    <list default="true" id="d1cdabc6-6ad8-4bab-8c1f-612c1b07adb5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/API_Tests/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/API_Tests/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Tests/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/API_Tests/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Tests/out/test/classes/im/atzma/lista2020/appmanager/ApplicationManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Tests/out/test/classes/im/atzma/lista2020/appmanager/ServiceCreationHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/API_Tests/out/test/classes/im/atzma/lista2020/appmanager/ServiceCreationHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Tests/out/test/classes/im/atzma/lista2020/tests/CreateServiceTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/API_Tests/out/test/classes/im/atzma/lista2020/tests/CreateServiceTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Tests/out/test/classes/im/atzma/lista2020/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/API_Tests/out/test/classes/im/atzma/lista2020/tests/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Tests/out/test/resources/testng-AccountCreationRest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/API_Tests/out/test/resources/testng-AccountCreationRest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Tests/src/test/java/im/atzma/lista2020/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/API_Tests/src/test/java/im/atzma/lista2020/appmanager/ApplicationRestManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Tests/src/test/java/im/atzma/lista2020/appmanager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/API_Tests/src/test/java/im/atzma/lista2020/appmanager/HelperBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Tests/src/test/java/im/atzma/lista2020/appmanager/ServiceCreationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/API_Tests/src/test/java/im/atzma/lista2020/appmanager/ServiceCreationHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Tests/src/test/java/im/atzma/lista2020/tests/CreateServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/API_Tests/src/test/java/im/atzma/lista2020/tests/CreateServiceTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Tests/src/test/java/im/atzma/lista2020/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/API_Tests/src/test/java/im/atzma/lista2020/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Tests/src/test/resources/testng-AccountCreationRest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/API_Tests/src/test/resources/testng-AccountCreationRest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Tests/test-2020-01-27T204724.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Tests/test-2020-01-27T204917.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Tests/test-2020-01-28T105116.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Tests/test-2020-01-28T105206.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Tests/test-2020-01-28T105408.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Tests/test-2020-01-28T105615.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_Tests/test-2020-01-28T105651.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium_tests/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium_tests/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium_tests/out/test/classes/im/atzma/lista2020/appmanager/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium_tests/out/test/classes/im/atzma/lista2020/appmanager/ApplicationManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium_tests/out/test/classes/im/atzma/lista2020/appmanager/AppointmentHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium_tests/out/test/classes/im/atzma/lista2020/appmanager/AppointmentHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium_tests/out/test/classes/im/atzma/lista2020/appmanager/HttpSession.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium_tests/out/test/classes/im/atzma/lista2020/tests/ClientDeletionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium_tests/out/test/classes/im/atzma/lista2020/tests/ClientDeletionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium_tests/out/test/classes/im/atzma/lista2020/tests/DeleteAccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium_tests/out/test/classes/im/atzma/lista2020/tests/DeleteAccountTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium_tests/out/test/classes/im/atzma/lista2020/tests/DeleteAppointmentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium_tests/out/test/classes/im/atzma/lista2020/tests/DeleteAppointmentTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium_tests/out/test/classes/im/atzma/lista2020/tests/MenuTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium_tests/out/test/classes/im/atzma/lista2020/tests/MenuTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium_tests/out/test/classes/im/atzma/lista2020/tests/RestTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium_tests/out/test/classes/im/atzma/lista2020/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium_tests/out/test/classes/im/atzma/lista2020/tests/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/AppointmentHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/AppointmentHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/HttpSession.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium_tests/src/test/java/im/atzma/lista2020/tests/ClientDeletionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium_tests/src/test/java/im/atzma/lista2020/tests/ClientDeletionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium_tests/src/test/java/im/atzma/lista2020/tests/DeleteAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium_tests/src/test/java/im/atzma/lista2020/tests/DeleteAccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium_tests/src/test/java/im/atzma/lista2020/tests/DeleteAppointmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium_tests/src/test/java/im/atzma/lista2020/tests/DeleteAppointmentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium_tests/src/test/java/im/atzma/lista2020/tests/MenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium_tests/src/test/java/im/atzma/lista2020/tests/MenuTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium_tests/src/test/java/im/atzma/lista2020/tests/RestTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium_tests/src/test/java/im/atzma/lista2020/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium_tests/src/test/java/im/atzma/lista2020/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selenium_tests/test-2020-01-27T195725.log" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,7 +50,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/API_Tests/build.gradle">
           <provider selected="true" editor-type-id="text-editor" />
@@ -27,10 +68,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="527" />
+    <option name="x" value="526" />
     <option name="y" value="114" />
-    <option name="width" value="1702" />
-    <option name="height" value="844" />
+    <option name="width" value="1703" />
+    <option name="height" value="845" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -40,7 +81,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -62,6 +102,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="CatdeaLogs" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -119,18 +161,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Learn" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.254251" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -138,14 +179,17 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info active="true" anchor="right" id="Maven" visible="true" weight="0.32995737" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info active="true" anchor="right" id="Maven" order="4" visible="true" weight="0.32955465" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="antWorkspaceConfiguration">

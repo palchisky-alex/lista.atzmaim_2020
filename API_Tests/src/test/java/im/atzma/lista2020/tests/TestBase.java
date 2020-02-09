@@ -1,6 +1,6 @@
 package im.atzma.lista2020.tests;
 
-import im.atzma.lista2020.appmanager.ApplicationManager;
+import im.atzma.lista2020.appmanager.ApplicationRestManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.AfterMethod;
@@ -15,17 +15,19 @@ import java.util.Arrays;
 
 public class TestBase {
     Logger logger = LoggerFactory.getLogger(TestBase.class);
-    protected static final ApplicationManager app = new ApplicationManager(System.getProperty("browser", "Chrome"));
+    protected static final ApplicationRestManager app = new ApplicationRestManager();
+
 
     @BeforeSuite(alwaysRun = true)
     public void setUp() throws Exception {
-        app.init();
+      app.init();
+
 
     }
 
     @AfterSuite(alwaysRun = true)
     public void tearDown() throws Exception {
-        app.stop();
+//        app.stop();
     }
 
     @BeforeMethod()

@@ -5,6 +5,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -15,8 +16,8 @@ public class AppointmentHelper extends HelperBase {
         super(driver);
     }
 
-    @FindBy(xpath = "(//tr[@data-time='15:00:00'])//td[1]")
-    WebElement time_15;
+//    @FindBy(css="tr:nth-child(8) > .fc-widget-content:nth-child(2)")
+//    WebElement time_15;
 
     @FindBy(css = "tr[data-time] > :first-child")
     List<WebElement> all_time_slots;
@@ -241,9 +242,13 @@ public class AppointmentHelper extends HelperBase {
         return btn_existing_appointment.size();
     }
 
-    public void chooseAppointmentHour() {
-        driver.navigate().refresh();
-        click(time_15);
+    public void chooseAppointmentHour() throws InterruptedException {
+      //  wait.until(ExpectedConditions.elementToBeClickable(time_15));
+       //click(time_15);
+        Thread.sleep(2000);
+//        clickJS(time_15);
+        driver.findElement(By.cssSelector("#calendar > div.fc-view-container > div > table > tbody > tr > td > div > div > div.fc-slats > table > tbody > tr:nth-child(8) > td:nth-child(2)")).click();
+
     }
 
     public void clickOnExistsAppointment() throws InterruptedException {
@@ -254,7 +259,6 @@ public class AppointmentHelper extends HelperBase {
             click(back_arrow);
             waitForElement(appointmentTime);
         }
-        driver.navigate().refresh();
         for (int i = 0; i < btn_existing_appointment.size(); i++) {
             click(btn_existing_appointment.get(i));
         }

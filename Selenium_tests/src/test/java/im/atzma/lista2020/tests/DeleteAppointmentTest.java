@@ -17,12 +17,7 @@ public class DeleteAppointmentTest extends TestBase {
         app.goTo().login();
 
         int after = app.appointment().appointmentList();
-        try {
-            Assert.assertEquals(after, before - 1);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
+        Assert.assertEquals(after, before - 1);
 
     }
 
@@ -35,10 +30,7 @@ public class DeleteAppointmentTest extends TestBase {
         String expected = "[פגישה 30 דקות, פגישה 45 דקות, פגישה 60 דקות]";
         List<String> actual = app.service().verifyServiceDeletion();
 
-        try {
-            Assert.assertEquals(actual.toString(), expected, "verify service deletion");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        Assert.assertEquals(actual.toString(), expected, "verify service deletion");
+
     }
 }

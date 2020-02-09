@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class DeleteAccountTest extends TestBase {
 
-    @Test(priority = 1)
+    @Test(priority = 1, alwaysRun = true)
     public void testDeleteAccount() throws Exception {
 
         app.appointment().deleteAccount();
