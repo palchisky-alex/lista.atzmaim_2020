@@ -71,12 +71,13 @@ public class ClientCreationHelper {
         given().cookies(key, value).
                 header("content-type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
-                formParam("name", "TestCategory2").
                 when().
                 delete("/clients/" + client_id).
                 then().
                 assertThat().statusCode(204);
         getClientList();
+
+        //  body("name[0]",equalTo("novii client"));
 
     }
 

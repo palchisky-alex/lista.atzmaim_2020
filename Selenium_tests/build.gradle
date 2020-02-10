@@ -29,4 +29,81 @@ dependencies {
 
     }
 
+task testNewAppointment(type: Test) {
+    useTestNG() {
+        suites './src/test/java/im/atzma/lista/tests/testng-AppointmentCreation.xml'
+    }
+    if (project.hasProperty('browser')) {
+        systemProperty 'browser', "${browser}"
+    }
+
+    if (project.hasProperty('target')) {
+        systemProperty 'target', "${target}"
+    }
+}
+
+task testNewAppointmentModification(type: Test) {
+    useTestNG() {
+        suites './src/test/java/im/atzma/lista/tests/testng-AppointmentModification.xml'
+    }
+    if (project.hasProperty('browser')) {
+        systemProperty 'browser', "${browser}"
+    }
+
+    if (project.hasProperty('target')) {
+        systemProperty 'target', "${target}"
+    }
+}
+
+task testClientCreationCount(type: Test) {
+    useTestNG() {
+        suites './src/test/java/im/atzma/lista/tests/testng-ClientCreationCount.xml'
+    }
+    if (project.hasProperty('browser')) {
+        systemProperty 'browser', "${browser}"
+    }
+
+    if (project.hasProperty('target')) {
+        systemProperty 'target', "${target}"
+    }
+}
+
+task testClientDeletionCount(type: Test) {
+    useTestNG() {
+        suites './src/test/java/im/atzma/lista/tests/testng-ClientDeletionCount.xml'
+    }
+    if (project.hasProperty('browser')) {
+        systemProperty 'browser', "${browser}"
+    }
+
+    if (project.hasProperty('target')) {
+        systemProperty 'target', "${target}"
+    }
+}
+
+task testClientCompareCount(type: Test) {
+    useTestNG() {
+        suites './src/test/java/im/atzma/lista/tests/testng-ClientCompareCount.xml'
+    }
+    if (project.hasProperty('browser')) {
+        systemProperty 'browser', "${browser}"
+    }
+
+    if (project.hasProperty('target')) {
+        systemProperty 'target', "${target}"
+    }
+}
+
+task testClientModificationCount(type: Test) {
+    useTestNG() {
+        suites './src/test/java/im/atzma/lista/tests/testng-ClientModificationCount.xml'
+    }
+    if (project.hasProperty('browser')) {
+        systemProperty 'browser', "${browser}"
+    }
+
+    if (project.hasProperty('target')) {
+        systemProperty 'target', "${target}"
+    }
+}
   
