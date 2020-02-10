@@ -7,12 +7,12 @@ import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 
-public class CreateServiceTests extends TestBase {
+public class ServiceCreationTests extends TestBase {
 
     @Test
     public void creatNewService() {
-    //    app.serviceCreationHelper().createService();
-        app.serviceCreationHelper().deleteService();
+        app.serviceCreationHelper().createService();
+//        app.serviceCreationHelper().deleteService();
     }
 
 }

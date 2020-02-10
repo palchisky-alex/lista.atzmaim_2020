@@ -3,16 +3,21 @@
 <suite name="suite_Menu">
     <test verbose="1" preserve-order="true" name="testsService">
         <classes>
-            <class name="im.atzma.lista2020.tests.CreateServiceTests">
-                <methods>
-                    <include name="creatNewService"/>
-                </methods>
-            </class>
+            <!--<class name="im.atzma.lista2020.tests.ServiceCreationTests">-->
+                <!--<methods>-->
+                    <!--<include name="creatNewService"/>-->
+                <!--</methods>-->
+            <!--</class>-->
             <!--<class name="im.atzma.lista2020.tests.ClientCreationTests">-->
                 <!--<methods>-->
                     <!--<include name="createClient"/>-->
                 <!--</methods>-->
             <!--</class>-->
+            <class name="im.atzma.lista2020.tests.AppointmentCreationTests">
+                <methods>
+                    <include name="createAppointment"/>
+                </methods>
+            </class>
         </classes>
 
     </test>

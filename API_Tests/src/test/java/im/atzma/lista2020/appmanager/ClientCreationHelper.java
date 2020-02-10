@@ -40,7 +40,7 @@ public class ClientCreationHelper {
                 post("/clients").
                 then().
                 assertThat().statusCode(201);
-
+        getClientList();
     }
 
     public void getClientList() throws IOException {
@@ -50,10 +50,8 @@ public class ClientCreationHelper {
                 when().
                 get("/clients?limit=20&offset=0").then().extract().response();
         ResponseBody body = response.getBody();
-
         responseString = response.asString();   //convert response (RAW) to String
 
-        //responseMap.forEach((k, v) -> System.out.println("map : " + k + " Value : " + v));
         if(!responseString.equals("[]")) {
 
             System.out.println("client list: " + responseString);

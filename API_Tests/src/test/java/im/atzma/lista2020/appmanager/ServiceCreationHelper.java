@@ -26,7 +26,7 @@ public class ServiceCreationHelper {
         given().cookies(key, value).
                 header("content-type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
-                formParam("name", "TestCategory2").
+                formParam("name", "TestService").
                 formParam("duration", 300).
                 formParam("price", 50).
                 formParam("color", "#50e3c1").
