@@ -3,6 +3,7 @@ package im.atzma.lista2020.appmanager;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import java.util.Map;
+
 import static io.restassured.RestAssured.given;
 
 public class ServiceCreationHelper {
@@ -43,20 +44,25 @@ public class ServiceCreationHelper {
 
     public void getServiceList() {
         Response response = given().cookies(key, value).
-              //  header("content-type", "application/json; charset=utf-8").
-                header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
-                when().
-                get("/catalog/services/").then().extract().response();
+                //  header("content-type", "application/json; charset=utf-8").
+                        header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
+                        when().
+                        get("/catalog/services/").then().extract().response();
         responseString = response.asString();
-        if(!responseString.equals("[]")) {
+        if (!responseString.equals("[]")) {
 
             System.out.println("service list: " + responseString);
             JsonPath jp = new JsonPath(responseString);    //convert response String to JSON
             service_id = jp.get("id[0]");                 //get id from JSON
+
+            int count = jp.get("array.size()");
+            for (int i = 0; i < count; i++) {
+                System.out.println(jp.get("id["+i+"]").toString());
+            }
+
             System.out.println("service id = " + service_id);
 
-        }
-        else {
+        } else {
             System.out.println("service list: " + " = null");
         }
     }

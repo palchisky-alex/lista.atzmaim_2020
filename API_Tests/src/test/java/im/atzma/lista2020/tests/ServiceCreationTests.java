@@ -11,7 +11,8 @@ public class ServiceCreationTests extends TestBase {
 
     @Test
     public void creatNewService() {
-        app.serviceCreationHelper().createService();
+        app.serviceCreationHelper().getServiceList();
+       // app.serviceCreationHelper().createService();
 //        app.serviceCreationHelper().deleteService();
     }
 

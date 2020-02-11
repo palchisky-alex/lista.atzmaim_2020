@@ -1,0 +1,4 @@
+21:53:31.310 [main] INFO  im.atzma.lista2020.tests.TestBase - Start test creatNewService with parrametrs []
+21:53:33.075 [main] INFO  im.atzma.lista2020.tests.TestBase - Stop test creatNewService
+21:53:33.083 [main] INFO  im.atzma.lista2020.tests.TestBase - Start test createAppointment with parrametrs []
+21:53:33.866 [main] INFO  im.atzma.lista2020.tests.TestBase - Stop test createAppointment

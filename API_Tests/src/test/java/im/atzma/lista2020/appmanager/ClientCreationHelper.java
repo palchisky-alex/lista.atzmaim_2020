@@ -59,6 +59,13 @@ public class ClientCreationHelper {
             client_id = jp.get("id[0]");                 //get id from JSON
             System.out.println("client id = " + client_id);
 
+            int count = jp.get("array.size()");
+            System.out.println("count " + count);
+            for (int i = 0; i < count; i++) {
+                System.out.println(jp.get("id["+i+"]").toString());
+
+            }
+
         }
         else {
             System.out.println("client list: " + " = null");

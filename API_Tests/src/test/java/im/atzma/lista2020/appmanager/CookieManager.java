@@ -8,6 +8,8 @@ import static io.restassured.config.EncoderConfig.encoderConfig;
 import static io.restassured.config.RedirectConfig.redirectConfig;
 
 public class CookieManager {
+//    9olovoj99@lista.app
+//            dumaj999
 
     public Map<String, String> createLoginCookie() {
         baseURI = "https://lista.atzma.im";
@@ -19,8 +21,8 @@ public class CookieManager {
                 header("Content-Type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 formParam("time_zone", "Asia/Jerusalem").
-                formParam("email", "katalon13@gmail.com").
-                formParam("pass", "Pa$$w@rd").
+                formParam("email", "9olovoj99@lista.app").
+                formParam("pass", "dumaj999").
                 when().
                 post("/check-login");
         System.out.println("create login cookie");
