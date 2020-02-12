@@ -47,6 +47,7 @@ public class ClientCreationHelper {
         response = given().cookies(key, value).
                 header("content-type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
+                header("X-Requested-With","XMLHttpRequest").
                 when().
                 get("/clients?limit=20&offset=0").then().extract().response();
         ResponseBody body = response.getBody();

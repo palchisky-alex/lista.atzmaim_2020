@@ -20,9 +20,10 @@ public class CookieManager {
         Response response = given().
                 header("Content-Type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
+                header("X-Requested-With","XMLHttpRequest").
                 formParam("time_zone", "Asia/Jerusalem").
-                formParam("email", "9olovoj99@lista.app").
-                formParam("pass", "dumaj999").
+                formParam("email", "Katalon13@gmail.com").
+                formParam("pass", "Pa$$w@rd").
                 when().
                 post("/check-login");
         System.out.println("create login cookie");

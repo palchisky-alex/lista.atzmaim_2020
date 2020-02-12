@@ -29,6 +29,7 @@ public class AppointmentHelper {
         given().cookies(key, value).
                 header("content-type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
+                header("X-Requested-With","XMLHttpRequest").
                 formParam("start", "2020-02-11T09:00:00").
                 formParam("client_id", 5).
                 formParam("worker_id", 1).
@@ -52,6 +53,7 @@ public class AppointmentHelper {
         response = given().cookies(key, value).
                 header("content-type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
+                header("X-Requested-With","XMLHttpRequest").
                 when().
                 get("/calendar?start=2020-02-10T00:00:00&end=2020-02-12T23:59:59&worker_id=1").then().extract().response();
 
@@ -75,6 +77,7 @@ public class AppointmentHelper {
         given().cookies(key, value).
                 header("content-type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
+                header("X-Requested-With","XMLHttpRequest").
                 when().
                 delete("/calendar/" + appointment_id).
                 then().

@@ -72,6 +72,7 @@ public class ServiceCreationHelper {
         given().cookies(key, value).
                 header("content-type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
+                header("X-Requested-With","XMLHttpRequest").
                 when().
                 delete("/catalog/services/" + service_id).
                 then().
