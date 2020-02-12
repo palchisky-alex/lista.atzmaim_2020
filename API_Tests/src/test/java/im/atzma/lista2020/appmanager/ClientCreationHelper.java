@@ -49,7 +49,7 @@ public class ClientCreationHelper {
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 header("X-Requested-With","XMLHttpRequest").
                 when().
-                get("/clients?limit=20&offset=0").then().extract().response();
+                get("/clients?limit=20&offset=0").then().log().all().extract().response();
         ResponseBody body = response.getBody();
         responseString = response.asString();   //convert response (RAW) to String
 

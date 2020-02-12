@@ -35,7 +35,7 @@ public class ServiceCreationHelper {
                 formParam("added", "2020-01-26 21:39:41").
                 when().
                 post("/catalog/services").
-                then().
+                then().log().all().
                 assertThat().
                 statusCode(201).and().contentType("text/html; charset=UTF-8");
         getServiceList();
@@ -47,7 +47,7 @@ public class ServiceCreationHelper {
                 //  header("content-type", "application/json; charset=utf-8").
                         header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                         when().
-                        get("/catalog/services/").then().extract().response();
+                        get("/catalog/services/").then().log().all().extract().response();
         responseString = response.asString();
         if (!responseString.equals("[]")) {
 
@@ -75,7 +75,7 @@ public class ServiceCreationHelper {
                 header("X-Requested-With","XMLHttpRequest").
                 when().
                 delete("/catalog/services/" + service_id).
-                then().
+                then().log().all().
                 assertThat().statusCode(204);
         getServiceList();
     }

@@ -43,7 +43,7 @@ public class AppointmentHelper {
 
                 when().
                 post("/calendar").
-                then().
+                then().log().all().
                 assertThat().
                 statusCode(201).and().contentType("text/html; charset=UTF-8");
         getAppointmentList();
@@ -55,7 +55,9 @@ public class AppointmentHelper {
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 header("X-Requested-With","XMLHttpRequest").
                 when().
-                get("/calendar?start=2020-02-10T00:00:00&end=2020-02-12T23:59:59&worker_id=1").then().extract().response();
+                get("/calendar?start=2020-02-10T00:00:00&end=2020-02-12T23:59:59&worker_id=1").
+                then().log().all().
+                extract().response();
 
         responseString = response.asString();   //convert response (RAW) to String
 
@@ -80,7 +82,7 @@ public class AppointmentHelper {
                 header("X-Requested-With","XMLHttpRequest").
                 when().
                 delete("/calendar/" + appointment_id).
-                then().
+                then().log().all().
                 assertThat().statusCode(204);
         getAppointmentList();
     }

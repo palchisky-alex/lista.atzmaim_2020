@@ -11,7 +11,7 @@ public class AppointmentCreationTests extends TestBase{
 //        app.serviceCreationHelper().createService();
 //        app.clientCreationHelper().createClient();
 //        app.clientCreationHelper().getClientList();
-       // app.appointmentHelper().createAppointment();
+        app.appointmentHelper().createAppointment();
         app.appointmentHelper().deleteAppointment();
     }
 }
