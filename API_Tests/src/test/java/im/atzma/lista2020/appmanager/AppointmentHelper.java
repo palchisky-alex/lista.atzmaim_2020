@@ -26,7 +26,7 @@ public class AppointmentHelper {
 
     public void createAppointment() {
         getAppointmentList();
-        given().cookies(key, value).
+        given().cookies(key, value).log().all().
                 header("content-type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 header("X-Requested-With","XMLHttpRequest").
@@ -40,23 +40,22 @@ public class AppointmentHelper {
                 formParam("is_reminders_set", "false").
                 formParam("address", "null").
                 formParam("added", "2020-02-10T09:00:00").
-
                 when().
                 post("/calendar").
-                then().log().all().
+                then().
                 assertThat().
                 statusCode(201).and().contentType("text/html; charset=UTF-8");
         getAppointmentList();
     }
 
     public void getAppointmentList() {
-        response = given().cookies(key, value).
+        response = given().cookies(key, value).log().all().
                 header("content-type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 header("X-Requested-With","XMLHttpRequest").
                 when().
                 get("/calendar?start=2020-02-10T00:00:00&end=2020-02-12T23:59:59&worker_id=1").
-                then().log().all().
+                then().
                 extract().response();
 
         responseString = response.asString();   //convert response (RAW) to String
@@ -72,17 +71,18 @@ public class AppointmentHelper {
         else {
             System.out.println("appointment id: " + " = null");
         }
+
     }
 
     public void deleteAppointment() {
         getAppointmentList();
-        given().cookies(key, value).
+        given().cookies(key, value).log().all().
                 header("content-type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 header("X-Requested-With","XMLHttpRequest").
                 when().
                 delete("/calendar/" + appointment_id).
-                then().log().all().
+                then().
                 assertThat().statusCode(204);
         getAppointmentList();
     }

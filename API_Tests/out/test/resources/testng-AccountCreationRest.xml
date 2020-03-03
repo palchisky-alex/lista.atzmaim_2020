@@ -8,11 +8,11 @@
                     <!--<include name="creatNewService"/>-->
                 <!--</methods>-->
             <!--</class>-->
-            <!--<class name="im.atzma.lista2020.tests.ClientCreationTests">-->
-                <!--<methods>-->
-                    <!--<include name="createClient"/>-->
-                <!--</methods>-->
-            <!--</class>-->
+            <class name="im.atzma.lista2020.tests.ClientCreationTests">
+                <methods>
+                    <include name="createClient"/>
+                </methods>
+            </class>
             <class name="im.atzma.lista2020.tests.AppointmentCreationTests">
                 <methods>
                     <include name="createAppointment"/>

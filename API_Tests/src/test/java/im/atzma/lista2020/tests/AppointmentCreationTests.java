@@ -1,5 +1,6 @@
 package im.atzma.lista2020.tests;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
@@ -12,6 +13,6 @@ public class AppointmentCreationTests extends TestBase{
 //        app.clientCreationHelper().createClient();
 //        app.clientCreationHelper().getClientList();
         app.appointmentHelper().createAppointment();
-        app.appointmentHelper().deleteAppointment();
+//        app.appointmentHelper().deleteAppointment();
     }
 }
