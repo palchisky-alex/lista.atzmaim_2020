@@ -38,3 +38,16 @@ task testCreateAccountRest(type: Test) {
     }
 }
 
+task testCreateClientRest(type: Test) {
+    useTestNG() {
+        suites './src/test/java/im/atzma/lista/tests/testng-ClientCreationRest.xml'
+    }
+    if (project.hasProperty('browser')) {
+        systemProperty 'browser', "${browser}"
+    }
+
+    if (project.hasProperty('target')) {
+        systemProperty 'target', "${target}"
+    }
+}
+
