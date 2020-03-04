@@ -40,7 +40,7 @@ task testCreateAccountRest(type: Test) {
 
 task testCreateClientRest(type: Test) {
     useTestNG() {
-        suites '.lista.atzmaim_2020/API_Tests/src/test/resources/testng-ClientCreationRest.xml' 
+        suites './lista.atzmaim_2020/API_Tests/src/test/resources/testng-ClientCreationRest.xml' 
     }
     if (project.hasProperty('browser')) {
         systemProperty 'browser', "${browser}"
