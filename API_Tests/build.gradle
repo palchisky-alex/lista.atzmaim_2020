@@ -38,9 +38,9 @@ task testCreateAccountRest(type: Test) {
     }
 }
 
-task testCreateClientRest(type: Test) { 
+task testCreateClientRest(type: Test) {
     useTestNG() {
-        suites './src/test/resources/testng-ClientCreationRest.xml'
+        suites '.API_Tests/src/test/resources/testng-ClientCreationRest.xml'
     }
     if (project.hasProperty('browser')) {
         systemProperty 'browser', "${browser}"
