@@ -8,13 +8,13 @@ public class ClientCreationTests extends TestBase {
 
     @Test
     public void createClient() throws IOException {
-        for (int i = 0; i < 10000; i++) {
+        for (int i = 0; i < 100; i++) {
 
             app.clientCreationHelper().createClient();
         }
        // app.clientCreationHelper().getClientList();
        // app.clientCreationHelper().deleteClient();
 
-      // app.clientCreationHelper().beforeCreation();
+       app.clientCreationHelper().beforeCreation();
     }
 }
