@@ -24,14 +24,18 @@ public class ApplicationRestManager {
     ServiceCreationHelper serviceCreationHelper;
     ClientCreationHelper clientCreationHelper;
     AppointmentHelper appointmentHelper;
+    RestRequests restRequests;
     public void init()  {
         CookieManager cookieManager = new CookieManager();
         Map<String, String> firstCookie = cookieManager.createLoginCookie();
 
         firstCookie.forEach((k,v)->System.out.println("Key : " + k + " Value : " + v));
+        restRequests = new RestRequests(firstCookie);
         serviceCreationHelper = new ServiceCreationHelper(firstCookie);
         clientCreationHelper = new ClientCreationHelper(firstCookie);
+        clientCreationHelper.deleteRest();
         appointmentHelper = new AppointmentHelper(firstCookie);
+
 
 //        accountCreationHelper = new AccountCreationHelper();
 
@@ -54,5 +58,6 @@ public class ApplicationRestManager {
     }
     public ClientCreationHelper clientCreationHelper() { return  clientCreationHelper; }
     public  AppointmentHelper appointmentHelper() { return  appointmentHelper; }
+    public RestRequests restRequests() {return  restRequests; }
 
 }

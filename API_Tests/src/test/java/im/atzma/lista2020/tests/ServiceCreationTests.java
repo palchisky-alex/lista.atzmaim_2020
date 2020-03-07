@@ -7,7 +7,7 @@ public class ServiceCreationTests extends TestBase {
     @Test
     public void creatNewService() {
         //app.serviceCreationHelper().getServiceList();
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 10; i++) {
             app.serviceCreationHelper().createService();
         }
 //        app.serviceCreationHelper().deleteService();

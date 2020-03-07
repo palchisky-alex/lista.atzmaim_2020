@@ -4,6 +4,7 @@ package im.atzma.lista2020.appmanager;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.response.ResponseBody;
+import io.restassured.response.ValidatableResponse;
 
 import java.io.IOException;
 import java.lang.reflect.Array;
@@ -17,7 +18,7 @@ public class ClientCreationHelper {
     int count;
     String key;
     String value;
-    ArrayList<Integer> IDs_list = new ArrayList<>();
+   // ArrayList<Integer> IDs_list = new ArrayList<>();
     Response response_get;
     Response response_post;
     String responseString;
@@ -69,7 +70,7 @@ public class ClientCreationHelper {
             for (int i = 0; i < count; i++) {
                 int id = Integer.parseInt(jp.get("id[" + i + "]").toString());
                 System.out.println(id);
-                IDs_list.add(id);
+//                IDs_list.add(id);
 
 //                System.out.println("== Client # " + i + " ==");
 //                System.out.println("ID: " + jp.get("id[" + i + "]").toString());   //get IDs from JSON
@@ -89,56 +90,35 @@ public class ClientCreationHelper {
 
     }
 
-    public void deleteClient() throws IOException {
-        count = IDs_list.size();
-        for (int q = 0; q < IDs_list.size(); q++) {
-            System.out.println("IDs list: " + IDs_list.get(q));
-            int id = IDs_list.get(q);
-            if (IDs_list.size() > 0) {
-                response_get = given().cookies(key, value).
-                        header("content-type", "application/x-www-form-urlencoded").
-                        header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
-                        when().
-                        delete("/clients/" + id);
-                count = count - 1;
-                System.out.println("STATUS DELETE CODE: " + response_get.getStatusCode());
-                System.out.println("Number of client: " + count);
-            }
-            else {
-                responseString.equals("[]");
-                System.out.println("Clients not exists");
-            }
+//    public void deleteClient() throws IOException {
+//        count = IDs_list.size();
+//        for (int q = 0; q < IDs_list.size(); q++) {
+//            System.out.println("IDs list: " + IDs_list.get(q));
+//            int id = IDs_list.get(q);
+//            if (IDs_list.size() > 0) {
+//                response_get = given().cookies(key, value).
+//                        header("content-type", "application/x-www-form-urlencoded").
+//                        header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
+//                        when().
+//                        delete("/clients/" + id);
+//                count = count - 1;
+//                System.out.println("STATUS DELETE CODE: " + response_get.getStatusCode());
+//                System.out.println("Number of client: " + count);
+//            } else {
+//                responseString.equals("[]");
+//                System.out.println("Clients not exists");
+//            }
+//
+//        }
+//        //  body("name[0]",equalTo("novii client"));
+//
+//    }
 
+    public ArrayList<Integer> deleteRest() {
+        if (RestRequests.count().size() > 0) {
+            RestRequests.removeRest(RestRequests.IDs_list);
         }
-        //  body("name[0]",equalTo("novii client"));
-
-    }
-
-    public void beforeCreation() throws IOException {
-        response_get = given().cookies(key, value).
-                header("content-type", "application/x-www-form-urlencoded").
-                header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
-                header("X-Requested-With", "XMLHttpRequest").
-                when().
-                get("/clients?limit=100000&offset=0").then().extract().response();
-
-        responseString = response_get.asString();   //convert response (RAW) to String
-
-        JsonPath jp = new JsonPath(responseString);    //convert response String to JSON
-        int IDs = jp.get("array.size()");
-
-        for (int i = 0; i < IDs; i++) {
-            int id = Integer.parseInt(jp.get("id[" + i + "]").toString());
-            IDs_list.add(id);
-
-        }
-        if (IDs != 0) {
-            deleteClient();
-        } else {
-            responseString.equals("[]");
-            System.out.println("Clients not exists");
-        }
-
+        return RestRequests.count();
 
     }
 }
