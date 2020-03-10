@@ -77,7 +77,7 @@ public class NavigationHelper extends HelperBase {
                 fillText(input_email,   userName + randomLong + "@gmail.com");
                 break;
             case "katalon":
-                fillText(input_email,  "katalon15@gmail.com");
+                fillText(input_email,  "katalon13@gmail.com");
                 break;
         }
 

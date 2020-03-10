@@ -16,8 +16,8 @@ public class AppointmentHelper extends HelperBase {
         super(driver);
     }
 
-//    @FindBy(css="tr:nth-child(8) > .fc-widget-content:nth-child(2)")
-//    WebElement time_15;
+    @FindBy(css="tr[data-time='15:00:00']>td:nth-child(1)")
+    WebElement time_15;
 
     @FindBy(css = "tr[data-time] > :first-child")
     List<WebElement> all_time_slots;
@@ -40,13 +40,13 @@ public class AppointmentHelper extends HelperBase {
     @FindBy(xpath = "//div[text()='Temp services_katalon']")
     WebElement temp_service;
 
-    @FindBy(xpath = "//input[@placeholder=\"חפש טיפול או הכנס חדש\"]")
+    @FindBy(xpath = "//input[@placeholder='חפש טיפול או הכנס חדש']")
     WebElement input_findService;
 
     @FindBy(xpath = "//span[text()='הבא']/..")
     WebElement btn_next;
 
-    @FindBy(xpath = "//span[text()='שמור']/..")
+    @FindBy(xpath = "//img[@src='/public/creating-appointment/save-white.svg']")
     WebElement btn_save;
 
     @FindBy(xpath = "//p[@class='event-start']")
@@ -120,7 +120,7 @@ public class AppointmentHelper extends HelperBase {
     WebElement btn_add_newCategory;
     @FindBy(xpath = "//span[text()='הוסף טיפול']/..")
     WebElement btn_add_Service;
-    @FindBy(xpath = "//img[@src='/public/creating-appointment/plus-square-white.svg']")
+    @FindBy(css = ".add-button.add-rtl")
     WebElement icon_plus_addSerice;
     @FindBy(xpath = "//img[@class='search-inner__img--close']")
     WebElement btn_delete_search_result;
@@ -175,12 +175,15 @@ public class AppointmentHelper extends HelperBase {
 
     public void addServiceCategory(String service, String notExistCategory) throws InterruptedException {
         click(input_findService);
-        waitForElement(service_area);
+        waitForElement(input_findService);
+        fillText(input_findService, " ");
+        click(input_findService);
         fillText(input_findService, service);
         waitForElement(btn_add_Service);
         click(btn_add_Service);
-
+        waitForElement(inputBox_placeholder);
         fillText(inputBox_placeholder, notExistCategory);
+        waitForElement(btn_add_newCategory);
         click(btn_add_newCategory);
 
         waitForElement(btn_add_Service);
@@ -244,11 +247,7 @@ public class AppointmentHelper extends HelperBase {
 
     public void chooseAppointmentHour() throws InterruptedException {
       //  wait.until(ExpectedConditions.elementToBeClickable(time_15));
-       //click(time_15);
-        Thread.sleep(2000);
-//        clickJS(time_15);
-        driver.findElement(By.cssSelector("#calendar > div.fc-view-container > div > table > tbody > tr > td > div > div > div.fc-slats > table > tbody > tr:nth-child(8) > td:nth-child(2)")).click();
-
+        click(time_15);
     }
 
     public void clickOnExistsAppointment() throws InterruptedException {

@@ -3,7 +3,7 @@
 <suite name="suite_appointment_creation">
      <test verbose="1" preserve-order="true" name="testsClient">
         <classes>
-            <!--<class name="im.atzma.lista.tests.Login">-->
+            <!--<class name="im.atzma.lista2020.tests.Login">-->
                 <!--<methods>-->
                     <!--<include name="login"/>-->
                 <!--</methods>-->
@@ -22,7 +22,7 @@
                     <include name="testVerifyDefaultClientPage()"/>
                 </methods>
             </class>
-            <!--<class name="im.atzma.lista.tests.ServiceCreationTest">-->
+            <!--<class name="im.atzma.lista2020.tests.ServiceCreationTest">-->
                 <!--<methods>-->
                     <!--<include name="testVerifyDefaultElements"/>-->
                     <!--<include name="testVerifyDefaultServices30min"/>-->
@@ -48,7 +48,7 @@
             <class name="im.atzma.lista2020.tests.DeleteAppointmentTest">
                 <methods>
                     <include name="testAppointmentDeletion"/>
-                    <!--<include name="testServiceDeletion"/>-->
+                    <include name="testServiceDeletion"/>
                 </methods>
             </class>
             <class name="im.atzma.lista2020.tests.DeleteAccountTest">
