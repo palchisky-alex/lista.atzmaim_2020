@@ -33,7 +33,7 @@ public class ApplicationRestManager {
         restRequests = new RestRequests(firstCookie);
         serviceCreationHelper = new ServiceCreationHelper(firstCookie);
         clientCreationHelper = new ClientCreationHelper(firstCookie);
-        clientCreationHelper.deleteRest();
+      //  clientCreationHelper.deleteRest();
         appointmentHelper = new AppointmentHelper(firstCookie);
 
 
