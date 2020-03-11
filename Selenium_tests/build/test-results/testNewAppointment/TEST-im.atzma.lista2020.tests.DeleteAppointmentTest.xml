@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="im.atzma.lista2020.tests.DeleteAppointmentTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-03-11T21:24:54" hostname="DESKTOP-2TPN2B7" time="22.739">
+  <properties/>
+  <testcase name="testAppointmentDeletion" classname="im.atzma.lista2020.tests.DeleteAppointmentTest" time="17.969"/>
+  <testcase name="testServiceDeletion" classname="im.atzma.lista2020.tests.DeleteAppointmentTest" time="4.77"/>
+  <system-out><![CDATA[1
+email: random_
+password: Pa$$w@rd
+????? 30 ????
+????? 45 ????
+????? 60 ????
+]]></system-out>
+  <system-err><![CDATA[[1583961907.393][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583961907.495][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583961913.144][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583961913.302][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583961913.512][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583961913.617][SEVERE]: Timed out receiving message from renderer: 0.100
+[1583961913.718][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+</testsuite>

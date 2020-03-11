@@ -70,7 +70,7 @@ public class ClientListPage extends HelperBase {
         click(btn_deleteClient_confirm);
     }
 
-    public void initAddNewClient() throws InterruptedException {
+    public void initAddNewClient()  {
         click(btn_addClient);
     }
 
@@ -83,7 +83,7 @@ public class ClientListPage extends HelperBase {
 
 
     public   Set<ClientData> getClientId() {
-        Set<ClientData> client_group = new HashSet();
+        HashSet client_group = new HashSet();
         for (WebElement el : clients_in_List) {
 
             int id = Integer.parseInt(el.getAttribute("data-id"));

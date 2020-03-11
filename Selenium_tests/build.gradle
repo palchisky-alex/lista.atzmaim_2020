@@ -17,7 +17,7 @@ dependencies {
 
     task testMenu(type: Test) {
         useTestNG() {
-            suites './src/test/java/im/atzma/lista/tests/testng-Menu_Service.xml'
+            suites './src/test/resources/testng-Menu_Service.xml'
         }
         if (project.hasProperty('browser')) {
             systemProperty 'browser', "${browser}"
@@ -31,7 +31,7 @@ dependencies {
 
 task testNewAppointment(type: Test) {
     useTestNG() {
-        suites './src/test/java/im/atzma/lista/tests/testng-AppointmentCreation.xml'
+        suites './src/test/resources/testng-AppointmentCreation.xml'
     }
     if (project.hasProperty('browser')) {
         systemProperty 'browser', "${browser}"
@@ -44,7 +44,7 @@ task testNewAppointment(type: Test) {
 
 task testNewAppointmentModification(type: Test) {
     useTestNG() {
-        suites './src/test/java/im/atzma/lista/tests/testng-AppointmentModification.xml'
+        suites './src/test/resources/testng-AppointmentModification.xml'
     }
     if (project.hasProperty('browser')) {
         systemProperty 'browser', "${browser}"
@@ -57,7 +57,7 @@ task testNewAppointmentModification(type: Test) {
 
 task testClientCreationCount(type: Test) {
     useTestNG() {
-        suites './src/test/java/im/atzma/lista/tests/testng-ClientCreationCount.xml'
+        suites './src/test/resources/testng-ClientCreationCount.xml'
     }
     if (project.hasProperty('browser')) {
         systemProperty 'browser', "${browser}"
@@ -70,7 +70,7 @@ task testClientCreationCount(type: Test) {
 
 task testClientDeletionCount(type: Test) {
     useTestNG() {
-        suites './src/test/java/im/atzma/lista/tests/testng-ClientDeletionCount.xml'
+        suites './src/test/resources/testng-ClientDeletionCount.xml'
     }
     if (project.hasProperty('browser')) {
         systemProperty 'browser', "${browser}"
@@ -83,7 +83,7 @@ task testClientDeletionCount(type: Test) {
 
 task testClientCompareCount(type: Test) {
     useTestNG() {
-        suites './src/test/java/im/atzma/lista/tests/testng-ClientCompareCount.xml'
+        suites './src/test/resources/testng-ClientCompareCount.xml'
     }
     if (project.hasProperty('browser')) {
         systemProperty 'browser', "${browser}"
@@ -96,7 +96,7 @@ task testClientCompareCount(type: Test) {
 
 task testClientModificationCount(type: Test) {
     useTestNG() {
-        suites './src/test/java/im/atzma/lista/tests/testng-ClientModificationCount.xml'
+        suites './src/test/resources/testng-ClientModificationCount.xml'
     }
     if (project.hasProperty('browser')) {
         systemProperty 'browser', "${browser}"
@@ -106,4 +106,5 @@ task testClientModificationCount(type: Test) {
         systemProperty 'target', "${target}"
     }
 }
+
   

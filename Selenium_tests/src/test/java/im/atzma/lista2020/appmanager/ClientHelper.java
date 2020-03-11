@@ -247,7 +247,7 @@ public class ClientHelper extends HelperBase {
     }
 
     public List<ClientData> getClientList() {
-        List<ClientData> data = new ArrayList<ClientData>();
+        List<ClientData> data = new ArrayList<>();
 
         String name = text_clientName.getText();
         String phone = text_clientPhone.getText();
