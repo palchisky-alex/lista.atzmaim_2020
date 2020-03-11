@@ -58,6 +58,7 @@ public class RestRequests {
 
     public static void removeRest(ArrayList<Integer> IDs_list) {
         count = IDs_list.size();
+        System.out.println("List size: " + count);
         for (int q = 0; q < IDs_list.size(); q++) {
             System.out.println("IDs list: " + IDs_list.get(q));
             id = IDs_list.get(q);
