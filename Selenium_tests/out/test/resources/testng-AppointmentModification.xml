@@ -8,7 +8,7 @@
                     <!--<include name="login"/>-->
                 <!--</methods>-->
             <!--</class>-->
-            <class name="im.atzma.lista.tests.SingupTest">
+            <class name="im.atzma.lista2020.tests.SingupTest">
                 <methods>
                     <include name="testVerifySignupPageElements"/>
                     <include name="testPasswordVisibleIcons"/>
@@ -23,19 +23,19 @@
                 </methods>
             </class>
 
-            <class name="im.atzma.lista.tests.ClientCreationTest">
+            <class name="im.atzma.lista2020.tests.ClientCreationTest">
                 <methods>
                     <include name="initNewClientCreation"/>
                     <include name="verifyClientForm"/>
                     <include name="fillClientForm"/>
                 </methods>
             </class>
-            <class name="im.atzma.lista.tests.CreateAppointmentTest">
+            <class name="im.atzma.lista2020.tests.CreateAppointmentTest">
                 <methods>
                     <include name="testAppointmentCreation"/>
                 </methods>
             </class>
-            <class name="im.atzma.lista.tests.ModifyAppointmentTest">
+            <class name="im.atzma.lista2020.tests.ModifyAppointmentTest">
                 <methods>
                     <include name="createSecondTempClient"/>
                     <include name="modifyAppointment"/>
@@ -43,7 +43,7 @@
                     <include name="verifyModifiedAppointmentForm"/>
                 </methods>
             </class>
-            <class name="im.atzma.lista.tests.DeleteAccountTest">
+            <class name="im.atzma.lista2020.tests.DeleteAccountTest">
                 <methods>
                     <include name="testDeleteAccount"/>
                     <include name="testDeleteAccountVerification"/>

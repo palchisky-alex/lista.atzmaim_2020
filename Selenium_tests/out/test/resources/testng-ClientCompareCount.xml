@@ -3,12 +3,12 @@
 <suite name="suite_Menu">
     <test verbose="1" preserve-order="true" name="test count after client creation">
         <classes>
-            <class name="im.atzma.lista.tests.Login">
+            <class name="im.atzma.lista2020.tests.Login">
                 <methods>
                     <include name="login"/>
                 </methods>
             </class>
-            <class name="im.atzma.lista.tests.ClientCompareTest">
+            <class name="im.atzma.lista2020.tests.ClientCompareTest">
                 <methods>
                     <include name="testCreateClientCount_1"/>
                     <include name="testCreateClientCount_2"/>

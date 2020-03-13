@@ -1,40 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="im.atzma.lista2020.tests.SingupTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-03-11T21:23:32" hostname="DESKTOP-2TPN2B7" time="38.675">
+<testsuite name="im.atzma.lista2020.tests.SingupTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-03-12T18:30:42" hostname="DESKTOP-2TPN2B7" time="34.216">
   <properties/>
-  <testcase name="testVerifySignupPageElements" classname="im.atzma.lista2020.tests.SingupTest" time="5.521"/>
-  <testcase name="testPasswordVisibleIcons" classname="im.atzma.lista2020.tests.SingupTest" time="6.016"/>
-  <testcase name="testVerifyBusinessTypePageElements" classname="im.atzma.lista2020.tests.SingupTest" time="1.73"/>
-  <testcase name="testMarkBussnessType_atzmaimButtonChecked" classname="im.atzma.lista2020.tests.SingupTest" time="1.76"/>
-  <testcase name="testVerifyAllSetPageElements" classname="im.atzma.lista2020.tests.SingupTest" time="1.421"/>
-  <testcase name="testVerifyAllTestPageCheckboxes" classname="im.atzma.lista2020.tests.SingupTest" time="3.048"/>
-  <testcase name="testCreateNewAccount_submit" classname="im.atzma.lista2020.tests.SingupTest" time="4.854"/>
-  <testcase name="testLogOut" classname="im.atzma.lista2020.tests.SingupTest" time="3.812"/>
-  <testcase name="testVerifyLoginWithNewUser" classname="im.atzma.lista2020.tests.SingupTest" time="7.953"/>
-  <testcase name="testVerifyDefaultClientPage" classname="im.atzma.lista2020.tests.SingupTest" time="2.551"/>
+  <testcase name="testVerifySignupPageElements" classname="im.atzma.lista2020.tests.SingupTest" time="7.205"/>
+  <testcase name="testPasswordVisibleIcons" classname="im.atzma.lista2020.tests.SingupTest" time="3.724"/>
+  <testcase name="testVerifyBusinessTypePageElements" classname="im.atzma.lista2020.tests.SingupTest" time="1.07"/>
+  <testcase name="testMarkBussnessType_atzmaimButtonChecked" classname="im.atzma.lista2020.tests.SingupTest" time="1.292"/>
+  <testcase name="testVerifyAllSetPageElements" classname="im.atzma.lista2020.tests.SingupTest" time="0.969"/>
+  <testcase name="testVerifyAllTestPageCheckboxes" classname="im.atzma.lista2020.tests.SingupTest" time="2.195"/>
+  <testcase name="testCreateNewAccount_submit" classname="im.atzma.lista2020.tests.SingupTest" time="5.581"/>
+  <testcase name="testLogOut" classname="im.atzma.lista2020.tests.SingupTest" time="3.662"/>
+  <testcase name="testVerifyLoginWithNewUser" classname="im.atzma.lista2020.tests.SingupTest" time="6.72"/>
+  <testcase name="testVerifyDefaultClientPage" classname="im.atzma.lista2020.tests.SingupTest" time="1.784"/>
   <system-out><![CDATA[email: random_
 password: Pa$$w@rd
 email: random_
 password: Pa$$w@rd
-user name in menu: random_-5063416958720342067
+user name in menu: random_-5433477327932313146
 number of client: (0)
 ]]></system-out>
-  <system-err><![CDATA[[1583961812.873][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583961813.248][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583961814.786][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583961814.895][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583961815.000][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583961815.179][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583961815.542][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583961815.647][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583961835.851][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583961836.009][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583961836.114][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583961836.309][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583961839.792][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583961840.062][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583961847.224][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583961848.850][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583961849.041][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583961849.146][SEVERE]: Timed out receiving message from renderer: 0.100
+  <system-err><![CDATA[[1584037842.748][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037842.932][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037843.159][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037843.375][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037843.629][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037843.732][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037843.833][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037843.935][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037844.038][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037846.030][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037846.132][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037846.234][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037846.335][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037846.484][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037846.585][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037846.692][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037846.795][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037846.976][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037847.079][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037847.445][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037847.571][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037847.673][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037847.775][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037847.877][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037847.984][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037863.422][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037863.808][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037863.931][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037864.043][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037865.275][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037865.377][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037867.550][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037868.250][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037874.947][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037875.052][SEVERE]: Timed out receiving message from renderer: 0.100
 ]]></system-err>
 </testsuite>

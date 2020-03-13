@@ -46,7 +46,7 @@ public class AppointmentHelper extends HelperBase {
     @FindBy(xpath = "//span[text()='הבא']/..")
     WebElement btn_next;
 
-    @FindBy(xpath = "//img[@src='/public/creating-appointment/save-white.svg']")
+    @FindBy(xpath = "//img[@src='/public/creating-appointment/media/save-white.svg']")
     WebElement btn_save;
 
     @FindBy(xpath = "//p[@class='event-start']")

@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="im.atzma.lista2020.tests.CreateAppointmentTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-11T21:24:35" hostname="DESKTOP-2TPN2B7" time="18.911">
+<testsuite name="im.atzma.lista2020.tests.CreateAppointmentTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-12T18:31:39" hostname="DESKTOP-2TPN2B7" time="19.239">
   <properties/>
-  <testcase name="testAppointmentCreation" classname="im.atzma.lista2020.tests.CreateAppointmentTest" time="18.911"/>
+  <testcase name="testAppointmentCreation" classname="im.atzma.lista2020.tests.CreateAppointmentTest" time="19.239"/>
   <system-out><![CDATA[Button text 3 : ???? ?????
 Button text 4 : ???
 Button text 5 : 
 [15:00 - 15:30, Temp Client katalon, Temp services_katalon, 30 ????]
 ]]></system-out>
-  <system-err><![CDATA[[1583961876.816][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583961878.693][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583961891.612][SEVERE]: Timed out receiving message from renderer: 0.100
-[1583961891.965][SEVERE]: Timed out receiving message from renderer: 0.100
+  <system-err><![CDATA[[1584037900.900][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037902.648][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037902.749][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037902.850][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037902.975][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037903.076][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037903.177][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037903.279][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037903.381][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037903.483][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037903.585][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037903.686][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037903.788][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037915.317][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037915.615][SEVERE]: Timed out receiving message from renderer: 0.100
 ]]></system-err>
 </testsuite>

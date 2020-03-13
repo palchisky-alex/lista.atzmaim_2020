@@ -3,7 +3,7 @@
 <suite name="suite_Menu">
     <test verbose="1" preserve-order="true" name="test count after client deletion">
         <classes>
-            <class name="im.atzma.lista.tests.Login">
+            <class name="im.atzma.lista2020.tests.Login">
                 <methods>
                     <include name="login"/>
                 </methods>
@@ -19,7 +19,7 @@
                     <!--<include name="testCreateNewAccount_submit"/>-->
                 <!--</methods>-->
             <!--</class>-->
-            <class name="im.atzma.lista.tests.ClientDeletionTest">
+            <class name="im.atzma.lista2020.tests.ClientDeletionTest">
                 <methods>
                     <!--<include name="testCreateClientCount_1"/>-->
                     <!--<include name="testCreateClientCount_2"/>-->

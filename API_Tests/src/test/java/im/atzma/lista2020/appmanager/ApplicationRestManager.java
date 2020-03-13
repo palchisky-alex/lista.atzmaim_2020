@@ -8,6 +8,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
@@ -25,7 +26,9 @@ public class ApplicationRestManager {
     ClientCreationHelper clientCreationHelper;
     AppointmentHelper appointmentHelper;
     RestRequests restRequests;
-    public void init()  {
+    Properties properties = new Properties();
+
+    public void init() throws IOException {
         CookieManager cookieManager = new CookieManager();
         Map<String, String> firstCookie = cookieManager.createLoginCookie();
 
@@ -33,11 +36,10 @@ public class ApplicationRestManager {
         restRequests = new RestRequests(firstCookie);
         serviceCreationHelper = new ServiceCreationHelper(firstCookie);
         clientCreationHelper = new ClientCreationHelper(firstCookie);
-      //  clientCreationHelper.deleteRest();
         appointmentHelper = new AppointmentHelper(firstCookie);
 
-
-//        accountCreationHelper = new AccountCreationHelper();
+        String target = System.getProperty("target", "local");
+        properties.load(new FileReader(new File(String.format("src/test/resources/%s.properties", target))));
 
 
     }

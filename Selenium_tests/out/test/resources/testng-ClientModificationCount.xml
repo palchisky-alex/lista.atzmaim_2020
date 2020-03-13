@@ -8,7 +8,7 @@
                     <!--<include name="login"/>-->
                 <!--</methods>-->
             <!--</class>-->
-            <class name="im.atzma.lista.tests.SingupTest">
+            <class name="im.atzma.lista2020.tests.SingupTest">
                 <methods>
                     <include name="testVerifySignupPageElements"/>
                     <include name="testPasswordVisibleIcons"/>

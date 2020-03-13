@@ -3,26 +3,37 @@ package im.atzma.lista2020.appmanager;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 
-public class RestRequests {
+public class RestRequests extends HelperBase {
     static int count;
     static int id;
     static String key;
     static String value;
+    public String requests;
     static ArrayList<Integer> IDs_list = new ArrayList<>();
     static Response response_get;
     Response response_post;
     static String responseString;
 
-    public RestRequests(Map<String, String> firstCookie) {
+    public RestRequests(Map<String, String> firstCookie) throws IOException {
         for (Map.Entry<String, String> entry : firstCookie.entrySet()) {
             key = entry.getKey();
             value = entry.getValue();
         }
+
+    }
+
+
+
+    public static ArrayList<Integer> deleteRest() {
+        count();
+        removeRest(IDs_list);
+        return RestRequests.count();
     }
 
     public static ArrayList<Integer> count() {
@@ -42,27 +53,26 @@ public class RestRequests {
         for (int i = 0; i < IDs; i++) {
             int id = Integer.parseInt(jp.get("id[" + i + "]").toString());
             IDs_list.add(id);
-
-            System.out.println("== Client # " + i + " ==");
-            System.out.println("ID: " + jp.get("id[" + i + "]").toString());   //get IDs from JSON
-            System.out.println("NAME: " + jp.get("name[" + i + "]").toString());
-            System.out.println("Profile_image: " + jp.get("profile_image[" + i + "]").toString());
-            System.out.println("NAME: " + jp.get("name[" + i + "]").toString());
-            System.out.println("ADDRESS: " + jp.get("name[" + i + "]").toString());
-            System.out.println("STATUS: " + jp.get("status[" + i + "]").toString());
-            System.out.println("STATUS GET CODE: " + response_get.getStatusCode());
-            System.out.println("========================");
+//            System.out.println("== Item # " + i + " ==");
+//            System.out.println("ID: " + jp.get("id[" + i + "]").toString());   //get IDs from JSON
+//            System.out.println("Profile_image: " + jp.get("profile_image[" + i + "]").toString());
+//            System.out.println("NAME: " + jp.get("name[" + i + "]").toString());
+//            System.out.println("ADDRESS: " + jp.get("address[" + i + "]").toString());
+//            System.out.println("STATUS: " + jp.get("status[" + i + "]").toString());
+//            System.out.println("STATUS GET CODE: " + response_get.getStatusCode());
+//            System.out.println("========================");
         }
         return IDs_list;
     }
 
     public static void removeRest(ArrayList<Integer> IDs_list) {
+        response_get.getBody().print();
+
         count = IDs_list.size();
         System.out.println("List size: " + count);
         for (int q = 0; q < IDs_list.size(); q++) {
             System.out.println("IDs list: " + IDs_list.get(q));
             id = IDs_list.get(q);
-
             response_get = given().cookies(key, value).
                     header("content-type", "application/x-www-form-urlencoded").
                     header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").

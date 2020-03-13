@@ -37,6 +37,7 @@ public class HelperBase {
         } else if (key.equals("web.newClientFormURL")) { return properties.getProperty("web.newClientFormURL");
         } else if (key.equals("web.adminLogin")) { return properties.getProperty("web.adminLogin");
         } else if (key.equals("web.adminPassword")) { return properties.getProperty("web.adminPassword");
+        } else if (key.equals("get.clients")) { return properties.getProperty("get.clients");
         } else if (key.equals("web.settings")) { return properties.getProperty("web.settings");
         }
 
