@@ -28,7 +28,7 @@ public class ApplicationRestManager {
     RestRequests restRequests;
     Properties properties = new Properties();
 
-    public void init() throws IOException {
+    public void init() throws IOException, InterruptedException {
         CookieManager cookieManager = new CookieManager();
         Map<String, String> firstCookie = cookieManager.createLoginCookie();
 
@@ -37,9 +37,9 @@ public class ApplicationRestManager {
         serviceCreationHelper = new ServiceCreationHelper(firstCookie);
         clientCreationHelper = new ClientCreationHelper(firstCookie);
         appointmentHelper = new AppointmentHelper(firstCookie);
+        restRequests.cleaner();
 
-        String target = System.getProperty("target", "local");
-        properties.load(new FileReader(new File(String.format("src/test/resources/%s.properties", target))));
+
 
 
     }

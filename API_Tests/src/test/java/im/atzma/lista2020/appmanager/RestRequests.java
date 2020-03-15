@@ -2,10 +2,15 @@ package im.atzma.lista2020.appmanager;
 
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
+import org.apache.commons.lang3.StringUtils;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Map;
+import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import static io.restassured.RestAssured.given;
 
@@ -16,34 +21,110 @@ public class RestRequests extends HelperBase {
     static String value;
     public String requests;
     static ArrayList<Integer> IDs_list = new ArrayList<>();
+    static List<String> get_list = new ArrayList<>();
+    static List<String> delete_list = new ArrayList<>();
+    public List<String> properties_list = new ArrayList<>();
+//    static String req_get = null;
+//    static String req_delete = null;
     static Response response_get;
     Response response_post;
     static String responseString;
+    Properties properties = new Properties();
 
     public RestRequests(Map<String, String> firstCookie) throws IOException {
         for (Map.Entry<String, String> entry : firstCookie.entrySet()) {
             key = entry.getKey();
             value = entry.getValue();
         }
+    }
+
+    public void cleaner() throws IOException, InterruptedException {
+        Map<String, ArrayList<Integer>> r = new HashMap<>();
+
+        properties_list.clear();
+        String target = System.getProperty("target", "local");
+        properties.load(new FileReader(new File(String.format("src/test/resources/rest.properties", target))));
+
+        properties_list.add(properties.getProperty("get.clients"));
+        properties_list.add(properties.getProperty("delete.clients"));
+
+        properties_list.add(properties.getProperty("get.services"));
+        properties_list.add(properties.getProperty("delete.services"));
+
+
+        for (int q = 0; q < properties_list.size(); q++) {
+            Matcher m = Pattern.compile("^(\\w+)-(\\w+)-(.*)$").matcher(properties_list.get(q));
+            String method = m.group(0);
+            String api = m.group(1);
+            String url = m.group(2);
+            String rex = properties_list.get(q);
+
+            System.out.print("api: " + api);
+            System.out.print("url: " + url);
+            System.out.print("method: " + method);
+
+            if (rex.contains("get-")) {
+//                get_list.add( rex.replace("get-", ""));
+                r.put(api, count(url));
+                Thread.sleep(10000);
+
+                // System.out.println("== Send request: " + req_get + " ==");
+            } else if (rex.contains("delete-")) {
+//                delete_list.add( rex.replace("delete-", ""));
+                // System.out.println("== Send request: " + req_delete + " ==");
+                removeRest(r.get(api), url);
+            }
+        }
+        r.forEach((k, v) -> System.out.println("get IDs array : " + k + " Value : " + StringUtils.join(',', v)));
 
     }
 
+    public void loadProperties() throws IOException {
+        properties_list.clear();
+        String target = System.getProperty("target", "local");
+        properties.load(new FileReader(new File(String.format("src/test/resources/rest.properties", target))));
 
+        properties_list.add(properties.getProperty("get.clients"));
+        properties_list.add(properties.getProperty("delete.clients"));
 
-    public static ArrayList<Integer> deleteRest() {
-        count();
-        removeRest(IDs_list);
-        return RestRequests.count();
+        properties_list.add(properties.getProperty("get.services"));
+        properties_list.add(properties.getProperty("delete.services"));
+
+        for (int q = 0; q < properties_list.size(); q++) {
+            String rex = properties_list.get(q);
+            if (rex.contains("get-")) {
+                get_list.add( rex.replace("get-", ""));
+                // System.out.println("== Send request: " + req_get + " ==");
+            } else if (rex.contains("delete-")) {
+                delete_list.add( rex.replace("delete-", ""));
+                // System.out.println("== Send request: " + req_delete + " ==");
+            }
+        }
+        for (int i = 0; i < delete_list.size(); i++) {
+            System.out.println(delete_list.get(i));
+
+        }
+
     }
 
-    public static ArrayList<Integer> count() {
+    static void deleteRest() throws IOException {
+
+       //count();
+        //removeRest(IDs_list);
+
+    }
+
+    public static ArrayList<Integer> count(String req_get) {
+        for (int i = 0; i < get_list.size(); i++) {
+            System.out.println(get_list.get(i));
+        }
 
         response_get = given().cookies(key, value).
                 header("content-type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 header("X-Requested-With", "XMLHttpRequest").
                 when().
-                get("/clients?limit=100000&offset=0").then().assertThat().statusCode(200).extract().response();
+                get(req_get).then().assertThat().statusCode(200).extract().response();
 
         responseString = response_get.asString();   //convert response (RAW) to String
 
@@ -53,36 +134,32 @@ public class RestRequests extends HelperBase {
         for (int i = 0; i < IDs; i++) {
             int id = Integer.parseInt(jp.get("id[" + i + "]").toString());
             IDs_list.add(id);
-//            System.out.println("== Item # " + i + " ==");
-//            System.out.println("ID: " + jp.get("id[" + i + "]").toString());   //get IDs from JSON
-//            System.out.println("Profile_image: " + jp.get("profile_image[" + i + "]").toString());
-//            System.out.println("NAME: " + jp.get("name[" + i + "]").toString());
-//            System.out.println("ADDRESS: " + jp.get("address[" + i + "]").toString());
-//            System.out.println("STATUS: " + jp.get("status[" + i + "]").toString());
-//            System.out.println("STATUS GET CODE: " + response_get.getStatusCode());
-//            System.out.println("========================");
         }
+
+
         return IDs_list;
+
     }
 
-    public static void removeRest(ArrayList<Integer> IDs_list) {
-        response_get.getBody().print();
-
+    public static void removeRest(ArrayList<Integer> IDs_list, String req_delete) {
         count = IDs_list.size();
-        System.out.println("List size: " + count);
+        System.out.println("== List items size for deletion: " + count + " ==");
+        System.out.print("== Items for deletion:");
+        response_get.getBody().print();
         for (int q = 0; q < IDs_list.size(); q++) {
-            System.out.println("IDs list: " + IDs_list.get(q));
+            System.out.println("== id for deletion: " + IDs_list.get(q) + " ==");
             id = IDs_list.get(q);
             response_get = given().cookies(key, value).
                     header("content-type", "application/x-www-form-urlencoded").
                     header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                     when().
-                    delete("/clients/" + id).then().assertThat().statusCode(204).extract().response();
+                    delete(req_delete + id).then().assertThat().statusCode(204).extract().response();
             count = count - 1;
             System.out.println("STATUS DELETE CODE: " + response_get.getStatusCode());
-            System.out.println("Number of items: " + count);
+            System.out.println("== Number of deleted item: " + count + " ==");
         }
         IDs_list.clear();
+
 
     }
 
