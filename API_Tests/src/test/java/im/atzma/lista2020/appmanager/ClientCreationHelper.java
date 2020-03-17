@@ -30,7 +30,7 @@ public class ClientCreationHelper {
         }
     }
 
-    public void createClient() {
+    public Integer createClient() {
         response_post = given().cookies(key, value).log().all().
                 //    header("content-type", "application/x-www-form-urlencoded").
                         header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
@@ -44,8 +44,17 @@ public class ClientCreationHelper {
                         formParam("gender", "male").
                         formParam("status", "status - before").
                         when().
-                        post("/clients");
+                        post("/clients").then().assertThat().statusCode(201).extract().response();
         System.out.println("STATUS POST CODE: " + response_post.getStatusCode());
+
+        responseString = response_post.asString();   //convert response (RAW) to String
+
+//        JsonPath jp = new JsonPath(responseString);    //convert response String to JSON
+//            int id = Integer.parseInt(jp.get("id[" + i + "]").toString());
+//            IDs_list.add(id);
+        System.out.println("NEW ID ====== " + responseString);
+//        { "client_id": 123 }
+        return Integer.parseInt(responseString);
 
     }
 

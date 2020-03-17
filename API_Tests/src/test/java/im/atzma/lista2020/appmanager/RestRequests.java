@@ -24,7 +24,7 @@ public class RestRequests extends HelperBase {
     static List<String> get_list = new ArrayList<>();
     static List<String> delete_list = new ArrayList<>();
     public List<String> properties_list = new ArrayList<>();
-//    static String req_get = null;
+    //    static String req_get = null;
 //    static String req_delete = null;
     static Response response_get;
     Response response_post;
@@ -53,71 +53,39 @@ public class RestRequests extends HelperBase {
 
 
         for (int q = 0; q < properties_list.size(); q++) {
-            Matcher m = Pattern.compile("^(\\w+)-(\\w+)-(.*)$").matcher(properties_list.get(q));
-            String method = m.group(0);
-            String api = m.group(1);
-            String url = m.group(2);
             String rex = properties_list.get(q);
+            Pattern p = Pattern.compile("^(\\w+)-(\\w+)-(.*)$");
+            Matcher m = p.matcher(rex);
 
-            System.out.print("api: " + api);
-            System.out.print("url: " + url);
-            System.out.print("method: " + method);
+            if (m.find()) {
+                String method = m.group(1);
+                String api = m.group(2);
+                String url = m.group(3);
 
-            if (rex.contains("get-")) {
-//                get_list.add( rex.replace("get-", ""));
-                r.put(api, count(url));
-                Thread.sleep(10000);
+                if (method.equals("get")) {
+//                    get_list.add();
+                    System.out.println("api: " + api);
+                    System.out.println("url: " + url);
+                    System.out.println("method: " + method);
+                    r.put(api, count(url));
+//                    Thread.sleep(10000);
 
-                // System.out.println("== Send request: " + req_get + " ==");
-            } else if (rex.contains("delete-")) {
+                    // System.out.println("== Send request: " + req_get + " ==");
+                } else if (method.equals("delete")) {
 //                delete_list.add( rex.replace("delete-", ""));
-                // System.out.println("== Send request: " + req_delete + " ==");
-                removeRest(r.get(api), url);
+                    // System.out.println("== Send request: " + req_delete + " ==");
+                    removeRest(r.get(api), url);
+
+                }
+
             }
         }
         r.forEach((k, v) -> System.out.println("get IDs array : " + k + " Value : " + StringUtils.join(',', v)));
 
     }
 
-    public void loadProperties() throws IOException {
-        properties_list.clear();
-        String target = System.getProperty("target", "local");
-        properties.load(new FileReader(new File(String.format("src/test/resources/rest.properties", target))));
-
-        properties_list.add(properties.getProperty("get.clients"));
-        properties_list.add(properties.getProperty("delete.clients"));
-
-        properties_list.add(properties.getProperty("get.services"));
-        properties_list.add(properties.getProperty("delete.services"));
-
-        for (int q = 0; q < properties_list.size(); q++) {
-            String rex = properties_list.get(q);
-            if (rex.contains("get-")) {
-                get_list.add( rex.replace("get-", ""));
-                // System.out.println("== Send request: " + req_get + " ==");
-            } else if (rex.contains("delete-")) {
-                delete_list.add( rex.replace("delete-", ""));
-                // System.out.println("== Send request: " + req_delete + " ==");
-            }
-        }
-        for (int i = 0; i < delete_list.size(); i++) {
-            System.out.println(delete_list.get(i));
-
-        }
-
-    }
-
-    static void deleteRest() throws IOException {
-
-       //count();
-        //removeRest(IDs_list);
-
-    }
 
     public static ArrayList<Integer> count(String req_get) {
-        for (int i = 0; i < get_list.size(); i++) {
-            System.out.println(get_list.get(i));
-        }
 
         response_get = given().cookies(key, value).
                 header("content-type", "application/x-www-form-urlencoded").
@@ -160,6 +128,42 @@ public class RestRequests extends HelperBase {
         }
         IDs_list.clear();
 
+
+    }
+
+
+    static void deleteRest() throws IOException {
+
+        //count();
+        //removeRest(IDs_list);
+
+    }
+
+    public void loadProperties() throws IOException {
+        properties_list.clear();
+        String target = System.getProperty("target", "local");
+        properties.load(new FileReader(new File(String.format("src/test/resources/rest.properties", target))));
+
+        properties_list.add(properties.getProperty("get.clients"));
+        properties_list.add(properties.getProperty("delete.clients"));
+
+        properties_list.add(properties.getProperty("get.services"));
+        properties_list.add(properties.getProperty("delete.services"));
+
+        for (int q = 0; q < properties_list.size(); q++) {
+            String rex = properties_list.get(q);
+            if (rex.contains("get-")) {
+                get_list.add(rex.replace("get-", ""));
+                // System.out.println("== Send request: " + req_get + " ==");
+            } else if (rex.contains("delete-")) {
+                delete_list.add(rex.replace("delete-", ""));
+                // System.out.println("== Send request: " + req_delete + " ==");
+            }
+        }
+        for (int i = 0; i < delete_list.size(); i++) {
+            System.out.println(delete_list.get(i));
+
+        }
 
     }
 

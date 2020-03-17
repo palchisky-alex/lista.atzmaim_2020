@@ -34,10 +34,11 @@ public class ApplicationRestManager {
 
         firstCookie.forEach((k,v)->System.out.println("Key : " + k + " Value : " + v));
         restRequests = new RestRequests(firstCookie);
+        restRequests.cleaner();
         serviceCreationHelper = new ServiceCreationHelper(firstCookie);
         clientCreationHelper = new ClientCreationHelper(firstCookie);
         appointmentHelper = new AppointmentHelper(firstCookie);
-        restRequests.cleaner();
+
 
 
 
