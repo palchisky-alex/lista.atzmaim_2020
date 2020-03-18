@@ -8,9 +8,8 @@ public class ServiceCreationTests extends TestBase {
 
     @Test
     public void creatNewService() {
-       // RestRequests.deleteRest();
-        app.serviceCreationHelper().createService();
-        //Assert.assertTrue(RestRequests.count().size() > 0);
+        int id = app.serviceCreationHelper().createService();
+        Assert.assertTrue(id > 0);
 
 //        app.serviceCreationHelper().deleteService();
     }

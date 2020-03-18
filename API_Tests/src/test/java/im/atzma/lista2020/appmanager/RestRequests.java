@@ -45,6 +45,9 @@ public class RestRequests extends HelperBase {
         String target = System.getProperty("target", "local");
         properties.load(new FileReader(new File(String.format("src/test/resources/rest.properties", target))));
 
+        properties_list.add(properties.getProperty("get.appointment"));
+        properties_list.add(properties.getProperty("delete.appointment"));
+
         properties_list.add(properties.getProperty("get.clients"));
         properties_list.add(properties.getProperty("delete.clients"));
 
@@ -80,7 +83,7 @@ public class RestRequests extends HelperBase {
 
             }
         }
-        r.forEach((k, v) -> System.out.println("get IDs array : " + k + " Value : " + StringUtils.join(',', v)));
+       // r.forEach((k, v) -> System.out.println("get IDs array : " + k + " Value : " + StringUtils.join(',', v)));
 
     }
 
@@ -113,7 +116,7 @@ public class RestRequests extends HelperBase {
         count = IDs_list.size();
         System.out.println("== List items size for deletion: " + count + " ==");
         System.out.print("== Items for deletion:");
-        response_get.getBody().print();
+        //response_get.getBody().print();
         for (int q = 0; q < IDs_list.size(); q++) {
             System.out.println("== id for deletion: " + IDs_list.get(q) + " ==");
             id = IDs_list.get(q);

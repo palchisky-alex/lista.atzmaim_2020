@@ -2,6 +2,7 @@ package im.atzma.lista2020.appmanager;
 
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
+
 import java.util.Map;
 
 import static io.restassured.RestAssured.given;
@@ -24,8 +25,8 @@ public class ServiceCreationHelper {
     }
 
 
-    public void createService() {
-        given().cookies(key, value).log().all().
+    public Integer createService() {
+        response_post = given().cookies(key, value).log().all().
                 header("content-type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 formParam("name", "TestService").
@@ -37,8 +38,12 @@ public class ServiceCreationHelper {
                 when().
                 post("/catalog/services").then().
                 assertThat().
-                statusCode(201).and().contentType("text/html; charset=UTF-8");
+                statusCode(201).extract().response();
 
+        responseString = response_post.asString();
+        System.out.println("NEW SERVICE ID ====== " + Integer.parseInt(responseString));
+
+        return Integer.parseInt(responseString);
     }
 
     public void getServiceList() {
@@ -56,7 +61,7 @@ public class ServiceCreationHelper {
 
             int count = jp.get("array.size()");
             for (int i = 0; i < count; i++) {
-                System.out.println(jp.get("id["+i+"]").toString());
+                System.out.println(jp.get("id[" + i + "]").toString());
             }
 
             System.out.println("service id = " + service_id);
@@ -71,7 +76,7 @@ public class ServiceCreationHelper {
         given().cookies(key, value).
                 header("content-type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
-                header("X-Requested-With","XMLHttpRequest").
+                header("X-Requested-With", "XMLHttpRequest").
                 when().
                 delete("/catalog/services/" + service_id).
                 then().log().all().

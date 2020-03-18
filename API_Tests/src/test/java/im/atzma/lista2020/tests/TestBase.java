@@ -3,10 +3,7 @@ package im.atzma.lista2020.tests;
 import im.atzma.lista2020.appmanager.ApplicationRestManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.*;
 
 import java.io.IOException;
 import java.lang.reflect.Method;
@@ -18,7 +15,7 @@ public class TestBase {
     protected static final ApplicationRestManager app = new ApplicationRestManager();
 
 
-    @BeforeSuite(alwaysRun = true)
+    @BeforeSuite (alwaysRun = true)
     public void setUp() throws Exception {
       app.init();
 
