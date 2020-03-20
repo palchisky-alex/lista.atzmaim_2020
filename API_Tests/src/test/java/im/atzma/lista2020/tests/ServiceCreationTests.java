@@ -13,8 +13,6 @@ public class ServiceCreationTests extends TestBase {
 
             id = app.serviceCreationHelper().createService();
         }
-
-        app.serviceCreationHelper().deleteService();
         Assert.assertTrue(id > 0);
     }
 
