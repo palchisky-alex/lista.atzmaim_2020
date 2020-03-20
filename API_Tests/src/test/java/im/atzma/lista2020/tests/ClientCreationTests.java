@@ -14,6 +14,6 @@ public class ClientCreationTests extends TestBase {
     public void createClient() throws IOException {
         int id = app.clientCreationHelper().createClient();
         System.out.println("ID of created client: " + id);
-          Assert.assertTrue(id > 0);
+        Assert.assertTrue(id > 0);
     }
 }

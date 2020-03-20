@@ -37,15 +37,15 @@ public class AppointmentHelper {
                 header("content-type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 header("X-Requested-With", "XMLHttpRequest").
-                formParam("start", currentTime+"T15:00:00").
+                formParam("start", currentTime+"T12:00:00").
                 formParam("client_id", client_id).
                 formParam("worker_id", 1).
                 formParam("total_price", 50).
-                formParam("duration", 30).
+                formParam("duration", 60).
                 formParam("services", "[{\"id\":\"" + service_id + "\",\"category\":{\"name\":\"Common\",\"id\":1},\"count\":1}]").
-                formParam("note", "null").
+                formParam("note", "call one hour before").
                 formParam("is_reminders_set", "false").
-                formParam("address", "null").
+                formParam("address", "Israel, Rokah 18, Ramat Gan").
                 formParam("added", "2020-03-19T10:30:00").
                 when().
                 post("/calendar").

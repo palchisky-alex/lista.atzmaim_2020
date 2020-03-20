@@ -30,7 +30,7 @@ public class ServiceCreationHelper {
                 header("content-type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 formParam("name", "TestService").
-                formParam("duration", 30).
+                formParam("duration", 60).
                 formParam("price", 50).
                 formParam("color", "#50e3c1").
                 formParam("category_id", 1).
