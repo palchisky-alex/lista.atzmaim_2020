@@ -9,7 +9,7 @@ public class ServiceCreationTests extends TestBase {
     @Test
     public void creatNewService() {
         int id = 0;
-        for (int i = 0; i <10 ; i++) {
+        for (int i = 0; i <1 ; i++) {
 
             id = app.serviceCreationHelper().createService();
         }
