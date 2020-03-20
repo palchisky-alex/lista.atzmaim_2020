@@ -15,16 +15,16 @@ public class TestBase {
     protected static final ApplicationRestManager app = new ApplicationRestManager();
 
 
-    @BeforeSuite (alwaysRun = true)
+    @BeforeMethod (alwaysRun = true)
     public void setUp() throws Exception {
       app.init();
 
 
     }
 
-    @AfterSuite(alwaysRun = true)
+  //  @AfterSuite(alwaysRun = true)
     public void tearDown() throws Exception {
-//        app.stop();
+        app.init();
     }
 
 //    @BeforeMethod()

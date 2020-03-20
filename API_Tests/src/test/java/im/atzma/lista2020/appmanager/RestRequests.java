@@ -71,7 +71,7 @@ public class RestRequests extends HelperBase {
                     System.out.println("url: " + url);
                     System.out.println("method: " + method);
                     r.put(api, count(url));
-//                    Thread.sleep(10000);
+
 
                     // System.out.println("== Send request: " + req_get + " ==");
                 } else if (method.equals("delete")) {
@@ -112,7 +112,7 @@ public class RestRequests extends HelperBase {
 
     }
 
-    public static void removeRest(ArrayList<Integer> IDs_list, String req_delete) {
+    public static void removeRest(ArrayList<Integer> IDs_list, String req_delete) throws InterruptedException {
         count = IDs_list.size();
         System.out.println("== List items size for deletion: " + count + " ==");
         System.out.print("== Items for deletion:");

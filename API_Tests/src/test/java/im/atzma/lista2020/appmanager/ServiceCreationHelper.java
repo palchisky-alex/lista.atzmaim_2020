@@ -26,7 +26,7 @@ public class ServiceCreationHelper {
 
 
     public Integer createService() {
-        response_post = given().cookies(key, value).log().all().
+        response_post = given().cookies(key, value).
                 header("content-type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 formParam("name", "TestService").
@@ -46,7 +46,7 @@ public class ServiceCreationHelper {
         return Integer.parseInt(responseString);
     }
 
-    public void getServiceList() {
+    public String getServiceList() {
         Response response = given().cookies(key, value).
                 //  header("content-type", "application/json; charset=utf-8").
                         header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
@@ -69,6 +69,7 @@ public class ServiceCreationHelper {
         } else {
             System.out.println("service list: " + " = null");
         }
+        return responseString;
     }
 
     public void deleteService() {
@@ -79,9 +80,9 @@ public class ServiceCreationHelper {
                 header("X-Requested-With", "XMLHttpRequest").
                 when().
                 delete("/catalog/services/" + service_id).
-                then().log().all().
+                then().
                 assertThat().statusCode(204);
-        getServiceList();
+
     }
 
 }

@@ -8,10 +8,14 @@ public class ServiceCreationTests extends TestBase {
 
     @Test
     public void creatNewService() {
-        int id = app.serviceCreationHelper().createService();
-        Assert.assertTrue(id > 0);
+        int id = 0;
+        for (int i = 0; i <10 ; i++) {
 
-//        app.serviceCreationHelper().deleteService();
+            id = app.serviceCreationHelper().createService();
+        }
+
+        app.serviceCreationHelper().deleteService();
+        Assert.assertTrue(id > 0);
     }
 
 }

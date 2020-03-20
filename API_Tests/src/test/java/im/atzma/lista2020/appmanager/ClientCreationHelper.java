@@ -59,12 +59,12 @@ public class ClientCreationHelper {
 
     }
 
-    public void getClientList() {
+    public String getClientList() {
         Response response = given().cookies(key, value).
                 //  header("content-type", "application/json; charset=utf-8").
                         header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                         when().
-                        get("/clients?limit=100000&offset=0/").then().log().all().extract().response();
+                        get("/clients?limit=100000&offset=0/").then().extract().response();
         responseString = response.asString();
         if (!responseString.equals("[]")) {
 
@@ -82,6 +82,7 @@ public class ClientCreationHelper {
         } else {
             System.out.println("client list: " + " = null");
         }
+        return responseString;
     }
 
     public void deleteClient() {
@@ -92,9 +93,9 @@ public class ClientCreationHelper {
                 header("X-Requested-With", "XMLHttpRequest").
                 when().
                 delete("/clients/" + client_id).
-                then().log().all().
+                then().
                 assertThat().statusCode(204);
-        getClientList();
+
     }
 
 }
