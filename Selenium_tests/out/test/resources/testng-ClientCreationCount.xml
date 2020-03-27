@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite_Menu">
+    <test verbose="1" preserve-order="true" name="test count after client creation">
+        <classes>
+            <!--<class name="im.atzma.lista.tests.Login">-->
+                <!--<methods>-->
+                    <!--<include name="login"/>-->
+                <!--</methods>-->
+            <!--</class>-->
+            <class name="im.atzma.lista2020.tests.SingupTest">
+                <methods>
+                    <include name="testVerifySignupPageElements"/>
+                    <include name="testPasswordVisibleIcons"/>
+                    <include name="testVerifyBusinessTypePageElements"/>
+                    <include name="testMarkBussnessType_atzmaimButtonChecked"/>
+                    <include name="testVerifyAllSetPageElements"/>
+                    <include name="testVerifyAllTestPageCheckboxes"/>
+                    <include name="testCreateNewAccount_submit"/>
+                    <!--<include name="testLogOut"/>-->
+                    <!--<include name="testVerifyLoginWithNewUser"/>-->
+                    <!--<include name="testVerifyDefaultClientPage()"/>-->
+                </methods>
+            </class>
+            <class name="im.atzma.lista2020.tests.ClientCreationTest">
+                <methods>
+                    <include name="photos"/>
+                    <!--<include name="initNewClientCreation"/>-->
+                    <!--<include name="verifyClientForm"/>-->
+                    <!--<include name="testCreateClientCount"/>-->
+                </methods>
+            </class>
+            <!--<class name="im.atzma.lista.tests.DeleteAccountTest">-->
+                <!--<methods>-->
+                    <!--<include name="testDeleteAccount"/>-->
+                    <!--<include name="testDeleteAccountVerification"/>-->
+                <!--</methods>-->
+            <!--</class>-->
+        </classes>
+
+    </test>
+</suite>

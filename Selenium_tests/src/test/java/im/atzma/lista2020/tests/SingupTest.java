@@ -3,6 +3,7 @@ package im.atzma.lista2020.tests;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -212,22 +213,19 @@ public class SingupTest extends TestBase {
         app.goTo().clientPage();
         //--------------------------------------------------------------------------verify client page URL
         Assert.assertTrue(app.driver.getCurrentUrl().matches("https://lista.atzma.im/he/clients"));
-
-        try {
-            //--------------------------------------------------------------------------verify title text ('מאגר לקוחות')
-            Assert.assertTrue(app.clientList().verifyTitleText());
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        String numberOfClient =app.clientList().verifyNumberOfClient();
-
-        //--------------------------------------------------------------------------verify number of client (0)
-        try {
-            Assert.assertEquals(numberOfClient, "(0)");
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
     }
+
+    @Test(priority = 11)
+    public void testVerifyDefaultClientPage_2 () throws Exception {
+        //--------------------------------------------------------------------------verify title text ('מאגר לקוחות')
+        Assert.assertTrue(app.clientList().verifyTitleText());
+    }
+
+    @Test(priority = 12)
+    public void testVerifyDefaultClientPage_3() throws Exception {
+        //--------------------------------------------------------------------------verify number of client (0)
+        Assert.assertTrue(app.clientList().defaultNumberOfClient());
+        }
 
 
 }

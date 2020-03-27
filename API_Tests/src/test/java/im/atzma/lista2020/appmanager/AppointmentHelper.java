@@ -17,7 +17,7 @@ public class AppointmentHelper {
     String key;
     String value;
     Response response;
-    String responseString;
+
     JsonPath jpath;
     int appointment_id;
 
@@ -65,7 +65,7 @@ public class AppointmentHelper {
                 then().
                 extract().response();
 
-        responseString = response.asString();   //convert response (RAW) to String
+        String responseString = response.asString();   //convert response (RAW) to String
 
         if (!responseString.equals("[]")) {
 
@@ -76,6 +76,16 @@ public class AppointmentHelper {
         } else {
             System.out.println("appointment id: " + " = null");
         }
+        responseString = response.headers().toString() + "\n\n" + response.body().prettyPrint();
+        responseString = responseString.replaceAll("id.*", "#####");
+        responseString = responseString.replaceAll("id.*", "#####");
+        responseString = responseString.replaceAll("Id.*", "#####");
+        responseString = responseString.replaceAll("start.*", "#####");
+        responseString = responseString.replaceAll("end.*", "#####");
+        responseString = responseString.replaceAll("profile_picture.*", "#####");
+        responseString = responseString.replaceAll("Cookie.*", "#####");
+        responseString = responseString.replaceAll("Expires=Sat, .*", "#####");
+        responseString = responseString.replaceAll("Date=.*", "#####");
         return responseString;
 
     }

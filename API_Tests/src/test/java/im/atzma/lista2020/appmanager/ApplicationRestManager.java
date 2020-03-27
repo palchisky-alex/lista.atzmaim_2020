@@ -29,9 +29,9 @@ public class ApplicationRestManager {
     Properties properties = new Properties();
 
     public void init() throws IOException, InterruptedException {
+
         CookieManager cookieManager = new CookieManager();
         Map<String, String> firstCookie = cookieManager.createLoginCookie();
-
         firstCookie.forEach((k,v)->System.out.println("Key : " + k + " Value : " + v));
         restRequests = new RestRequests(firstCookie);
         restRequests.cleaner();
