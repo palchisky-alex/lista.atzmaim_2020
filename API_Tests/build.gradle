@@ -80,3 +80,16 @@ task testCreateServiceRest(type: Test) {
         }
 }
 
+task testClientModificationRest(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/testng-ClientModificationRest.xml'
+    }
+    if (project.hasProperty('browser')) {
+        systemProperty 'browser', "${browser}"
+    }
+
+    if (project.hasProperty('target')) {
+        systemProperty 'target', "${target}"
+    }
+}
+
