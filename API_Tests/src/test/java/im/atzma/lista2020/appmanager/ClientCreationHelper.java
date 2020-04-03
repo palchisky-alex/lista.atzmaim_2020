@@ -22,6 +22,7 @@ public class ClientCreationHelper {
     // ArrayList<Integer> IDs_list = new ArrayList<>();
     Response response_get;
     Response response_post;
+    Response response_put;
     String responseString;
 
     public ClientCreationHelper(Map<String, String> firstCookie) {
@@ -53,7 +54,7 @@ public class ClientCreationHelper {
 //        JsonPath jp = new JsonPath(responseString);    //convert response String to JSON
 //            int id = Integer.parseInt(jp.get("id[" + i + "]").toString());
 //            IDs_list.add(id);
-        System.out.println("NEW CLIENT ID ====== " + responseString);
+        System.out.println("CLIENT ID ====== " + responseString);
 //        { "client_id": 123 }
         return Integer.parseInt(responseString);
 
@@ -68,7 +69,7 @@ public class ClientCreationHelper {
         responseString = response.asString();
         if (!responseString.equals("[]")) {
 
-            System.out.println("service list: " + responseString);
+            System.out.println("Client list: " + responseString);
             JsonPath jp = new JsonPath(responseString);    //convert response String to JSON
             client_id = jp.get("id[0]");                 //get id from JSON
 
@@ -82,7 +83,52 @@ public class ClientCreationHelper {
         } else {
             System.out.println("client list: " + " = null");
         }
+        responseString = response.headers().toString() + "\n\n" + response.body().prettyPrint();
+        responseString = responseString.replaceAll("id.*", "#####");
+        responseString = responseString.replaceAll("profile_image.*", "#####");
+        responseString = responseString.replaceAll("Cookie.*", "#####");
+        responseString = responseString.replaceAll("Expires=Sat, .*", "#####");
+        responseString = responseString.replaceAll("Date=.*", "#####");
         return responseString;
+    }
+
+    public String getClientData(int client_id) {
+        Response response = given().cookies(key, value).
+                //  header("content-type", "application/json; charset=utf-8").
+                        header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
+                        when().
+                        get("/clients/" + client_id).then().extract().response();
+        responseString = response.asString();
+        responseString = response.headers().toString() + "\n\n" + response.body().prettyPrint();
+        responseString = responseString.replaceAll("id.*", "#####");
+        responseString = responseString.replaceAll("profile_image.*", "#####");
+        responseString = responseString.replaceAll("hash.*", "#####");
+        responseString = responseString.replaceAll("X-Request-Id.*", "#####");
+        responseString = responseString.replaceAll("start.*", "#####");
+        responseString = responseString.replaceAll("end.*", "#####");
+        responseString = responseString.replaceAll("profile_picture.*", "#####");
+        responseString = responseString.replaceAll("Cookie.*", "#####");
+        responseString = responseString.replaceAll("Expires=Sat, .*", "#####");
+        responseString = responseString.replaceAll("Date=.*", "#####");
+        return responseString;
+    }
+
+    public void modificateClient(int client_id) {
+        response_get = given().cookies(key, value).
+                header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
+                formParam("birthdate", "03-01").
+                formParam("birthyear", "1991").
+                formParam("gender", "female").
+                formParam("address", "Russia, Khabarovsk, Krasnorechenskaya 179").
+                formParam("name", "Test_changeClientsData_after").
+                formParam("email", "QA_Test-After@mail.ru").
+                formParam("phone", "[\"0543666666\", \"033333333\"]").
+                when().
+                put("/clients/" + client_id).then().assertThat().statusCode(204).extract().response();
+        System.out.println("STATUS PUT CODE: " + response_post.getStatusCode());
+
+        responseString = response_post.asString();   //convert response (RAW) to String
+        System.out.println("CLIENT ID after modification ====== " + responseString);
     }
 
     public void deleteClient() {
@@ -97,6 +143,5 @@ public class ClientCreationHelper {
                 assertThat().statusCode(204);
 
     }
-
 }
 
