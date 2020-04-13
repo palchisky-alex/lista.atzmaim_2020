@@ -95,7 +95,7 @@ public class RestRequests extends HelperBase {
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 header("X-Requested-With", "XMLHttpRequest").
                 when().
-                get(req_get).then().assertThat().statusCode(200).extract().response();
+                get(req_get).then().extract().response();
 
         responseString = response_get.asString();   //convert response (RAW) to String
 
@@ -124,7 +124,7 @@ public class RestRequests extends HelperBase {
                     header("content-type", "application/x-www-form-urlencoded").
                     header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                     when().
-                    delete(req_delete + id).then().assertThat().statusCode(204).extract().response();
+                    delete(req_delete + id).then().extract().response();
             count = count - 1;
             System.out.println("STATUS DELETE CODE: " + response_get.getStatusCode());
             System.out.println("== Number of deleted item: " + count + " ==");

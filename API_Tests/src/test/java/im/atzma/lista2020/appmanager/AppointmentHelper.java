@@ -17,6 +17,7 @@ public class AppointmentHelper {
     String key;
     String value;
     Response response;
+    String currentTime = LocalDate.now().toString();
 
     JsonPath jpath;
     int appointment_id;
@@ -29,10 +30,8 @@ public class AppointmentHelper {
     }
 
 
-    public void createAppointment(int client_id, int service_id) {
-        String currentTime = LocalDate.now().toString();
-        System.out.println("TIME: " + currentTime);
-
+    public void createAppointment(int client_id, int service_id, int category_id) {
+        System.out.println("CURRENT TIME: " + currentTime);
         given().cookies(key, value).
                 header("content-type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
@@ -42,7 +41,7 @@ public class AppointmentHelper {
                 formParam("worker_id", 1).
                 formParam("total_price", 50).
                 formParam("duration", 60).
-                formParam("services", "[{\"id\":\"" + service_id + "\",\"category\":{\"name\":\"Common\",\"id\":1},\"count\":1}]").
+                formParam("services", "[{\"id\":\"" + service_id + "\",\"category\":{\"id\":"+category_id+"},\"count\":1}]").
                 formParam("note", "call one hour before").
                 formParam("is_reminders_set", "false").
                 formParam("address", "Israel, Rokah 18, Ramat Gan").
@@ -61,11 +60,12 @@ public class AppointmentHelper {
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 header("X-Requested-With", "XMLHttpRequest").
                 when().
-                get("/calendar?start=2019-03-17T00:00:00&end=2121-03-19T23:59:59&worker_id=1").
+                get("/calendar?start=2000-03-17T00:00:00&end=2121-03-19T23:59:59&worker_id=1").
                 then().
                 extract().response();
 
         String responseString = response.asString();   //convert response (RAW) to String
+        System.out.println("Response to String: " + responseString);
 
         if (!responseString.equals("[]")) {
 
@@ -87,11 +87,37 @@ public class AppointmentHelper {
         responseString = responseString.replaceAll("Expires=Sat, .*", "#####");
         responseString = responseString.replaceAll("Date=.*", "#####");
         return responseString;
+    }
 
+    public String getAppointmentString() {
+        response = given().cookies(key, value).
+                header("content-type", "application/x-www-form-urlencoded").
+                header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
+                header("X-Requested-With", "XMLHttpRequest").
+                when().
+                get("/calendar?start=2000-03-17T00:00:00&end=2121-03-19T23:59:59&worker_id=1").
+                then().
+                extract().response();
+        String responseString = response.asString();
+        return responseString;
+    }
+
+    public void getAppointmentID() {
+        response = given().cookies(key, value).
+                header("content-type", "application/x-www-form-urlencoded").
+                header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
+                header("X-Requested-With", "XMLHttpRequest").
+                when().
+                get("/calendar?start=2000-03-17T00:00:00&end=2121-03-19T23:59:59&worker_id=1").
+                then().
+                extract().response();
+        String responseString = response.asString();
+        JsonPath jp = new JsonPath(responseString);    //convert response String to JSON
+        appointment_id = jp.get("id[0]");
     }
 
     public void deleteAppointment() {
-        getAppointmentList();
+        getAppointmentID();
         given().cookies(key, value).
                 header("content-type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
@@ -99,7 +125,7 @@ public class AppointmentHelper {
                 when().
                 delete("/calendar/" + appointment_id).
                 then().
-                assertThat().statusCode(204);
+                assertThat().statusCode(200);
     }
 
 

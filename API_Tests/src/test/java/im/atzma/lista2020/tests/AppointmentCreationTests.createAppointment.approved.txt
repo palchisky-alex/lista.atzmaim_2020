@@ -8,6 +8,7 @@ Set-#####
 X-Request-#####
 Strict-Transport-Security=max-age=604800
 X-Content-Type-Options=nosniff
+X-Robots-Tag=noindex
 Content-Security-Policy=upgrade-insecure-requests
 X-Powered-By=php/4.3.10-16
 Content-Encoding=gzip
