@@ -67,6 +67,19 @@ task testCreateServiceRest(type: Test) {
     }
 }
 
+task testModifyServiceRest(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/testng-ServiceModificationRest.xml'
+    }
+    if (project.hasProperty('browser')) {
+        systemProperty 'browser', "${browser}"
+    }
+
+    if (project.hasProperty('target')) {
+        systemProperty 'target', "${target}"
+    }
+}
+
     task testCreateAppointmentRest(type: Test) {
         useTestNG() {
             suites './src/test/resources/testng-AppointmentCreationRest.xml'

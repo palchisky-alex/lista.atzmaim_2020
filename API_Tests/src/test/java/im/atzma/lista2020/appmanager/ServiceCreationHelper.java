@@ -110,5 +110,21 @@ public class ServiceCreationHelper {
 
     }
 
+    public void modifyService(int service_id, int category_id) {
+        response_post = given().cookies(key, value).
+                header("content-type", "application/x-www-form-urlencoded").
+                header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
+                formParam("name", "TestService_modified").
+                formParam("duration", 70).
+                formParam("price", 40).
+                formParam("color", "#50e3c1").
+                formParam("category_id", category_id).
+                formParam("added", "2020-01-26 21:39:41").
+                when().
+                put("/catalog/services/" + service_id).then().
+                assertThat().
+                statusCode(204).extract().response();
+
+    }
 }
 
