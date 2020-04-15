@@ -22,15 +22,8 @@ public class AppointmentCreationTests extends TestBase {
 
     @Test(priority = 2)
     public void deleteAppointment() {
-        int category_id = app.serviceCreationHelper().createCategory();
-        int service_id = app.serviceCreationHelper().createService(category_id);
-        int client_id = app.clientCreationHelper().createClient();
-        app.appointmentHelper().createAppointment(client_id, service_id, category_id);
-
 
         app.appointmentHelper().deleteAppointment();
         Assert.assertEquals(app.appointmentHelper().getAppointmentString(), "[]");
-
-
     }
 }

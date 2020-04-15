@@ -15,7 +15,7 @@ public class TestBase {
     protected static final ApplicationRestManager app = new ApplicationRestManager();
 
 
-    @BeforeMethod (alwaysRun = true)
+    @BeforeSuite (alwaysRun = true)
     public void setUp() throws Exception {
       app.init();
 

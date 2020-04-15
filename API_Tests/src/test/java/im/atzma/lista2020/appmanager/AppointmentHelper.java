@@ -65,7 +65,7 @@ public class AppointmentHelper {
                 extract().response();
 
         String responseString = response.asString();   //convert response (RAW) to String
-        System.out.println("Response to String: " + responseString);
+        System.out.println("Appointment String: " + responseString);
 
         if (!responseString.equals("[]")) {
 
@@ -99,10 +99,11 @@ public class AppointmentHelper {
                 then().
                 extract().response();
         String responseString = response.asString();
+        System.out.println("Appointment String: " + responseString);
         return responseString;
     }
 
-    public void getAppointmentID() {
+    public Integer getAppointmentID() {
         response = given().cookies(key, value).
                 header("content-type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
@@ -114,6 +115,7 @@ public class AppointmentHelper {
         String responseString = response.asString();
         JsonPath jp = new JsonPath(responseString);    //convert response String to JSON
         appointment_id = jp.get("id[0]");
+        return appointment_id;
     }
 
     public void deleteAppointment() {
@@ -129,4 +131,26 @@ public class AppointmentHelper {
     }
 
 
+    public void modifyAppointment(int client_id, int service_id, int category_id, int appointment_id) {
+        given().cookies(key, value).
+                header("content-type", "application/x-www-form-urlencoded").
+                header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
+                header("X-Requested-With", "XMLHttpRequest").
+                formParam("start", currentTime+"T15:00:00").
+                formParam("client_id", client_id).
+                formParam("worker_id", 1).
+                formParam("total_price", 100).
+                formParam("duration", 120).
+                formParam("services", "[{\"id\":\"" + service_id + "\",\"category\":{\"id\":"+category_id+"},\"count\":1}]").
+                formParam("note", "call one hour after").
+                formParam("is_reminders_set", "false").
+                formParam("address", "Israel, Maron 8, Tel Aviv").
+                formParam("added", currentTime + "T15:00:00").
+                when().
+                put("/calendar/" + appointment_id).
+                then().
+                assertThat().
+                statusCode(200).and().contentType("application/json; charset=utf-8");
+
+    }
 }

@@ -50,14 +50,14 @@ public class ClientCreationHelper {
         System.out.println("STATUS POST CODE: " + response_post.getStatusCode());
 
         responseString = response_post.asString();   //convert response (RAW) to String
+        client_id = Integer.parseInt(responseString);
 
 //        JsonPath jp = new JsonPath(responseString);    //convert response String to JSON
 //            int id = Integer.parseInt(jp.get("id[" + i + "]").toString());
 //            IDs_list.add(id);
-        System.out.println("CLIENT ID ====== " + responseString);
+        System.out.println("CLIENT ID ====== " + client_id);
 //        { "client_id": 123 }
-        return Integer.parseInt(responseString);
-
+        return client_id;
     }
 
     public String getClientList() {
@@ -113,12 +113,19 @@ public class ClientCreationHelper {
         return responseString;
     }
 
+    public Integer getClientID() {
+        System.out.println("getClientID: " + client_id);
+        return client_id;
+    }
+
+
     public void modificateClient(int client_id) {
         response_get = given().cookies(key, value).
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 formParam("birthdate", "03-01").
                 formParam("birthyear", "1991").
                 formParam("gender", "female").
+                formParam("status", "status - after").
                 formParam("address", "Russia, Khabarovsk, Krasnorechenskaya 179").
                 formParam("name", "Test_changeClientsData_after").
                 formParam("email", "QA_Test-After@mail.ru").

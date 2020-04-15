@@ -14,6 +14,7 @@ public class ServiceCreationHelper {
     String responseString;
     JsonPath jpath;
     int service_id;
+    int category_id;
     String service_name;
 
     public ServiceCreationHelper(Map<String, String> firstCookie) {
@@ -42,7 +43,8 @@ public class ServiceCreationHelper {
                 statusCode(201).extract().response();
 
         responseString = response_post.asString();
-        System.out.println("NEW SERVICE ID ====== " + Integer.parseInt(responseString));
+        service_id = Integer.parseInt(responseString);
+        System.out.println("NEW SERVICE ID ====== " + service_id);
 
         return Integer.parseInt(responseString);
     }
@@ -58,8 +60,20 @@ public class ServiceCreationHelper {
                 statusCode(201).extract().response();
 
         responseString = response_post.asString();
-        System.out.println("Category id = " + responseString);
-        return Integer.parseInt(responseString);
+        category_id = Integer.parseInt(responseString);
+        System.out.println("Category id = " + category_id);
+        return category_id;
+    }
+
+    public int getCategoryID() {
+        System.out.println("Get category ID: " + category_id);
+        return category_id;
+    }
+
+
+    public Integer getServiceID() {
+        System.out.println("Get service ID: " + service_id);
+        return service_id;
     }
 
     public String getServiceList() {
