@@ -23,9 +23,9 @@ public class AppointmentModificationTests extends TestBase {
         int service_id = app.serviceCreationHelper().getServiceID();
         int client_id = app.clientCreationHelper().getClientID();
         app.clientCreationHelper().modificateClient(client_id);
-        int appointment_id = app.appointmentHelper().getAppointmentID();
+      //  int appointment_id = app.appointmentHelper().getAppointmentID();
 
-        app.appointmentHelper().modifyAppointment(client_id, service_id, category_id, appointment_id);
+     //   app.appointmentHelper().modifyAppointment(client_id, service_id, category_id, appointment_id);
 
         Approvals.verify(app.appointmentHelper().getAppointmentList());
 

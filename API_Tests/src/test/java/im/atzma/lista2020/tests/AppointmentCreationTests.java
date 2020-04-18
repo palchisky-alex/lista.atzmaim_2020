@@ -8,13 +8,15 @@ import java.io.IOException;
 
 public class AppointmentCreationTests extends TestBase {
 
-       @Test(priority = 1)
+    @Test(priority = 1)
     public void createAppointment() {
 
         int category_id = app.serviceCreationHelper().createCategory();
         int service_id = app.serviceCreationHelper().createService(category_id);
         int client_id = app.clientCreationHelper().createClient();
-        for (int i = 0; i < 1; i++) {
+
+        for (int i = 0; i < 10; i++) {
+
             app.appointmentHelper().createAppointment(client_id, service_id, category_id);
         }
         Approvals.verify(app.appointmentHelper().getAppointmentList());
