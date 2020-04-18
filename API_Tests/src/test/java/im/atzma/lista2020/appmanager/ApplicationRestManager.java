@@ -34,7 +34,7 @@ public class ApplicationRestManager {
         Map<String, String> firstCookie = cookieManager.createLoginCookie();
         firstCookie.forEach((k,v)->System.out.println("Key : " + k + " Value : " + v));
         restRequests = new RestRequests(firstCookie);
-       // restRequests.cleaner();
+        restRequests.cleaner();
         serviceCreationHelper = new ServiceCreationHelper(firstCookie);
         clientCreationHelper = new ClientCreationHelper(firstCookie);
         appointmentHelper = new AppointmentHelper(firstCookie);
