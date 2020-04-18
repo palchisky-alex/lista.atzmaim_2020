@@ -15,7 +15,7 @@ public class AppointmentCreationTests extends TestBase {
         int service_id = app.serviceCreationHelper().createService(category_id);
         int client_id = app.clientCreationHelper().createClient();
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 1; i++) {
 
             app.appointmentHelper().createAppointment(client_id, service_id, category_id);
         }
