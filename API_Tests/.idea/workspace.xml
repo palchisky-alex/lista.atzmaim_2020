@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="477da253-88be-40ae-98c6-8ed2876fb43d" name="Default Changelist" comment="" />
+    <list default="true" id="477da253-88be-40ae-98c6-8ed2876fb43d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentCreationTests.createAppointment.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentCreationTests.createAppointment.approved.txt" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -82,8 +84,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/CookieManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+            <state relative-caret-position="57">
+              <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -212,9 +214,9 @@
         <option value="$PROJECT_DIR$/src/test/resources/rest.properties" />
         <option value="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentModificationTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/AppointmentHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/CookieManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/ApplicationRestManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentCreationTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/CookieManager.java" />
       </list>
     </option>
   </component>
@@ -300,7 +302,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587246557882" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587246973933" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build.gradle" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15527344" />
@@ -415,8 +417,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentCreationRest.xml" />
-        <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ServiceCreationRest.xml" />
         <item itemvalue="Gradle.AppointmentCreationTests" />
+        <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ServiceCreationRest.xml" />
         <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentModificationRest.xml" />
         <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ClientCreationRest.xml" />
       </list>
@@ -436,21 +438,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppointmentCreationTests - 2020.04.18 at 18h 44m 36s.xml">
-      <configuration name="AppointmentCreationTests" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_Tests_src_test_resources_testng-AppointmentCreationRest_xml - 2020.04.18 at 18h 44m 53s.xml">
-      <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentCreationRest.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_Tests_src_test_resources_testng-AppointmentCreationRest_xml - 2020.04.18 at 18h 50m 47s.xml">
-      <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentCreationRest.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_Tests_src_test_resources_testng-AppointmentCreationRest_xml - 2020.04.18 at 18h 51m 43s.xml">
-      <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentCreationRest.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_Tests_src_test_resources_testng-AppointmentCreationRest_xml - 2020.04.18 at 18h 53m 22s.xml">
-      <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentCreationRest.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_Tests_src_test_resources_testng-AppointmentCreationRest_xml - 2020.04.18 at 18h 59m 10s.xml">
       <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentCreationRest.xml" configurationId="TestNG" />
     </history-entry>
@@ -466,6 +453,21 @@
     <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_Tests_src_test_resources_testng-ServiceCreationRest_xml - 2020.04.18 at 19h 51m 02s.xml">
       <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ServiceCreationRest.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_Tests_src_test_resources_testng-AppointmentCreationRest_xml - 2020.04.19 at 00h 48m 24s.xml">
+      <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentCreationRest.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AppointmentCreationTests - 2020.04.19 at 00h 52m 15s.xml">
+      <configuration name="AppointmentCreationTests" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_Tests_src_test_resources_testng-AppointmentCreationRest_xml - 2020.04.19 at 00h 54m 26s.xml">
+      <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentCreationRest.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AppointmentCreationTests - 2020.04.19 at 00h 56m 07s.xml">
+      <configuration name="AppointmentCreationTests" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_Tests_src_test_resources_testng-AppointmentCreationRest_xml - 2020.04.19 at 00h 58m 12s.xml">
+      <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentCreationRest.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -478,7 +480,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32874495" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -490,7 +491,7 @@
       <window_info id="Learn" order="7" weight="0.32955465" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3268206" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5222025" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.6571936" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38010657" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -896,8 +897,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/CookieManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+        <state relative-caret-position="57">
+          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
         </state>
       </provider>
     </entry>
