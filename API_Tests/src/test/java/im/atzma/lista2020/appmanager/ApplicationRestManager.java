@@ -21,7 +21,6 @@ import static org.testng.Assert.fail;
 
 public class ApplicationRestManager {
 
-    AccountCreationHelper accountCreationHelper;
     ServiceCreationHelper serviceCreationHelper;
     ClientCreationHelper clientCreationHelper;
     AppointmentHelper appointmentHelper;
@@ -53,9 +52,6 @@ public class ApplicationRestManager {
     }
 
     //    public CookieManager cookieManager() {return cookieManager;}
-    public AccountCreationHelper accountCreationHelper() {
-        return accountCreationHelper;
-    }
     public ServiceCreationHelper serviceCreationHelper() {
         return serviceCreationHelper;
     }
