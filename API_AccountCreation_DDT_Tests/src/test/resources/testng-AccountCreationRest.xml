@@ -5,7 +5,7 @@
         <classes>
             <class name="lista2020.tests.AccountCreationTests">
                 <methods>
-                    <!--<include name="getBusinessTypeJSON"/>-->
+                    <include name="getBusinessTypeJSON"/>
                     <include name="createAccount"/>
                     <include name="deleteAccount"/>
                 </methods>
