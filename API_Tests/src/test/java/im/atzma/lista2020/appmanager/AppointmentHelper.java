@@ -4,10 +4,7 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.response.ResponseBody;
 
-import java.time.Instant;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.YearMonth;
+import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
@@ -21,7 +18,7 @@ public class AppointmentHelper {
     String key;
     String value;
     Response response;
-    String currentTime = LocalDate.now().toString();
+    String currentTime= LocalDate.now().toString();
     static ArrayList<Integer> IDs_list = new ArrayList<>();
 
     JsonPath jpath;

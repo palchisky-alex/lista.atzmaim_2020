@@ -28,6 +28,7 @@ public class CookieManager {
         Map<String, String> loginCookie = response.getCookies();
       //  AccountCreationHelper accountCreationHelper = new AccountCreationHelper(loginCookie);
         loginCookie.forEach((k, v) -> System.out.println("login cookie : " + k + " Value : " + v));
+
         return loginCookie;
     }
 

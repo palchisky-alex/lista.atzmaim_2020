@@ -1,11 +1,12 @@
 package lista2020.tests;
-import lista2020.appmanager.ApplicationRestManager;
+
+import lista2020.appmanager.ApplicationRestDDTManager;
 import org.testng.annotations.BeforeSuite;
 
 
 public class TestBase {
     //Logger logger = LoggerFactory.getLogger(TestBase.class);
-    protected static final ApplicationRestManager app = new ApplicationRestManager();
+    protected static final ApplicationRestDDTManager app = new ApplicationRestDDTManager();
 
 
     @BeforeSuite (alwaysRun = true)
