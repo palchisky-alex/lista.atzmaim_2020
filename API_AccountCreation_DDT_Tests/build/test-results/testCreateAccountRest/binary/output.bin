@@ -1,0 +1,417 @@
+ß[{"id":1,"name":"Holistic Therapists","icon":"alternative_therapy_specialists.svg","ordering":1},{"id":2,"name":"Consultants and life \/ professional coaches","icon":"consultants_and_coachers.svg","ordering":1},{"id":3,"name":"Cosmetics & Beauty Specialists","icon":"cosmetics_and_beauty_therapists.svg","ordering":1},{"id":4,"name":"Hair Salon and Barbers","icon":"hair_stylists_and_salons.svg","ordering":1},{"id":5,"name":"Interior designers and architects","icon":"interior_designers_and_architects.svg","ordering":1},{"id":6,"name":"Installers & technicians","icon":"installers_and_technicians.svg","ordering":1},{"id":7,"name":"Make up artists","icon":"makeup_artists.svg","ordering":1},{"id":8,"name":"Nail Artists","icon":"manicurists_and_nail_artists.svg","ordering":1},{"id":9,"name":"Massage and Reflexology Therapists","icon":"massage_and_reflexology_therapists.svg","ordering":1},{"id":10,"name":"Movers and Cleaners","icon":"movers_and_cleaners.svg","ordering":1},{"id":11,"name":"Nutritionists & Naturopaths","icon":"nutritionists_and_naturopaths.svg","ordering":1},{"id":12,"name":"Pest controllers","icon":"pest_controllers.svg","ordering":1},{"id":13,"name":"Teachers and tutors","icon":"private_teachers_and_tutors.svg","ordering":1},{"id":14,"name":"Sales\/ Real Estate \/ Insurance Agents","icon":"real_estate_agents_marketers_insurers.svg","ordering":1},{"id":15,"name":"Service providers for home and business","icon":"service_providers_for_home_and_business.svg","ordering":1},{"id":16,"name":"Personal Trainers","icon":"sports_and_fitness_instructors.svg","ordering":1},{"id":17,"name":"Tattoo and piercing shops","icon":"tattoo_artists.svg","ordering":1},{"id":18,"name":"Therapists","icon":"therapy_specialists.svg","ordering":1}]
+Request method:	POST
+8Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+(Form params:	added=2020-04-22 03:38:00
+				email=qa@gmail.com
+				pass=547613154
+				phone=null
+				permit_ads=true
+				business_types=[1]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+)Account creation response: /en/calendar
+Create account code: 201
+Request method:	POST
+8Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+(Form params:	added=2020-04-22 03:38:00
+				email=qaz@gmail.com
+				pass=1234
+				phone=null
+				permit_ads=true
+				business_types=[1]
+				lang=en
+				timezone=Austria/Vienna
+				country=AT
+				city=Vienna
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+)Account creation response: /en/calendar
+Create account code: 201
+Request method:	POST
+8Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+(Form params:	added=2020-04-22 03:38:00
+				email=qax@gmail.com
+				pass=crudkh
+				phone=null
+				permit_ads=true
+				business_types=[1]
+				lang=en
+ 				timezone=Chile/Antofagasta
+				country=CL
+				city=Antofagasta
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+)Account creation response: /en/calendar
+Create account code: 201
+Request method:	POST
+8Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+(Form params:	added=2020-04-22 03:38:00
+				email=qac@gmail.com
+				pass=crudkh
+				phone=null
+				permit_ads=true
+				business_types=[1]
+				lang=en
+				timezone=Belgium/Brussels
+				country=BE
+				city=Brussels
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+)Account creation response: /en/calendar
+Create account code: 201
+Request method:	POST
+8Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+(Form params:	added=2020-04-22 03:38:00
+				email=qav@gmail.com
+				pass=crudkh
+				phone=null
+				permit_ads=true
+				business_types=[1]
+				lang=en
+				timezone=Canada/Alberta
+				country=CA
+				city=Edmonton
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+)Account creation response: /en/calendar
+Create account code: 201
+Request method:	POST
+8Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+(Form params:	added=2020-04-22 03:38:00
+				email=qab@gmail.com
+				pass=crudkh
+				phone=null
+				permit_ads=true
+				business_types=[1]
+				lang=en
+				timezone=Europe/Prague
+				country=CZ
+				city=Prague
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+)Account creation response: /en/calendar
+Create account code: 201
+	Request method:	POST
+	8Request URI:	https://lista.atzma.im/signup-new-account
+	Proxy:			<none>
+	Request params:	<none>
+	Query params:	<none>
+	(Form params:	added=2020-04-22 03:38:00
+					email=qan@gmail.com
+					pass=crudkh
+					phone=null
+					permit_ads=true
+					business_types=[1]
+					lang=en
+					timezone=Europe/Berlin
+					country=DE
+					city=Berlin
+	Path params:	<none>
+	/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+	%				X-Requested-With=XMLHttpRequest
+					Accept=*/*
+	4				Content-Type=application/x-www-form-urlencoded
+	Cookies:		<none>
+	Multiparts:		<none>
+	Body:			<none>
+	)Account creation response: /en/calendar
+	Create account code: 201
+
+Request method:	POST
+
+8Request URI:	https://lista.atzma.im/signup-new-account
+
+Proxy:			<none>
+
+Request params:	<none>
+
+Query params:	<none>
+
+(Form params:	added=2020-04-22 03:38:00
+
+				email=qam@gmail.com
+
+				pass=crudkh
+
+				phone=null
+
+				permit_ads=true
+
+				business_types=[1]
+
+				lang=en
+
+				timezone=Europe/Tallinn
+
+				country=EE
+
+				city=Tallinn
+
+Path params:	<none>
+
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+
+%				X-Requested-With=XMLHttpRequest
+
+				Accept=*/*
+
+4				Content-Type=application/x-www-form-urlencoded
+
+Cookies:		<none>
+
+Multiparts:		<none>
+
+Body:			<none>
+
+)Account creation response: /en/calendar
+
+Create account code: 201
+Request method:	POST
+8Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+(Form params:	added=2020-04-22 03:38:00
+				email=qal@gmail.com
+				pass=crudkh
+				phone=null
+				permit_ads=true
+				business_types=[1]
+				lang=en
+				timezone=Europe/Oslo
+				country=NO
+				city=Oslo
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+)Account creation response: /en/calendar
+Create account code: 201
+Request method:	POST
+8Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+(Form params:	added=2020-04-22 03:38:00
+				email=qka@gmail.com
+				pass=crudkh
+				phone=null
+				permit_ads=true
+				business_types=[1]
+				lang=en
+				timezone=Europe/Paris
+				country=FR
+				city=Paris
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+)Account creation response: /en/calendar
+Create account code: 201
+Request method:	POST
+8Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+(Form params:	added=2020-04-22 03:38:00
+				email=qaj@gmail.com
+				pass=crudkh
+				phone=null
+				permit_ads=true
+				business_types=[1]
+				lang=en
+ 				timezone=Europe/Copenhagen
+				country=DK
+				city=Copenhagen
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+)Account creation response: /en/calendar
+Create account code: 201
+Request method:	POST
+8Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+(Form params:	added=2020-04-22 03:38:00
+				email=qha@gmail.com
+				pass=crudkh
+				phone=null
+				permit_ads=true
+				business_types=[1]
+				lang=en
+				timezone=Europe/Budapest
+				country=HU
+				city=Budapest
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+)Account creation response: /en/calendar
+Create account code: 201
+Request method:	POST
+8Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+(Form params:	added=2020-04-22 03:38:00
+				email=qag@gmail.com
+				pass=crudkh
+				phone=null
+				permit_ads=true
+				business_types=[1]
+				lang=en
+				timezone=Europe/Rome
+				country=IT
+				city=Rome
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+)Account creation response: /en/calendar
+Create account code: 201
+Request method:	POST
+8Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+(Form params:	added=2020-04-22 03:38:00
+				email=qaf@gmail.com
+				pass=crudkh
+				phone=null
+				permit_ads=true
+				business_types=[1]
+				lang=en
+				timezone=Asia/Tokyo
+				country=JP
+				city=Tokyo
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+)Account creation response: /en/calendar
+Create account code: 201
+Request method:	POST
+8Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+(Form params:	added=2020-04-22 03:38:00
+				email=qda@gmail.com
+				pass=crudkh
+				phone=null
+				permit_ads=true
+				business_types=[1]
+				lang=en
+"				timezone=America/Mexico_City
+				country=MX
+				city=Mexico_City
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+)Account creation response: /en/calendar
+Create account code: 201
+Cookies map size: 15
+Delete account 1 code: 401
+Delete account 2 code: 401
+Delete account 3 code: 401
+Delete account 4 code: 401
+Delete account 5 code: 401
+Delete account 6 code: 401
+Delete account 7 code: 401
+Delete account 8 code: 401
+Delete account 9 code: 401
+Delete account 10 code: 401
+Delete account 11 code: 401
+Delete account 12 code: 401
+Delete account 13 code: 401
+Delete account 14 code: 401
+Delete account 15 code: 401
