@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="477da253-88be-40ae-98c6-8ed2876fb43d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/out/test/resources/input.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/out/test/resources/input.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/resources/input.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/resources/input.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/AccountCreationHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/CookieManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/CookieManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AccountCreationTests.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -82,7 +77,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/AccountCreationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
+            <state relative-caret-position="47">
               <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -339,7 +334,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587582715569" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587597822311" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/im/atzma/lista2020" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build.gradle" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -494,12 +489,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_AccountCreation_DDT_Tests_src_test_resources_testng-AccountCreationRest_xml - 2020.04.22 at 19h 54m 21s.xml">
-      <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_AccountCreation_DDT_Tests_src_test_resources_testng-AccountCreationRest_xml - 2020.04.22 at 20h 00m 48s.xml">
-      <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_AccountCreation_DDT_Tests_src_test_resources_testng-AccountCreationRest_xml - 2020.04.22 at 20h 02m 55s.xml">
       <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml" configurationId="TestNG" />
     </history-entry>
@@ -524,6 +513,12 @@
     <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_Tests_src_test_resources_testng-ClientCreationRest_xml - 2020.04.22 at 22h 09m 59s.xml">
       <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ClientCreationRest.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_AccountCreation_DDT_Tests_src_test_resources_testng-AccountCreationRest_xml - 2020.04.22 at 22h 11m 52s.xml">
+      <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_AccountCreation_DDT_Tests_src_test_resources_testng-AccountCreationRest_xml - 2020.04.22 at 23h 48m 38s.xml">
+      <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -536,7 +531,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22672065" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -548,7 +542,7 @@
       <window_info id="Learn" order="7" weight="0.32955465" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3268206" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.60035527" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.669627" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5452931" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -962,7 +956,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/AccountCreationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
+        <state relative-caret-position="47">
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
