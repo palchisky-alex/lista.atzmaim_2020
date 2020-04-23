@@ -6,7 +6,7 @@
             <class name="im.atzma.lista2020.tests.AppointmentCreationTests">
                 <methods>
                     <include name="createAppointment"/>
-                    <include name="deleteAppointment"/>
+                    <!--<include name="deleteAppointment"/>-->
                 </methods>
             </class>
         </classes>

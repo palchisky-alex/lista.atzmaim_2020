@@ -28,6 +28,6 @@ public class AccountCreationTests extends TestBase {
     @DataProvider //D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\src\test\resources
     public Object[][] getDataFromExcel(){
         Excel excel = new Excel();
-        return excel.getTableArray(System.getProperty("user.dir") + "/src/test/resources/input.xlsx", "Singup");
+        return excel.getTableArray(System.getProperty("user.dir") + "/src/test/resources/input.xlsx", "TimeZone");
     }
 }

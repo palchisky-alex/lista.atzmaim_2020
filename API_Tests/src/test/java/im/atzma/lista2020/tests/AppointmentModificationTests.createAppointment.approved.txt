@@ -40,5 +40,302 @@ Content-Encoding=gzip
                 "name": "TestService"
             }
         ]
+    },
+    {
+        "#####
+        "name": "Test_changeClientsData_before",
+        "#####
+        "#####
+        "total_price": "50",
+        "phone": null,
+        "note": "call one hour before",
+        "client_#####
+        "#####
+        "status": "status - before",
+        "off_time": null,
+        "address": "Israel, Rokah 18, Ramat Gan",
+        "birthdate": "06-26",
+        "durationEditable": null,
+        "added_date": "2020-03-19 10:30",
+        "services": [
+            {
+                "color": "#50e3c1",
+                "price": "50",
+                "duration": 60,
+                "count": 1,
+                "#####
+                "name": "TestService"
+            }
+        ]
+    },
+    {
+        "#####
+        "name": "Test_changeClientsData_before",
+        "#####
+        "#####
+        "total_price": "50",
+        "phone": null,
+        "note": "call one hour before",
+        "client_#####
+        "#####
+        "status": "status - before",
+        "off_time": null,
+        "address": "Israel, Rokah 18, Ramat Gan",
+        "birthdate": "06-26",
+        "durationEditable": null,
+        "added_date": "2020-03-19 10:30",
+        "services": [
+            {
+                "color": "#50e3c1",
+                "price": "50",
+                "duration": 60,
+                "count": 1,
+                "#####
+                "name": "TestService"
+            }
+        ]
+    },
+    {
+        "#####
+        "name": "Test_changeClientsData_before",
+        "#####
+        "#####
+        "total_price": "50",
+        "phone": null,
+        "note": "call one hour before",
+        "client_#####
+        "#####
+        "status": "status - before",
+        "off_time": null,
+        "address": "Israel, Rokah 18, Ramat Gan",
+        "birthdate": "06-26",
+        "durationEditable": null,
+        "added_date": "2020-03-19 10:30",
+        "services": [
+            {
+                "color": "#50e3c1",
+                "price": "50",
+                "duration": 60,
+                "count": 1,
+                "#####
+                "name": "TestService"
+            }
+        ]
+    },
+    {
+        "#####
+        "name": "Test_changeClientsData_before",
+        "#####
+        "#####
+        "total_price": "50",
+        "phone": null,
+        "note": "call one hour before",
+        "client_#####
+        "#####
+        "status": "status - before",
+        "off_time": null,
+        "address": "Israel, Rokah 18, Ramat Gan",
+        "birthdate": "06-26",
+        "durationEditable": null,
+        "added_date": "2020-03-19 10:30",
+        "services": [
+            {
+                "color": "#50e3c1",
+                "price": "50",
+                "duration": 60,
+                "count": 1,
+                "#####
+                "name": "TestService"
+            }
+        ]
+    },
+    {
+        "#####
+        "name": "Test_changeClientsData_before",
+        "#####
+        "#####
+        "total_price": "50",
+        "phone": null,
+        "note": "call one hour before",
+        "client_#####
+        "#####
+        "status": "status - before",
+        "off_time": null,
+        "address": "Israel, Rokah 18, Ramat Gan",
+        "birthdate": "06-26",
+        "durationEditable": null,
+        "added_date": "2020-03-19 10:30",
+        "services": [
+            {
+                "color": "#50e3c1",
+                "price": "50",
+                "duration": 60,
+                "count": 1,
+                "#####
+                "name": "TestService"
+            }
+        ]
+    },
+    {
+        "#####
+        "name": "Test_changeClientsData_before",
+        "#####
+        "#####
+        "total_price": "50",
+        "phone": null,
+        "note": "call one hour before",
+        "client_#####
+        "#####
+        "status": "status - before",
+        "off_time": null,
+        "address": "Israel, Rokah 18, Ramat Gan",
+        "birthdate": "06-26",
+        "durationEditable": null,
+        "added_date": "2020-03-19 10:30",
+        "services": [
+            {
+                "color": "#50e3c1",
+                "price": "50",
+                "duration": 60,
+                "count": 1,
+                "#####
+                "name": "TestService"
+            }
+        ]
+    },
+    {
+        "#####
+        "name": "Test_changeClientsData_before",
+        "#####
+        "#####
+        "total_price": "50",
+        "phone": null,
+        "note": "call one hour before",
+        "client_#####
+        "#####
+        "status": "status - before",
+        "off_time": null,
+        "address": "Israel, Rokah 18, Ramat Gan",
+        "birthdate": "06-26",
+        "durationEditable": null,
+        "added_date": "2020-03-19 10:30",
+        "services": [
+            {
+                "color": "#50e3c1",
+                "price": "50",
+                "duration": 60,
+                "count": 1,
+                "#####
+                "name": "TestService"
+            }
+        ]
+    },
+    {
+        "#####
+        "name": "Test_changeClientsData_before",
+        "#####
+        "#####
+        "total_price": "50",
+        "phone": null,
+        "note": "call one hour before",
+        "client_#####
+        "#####
+        "status": "status - before",
+        "off_time": null,
+        "address": "Israel, Rokah 18, Ramat Gan",
+        "birthdate": "06-26",
+        "durationEditable": null,
+        "added_date": "2020-03-19 10:30",
+        "services": [
+            {
+                "color": "#50e3c1",
+                "price": "50",
+                "duration": 60,
+                "count": 1,
+                "#####
+                "name": "TestService"
+            }
+        ]
+    },
+    {
+        "#####
+        "name": "Test_changeClientsData_before",
+        "#####
+        "#####
+        "total_price": "50",
+        "phone": null,
+        "note": "call one hour before",
+        "client_#####
+        "#####
+        "status": "status - before",
+        "off_time": null,
+        "address": "Israel, Rokah 18, Ramat Gan",
+        "birthdate": "06-26",
+        "durationEditable": null,
+        "added_date": "2020-03-19 10:30",
+        "services": [
+            {
+                "color": "#50e3c1",
+                "price": "50",
+                "duration": 60,
+                "count": 1,
+                "#####
+                "name": "TestService"
+            }
+        ]
+    },
+    {
+        "#####
+        "name": "Test_changeClientsData_before",
+        "#####
+        "#####
+        "total_price": "50",
+        "phone": null,
+        "note": "call one hour before",
+        "client_#####
+        "#####
+        "status": "status - before",
+        "off_time": null,
+        "address": "Israel, Rokah 18, Ramat Gan",
+        "birthdate": "06-26",
+        "durationEditable": null,
+        "added_date": "2020-03-19 10:30",
+        "services": [
+            {
+                "color": "#50e3c1",
+                "price": "50",
+                "duration": 60,
+                "count": 1,
+                "#####
+                "name": "TestService"
+            }
+        ]
+    },
+    {
+        "#####
+        "name": "Test_changeClientsData_before",
+        "#####
+        "#####
+        "total_price": "50",
+        "phone": null,
+        "note": "call one hour before",
+        "client_#####
+        "#####
+        "status": "status - before",
+        "off_time": null,
+        "address": "Israel, Rokah 18, Ramat Gan",
+        "birthdate": "06-26",
+        "durationEditable": null,
+        "added_date": "2020-03-19 10:30",
+        "services": [
+            {
+                "color": "#50e3c1",
+                "price": "50",
+                "duration": 60,
+                "count": 1,
+                "#####
+                "name": "TestService"
+            }
+        ]
     }
 ]

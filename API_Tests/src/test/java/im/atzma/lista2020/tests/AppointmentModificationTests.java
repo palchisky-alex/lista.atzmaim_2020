@@ -4,6 +4,8 @@ import org.approvaltests.Approvals;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.util.ArrayList;
+
 public class AppointmentModificationTests extends TestBase {
 
     @Test(priority = 1)
@@ -23,9 +25,11 @@ public class AppointmentModificationTests extends TestBase {
         int service_id = app.serviceCreationHelper().getServiceID();
         int client_id = app.clientCreationHelper().getClientID();
         app.clientCreationHelper().modificateClient(client_id);
-      //  int appointment_id = app.appointmentHelper().getAppointmentID();
-
-     //   app.appointmentHelper().modifyAppointment(client_id, service_id, category_id, appointment_id);
+        ArrayList<Integer> IDs = app.appointmentHelper().getAppointmentID();
+        for (int i = 0; i < IDs.size(); i++) {
+            int appointment_id = IDs.get(i);
+            app.appointmentHelper().modifyAppointment(client_id, service_id, category_id, appointment_id);
+        }
 
         Approvals.verify(app.appointmentHelper().getAppointmentList());
 

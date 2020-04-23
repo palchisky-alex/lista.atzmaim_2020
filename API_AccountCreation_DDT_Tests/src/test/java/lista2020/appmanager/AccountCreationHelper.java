@@ -86,6 +86,7 @@ public class AccountCreationHelper {
             AccountNumber = AccountNumber+1;
             System.out.println("Delete account " + AccountNumber + " code: " + delete_response.getStatusCode());
         }
+        cookies.clear();
     }
 
 }

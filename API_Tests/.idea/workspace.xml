@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="477da253-88be-40ae-98c6-8ed2876fb43d" name="Default Changelist" comment="" />
+    <list default="true" id="477da253-88be-40ae-98c6-8ed2876fb43d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/appmanager/AccountCreationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/appmanager/AccountCreationHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/AccountCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/AccountCreationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/resources/input.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/resources/input.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/im/atzma/lista2020/appmanager/ApplicationRestManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/im/atzma/lista2020/appmanager/ApplicationRestManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/im/atzma/lista2020/appmanager/AppointmentHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/im/atzma/lista2020/appmanager/CookieManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/im/atzma/lista2020/appmanager/CookieManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/im/atzma/lista2020/tests/AppointmentCreationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/im/atzma/lista2020/tests/AppointmentCreationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/im/atzma/lista2020/tests/AppointmentModificationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/im/atzma/lista2020/tests/AppointmentModificationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/resources/testng-AppointmentCreationRest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/resources/testng-AppointmentCreationRest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/resources/testng-AppointmentModificationRest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/resources/testng-AppointmentModificationRest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/ApplicationRestManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/ApplicationRestManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/AppointmentHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/AppointmentRestHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentCreationTests.createAppointment.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentCreationTests.createAppointment.approved.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentModificationTests.createAppointment.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentModificationTests.createAppointment.approved.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentModificationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentModificationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentModificationTests.modifyAppointment.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentModificationTests.modifyAppointment.approved.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng-AppointmentCreationRest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng-AppointmentCreationRest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng-AppointmentModificationRest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng-AppointmentModificationRest.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -73,43 +93,94 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/AppointmentRestHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="200" column="46" selection-start-line="200" selection-start-column="46" selection-end-line="200" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/AccountCreationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="92">
+              <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/testng-AppointmentCreationRest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentModificationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/testng-AppointmentModificationRest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/ServiceCreationHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1344">
+              <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/4.1.2/2ca0ee9995d7de20c0e3ee6cf5916208ad29fcb9/rest-assured-4.1.2-sources.jar!/io/restassured/internal/RequestSpecificationImpl.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16485">
+              <caret line="862" selection-start-line="862" selection-end-line="862" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/4.1.2/2ca0ee9995d7de20c0e3ee6cf5916208ad29fcb9/rest-assured-4.1.2-sources.jar!/io/restassured/RestAssured.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="12852">
+              <caret line="662" selection-start-line="662" selection-end-line="662" />
+              <folding>
+                <element signature="e#26025#26026#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/CookieManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/appmanager/AccountCreationHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-231">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="365">
+              <caret line="88" column="24" selection-start-line="88" selection-start-column="24" selection-end-line="88" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/appmanager/CookieManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="29" column="99" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="99" />
             </state>
           </provider>
         </entry>
@@ -145,7 +216,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/NavigationHelper.java" />
         <option value="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/tests/CreateAppointmentTest.java" />
         <option value="$PROJECT_DIR$/../Selenium_tests/src/test/resources/local.properties" />
         <option value="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/tests/TestBase.java" />
@@ -163,7 +233,6 @@
         <option value="$PROJECT_DIR$/../Selenium_tests/build.gradle" />
         <option value="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/AppointmentHelper.java" />
         <option value="$PROJECT_DIR$/src/test/resources/local.properties" />
-        <option value="$PROJECT_DIR$/src/test/resources/testng-AppointmentCreationRest.xml" />
         <option value="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/ClientCreationTests.java" />
         <option value="$PROJECT_DIR$/../Selenium_tests/src/test/resources/testng-AppointmentCreation.xml" />
         <option value="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/tests/SingupTest.java" />
@@ -178,24 +247,26 @@
         <option value="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/HelperBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/ServiceCreationHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/ClientCreationHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/testng-AppointmentModificationRest.xml" />
         <option value="$PROJECT_DIR$/../API_AccountCreation_Tests/src/test/java/lista2020/tests/AccountCreationTests.java" />
         <option value="$PROJECT_DIR$/../API_AccountCreation_Tests/src/test/java/lista2020/tests/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/resources/rest.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentModificationTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentCreationTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/ApplicationRestManager.java" />
         <option value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/appmanager/Excel.java" />
         <option value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/appmanager/ApplicationRestManager.java" />
         <option value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/TestBase.java" />
         <option value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/appmanager/CookieManager.java" />
-        <option value="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/AppointmentHelper.java" />
-        <option value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/appmanager/AccountCreationHelper.java" />
         <option value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build.gradle" />
-        <option value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/AccountCreationTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/CookieManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/AppointmentHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentModificationTests.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/testng-AppointmentModificationRest.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/AppointmentRestHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/testng-AppointmentCreationRest.xml" />
+        <option value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/AccountCreationTests.java" />
+        <option value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/appmanager/AccountCreationHelper.java" />
       </list>
     </option>
   </component>
@@ -213,7 +284,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="CatdeaLogs" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -338,10 +408,11 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="CatdeaLogs" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587598227427" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587655937283" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/im/atzma/lista2020" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build.gradle" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -383,12 +454,12 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml">
-    <configuration name="AccountCreationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AppointmentCreationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests lista2020.tests.AccountCreationTests" />
+        <option name="scriptParameters" value="--tests im.atzma.lista2020.tests.AppointmentCreationTests" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -423,9 +494,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ClientCreationRest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentModificationRest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="API_Tests.test" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng-ClientCreationRest.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng-AppointmentModificationRest.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -433,9 +504,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ServiceCreationRest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ClientCreationRest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="API_Tests.test" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng-ServiceCreationRest.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng-ClientCreationRest.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -464,21 +535,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.AccountCreationTests" />
+      <item itemvalue="Gradle.AppointmentCreationTests" />
       <item itemvalue="TestNG.F:/Devel_2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AccountCreationRest.xml" />
       <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml" />
       <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentCreationRest.xml" />
-      <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ServiceCreationRest.xml" />
       <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ServiceModificationRest.xml" />
       <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ClientCreationRest.xml" />
+      <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentModificationRest.xml" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ClientCreationRest.xml" />
         <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentCreationRest.xml" />
+        <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentModificationRest.xml" />
+        <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ClientCreationRest.xml" />
+        <item itemvalue="Gradle.AppointmentCreationTests" />
         <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ServiceModificationRest.xml" />
-        <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ServiceCreationRest.xml" />
-        <item itemvalue="Gradle.AccountCreationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -496,34 +567,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_AccountCreation_DDT_Tests_src_test_resources_testng-AccountCreationRest_xml - 2020.04.22 at 20h 37m 43s.xml">
+    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_Tests_src_test_resources_testng-AppointmentModificationRest_xml - 2020.04.23 at 03h 26m 53s.xml">
+      <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentModificationRest.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_Tests_src_test_resources_testng-AppointmentModificationRest_xml - 2020.04.23 at 03h 31m 33s.xml">
+      <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentModificationRest.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_Tests_src_test_resources_testng-AppointmentModificationRest_xml - 2020.04.23 at 03h 36m 05s.xml">
+      <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentModificationRest.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_Tests_src_test_resources_testng-AppointmentModificationRest_xml - 2020.04.23 at 03h 39m 36s.xml">
+      <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentModificationRest.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_Tests_src_test_resources_testng-AppointmentCreationRest_xml - 2020.04.23 at 03h 44m 58s.xml">
+      <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentCreationRest.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_AccountCreation_DDT_Tests_src_test_resources_testng-AccountCreationRest_xml - 2020.04.23 at 18h 19m 34s.xml">
       <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_AccountCreation_DDT_Tests_src_test_resources_testng-AccountCreationRest_xml - 2020.04.22 at 21h 49m 26s.xml">
+    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_AccountCreation_DDT_Tests_src_test_resources_testng-AccountCreationRest_xml - 2020.04.23 at 18h 21m 41s.xml">
       <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_AccountCreation_DDT_Tests_src_test_resources_testng-AccountCreationRest_xml - 2020.04.22 at 21h 55m 48s.xml">
+    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_AccountCreation_DDT_Tests_src_test_resources_testng-AccountCreationRest_xml - 2020.04.23 at 18h 24m 07s.xml">
       <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_AccountCreation_DDT_Tests_src_test_resources_testng-AccountCreationRest_xml - 2020.04.22 at 22h 01m 00s.xml">
+    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_AccountCreation_DDT_Tests_src_test_resources_testng-AccountCreationRest_xml - 2020.04.23 at 18h 28m 46s.xml">
       <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_Tests_src_test_resources_testng-ClientCreationRest_xml - 2020.04.22 at 22h 06m 54s.xml">
-      <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ClientCreationRest.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_Tests_src_test_resources_testng-ClientCreationRest_xml - 2020.04.22 at 22h 07m 42s.xml">
-      <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ClientCreationRest.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_Tests_src_test_resources_testng-ClientCreationRest_xml - 2020.04.22 at 22h 09m 59s.xml">
-      <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ClientCreationRest.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_AccountCreation_DDT_Tests_src_test_resources_testng-AccountCreationRest_xml - 2020.04.22 at 22h 11m 52s.xml">
-      <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_AccountCreation_DDT_Tests_src_test_resources_testng-AccountCreationRest_xml - 2020.04.22 at 23h 48m 38s.xml">
-      <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_AccountCreation_DDT_Tests_src_test_resources_testng-AccountCreationRest_xml - 2020.04.23 at 02h 23m 03s.xml">
+    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_AccountCreation_DDT_Tests_src_test_resources_testng-AccountCreationRest_xml - 2020.04.23 at 18h 33m 26s.xml">
       <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -540,7 +611,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22672065" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22672065" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -550,8 +621,8 @@
       <window_info id="Learn" order="7" weight="0.32955465" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3268206" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.669627" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5452931" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.8312611" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5612789" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.3285968" />
@@ -570,6 +641,37 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22672065" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" weight="0.32955465" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3268206" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.8312611" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5612789" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.3285968" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3285968" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3285968" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.3285968" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.37122557" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.2145749" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -591,32 +693,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/RestRequests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1407">
-          <caret line="79" column="27" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/im/atzma/lista2020/appmanager/tests/dd.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng-ClientModificationRest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/appmanager/RestRequests.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.0.0/5a0241ace5a7b8eb3d31556a7d5dd2b3aae9baf/testng-7.0.0-sources.jar!/org/testng/internal/TestResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -671,13 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentModificationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.0.0/5a0241ace5a7b8eb3d31556a7d5dd2b3aae9baf/testng-7.0.0-sources.jar!/org/testng/TestNG.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
@@ -724,16 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="28" selection-start-line="28" selection-end-line="30" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/ServiceCreationHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="122" column="45" lean-forward="true" selection-start-line="115" selection-start-column="6" selection-end-line="122" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -879,13 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/AppointmentHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentCreationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -903,20 +955,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/AccountCreationHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/AppointmentHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/AccountCreationHelper.java" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -945,30 +984,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/appmanager/AccountCreationHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/CookieManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-231">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="144">
+          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/AppointmentHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testng-ClientCreationRest.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testng-AppointmentCreationRest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testng-AppointmentModificationRest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/ServiceCreationHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1344">
+          <caret line="69" column="22" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/4.1.2/2ca0ee9995d7de20c0e3ee6cf5916208ad29fcb9/rest-assured-4.1.2-sources.jar!/io/restassured/internal/RequestSpecificationImpl.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16485">
+          <caret line="862" selection-start-line="862" selection-end-line="862" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/4.1.2/2ca0ee9995d7de20c0e3ee6cf5916208ad29fcb9/rest-assured-4.1.2-sources.jar!/io/restassured/RestAssured.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12852">
+          <caret line="662" selection-start-line="662" selection-end-line="662" />
+          <folding>
+            <element signature="e#26025#26026#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentModificationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/AppointmentRestHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="200" column="46" selection-start-line="200" selection-start-column="46" selection-end-line="200" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/AccountCreationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="92">
+          <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/CookieManager.java">
+    <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/appmanager/AccountCreationHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+        <state relative-caret-position="365">
+          <caret line="88" column="24" selection-start-line="88" selection-start-column="24" selection-end-line="88" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

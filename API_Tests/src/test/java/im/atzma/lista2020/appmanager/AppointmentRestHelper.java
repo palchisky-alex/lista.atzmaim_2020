@@ -9,22 +9,25 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.Random;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import static io.restassured.RestAssured.given;
 
-public class AppointmentHelper {
+public class AppointmentRestHelper {
     String key;
     String value;
     Response response;
-    String currentTime= LocalDate.now().toString();
+    String currentTime = LocalDate.now().toString();
     static ArrayList<Integer> IDs_list = new ArrayList<>();
+    List<String> slots = new ArrayList<>();
+    String hour;
 
     JsonPath jpath;
     int appointment_id;
 
-    public AppointmentHelper(Map<String, String> firstCookie) {
+    public AppointmentRestHelper(Map<String, String> firstCookie) {
         for (Map.Entry<String, String> entry : firstCookie.entrySet()) {
             key = entry.getKey();
             value = entry.getValue();
@@ -34,12 +37,12 @@ public class AppointmentHelper {
 
     public void createAppointment(int client_id, int service_id, int category_id) {
 
-        Pattern p = Pattern.compile("[\\d][0-3]");
-        Matcher m = p.matcher(currentTime);
-        String newTime = m.replaceAll("");
+//        Pattern p = Pattern.compile("[\\d][0-3]");
+//        Matcher m = p.matcher(currentTime);
+//        String newTime = m.replaceAll("");
 
-        System.out.println("CURRENT TIME: " + newTime);
-        List<String>slots = new ArrayList<>();
+        System.out.println("CURRENT TIME: " + currentTime);
+
         slots.add("T09:00:00");
         slots.add("T10:00:00");
         slots.add("T11:00:00");
@@ -52,47 +55,33 @@ public class AppointmentHelper {
         slots.add("T18:00:00");
         slots.add("T19:00:00");
         slots.add("T20:00:00");
-        List<String>years = new ArrayList<>();
-        years.add("2020");
-        years.add("2021");
-        years.add("2022");
-        years.add("2023");
-        years.add("2024");
-        years.add("2025");
-        years.add("2026");
-        years.add("2027");
-        years.add("2028");
-        years.add("2029");
-        years.add("2030");
-        years.add("2031");
 
-        for (int w = 0; w < years.size(); w++) {
 
-            String year = years.get(w);
-            System.out.println("get year: " + year);
+        for (int i = 0; i < slots.size(); i++) {
 
-            for (int i = 0; i < slots.size(); i++) {
-                String hour = slots.get(i);
-                given().cookies(key, value).
-                        header("content-type", "application/x-www-form-urlencoded").
-                        header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
-                        header("X-Requested-With", "XMLHttpRequest").
-                        formParam("start", year + newTime + hour).
-                        formParam("client_id", client_id).
-                        formParam("worker_id", 1).
-                        formParam("total_price", 50).
-                        formParam("duration", 60).
-                        formParam("services", "[{\"id\":\"" + service_id + "\",\"category\":{\"id\":" + category_id + "},\"count\":1}]").
-                        formParam("note", "call one hour before").
-                        formParam("is_reminders_set", "false").
-                        formParam("address", "Israel, Rokah 18, Ramat Gan").
-                        formParam("added", "2020-03-19T10:30:00").
-                        when().
-                        post("/calendar").
-                        then().
-                        assertThat().
-                        statusCode(201).and().contentType("application/json; charset=utf-8");
-            }
+            hour = slots.get(i);
+            System.out.println("get slot time: " + currentTime + hour);
+
+            given().cookies(key, value).
+                    header("content-type", "application/x-www-form-urlencoded").
+                    header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
+                    header("X-Requested-With", "XMLHttpRequest").
+                    formParam("start", currentTime + hour).
+                    formParam("client_id", client_id).
+                    formParam("worker_id", 1).
+                    formParam("total_price", 50).
+                    formParam("duration", 60).
+                    formParam("services", "[{\"id\":\"" + service_id + "\",\"category\":{\"id\":" + category_id + "},\"count\":1}]").
+                    formParam("note", "call one hour before").
+                    formParam("is_reminders_set", "false").
+                    formParam("address", "Israel, Rokah 18, Ramat Gan").
+                    formParam("added", "2020-03-19T10:30:00").
+                    when().
+                    post("/calendar").
+                    then().
+                    assertThat().
+                    statusCode(201).and().contentType("application/json; charset=utf-8");
+
         }
     }
 
@@ -191,25 +180,28 @@ public class AppointmentHelper {
 
 
     public void modifyAppointment(int client_id, int service_id, int category_id, int appointment_id) {
-        given().cookies(key, value).
-                header("content-type", "application/x-www-form-urlencoded").
-                header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
-                header("X-Requested-With", "XMLHttpRequest").
-                formParam("start", currentTime+"T15:00:00").
-                formParam("client_id", client_id).
-                formParam("worker_id", 1).
-                formParam("total_price", 100).
-                formParam("duration", 120).
-                formParam("services", "[{\"id\":\"" + service_id + "\",\"category\":{\"id\":"+category_id+"},\"count\":1}]").
-                formParam("note", "call one hour after").
-                formParam("is_reminders_set", "false").
-                formParam("address", "Israel, Maron 8, Tel Aviv").
-                formParam("added", currentTime + "T15:00:00").
-                when().
-                put("/calendar/" + appointment_id).
-                then().
-                assertThat().
-                statusCode(200).and().contentType("application/json; charset=utf-8");
+
+            System.out.println("get slot time: " + currentTime + hour);
+
+            given().cookies(key, value).
+                    header("content-type", "application/x-www-form-urlencoded").
+                    header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
+                    header("X-Requested-With", "XMLHttpRequest").
+                    formParam("start", currentTime + hour).
+                    formParam("client_id", client_id).
+                    formParam("worker_id", 1).
+                    formParam("total_price", 100).
+                    formParam("duration", 120).
+                    formParam("services", "[{\"id\":\"" + service_id + "\",\"category\":{\"id\":" + category_id + "},\"count\":1}]").
+                    formParam("note", "call one hour after").
+                    formParam("is_reminders_set", "false").
+                    formParam("address", "Israel, Maron 8, Tel Aviv").
+                    formParam("added", currentTime).
+                    when().
+                    put("/calendar/" + appointment_id).
+                    then().
+                    assertThat().
+                    statusCode(200).and().contentType("application/json; charset=utf-8");
 
     }
 }

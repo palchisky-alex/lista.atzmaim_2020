@@ -1,20 +1,8 @@
 package im.atzma.lista2020.appmanager;
 
-import io.restassured.RestAssured;
-import io.restassured.response.Response;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
-
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
-import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
-import java.util.concurrent.TimeUnit;
 
 import static io.restassured.RestAssured.given;
 import static org.testng.Assert.fail;
@@ -23,7 +11,7 @@ public class ApplicationRestManager {
 
     ServiceCreationHelper serviceCreationHelper;
     ClientCreationHelper clientCreationHelper;
-    AppointmentHelper appointmentHelper;
+    AppointmentRestHelper appointmentHelper;
     RestRequests restRequests;
     Properties properties = new Properties();
 
@@ -36,7 +24,7 @@ public class ApplicationRestManager {
         restRequests.cleaner();
         serviceCreationHelper = new ServiceCreationHelper(firstCookie);
         clientCreationHelper = new ClientCreationHelper(firstCookie);
-        appointmentHelper = new AppointmentHelper(firstCookie);
+        appointmentHelper = new AppointmentRestHelper(firstCookie);
 
 
 
@@ -56,7 +44,7 @@ public class ApplicationRestManager {
         return serviceCreationHelper;
     }
     public ClientCreationHelper clientCreationHelper() { return  clientCreationHelper; }
-    public  AppointmentHelper appointmentHelper() { return  appointmentHelper; }
+    public AppointmentRestHelper appointmentHelper() { return  appointmentHelper; }
     public RestRequests restRequests() {return  restRequests; }
 
 }
