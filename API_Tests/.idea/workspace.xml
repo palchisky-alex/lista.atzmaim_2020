@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="477da253-88be-40ae-98c6-8ed2876fb43d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/appmanager/AccountCreationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/appmanager/AccountCreationHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/AccountCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/AccountCreationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/resources/input.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/resources/input.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/im/atzma/lista2020/appmanager/ApplicationRestManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/im/atzma/lista2020/appmanager/ApplicationRestManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/im/atzma/lista2020/appmanager/AppointmentHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/im/atzma/lista2020/appmanager/CookieManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/im/atzma/lista2020/appmanager/CookieManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/im/atzma/lista2020/tests/AppointmentCreationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/im/atzma/lista2020/tests/AppointmentCreationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/im/atzma/lista2020/tests/AppointmentModificationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/im/atzma/lista2020/tests/AppointmentModificationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/resources/testng-AppointmentCreationRest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/resources/testng-AppointmentCreationRest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/resources/testng-AppointmentModificationRest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/resources/testng-AppointmentModificationRest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/ApplicationRestManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/ApplicationRestManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/AppointmentHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/AppointmentRestHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentCreationTests.createAppointment.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentCreationTests.createAppointment.approved.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentModificationTests.createAppointment.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentModificationTests.createAppointment.approved.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentModificationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentModificationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentModificationTests.modifyAppointment.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentModificationTests.modifyAppointment.approved.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/testng-AppointmentCreationRest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng-AppointmentCreationRest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng-AppointmentModificationRest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng-AppointmentModificationRest.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -113,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/testng-AppointmentCreationRest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="63">
+              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -134,7 +116,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/testng-AppointmentModificationRest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="68">
               <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
             </state>
           </provider>
@@ -173,7 +155,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/appmanager/AccountCreationHelper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="365">
@@ -264,9 +246,9 @@
         <option value="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentModificationTests.java" />
         <option value="$PROJECT_DIR$/src/test/resources/testng-AppointmentModificationRest.xml" />
         <option value="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/AppointmentRestHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/testng-AppointmentCreationRest.xml" />
         <option value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/AccountCreationTests.java" />
         <option value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/appmanager/AccountCreationHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/testng-AppointmentCreationRest.xml" />
       </list>
     </option>
   </component>
@@ -412,7 +394,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587655937283" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587656376823" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/im/atzma/lista2020" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build.gradle" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -611,7 +593,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22672065" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22672065" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -621,7 +603,7 @@
       <window_info id="Learn" order="7" weight="0.32955465" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3268206" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.8312611" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34991118" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5612789" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -641,37 +623,6 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22672065" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Learn" order="7" weight="0.32955465" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3268206" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.8312611" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5612789" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="6" weight="0.3285968" />
-      <window_info anchor="bottom" id="TODO" order="7" weight="0.3285968" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3285968" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.3285968" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.37122557" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" weight="0.2145749" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1001,20 +952,6 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/testng-ClientCreationRest.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng-AppointmentCreationRest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng-AppointmentModificationRest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/ServiceCreationHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1344">
@@ -1073,6 +1010,20 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testng-AppointmentModificationRest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testng-AppointmentCreationRest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
         </state>
       </provider>
     </entry>
