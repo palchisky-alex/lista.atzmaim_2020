@@ -7,12 +7,11 @@ import org.testng.annotations.Test;
 
 public class ServiceCreationTests extends TestBase {
 
-    @Test
+    @Test(priority = 1)
     public void creatNewService() {
         int id = app.serviceCreationHelper().createCategory();
-        for (int i = 0; i <1 ; i++) {
-           app.serviceCreationHelper().createService(id);
-        }
+        app.serviceCreationHelper().createService(id);
+
         Approvals.verify(app.serviceCreationHelper().getServiceList());
     }
 

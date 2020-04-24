@@ -25,20 +25,29 @@ public class AppointmentModificationTests extends TestBase {
         int service_id = app.serviceCreationHelper().getServiceID();
         int client_id = app.clientCreationHelper().getClientID();
         app.clientCreationHelper().modificateClient(client_id);
-        ArrayList<Integer> IDs = app.appointmentHelper().getAppointmentID();
-        for (int i = 0; i < IDs.size(); i++) {
-            int appointment_id = IDs.get(i);
-            app.appointmentHelper().modifyAppointment(client_id, service_id, category_id, appointment_id);
-        }
+        app.appointmentHelper().modifyAppointment(client_id, service_id, category_id);
 
         Approvals.verify(app.appointmentHelper().getAppointmentList());
-
     }
 
     @Test(priority = 3)
     public void deleteAppointment() {
         app.appointmentHelper().deleteAppointment();
         Assert.assertEquals(app.appointmentHelper().getAppointmentString(), "[]");
+    }
 
+    @Test(priority = 4)
+    public void verifyClientAfterAppointmentDeletion() {
+        Approvals.verify(app.clientCreationHelper().getClientList());
+    }
+
+    @Test(priority = 5)
+    public void verifyServiceAfterAppointmentDeletion() {
+        Approvals.verify(app.serviceCreationHelper().getServiceList());
+    }
+
+    @Test(priority = 6)
+    public void verifySettingsAfterAppointmentDeletion() {
+        Approvals.verify(app.appointmentHelper().getSettings());
     }
 }

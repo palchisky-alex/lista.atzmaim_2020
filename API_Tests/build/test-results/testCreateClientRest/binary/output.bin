@@ -1,24 +1,0 @@
-Request method:	POST
--Request URI:	https://lista.atzma.im/clients
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	birthdate=06-26
-				birthyear=1981
-				added=2020-08-02 16:00:00
-)				address=Israel, Rokah 18, Ramat Gan
-				phone=0547613154
-$				email=QA_Test-Before@gmail.com
-(				name=Test_changeClientsData_before
-				gender=male
-				status=status - before
-Path params:	<none>
-/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
-				Accept=*/*
-4				Content-Type=application/x-www-form-urlencoded
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=81150A2C245CDA2A190E7C98FC7DC9AE7BD3DAAC5022861E0BD0786F2B54DCEB
-Multiparts:		<none>
-Body:			<none>
-STATUS POST CODE: 201
-CLIENT ID ====== 1195
-ID of created client: 1195

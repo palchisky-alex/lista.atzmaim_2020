@@ -14,10 +14,10 @@ public class ApplicationRestManager {
     AppointmentRestHelper appointmentHelper;
     RestRequests restRequests;
     Properties properties = new Properties();
+    CookieManager cookieManager = new CookieManager();
 
     public void init() throws IOException, InterruptedException {
 
-        CookieManager cookieManager = new CookieManager();
         Map<String, String> firstCookie = cookieManager.createLoginCookie();
         firstCookie.forEach((k,v)->System.out.println("Key : " + k + " Value : " + v));
         restRequests = new RestRequests(firstCookie);
@@ -26,17 +26,13 @@ public class ApplicationRestManager {
         clientCreationHelper = new ClientCreationHelper(firstCookie);
         appointmentHelper = new AppointmentRestHelper(firstCookie);
 
-
-
-
-
     }
 
 
 
 
     public void stop() throws InterruptedException, IOException {
-
+        cookieManager.deleteAccount();
     }
 
     //    public CookieManager cookieManager() {return cookieManager;}

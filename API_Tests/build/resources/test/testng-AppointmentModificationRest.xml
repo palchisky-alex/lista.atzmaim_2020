@@ -7,7 +7,7 @@
                 <methods>
                     <include name="createAppointment"/>
                     <include name="modifyAppointment"/>
-                    <include name="deleteAppointment"/>
+                    <!--<include name="deleteAppointment"/>-->
                 </methods>
             </class>
         </classes>

@@ -84,11 +84,13 @@ public class ClientCreationHelper {
             System.out.println("client list: " + " = null");
         }
         responseString = response.headers().toString() + "\n\n" + response.body().prettyPrint();
-        responseString = responseString.replaceAll("id.*", "#####");
-        responseString = responseString.replaceAll("profile_image.*", "#####");
-        responseString = responseString.replaceAll("Cookie.*", "#####");
-        responseString = responseString.replaceAll("Expires=Sat, .*", "#####");
-        responseString = responseString.replaceAll("Date=.*", "#####");
+        responseString = responseString.replaceAll("X-Request-Id.*", "###X-Request-Id##");
+        responseString = responseString.replaceAll("last_appointment.*", "###last_appointment##");
+        responseString = responseString.replaceAll("id.*", "##ID##");
+        responseString = responseString.replaceAll("profile_image.*", "###profile_image##");
+        responseString = responseString.replaceAll("Cookie.*", "##Cookie###");
+        responseString = responseString.replaceAll("Expires=Sat, .*", "###Expires=Sat##");
+        responseString = responseString.replaceAll("Date=.*", "###Date##");
         return responseString;
     }
 
@@ -130,7 +132,7 @@ public class ClientCreationHelper {
                 formParam("name", "Test_changeClientsData_after").
                 formParam("email", "QA_Test-After@mail.ru").
                 formParam("phone", "[\"0543666666\", \"033333333\"]").
-                when().
+                when().log().all().
                 put("/clients/" + client_id).then().assertThat().statusCode(204).extract().response();
         System.out.println("STATUS PUT CODE: " + response_post.getStatusCode());
 

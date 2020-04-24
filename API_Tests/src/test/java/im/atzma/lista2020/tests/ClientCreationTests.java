@@ -1,6 +1,7 @@
 package im.atzma.lista2020.tests;
 
 import im.atzma.lista2020.appmanager.RestRequests;
+import org.approvaltests.Approvals;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -12,8 +13,8 @@ public class ClientCreationTests extends TestBase {
 
     @Test
     public void createClient() throws IOException {
-        int id = app.clientCreationHelper().createClient();
-        System.out.println("ID of created client: " + id);
-        Assert.assertTrue(id > 0);
+        app.clientCreationHelper().createClient();
+        Approvals.verify(app.clientCreationHelper().getClientList());
+
     }
 }

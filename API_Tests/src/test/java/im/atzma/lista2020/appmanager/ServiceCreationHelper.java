@@ -37,7 +37,7 @@ public class ServiceCreationHelper {
                 formParam("color", "#50e3c1").
                 formParam("category_id", id).
                 formParam("added", "2020-01-26 21:39:41").
-                when().
+                when().log().all().
                 post("/catalog/services").then().
                 assertThat().
                 statusCode(201).extract().response();
@@ -54,7 +54,7 @@ public class ServiceCreationHelper {
                 header("content-type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 formParam("name", "TestCategory").
-                when().
+                when().log().all().
                 post("/catalog/services/categories").then().
                 assertThat().
                 statusCode(201).extract().response();
@@ -78,10 +78,9 @@ public class ServiceCreationHelper {
 
     public String getServiceList() {
         Response response = given().cookies(key, value).
-                //  header("content-type", "application/json; charset=utf-8").
-                        header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
-                        when().
-                        get("/catalog/services/").then().extract().response();
+                header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
+                when().
+                get("/catalog/services/").then().extract().response();
         responseString = response.asString();
         if (!responseString.equals("[]")) {
 

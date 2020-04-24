@@ -58,37 +58,57 @@ public class AccountCreationHelper {
         System.out.println("Account creation response: " + responseString);
         System.out.println("Create account code: " + post_response.getStatusCode());
 
-        loginCookie = post_response.getCookies();
-
-        for (Map.Entry<String, String> entry : loginCookie.entrySet()) {
-            key = entry.getKey();
-            value = entry.getValue();
-            cookies.add(value);
-        }
+//        loginCookie = post_response.getCookies();
+//
+//        for (Map.Entry<String, String> entry : loginCookie.entrySet()) {
+//            key = entry.getKey();
+//            value = entry.getValue();
+//            cookies.add(value);
+//        }
 
         return responseString;
     }
 
-    public void deleteAccount() {
-        System.out.println("Cookies map size: " + cookies.size());
-        int AccountNumber = 0;
-        for (int i = 0; i < cookies.size(); i++) {
+    public Integer deleteAccount(String email, String pass) {
+        loginCookie = login(email, pass);
 
-            value = cookies.get(i);
-            delete_response = given().cookies(key, value).
-                    header("content-type", "application/x-www-form-urlencoded").
-                    header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
-                    header("X-Requested-With", "XMLHttpRequest").
-                    when().
-                    delete("/settings/business/account").
-                    then().assertThat().statusCode(401).
-                    extract().response();
-            AccountNumber = AccountNumber+1;
-            System.out.println("Delete account " + AccountNumber + " code: " + delete_response.getStatusCode());
+        System.out.println("Cookies map size: " + loginCookie.size());
+        for (Map.Entry<String, String> entry : loginCookie.entrySet()) {
+            value = entry.getValue();
+            cookies.add(value);
         }
-        cookies.clear();
+
+        int AccountNumber = 0;
+
+        delete_response = given().cookies(key, value).
+                header("content-type", "application/x-www-form-urlencoded").
+                header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
+                header("X-Requested-With", "XMLHttpRequest").
+                when().
+                delete("/settings/business/account").
+                then().assertThat().statusCode(401).
+                extract().response();
+        AccountNumber = AccountNumber + 1;
+        System.out.println("Delete account " + AccountNumber + " code: " + delete_response.getStatusCode());
+
+        return cookies.size();
     }
 
+    public Map<String, String> login(String email, String pass) {
+
+        Response response = given().
+                header("Content-Type", "application/x-www-form-urlencoded").
+                header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
+                header("X-Requested-With", "XMLHttpRequest").
+                formParam("time_zone", "Asia/Jerusalem").
+                formParam("email", email).
+                formParam("pass", pass).
+                when().
+                post("/check-login");
+        Map<String, String> loginCookie = response.getCookies();
+        loginCookie.forEach((k, v) -> System.out.println("login cookie : " + k + " Value : " + v));
+        return loginCookie;
+    }
 }
 
 

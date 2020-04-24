@@ -7,7 +7,10 @@
                 <methods>
                     <include name="createAppointment"/>
                     <include name="modifyAppointment"/>
-                    <!--<include name="deleteAppointment"/>-->
+                    <include name="deleteAppointment"/>
+                    <include name="verifyClientAfterAppointmentDeletion"/>
+                    <include name="verifyServiceAfterAppointmentDeletion"/>
+                    <include name="verifySettingsAfterAppointmentDeletion"/>
                 </methods>
             </class>
         </classes>

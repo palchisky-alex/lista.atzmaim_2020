@@ -22,10 +22,12 @@ public class AppointmentRestHelper {
     String currentTime = LocalDate.now().toString();
     static ArrayList<Integer> IDs_list = new ArrayList<>();
     List<String> slots = new ArrayList<>();
+    List<String> start = new ArrayList<>();
     String hour;
 
     JsonPath jpath;
     int appointment_id;
+    int appointment2_id;
 
     public AppointmentRestHelper(Map<String, String> firstCookie) {
         for (Map.Entry<String, String> entry : firstCookie.entrySet()) {
@@ -151,57 +153,72 @@ public class AppointmentRestHelper {
             int id = Integer.parseInt(jp.get("id[" + i + "]").toString());
             IDs_list.add(id);
         }
-
-
+        for (int i = 0; i < IDs; i++) {
+            start.add(jp.get("start[" + i + "]").toString());
+        }
         return IDs_list;
     }
 
-    public void deleteAppointment() {
+    public void modifyAppointment(int client_id, int service_id, int category_id) {
         getAppointmentID();
-        int count = IDs_list.size();
-        System.out.println("== List items size for deletion: " + count + " ==");
-        System.out.print("== Items for deletion:");
-
-        for (int q = 0; q < IDs_list.size(); q++) {
-            System.out.println("== id for deletion: " + IDs_list.get(q) + " ==");
-            appointment_id = IDs_list.get(q);
-            response = given().cookies(key, value).
-                    header("content-type", "application/x-www-form-urlencoded").
-                    header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
-                    when().
-                    delete("/calendar/" + appointment_id).then().assertThat().statusCode(200).extract().response();
-            count = count - 1;
-            System.out.println("STATUS DELETE CODE: " + response.getStatusCode());
-            System.out.println("== Number of deleted item: " + count + " ==");
-        }
-        IDs_list.clear();
-
-    }
-
-
-    public void modifyAppointment(int client_id, int service_id, int category_id, int appointment_id) {
-
-            System.out.println("get slot time: " + currentTime + hour);
+        for (int i = 0; i < IDs_list.size(); i++) {
+            int count = 0;
+            appointment_id = IDs_list.get(i);
+            hour = start.get(i);
+            String[] splitted = hour.split(" ");
+            String data = splitted[0];
+            String time = splitted[1];
 
             given().cookies(key, value).
                     header("content-type", "application/x-www-form-urlencoded").
                     header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                     header("X-Requested-With", "XMLHttpRequest").
-                    formParam("start", currentTime + hour).
+                    formParam("start", data + "T" + time + ":00").
                     formParam("client_id", client_id).
                     formParam("worker_id", 1).
                     formParam("total_price", 100).
-                    formParam("duration", 120).
+                    formParam("duration", 60).
                     formParam("services", "[{\"id\":\"" + service_id + "\",\"category\":{\"id\":" + category_id + "},\"count\":1}]").
                     formParam("note", "call one hour after").
                     formParam("is_reminders_set", "false").
                     formParam("address", "Israel, Maron 8, Tel Aviv").
                     formParam("added", currentTime).
-                    when().
+                    when().log().all().
                     put("/calendar/" + appointment_id).
                     then().
                     assertThat().
                     statusCode(200).and().contentType("application/json; charset=utf-8");
+        }
+    }
 
+    public void deleteAppointment() {
+        IDs_list.clear();
+        getAppointmentID();
+
+        System.out.println("== Appointment for deletion: "+ IDs_list.size() + " ==");
+
+        for (int q = 0; q < IDs_list.size(); q++) {
+            appointment_id = IDs_list.get(q);
+            response = given().cookies(key, value).
+                    header("content-type", "application/x-www-form-urlencoded").
+                    header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
+                    when().log().all().
+                    delete("/calendar/" + appointment_id).then().assertThat().statusCode(200).extract().response();
+
+            System.out.println("STATUS DELETE CODE: " + response.getStatusCode());
+        }
+    }
+
+    public String getSettings() {
+        response = given().cookies(key, value).
+                header("content-type", "application/x-www-form-urlencoded").
+                header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
+                header("X-Requested-With", "XMLHttpRequest").
+                when().
+                get("/settings/business_data").
+                then().
+                extract().response();
+        String responseString = response.asString();
+        return responseString;
     }
 }

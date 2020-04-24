@@ -1,0 +1,24 @@
+Server=nginx
+#####
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Vary=Accept-Encoding
+Set-#####
+#####
+Strict-Transport-Security=max-age=604800
+X-Content-Type-Options=nosniff
+X-Robots-Tag=noindex
+Content-Security-Policy=upgrade-insecure-requests
+X-Powered-By=php/4.3.10-16
+Content-Encoding=gzip
+
+[
+    {
+        "#####
+        "name": "Test_changeClientsData_before",
+        "#####
+        "address": "Israel, Rokah 18, Ramat Gan",
+        "status": "status - before"
+    }
+]

@@ -1,0 +1,61 @@
+Category id = 2368
+NEW SERVICE ID ====== 2377
+Request method:	POST
+-Request URI:	https://lista.atzma.im/clients
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	birthdate=06-26
+				birthyear=1981
+				added=2020-08-02 16:00:00
+)				address=Israel, Rokah 18, Ramat Gan
+				phone=0547613154
+$				email=QA_Test-Before@gmail.com
+(				name=Test_changeClientsData_before
+				gender=male
+				status=status - before
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=A88FFD3E9990ECFA12A9583B39F627542C1FB19D01F4A90E05B84CB8C3BB28DC
+Multiparts:		<none>
+Body:			<none>
+STATUS POST CODE: 201
+CLIENT ID ====== 2385
+CURRENT TIME: 2020-04-24
+$get slot time: 2020-04-24T09:00:00
+$get slot time: 2020-04-24T10:00:00
+$get slot time: 2020-04-24T11:00:00
+$get slot time: 2020-04-24T12:00:00
+$get slot time: 2020-04-24T13:00:00
+$get slot time: 2020-04-24T14:00:00
+$get slot time: 2020-04-24T15:00:00
+$get slot time: 2020-04-24T16:00:00
+$get slot time: 2020-04-24T17:00:00
+$get slot time: 2020-04-24T18:00:00
+$get slot time: 2020-04-24T19:00:00
+$get slot time: 2020-04-24T20:00:00
+Get category ID: 2368
+Get service ID: 2377
+getClientID: 2385
+Request method:	PUT
+2Request URI:	https://lista.atzma.im/clients/2385
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	birthdate=03-01
+				birthyear=1991
+				gender=female
+				status=status - after
+7				address=Russia, Khabarovsk, Krasnorechenskaya 179
+'				name=Test_changeClientsData_after
+!				email=QA_Test-After@mail.ru
+'				phone=["0543666666", "033333333"]
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=A88FFD3E9990ECFA12A9583B39F627542C1FB19D01F4A90E05B84CB8C3BB28DC
+Multiparts:		<none>
+Body:			<none>
