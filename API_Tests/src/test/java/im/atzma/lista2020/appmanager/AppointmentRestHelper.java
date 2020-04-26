@@ -215,8 +215,8 @@ public class AppointmentRestHelper {
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 header("X-Requested-With", "XMLHttpRequest").
                 when().
-                get("/settings/business_data").
-                then().
+                get("/settings/business_data").then().assertThat().statusCode(200).
+                log().all().
                 extract().response();
         String responseString = response.asString();
         return responseString;

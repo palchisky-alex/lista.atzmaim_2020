@@ -20,17 +20,17 @@ public class AccountCreationTests extends TestBase {
         Approvals.verify(app.accountCreationHelper().createAccount(mail, password, city, country, timezone, tel));
     }
 
-    @Test(priority = 3, dataProvider="getDataFromExcel2")
-    public void deleteAccount(String mail, String password) {
-
-        Assert.assertEquals(app.accountCreationHelper().deleteAccount(mail, password), null);
+    @Test(priority = 3)
+    public void deleteAccount() {
+        app.accountCreationHelper().deleteAccount();
+        Assert.assertEquals(app.accountCreationHelper().checkAccountDeletion(), "{}");
     }
 
-
+     //================== @DataProvider ===============================//
     @DataProvider
     public Object[][] getDataFromExcel(){
         Excel excel = new Excel();
-        return excel.getTableArray(System.getProperty("user.dir") + "/src/test/resources/input.xlsx", "TimeZone");
+        return excel.getTableArray(System.getProperty("user.dir") + "/src/test/resources/input.xlsx", "Singup-test");
     }
 
     @DataProvider
