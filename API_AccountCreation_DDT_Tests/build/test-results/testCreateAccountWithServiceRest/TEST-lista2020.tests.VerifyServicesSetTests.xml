@@ -1,0 +1,2327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="lista2020.tests.VerifyServicesSetTests" tests="20" skipped="0" failures="19" errors="0" timestamp="2020-04-26T22:10:28" hostname="DESKTOP-2TPN2B7" time="72.125">
+  <properties/>
+  <testcase name="getHolisticJSON" classname="lista2020.tests.VerifyServicesSetTests" time="4.943">
+    <failure message="java.lang.Error: Failed Approval&#10;  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getHolisticJSON.approved.txt&#10;  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getHolisticJSON.received.txt" type="java.lang.Error">java.lang.Error: Failed Approval
+  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getHolisticJSON.approved.txt
+  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getHolisticJSON.received.txt
+	at org.approvaltests.approvers.FileApprover.fail(FileApprover.java:51)
+	at org.approvaltests.Approvals.verify(Approvals.java:140)
+	at org.approvaltests.Approvals.verify(Approvals.java:121)
+	at org.approvaltests.Approvals.verify(Approvals.java:125)
+	at org.approvaltests.Approvals.verify(Approvals.java:56)
+	at lista2020.tests.VerifyServicesSetTests.getHolisticJSON(VerifyServicesSetTests.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <testcase name="getConsultansJSON" classname="lista2020.tests.VerifyServicesSetTests" time="2.837">
+    <failure message="java.lang.Error: Failed Approval&#10;  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getConsultansJSON.approved.txt&#10;  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getConsultansJSON.received.txt" type="java.lang.Error">java.lang.Error: Failed Approval
+  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getConsultansJSON.approved.txt
+  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getConsultansJSON.received.txt
+	at org.approvaltests.approvers.FileApprover.fail(FileApprover.java:51)
+	at org.approvaltests.Approvals.verify(Approvals.java:140)
+	at org.approvaltests.Approvals.verify(Approvals.java:121)
+	at org.approvaltests.Approvals.verify(Approvals.java:125)
+	at org.approvaltests.Approvals.verify(Approvals.java:56)
+	at lista2020.tests.VerifyServicesSetTests.getConsultansJSON(VerifyServicesSetTests.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <testcase name="getCosmeticsJSON" classname="lista2020.tests.VerifyServicesSetTests" time="2.877">
+    <failure message="java.lang.Error: Failed Approval&#10;  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getCosmeticsJSON.approved.txt&#10;  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getCosmeticsJSON.received.txt" type="java.lang.Error">java.lang.Error: Failed Approval
+  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getCosmeticsJSON.approved.txt
+  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getCosmeticsJSON.received.txt
+	at org.approvaltests.approvers.FileApprover.fail(FileApprover.java:51)
+	at org.approvaltests.Approvals.verify(Approvals.java:140)
+	at org.approvaltests.Approvals.verify(Approvals.java:121)
+	at org.approvaltests.Approvals.verify(Approvals.java:125)
+	at org.approvaltests.Approvals.verify(Approvals.java:56)
+	at lista2020.tests.VerifyServicesSetTests.getCosmeticsJSON(VerifyServicesSetTests.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <testcase name="getHairSalonJSON" classname="lista2020.tests.VerifyServicesSetTests" time="3.162">
+    <failure message="java.lang.Error: Failed Approval&#10;  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getHairSalonJSON.approved.txt&#10;  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getHairSalonJSON.received.txt" type="java.lang.Error">java.lang.Error: Failed Approval
+  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getHairSalonJSON.approved.txt
+  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getHairSalonJSON.received.txt
+	at org.approvaltests.approvers.FileApprover.fail(FileApprover.java:51)
+	at org.approvaltests.Approvals.verify(Approvals.java:140)
+	at org.approvaltests.Approvals.verify(Approvals.java:121)
+	at org.approvaltests.Approvals.verify(Approvals.java:125)
+	at org.approvaltests.Approvals.verify(Approvals.java:56)
+	at lista2020.tests.VerifyServicesSetTests.getHairSalonJSON(VerifyServicesSetTests.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <testcase name="getInteriorJSON" classname="lista2020.tests.VerifyServicesSetTests" time="2.939">
+    <failure message="java.lang.Error: Failed Approval&#10;  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getInteriorJSON.approved.txt&#10;  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getInteriorJSON.received.txt" type="java.lang.Error">java.lang.Error: Failed Approval
+  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getInteriorJSON.approved.txt
+  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getInteriorJSON.received.txt
+	at org.approvaltests.approvers.FileApprover.fail(FileApprover.java:51)
+	at org.approvaltests.Approvals.verify(Approvals.java:140)
+	at org.approvaltests.Approvals.verify(Approvals.java:121)
+	at org.approvaltests.Approvals.verify(Approvals.java:125)
+	at org.approvaltests.Approvals.verify(Approvals.java:56)
+	at lista2020.tests.VerifyServicesSetTests.getInteriorJSON(VerifyServicesSetTests.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <testcase name="getInstallersJSON" classname="lista2020.tests.VerifyServicesSetTests" time="2.784">
+    <failure message="java.lang.Error: Failed Approval&#10;  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getInstallersJSON.approved.txt&#10;  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getInstallersJSON.received.txt" type="java.lang.Error">java.lang.Error: Failed Approval
+  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getInstallersJSON.approved.txt
+  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getInstallersJSON.received.txt
+	at org.approvaltests.approvers.FileApprover.fail(FileApprover.java:51)
+	at org.approvaltests.Approvals.verify(Approvals.java:140)
+	at org.approvaltests.Approvals.verify(Approvals.java:121)
+	at org.approvaltests.Approvals.verify(Approvals.java:125)
+	at org.approvaltests.Approvals.verify(Approvals.java:56)
+	at lista2020.tests.VerifyServicesSetTests.getInstallersJSON(VerifyServicesSetTests.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <testcase name="getMakeupJSON" classname="lista2020.tests.VerifyServicesSetTests" time="3.437">
+    <failure message="java.lang.Error: Failed Approval&#10;  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getMakeupJSON.approved.txt&#10;  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getMakeupJSON.received.txt" type="java.lang.Error">java.lang.Error: Failed Approval
+  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getMakeupJSON.approved.txt
+  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getMakeupJSON.received.txt
+	at org.approvaltests.approvers.FileApprover.fail(FileApprover.java:51)
+	at org.approvaltests.Approvals.verify(Approvals.java:140)
+	at org.approvaltests.Approvals.verify(Approvals.java:121)
+	at org.approvaltests.Approvals.verify(Approvals.java:125)
+	at org.approvaltests.Approvals.verify(Approvals.java:56)
+	at lista2020.tests.VerifyServicesSetTests.getMakeupJSON(VerifyServicesSetTests.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <testcase name="getNailJSON" classname="lista2020.tests.VerifyServicesSetTests" time="2.499">
+    <failure message="java.lang.Error: Failed Approval&#10;  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getNailJSON.approved.txt&#10;  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getNailJSON.received.txt" type="java.lang.Error">java.lang.Error: Failed Approval
+  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getNailJSON.approved.txt
+  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getNailJSON.received.txt
+	at org.approvaltests.approvers.FileApprover.fail(FileApprover.java:51)
+	at org.approvaltests.Approvals.verify(Approvals.java:140)
+	at org.approvaltests.Approvals.verify(Approvals.java:121)
+	at org.approvaltests.Approvals.verify(Approvals.java:125)
+	at org.approvaltests.Approvals.verify(Approvals.java:56)
+	at lista2020.tests.VerifyServicesSetTests.getNailJSON(VerifyServicesSetTests.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <testcase name="getMassageJSON" classname="lista2020.tests.VerifyServicesSetTests" time="2.617">
+    <failure message="java.lang.Error: Failed Approval&#10;  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getMassageJSON.approved.txt&#10;  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getMassageJSON.received.txt" type="java.lang.Error">java.lang.Error: Failed Approval
+  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getMassageJSON.approved.txt
+  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getMassageJSON.received.txt
+	at org.approvaltests.approvers.FileApprover.fail(FileApprover.java:51)
+	at org.approvaltests.Approvals.verify(Approvals.java:140)
+	at org.approvaltests.Approvals.verify(Approvals.java:121)
+	at org.approvaltests.Approvals.verify(Approvals.java:125)
+	at org.approvaltests.Approvals.verify(Approvals.java:56)
+	at lista2020.tests.VerifyServicesSetTests.getMassageJSON(VerifyServicesSetTests.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <testcase name="getMoversJSON" classname="lista2020.tests.VerifyServicesSetTests" time="2.513">
+    <failure message="java.lang.Error: Failed Approval&#10;  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getMoversJSON.approved.txt&#10;  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getMoversJSON.received.txt" type="java.lang.Error">java.lang.Error: Failed Approval
+  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getMoversJSON.approved.txt
+  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getMoversJSON.received.txt
+	at org.approvaltests.approvers.FileApprover.fail(FileApprover.java:51)
+	at org.approvaltests.Approvals.verify(Approvals.java:140)
+	at org.approvaltests.Approvals.verify(Approvals.java:121)
+	at org.approvaltests.Approvals.verify(Approvals.java:125)
+	at org.approvaltests.Approvals.verify(Approvals.java:56)
+	at lista2020.tests.VerifyServicesSetTests.getMoversJSON(VerifyServicesSetTests.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <testcase name="getNutritionistsJSON" classname="lista2020.tests.VerifyServicesSetTests" time="3.066">
+    <failure message="java.lang.Error: Failed Approval&#10;  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getNutritionistsJSON.approved.txt&#10;  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getNutritionistsJSON.received.txt" type="java.lang.Error">java.lang.Error: Failed Approval
+  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getNutritionistsJSON.approved.txt
+  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getNutritionistsJSON.received.txt
+	at org.approvaltests.approvers.FileApprover.fail(FileApprover.java:51)
+	at org.approvaltests.Approvals.verify(Approvals.java:140)
+	at org.approvaltests.Approvals.verify(Approvals.java:121)
+	at org.approvaltests.Approvals.verify(Approvals.java:125)
+	at org.approvaltests.Approvals.verify(Approvals.java:56)
+	at lista2020.tests.VerifyServicesSetTests.getNutritionistsJSON(VerifyServicesSetTests.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <testcase name="getPestJSON" classname="lista2020.tests.VerifyServicesSetTests" time="2.59">
+    <failure message="java.lang.Error: Failed Approval&#10;  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getPestJSON.approved.txt&#10;  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getPestJSON.received.txt" type="java.lang.Error">java.lang.Error: Failed Approval
+  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getPestJSON.approved.txt
+  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getPestJSON.received.txt
+	at org.approvaltests.approvers.FileApprover.fail(FileApprover.java:51)
+	at org.approvaltests.Approvals.verify(Approvals.java:140)
+	at org.approvaltests.Approvals.verify(Approvals.java:121)
+	at org.approvaltests.Approvals.verify(Approvals.java:125)
+	at org.approvaltests.Approvals.verify(Approvals.java:56)
+	at lista2020.tests.VerifyServicesSetTests.getPestJSON(VerifyServicesSetTests.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <testcase name="getTeachersJSON" classname="lista2020.tests.VerifyServicesSetTests" time="2.428">
+    <failure message="java.lang.Error: Failed Approval&#10;  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getTeachersJSON.approved.txt&#10;  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getTeachersJSON.received.txt" type="java.lang.Error">java.lang.Error: Failed Approval
+  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getTeachersJSON.approved.txt
+  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getTeachersJSON.received.txt
+	at org.approvaltests.approvers.FileApprover.fail(FileApprover.java:51)
+	at org.approvaltests.Approvals.verify(Approvals.java:140)
+	at org.approvaltests.Approvals.verify(Approvals.java:121)
+	at org.approvaltests.Approvals.verify(Approvals.java:125)
+	at org.approvaltests.Approvals.verify(Approvals.java:56)
+	at lista2020.tests.VerifyServicesSetTests.getTeachersJSON(VerifyServicesSetTests.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <testcase name="getSalesJSON" classname="lista2020.tests.VerifyServicesSetTests" time="2.628">
+    <failure message="java.lang.Error: Failed Approval&#10;  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getSalesJSON.approved.txt&#10;  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getSalesJSON.received.txt" type="java.lang.Error">java.lang.Error: Failed Approval
+  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getSalesJSON.approved.txt
+  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getSalesJSON.received.txt
+	at org.approvaltests.approvers.FileApprover.fail(FileApprover.java:51)
+	at org.approvaltests.Approvals.verify(Approvals.java:140)
+	at org.approvaltests.Approvals.verify(Approvals.java:121)
+	at org.approvaltests.Approvals.verify(Approvals.java:125)
+	at org.approvaltests.Approvals.verify(Approvals.java:56)
+	at lista2020.tests.VerifyServicesSetTests.getSalesJSON(VerifyServicesSetTests.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <testcase name="getServiceProvidersJSON" classname="lista2020.tests.VerifyServicesSetTests" time="3.017">
+    <failure message="java.lang.Error: Failed Approval&#10;  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getServiceProvidersJSON.approved.txt&#10;  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getServiceProvidersJSON.received.txt" type="java.lang.Error">java.lang.Error: Failed Approval
+  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getServiceProvidersJSON.approved.txt
+  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getServiceProvidersJSON.received.txt
+	at org.approvaltests.approvers.FileApprover.fail(FileApprover.java:51)
+	at org.approvaltests.Approvals.verify(Approvals.java:140)
+	at org.approvaltests.Approvals.verify(Approvals.java:121)
+	at org.approvaltests.Approvals.verify(Approvals.java:125)
+	at org.approvaltests.Approvals.verify(Approvals.java:56)
+	at lista2020.tests.VerifyServicesSetTests.getServiceProvidersJSON(VerifyServicesSetTests.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <testcase name="getPersonalJSON" classname="lista2020.tests.VerifyServicesSetTests" time="3.392">
+    <failure message="java.lang.Error: Failed Approval&#10;  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getPersonalJSON.approved.txt&#10;  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getPersonalJSON.received.txt" type="java.lang.Error">java.lang.Error: Failed Approval
+  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getPersonalJSON.approved.txt
+  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getPersonalJSON.received.txt
+	at org.approvaltests.approvers.FileApprover.fail(FileApprover.java:51)
+	at org.approvaltests.Approvals.verify(Approvals.java:140)
+	at org.approvaltests.Approvals.verify(Approvals.java:121)
+	at org.approvaltests.Approvals.verify(Approvals.java:125)
+	at org.approvaltests.Approvals.verify(Approvals.java:56)
+	at lista2020.tests.VerifyServicesSetTests.getPersonalJSON(VerifyServicesSetTests.java:88)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <testcase name="getTattooJSON" classname="lista2020.tests.VerifyServicesSetTests" time="3.305">
+    <failure message="java.lang.Error: Failed Approval&#10;  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getTattooJSON.approved.txt&#10;  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getTattooJSON.received.txt" type="java.lang.Error">java.lang.Error: Failed Approval
+  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getTattooJSON.approved.txt
+  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getTattooJSON.received.txt
+	at org.approvaltests.approvers.FileApprover.fail(FileApprover.java:51)
+	at org.approvaltests.Approvals.verify(Approvals.java:140)
+	at org.approvaltests.Approvals.verify(Approvals.java:121)
+	at org.approvaltests.Approvals.verify(Approvals.java:125)
+	at org.approvaltests.Approvals.verify(Approvals.java:56)
+	at lista2020.tests.VerifyServicesSetTests.getTattooJSON(VerifyServicesSetTests.java:93)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <testcase name="getTherapistsJSON" classname="lista2020.tests.VerifyServicesSetTests" time="3.463">
+    <failure message="java.lang.Error: Failed Approval&#10;  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getTherapistsJSON.approved.txt&#10;  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getTherapistsJSON.received.txt" type="java.lang.Error">java.lang.Error: Failed Approval
+  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getTherapistsJSON.approved.txt
+  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getTherapistsJSON.received.txt
+	at org.approvaltests.approvers.FileApprover.fail(FileApprover.java:51)
+	at org.approvaltests.Approvals.verify(Approvals.java:140)
+	at org.approvaltests.Approvals.verify(Approvals.java:121)
+	at org.approvaltests.Approvals.verify(Approvals.java:125)
+	at org.approvaltests.Approvals.verify(Approvals.java:56)
+	at lista2020.tests.VerifyServicesSetTests.getTherapistsJSON(VerifyServicesSetTests.java:98)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <testcase name="getAllTypeJSON" classname="lista2020.tests.VerifyServicesSetTests" time="3.105">
+    <failure message="java.lang.Error: Failed Approval&#10;  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getAllTypeJSON.approved.txt&#10;  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getAllTypeJSON.received.txt" type="java.lang.Error">java.lang.Error: Failed Approval
+  Approved:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getAllTypeJSON.approved.txt
+  Received:D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getAllTypeJSON.received.txt
+	at org.approvaltests.approvers.FileApprover.fail(FileApprover.java:51)
+	at org.approvaltests.Approvals.verify(Approvals.java:140)
+	at org.approvaltests.Approvals.verify(Approvals.java:121)
+	at org.approvaltests.Approvals.verify(Approvals.java:125)
+	at org.approvaltests.Approvals.verify(Approvals.java:56)
+	at lista2020.tests.VerifyServicesSetTests.getAllTypeJSON(VerifyServicesSetTests.java:103)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.testng.TestRunner.privateRun(TestRunner.java:770)
+	at org.testng.TestRunner.run(TestRunner.java:591)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+	at org.testng.TestNG.runSuites(TestNG.java:1032)
+	at org.testng.TestNG.run(TestNG.java:1000)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:141)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:90)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:61)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.stop(TestWorker.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:412)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.lang.Thread.run(Thread.java:748)
+</failure>
+  </testcase>
+  <testcase name="deleteAccount" classname="lista2020.tests.VerifyServicesSetTests" time="14.476"/>
+  <system-out><![CDATA[=== ACCOUNT: api_servicetest189054288@gmail.com ===
+Request method:	POST
+Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	added=2020-04-27 01:10:28
+				email=api_servicetest189054288@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[1]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Account creation response: /en/calendar
+Create account code: 201
+Cookie value account creation : 8463E57E9F6BC9D2296032177FE7C9F0B6F6EC9D2EB8149247F4544C7E44FE8B
+Request method:	GET
+Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=8463E57E9F6BC9D2296032177FE7C9F0B6F6EC9D2EB8149247F4544C7E44FE8B
+Multiparts:		<none>
+Body:			<none>
+move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getHolisticJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getHolisticJSON.approved.txt"
+=== ACCOUNT: api_servicetest943513205@gmail.com ===
+Request method:	POST
+Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	added=2020-04-27 01:10:28
+				email=api_servicetest943513205@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[2]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Account creation response: /en/calendar
+Create account code: 201
+Cookie value account creation : 28FC28620D84093516E1ECEE66D9C7F2598471AA18E0009CC59E670C0B5A8B17
+Request method:	GET
+Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=28FC28620D84093516E1ECEE66D9C7F2598471AA18E0009CC59E670C0B5A8B17
+Multiparts:		<none>
+Body:			<none>
+move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getConsultansJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getConsultansJSON.approved.txt"
+=== ACCOUNT: api_servicetest-765668705@gmail.com ===
+Request method:	POST
+Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	added=2020-04-27 01:10:28
+				email=api_servicetest-765668705@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[3]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Account creation response: /en/calendar
+Create account code: 201
+Cookie value account creation : F58FD29C608EA4E8B8C17A20E66ADEFC7593D90638B5BB86AF6D24F40AF012D7
+Request method:	GET
+Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=F58FD29C608EA4E8B8C17A20E66ADEFC7593D90638B5BB86AF6D24F40AF012D7
+Multiparts:		<none>
+Body:			<none>
+move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getCosmeticsJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getCosmeticsJSON.approved.txt"
+=== ACCOUNT: api_servicetest-1214094535@gmail.com ===
+Request method:	POST
+Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	added=2020-04-27 01:10:28
+				email=api_servicetest-1214094535@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[4]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Account creation response: /en/calendar
+Create account code: 201
+Cookie value account creation : 21F8BFDF2F6C226F3384805041404DF76A4C83EA6165B607B90617EC24BE476B
+Request method:	GET
+Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=21F8BFDF2F6C226F3384805041404DF76A4C83EA6165B607B90617EC24BE476B
+Multiparts:		<none>
+Body:			<none>
+move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getHairSalonJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getHairSalonJSON.approved.txt"
+=== ACCOUNT: api_servicetest-824186078@gmail.com ===
+Request method:	POST
+Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	added=2020-04-27 01:10:28
+				email=api_servicetest-824186078@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[5]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Account creation response: /en/calendar
+Create account code: 201
+Cookie value account creation : 55517A80B695140AF0571D3EDB09531816A6EC08A6D6DF8EC0CB708191A8A12C
+Request method:	GET
+Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=55517A80B695140AF0571D3EDB09531816A6EC08A6D6DF8EC0CB708191A8A12C
+Multiparts:		<none>
+Body:			<none>
+move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getInteriorJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getInteriorJSON.approved.txt"
+=== ACCOUNT: api_servicetest730710264@gmail.com ===
+Request method:	POST
+Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	added=2020-04-27 01:10:28
+				email=api_servicetest730710264@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[6]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Account creation response: /en/calendar
+Create account code: 201
+Cookie value account creation : BCDC565F40E183713C5097F86884A0B5FFA7122919FBA8248965D9B80BC9DA2B
+Request method:	GET
+Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=BCDC565F40E183713C5097F86884A0B5FFA7122919FBA8248965D9B80BC9DA2B
+Multiparts:		<none>
+Body:			<none>
+move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getInstallersJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getInstallersJSON.approved.txt"
+=== ACCOUNT: api_servicetest-2092549810@gmail.com ===
+Request method:	POST
+Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	added=2020-04-27 01:10:28
+				email=api_servicetest-2092549810@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[7]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Account creation response: /en/calendar
+Create account code: 201
+Cookie value account creation : 1E139010C960EA9283C7CB7C8FD61CF40D97B44D34C9E05D2AEF583BC4F8022F
+Request method:	GET
+Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=1E139010C960EA9283C7CB7C8FD61CF40D97B44D34C9E05D2AEF583BC4F8022F
+Multiparts:		<none>
+Body:			<none>
+move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getMakeupJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getMakeupJSON.approved.txt"
+=== ACCOUNT: api_servicetest-1456831931@gmail.com ===
+Request method:	POST
+Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	added=2020-04-27 01:10:28
+				email=api_servicetest-1456831931@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[8]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Account creation response: /en/calendar
+Create account code: 201
+Cookie value account creation : C27E25D6FACB2B78845E15EBB0BB3BE69156B70B4E0400F52228B3E225E8F99A
+Request method:	GET
+Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=C27E25D6FACB2B78845E15EBB0BB3BE69156B70B4E0400F52228B3E225E8F99A
+Multiparts:		<none>
+Body:			<none>
+move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getNailJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getNailJSON.approved.txt"
+=== ACCOUNT: api_servicetest-924542230@gmail.com ===
+Request method:	POST
+Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	added=2020-04-27 01:10:28
+				email=api_servicetest-924542230@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[9]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Account creation response: /en/calendar
+Create account code: 201
+Cookie value account creation : E406C4686E1469A47D391830E2F64CBF661B5225FD0906CA3AE45164113F1CBF
+Request method:	GET
+Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B5225FD0906CA3AE45164113F1CBF
+Multiparts:		<none>
+Body:			<none>
+move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getMassageJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getMassageJSON.approved.txt"
+=== ACCOUNT: api_servicetest-1741860070@gmail.com ===
+Request method:	POST
+Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	added=2020-04-27 01:10:28
+				email=api_servicetest-1741860070@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[10]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Account creation response: /en/calendar
+Create account code: 201
+Cookie value account creation : 78B4700A309E1C917D9B985B4762F7848D771F651762215DE460E82B25E516F5
+Request method:	GET
+Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=78B4700A309E1C917D9B985B4762F7848D771F651762215DE460E82B25E516F5
+Multiparts:		<none>
+Body:			<none>
+move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getMoversJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getMoversJSON.approved.txt"
+=== ACCOUNT: api_servicetest-1806828356@gmail.com ===
+Request method:	POST
+Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	added=2020-04-27 01:10:28
+				email=api_servicetest-1806828356@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[11]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Account creation response: /en/calendar
+Create account code: 201
+Cookie value account creation : 608B9F5BE62BB27E500C0D66FCECA4C1C12EF1CF0641CEAA44E187722C34ACA9
+Request method:	GET
+Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=608B9F5BE62BB27E500C0D66FCECA4C1C12EF1CF0641CEAA44E187722C34ACA9
+Multiparts:		<none>
+Body:			<none>
+move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getNutritionistsJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getNutritionistsJSON.approved.txt"
+=== ACCOUNT: api_servicetest1895889677@gmail.com ===
+Request method:	POST
+Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	added=2020-04-27 01:10:28
+				email=api_servicetest1895889677@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[12]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Account creation response: /en/calendar
+Create account code: 201
+Cookie value account creation : B40AE7B59C594E76167E79D2D5DEEA35A850760A915A15CF9518CE8861C14C2B
+Request method:	GET
+Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=B40AE7B59C594E76167E79D2D5DEEA35A850760A915A15CF9518CE8861C14C2B
+Multiparts:		<none>
+Body:			<none>
+move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getPestJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getPestJSON.approved.txt"
+=== ACCOUNT: api_servicetest757200374@gmail.com ===
+Request method:	POST
+Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	added=2020-04-27 01:10:28
+				email=api_servicetest757200374@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[13]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Account creation response: /en/calendar
+Create account code: 201
+Cookie value account creation : E2F8BD55A1B4DF662EB89169B49FA7373016373F4559139F876F762AB2ACFB28
+Request method:	GET
+Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E2F8BD55A1B4DF662EB89169B49FA7373016373F4559139F876F762AB2ACFB28
+Multiparts:		<none>
+Body:			<none>
+move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getTeachersJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getTeachersJSON.approved.txt"
+=== ACCOUNT: api_servicetest1872576526@gmail.com ===
+Request method:	POST
+Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	added=2020-04-27 01:10:28
+				email=api_servicetest1872576526@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[14]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Account creation response: /en/calendar
+Create account code: 201
+Cookie value account creation : E73B0504E131A21CCE7B8F775CA7D32A2EDB51C3ED89F713C3F9A214EEB0C0F5
+Request method:	GET
+Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E73B0504E131A21CCE7B8F775CA7D32A2EDB51C3ED89F713C3F9A214EEB0C0F5
+Multiparts:		<none>
+Body:			<none>
+move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getSalesJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getSalesJSON.approved.txt"
+=== ACCOUNT: api_servicetest-993576953@gmail.com ===
+Request method:	POST
+Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	added=2020-04-27 01:10:28
+				email=api_servicetest-993576953@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[15]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Account creation response: /en/calendar
+Create account code: 201
+Cookie value account creation : 9446E888F80B08F85B5C2ECD234942D8A5EF8100F96290BE899BF80DF507D8C3
+Request method:	GET
+Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=9446E888F80B08F85B5C2ECD234942D8A5EF8100F96290BE899BF80DF507D8C3
+Multiparts:		<none>
+Body:			<none>
+move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getServiceProvidersJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getServiceProvidersJSON.approved.txt"
+=== ACCOUNT: api_servicetest-1484453125@gmail.com ===
+Request method:	POST
+Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	added=2020-04-27 01:10:28
+				email=api_servicetest-1484453125@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[16]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Account creation response: /en/calendar
+Create account code: 201
+Cookie value account creation : C7BD00542FA63EFA61910AB53178C79B97615D9C6658B5F8A43497EDAF3D34FF
+Request method:	GET
+Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=C7BD00542FA63EFA61910AB53178C79B97615D9C6658B5F8A43497EDAF3D34FF
+Multiparts:		<none>
+Body:			<none>
+move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getPersonalJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getPersonalJSON.approved.txt"
+=== ACCOUNT: api_servicetest277959166@gmail.com ===
+Request method:	POST
+Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	added=2020-04-27 01:10:28
+				email=api_servicetest277959166@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[17]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Account creation response: /en/calendar
+Create account code: 201
+Cookie value account creation : 1E67A19137D8F42791E78E0FC901154DF654242ACCF261FFB7CAF7DBB8108E72
+Request method:	GET
+Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=1E67A19137D8F42791E78E0FC901154DF654242ACCF261FFB7CAF7DBB8108E72
+Multiparts:		<none>
+Body:			<none>
+move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getTattooJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getTattooJSON.approved.txt"
+=== ACCOUNT: api_servicetest1388627347@gmail.com ===
+Request method:	POST
+Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	added=2020-04-27 01:10:28
+				email=api_servicetest1388627347@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[18]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Account creation response: /en/calendar
+Create account code: 201
+Cookie value account creation : 35D9973F6C1CE18AB08597A7DB342979B2D72FFCB49B325FC24539DC9E5CDFB2
+Request method:	GET
+Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=35D9973F6C1CE18AB08597A7DB342979B2D72FFCB49B325FC24539DC9E5CDFB2
+Multiparts:		<none>
+Body:			<none>
+move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getTherapistsJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getTherapistsJSON.approved.txt"
+=== ACCOUNT: api_servicetest-815547566@gmail.com ===
+Request method:	POST
+Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	added=2020-04-27 01:10:28
+				email=api_servicetest-815547566@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Account creation response: /en/calendar
+Create account code: 201
+Cookie value account creation : D47753F257F73D9D0C5ABC35EC41ACB500384B30618D8AFB3EDD8235EEF23134
+Request method:	GET
+Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=D47753F257F73D9D0C5ABC35EC41ACB500384B30618D8AFB3EDD8235EEF23134
+Multiparts:		<none>
+Body:			<none>
+move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getAllTypeJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getAllTypeJSON.approved.txt"
+//----------------------- DELETION ------------------------//
+== ACCOUNTS FOR DELETION: 19
+Request method:	DELETE
+Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=8463E57E9F6BC9D2296032177FE7C9F0B6F6EC9D2EB8149247F4544C7E44FE8B
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=28FC28620D84093516E1ECEE66D9C7F2598471AA18E0009CC59E670C0B5A8B17
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=F58FD29C608EA4E8B8C17A20E66ADEFC7593D90638B5BB86AF6D24F40AF012D7
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=21F8BFDF2F6C226F3384805041404DF76A4C83EA6165B607B90617EC24BE476B
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=55517A80B695140AF0571D3EDB09531816A6EC08A6D6DF8EC0CB708191A8A12C
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=BCDC565F40E183713C5097F86884A0B5FFA7122919FBA8248965D9B80BC9DA2B
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=1E139010C960EA9283C7CB7C8FD61CF40D97B44D34C9E05D2AEF583BC4F8022F
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=C27E25D6FACB2B78845E15EBB0BB3BE69156B70B4E0400F52228B3E225E8F99A
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B5225FD0906CA3AE45164113F1CBF
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=78B4700A309E1C917D9B985B4762F7848D771F651762215DE460E82B25E516F5
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=608B9F5BE62BB27E500C0D66FCECA4C1C12EF1CF0641CEAA44E187722C34ACA9
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=B40AE7B59C594E76167E79D2D5DEEA35A850760A915A15CF9518CE8861C14C2B
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E2F8BD55A1B4DF662EB89169B49FA7373016373F4559139F876F762AB2ACFB28
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E73B0504E131A21CCE7B8F775CA7D32A2EDB51C3ED89F713C3F9A214EEB0C0F5
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=9446E888F80B08F85B5C2ECD234942D8A5EF8100F96290BE899BF80DF507D8C3
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=C7BD00542FA63EFA61910AB53178C79B97615D9C6658B5F8A43497EDAF3D34FF
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=1E67A19137D8F42791E78E0FC901154DF654242ACCF261FFB7CAF7DBB8108E72
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=35D9973F6C1CE18AB08597A7DB342979B2D72FFCB49B325FC24539DC9E5CDFB2
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=D47753F257F73D9D0C5ABC35EC41ACB500384B30618D8AFB3EDD8235EEF23134
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Deleted mail - api_servicetest-2092549810@gmail.com
+Deleted password - Pa$$w@rd
+Deleted mail - api_servicetest-1806828356@gmail.com
+Deleted password - Pa$$w@rd
+Deleted mail - api_servicetest-993576953@gmail.com
+Deleted password - Pa$$w@rd
+Deleted mail - api_servicetest1388627347@gmail.com
+Deleted password - Pa$$w@rd
+Deleted mail - api_servicetest-924542230@gmail.com
+Deleted password - Pa$$w@rd
+Deleted mail - api_servicetest277959166@gmail.com
+Deleted password - Pa$$w@rd
+Deleted mail - api_servicetest-824186078@gmail.com
+Deleted password - Pa$$w@rd
+Deleted mail - api_servicetest757200374@gmail.com
+Deleted password - Pa$$w@rd
+Deleted mail - api_servicetest-815547566@gmail.com
+Deleted password - Pa$$w@rd
+Deleted mail - api_servicetest-1456831931@gmail.com
+Deleted password - Pa$$w@rd
+Deleted mail - api_servicetest1872576526@gmail.com
+Deleted password - Pa$$w@rd
+Deleted mail - api_servicetest189054288@gmail.com
+Deleted password - Pa$$w@rd
+Deleted mail - api_servicetest943513205@gmail.com
+Deleted password - Pa$$w@rd
+Deleted mail - api_servicetest-1741860070@gmail.com
+Deleted password - Pa$$w@rd
+Deleted mail - api_servicetest1895889677@gmail.com
+Deleted password - Pa$$w@rd
+Deleted mail - api_servicetest-1214094535@gmail.com
+Deleted password - Pa$$w@rd
+Deleted mail - api_servicetest-1484453125@gmail.com
+Deleted password - Pa$$w@rd
+Deleted mail - api_servicetest-765668705@gmail.com
+Deleted password - Pa$$w@rd
+Deleted mail - api_servicetest730710264@gmail.com
+Deleted password - Pa$$w@rd
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,1125 @@
+5=== ACCOUNT: api_servicetest189054288@gmail.com ===
+Request method:	POST
+8Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+(Form params:	added=2020-04-27 01:10:28
+.				email=api_servicetest189054288@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[1]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+)Account creation response: /en/calendar
+Create account code: 201
+bCookie value account creation : 8463E57E9F6BC9D2296032177FE7C9F0B6F6EC9D2EB8149247F4544C7E44FE8B
+Request method:	GET
+7Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=8463E57E9F6BC9D2296032177FE7C9F0B6F6EC9D2EB8149247F4544C7E44FE8B
+Multiparts:		<none>
+Body:			<none>
+¾move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getHolisticJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getHolisticJSON.approved.txt"
+5=== ACCOUNT: api_servicetest943513205@gmail.com ===
+Request method:	POST
+8Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+(Form params:	added=2020-04-27 01:10:28
+.				email=api_servicetest943513205@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[2]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+)Account creation response: /en/calendar
+Create account code: 201
+bCookie value account creation : 28FC28620D84093516E1ECEE66D9C7F2598471AA18E0009CC59E670C0B5A8B17
+Request method:	GET
+7Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=28FC28620D84093516E1ECEE66D9C7F2598471AA18E0009CC59E670C0B5A8B17
+Multiparts:		<none>
+Body:			<none>
+Âmove /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getConsultansJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getConsultansJSON.approved.txt"
+6=== ACCOUNT: api_servicetest-765668705@gmail.com ===
+Request method:	POST
+8Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+(Form params:	added=2020-04-27 01:10:28
+/				email=api_servicetest-765668705@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[3]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+)Account creation response: /en/calendar
+Create account code: 201
+bCookie value account creation : F58FD29C608EA4E8B8C17A20E66ADEFC7593D90638B5BB86AF6D24F40AF012D7
+Request method:	GET
+7Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=F58FD29C608EA4E8B8C17A20E66ADEFC7593D90638B5BB86AF6D24F40AF012D7
+Multiparts:		<none>
+Body:			<none>
+Àmove /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getCosmeticsJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getCosmeticsJSON.approved.txt"
+7=== ACCOUNT: api_servicetest-1214094535@gmail.com ===
+Request method:	POST
+8Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+(Form params:	added=2020-04-27 01:10:28
+0				email=api_servicetest-1214094535@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[4]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+)Account creation response: /en/calendar
+Create account code: 201
+bCookie value account creation : 21F8BFDF2F6C226F3384805041404DF76A4C83EA6165B607B90617EC24BE476B
+Request method:	GET
+7Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=21F8BFDF2F6C226F3384805041404DF76A4C83EA6165B607B90617EC24BE476B
+Multiparts:		<none>
+Body:			<none>
+Àmove /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getHairSalonJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getHairSalonJSON.approved.txt"
+6=== ACCOUNT: api_servicetest-824186078@gmail.com ===
+Request method:	POST
+8Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+(Form params:	added=2020-04-27 01:10:28
+/				email=api_servicetest-824186078@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[5]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+)Account creation response: /en/calendar
+Create account code: 201
+bCookie value account creation : 55517A80B695140AF0571D3EDB09531816A6EC08A6D6DF8EC0CB708191A8A12C
+Request method:	GET
+7Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=55517A80B695140AF0571D3EDB09531816A6EC08A6D6DF8EC0CB708191A8A12C
+Multiparts:		<none>
+Body:			<none>
+¾move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getInteriorJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getInteriorJSON.approved.txt"
+5=== ACCOUNT: api_servicetest730710264@gmail.com ===
+Request method:	POST
+8Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+(Form params:	added=2020-04-27 01:10:28
+.				email=api_servicetest730710264@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[6]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+)Account creation response: /en/calendar
+Create account code: 201
+bCookie value account creation : BCDC565F40E183713C5097F86884A0B5FFA7122919FBA8248965D9B80BC9DA2B
+Request method:	GET
+7Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=BCDC565F40E183713C5097F86884A0B5FFA7122919FBA8248965D9B80BC9DA2B
+Multiparts:		<none>
+Body:			<none>
+Âmove /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getInstallersJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getInstallersJSON.approved.txt"
+7=== ACCOUNT: api_servicetest-2092549810@gmail.com ===
+Request method:	POST
+8Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+(Form params:	added=2020-04-27 01:10:28
+0				email=api_servicetest-2092549810@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[7]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+)Account creation response: /en/calendar
+Create account code: 201
+bCookie value account creation : 1E139010C960EA9283C7CB7C8FD61CF40D97B44D34C9E05D2AEF583BC4F8022F
+Request method:	GET
+7Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=1E139010C960EA9283C7CB7C8FD61CF40D97B44D34C9E05D2AEF583BC4F8022F
+Multiparts:		<none>
+Body:			<none>
+ºmove /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getMakeupJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getMakeupJSON.approved.txt"
+	7=== ACCOUNT: api_servicetest-1456831931@gmail.com ===
+	Request method:	POST
+	8Request URI:	https://lista.atzma.im/signup-new-account
+	Proxy:			<none>
+	Request params:	<none>
+	Query params:	<none>
+	(Form params:	added=2020-04-27 01:10:28
+	0				email=api_servicetest-1456831931@gmail.com
+					pass=Pa$$w@rd
+					phone=0547613154
+					permit_ads=true
+					business_types=[8]
+					lang=en
+					timezone=Asia/Jerusalem
+					country=IL
+					city=Tel Aviv
+	Path params:	<none>
+	/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+	%				X-Requested-With=XMLHttpRequest
+					Accept=*/*
+	4				Content-Type=application/x-www-form-urlencoded
+	Cookies:		<none>
+	Multiparts:		<none>
+	Body:			<none>
+	)Account creation response: /en/calendar
+	Create account code: 201
+	bCookie value account creation : C27E25D6FACB2B78845E15EBB0BB3BE69156B70B4E0400F52228B3E225E8F99A
+	Request method:	GET
+	7Request URI:	https://lista.atzma.im/catalog/services/
+	Proxy:			<none>
+	Request params:	<none>
+	Query params:	<none>
+	Form params:	<none>
+	Path params:	<none>
+	/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+					Accept=*/*
+	mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=C27E25D6FACB2B78845E15EBB0BB3BE69156B70B4E0400F52228B3E225E8F99A
+	Multiparts:		<none>
+	Body:			<none>
+	¶move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getNailJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getNailJSON.approved.txt"
+
+6=== ACCOUNT: api_servicetest-924542230@gmail.com ===
+
+Request method:	POST
+
+8Request URI:	https://lista.atzma.im/signup-new-account
+
+Proxy:			<none>
+
+Request params:	<none>
+
+Query params:	<none>
+
+(Form params:	added=2020-04-27 01:10:28
+
+/				email=api_servicetest-924542230@gmail.com
+
+				pass=Pa$$w@rd
+
+				phone=0547613154
+
+				permit_ads=true
+
+				business_types=[9]
+
+				lang=en
+
+				timezone=Asia/Jerusalem
+
+				country=IL
+
+				city=Tel Aviv
+
+Path params:	<none>
+
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+
+%				X-Requested-With=XMLHttpRequest
+
+				Accept=*/*
+
+4				Content-Type=application/x-www-form-urlencoded
+
+Cookies:		<none>
+
+Multiparts:		<none>
+
+Body:			<none>
+
+)Account creation response: /en/calendar
+
+Create account code: 201
+
+bCookie value account creation : E406C4686E1469A47D391830E2F64CBF661B5225FD0906CA3AE45164113F1CBF
+
+Request method:	GET
+
+7Request URI:	https://lista.atzma.im/catalog/services/
+
+Proxy:			<none>
+
+Request params:	<none>
+
+Query params:	<none>
+
+Form params:	<none>
+
+Path params:	<none>
+
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+
+				Accept=*/*
+
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B5225FD0906CA3AE45164113F1CBF
+
+Multiparts:		<none>
+
+Body:			<none>
+
+¼move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getMassageJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getMassageJSON.approved.txt"
+7=== ACCOUNT: api_servicetest-1741860070@gmail.com ===
+Request method:	POST
+8Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+(Form params:	added=2020-04-27 01:10:28
+0				email=api_servicetest-1741860070@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[10]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+)Account creation response: /en/calendar
+Create account code: 201
+bCookie value account creation : 78B4700A309E1C917D9B985B4762F7848D771F651762215DE460E82B25E516F5
+Request method:	GET
+7Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=78B4700A309E1C917D9B985B4762F7848D771F651762215DE460E82B25E516F5
+Multiparts:		<none>
+Body:			<none>
+ºmove /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getMoversJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getMoversJSON.approved.txt"
+7=== ACCOUNT: api_servicetest-1806828356@gmail.com ===
+Request method:	POST
+8Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+(Form params:	added=2020-04-27 01:10:28
+0				email=api_servicetest-1806828356@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[11]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+)Account creation response: /en/calendar
+Create account code: 201
+bCookie value account creation : 608B9F5BE62BB27E500C0D66FCECA4C1C12EF1CF0641CEAA44E187722C34ACA9
+Request method:	GET
+7Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=608B9F5BE62BB27E500C0D66FCECA4C1C12EF1CF0641CEAA44E187722C34ACA9
+Multiparts:		<none>
+Body:			<none>
+Èmove /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getNutritionistsJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getNutritionistsJSON.approved.txt"
+6=== ACCOUNT: api_servicetest1895889677@gmail.com ===
+Request method:	POST
+8Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+(Form params:	added=2020-04-27 01:10:28
+/				email=api_servicetest1895889677@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[12]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+)Account creation response: /en/calendar
+Create account code: 201
+bCookie value account creation : B40AE7B59C594E76167E79D2D5DEEA35A850760A915A15CF9518CE8861C14C2B
+Request method:	GET
+7Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=B40AE7B59C594E76167E79D2D5DEEA35A850760A915A15CF9518CE8861C14C2B
+Multiparts:		<none>
+Body:			<none>
+¶move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getPestJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getPestJSON.approved.txt"
+5=== ACCOUNT: api_servicetest757200374@gmail.com ===
+Request method:	POST
+8Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+(Form params:	added=2020-04-27 01:10:28
+.				email=api_servicetest757200374@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[13]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+)Account creation response: /en/calendar
+Create account code: 201
+bCookie value account creation : E2F8BD55A1B4DF662EB89169B49FA7373016373F4559139F876F762AB2ACFB28
+Request method:	GET
+7Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E2F8BD55A1B4DF662EB89169B49FA7373016373F4559139F876F762AB2ACFB28
+Multiparts:		<none>
+Body:			<none>
+¾move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getTeachersJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getTeachersJSON.approved.txt"
+6=== ACCOUNT: api_servicetest1872576526@gmail.com ===
+Request method:	POST
+8Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+(Form params:	added=2020-04-27 01:10:28
+/				email=api_servicetest1872576526@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[14]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+)Account creation response: /en/calendar
+Create account code: 201
+bCookie value account creation : E73B0504E131A21CCE7B8F775CA7D32A2EDB51C3ED89F713C3F9A214EEB0C0F5
+Request method:	GET
+7Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E73B0504E131A21CCE7B8F775CA7D32A2EDB51C3ED89F713C3F9A214EEB0C0F5
+Multiparts:		<none>
+Body:			<none>
+¸move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getSalesJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getSalesJSON.approved.txt"
+6=== ACCOUNT: api_servicetest-993576953@gmail.com ===
+Request method:	POST
+8Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+(Form params:	added=2020-04-27 01:10:28
+/				email=api_servicetest-993576953@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[15]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+)Account creation response: /en/calendar
+Create account code: 201
+bCookie value account creation : 9446E888F80B08F85B5C2ECD234942D8A5EF8100F96290BE899BF80DF507D8C3
+Request method:	GET
+7Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=9446E888F80B08F85B5C2ECD234942D8A5EF8100F96290BE899BF80DF507D8C3
+Multiparts:		<none>
+Body:			<none>
+Îmove /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getServiceProvidersJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getServiceProvidersJSON.approved.txt"
+7=== ACCOUNT: api_servicetest-1484453125@gmail.com ===
+Request method:	POST
+8Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+(Form params:	added=2020-04-27 01:10:28
+0				email=api_servicetest-1484453125@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[16]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+)Account creation response: /en/calendar
+Create account code: 201
+bCookie value account creation : C7BD00542FA63EFA61910AB53178C79B97615D9C6658B5F8A43497EDAF3D34FF
+Request method:	GET
+7Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=C7BD00542FA63EFA61910AB53178C79B97615D9C6658B5F8A43497EDAF3D34FF
+Multiparts:		<none>
+Body:			<none>
+¾move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getPersonalJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getPersonalJSON.approved.txt"
+5=== ACCOUNT: api_servicetest277959166@gmail.com ===
+Request method:	POST
+8Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+(Form params:	added=2020-04-27 01:10:28
+.				email=api_servicetest277959166@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[17]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+)Account creation response: /en/calendar
+Create account code: 201
+bCookie value account creation : 1E67A19137D8F42791E78E0FC901154DF654242ACCF261FFB7CAF7DBB8108E72
+Request method:	GET
+7Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=1E67A19137D8F42791E78E0FC901154DF654242ACCF261FFB7CAF7DBB8108E72
+Multiparts:		<none>
+Body:			<none>
+ºmove /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getTattooJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getTattooJSON.approved.txt"
+6=== ACCOUNT: api_servicetest1388627347@gmail.com ===
+Request method:	POST
+8Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+(Form params:	added=2020-04-27 01:10:28
+/				email=api_servicetest1388627347@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[18]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+)Account creation response: /en/calendar
+Create account code: 201
+bCookie value account creation : 35D9973F6C1CE18AB08597A7DB342979B2D72FFCB49B325FC24539DC9E5CDFB2
+Request method:	GET
+7Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=35D9973F6C1CE18AB08597A7DB342979B2D72FFCB49B325FC24539DC9E5CDFB2
+Multiparts:		<none>
+Body:			<none>
+Âmove /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getTherapistsJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getTherapistsJSON.approved.txt"
+6=== ACCOUNT: api_servicetest-815547566@gmail.com ===
+Request method:	POST
+8Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+(Form params:	added=2020-04-27 01:10:28
+/				email=api_servicetest-815547566@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+C				business_types=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tel Aviv
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+)Account creation response: /en/calendar
+Create account code: 201
+bCookie value account creation : D47753F257F73D9D0C5ABC35EC41ACB500384B30618D8AFB3EDD8235EEF23134
+Request method:	GET
+7Request URI:	https://lista.atzma.im/catalog/services/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept=*/*
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=D47753F257F73D9D0C5ABC35EC41ACB500384B30618D8AFB3EDD8235EEF23134
+Multiparts:		<none>
+Body:			<none>
+¼move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getAllTypeJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getAllTypeJSON.approved.txt"
+?//----------------------- DELETION ------------------------//
+== ACCOUNTS FOR DELETION: 19
+Request method:	DELETE
+?Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=8463E57E9F6BC9D2296032177FE7C9F0B6F6EC9D2EB8149247F4544C7E44FE8B
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+?Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=28FC28620D84093516E1ECEE66D9C7F2598471AA18E0009CC59E670C0B5A8B17
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+?Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=F58FD29C608EA4E8B8C17A20E66ADEFC7593D90638B5BB86AF6D24F40AF012D7
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+?Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=21F8BFDF2F6C226F3384805041404DF76A4C83EA6165B607B90617EC24BE476B
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+?Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=55517A80B695140AF0571D3EDB09531816A6EC08A6D6DF8EC0CB708191A8A12C
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+?Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=BCDC565F40E183713C5097F86884A0B5FFA7122919FBA8248965D9B80BC9DA2B
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+?Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=1E139010C960EA9283C7CB7C8FD61CF40D97B44D34C9E05D2AEF583BC4F8022F
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+?Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=C27E25D6FACB2B78845E15EBB0BB3BE69156B70B4E0400F52228B3E225E8F99A
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+?Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B5225FD0906CA3AE45164113F1CBF
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+?Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=78B4700A309E1C917D9B985B4762F7848D771F651762215DE460E82B25E516F5
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+?Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=608B9F5BE62BB27E500C0D66FCECA4C1C12EF1CF0641CEAA44E187722C34ACA9
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+?Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=B40AE7B59C594E76167E79D2D5DEEA35A850760A915A15CF9518CE8861C14C2B
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+?Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E2F8BD55A1B4DF662EB89169B49FA7373016373F4559139F876F762AB2ACFB28
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+?Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E73B0504E131A21CCE7B8F775CA7D32A2EDB51C3ED89F713C3F9A214EEB0C0F5
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+?Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=9446E888F80B08F85B5C2ECD234942D8A5EF8100F96290BE899BF80DF507D8C3
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+?Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=C7BD00542FA63EFA61910AB53178C79B97615D9C6658B5F8A43497EDAF3D34FF
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+?Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=1E67A19137D8F42791E78E0FC901154DF654242ACCF261FFB7CAF7DBB8108E72
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+?Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=35D9973F6C1CE18AB08597A7DB342979B2D72FFCB49B325FC24539DC9E5CDFB2
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+Request method:	DELETE
+?Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+%				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+4				Content-Type=application/x-www-form-urlencoded
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=D47753F257F73D9D0C5ABC35EC41ACB500384B30618D8AFB3EDD8235EEF23134
+Multiparts:		<none>
+Body:			<none>
+Delete account 1 code: 401
+5Deleted mail - api_servicetest-2092549810@gmail.com
+Deleted password - Pa$$w@rd
+5Deleted mail - api_servicetest-1806828356@gmail.com
+Deleted password - Pa$$w@rd
+4Deleted mail - api_servicetest-993576953@gmail.com
+Deleted password - Pa$$w@rd
+4Deleted mail - api_servicetest1388627347@gmail.com
+Deleted password - Pa$$w@rd
+4Deleted mail - api_servicetest-924542230@gmail.com
+Deleted password - Pa$$w@rd
+3Deleted mail - api_servicetest277959166@gmail.com
+Deleted password - Pa$$w@rd
+4Deleted mail - api_servicetest-824186078@gmail.com
+Deleted password - Pa$$w@rd
+3Deleted mail - api_servicetest757200374@gmail.com
+Deleted password - Pa$$w@rd
+4Deleted mail - api_servicetest-815547566@gmail.com
+Deleted password - Pa$$w@rd
+5Deleted mail - api_servicetest-1456831931@gmail.com
+Deleted password - Pa$$w@rd
+4Deleted mail - api_servicetest1872576526@gmail.com
+Deleted password - Pa$$w@rd
+3Deleted mail - api_servicetest189054288@gmail.com
+Deleted password - Pa$$w@rd
+3Deleted mail - api_servicetest943513205@gmail.com
+Deleted password - Pa$$w@rd
+5Deleted mail - api_servicetest-1741860070@gmail.com
+Deleted password - Pa$$w@rd
+4Deleted mail - api_servicetest1895889677@gmail.com
+Deleted password - Pa$$w@rd
+5Deleted mail - api_servicetest-1214094535@gmail.com
+Deleted password - Pa$$w@rd
+5Deleted mail - api_servicetest-1484453125@gmail.com
+Deleted password - Pa$$w@rd
+4Deleted mail - api_servicetest-765668705@gmail.com
+Deleted password - Pa$$w@rd
+3Deleted mail - api_servicetest730710264@gmail.com
+Deleted password - Pa$$w@rd

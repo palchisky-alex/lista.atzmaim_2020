@@ -39,7 +39,7 @@ task testCreateAccountRest(type: Test) {
 
 task testCreateAccountWithServiceRest(type: Test) {
     useTestNG() {
-        suites './src/test/resources/testng-ServiceVrificationRest.xml'
+        suites './src/test/resources/testng-ServiceVerificationRest.xml'
     }
 }
 
