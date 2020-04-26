@@ -3,24 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="477da253-88be-40ae-98c6-8ed2876fb43d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build/classes/java/test/lista2020/appmanager/AccountCreationHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build/classes/java/test/lista2020/appmanager/AccountCreationHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build/classes/java/test/lista2020/appmanager/ApplicationRestDDTManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build/classes/java/test/lista2020/appmanager/ApplicationRestDDTManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build/classes/java/test/lista2020/tests/AccountCreationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build/classes/java/test/lista2020/tests/AccountCreationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build/reports/tests/testCreateAccountRest/classes/lista2020.tests.AccountCreationTests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build/reports/tests/testCreateAccountRest/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build/reports/tests/testCreateAccountRest/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build/reports/tests/testCreateAccountRest/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build/reports/tests/testCreateAccountRest/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build/reports/tests/testCreateAccountRest/packages/lista2020.tests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build/resources/test/input.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build/resources/test/input.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build/resources/test/testng-AccountCreationRest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build/resources/test/testng-AccountCreationRest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build/test-results/test/binary/output.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build/test-results/testCreateAccountRest/TEST-lista2020.tests.AccountCreationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build/test-results/testCreateAccountRest/binary/output.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build/test-results/testCreateAccountRest/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build/test-results/testCreateAccountRest/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/resources/testng-ServiceVerificationRest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/resources/testng-ServiceVerificationRest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getAllTypeJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getConsultansJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getCosmeticsJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getHairSalonJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getHolisticJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getInstallersJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getInteriorJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getMakeupJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getMassageJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getMoversJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getNailJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getNutritionistsJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getPersonalJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getPestJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getSalesJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getServiceProvidersJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getTattooJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getTeachersJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getTherapistsJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -136,31 +138,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/tests/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/ApplicationManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-42">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/AccountCreationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
+            <state relative-caret-position="218">
               <caret line="32" column="109" selection-start-line="32" selection-start-column="109" selection-end-line="32" selection-end-column="109" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="33" column="26" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -177,44 +188,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/resources/testng-ServiceVerificationRest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" selection-start-line="7" selection-end-line="24" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/TestBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/appmanager/ApplicationRestDDTManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/appmanager/AccountCreationHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="381">
               <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#createAccount#0;class#AccountCreationHelper#0" />
               </folding>
             </state>
           </provider>
@@ -309,8 +289,8 @@
         <option value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/appmanager/ServiceVerificationRestHelper.java" />
         <option value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.java" />
         <option value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/AccountCreationTests.java" />
-        <option value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build.gradle" />
         <option value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/resources/testng-ServiceVerificationRest.xml" />
+        <option value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build.gradle" />
       </list>
     </option>
   </component>
@@ -407,6 +387,54 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Selenium_tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Selenium_tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Selenium_tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Selenium_tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Selenium_tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lista2020" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Selenium_tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lista2020" type="462c0819:PsiDirectoryNode" />
+              <item name="appmanager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Selenium_tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lista2020" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -416,13 +444,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587938594617" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587943473927" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/im/atzma/lista2020" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build.gradle" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15527344" />
     <property name="project.structure.side.proportion" value="0.36091954" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -563,12 +591,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_AccountCreation_DDT_Tests_src_test_resources_testng-ServiceVerificationRest_xml - 2020.04.26 at 23h 57m 49s.xml">
-      <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-ServiceVerificationRest.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_AccountCreation_DDT_Tests_src_test_resources_testng-ServiceVerificationRest_xml - 2020.04.26 at 23h 58m 44s.xml">
-      <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-ServiceVerificationRest.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_AccountCreation_DDT_Tests_src_test_resources_testng-ServiceVerificationRest_xml - 2020.04.26 at 23h 59m 13s.xml">
       <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-ServiceVerificationRest.xml" configurationId="TestNG" />
     </history-entry>
@@ -591,6 +613,12 @@
       <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentModificationRest.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_AccountCreation_DDT_Tests_src_test_resources_testng-ServiceVerificationRest_xml - 2020.04.27 at 01h 04m 35s.xml">
+      <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-ServiceVerificationRest.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_AccountCreation_DDT_Tests_src_test_resources_testng-ServiceVerificationRest_xml - 2020.04.27 at 02h 16m 59s.xml">
+      <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-ServiceVerificationRest.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_AccountCreation_DDT_Tests_src_test_resources_testng-ServiceVerificationRest_xml - 2020.04.27 at 02h 21m 49s.xml">
       <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-ServiceVerificationRest.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -658,23 +686,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/4.1.1/45d063946e80a2d08a209bebc7d87c7ad8d6d2cb/poi-4.1.1-sources.jar!/org/apache/poi/util/POILogFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-          <folding>
-            <element signature="e#2164#2165#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml/4.1.1/4f0f6ffe7a9b2e4cd8cd67c5a06cc6b7174c7327/poi-ooxml-4.1.1-sources.jar!/org/apache/poi/openxml4j/opc/ZipPackage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="102" selection-start-line="102" selection-end-line="102" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml/4.1.1/4f0f6ffe7a9b2e4cd8cd67c5a06cc6b7174c7327/poi-ooxml-4.1.1-sources.jar!/org/apache/poi/openxml4j/opc/internal/marshallers/DefaultMarshaller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -769,13 +780,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/ApplicationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-546">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -964,17 +968,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/appmanager/AccountCreationHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#createAccount#0;class#AccountCreationHelper#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/appmanager/CookieManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -996,6 +989,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="861">
           <caret line="86" column="92" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/resources/testng-ServiceVerificationRest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" selection-start-line="7" selection-end-line="24" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/AccountCreationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="32" column="109" selection-start-line="32" selection-start-column="109" selection-end-line="32" selection-end-column="109" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/appmanager/AccountCreationHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="81" column="16" selection-start-line="81" selection-start-column="16" selection-end-line="81" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1047,34 +1074,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/AccountCreationTests.java">
+    <entry file="file://$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/tests/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="32" column="109" selection-start-line="32" selection-start-column="109" selection-end-line="32" selection-end-column="109" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="206">
+          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Selenium_tests/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" selection-start-line="1" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="33" column="26" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/resources/testng-ServiceVerificationRest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" selection-start-line="7" selection-end-line="24" selection-end-column="55" />
+        <state relative-caret-position="-42">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
