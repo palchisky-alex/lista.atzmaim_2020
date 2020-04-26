@@ -10,6 +10,7 @@
                     <include name="deleteAccount"/>
                 </methods>
             </class>
+
         </classes>
 
     </test>

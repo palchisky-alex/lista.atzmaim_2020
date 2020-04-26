@@ -11,6 +11,7 @@ import static io.restassured.config.RedirectConfig.redirectConfig;
 public class ApplicationRestDDTManager {
 
     AccountCreationHelper accountCreationHelper;
+    ServiceVerificationRestHelper serviceRestHelper;
     Properties properties = new Properties();
 
     public void init() {
@@ -20,6 +21,7 @@ public class ApplicationRestDDTManager {
                 and().config().encoderConfig(encoderConfig().appendDefaultContentCharsetToContentTypeIfUndefined(false));
         RestAssured.useRelaxedHTTPSValidation();
         accountCreationHelper = new AccountCreationHelper();
+        serviceRestHelper = new ServiceVerificationRestHelper();
     }
 
 
@@ -28,5 +30,6 @@ public class ApplicationRestDDTManager {
     }
 
     public AccountCreationHelper accountCreationHelper() { return accountCreationHelper; }
+    public ServiceVerificationRestHelper serviceRestHelper() { return serviceRestHelper; }
 
 }

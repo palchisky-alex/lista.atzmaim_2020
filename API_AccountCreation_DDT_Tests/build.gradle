@@ -35,12 +35,11 @@ task testCreateAccountRest(type: Test) {
     useTestNG() {
         suites './src/test/resources/testng-AccountCreationRest.xml'
     }
-    if (project.hasProperty('browser')) {
-        systemProperty 'browser', "${browser}"
-    }
+}
 
-    if (project.hasProperty('target')) {
-        systemProperty 'target', "${target}"
+task testCreateAccountWithServiceRest(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/testng-ServiceVrificationRest.xml'
     }
 }
 

@@ -30,7 +30,7 @@ public class AccountCreationTests extends TestBase {
     @DataProvider
     public Object[][] getDataFromExcel(){
         Excel excel = new Excel();
-        return excel.getTableArray(System.getProperty("user.dir") + "/src/test/resources/input.xlsx", "Singup-test");
+        return excel.getTableArray(System.getProperty("user.dir") + "/src/test/resources/input.xlsx", "Singup");
     }
 
     @DataProvider
