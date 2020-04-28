@@ -1,1 +1,2393 @@
-[{"id":1,"name":"ייעוץ","price":"0","duration":60,"color":"#efa5fe","category":{"name":"Alternative Therapy Specialists","id":1}},{"id":2,"name":"פגישת אבחון ראשונה","price":"0","duration":90,"color":"#efa5fe","category":{"name":"Alternative Therapy Specialists","id":1}},{"id":3,"name":"טיפול - 30 דק'","price":"0","duration":30,"color":"#efa5fe","category":{"name":"Alternative Therapy Specialists","id":1}},{"id":4,"name":"טיפול - 45 דק'","price":"0","duration":45,"color":"#efa5fe","category":{"name":"Alternative Therapy Specialists","id":1}},{"id":5,"name":"טיפול - 60 דק', ","price":"0","duration":60,"color":"#efa5fe","category":{"name":"Alternative Therapy Specialists","id":1}},{"id":6,"name":"טיפול - 90 דק'","price":"0","duration":90,"color":"#efa5fe","category":{"name":"Alternative Therapy Specialists","id":1}},{"id":7,"name":"ביקורת","price":"0","duration":60,"color":"#efa5fe","category":{"name":"Alternative Therapy Specialists","id":1}},{"id":8,"name":"שיחה טלפונית","price":"0","duration":30,"color":"#efa5fe","category":{"name":"Alternative Therapy Specialists","id":1}},{"id":9,"name":"פגישת היכרות","price":"0","duration":60,"color":"#fff581","category":{"name":"Consultants And Coachers","id":2}},{"id":10,"name":"פגישת ייעוץ\/אימון - 60 דק'","price":"0","duration":60,"color":"#fff581","category":{"name":"Consultants And Coachers","id":2}},{"id":11,"name":"פגישת ייעוץ\/אימון - 90 דק', ","price":"0","duration":90,"color":"#fff581","category":{"name":"Consultants And Coachers","id":2}},{"id":12,"name":"פגישת ייעוץ\/אימון - 120 דק', ","price":"0","duration":120,"color":"#fff581","category":{"name":"Consultants And Coachers","id":2}},{"id":13,"name":"ייעוץ\/אימון טלפוני","price":"0","duration":60,"color":"#fff581","category":{"name":"Consultants And Coachers","id":2}},{"id":14,"name":"טיפול פנים","price":"350","duration":60,"color":"#50e3c1","category":{"name":"Skin Treatments","id":3}},{"id":15,"name":"טיפול יופי\/זוהר","price":"250","duration":45,"color":"#50e3c1","category":{"name":"Skin Treatments","id":3}},{"id":16,"name":"טיפול מזוטרפיה","price":"400","duration":90,"color":"#50e3c1","category":{"name":"Skin Treatments","id":3}},{"id":17,"name":"טיפול החדרת לחות","price":"200","duration":60,"color":"#50e3c1","category":{"name":"Skin Treatments","id":3}},{"id":18,"name":"טיפול פיגמנטציה","price":"300","duration":75,"color":"#50e3c1","category":{"name":"Skin Treatments","id":3}},{"id":19,"name":"טיפול אקנה","price":"250","duration":90,"color":"#50e3c1","category":{"name":"Skin Treatments","id":3}},{"id":20,"name":"טיפול אנטיאייג'ינג \/ מיצוק","price":"300","duration":60,"color":"#50e3c1","category":{"name":"Skin Treatments","id":3}},{"id":21,"name":"פילינג","price":"400","duration":75,"color":"#50e3c1","category":{"name":"Skin Treatments","id":3}},{"id":22,"name":"לק ג'ל","price":"120","duration":45,"color":"#efefff","category":{"name":"Manicure Pedicure","id":4}},{"id":23,"name":"לק ג'ל","price":"120","duration":45,"color":"#efefff","category":{"name":"Manicure Pedicure","id":4}},{"id":24,"name":"לק ג'ל ברגליים","price":"150","duration":30,"color":"#efefff","category":{"name":"Manicure Pedicure","id":4}},{"id":25,"name":"לק ג'ל ברגליים","price":"150","duration":30,"color":"#efefff","category":{"name":"Manicure Pedicure","id":4}},{"id":26,"name":"מניקור אקספרס","price":"45","duration":15,"color":"#efefff","category":{"name":"Manicure Pedicure","id":4}},{"id":27,"name":"מניקור אקספרס","price":"45","duration":15,"color":"#efefff","category":{"name":"Manicure Pedicure","id":4}},{"id":28,"name":"מניקור","price":"70","duration":30,"color":"#efefff","category":{"name":"Manicure Pedicure","id":4}},{"id":29,"name":"מניקור","price":"70","duration":30,"color":"#efefff","category":{"name":"Manicure Pedicure","id":4}},{"id":30,"name":"פדיקור אקספרס","price":"55","duration":15,"color":"#efefff","category":{"name":"Manicure Pedicure","id":4}},{"id":31,"name":"פדיקור אקספרס","price":"55","duration":15,"color":"#efefff","category":{"name":"Manicure Pedicure","id":4}},{"id":32,"name":"פדיקור","price":"140","duration":45,"color":"#efefff","category":{"name":"Manicure Pedicure","id":4}},{"id":33,"name":"פדיקור","price":"140","duration":45,"color":"#efefff","category":{"name":"Manicure Pedicure","id":4}},{"id":34,"name":"פדיקור רפואי","price":"155","duration":45,"color":"#efefff","category":{"name":"Manicure Pedicure","id":4}},{"id":35,"name":"פדיקור רפואי","price":"155","duration":45,"color":"#efefff","category":{"name":"Manicure Pedicure","id":4}},{"id":36,"name":"בנייה + לק ג'ל","price":"240","duration":60,"color":"#759bfa","category":{"name":"Nail Sculpting","id":5}},{"id":37,"name":"בנייה + לק ג'ל","price":"240","duration":60,"color":"#759bfa","category":{"name":"Nail Sculpting","id":5}},{"id":38,"name":"מילוי + לק ג'ל","price":"130","duration":60,"color":"#759bfa","category":{"name":"Nail Sculpting","id":5}},{"id":39,"name":"מילוי + לק ג'ל","price":"130","duration":60,"color":"#759bfa","category":{"name":"Nail Sculpting","id":5}},{"id":40,"name":"בניית ציפורניים","price":"300","duration":60,"color":"#759bfa","category":{"name":"Nail Sculpting","id":5}},{"id":41,"name":"בניית ציפורניים","price":"300","duration":60,"color":"#759bfa","category":{"name":"Nail Sculpting","id":5}},{"id":42,"name":"בנייה בג'ל","price":"220","duration":60,"color":"#759bfa","category":{"name":"Nail Sculpting","id":5}},{"id":43,"name":"בנייה בג'ל","price":"220","duration":60,"color":"#759bfa","category":{"name":"Nail Sculpting","id":5}},{"id":44,"name":"תיקון ציפורן","price":"0","duration":15,"color":"#759bfa","category":{"name":"Nail Sculpting","id":5}},{"id":45,"name":"תיקון ציפורן","price":"0","duration":15,"color":"#759bfa","category":{"name":"Nail Sculpting","id":5}},{"id":46,"name":"מילוי רגיל","price":"110","duration":60,"color":"#759bfa","category":{"name":"Nail Sculpting","id":5}},{"id":47,"name":"מילוי רגיל","price":"110","duration":60,"color":"#759bfa","category":{"name":"Nail Sculpting","id":5}},{"id":48,"name":"הסרת בנייה\/לק ג'ל","price":"50","duration":30,"color":"#759bfa","category":{"name":"Nail Sculpting","id":5}},{"id":49,"name":"הסרת בנייה\/לק ג'ל","price":"50","duration":30,"color":"#759bfa","category":{"name":"Nail Sculpting","id":5}},{"id":50,"name":"הדבקת ציפורניים","price":"0","duration":30,"color":"#759bfa","category":{"name":"Nail Sculpting","id":5}},{"id":51,"name":"הדבקת ציפורניים","price":"0","duration":30,"color":"#759bfa","category":{"name":"Nail Sculpting","id":5}},{"id":52,"name":"סידור גבות","price":"30","duration":15,"color":"#b8e986","category":{"name":"Eyebrows \/ Mustache","id":6}},{"id":53,"name":"סידור גבות","price":"30","duration":15,"color":"#b8e986","category":{"name":"Eyebrows \/ Mustache","id":6}},{"id":54,"name":"שפם","price":"30","duration":15,"color":"#b8e986","category":{"name":"Eyebrows \/ Mustache","id":6}},{"id":55,"name":"שפם","price":"30","duration":15,"color":"#b8e986","category":{"name":"Eyebrows \/ Mustache","id":6}},{"id":56,"name":"שפם + גבות","price":"50","duration":30,"color":"#b8e986","category":{"name":"Eyebrows \/ Mustache","id":6}},{"id":57,"name":"שפם + גבות","price":"50","duration":30,"color":"#b8e986","category":{"name":"Eyebrows \/ Mustache","id":6}},{"id":58,"name":"יעוץ לייזר","price":"0","duration":30,"color":"#3fb6dc","category":{"name":"Epilation","id":7}},{"id":59,"name":"לייזר ידיים","price":"0","duration":30,"color":"#3fb6dc","category":{"name":"Epilation","id":7}},{"id":60,"name":"לייזר רגליים","price":"0","duration":45,"color":"#3fb6dc","category":{"name":"Epilation","id":7}},{"id":61,"name":"לייזר בקיני+שחי","price":"0","duration":30,"color":"#3fb6dc","category":{"name":"Epilation","id":7}},{"id":62,"name":"לייזר בקיני","price":"0","duration":30,"color":"#3fb6dc","category":{"name":"Epilation","id":7}},{"id":63,"name":"לייזר שחי","price":"0","duration":15,"color":"#3fb6dc","category":{"name":"Epilation","id":7}},{"id":64,"name":"לייזר ח.רגל עליונה","price":"0","duration":30,"color":"#3fb6dc","category":{"name":"Epilation","id":7}},{"id":65,"name":"לייזר ח.רגל תחתונה","price":"0","duration":30,"color":"#3fb6dc","category":{"name":"Epilation","id":7}},{"id":66,"name":"לייזר ישבן","price":"0","duration":30,"color":"#3fb6dc","category":{"name":"Epilation","id":7}},{"id":67,"name":"לייזר גב","price":"0","duration":30,"color":"#3fb6dc","category":{"name":"Epilation","id":7}},{"id":68,"name":"לייזר בטן","price":"0","duration":30,"color":"#3fb6dc","category":{"name":"Epilation","id":7}},{"id":69,"name":"לייזר חזה+בטן","price":"0","duration":45,"color":"#3fb6dc","category":{"name":"Epilation","id":7}},{"id":70,"name":"לייזר עורף","price":"0","duration":15,"color":"#3fb6dc","category":{"name":"Epilation","id":7}},{"id":71,"name":"לייזר פנים","price":"0","duration":15,"color":"#3fb6dc","category":{"name":"Epilation","id":7}},{"id":72,"name":"לייזר שפם+סנטר","price":"0","duration":15,"color":"#3fb6dc","category":{"name":"Epilation","id":7}},{"id":73,"name":"לייזר שפם","price":"0","duration":15,"color":"#3fb6dc","category":{"name":"Epilation","id":7}},{"id":74,"name":"לייזר לחיים גבר","price":"0","duration":15,"color":"#3fb6dc","category":{"name":"Epilation","id":7}},{"id":75,"name":"לייזר חזה","price":"0","duration":30,"color":"#3fb6dc","category":{"name":"Epilation","id":7}},{"id":76,"name":"לייזר פס בטן","price":"0","duration":15,"color":"#3fb6dc","category":{"name":"Epilation","id":7}},{"id":77,"name":"שעווה - פנים","price":"50","duration":15,"color":"#deceff","category":{"name":"Waxing","id":8}},{"id":78,"name":"שעווה - שחי","price":"30","duration":15,"color":"#deceff","category":{"name":"Waxing","id":8}},{"id":79,"name":"שעווה - ביקיני","price":"40","duration":15,"color":"#deceff","category":{"name":"Waxing","id":8}},{"id":80,"name":"שעווה - מפשעות","price":"60","duration":15,"color":"#deceff","category":{"name":"Waxing","id":8}},{"id":81,"name":"שעווה - פאות","price":"80","duration":15,"color":"#deceff","category":{"name":"Waxing","id":8}},{"id":82,"name":"שעווה - רגליים","price":"120","duration":30,"color":"#deceff","category":{"name":"Waxing","id":8}},{"id":83,"name":"שעווה - חצי רגל","price":"80","duration":30,"color":"#deceff","category":{"name":"Waxing","id":8}},{"id":84,"name":"שעווה - רגליים + בקיני","price":"150","duration":30,"color":"#deceff","category":{"name":"Waxing","id":8}},{"id":85,"name":"שעווה - ידיים","price":"80","duration":15,"color":"#deceff","category":{"name":"Waxing","id":8}},{"id":86,"name":"שעווה גבר - גב","price":"120","duration":30,"color":"#deceff","category":{"name":"Waxing","id":8}},{"id":87,"name":"שעווה גבר - חזה","price":"80","duration":30,"color":"#deceff","category":{"name":"Waxing","id":8}},{"id":88,"name":"שעווה גבר - כתפיים","price":"50","duration":15,"color":"#deceff","category":{"name":"Waxing","id":8}},{"id":89,"name":"שעווה גבר - עורף","price":"30","duration":15,"color":"#deceff","category":{"name":"Waxing","id":8}},{"id":90,"name":"שעווה - בטן","price":"50","duration":15,"color":"#deceff","category":{"name":"Waxing","id":8}},{"id":91,"name":"שעווה גבר - בטן","price":"70","duration":15,"color":"#deceff","category":{"name":"Waxing","id":8}},{"id":92,"name":"שעווה - חצי יד","price":"40","duration":15,"color":"#deceff","category":{"name":"Waxing","id":8}},{"id":93,"name":"איפור קבוע- אייליינר עליון","price":"0","duration":120,"color":"#ff98ad","category":{"name":"Makeup \/ Permanent Makeup","id":9}},{"id":94,"name":"איפור קבוע - אייליינר תחתון","price":"0","duration":120,"color":"#ff98ad","category":{"name":"Makeup \/ Permanent Makeup","id":9}},{"id":95,"name":"איפור קבוע - שפתיים","price":"0","duration":120,"color":"#ff98ad","category":{"name":"Makeup \/ Permanent Makeup","id":9}},{"id":96,"name":"חידוש איפור קבוע","price":"0","duration":60,"color":"#ff98ad","category":{"name":"Makeup \/ Permanent Makeup","id":9}},{"id":97,"name":"איפור ערב","price":"300","duration":45,"color":"#ff98ad","category":{"name":"Makeup \/ Permanent Makeup","id":9}},{"id":98,"name":"איפור כלה","price":"950","duration":90,"color":"#ff98ad","category":{"name":"Makeup \/ Permanent Makeup","id":9}},{"id":99,"name":"איפור קבוע גבות","price":"0","duration":120,"color":"#ff98ad","category":{"name":"Makeup \/ Permanent Makeup","id":9}},{"id":100,"name":"תספורת גבר","price":"50","duration":15,"color":"#50e3c1","category":{"name":"Hair Styling","id":10}},{"id":101,"name":"תספורת ילד","price":"50","duration":15,"color":"#a44bc2","category":{"name":"Hair Styling","id":10}},{"id":102,"name":"תספורת אישה","price":"150","duration":30,"color":"#a44bc2","category":{"name":"Hair Styling","id":10}},{"id":103,"name":"פן קצר","price":"80","duration":30,"color":"#a44bc2","category":{"name":"Hair Styling","id":10}},{"id":104,"name":"פן ארוך","price":"100","duration":45,"color":"#a44bc2","category":{"name":"Hair Styling","id":10}},{"id":105,"name":"פן כלול","price":"0","duration":15,"color":"#a44bc2","category":{"name":"Hair Styling","id":10}},{"id":106,"name":"פן בייביליס","price":"120","duration":30,"color":"#a44bc2","category":{"name":"Hair Styling","id":10}},{"id":107,"name":"תסרוקת ערב","price":"250","duration":60,"color":"#a44bc2","category":{"name":"Hair Styling","id":10}},{"id":108,"name":"תספורת אישה + פן","price":"180","duration":60,"color":"#a44bc2","category":{"name":"Hair Styling","id":10}},{"id":109,"name":"תספורת גבר + זקן","price":"70","duration":30,"color":"#a44bc2","category":{"name":"Hair Styling","id":10}},{"id":110,"name":"יעוץ החלקה","price":"0","duration":15,"color":"#efa5fe","category":{"name":"Hair Coloring","id":11}},{"id":111,"name":"צבע ראש מלא","price":"220","duration":15,"color":"#efa5fe","category":{"name":"Hair Coloring","id":11}},{"id":112,"name":"צבע שורש","price":"150","duration":15,"color":"#efa5fe","category":{"name":"Hair Coloring","id":11}},{"id":113,"name":"שטיפה","price":"150","duration":15,"color":"#efa5fe","category":{"name":"Hair Coloring","id":11}},{"id":114,"name":"גוונים ראש מלא","price":"500","duration":75,"color":"#efa5fe","category":{"name":"Hair Coloring","id":11}},{"id":115,"name":"גוונים חצי ראש","price":"300","duration":45,"color":"#efa5fe","category":{"name":"Hair Coloring","id":11}},{"id":116,"name":"אומברה","price":"600","duration":120,"color":"#efa5fe","category":{"name":"Hair Coloring","id":11}},{"id":117,"name":"בליאז'","price":"800","duration":120,"color":"#efa5fe","category":{"name":"Hair Coloring","id":11}},{"id":118,"name":"הבהרה","price":"150","duration":60,"color":"#efa5fe","category":{"name":"Hair Coloring","id":11}},{"id":119,"name":"פתיחת תלתלים","price":"250","duration":45,"color":"#efa5fe","category":{"name":"Hair Coloring","id":11}},{"id":120,"name":"החלקת קארטין","price":"600","duration":45,"color":"#fff581","category":{"name":"Hair Straightening","id":12}},{"id":121,"name":"החלקה אורגנית","price":"600","duration":45,"color":"#fff581","category":{"name":"Hair Straightening","id":12}},{"id":122,"name":"החלקה משולבת","price":"800","duration":120,"color":"#fff581","category":{"name":"Hair Straightening","id":12}},{"id":123,"name":"החלקה יפנית","price":"1200","duration":60,"color":"#fff581","category":{"name":"Hair Straightening","id":12}},{"id":124,"name":"מחליק \/ גיהוץ","price":"0","duration":90,"color":"#fff581","category":{"name":"Hair Straightening","id":12}},{"id":125,"name":"שיחה טלפונית","price":"0","duration":30,"color":"#50e3c1","category":{"name":"Installers and Technicians","id":13}},{"id":126,"name":"פגישת היכרות ","price":"0","duration":90,"color":"#50e3c1","category":{"name":"Installers and Technicians","id":13}},{"id":127,"name":"תיקון\/התקנה - 45 דק'","price":"0","duration":45,"color":"#50e3c1","category":{"name":"Installers and Technicians","id":13}},{"id":128,"name":"תיקון\/התקנה - 60 דק'","price":"0","duration":60,"color":"#50e3c1","category":{"name":"Installers and Technicians","id":13}},{"id":129,"name":"תיקון\/התקנה - 90 דק'","price":"0","duration":90,"color":"#50e3c1","category":{"name":"Installers and Technicians","id":13}},{"id":130,"name":"תיקון\/התקנה - 120 דק'","price":"0","duration":120,"color":"#50e3c1","category":{"name":"Installers and Technicians","id":13}},{"id":131,"name":"פגישת היכרות","price":"0","duration":60,"color":"#efefff","category":{"name":"Interior Designers and Architects","id":14}},{"id":132,"name":"פגישת עבודה קצרה - שעה","price":"0","duration":60,"color":"#efefff","category":{"name":"Interior Designers and Architects","id":14}},{"id":133,"name":"פגישת עבודה ארוכה - שעתיים","price":"0","duration":120,"color":"#efefff","category":{"name":"Interior Designers and Architects","id":14}},{"id":134,"name":"פגישת עבודה ארוכה - 3 שעות","price":"0","duration":180,"color":"#efefff","category":{"name":"Interior Designers and Architects","id":14}},{"id":135,"name":"יום שלם עם לקוח","price":"0","duration":360,"color":"#efefff","category":{"name":"Interior Designers and Architects","id":14}},{"id":136,"name":"פגישת ייעוץ","price":"0","duration":60,"color":"#759bfa","category":{"name":"Makeup \/ Wedding Makeup","id":15}},{"id":137,"name":"איפור ערב","price":"300","duration":45,"color":"#759bfa","category":{"name":"Makeup \/ Wedding Makeup","id":15}},{"id":138,"name":"איפור כלה","price":"800","duration":75,"color":"#759bfa","category":{"name":"Makeup \/ Wedding Makeup","id":15}},{"id":139,"name":"איפור מלווה","price":"250","duration":45,"color":"#759bfa","category":{"name":"Makeup \/ Wedding Makeup","id":15}},{"id":140,"name":"איפור ניסיון","price":"100","duration":60,"color":"#759bfa","category":{"name":"Makeup \/ Wedding Makeup","id":15}},{"id":141,"name":"תסרוקת ערב","price":"0","duration":90,"color":"#759bfa","category":{"name":"Makeup \/ Wedding Makeup","id":15}},{"id":142,"name":"תסרוקת כלה","price":"1200","duration":120,"color":"#759bfa","category":{"name":"Makeup \/ Wedding Makeup","id":15}},{"id":143,"name":"תסרוקת מלווה","price":"300","duration":90,"color":"#759bfa","category":{"name":"Makeup \/ Wedding Makeup","id":15}},{"id":144,"name":"תסרוקת ניסיון","price":"0","duration":60,"color":"#759bfa","category":{"name":"Makeup \/ Wedding Makeup","id":15}},{"id":145,"name":"חבילת כלה (שיער + איפור)","price":"1700","duration":210,"color":"#759bfa","category":{"name":"Makeup \/ Wedding Makeup","id":15}},{"id":146,"name":"חבילת מלווה (שיער + איפור)","price":"500","duration":180,"color":"#759bfa","category":{"name":"Makeup \/ Wedding Makeup","id":15}},{"id":147,"name":"הגעה \/ ליווי לאירוע","price":"0","duration":120,"color":"#759bfa","category":{"name":"Makeup \/ Wedding Makeup","id":15}},{"id":148,"name":"ייעוץ","price":"0","duration":60,"color":"#b8e986","category":{"name":"Massage and Reflexology Therapists","id":16}},{"id":149,"name":"פגישת אבחון ראשונה","price":"0","duration":90,"color":"#b8e986","category":{"name":"Massage and Reflexology Therapists","id":16}},{"id":150,"name":"טיפול - 30 דק'","price":"0","duration":30,"color":"#b8e986","category":{"name":"Massage and Reflexology Therapists","id":16}},{"id":151,"name":"טיפול - 45 דק'","price":"0","duration":45,"color":"#b8e986","category":{"name":"Massage and Reflexology Therapists","id":16}},{"id":152,"name":"טיפול - 60 דק'","price":"0","duration":60,"color":"#b8e986","category":{"name":"Massage and Reflexology Therapists","id":16}},{"id":153,"name":"טיפול - 90 דק'","price":"0","duration":90,"color":"#b8e986","category":{"name":"Massage and Reflexology Therapists","id":16}},{"id":154,"name":"ביקורת","price":"0","duration":60,"color":"#b8e986","category":{"name":"Massage and Reflexology Therapists","id":16}},{"id":155,"name":"שיחה טלפונית","price":"0","duration":30,"color":"#b8e986","category":{"name":"Massage and Reflexology Therapists","id":16}},{"id":156,"name":"פגישת היכרות ","price":"0","duration":60,"color":"#3fb6dc","category":{"name":"Movers and Cleaners","id":17}},{"id":157,"name":"עבודה - שעתיים","price":"0","duration":120,"color":"#3fb6dc","category":{"name":"Movers and Cleaners","id":17}},{"id":158,"name":"עבודה - 3 שעות","price":"0","duration":180,"color":"#3fb6dc","category":{"name":"Movers and Cleaners","id":17}},{"id":159,"name":"עבודה - 4 שעות","price":"0","duration":240,"color":"#3fb6dc","category":{"name":"Movers and Cleaners","id":17}},{"id":160,"name":"עבודה - 5 שעות","price":"0","duration":300,"color":"#3fb6dc","category":{"name":"Movers and Cleaners","id":17}},{"id":161,"name":"שיחה טלפונית","price":"0","duration":30,"color":"#3fb6dc","category":{"name":"Movers and Cleaners","id":17}},{"id":162,"name":"פגישת היכרות \/ ראשונה","price":"0","duration":90,"color":"#deceff","category":{"name":"Nutritionists and Naturopaths","id":18}},{"id":163,"name":"ייעוץ","price":"0","duration":60,"color":"#deceff","category":{"name":"Nutritionists and Naturopaths","id":18}},{"id":164,"name":"שיחה טלפונית","price":"0","duration":30,"color":"#deceff","category":{"name":"Nutritionists and Naturopaths","id":18}},{"id":165,"name":"טיפול - 45 דק'","price":"0","duration":45,"color":"#deceff","category":{"name":"Nutritionists and Naturopaths","id":18}},{"id":166,"name":"טיפול - 60 דק'","price":"0","duration":60,"color":"#deceff","category":{"name":"Nutritionists and Naturopaths","id":18}},{"id":167,"name":"טיפול - 90 דק'","price":"0","duration":90,"color":"#deceff","category":{"name":"Nutritionists and Naturopaths","id":18}},{"id":168,"name":"טיפול - 120 דק'","price":"0","duration":120,"color":"#deceff","category":{"name":"Nutritionists and Naturopaths","id":18}},{"id":169,"name":"ביקורת","price":"0","duration":60,"color":"#deceff","category":{"name":"Nutritionists and Naturopaths","id":18}},{"id":170,"name":"שיחה טלפונית \/ הצעת מחיר","price":"0","duration":30,"color":"#ff98ad","category":{"name":"Pest Controllers","id":19}},{"id":171,"name":"הדברה דירת 2 חדרים","price":"0","duration":60,"color":"#ff98ad","category":{"name":"Pest Controllers","id":19}},{"id":172,"name":"הדברה דירת 3 חדרים","price":"0","duration":60,"color":"#ff98ad","category":{"name":"Pest Controllers","id":19}},{"id":173,"name":"הדברה דירת 4 חדרים","price":"0","duration":90,"color":"#ff98ad","category":{"name":"Pest Controllers","id":19}},{"id":174,"name":"הדברה יחידת דיור","price":"0","duration":60,"color":"#ff98ad","category":{"name":"Pest Controllers","id":19}},{"id":175,"name":"הדברה בית פרטי - קטן","price":"0","duration":120,"color":"#ff98ad","category":{"name":"Pest Controllers","id":19}},{"id":176,"name":"הדברה בית פרטי - גדול","price":"0","duration":180,"color":"#ff98ad","category":{"name":"Pest Controllers","id":19}},{"id":177,"name":"הדברת ביוב מרכזי","price":"0","duration":30,"color":"#ff98ad","category":{"name":"Pest Controllers","id":19}},{"id":178,"name":"הדברה חיצונית \/ חצר","price":"0","duration":60,"color":"#ff98ad","category":{"name":"Pest Controllers","id":19}},{"id":179,"name":"הדברת חנות \/ עסק \/ משרד","price":"0","duration":60,"color":"#ff98ad","category":{"name":"Pest Controllers","id":19}},{"id":180,"name":"הדברת מוסדות ציבור ","price":"0","duration":180,"color":"#ff98ad","category":{"name":"Pest Controllers","id":19}},{"id":181,"name":"פגישת היכרות \/ ראשונה","price":"0","duration":90,"color":"#a44bc2","category":{"name":"Private Teachers and Tutors","id":20}},{"id":182,"name":"שיעור - 45 דק'","price":"0","duration":45,"color":"#a44bc2","category":{"name":"Private Teachers and Tutors","id":20}},{"id":183,"name":"שיעור - 60 דק'","price":"0","duration":60,"color":"#a44bc2","category":{"name":"Private Teachers and Tutors","id":20}},{"id":184,"name":"שיעור - 90 דק'","price":"0","duration":90,"color":"#a44bc2","category":{"name":"Private Teachers and Tutors","id":20}},{"id":185,"name":"שיעור - 120 דק'","price":"0","duration":120,"color":"#a44bc2","category":{"name":"Private Teachers and Tutors","id":20}},{"id":186,"name":"פגישת היכרות ","price":"0","duration":90,"color":"#efa5fe","category":{"name":"Real Estate Agents Marketers Insurers","id":21}},{"id":187,"name":"פגישה - 45 דק'","price":"0","duration":45,"color":"#efa5fe","category":{"name":"Real Estate Agents Marketers Insurers","id":21}},{"id":188,"name":"פגישה - 60 דק'","price":"0","duration":60,"color":"#efa5fe","category":{"name":"Real Estate Agents Marketers Insurers","id":21}},{"id":189,"name":"פגישה - 90 דק'","price":"0","duration":90,"color":"#efa5fe","category":{"name":"Real Estate Agents Marketers Insurers","id":21}},{"id":190,"name":"פגישה - 120 דק'","price":"0","duration":120,"color":"#efa5fe","category":{"name":"Real Estate Agents Marketers Insurers","id":21}},{"id":191,"name":"שיחה טלפונית","price":"0","duration":30,"color":"#efa5fe","category":{"name":"Real Estate Agents Marketers Insurers","id":21}},{"id":192,"name":"פגישת היכרות","price":"0","duration":90,"color":"#fff581","category":{"name":"Service Providers For Home and Business","id":22}},{"id":193,"name":"פגישה - 45 דק'","price":"0","duration":45,"color":"#fff581","category":{"name":"Service Providers For Home and Business","id":22}},{"id":194,"name":"פגישה - 60 דק'","price":"0","duration":60,"color":"#fff581","category":{"name":"Service Providers For Home and Business","id":22}},{"id":195,"name":"פגישה - 90 דק'","price":"0","duration":90,"color":"#fff581","category":{"name":"Service Providers For Home and Business","id":22}},{"id":196,"name":"פגישה - 120 דק'","price":"0","duration":120,"color":"#fff581","category":{"name":"Service Providers For Home and Business","id":22}},{"id":197,"name":"שיחה טלפונית","price":"0","duration":30,"color":"#fff581","category":{"name":"Service Providers For Home and Business","id":22}},{"id":198,"name":"פגישת יעוץ","price":"0","duration":15,"color":"#50e3c1","category":{"name":"Sports and Fitness Instructors","id":23}},{"id":199,"name":"אימון אישי","price":"0","duration":60,"color":"#50e3c1","category":{"name":"Sports and Fitness Instructors","id":23}},{"id":200,"name":"אימון זוגי","price":"0","duration":60,"color":"#50e3c1","category":{"name":"Sports and Fitness Instructors","id":23}},{"id":201,"name":"אימון - 45 דק'","price":"0","duration":45,"color":"#50e3c1","category":{"name":"Sports and Fitness Instructors","id":23}},{"id":202,"name":"אימון - 60 דק'","price":"0","duration":60,"color":"#50e3c1","category":{"name":"Sports and Fitness Instructors","id":23}},{"id":203,"name":"אימון - 90 דק'","price":"0","duration":90,"color":"#50e3c1","category":{"name":"Sports and Fitness Instructors","id":23}},{"id":204,"name":"ביקורת \/ בניית תוכנית","price":"0","duration":30,"color":"#50e3c1","category":{"name":"Sports and Fitness Instructors","id":23}},{"id":205,"name":"פגישת היכרות","price":"0","duration":60,"color":"#fff581","category":{"name":"Tattoo Artists","id":24}},{"id":206,"name":"פגישה עם לקוח - 60 דק'","price":"0","duration":60,"color":"#fff581","category":{"name":"Tattoo Artists","id":24}},{"id":207,"name":"פגישה עם לקוח - 90 דק'","price":"0","duration":90,"color":"#fff581","category":{"name":"Tattoo Artists","id":24}},{"id":208,"name":"פגישה עם לקוח - 120 דק'","price":"0","duration":120,"color":"#fff581","category":{"name":"Tattoo Artists","id":24}},{"id":209,"name":"פגישת היכרות \/ ראשונה","price":"0","duration":90,"color":"#759bfa","category":{"name":"Therapy Specialists","id":25}},{"id":210,"name":"טיפול - 45 דק'","price":"0","duration":45,"color":"#759bfa","category":{"name":"Therapy Specialists","id":25}},{"id":211,"name":"טיפול - 60 דק'","price":"0","duration":60,"color":"#759bfa","category":{"name":"Therapy Specialists","id":25}},{"id":212,"name":"טיפול - 90 דק'","price":"0","duration":90,"color":"#759bfa","category":{"name":"Therapy Specialists","id":25}},{"id":213,"name":"טיפול - 120 דק'","price":"0","duration":120,"color":"#759bfa","category":{"name":"Therapy Specialists","id":25}},{"id":214,"name":"ייעוץ","price":"0","duration":60,"color":"#759bfa","category":{"name":"Therapy Specialists","id":25}},{"id":215,"name":"ביקורת","price":"0","duration":60,"color":"#759bfa","category":{"name":"Therapy Specialists","id":25}},{"id":216,"name":"שיחה טלפונית","price":"0","duration":30,"color":"#759bfa","category":{"name":"Therapy Specialists","id":25}}]
+Server=nginx
+###Date##
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Vary=Accept-Encoding
+###Set-Cookie##
+###X-Request-Id##
+Strict-Transport-Security=max-age=604800
+X-Content-Type-Options=nosniff
+X-Robots-Tag=noindex
+Content-Security-Policy=upgrade-insecure-requests
+X-Powered-By=php/4.3.10-16
+Content-Encoding=gzip
+
+[
+    {
+        "id": 1,
+        "name": "Iuts",
+        "price": "0",
+        "duration": 60,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Alternative Therapy Specialists",
+            "id": 1
+        }
+    },
+    {
+        "id": 2,
+        "name": "Pgishat ivhun reshona",
+        "price": "0",
+        "duration": 90,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Alternative Therapy Specialists",
+            "id": 1
+        }
+    },
+    {
+        "id": 3,
+        "name": "Tipul - 30 min",
+        "price": "0",
+        "duration": 30,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Alternative Therapy Specialists",
+            "id": 1
+        }
+    },
+    {
+        "id": 4,
+        "name": "Tipul - 45 min",
+        "price": "0",
+        "duration": 45,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Alternative Therapy Specialists",
+            "id": 1
+        }
+    },
+    {
+        "id": 5,
+        "name": "Tipul - 60 min, ",
+        "price": "0",
+        "duration": 60,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Alternative Therapy Specialists",
+            "id": 1
+        }
+    },
+    {
+        "id": 6,
+        "name": "Tipul - 90 min",
+        "price": "0",
+        "duration": 90,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Alternative Therapy Specialists",
+            "id": 1
+        }
+    },
+    {
+        "id": 7,
+        "name": "Bikoret",
+        "price": "0",
+        "duration": 60,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Alternative Therapy Specialists",
+            "id": 1
+        }
+    },
+    {
+        "id": 8,
+        "name": "???? ???????",
+        "price": "0",
+        "duration": 30,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Alternative Therapy Specialists",
+            "id": 1
+        }
+    },
+    {
+        "id": 9,
+        "name": "Pgishat ikerut",
+        "price": "0",
+        "duration": 60,
+        "color": "#fff581",
+        "category": {
+            "name": "Consultants And Coachers",
+            "id": 2
+        }
+    },
+    {
+        "id": 10,
+        "name": "Pgishat Iuts/????? - 60 min",
+        "price": "0",
+        "duration": 60,
+        "color": "#fff581",
+        "category": {
+            "name": "Consultants And Coachers",
+            "id": 2
+        }
+    },
+    {
+        "id": 11,
+        "name": "Pgishat Iuts/????? - 90 min, ",
+        "price": "0",
+        "duration": 90,
+        "color": "#fff581",
+        "category": {
+            "name": "Consultants And Coachers",
+            "id": 2
+        }
+    },
+    {
+        "id": 12,
+        "name": "Pgishat Iuts/????? - 120 min, ",
+        "price": "0",
+        "duration": 120,
+        "color": "#fff581",
+        "category": {
+            "name": "Consultants And Coachers",
+            "id": 2
+        }
+    },
+    {
+        "id": 13,
+        "name": "Iuts/????? ??????",
+        "price": "0",
+        "duration": 60,
+        "color": "#fff581",
+        "category": {
+            "name": "Consultants And Coachers",
+            "id": 2
+        }
+    },
+    {
+        "id": 14,
+        "name": "Tipul panim",
+        "price": "350",
+        "duration": 60,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Skin Treatments",
+            "id": 3
+        }
+    },
+    {
+        "id": 15,
+        "name": "Tipul yoffi/zoer",
+        "price": "250",
+        "duration": 45,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Skin Treatments",
+            "id": 3
+        }
+    },
+    {
+        "id": 16,
+        "name": "Tipul mezoterapya",
+        "price": "400",
+        "duration": 90,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Skin Treatments",
+            "id": 3
+        }
+    },
+    {
+        "id": 17,
+        "name": "Tipul ahdarat lahut",
+        "price": "200",
+        "duration": 60,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Skin Treatments",
+            "id": 3
+        }
+    },
+    {
+        "id": 18,
+        "name": "Tipul pigmentasya",
+        "price": "300",
+        "duration": 75,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Skin Treatments",
+            "id": 3
+        }
+    },
+    {
+        "id": 19,
+        "name": "Tipul akne",
+        "price": "250",
+        "duration": 90,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Skin Treatments",
+            "id": 3
+        }
+    },
+    {
+        "id": 20,
+        "name": "Tipul antiaging / Mitzuk",
+        "price": "300",
+        "duration": 60,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Skin Treatments",
+            "id": 3
+        }
+    },
+    {
+        "id": 21,
+        "name": "Piling",
+        "price": "400",
+        "duration": 75,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Skin Treatments",
+            "id": 3
+        }
+    },
+    {
+        "id": 22,
+        "name": "Lak dgel",
+        "price": "120",
+        "duration": 45,
+        "color": "#efefff",
+        "category": {
+            "name": "Manicure Pedicure",
+            "id": 4
+        }
+    },
+    {
+        "id": 23,
+        "name": "Lak dgel",
+        "price": "120",
+        "duration": 45,
+        "color": "#efefff",
+        "category": {
+            "name": "Manicure Pedicure",
+            "id": 4
+        }
+    },
+    {
+        "id": 24,
+        "name": "Lak dgel reglaim",
+        "price": "150",
+        "duration": 30,
+        "color": "#efefff",
+        "category": {
+            "name": "Manicure Pedicure",
+            "id": 4
+        }
+    },
+    {
+        "id": 25,
+        "name": "Lak dgel reglaim",
+        "price": "150",
+        "duration": 30,
+        "color": "#efefff",
+        "category": {
+            "name": "Manicure Pedicure",
+            "id": 4
+        }
+    },
+    {
+        "id": 26,
+        "name": "Manikur express",
+        "price": "45",
+        "duration": 15,
+        "color": "#efefff",
+        "category": {
+            "name": "Manicure Pedicure",
+            "id": 4
+        }
+    },
+    {
+        "id": 27,
+        "name": "Manikur express",
+        "price": "45",
+        "duration": 15,
+        "color": "#efefff",
+        "category": {
+            "name": "Manicure Pedicure",
+            "id": 4
+        }
+    },
+    {
+        "id": 28,
+        "name": "Manikur",
+        "price": "70",
+        "duration": 30,
+        "color": "#efefff",
+        "category": {
+            "name": "Manicure Pedicure",
+            "id": 4
+        }
+    },
+    {
+        "id": 29,
+        "name": "Manikur",
+        "price": "70",
+        "duration": 30,
+        "color": "#efefff",
+        "category": {
+            "name": "Manicure Pedicure",
+            "id": 4
+        }
+    },
+    {
+        "id": 30,
+        "name": "Pedikur express",
+        "price": "55",
+        "duration": 15,
+        "color": "#efefff",
+        "category": {
+            "name": "Manicure Pedicure",
+            "id": 4
+        }
+    },
+    {
+        "id": 31,
+        "name": "Pedikur express",
+        "price": "55",
+        "duration": 15,
+        "color": "#efefff",
+        "category": {
+            "name": "Manicure Pedicure",
+            "id": 4
+        }
+    },
+    {
+        "id": 32,
+        "name": "Pedikur",
+        "price": "140",
+        "duration": 45,
+        "color": "#efefff",
+        "category": {
+            "name": "Manicure Pedicure",
+            "id": 4
+        }
+    },
+    {
+        "id": 33,
+        "name": "Pedikur",
+        "price": "140",
+        "duration": 45,
+        "color": "#efefff",
+        "category": {
+            "name": "Manicure Pedicure",
+            "id": 4
+        }
+    },
+    {
+        "id": 34,
+        "name": "Pedikur refui",
+        "price": "155",
+        "duration": 45,
+        "color": "#efefff",
+        "category": {
+            "name": "Manicure Pedicure",
+            "id": 4
+        }
+    },
+    {
+        "id": 35,
+        "name": "Pedikur refui",
+        "price": "155",
+        "duration": 45,
+        "color": "#efefff",
+        "category": {
+            "name": "Manicure Pedicure",
+            "id": 4
+        }
+    },
+    {
+        "id": 36,
+        "name": "Bnya + Lak dgel",
+        "price": "240",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+            "name": "Nail Sculpting",
+            "id": 5
+        }
+    },
+    {
+        "id": 37,
+        "name": "Bnya + Lak dgel",
+        "price": "240",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+            "name": "Nail Sculpting",
+            "id": 5
+        }
+    },
+    {
+        "id": 38,
+        "name": "Miluy + Lak dgel",
+        "price": "130",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+            "name": "Nail Sculpting",
+            "id": 5
+        }
+    },
+    {
+        "id": 39,
+        "name": "Miluy + Lak dgel",
+        "price": "130",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+            "name": "Nail Sculpting",
+            "id": 5
+        }
+    },
+    {
+        "id": 40,
+        "name": "Bnyat Bniyat tzipornaim",
+        "price": "300",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+            "name": "Nail Sculpting",
+            "id": 5
+        }
+    },
+    {
+        "id": 41,
+        "name": "Bnyat Bniyat tzipornaim",
+        "price": "300",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+            "name": "Nail Sculpting",
+            "id": 5
+        }
+    },
+    {
+        "id": 42,
+        "name": "Bnya ?dgel",
+        "price": "220",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+            "name": "Nail Sculpting",
+            "id": 5
+        }
+    },
+    {
+        "id": 43,
+        "name": "Bnya ?dgel",
+        "price": "220",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+            "name": "Nail Sculpting",
+            "id": 5
+        }
+    },
+    {
+        "id": 44,
+        "name": "Tikun tzipornayim",
+        "price": "0",
+        "duration": 15,
+        "color": "#759bfa",
+        "category": {
+            "name": "Nail Sculpting",
+            "id": 5
+        }
+    },
+    {
+        "id": 45,
+        "name": "Tikun tzipornayim",
+        "price": "0",
+        "duration": 15,
+        "color": "#759bfa",
+        "category": {
+            "name": "Nail Sculpting",
+            "id": 5
+        }
+    },
+    {
+        "id": 46,
+        "name": "Miluy ragil",
+        "price": "110",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+            "name": "Nail Sculpting",
+            "id": 5
+        }
+    },
+    {
+        "id": 47,
+        "name": "Miluy ragil",
+        "price": "110",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+            "name": "Nail Sculpting",
+            "id": 5
+        }
+    },
+    {
+        "id": 48,
+        "name": "Asarat Bnya/Lak dgel",
+        "price": "50",
+        "duration": 30,
+        "color": "#759bfa",
+        "category": {
+            "name": "Nail Sculpting",
+            "id": 5
+        }
+    },
+    {
+        "id": 49,
+        "name": "Asarat Bnya/Lak dgel",
+        "price": "50",
+        "duration": 30,
+        "color": "#759bfa",
+        "category": {
+            "name": "Nail Sculpting",
+            "id": 5
+        }
+    },
+    {
+        "id": 50,
+        "name": "Adbakat Bniyat tzipornaim",
+        "price": "0",
+        "duration": 30,
+        "color": "#759bfa",
+        "category": {
+            "name": "Nail Sculpting",
+            "id": 5
+        }
+    },
+    {
+        "id": 51,
+        "name": "Adbakat Bniyat tzipornaim",
+        "price": "0",
+        "duration": 30,
+        "color": "#759bfa",
+        "category": {
+            "name": "Nail Sculpting",
+            "id": 5
+        }
+    },
+    {
+        "id": 52,
+        "name": "Sidur gabot",
+        "price": "30",
+        "duration": 15,
+        "color": "#b8e986",
+        "category": {
+            "name": "Eyebrows / Mustache",
+            "id": 6
+        }
+    },
+    {
+        "id": 53,
+        "name": "Sidur gabot",
+        "price": "30",
+        "duration": 15,
+        "color": "#b8e986",
+        "category": {
+            "name": "Eyebrows / Mustache",
+            "id": 6
+        }
+    },
+    {
+        "id": 54,
+        "name": "Sapham",
+        "price": "30",
+        "duration": 15,
+        "color": "#b8e986",
+        "category": {
+            "name": "Eyebrows / Mustache",
+            "id": 6
+        }
+    },
+    {
+        "id": 55,
+        "name": "Sapham",
+        "price": "30",
+        "duration": 15,
+        "color": "#b8e986",
+        "category": {
+            "name": "Eyebrows / Mustache",
+            "id": 6
+        }
+    },
+    {
+        "id": 56,
+        "name": "Sapham + gabot",
+        "price": "50",
+        "duration": 30,
+        "color": "#b8e986",
+        "category": {
+            "name": "Eyebrows / Mustache",
+            "id": 6
+        }
+    },
+    {
+        "id": 57,
+        "name": "Sapham + gabot",
+        "price": "50",
+        "duration": 30,
+        "color": "#b8e986",
+        "category": {
+            "name": "Eyebrows / Mustache",
+            "id": 6
+        }
+    },
+    {
+        "id": 58,
+        "name": "Iuts Leizer",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 7
+        }
+    },
+    {
+        "id": 59,
+        "name": "Leizer yadaim",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 7
+        }
+    },
+    {
+        "id": 60,
+        "name": "Leizer reglaim",
+        "price": "0",
+        "duration": 45,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 7
+        }
+    },
+    {
+        "id": 61,
+        "name": "Leizer bikini+shehi",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 7
+        }
+    },
+    {
+        "id": 62,
+        "name": "Leizer bikini",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 7
+        }
+    },
+    {
+        "id": 63,
+        "name": "Leizer shehi",
+        "price": "0",
+        "duration": 15,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 7
+        }
+    },
+    {
+        "id": 64,
+        "name": "Leizer ?.regel ilyona",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 7
+        }
+    },
+    {
+        "id": 65,
+        "name": "Leizer ?.regel tahtona",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 7
+        }
+    },
+    {
+        "id": 66,
+        "name": "Leizer yashvan",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 7
+        }
+    },
+    {
+        "id": 67,
+        "name": "Leizer gav",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 7
+        }
+    },
+    {
+        "id": 68,
+        "name": "Leizer beten",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 7
+        }
+    },
+    {
+        "id": 69,
+        "name": "Leizer haze+beten",
+        "price": "0",
+        "duration": 45,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 7
+        }
+    },
+    {
+        "id": 70,
+        "name": "Leizer ??r?",
+        "price": "0",
+        "duration": 15,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 7
+        }
+    },
+    {
+        "id": 71,
+        "name": "Leizer panim",
+        "price": "0",
+        "duration": 15,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 7
+        }
+    },
+    {
+        "id": 72,
+        "name": "Leizer Sapham+???r",
+        "price": "0",
+        "duration": 15,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 7
+        }
+    },
+    {
+        "id": 73,
+        "name": "Leizer Sapham",
+        "price": "0",
+        "duration": 15,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 7
+        }
+    },
+    {
+        "id": 74,
+        "name": "Leizer lahaim gavr",
+        "price": "0",
+        "duration": 15,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 7
+        }
+    },
+    {
+        "id": 75,
+        "name": "Leizer haze",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 7
+        }
+    },
+    {
+        "id": 76,
+        "name": "Leizer pas beten",
+        "price": "0",
+        "duration": 15,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 7
+        }
+    },
+    {
+        "id": 77,
+        "name": "Shaava - panim",
+        "price": "50",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 8
+        }
+    },
+    {
+        "id": 78,
+        "name": "Shaava - shehi",
+        "price": "30",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 8
+        }
+    },
+    {
+        "id": 79,
+        "name": "Shaava - ??????",
+        "price": "40",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 8
+        }
+    },
+    {
+        "id": 80,
+        "name": "Shaava - mafshaut",
+        "price": "60",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 8
+        }
+    },
+    {
+        "id": 81,
+        "name": "Shaava - peot",
+        "price": "80",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 8
+        }
+    },
+    {
+        "id": 82,
+        "name": "Shaava - reglaim",
+        "price": "120",
+        "duration": 30,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 8
+        }
+    },
+    {
+        "id": 83,
+        "name": "Shaava - hatzi regel",
+        "price": "80",
+        "duration": 30,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 8
+        }
+    },
+    {
+        "id": 84,
+        "name": "Shaava - reglaim + bikini",
+        "price": "150",
+        "duration": 30,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 8
+        }
+    },
+    {
+        "id": 85,
+        "name": "Shaava - yadaim",
+        "price": "80",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 8
+        }
+    },
+    {
+        "id": 86,
+        "name": "Shaava gavr - gav",
+        "price": "120",
+        "duration": 30,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 8
+        }
+    },
+    {
+        "id": 87,
+        "name": "Shaava gavr - haze",
+        "price": "80",
+        "duration": 30,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 8
+        }
+    },
+    {
+        "id": 88,
+        "name": "Shaava gavr - ??Fen??",
+        "price": "50",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 8
+        }
+    },
+    {
+        "id": 89,
+        "name": "Shaava gavr - ??r?",
+        "price": "30",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 8
+        }
+    },
+    {
+        "id": 90,
+        "name": "Shaava - beten",
+        "price": "50",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 8
+        }
+    },
+    {
+        "id": 91,
+        "name": "Shaava gavr - beten",
+        "price": "70",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 8
+        }
+    },
+    {
+        "id": 92,
+        "name": "Shaava - hatzi ??",
+        "price": "40",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 8
+        }
+    },
+    {
+        "id": 93,
+        "name": "????r kavua- ???????r ?????",
+        "price": "0",
+        "duration": 120,
+        "color": "#ff98ad",
+        "category": {
+            "name": "Makeup / Permanent Makeup",
+            "id": 9
+        }
+    },
+    {
+        "id": 94,
+        "name": "????r kavua - ???????r tahton",
+        "price": "0",
+        "duration": 120,
+        "color": "#ff98ad",
+        "category": {
+            "name": "Makeup / Permanent Makeup",
+            "id": 9
+        }
+    },
+    {
+        "id": 95,
+        "name": "????r kavua - ??????",
+        "price": "0",
+        "duration": 120,
+        "color": "#ff98ad",
+        "category": {
+            "name": "Makeup / Permanent Makeup",
+            "id": 9
+        }
+    },
+    {
+        "id": 96,
+        "name": "????? ????r kavua",
+        "price": "0",
+        "duration": 60,
+        "color": "#ff98ad",
+        "category": {
+            "name": "Makeup / Permanent Makeup",
+            "id": 9
+        }
+    },
+    {
+        "id": 97,
+        "name": "????r ?r?",
+        "price": "300",
+        "duration": 45,
+        "color": "#ff98ad",
+        "category": {
+            "name": "Makeup / Permanent Makeup",
+            "id": 9
+        }
+    },
+    {
+        "id": 98,
+        "name": "????r kala",
+        "price": "950",
+        "duration": 90,
+        "color": "#ff98ad",
+        "category": {
+            "name": "Makeup / Permanent Makeup",
+            "id": 9
+        }
+    },
+    {
+        "id": 99,
+        "name": "????r kavua gabot",
+        "price": "0",
+        "duration": 120,
+        "color": "#ff98ad",
+        "category": {
+            "name": "Makeup / Permanent Makeup",
+            "id": 9
+        }
+    },
+    {
+        "id": 100,
+        "name": "????r? gavr",
+        "price": "50",
+        "duration": 15,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Hair Styling",
+            "id": 10
+        }
+    },
+    {
+        "id": 101,
+        "name": "????r? ???",
+        "price": "50",
+        "duration": 15,
+        "color": "#a44bc2",
+        "category": {
+            "name": "Hair Styling",
+            "id": 10
+        }
+    },
+    {
+        "id": 102,
+        "name": "????r? ????",
+        "price": "150",
+        "duration": 30,
+        "color": "#a44bc2",
+        "category": {
+            "name": "Hair Styling",
+            "id": 10
+        }
+    },
+    {
+        "id": 103,
+        "name": "Fen ??r",
+        "price": "80",
+        "duration": 30,
+        "color": "#a44bc2",
+        "category": {
+            "name": "Hair Styling",
+            "id": 10
+        }
+    },
+    {
+        "id": 104,
+        "name": "Fen ?r??",
+        "price": "100",
+        "duration": 45,
+        "color": "#a44bc2",
+        "category": {
+            "name": "Hair Styling",
+            "id": 10
+        }
+    },
+    {
+        "id": 105,
+        "name": "Fen kalul",
+        "price": "0",
+        "duration": 15,
+        "color": "#a44bc2",
+        "category": {
+            "name": "Hair Styling",
+            "id": 10
+        }
+    },
+    {
+        "id": 106,
+        "name": "Fen ????????",
+        "price": "120",
+        "duration": 30,
+        "color": "#a44bc2",
+        "category": {
+            "name": "Hair Styling",
+            "id": 10
+        }
+    },
+    {
+        "id": 107,
+        "name": "??r??? ?r?",
+        "price": "250",
+        "duration": 60,
+        "color": "#a44bc2",
+        "category": {
+            "name": "Hair Styling",
+            "id": 10
+        }
+    },
+    {
+        "id": 108,
+        "name": "????r? ???? + Fen",
+        "price": "180",
+        "duration": 60,
+        "color": "#a44bc2",
+        "category": {
+            "name": "Hair Styling",
+            "id": 10
+        }
+    },
+    {
+        "id": 109,
+        "name": "????r? gavr + zakan",
+        "price": "70",
+        "duration": 30,
+        "color": "#a44bc2",
+        "category": {
+            "name": "Hair Styling",
+            "id": 10
+        }
+    },
+    {
+        "id": 110,
+        "name": "Iuts ??Lak?",
+        "price": "0",
+        "duration": 15,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Hair Coloring",
+            "id": 11
+        }
+    },
+    {
+        "id": 111,
+        "name": "Tzeva r?? male",
+        "price": "220",
+        "duration": 15,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Hair Coloring",
+            "id": 11
+        }
+    },
+    {
+        "id": 112,
+        "name": "Tzeva ??r?",
+        "price": "150",
+        "duration": 15,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Hair Coloring",
+            "id": 11
+        }
+    },
+    {
+        "id": 113,
+        "name": "?????",
+        "price": "150",
+        "duration": 15,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Hair Coloring",
+            "id": 11
+        }
+    },
+    {
+        "id": 114,
+        "name": "?????? r?? male",
+        "price": "500",
+        "duration": 75,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Hair Coloring",
+            "id": 11
+        }
+    },
+    {
+        "id": 115,
+        "name": "?????? hatzi r??",
+        "price": "300",
+        "duration": 45,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Hair Coloring",
+            "id": 11
+        }
+    },
+    {
+        "id": 116,
+        "name": "????r?",
+        "price": "600",
+        "duration": 120,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Hair Coloring",
+            "id": 11
+        }
+    },
+    {
+        "id": 117,
+        "name": "?????'",
+        "price": "800",
+        "duration": 120,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Hair Coloring",
+            "id": 11
+        }
+    },
+    {
+        "id": 118,
+        "name": "???r?",
+        "price": "150",
+        "duration": 60,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Hair Coloring",
+            "id": 11
+        }
+    },
+    {
+        "id": 119,
+        "name": "????? ??????",
+        "price": "250",
+        "duration": 45,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Hair Coloring",
+            "id": 11
+        }
+    },
+    {
+        "id": 120,
+        "name": "??Lak? ??r???",
+        "price": "600",
+        "duration": 45,
+        "color": "#fff581",
+        "category": {
+            "name": "Hair Straightening",
+            "id": 12
+        }
+    },
+    {
+        "id": 121,
+        "name": "??Lak? ??r????",
+        "price": "600",
+        "duration": 45,
+        "color": "#fff581",
+        "category": {
+            "name": "Hair Straightening",
+            "id": 12
+        }
+    },
+    {
+        "id": 122,
+        "name": "??Lak? meshulevet",
+        "price": "800",
+        "duration": 120,
+        "color": "#fff581",
+        "category": {
+            "name": "Hair Straightening",
+            "id": 12
+        }
+    },
+    {
+        "id": 123,
+        "name": "??Lak? ?????",
+        "price": "1200",
+        "duration": 60,
+        "color": "#fff581",
+        "category": {
+            "name": "Hair Straightening",
+            "id": 12
+        }
+    },
+    {
+        "id": 124,
+        "name": "????? / ?????",
+        "price": "0",
+        "duration": 90,
+        "color": "#fff581",
+        "category": {
+            "name": "Hair Straightening",
+            "id": 12
+        }
+    },
+    {
+        "id": 125,
+        "name": "???? ???????",
+        "price": "0",
+        "duration": 30,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Installers and Technicians",
+            "id": 13
+        }
+    },
+    {
+        "id": 126,
+        "name": "Pgishat ikerut ",
+        "price": "0",
+        "duration": 90,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Installers and Technicians",
+            "id": 13
+        }
+    },
+    {
+        "id": 127,
+        "name": "Tikun/Atkana - 45 min",
+        "price": "0",
+        "duration": 45,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Installers and Technicians",
+            "id": 13
+        }
+    },
+    {
+        "id": 128,
+        "name": "Tikun/Atkana - 60 min",
+        "price": "0",
+        "duration": 60,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Installers and Technicians",
+            "id": 13
+        }
+    },
+    {
+        "id": 129,
+        "name": "Tikun/Atkana - 90 min",
+        "price": "0",
+        "duration": 90,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Installers and Technicians",
+            "id": 13
+        }
+    },
+    {
+        "id": 130,
+        "name": "Tikun/Atkana - 120 min",
+        "price": "0",
+        "duration": 120,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Installers and Technicians",
+            "id": 13
+        }
+    },
+    {
+        "id": 131,
+        "name": "Pgishat ikerut",
+        "price": "0",
+        "duration": 60,
+        "color": "#efefff",
+        "category": {
+            "name": "Interior Designers and Architects",
+            "id": 14
+        }
+    },
+    {
+        "id": 132,
+        "name": "Pgishat avoda ??r? - shaa",
+        "price": "0",
+        "duration": 60,
+        "color": "#efefff",
+        "category": {
+            "name": "Interior Designers and Architects",
+            "id": 14
+        }
+    },
+    {
+        "id": 133,
+        "name": "Pgishat avoda ?r??? - ??????",
+        "price": "0",
+        "duration": 120,
+        "color": "#efefff",
+        "category": {
+            "name": "Interior Designers and Architects",
+            "id": 14
+        }
+    },
+    {
+        "id": 134,
+        "name": "Pgishat avoda ?r??? - 3 shaot",
+        "price": "0",
+        "duration": 180,
+        "color": "#efefff",
+        "category": {
+            "name": "Interior Designers and Architects",
+            "id": 14
+        }
+    },
+    {
+        "id": 135,
+        "name": "??? shalem im Lak??",
+        "price": "0",
+        "duration": 360,
+        "color": "#efefff",
+        "category": {
+            "name": "Interior Designers and Architects",
+            "id": 14
+        }
+    },
+    {
+        "id": 136,
+        "name": "Pgishat Iuts",
+        "price": "0",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+            "name": "Makeup / Wedding Makeup",
+            "id": 15
+        }
+    },
+    {
+        "id": 137,
+        "name": "????r ?r?",
+        "price": "300",
+        "duration": 45,
+        "color": "#759bfa",
+        "category": {
+            "name": "Makeup / Wedding Makeup",
+            "id": 15
+        }
+    },
+    {
+        "id": 138,
+        "name": "????r kala",
+        "price": "800",
+        "duration": 75,
+        "color": "#759bfa",
+        "category": {
+            "name": "Makeup / Wedding Makeup",
+            "id": 15
+        }
+    },
+    {
+        "id": 139,
+        "name": "????r melave",
+        "price": "250",
+        "duration": 45,
+        "color": "#759bfa",
+        "category": {
+            "name": "Makeup / Wedding Makeup",
+            "id": 15
+        }
+    },
+    {
+        "id": 140,
+        "name": "????r ??????",
+        "price": "100",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+            "name": "Makeup / Wedding Makeup",
+            "id": 15
+        }
+    },
+    {
+        "id": 141,
+        "name": "??r??? ?r?",
+        "price": "0",
+        "duration": 90,
+        "color": "#759bfa",
+        "category": {
+            "name": "Makeup / Wedding Makeup",
+            "id": 15
+        }
+    },
+    {
+        "id": 142,
+        "name": "??r??? kala",
+        "price": "1200",
+        "duration": 120,
+        "color": "#759bfa",
+        "category": {
+            "name": "Makeup / Wedding Makeup",
+            "id": 15
+        }
+    },
+    {
+        "id": 143,
+        "name": "??r??? melave",
+        "price": "300",
+        "duration": 90,
+        "color": "#759bfa",
+        "category": {
+            "name": "Makeup / Wedding Makeup",
+            "id": 15
+        }
+    },
+    {
+        "id": 144,
+        "name": "??r??? ??????",
+        "price": "0",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+            "name": "Makeup / Wedding Makeup",
+            "id": 15
+        }
+    },
+    {
+        "id": 145,
+        "name": "????? kala (???r + ????r)",
+        "price": "1700",
+        "duration": 210,
+        "color": "#759bfa",
+        "category": {
+            "name": "Makeup / Wedding Makeup",
+            "id": 15
+        }
+    },
+    {
+        "id": 146,
+        "name": "????? melave (???r + ????r)",
+        "price": "500",
+        "duration": 180,
+        "color": "#759bfa",
+        "category": {
+            "name": "Makeup / Wedding Makeup",
+            "id": 15
+        }
+    },
+    {
+        "id": 147,
+        "name": "Agaa / ????? ???r??",
+        "price": "0",
+        "duration": 120,
+        "color": "#759bfa",
+        "category": {
+            "name": "Makeup / Wedding Makeup",
+            "id": 15
+        }
+    },
+    {
+        "id": 148,
+        "name": "Iuts",
+        "price": "0",
+        "duration": 60,
+        "color": "#b8e986",
+        "category": {
+            "name": "Massage and Reflexology Therapists",
+            "id": 16
+        }
+    },
+    {
+        "id": 149,
+        "name": "Pgishat ivhun reshona",
+        "price": "0",
+        "duration": 90,
+        "color": "#b8e986",
+        "category": {
+            "name": "Massage and Reflexology Therapists",
+            "id": 16
+        }
+    },
+    {
+        "id": 150,
+        "name": "Tipul - 30 min",
+        "price": "0",
+        "duration": 30,
+        "color": "#b8e986",
+        "category": {
+            "name": "Massage and Reflexology Therapists",
+            "id": 16
+        }
+    },
+    {
+        "id": 151,
+        "name": "Tipul - 45 min",
+        "price": "0",
+        "duration": 45,
+        "color": "#b8e986",
+        "category": {
+            "name": "Massage and Reflexology Therapists",
+            "id": 16
+        }
+    },
+    {
+        "id": 152,
+        "name": "Tipul - 60 min",
+        "price": "0",
+        "duration": 60,
+        "color": "#b8e986",
+        "category": {
+            "name": "Massage and Reflexology Therapists",
+            "id": 16
+        }
+    },
+    {
+        "id": 153,
+        "name": "Tipul - 90 min",
+        "price": "0",
+        "duration": 90,
+        "color": "#b8e986",
+        "category": {
+            "name": "Massage and Reflexology Therapists",
+            "id": 16
+        }
+    },
+    {
+        "id": 154,
+        "name": "Bikoret",
+        "price": "0",
+        "duration": 60,
+        "color": "#b8e986",
+        "category": {
+            "name": "Massage and Reflexology Therapists",
+            "id": 16
+        }
+    },
+    {
+        "id": 155,
+        "name": "???? ???????",
+        "price": "0",
+        "duration": 30,
+        "color": "#b8e986",
+        "category": {
+            "name": "Massage and Reflexology Therapists",
+            "id": 16
+        }
+    },
+    {
+        "id": 156,
+        "name": "Pgishat ikerut ",
+        "price": "0",
+        "duration": 60,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Movers and Cleaners",
+            "id": 17
+        }
+    },
+    {
+        "id": 157,
+        "name": "avoda - ??????",
+        "price": "0",
+        "duration": 120,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Movers and Cleaners",
+            "id": 17
+        }
+    },
+    {
+        "id": 158,
+        "name": "avoda - 3 shaot",
+        "price": "0",
+        "duration": 180,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Movers and Cleaners",
+            "id": 17
+        }
+    },
+    {
+        "id": 159,
+        "name": "avoda - 4 shaot",
+        "price": "0",
+        "duration": 240,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Movers and Cleaners",
+            "id": 17
+        }
+    },
+    {
+        "id": 160,
+        "name": "avoda - 5 shaot",
+        "price": "0",
+        "duration": 300,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Movers and Cleaners",
+            "id": 17
+        }
+    },
+    {
+        "id": 161,
+        "name": "???? ???????",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Movers and Cleaners",
+            "id": 17
+        }
+    },
+    {
+        "id": 162,
+        "name": "Pgishat ikerut / reshona",
+        "price": "0",
+        "duration": 90,
+        "color": "#deceff",
+        "category": {
+            "name": "Nutritionists and Naturopaths",
+            "id": 18
+        }
+    },
+    {
+        "id": 163,
+        "name": "Iuts",
+        "price": "0",
+        "duration": 60,
+        "color": "#deceff",
+        "category": {
+            "name": "Nutritionists and Naturopaths",
+            "id": 18
+        }
+    },
+    {
+        "id": 164,
+        "name": "???? ???????",
+        "price": "0",
+        "duration": 30,
+        "color": "#deceff",
+        "category": {
+            "name": "Nutritionists and Naturopaths",
+            "id": 18
+        }
+    },
+    {
+        "id": 165,
+        "name": "Tipul - 45 min",
+        "price": "0",
+        "duration": 45,
+        "color": "#deceff",
+        "category": {
+            "name": "Nutritionists and Naturopaths",
+            "id": 18
+        }
+    },
+    {
+        "id": 166,
+        "name": "Tipul - 60 min",
+        "price": "0",
+        "duration": 60,
+        "color": "#deceff",
+        "category": {
+            "name": "Nutritionists and Naturopaths",
+            "id": 18
+        }
+    },
+    {
+        "id": 167,
+        "name": "Tipul - 90 min",
+        "price": "0",
+        "duration": 90,
+        "color": "#deceff",
+        "category": {
+            "name": "Nutritionists and Naturopaths",
+            "id": 18
+        }
+    },
+    {
+        "id": 168,
+        "name": "Tipul - 120 min",
+        "price": "0",
+        "duration": 120,
+        "color": "#deceff",
+        "category": {
+            "name": "Nutritionists and Naturopaths",
+            "id": 18
+        }
+    },
+    {
+        "id": 169,
+        "name": "Bikoret",
+        "price": "0",
+        "duration": 60,
+        "color": "#deceff",
+        "category": {
+            "name": "Nutritionists and Naturopaths",
+            "id": 18
+        }
+    },
+    {
+        "id": 170,
+        "name": "???? ??????? / atzaat ???r",
+        "price": "0",
+        "duration": 30,
+        "color": "#ff98ad",
+        "category": {
+            "name": "Pest Controllers",
+            "id": 19
+        }
+    },
+    {
+        "id": 171,
+        "name": "???r? ??r? 2 ??r??",
+        "price": "0",
+        "duration": 60,
+        "color": "#ff98ad",
+        "category": {
+            "name": "Pest Controllers",
+            "id": 19
+        }
+    },
+    {
+        "id": 172,
+        "name": "???r? ??r? 3 ??r??",
+        "price": "0",
+        "duration": 60,
+        "color": "#ff98ad",
+        "category": {
+            "name": "Pest Controllers",
+            "id": 19
+        }
+    },
+    {
+        "id": 173,
+        "name": "???r? ??r? 4 ??r??",
+        "price": "0",
+        "duration": 90,
+        "color": "#ff98ad",
+        "category": {
+            "name": "Pest Controllers",
+            "id": 19
+        }
+    },
+    {
+        "id": 174,
+        "name": "???r? ????? ???r",
+        "price": "0",
+        "duration": 60,
+        "color": "#ff98ad",
+        "category": {
+            "name": "Pest Controllers",
+            "id": 19
+        }
+    },
+    {
+        "id": 175,
+        "name": "???r? ??? ?r?? - katan",
+        "price": "0",
+        "duration": 120,
+        "color": "#ff98ad",
+        "category": {
+            "name": "Pest Controllers",
+            "id": 19
+        }
+    },
+    {
+        "id": 176,
+        "name": "???r? ??? ?r?? - gadol",
+        "price": "0",
+        "duration": 180,
+        "color": "#ff98ad",
+        "category": {
+            "name": "Pest Controllers",
+            "id": 19
+        }
+    },
+    {
+        "id": 177,
+        "name": "???r? ???? ?r???",
+        "price": "0",
+        "duration": 30,
+        "color": "#ff98ad",
+        "category": {
+            "name": "Pest Controllers",
+            "id": 19
+        }
+    },
+    {
+        "id": 178,
+        "name": "???r? ??????? / ??r",
+        "price": "0",
+        "duration": 60,
+        "color": "#ff98ad",
+        "category": {
+            "name": "Pest Controllers",
+            "id": 19
+        }
+    },
+    {
+        "id": 179,
+        "name": "???r? hanut / esek / ??r?",
+        "price": "0",
+        "duration": 60,
+        "color": "#ff98ad",
+        "category": {
+            "name": "Pest Controllers",
+            "id": 19
+        }
+    },
+    {
+        "id": 180,
+        "name": "???r? mosdot ????r ",
+        "price": "0",
+        "duration": 180,
+        "color": "#ff98ad",
+        "category": {
+            "name": "Pest Controllers",
+            "id": 19
+        }
+    },
+    {
+        "id": 181,
+        "name": "Pgishat ikerut / reshona",
+        "price": "0",
+        "duration": 90,
+        "color": "#a44bc2",
+        "category": {
+            "name": "Private Teachers and Tutors",
+            "id": 20
+        }
+    },
+    {
+        "id": 182,
+        "name": "????r - 45 min",
+        "price": "0",
+        "duration": 45,
+        "color": "#a44bc2",
+        "category": {
+            "name": "Private Teachers and Tutors",
+            "id": 20
+        }
+    },
+    {
+        "id": 183,
+        "name": "????r - 60 min",
+        "price": "0",
+        "duration": 60,
+        "color": "#a44bc2",
+        "category": {
+            "name": "Private Teachers and Tutors",
+            "id": 20
+        }
+    },
+    {
+        "id": 184,
+        "name": "????r - 90 min",
+        "price": "0",
+        "duration": 90,
+        "color": "#a44bc2",
+        "category": {
+            "name": "Private Teachers and Tutors",
+            "id": 20
+        }
+    },
+    {
+        "id": 185,
+        "name": "????r - 120 min",
+        "price": "0",
+        "duration": 120,
+        "color": "#a44bc2",
+        "category": {
+            "name": "Private Teachers and Tutors",
+            "id": 20
+        }
+    },
+    {
+        "id": 186,
+        "name": "Pgishat ikerut ",
+        "price": "0",
+        "duration": 90,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Real Estate Agents Marketers Insurers",
+            "id": 21
+        }
+    },
+    {
+        "id": 187,
+        "name": "Pgisha - 45 min",
+        "price": "0",
+        "duration": 45,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Real Estate Agents Marketers Insurers",
+            "id": 21
+        }
+    },
+    {
+        "id": 188,
+        "name": "Pgisha - 60 min",
+        "price": "0",
+        "duration": 60,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Real Estate Agents Marketers Insurers",
+            "id": 21
+        }
+    },
+    {
+        "id": 189,
+        "name": "Pgisha - 90 min",
+        "price": "0",
+        "duration": 90,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Real Estate Agents Marketers Insurers",
+            "id": 21
+        }
+    },
+    {
+        "id": 190,
+        "name": "Pgisha - 120 min",
+        "price": "0",
+        "duration": 120,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Real Estate Agents Marketers Insurers",
+            "id": 21
+        }
+    },
+    {
+        "id": 191,
+        "name": "???? ???????",
+        "price": "0",
+        "duration": 30,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Real Estate Agents Marketers Insurers",
+            "id": 21
+        }
+    },
+    {
+        "id": 192,
+        "name": "Pgishat ikerut",
+        "price": "0",
+        "duration": 90,
+        "color": "#fff581",
+        "category": {
+            "name": "Service Providers For Home and Business",
+            "id": 22
+        }
+    },
+    {
+        "id": 193,
+        "name": "Pgisha - 45 min",
+        "price": "0",
+        "duration": 45,
+        "color": "#fff581",
+        "category": {
+            "name": "Service Providers For Home and Business",
+            "id": 22
+        }
+    },
+    {
+        "id": 194,
+        "name": "Pgisha - 60 min",
+        "price": "0",
+        "duration": 60,
+        "color": "#fff581",
+        "category": {
+            "name": "Service Providers For Home and Business",
+            "id": 22
+        }
+    },
+    {
+        "id": 195,
+        "name": "Pgisha - 90 min",
+        "price": "0",
+        "duration": 90,
+        "color": "#fff581",
+        "category": {
+            "name": "Service Providers For Home and Business",
+            "id": 22
+        }
+    },
+    {
+        "id": 196,
+        "name": "Pgisha - 120 min",
+        "price": "0",
+        "duration": 120,
+        "color": "#fff581",
+        "category": {
+            "name": "Service Providers For Home and Business",
+            "id": 22
+        }
+    },
+    {
+        "id": 197,
+        "name": "???? ???????",
+        "price": "0",
+        "duration": 30,
+        "color": "#fff581",
+        "category": {
+            "name": "Service Providers For Home and Business",
+            "id": 22
+        }
+    },
+    {
+        "id": 198,
+        "name": "Pgishat Iuts",
+        "price": "0",
+        "duration": 15,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Sports and Fitness Instructors",
+            "id": 23
+        }
+    },
+    {
+        "id": 199,
+        "name": "????? ????",
+        "price": "0",
+        "duration": 60,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Sports and Fitness Instructors",
+            "id": 23
+        }
+    },
+    {
+        "id": 200,
+        "name": "????? ????",
+        "price": "0",
+        "duration": 60,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Sports and Fitness Instructors",
+            "id": 23
+        }
+    },
+    {
+        "id": 201,
+        "name": "????? - 45 min",
+        "price": "0",
+        "duration": 45,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Sports and Fitness Instructors",
+            "id": 23
+        }
+    },
+    {
+        "id": 202,
+        "name": "????? - 60 min",
+        "price": "0",
+        "duration": 60,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Sports and Fitness Instructors",
+            "id": 23
+        }
+    },
+    {
+        "id": 203,
+        "name": "????? - 90 min",
+        "price": "0",
+        "duration": 90,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Sports and Fitness Instructors",
+            "id": 23
+        }
+    },
+    {
+        "id": 204,
+        "name": "Bikoret / Bnyat ??????",
+        "price": "0",
+        "duration": 30,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Sports and Fitness Instructors",
+            "id": 23
+        }
+    },
+    {
+        "id": 205,
+        "name": "Pgishat ikerut",
+        "price": "0",
+        "duration": 60,
+        "color": "#fff581",
+        "category": {
+            "name": "Tattoo Artists",
+            "id": 24
+        }
+    },
+    {
+        "id": 206,
+        "name": "Pgisha im Lak?? - 60 min",
+        "price": "0",
+        "duration": 60,
+        "color": "#fff581",
+        "category": {
+            "name": "Tattoo Artists",
+            "id": 24
+        }
+    },
+    {
+        "id": 207,
+        "name": "Pgisha im Lak?? - 90 min",
+        "price": "0",
+        "duration": 90,
+        "color": "#fff581",
+        "category": {
+            "name": "Tattoo Artists",
+            "id": 24
+        }
+    },
+    {
+        "id": 208,
+        "name": "Pgisha im Lak?? - 120 min",
+        "price": "0",
+        "duration": 120,
+        "color": "#fff581",
+        "category": {
+            "name": "Tattoo Artists",
+            "id": 24
+        }
+    },
+    {
+        "id": 209,
+        "name": "Pgishat ikerut / reshona",
+        "price": "0",
+        "duration": 90,
+        "color": "#759bfa",
+        "category": {
+            "name": "Therapy Specialists",
+            "id": 25
+        }
+    },
+    {
+        "id": 210,
+        "name": "Tipul - 45 min",
+        "price": "0",
+        "duration": 45,
+        "color": "#759bfa",
+        "category": {
+            "name": "Therapy Specialists",
+            "id": 25
+        }
+    },
+    {
+        "id": 211,
+        "name": "Tipul - 60 min",
+        "price": "0",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+            "name": "Therapy Specialists",
+            "id": 25
+        }
+    },
+    {
+        "id": 212,
+        "name": "Tipul - 90 min",
+        "price": "0",
+        "duration": 90,
+        "color": "#759bfa",
+        "category": {
+            "name": "Therapy Specialists",
+            "id": 25
+        }
+    },
+    {
+        "id": 213,
+        "name": "Tipul - 120 min",
+        "price": "0",
+        "duration": 120,
+        "color": "#759bfa",
+        "category": {
+            "name": "Therapy Specialists",
+            "id": 25
+        }
+    },
+    {
+        "id": 214,
+        "name": "Iuts",
+        "price": "0",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+            "name": "Therapy Specialists",
+            "id": 25
+        }
+    },
+    {
+        "id": 215,
+        "name": "Bikoret",
+        "price": "0",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+            "name": "Therapy Specialists",
+            "id": 25
+        }
+    },
+    {
+        "id": 216,
+        "name": "???? ???????",
+        "price": "0",
+        "duration": 30,
+        "color": "#759bfa",
+        "category": {
+            "name": "Therapy Specialists",
+            "id": 25
+        }
+    }
+]

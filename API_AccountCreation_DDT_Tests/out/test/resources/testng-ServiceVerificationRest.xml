@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="suite_Menu">
+<suite name="suite_JSONTests">
     <test verbose="1" preserve-order="true" name="testsServicesTests">
         <classes>
             <class name="lista2020.tests.VerifyServicesSetTests">

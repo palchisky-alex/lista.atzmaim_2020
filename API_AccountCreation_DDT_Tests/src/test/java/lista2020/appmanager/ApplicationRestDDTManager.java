@@ -22,6 +22,8 @@ public class ApplicationRestDDTManager {
         RestAssured.useRelaxedHTTPSValidation();
         accountCreationHelper = new AccountCreationHelper();
         serviceRestHelper = new ServiceVerificationRestHelper();
+
+         String ApprovalBaseDirectory = "../API_AccountCreation_DDT_Tests/src/test/resources";
     }
 
 

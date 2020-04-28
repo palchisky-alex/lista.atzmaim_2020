@@ -1,1 +1,765 @@
-[{"id":1,"name":"טיפול פנים","price":"350","duration":60,"color":"#50e3c1","category":{"name":"Skin Treatments","id":1}},{"id":2,"name":"טיפול יופי\/זוהר","price":"250","duration":45,"color":"#50e3c1","category":{"name":"Skin Treatments","id":1}},{"id":3,"name":"טיפול מזוטרפיה","price":"400","duration":90,"color":"#50e3c1","category":{"name":"Skin Treatments","id":1}},{"id":4,"name":"טיפול החדרת לחות","price":"200","duration":60,"color":"#50e3c1","category":{"name":"Skin Treatments","id":1}},{"id":5,"name":"טיפול פיגמנטציה","price":"300","duration":75,"color":"#50e3c1","category":{"name":"Skin Treatments","id":1}},{"id":6,"name":"טיפול אקנה","price":"250","duration":90,"color":"#50e3c1","category":{"name":"Skin Treatments","id":1}},{"id":7,"name":"טיפול אנטיאייג'ינג \/ מיצוק","price":"300","duration":60,"color":"#50e3c1","category":{"name":"Skin Treatments","id":1}},{"id":8,"name":"פילינג","price":"400","duration":75,"color":"#50e3c1","category":{"name":"Skin Treatments","id":1}},{"id":9,"name":"לק ג'ל","price":"120","duration":45,"color":"#efefff","category":{"name":"Manicure Pedicure","id":2}},{"id":10,"name":"לק ג'ל ברגליים","price":"150","duration":30,"color":"#efefff","category":{"name":"Manicure Pedicure","id":2}},{"id":11,"name":"מניקור אקספרס","price":"45","duration":15,"color":"#efefff","category":{"name":"Manicure Pedicure","id":2}},{"id":12,"name":"מניקור","price":"70","duration":30,"color":"#efefff","category":{"name":"Manicure Pedicure","id":2}},{"id":13,"name":"פדיקור אקספרס","price":"55","duration":15,"color":"#efefff","category":{"name":"Manicure Pedicure","id":2}},{"id":14,"name":"פדיקור","price":"140","duration":45,"color":"#efefff","category":{"name":"Manicure Pedicure","id":2}},{"id":15,"name":"פדיקור רפואי","price":"155","duration":45,"color":"#efefff","category":{"name":"Manicure Pedicure","id":2}},{"id":16,"name":"בנייה + לק ג'ל","price":"240","duration":60,"color":"#759bfa","category":{"name":"Nail Sculpting","id":3}},{"id":17,"name":"מילוי + לק ג'ל","price":"130","duration":60,"color":"#759bfa","category":{"name":"Nail Sculpting","id":3}},{"id":18,"name":"בניית ציפורניים","price":"300","duration":60,"color":"#759bfa","category":{"name":"Nail Sculpting","id":3}},{"id":19,"name":"בנייה בג'ל","price":"220","duration":60,"color":"#759bfa","category":{"name":"Nail Sculpting","id":3}},{"id":20,"name":"תיקון ציפורן","price":"0","duration":15,"color":"#759bfa","category":{"name":"Nail Sculpting","id":3}},{"id":21,"name":"מילוי רגיל","price":"110","duration":60,"color":"#759bfa","category":{"name":"Nail Sculpting","id":3}},{"id":22,"name":"הסרת בנייה\/לק ג'ל","price":"50","duration":30,"color":"#759bfa","category":{"name":"Nail Sculpting","id":3}},{"id":23,"name":"הדבקת ציפורניים","price":"0","duration":30,"color":"#759bfa","category":{"name":"Nail Sculpting","id":3}},{"id":24,"name":"סידור גבות","price":"30","duration":15,"color":"#b8e986","category":{"name":"Eyebrows \/ Mustache","id":4}},{"id":25,"name":"שפם","price":"30","duration":15,"color":"#b8e986","category":{"name":"Eyebrows \/ Mustache","id":4}},{"id":26,"name":"שפם + גבות","price":"50","duration":30,"color":"#b8e986","category":{"name":"Eyebrows \/ Mustache","id":4}},{"id":27,"name":"יעוץ לייזר","price":"0","duration":30,"color":"#3fb6dc","category":{"name":"Epilation","id":5}},{"id":28,"name":"לייזר ידיים","price":"0","duration":30,"color":"#3fb6dc","category":{"name":"Epilation","id":5}},{"id":29,"name":"לייזר רגליים","price":"0","duration":45,"color":"#3fb6dc","category":{"name":"Epilation","id":5}},{"id":30,"name":"לייזר בקיני+שחי","price":"0","duration":30,"color":"#3fb6dc","category":{"name":"Epilation","id":5}},{"id":31,"name":"לייזר בקיני","price":"0","duration":30,"color":"#3fb6dc","category":{"name":"Epilation","id":5}},{"id":32,"name":"לייזר שחי","price":"0","duration":15,"color":"#3fb6dc","category":{"name":"Epilation","id":5}},{"id":33,"name":"לייזר ח.רגל עליונה","price":"0","duration":30,"color":"#3fb6dc","category":{"name":"Epilation","id":5}},{"id":34,"name":"לייזר ח.רגל תחתונה","price":"0","duration":30,"color":"#3fb6dc","category":{"name":"Epilation","id":5}},{"id":35,"name":"לייזר ישבן","price":"0","duration":30,"color":"#3fb6dc","category":{"name":"Epilation","id":5}},{"id":36,"name":"לייזר גב","price":"0","duration":30,"color":"#3fb6dc","category":{"name":"Epilation","id":5}},{"id":37,"name":"לייזר בטן","price":"0","duration":30,"color":"#3fb6dc","category":{"name":"Epilation","id":5}},{"id":38,"name":"לייזר חזה+בטן","price":"0","duration":45,"color":"#3fb6dc","category":{"name":"Epilation","id":5}},{"id":39,"name":"לייזר עורף","price":"0","duration":15,"color":"#3fb6dc","category":{"name":"Epilation","id":5}},{"id":40,"name":"לייזר פנים","price":"0","duration":15,"color":"#3fb6dc","category":{"name":"Epilation","id":5}},{"id":41,"name":"לייזר שפם+סנטר","price":"0","duration":15,"color":"#3fb6dc","category":{"name":"Epilation","id":5}},{"id":42,"name":"לייזר שפם","price":"0","duration":15,"color":"#3fb6dc","category":{"name":"Epilation","id":5}},{"id":43,"name":"לייזר לחיים גבר","price":"0","duration":15,"color":"#3fb6dc","category":{"name":"Epilation","id":5}},{"id":44,"name":"לייזר חזה","price":"0","duration":30,"color":"#3fb6dc","category":{"name":"Epilation","id":5}},{"id":45,"name":"לייזר פס בטן","price":"0","duration":15,"color":"#3fb6dc","category":{"name":"Epilation","id":5}},{"id":46,"name":"שעווה - פנים","price":"50","duration":15,"color":"#deceff","category":{"name":"Waxing","id":6}},{"id":47,"name":"שעווה - שחי","price":"30","duration":15,"color":"#deceff","category":{"name":"Waxing","id":6}},{"id":48,"name":"שעווה - ביקיני","price":"40","duration":15,"color":"#deceff","category":{"name":"Waxing","id":6}},{"id":49,"name":"שעווה - מפשעות","price":"60","duration":15,"color":"#deceff","category":{"name":"Waxing","id":6}},{"id":50,"name":"שעווה - פאות","price":"80","duration":15,"color":"#deceff","category":{"name":"Waxing","id":6}},{"id":51,"name":"שעווה - רגליים","price":"120","duration":30,"color":"#deceff","category":{"name":"Waxing","id":6}},{"id":52,"name":"שעווה - חצי רגל","price":"80","duration":30,"color":"#deceff","category":{"name":"Waxing","id":6}},{"id":53,"name":"שעווה - רגליים + בקיני","price":"150","duration":30,"color":"#deceff","category":{"name":"Waxing","id":6}},{"id":54,"name":"שעווה - ידיים","price":"80","duration":15,"color":"#deceff","category":{"name":"Waxing","id":6}},{"id":55,"name":"שעווה גבר - גב","price":"120","duration":30,"color":"#deceff","category":{"name":"Waxing","id":6}},{"id":56,"name":"שעווה גבר - חזה","price":"80","duration":30,"color":"#deceff","category":{"name":"Waxing","id":6}},{"id":57,"name":"שעווה גבר - כתפיים","price":"50","duration":15,"color":"#deceff","category":{"name":"Waxing","id":6}},{"id":58,"name":"שעווה גבר - עורף","price":"30","duration":15,"color":"#deceff","category":{"name":"Waxing","id":6}},{"id":59,"name":"שעווה - בטן","price":"50","duration":15,"color":"#deceff","category":{"name":"Waxing","id":6}},{"id":60,"name":"שעווה גבר - בטן","price":"70","duration":15,"color":"#deceff","category":{"name":"Waxing","id":6}},{"id":61,"name":"שעווה - חצי יד","price":"40","duration":15,"color":"#deceff","category":{"name":"Waxing","id":6}},{"id":62,"name":"איפור קבוע- אייליינר עליון","price":"0","duration":120,"color":"#ff98ad","category":{"name":"Makeup \/ Permanent Makeup","id":7}},{"id":63,"name":"איפור קבוע - אייליינר תחתון","price":"0","duration":120,"color":"#ff98ad","category":{"name":"Makeup \/ Permanent Makeup","id":7}},{"id":64,"name":"איפור קבוע - שפתיים","price":"0","duration":120,"color":"#ff98ad","category":{"name":"Makeup \/ Permanent Makeup","id":7}},{"id":65,"name":"חידוש איפור קבוע","price":"0","duration":60,"color":"#ff98ad","category":{"name":"Makeup \/ Permanent Makeup","id":7}},{"id":66,"name":"איפור ערב","price":"300","duration":45,"color":"#ff98ad","category":{"name":"Makeup \/ Permanent Makeup","id":7}},{"id":67,"name":"איפור כלה","price":"950","duration":90,"color":"#ff98ad","category":{"name":"Makeup \/ Permanent Makeup","id":7}},{"id":68,"name":"איפור קבוע גבות","price":"0","duration":120,"color":"#ff98ad","category":{"name":"Makeup \/ Permanent Makeup","id":7}}]
+Server=nginx
+###Date##
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Vary=Accept-Encoding
+###Set-Cookie##
+###X-Request-Id##
+Strict-Transport-Security=max-age=604800
+X-Content-Type-Options=nosniff
+X-Robots-Tag=noindex
+Content-Security-Policy=upgrade-insecure-requests
+X-Powered-By=php/4.3.10-16
+Content-Encoding=gzip
+
+[
+    {
+        "id": 1,
+        "name": "Tipul panim",
+        "price": "350",
+        "duration": 60,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Skin Treatments",
+            "id": 1
+        }
+    },
+    {
+        "id": 2,
+        "name": "Tipul yoffi/zoer",
+        "price": "250",
+        "duration": 45,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Skin Treatments",
+            "id": 1
+        }
+    },
+    {
+        "id": 3,
+        "name": "Tipul mezoterapya",
+        "price": "400",
+        "duration": 90,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Skin Treatments",
+            "id": 1
+        }
+    },
+    {
+        "id": 4,
+        "name": "Tipul ahdarat lahut",
+        "price": "200",
+        "duration": 60,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Skin Treatments",
+            "id": 1
+        }
+    },
+    {
+        "id": 5,
+        "name": "Tipul pigmentasya",
+        "price": "300",
+        "duration": 75,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Skin Treatments",
+            "id": 1
+        }
+    },
+    {
+        "id": 6,
+        "name": "Tipul akne",
+        "price": "250",
+        "duration": 90,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Skin Treatments",
+            "id": 1
+        }
+    },
+    {
+        "id": 7,
+        "name": "Tipul antiaging / Mitzuk",
+        "price": "300",
+        "duration": 60,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Skin Treatments",
+            "id": 1
+        }
+    },
+    {
+        "id": 8,
+        "name": "Piling",
+        "price": "400",
+        "duration": 75,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Skin Treatments",
+            "id": 1
+        }
+    },
+    {
+        "id": 9,
+        "name": "Lak dgel",
+        "price": "120",
+        "duration": 45,
+        "color": "#efefff",
+        "category": {
+            "name": "Manicure Pedicure",
+            "id": 2
+        }
+    },
+    {
+        "id": 10,
+        "name": "Lak dgel reglaim",
+        "price": "150",
+        "duration": 30,
+        "color": "#efefff",
+        "category": {
+            "name": "Manicure Pedicure",
+            "id": 2
+        }
+    },
+    {
+        "id": 11,
+        "name": "Manikur express",
+        "price": "45",
+        "duration": 15,
+        "color": "#efefff",
+        "category": {
+            "name": "Manicure Pedicure",
+            "id": 2
+        }
+    },
+    {
+        "id": 12,
+        "name": "Manikur",
+        "price": "70",
+        "duration": 30,
+        "color": "#efefff",
+        "category": {
+            "name": "Manicure Pedicure",
+            "id": 2
+        }
+    },
+    {
+        "id": 13,
+        "name": "Pedikur express",
+        "price": "55",
+        "duration": 15,
+        "color": "#efefff",
+        "category": {
+            "name": "Manicure Pedicure",
+            "id": 2
+        }
+    },
+    {
+        "id": 14,
+        "name": "Pedikur",
+        "price": "140",
+        "duration": 45,
+        "color": "#efefff",
+        "category": {
+            "name": "Manicure Pedicure",
+            "id": 2
+        }
+    },
+    {
+        "id": 15,
+        "name": "Pedikur refui",
+        "price": "155",
+        "duration": 45,
+        "color": "#efefff",
+        "category": {
+            "name": "Manicure Pedicure",
+            "id": 2
+        }
+    },
+    {
+        "id": 16,
+        "name": "Bnya + Lak dgel",
+        "price": "240",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+            "name": "Nail Sculpting",
+            "id": 3
+        }
+    },
+    {
+        "id": 17,
+        "name": "Miluy + Lak dgel",
+        "price": "130",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+            "name": "Nail Sculpting",
+            "id": 3
+        }
+    },
+    {
+        "id": 18,
+        "name": "Bnyat Bniyat tzipornaim",
+        "price": "300",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+            "name": "Nail Sculpting",
+            "id": 3
+        }
+    },
+    {
+        "id": 19,
+        "name": "Bnya ?dgel",
+        "price": "220",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+            "name": "Nail Sculpting",
+            "id": 3
+        }
+    },
+    {
+        "id": 20,
+        "name": "Tikun tzipornayim",
+        "price": "0",
+        "duration": 15,
+        "color": "#759bfa",
+        "category": {
+            "name": "Nail Sculpting",
+            "id": 3
+        }
+    },
+    {
+        "id": 21,
+        "name": "Miluy ragil",
+        "price": "110",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+            "name": "Nail Sculpting",
+            "id": 3
+        }
+    },
+    {
+        "id": 22,
+        "name": "Asarat Bnya/Lak dgel",
+        "price": "50",
+        "duration": 30,
+        "color": "#759bfa",
+        "category": {
+            "name": "Nail Sculpting",
+            "id": 3
+        }
+    },
+    {
+        "id": 23,
+        "name": "Adbakat Bniyat tzipornaim",
+        "price": "0",
+        "duration": 30,
+        "color": "#759bfa",
+        "category": {
+            "name": "Nail Sculpting",
+            "id": 3
+        }
+    },
+    {
+        "id": 24,
+        "name": "Sidur gabot",
+        "price": "30",
+        "duration": 15,
+        "color": "#b8e986",
+        "category": {
+            "name": "Eyebrows / Mustache",
+            "id": 4
+        }
+    },
+    {
+        "id": 25,
+        "name": "Sapham",
+        "price": "30",
+        "duration": 15,
+        "color": "#b8e986",
+        "category": {
+            "name": "Eyebrows / Mustache",
+            "id": 4
+        }
+    },
+    {
+        "id": 26,
+        "name": "Sapham + gabot",
+        "price": "50",
+        "duration": 30,
+        "color": "#b8e986",
+        "category": {
+            "name": "Eyebrows / Mustache",
+            "id": 4
+        }
+    },
+    {
+        "id": 27,
+        "name": "Iuts Leizer",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 5
+        }
+    },
+    {
+        "id": 28,
+        "name": "Leizer yadaim",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 5
+        }
+    },
+    {
+        "id": 29,
+        "name": "Leizer reglaim",
+        "price": "0",
+        "duration": 45,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 5
+        }
+    },
+    {
+        "id": 30,
+        "name": "Leizer bikini+shehi",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 5
+        }
+    },
+    {
+        "id": 31,
+        "name": "Leizer bikini",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 5
+        }
+    },
+    {
+        "id": 32,
+        "name": "Leizer shehi",
+        "price": "0",
+        "duration": 15,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 5
+        }
+    },
+    {
+        "id": 33,
+        "name": "Leizer ?.regel ilyona",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 5
+        }
+    },
+    {
+        "id": 34,
+        "name": "Leizer ?.regel tahtona",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 5
+        }
+    },
+    {
+        "id": 35,
+        "name": "Leizer yashvan",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 5
+        }
+    },
+    {
+        "id": 36,
+        "name": "Leizer gav",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 5
+        }
+    },
+    {
+        "id": 37,
+        "name": "Leizer beten",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 5
+        }
+    },
+    {
+        "id": 38,
+        "name": "Leizer haze+beten",
+        "price": "0",
+        "duration": 45,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 5
+        }
+    },
+    {
+        "id": 39,
+        "name": "Leizer ??r?",
+        "price": "0",
+        "duration": 15,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 5
+        }
+    },
+    {
+        "id": 40,
+        "name": "Leizer panim",
+        "price": "0",
+        "duration": 15,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 5
+        }
+    },
+    {
+        "id": 41,
+        "name": "Leizer Sapham+???r",
+        "price": "0",
+        "duration": 15,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 5
+        }
+    },
+    {
+        "id": 42,
+        "name": "Leizer Sapham",
+        "price": "0",
+        "duration": 15,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 5
+        }
+    },
+    {
+        "id": 43,
+        "name": "Leizer lahaim gavr",
+        "price": "0",
+        "duration": 15,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 5
+        }
+    },
+    {
+        "id": 44,
+        "name": "Leizer haze",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 5
+        }
+    },
+    {
+        "id": 45,
+        "name": "Leizer pas beten",
+        "price": "0",
+        "duration": 15,
+        "color": "#3fb6dc",
+        "category": {
+            "name": "Epilation",
+            "id": 5
+        }
+    },
+    {
+        "id": 46,
+        "name": "Shaava - panim",
+        "price": "50",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 6
+        }
+    },
+    {
+        "id": 47,
+        "name": "Shaava - shehi",
+        "price": "30",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 6
+        }
+    },
+    {
+        "id": 48,
+        "name": "Shaava - ??????",
+        "price": "40",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 6
+        }
+    },
+    {
+        "id": 49,
+        "name": "Shaava - mafshaut",
+        "price": "60",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 6
+        }
+    },
+    {
+        "id": 50,
+        "name": "Shaava - peot",
+        "price": "80",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 6
+        }
+    },
+    {
+        "id": 51,
+        "name": "Shaava - reglaim",
+        "price": "120",
+        "duration": 30,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 6
+        }
+    },
+    {
+        "id": 52,
+        "name": "Shaava - hatzi regel",
+        "price": "80",
+        "duration": 30,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 6
+        }
+    },
+    {
+        "id": 53,
+        "name": "Shaava - reglaim + bikini",
+        "price": "150",
+        "duration": 30,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 6
+        }
+    },
+    {
+        "id": 54,
+        "name": "Shaava - yadaim",
+        "price": "80",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 6
+        }
+    },
+    {
+        "id": 55,
+        "name": "Shaava gavr - gav",
+        "price": "120",
+        "duration": 30,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 6
+        }
+    },
+    {
+        "id": 56,
+        "name": "Shaava gavr - haze",
+        "price": "80",
+        "duration": 30,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 6
+        }
+    },
+    {
+        "id": 57,
+        "name": "Shaava gavr - ??Fen??",
+        "price": "50",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 6
+        }
+    },
+    {
+        "id": 58,
+        "name": "Shaava gavr - ??r?",
+        "price": "30",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 6
+        }
+    },
+    {
+        "id": 59,
+        "name": "Shaava - beten",
+        "price": "50",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 6
+        }
+    },
+    {
+        "id": 60,
+        "name": "Shaava gavr - beten",
+        "price": "70",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 6
+        }
+    },
+    {
+        "id": 61,
+        "name": "Shaava - hatzi ??",
+        "price": "40",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 6
+        }
+    },
+    {
+        "id": 62,
+        "name": "????r kavua- ???????r ?????",
+        "price": "0",
+        "duration": 120,
+        "color": "#ff98ad",
+        "category": {
+            "name": "Makeup / Permanent Makeup",
+            "id": 7
+        }
+    },
+    {
+        "id": 63,
+        "name": "????r kavua - ???????r tahton",
+        "price": "0",
+        "duration": 120,
+        "color": "#ff98ad",
+        "category": {
+            "name": "Makeup / Permanent Makeup",
+            "id": 7
+        }
+    },
+    {
+        "id": 64,
+        "name": "????r kavua - ??????",
+        "price": "0",
+        "duration": 120,
+        "color": "#ff98ad",
+        "category": {
+            "name": "Makeup / Permanent Makeup",
+            "id": 7
+        }
+    },
+    {
+        "id": 65,
+        "name": "????? ????r kavua",
+        "price": "0",
+        "duration": 60,
+        "color": "#ff98ad",
+        "category": {
+            "name": "Makeup / Permanent Makeup",
+            "id": 7
+        }
+    },
+    {
+        "id": 66,
+        "name": "????r ?r?",
+        "price": "300",
+        "duration": 45,
+        "color": "#ff98ad",
+        "category": {
+            "name": "Makeup / Permanent Makeup",
+            "id": 7
+        }
+    },
+    {
+        "id": 67,
+        "name": "????r kala",
+        "price": "950",
+        "duration": 90,
+        "color": "#ff98ad",
+        "category": {
+            "name": "Makeup / Permanent Makeup",
+            "id": 7
+        }
+    },
+    {
+        "id": 68,
+        "name": "????r kavua gabot",
+        "price": "0",
+        "duration": 120,
+        "color": "#ff98ad",
+        "category": {
+            "name": "Makeup / Permanent Makeup",
+            "id": 7
+        }
+    }
+]

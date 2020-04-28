@@ -1,11 +1,11 @@
-5=== ACCOUNT: api_servicetest189054288@gmail.com ===
+7=== ACCOUNT: api_servicetest-1776186181@gmail.com ===
 Request method:	POST
 8Request URI:	https://lista.atzma.im/signup-new-account
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
-(Form params:	added=2020-04-27 01:10:28
-.				email=api_servicetest189054288@gmail.com
+(Form params:	added=2020-04-29 12:56:00
+0				email=api_servicetest-1776186181@gmail.com
 				pass=Pa$$w@rd
 				phone=0547613154
 				permit_ads=true
@@ -24,7 +24,7 @@
 Body:			<none>
 )Account creation response: /en/calendar
 Create account code: 201
-bCookie value account creation : 8463E57E9F6BC9D2296032177FE7C9F0B6F6EC9D2EB8149247F4544C7E44FE8B
+bCookie value account creation : D59ABAAF5D619E3767D93BC73426438C75B587DC77FA811DF85562E4D6AF8BD6
 Request method:	GET
 7Request URI:	https://lista.atzma.im/catalog/services/
 Proxy:			<none>
@@ -34,18 +34,115 @@
 Path params:	<none>
 /Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
 				Accept=*/*
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=8463E57E9F6BC9D2296032177FE7C9F0B6F6EC9D2EB8149247F4544C7E44FE8B
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=D59ABAAF5D619E3767D93BC73426438C75B587DC77FA811DF85562E4D6AF8BD6
 Multiparts:		<none>
 Body:			<none>
-¾move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getHolisticJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getHolisticJSON.approved.txt"
-5=== ACCOUNT: api_servicetest943513205@gmail.com ===
+[
+    {
+        "id": 1,
+        "name": "?????",
+        "price": "0",
+        "duration": 60,
+        "color": "#efa5fe",
+        "category": {
+7            "name": "Alternative Therapy Specialists",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 2,
+&        "name": "????? ????? ??????",
+        "price": "0",
+        "duration": 90,
+        "color": "#efa5fe",
+        "category": {
+7            "name": "Alternative Therapy Specialists",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 3,
+"        "name": "????? - 30 ??'",
+        "price": "0",
+        "duration": 30,
+        "color": "#efa5fe",
+        "category": {
+7            "name": "Alternative Therapy Specialists",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 4,
+"        "name": "????? - 45 ??'",
+        "price": "0",
+        "duration": 45,
+        "color": "#efa5fe",
+        "category": {
+7            "name": "Alternative Therapy Specialists",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 5,
+$        "name": "????? - 60 ??', ",
+        "price": "0",
+        "duration": 60,
+        "color": "#efa5fe",
+        "category": {
+7            "name": "Alternative Therapy Specialists",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 6,
+"        "name": "????? - 90 ??'",
+        "price": "0",
+        "duration": 90,
+        "color": "#efa5fe",
+        "category": {
+7            "name": "Alternative Therapy Specialists",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 7,
+        "name": "??????",
+        "price": "0",
+        "duration": 60,
+        "color": "#efa5fe",
+        "category": {
+7            "name": "Alternative Therapy Specialists",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 8,
+         "name": "???? ???????",
+        "price": "0",
+        "duration": 30,
+        "color": "#efa5fe",
+        "category": {
+7            "name": "Alternative Therapy Specialists",
+            "id": 1
+
+        }
+    }
+]
+6=== ACCOUNT: api_servicetest1905007095@gmail.com ===
 Request method:	POST
 8Request URI:	https://lista.atzma.im/signup-new-account
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
-(Form params:	added=2020-04-27 01:10:28
-.				email=api_servicetest943513205@gmail.com
+(Form params:	added=2020-04-29 12:56:00
+/				email=api_servicetest1905007095@gmail.com
 				pass=Pa$$w@rd
 				phone=0547613154
 				permit_ads=true
@@ -64,7 +161,7 @@
 Body:			<none>
 )Account creation response: /en/calendar
 Create account code: 201
-bCookie value account creation : 28FC28620D84093516E1ECEE66D9C7F2598471AA18E0009CC59E670C0B5A8B17
+bCookie value account creation : 754DE35E341AC4D520EECAB6BF00238F8BDDF8BB0B039C75C8371E2818E5773B
 Request method:	GET
 7Request URI:	https://lista.atzma.im/catalog/services/
 Proxy:			<none>
@@ -74,18 +171,79 @@
 Path params:	<none>
 /Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
 				Accept=*/*
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=28FC28620D84093516E1ECEE66D9C7F2598471AA18E0009CC59E670C0B5A8B17
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=754DE35E341AC4D520EECAB6BF00238F8BDDF8BB0B039C75C8371E2818E5773B
 Multiparts:		<none>
 Body:			<none>
-Âmove /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getConsultansJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getConsultansJSON.approved.txt"
-6=== ACCOUNT: api_servicetest-765668705@gmail.com ===
+[
+    {
+        "id": 1,
+         "name": "????? ??????",
+        "price": "0",
+        "duration": 60,
+        "color": "#fff581",
+        "category": {
+0            "name": "Consultants And Coachers",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 2,
+.        "name": "????? ?????/????? - 60 ??'",
+        "price": "0",
+        "duration": 60,
+        "color": "#fff581",
+        "category": {
+0            "name": "Consultants And Coachers",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 3,
+0        "name": "????? ?????/????? - 90 ??', ",
+        "price": "0",
+        "duration": 90,
+        "color": "#fff581",
+        "category": {
+0            "name": "Consultants And Coachers",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 4,
+1        "name": "????? ?????/????? - 120 ??', ",
+        "price": "0",
+        "duration": 120,
+        "color": "#fff581",
+        "category": {
+0            "name": "Consultants And Coachers",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 5,
+&        "name": "?????/????? ??????",
+        "price": "0",
+        "duration": 60,
+        "color": "#fff581",
+        "category": {
+0            "name": "Consultants And Coachers",
+            "id": 1
+
+        }
+    }
+]
+6=== ACCOUNT: api_servicetest1298587871@gmail.com ===
 Request method:	POST
 8Request URI:	https://lista.atzma.im/signup-new-account
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
-(Form params:	added=2020-04-27 01:10:28
-/				email=api_servicetest-765668705@gmail.com
+(Form params:	added=2020-04-29 12:56:00
+/				email=api_servicetest1298587871@gmail.com
 				pass=Pa$$w@rd
 				phone=0547613154
 				permit_ads=true
@@ -104,7 +262,7 @@
 Body:			<none>
 )Account creation response: /en/calendar
 Create account code: 201
-bCookie value account creation : F58FD29C608EA4E8B8C17A20E66ADEFC7593D90638B5BB86AF6D24F40AF012D7
+bCookie value account creation : ADFE1F929271555D7C478B3CE58645BBA14D9B8BB941FA88E0A941E9772ED99B
 Request method:	GET
 7Request URI:	https://lista.atzma.im/catalog/services/
 Proxy:			<none>
@@ -114,18 +272,835 @@
 Path params:	<none>
 /Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
 				Accept=*/*
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=F58FD29C608EA4E8B8C17A20E66ADEFC7593D90638B5BB86AF6D24F40AF012D7
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=ADFE1F929271555D7C478B3CE58645BBA14D9B8BB941FA88E0A941E9772ED99B
 Multiparts:		<none>
 Body:			<none>
-Àmove /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getCosmeticsJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getCosmeticsJSON.approved.txt"
-7=== ACCOUNT: api_servicetest-1214094535@gmail.com ===
+[
+    {
+        "id": 1,
+        "name": "????? ????",
+        "price": "350",
+        "duration": 60,
+        "color": "#50e3c1",
+        "category": {
+'            "name": "Skin Treatments",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 2,
+#        "name": "????? ????/????",
+        "price": "250",
+        "duration": 45,
+        "color": "#50e3c1",
+        "category": {
+'            "name": "Skin Treatments",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 3,
+"        "name": "????? ????????",
+        "price": "400",
+        "duration": 90,
+        "color": "#50e3c1",
+        "category": {
+'            "name": "Skin Treatments",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 4,
+$        "name": "????? ????? ????",
+        "price": "200",
+        "duration": 60,
+        "color": "#50e3c1",
+        "category": {
+'            "name": "Skin Treatments",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 5,
+#        "name": "????? ?????????",
+        "price": "300",
+        "duration": 75,
+        "color": "#50e3c1",
+        "category": {
+'            "name": "Skin Treatments",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 6,
+        "name": "????? ????",
+        "price": "250",
+        "duration": 90,
+        "color": "#50e3c1",
+        "category": {
+'            "name": "Skin Treatments",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 7,
+.        "name": "????? ????????'??? / ?????",
+        "price": "300",
+        "duration": 60,
+        "color": "#50e3c1",
+        "category": {
+'            "name": "Skin Treatments",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 8,
+        "name": "??????",
+        "price": "400",
+        "duration": 75,
+        "color": "#50e3c1",
+        "category": {
+'            "name": "Skin Treatments",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 9,
+        "name": "?? ?'?",
+        "price": "120",
+        "duration": 45,
+        "color": "#efefff",
+        "category": {
+)            "name": "Manicure Pedicure",
+            "id": 2
+
+        }
+    },
+    {
+        "id": 10,
+"        "name": "?? ?'? ???????",
+        "price": "150",
+        "duration": 30,
+        "color": "#efefff",
+        "category": {
+)            "name": "Manicure Pedicure",
+            "id": 2
+
+        }
+    },
+    {
+        "id": 11,
+!        "name": "?????? ??????",
+        "price": "45",
+        "duration": 15,
+        "color": "#efefff",
+        "category": {
+)            "name": "Manicure Pedicure",
+            "id": 2
+
+        }
+    },
+    {
+        "id": 12,
+        "name": "??????",
+        "price": "70",
+        "duration": 30,
+        "color": "#efefff",
+        "category": {
+)            "name": "Manicure Pedicure",
+            "id": 2
+
+        }
+    },
+    {
+        "id": 13,
+!        "name": "?????? ??????",
+        "price": "55",
+        "duration": 15,
+        "color": "#efefff",
+        "category": {
+)            "name": "Manicure Pedicure",
+            "id": 2
+
+        }
+    },
+    {
+        "id": 14,
+        "name": "??????",
+        "price": "140",
+        "duration": 45,
+        "color": "#efefff",
+        "category": {
+)            "name": "Manicure Pedicure",
+            "id": 2
+
+        }
+    },
+    {
+        "id": 15,
+         "name": "?????? ?????",
+        "price": "155",
+        "duration": 45,
+        "color": "#efefff",
+        "category": {
+)            "name": "Manicure Pedicure",
+            "id": 2
+
+        }
+    },
+    {
+        "id": 16,
+"        "name": "????? + ?? ?'?",
+        "price": "240",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+&            "name": "Nail Sculpting",
+            "id": 3
+
+        }
+    },
+    {
+        "id": 17,
+"        "name": "????? + ?? ?'?",
+        "price": "130",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+&            "name": "Nail Sculpting",
+            "id": 3
+
+        }
+    },
+    {
+        "id": 18,
+#        "name": "????? ?????????",
+        "price": "300",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+&            "name": "Nail Sculpting",
+            "id": 3
+
+        }
+    },
+    {
+        "id": 19,
+        "name": "????? ??'?",
+        "price": "220",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+&            "name": "Nail Sculpting",
+            "id": 3
+
+        }
+    },
+    {
+        "id": 20,
+         "name": "????? ??????",
+        "price": "0",
+        "duration": 15,
+        "color": "#759bfa",
+        "category": {
+&            "name": "Nail Sculpting",
+            "id": 3
+
+        }
+    },
+    {
+        "id": 21,
+        "name": "????? ????",
+        "price": "110",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+&            "name": "Nail Sculpting",
+            "id": 3
+
+        }
+    },
+    {
+        "id": 22,
+%        "name": "???? ?????/?? ?'?",
+        "price": "50",
+        "duration": 30,
+        "color": "#759bfa",
+        "category": {
+&            "name": "Nail Sculpting",
+            "id": 3
+
+        }
+    },
+    {
+        "id": 23,
+#        "name": "????? ?????????",
+        "price": "0",
+        "duration": 30,
+        "color": "#759bfa",
+        "category": {
+&            "name": "Nail Sculpting",
+            "id": 3
+
+        }
+    },
+    {
+        "id": 24,
+        "name": "????? ????",
+        "price": "30",
+        "duration": 15,
+        "color": "#b8e986",
+        "category": {
++            "name": "Eyebrows / Mustache",
+            "id": 4
+
+        }
+    },
+    {
+        "id": 25,
+        "name": "???",
+        "price": "30",
+        "duration": 15,
+        "color": "#b8e986",
+        "category": {
++            "name": "Eyebrows / Mustache",
+            "id": 4
+
+        }
+    },
+    {
+        "id": 26,
+        "name": "??? + ????",
+        "price": "50",
+        "duration": 30,
+        "color": "#b8e986",
+        "category": {
++            "name": "Eyebrows / Mustache",
+            "id": 4
+
+        }
+    },
+    {
+        "id": 27,
+        "name": "???? ?????",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 5
+
+        }
+    },
+    {
+        "id": 28,
+        "name": "????? ?????",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 5
+
+        }
+    },
+    {
+        "id": 29,
+         "name": "????? ??????",
+        "price": "0",
+        "duration": 45,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 5
+
+        }
+    },
+    {
+        "id": 30,
+#        "name": "????? ?????+???",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 5
+
+        }
+    },
+    {
+        "id": 31,
+        "name": "????? ?????",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 5
+
+        }
+    },
+    {
+        "id": 32,
+        "name": "????? ???",
+        "price": "0",
+        "duration": 15,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 5
+
+        }
+    },
+    {
+        "id": 33,
+&        "name": "????? ?.??? ??????",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 5
+
+        }
+    },
+    {
+        "id": 34,
+&        "name": "????? ?.??? ??????",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 5
+
+        }
+    },
+    {
+        "id": 35,
+        "name": "????? ????",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 5
+
+        }
+    },
+    {
+        "id": 36,
+        "name": "????? ??",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 5
+
+        }
+    },
+    {
+        "id": 37,
+        "name": "????? ???",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 5
+
+        }
+    },
+    {
+        "id": 38,
+!        "name": "????? ???+???",
+        "price": "0",
+        "duration": 45,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 5
+
+        }
+    },
+    {
+        "id": 39,
+        "name": "????? ????",
+        "price": "0",
+        "duration": 15,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 5
+
+        }
+    },
+    {
+        "id": 40,
+        "name": "????? ????",
+        "price": "0",
+        "duration": 15,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 5
+
+        }
+    },
+    {
+        "id": 41,
+"        "name": "????? ???+????",
+        "price": "0",
+        "duration": 15,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 5
+
+        }
+    },
+    {
+        "id": 42,
+        "name": "????? ???",
+        "price": "0",
+        "duration": 15,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 5
+
+        }
+    },
+    {
+        "id": 43,
+#        "name": "????? ????? ???",
+        "price": "0",
+        "duration": 15,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 5
+
+        }
+    },
+    {
+        "id": 44,
+        "name": "????? ???",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 5
+
+        }
+    },
+    {
+        "id": 45,
+         "name": "????? ?? ???",
+        "price": "0",
+        "duration": 15,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 5
+
+        }
+    },
+    {
+        "id": 46,
+         "name": "????? - ????",
+        "price": "50",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 6
+
+        }
+    },
+    {
+        "id": 47,
+        "name": "????? - ???",
+        "price": "30",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 6
+
+        }
+    },
+    {
+        "id": 48,
+"        "name": "????? - ??????",
+        "price": "40",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 6
+
+        }
+    },
+    {
+        "id": 49,
+"        "name": "????? - ??????",
+        "price": "60",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 6
+
+        }
+    },
+    {
+        "id": 50,
+         "name": "????? - ????",
+        "price": "80",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 6
+
+        }
+    },
+    {
+        "id": 51,
+"        "name": "????? - ??????",
+        "price": "120",
+        "duration": 30,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 6
+
+        }
+    },
+    {
+        "id": 52,
+#        "name": "????? - ??? ???",
+        "price": "80",
+        "duration": 30,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 6
+
+        }
+    },
+    {
+        "id": 53,
+*        "name": "????? - ?????? + ?????",
+        "price": "150",
+        "duration": 30,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 6
+
+        }
+    },
+    {
+        "id": 54,
+!        "name": "????? - ?????",
+        "price": "80",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 6
+
+        }
+    },
+    {
+        "id": 55,
+"        "name": "????? ??? - ??",
+        "price": "120",
+        "duration": 30,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 6
+
+        }
+    },
+    {
+        "id": 56,
+#        "name": "????? ??? - ???",
+        "price": "80",
+        "duration": 30,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 6
+
+        }
+    },
+    {
+        "id": 57,
+&        "name": "????? ??? - ??????",
+        "price": "50",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 6
+
+        }
+    },
+    {
+        "id": 58,
+$        "name": "????? ??? - ????",
+        "price": "30",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 6
+
+        }
+    },
+    {
+        "id": 59,
+        "name": "????? - ???",
+        "price": "50",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 6
+
+        }
+    },
+    {
+        "id": 60,
+#        "name": "????? ??? - ???",
+        "price": "70",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 6
+
+        }
+    },
+    {
+        "id": 61,
+"        "name": "????? - ??? ??",
+        "price": "40",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 6
+
+        }
+    },
+    {
+        "id": 62,
+.        "name": "????? ????- ???????? ?????",
+        "price": "0",
+        "duration": 120,
+        "color": "#ff98ad",
+        "category": {
+1            "name": "Makeup / Permanent Makeup",
+            "id": 7
+
+        }
+    },
+    {
+        "id": 63,
+/        "name": "????? ???? - ???????? ?????",
+        "price": "0",
+        "duration": 120,
+        "color": "#ff98ad",
+        "category": {
+1            "name": "Makeup / Permanent Makeup",
+            "id": 7
+
+        }
+    },
+    {
+        "id": 64,
+'        "name": "????? ???? - ??????",
+        "price": "0",
+        "duration": 120,
+        "color": "#ff98ad",
+        "category": {
+1            "name": "Makeup / Permanent Makeup",
+            "id": 7
+
+        }
+    },
+    {
+        "id": 65,
+$        "name": "????? ????? ????",
+        "price": "0",
+        "duration": 60,
+        "color": "#ff98ad",
+        "category": {
+1            "name": "Makeup / Permanent Makeup",
+            "id": 7
+
+        }
+    },
+    {
+        "id": 66,
+        "name": "????? ???",
+        "price": "300",
+        "duration": 45,
+        "color": "#ff98ad",
+        "category": {
+1            "name": "Makeup / Permanent Makeup",
+            "id": 7
+
+        }
+    },
+    {
+        "id": 67,
+        "name": "????? ???",
+        "price": "950",
+        "duration": 90,
+        "color": "#ff98ad",
+        "category": {
+1            "name": "Makeup / Permanent Makeup",
+            "id": 7
+
+        }
+    },
+    {
+        "id": 68,
+#        "name": "????? ???? ????",
+        "price": "0",
+        "duration": 120,
+        "color": "#ff98ad",
+        "category": {
+1            "name": "Makeup / Permanent Makeup",
+            "id": 7
+
+        }
+    }
+]
+6=== ACCOUNT: api_servicetest1205704629@gmail.com ===
 Request method:	POST
 8Request URI:	https://lista.atzma.im/signup-new-account
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
-(Form params:	added=2020-04-27 01:10:28
-0				email=api_servicetest-1214094535@gmail.com
+(Form params:	added=2020-04-29 12:56:00
+/				email=api_servicetest1205704629@gmail.com
 				pass=Pa$$w@rd
 				phone=0547613154
 				permit_ads=true
@@ -144,7 +1119,7 @@
 Body:			<none>
 )Account creation response: /en/calendar
 Create account code: 201
-bCookie value account creation : 21F8BFDF2F6C226F3384805041404DF76A4C83EA6165B607B90617EC24BE476B
+bCookie value account creation : 19CC56155426FF01882EB151B32BF7D1899E2CF10C0013B39158DA9B3034E4DB
 Request method:	GET
 7Request URI:	https://lista.atzma.im/catalog/services/
 Proxy:			<none>
@@ -154,18 +1129,319 @@
 Path params:	<none>
 /Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
 				Accept=*/*
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=21F8BFDF2F6C226F3384805041404DF76A4C83EA6165B607B90617EC24BE476B
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=19CC56155426FF01882EB151B32BF7D1899E2CF10C0013B39158DA9B3034E4DB
 Multiparts:		<none>
 Body:			<none>
-Àmove /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getHairSalonJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getHairSalonJSON.approved.txt"
-6=== ACCOUNT: api_servicetest-824186078@gmail.com ===
+[
+    {
+        "id": 1,
+        "name": "?????? ???",
+        "price": "50",
+        "duration": 15,
+        "color": "#50e3c1",
+        "category": {
+$            "name": "Hair Styling",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 2,
+        "name": "?????? ???",
+        "price": "50",
+        "duration": 15,
+        "color": "#a44bc2",
+        "category": {
+$            "name": "Hair Styling",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 3,
+        "name": "?????? ????",
+        "price": "150",
+        "duration": 30,
+        "color": "#a44bc2",
+        "category": {
+$            "name": "Hair Styling",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 4,
+        "name": "?? ???",
+        "price": "80",
+        "duration": 30,
+        "color": "#a44bc2",
+        "category": {
+$            "name": "Hair Styling",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 5,
+        "name": "?? ????",
+        "price": "100",
+        "duration": 45,
+        "color": "#a44bc2",
+        "category": {
+$            "name": "Hair Styling",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 6,
+        "name": "?? ????",
+        "price": "0",
+        "duration": 15,
+        "color": "#a44bc2",
+        "category": {
+$            "name": "Hair Styling",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 7,
+        "name": "?? ????????",
+        "price": "120",
+        "duration": 30,
+        "color": "#a44bc2",
+        "category": {
+$            "name": "Hair Styling",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 8,
+        "name": "?????? ???",
+        "price": "250",
+        "duration": 60,
+        "color": "#a44bc2",
+        "category": {
+$            "name": "Hair Styling",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 9,
+$        "name": "?????? ???? + ??",
+        "price": "180",
+        "duration": 60,
+        "color": "#a44bc2",
+        "category": {
+$            "name": "Hair Styling",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 10,
+$        "name": "?????? ??? + ???",
+        "price": "70",
+        "duration": 30,
+        "color": "#a44bc2",
+        "category": {
+$            "name": "Hair Styling",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 11,
+        "name": "???? ?????",
+        "price": "0",
+        "duration": 15,
+        "color": "#efa5fe",
+        "category": {
+%            "name": "Hair Coloring",
+            "id": 2
+
+        }
+    },
+    {
+        "id": 12,
+        "name": "??? ??? ???",
+        "price": "220",
+        "duration": 15,
+        "color": "#efa5fe",
+        "category": {
+%            "name": "Hair Coloring",
+            "id": 2
+
+        }
+    },
+    {
+        "id": 13,
+        "name": "??? ????",
+        "price": "150",
+        "duration": 15,
+        "color": "#efa5fe",
+        "category": {
+%            "name": "Hair Coloring",
+            "id": 2
+
+        }
+    },
+    {
+        "id": 14,
+        "name": "?????",
+        "price": "150",
+        "duration": 15,
+        "color": "#efa5fe",
+        "category": {
+%            "name": "Hair Coloring",
+            "id": 2
+
+        }
+    },
+    {
+        "id": 15,
+"        "name": "?????? ??? ???",
+        "price": "500",
+        "duration": 75,
+        "color": "#efa5fe",
+        "category": {
+%            "name": "Hair Coloring",
+            "id": 2
+
+        }
+    },
+    {
+        "id": 16,
+"        "name": "?????? ??? ???",
+        "price": "300",
+        "duration": 45,
+        "color": "#efa5fe",
+        "category": {
+%            "name": "Hair Coloring",
+            "id": 2
+
+        }
+    },
+    {
+        "id": 17,
+        "name": "??????",
+        "price": "600",
+        "duration": 120,
+        "color": "#efa5fe",
+        "category": {
+%            "name": "Hair Coloring",
+            "id": 2
+
+        }
+    },
+    {
+        "id": 18,
+        "name": "?????'",
+        "price": "800",
+        "duration": 120,
+        "color": "#efa5fe",
+        "category": {
+%            "name": "Hair Coloring",
+            "id": 2
+
+        }
+    },
+    {
+        "id": 19,
+        "name": "?????",
+        "price": "150",
+        "duration": 60,
+        "color": "#efa5fe",
+        "category": {
+%            "name": "Hair Coloring",
+            "id": 2
+
+        }
+    },
+    {
+        "id": 20,
+         "name": "????? ??????",
+        "price": "250",
+        "duration": 45,
+        "color": "#efa5fe",
+        "category": {
+%            "name": "Hair Coloring",
+            "id": 2
+
+        }
+    },
+    {
+        "id": 21,
+         "name": "????? ??????",
+        "price": "600",
+        "duration": 45,
+        "color": "#fff581",
+        "category": {
+*            "name": "Hair Straightening",
+            "id": 3
+
+        }
+    },
+    {
+        "id": 22,
+!        "name": "????? ???????",
+        "price": "600",
+        "duration": 45,
+        "color": "#fff581",
+        "category": {
+*            "name": "Hair Straightening",
+            "id": 3
+
+        }
+    },
+    {
+        "id": 23,
+         "name": "????? ??????",
+        "price": "800",
+        "duration": 120,
+        "color": "#fff581",
+        "category": {
+*            "name": "Hair Straightening",
+            "id": 3
+
+        }
+    },
+    {
+        "id": 24,
+        "name": "????? ?????",
+        "price": "1200",
+        "duration": 60,
+        "color": "#fff581",
+        "category": {
+*            "name": "Hair Straightening",
+            "id": 3
+
+        }
+    },
+    {
+        "id": 25,
+!        "name": "????? / ?????",
+        "price": "0",
+        "duration": 90,
+        "color": "#fff581",
+        "category": {
+*            "name": "Hair Straightening",
+            "id": 3
+
+        }
+    }
+]
+6=== ACCOUNT: api_servicetest-323251352@gmail.com ===
 Request method:	POST
 8Request URI:	https://lista.atzma.im/signup-new-account
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
-(Form params:	added=2020-04-27 01:10:28
-/				email=api_servicetest-824186078@gmail.com
+(Form params:	added=2020-04-29 12:56:00
+/				email=api_servicetest-323251352@gmail.com
 				pass=Pa$$w@rd
 				phone=0547613154
 				permit_ads=true
@@ -184,7 +1460,7 @@
 Body:			<none>
 )Account creation response: /en/calendar
 Create account code: 201
-bCookie value account creation : 55517A80B695140AF0571D3EDB09531816A6EC08A6D6DF8EC0CB708191A8A12C
+bCookie value account creation : D64026E8E90B651E289D175DDA72CA654E0077767983537051F5F59BA30F09A5
 Request method:	GET
 7Request URI:	https://lista.atzma.im/catalog/services/
 Proxy:			<none>
@@ -194,18 +1470,79 @@
 Path params:	<none>
 /Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
 				Accept=*/*
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=55517A80B695140AF0571D3EDB09531816A6EC08A6D6DF8EC0CB708191A8A12C
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=D64026E8E90B651E289D175DDA72CA654E0077767983537051F5F59BA30F09A5
 Multiparts:		<none>
 Body:			<none>
-¾move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getInteriorJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getInteriorJSON.approved.txt"
-5=== ACCOUNT: api_servicetest730710264@gmail.com ===
+[
+    {
+        "id": 1,
+         "name": "????? ??????",
+        "price": "0",
+        "duration": 60,
+        "color": "#efefff",
+        "category": {
+9            "name": "Interior Designers and Architects",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 2,
+*        "name": "????? ????? ???? - ???",
+        "price": "0",
+        "duration": 60,
+        "color": "#efefff",
+        "category": {
+9            "name": "Interior Designers and Architects",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 3,
+.        "name": "????? ????? ????? - ??????",
+        "price": "0",
+        "duration": 120,
+        "color": "#efefff",
+        "category": {
+9            "name": "Interior Designers and Architects",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 4,
+.        "name": "????? ????? ????? - 3 ????",
+        "price": "0",
+        "duration": 180,
+        "color": "#efefff",
+        "category": {
+9            "name": "Interior Designers and Architects",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 5,
+#        "name": "??? ??? ?? ????",
+        "price": "0",
+        "duration": 360,
+        "color": "#efefff",
+        "category": {
+9            "name": "Interior Designers and Architects",
+            "id": 1
+
+        }
+    }
+]
+7=== ACCOUNT: api_servicetest-2052805988@gmail.com ===
 Request method:	POST
 8Request URI:	https://lista.atzma.im/signup-new-account
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
-(Form params:	added=2020-04-27 01:10:28
-.				email=api_servicetest730710264@gmail.com
+(Form params:	added=2020-04-29 12:56:00
+0				email=api_servicetest-2052805988@gmail.com
 				pass=Pa$$w@rd
 				phone=0547613154
 				permit_ads=true
@@ -224,7 +1561,7 @@
 Body:			<none>
 )Account creation response: /en/calendar
 Create account code: 201
-bCookie value account creation : BCDC565F40E183713C5097F86884A0B5FFA7122919FBA8248965D9B80BC9DA2B
+bCookie value account creation : 22D38FDD505499FCE5CA41A156BEAF4951AFF12632BD2C20B5C956AE791FCFA4
 Request method:	GET
 7Request URI:	https://lista.atzma.im/catalog/services/
 Proxy:			<none>
@@ -234,18 +1571,91 @@
 Path params:	<none>
 /Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
 				Accept=*/*
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=BCDC565F40E183713C5097F86884A0B5FFA7122919FBA8248965D9B80BC9DA2B
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=22D38FDD505499FCE5CA41A156BEAF4951AFF12632BD2C20B5C956AE791FCFA4
 Multiparts:		<none>
 Body:			<none>
-Âmove /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getInstallersJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getInstallersJSON.approved.txt"
-7=== ACCOUNT: api_servicetest-2092549810@gmail.com ===
+[
+    {
+        "id": 1,
+         "name": "???? ???????",
+        "price": "0",
+        "duration": 30,
+        "color": "#50e3c1",
+        "category": {
+2            "name": "Installers and Technicians",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 2,
+!        "name": "????? ?????? ",
+        "price": "0",
+        "duration": 90,
+        "color": "#50e3c1",
+        "category": {
+2            "name": "Installers and Technicians",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 3,
+(        "name": "?????/????? - 45 ??'",
+        "price": "0",
+        "duration": 45,
+        "color": "#50e3c1",
+        "category": {
+2            "name": "Installers and Technicians",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 4,
+(        "name": "?????/????? - 60 ??'",
+        "price": "0",
+        "duration": 60,
+        "color": "#50e3c1",
+        "category": {
+2            "name": "Installers and Technicians",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 5,
+(        "name": "?????/????? - 90 ??'",
+        "price": "0",
+        "duration": 90,
+        "color": "#50e3c1",
+        "category": {
+2            "name": "Installers and Technicians",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 6,
+)        "name": "?????/????? - 120 ??'",
+        "price": "0",
+        "duration": 120,
+        "color": "#50e3c1",
+        "category": {
+2            "name": "Installers and Technicians",
+            "id": 1
+
+        }
+    }
+]
+6=== ACCOUNT: api_servicetest-798601411@gmail.com ===
 Request method:	POST
 8Request URI:	https://lista.atzma.im/signup-new-account
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
-(Form params:	added=2020-04-27 01:10:28
-0				email=api_servicetest-2092549810@gmail.com
+(Form params:	added=2020-04-29 12:56:00
+/				email=api_servicetest-798601411@gmail.com
 				pass=Pa$$w@rd
 				phone=0547613154
 				permit_ads=true
@@ -264,7 +1674,7 @@
 Body:			<none>
 )Account creation response: /en/calendar
 Create account code: 201
-bCookie value account creation : 1E139010C960EA9283C7CB7C8FD61CF40D97B44D34C9E05D2AEF583BC4F8022F
+bCookie value account creation : 75F7DF2CCF817F881BC4AA9CF726F697358E1CD06075BC1A773D7B50462F4F63
 Request method:	GET
 7Request URI:	https://lista.atzma.im/catalog/services/
 Proxy:			<none>
@@ -274,18 +1684,163 @@
 Path params:	<none>
 /Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
 				Accept=*/*
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=1E139010C960EA9283C7CB7C8FD61CF40D97B44D34C9E05D2AEF583BC4F8022F
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=75F7DF2CCF817F881BC4AA9CF726F697358E1CD06075BC1A773D7B50462F4F63
 Multiparts:		<none>
 Body:			<none>
-ºmove /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getMakeupJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getMakeupJSON.approved.txt"
-	7=== ACCOUNT: api_servicetest-1456831931@gmail.com ===
+[
+    {
+        "id": 1,
+        "name": "????? ?????",
+        "price": "0",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+/            "name": "Makeup / Wedding Makeup",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 2,
+        "name": "????? ???",
+        "price": "300",
+        "duration": 45,
+        "color": "#759bfa",
+        "category": {
+/            "name": "Makeup / Wedding Makeup",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 3,
+        "name": "????? ???",
+        "price": "800",
+        "duration": 75,
+        "color": "#759bfa",
+        "category": {
+/            "name": "Makeup / Wedding Makeup",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 4,
+        "name": "????? ?????",
+        "price": "250",
+        "duration": 45,
+        "color": "#759bfa",
+        "category": {
+/            "name": "Makeup / Wedding Makeup",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 5,
+         "name": "????? ??????",
+        "price": "100",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+/            "name": "Makeup / Wedding Makeup",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 6,
+        "name": "?????? ???",
+        "price": "0",
+        "duration": 90,
+        "color": "#759bfa",
+        "category": {
+/            "name": "Makeup / Wedding Makeup",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 7,
+        "name": "?????? ???",
+        "price": "1200",
+        "duration": 120,
+        "color": "#759bfa",
+        "category": {
+/            "name": "Makeup / Wedding Makeup",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 8,
+         "name": "?????? ?????",
+        "price": "300",
+        "duration": 90,
+        "color": "#759bfa",
+        "category": {
+/            "name": "Makeup / Wedding Makeup",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 9,
+!        "name": "?????? ??????",
+        "price": "0",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+/            "name": "Makeup / Wedding Makeup",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 10,
+,        "name": "????? ??? (???? + ?????)",
+        "price": "1700",
+        "duration": 210,
+        "color": "#759bfa",
+        "category": {
+/            "name": "Makeup / Wedding Makeup",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 11,
+.        "name": "????? ????? (???? + ?????)",
+        "price": "500",
+        "duration": 180,
+        "color": "#759bfa",
+        "category": {
+/            "name": "Makeup / Wedding Makeup",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 12,
+'        "name": "???? / ????? ??????",
+        "price": "0",
+        "duration": 120,
+        "color": "#759bfa",
+        "category": {
+/            "name": "Makeup / Wedding Makeup",
+            "id": 1
+
+        }
+    }
+]
+	6=== ACCOUNT: api_servicetest-159415712@gmail.com ===
 	Request method:	POST
 	8Request URI:	https://lista.atzma.im/signup-new-account
 	Proxy:			<none>
 	Request params:	<none>
 	Query params:	<none>
-	(Form params:	added=2020-04-27 01:10:28
-	0				email=api_servicetest-1456831931@gmail.com
+	(Form params:	added=2020-04-29 12:56:00
+	/				email=api_servicetest-159415712@gmail.com
 					pass=Pa$$w@rd
 					phone=0547613154
 					permit_ads=true
@@ -304,7 +1859,7 @@
 	Body:			<none>
 	)Account creation response: /en/calendar
 	Create account code: 201
-	bCookie value account creation : C27E25D6FACB2B78845E15EBB0BB3BE69156B70B4E0400F52228B3E225E8F99A
+	bCookie value account creation : F7933B6414536A48136096CEB613997D67645B20C1C8DDB2FBC7D992F32D900F
 	Request method:	GET
 	7Request URI:	https://lista.atzma.im/catalog/services/
 	Proxy:			<none>
@@ -314,12 +1869,229 @@
 	Path params:	<none>
 	/Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
 					Accept=*/*
-	mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=C27E25D6FACB2B78845E15EBB0BB3BE69156B70B4E0400F52228B3E225E8F99A
+	mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=F7933B6414536A48136096CEB613997D67645B20C1C8DDB2FBC7D992F32D900F
 	Multiparts:		<none>
 	Body:			<none>
-	¶move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getNailJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getNailJSON.approved.txt"
+	[
+	    {
+	        "id": 1,
+	        "name": "?? ?'?",
+	        "price": "120",
+	        "duration": 45,
+	        "color": "#efefff",
+	        "category": {
+	)            "name": "Manicure Pedicure",
+	            "id": 1
+	
+        }
+	    },
+	    {
+	        "id": 2,
+	"        "name": "?? ?'? ???????",
+	        "price": "150",
+	        "duration": 30,
+	        "color": "#efefff",
+	        "category": {
+	)            "name": "Manicure Pedicure",
+	            "id": 1
+	
+        }
+	    },
+	    {
+	        "id": 3,
+	!        "name": "?????? ??????",
+	        "price": "45",
+	        "duration": 15,
+	        "color": "#efefff",
+	        "category": {
+	)            "name": "Manicure Pedicure",
+	            "id": 1
+	
+        }
+	    },
+	    {
+	        "id": 4,
+	        "name": "??????",
+	        "price": "70",
+	        "duration": 30,
+	        "color": "#efefff",
+	        "category": {
+	)            "name": "Manicure Pedicure",
+	            "id": 1
+	
+        }
+	    },
+	    {
+	        "id": 5,
+	!        "name": "?????? ??????",
+	        "price": "55",
+	        "duration": 15,
+	        "color": "#efefff",
+	        "category": {
+	)            "name": "Manicure Pedicure",
+	            "id": 1
+	
+        }
+	    },
+	    {
+	        "id": 6,
+	        "name": "??????",
+	        "price": "140",
+	        "duration": 45,
+	        "color": "#efefff",
+	        "category": {
+	)            "name": "Manicure Pedicure",
+	            "id": 1
+	
+        }
+	    },
+	    {
+	        "id": 7,
+	         "name": "?????? ?????",
+	        "price": "155",
+	        "duration": 45,
+	        "color": "#efefff",
+	        "category": {
+	)            "name": "Manicure Pedicure",
+	            "id": 1
+	
+        }
+	    },
+	    {
+	        "id": 8,
+	"        "name": "????? + ?? ?'?",
+	        "price": "240",
+	        "duration": 60,
+	        "color": "#759bfa",
+	        "category": {
+	&            "name": "Nail Sculpting",
+	            "id": 2
+	
+        }
+	    },
+	    {
+	        "id": 9,
+	"        "name": "????? + ?? ?'?",
+	        "price": "130",
+	        "duration": 60,
+	        "color": "#759bfa",
+	        "category": {
+	&            "name": "Nail Sculpting",
+	            "id": 2
+	
+        }
+	    },
+	    {
+	        "id": 10,
+	#        "name": "????? ?????????",
+	        "price": "300",
+	        "duration": 60,
+	        "color": "#759bfa",
+	        "category": {
+	&            "name": "Nail Sculpting",
+	            "id": 2
+	
+        }
+	    },
+	    {
+	        "id": 11,
+	        "name": "????? ??'?",
+	        "price": "220",
+	        "duration": 60,
+	        "color": "#759bfa",
+	        "category": {
+	&            "name": "Nail Sculpting",
+	            "id": 2
+	
+        }
+	    },
+	    {
+	        "id": 12,
+	         "name": "????? ??????",
+	        "price": "0",
+	        "duration": 15,
+	        "color": "#759bfa",
+	        "category": {
+	&            "name": "Nail Sculpting",
+	            "id": 2
+	
+        }
+	    },
+	    {
+	        "id": 13,
+	        "name": "????? ????",
+	        "price": "110",
+	        "duration": 60,
+	        "color": "#759bfa",
+	        "category": {
+	&            "name": "Nail Sculpting",
+	            "id": 2
+	
+        }
+	    },
+	    {
+	        "id": 14,
+	%        "name": "???? ?????/?? ?'?",
+	        "price": "50",
+	        "duration": 30,
+	        "color": "#759bfa",
+	        "category": {
+	&            "name": "Nail Sculpting",
+	            "id": 2
+	
+        }
+	    },
+	    {
+	        "id": 15,
+	#        "name": "????? ?????????",
+	        "price": "0",
+	        "duration": 30,
+	        "color": "#759bfa",
+	        "category": {
+	&            "name": "Nail Sculpting",
+	            "id": 2
+	
+        }
+	    },
+	    {
+	        "id": 16,
+	        "name": "????? ????",
+	        "price": "30",
+	        "duration": 15,
+	        "color": "#b8e986",
+	        "category": {
+	+            "name": "Eyebrows / Mustache",
+	            "id": 3
+	
+        }
+	    },
+	    {
+	        "id": 17,
+	        "name": "???",
+	        "price": "30",
+	        "duration": 15,
+	        "color": "#b8e986",
+	        "category": {
+	+            "name": "Eyebrows / Mustache",
+	            "id": 3
+	
+        }
+	    },
+	    {
+	        "id": 18,
+	        "name": "??? + ????",
+	        "price": "50",
+	        "duration": 30,
+	        "color": "#b8e986",
+	        "category": {
+	+            "name": "Eyebrows / Mustache",
+	            "id": 3
+	
+        }
+	    }
+	]
 
-6=== ACCOUNT: api_servicetest-924542230@gmail.com ===
+4=== ACCOUNT: api_servicetest-6159714@gmail.com ===
 
 Request method:	POST
 
@@ -331,9 +2103,9 @@
 
 Query params:	<none>
 
-(Form params:	added=2020-04-27 01:10:28
+(Form params:	added=2020-04-29 12:56:00
 
-/				email=api_servicetest-924542230@gmail.com
+-				email=api_servicetest-6159714@gmail.com
 
 				pass=Pa$$w@rd
 
@@ -371,7 +2143,7 @@
 
 Create account code: 201
 
-bCookie value account creation : E406C4686E1469A47D391830E2F64CBF661B5225FD0906CA3AE45164113F1CBF
+bCookie value account creation : 807B98D12121BE67EEB9455F6DBE061892EE4AC9C54207EAD5DF97C9156F9BB4
 
 Request method:	GET
 
@@ -391,21 +2163,207 @@ bCookie value account creation : E406C4686E1469A47D391830E2F64CBF661B5225FD0906C
 
 				Accept=*/*
 
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B5225FD0906CA3AE45164113F1CBF
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=807B98D12121BE67EEB9455F6DBE061892EE4AC9C54207EAD5DF97C9156F9BB4
 
 Multiparts:		<none>
 
 Body:			<none>
 
-¼move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getMassageJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getMassageJSON.approved.txt"
-7=== ACCOUNT: api_servicetest-1741860070@gmail.com ===
+[
+
+    {
+
+        "id": 1,
+
+        "name": "?????",
+
+        "price": "0",
+
+        "duration": 60,
+
+        "color": "#b8e986",
+
+        "category": {
+
+:            "name": "Massage and Reflexology Therapists",
+
+            "id": 1
+
+
+        }
+
+    },
+
+    {
+
+        "id": 2,
+
+&        "name": "????? ????? ??????",
+
+        "price": "0",
+
+        "duration": 90,
+
+        "color": "#b8e986",
+
+        "category": {
+
+:            "name": "Massage and Reflexology Therapists",
+
+            "id": 1
+
+
+        }
+
+    },
+
+    {
+
+        "id": 3,
+
+"        "name": "????? - 30 ??'",
+
+        "price": "0",
+
+        "duration": 30,
+
+        "color": "#b8e986",
+
+        "category": {
+
+:            "name": "Massage and Reflexology Therapists",
+
+            "id": 1
+
+
+        }
+
+    },
+
+    {
+
+        "id": 4,
+
+"        "name": "????? - 45 ??'",
+
+        "price": "0",
+
+        "duration": 45,
+
+        "color": "#b8e986",
+
+        "category": {
+
+:            "name": "Massage and Reflexology Therapists",
+
+            "id": 1
+
+
+        }
+
+    },
+
+    {
+
+        "id": 5,
+
+"        "name": "????? - 60 ??'",
+
+        "price": "0",
+
+        "duration": 60,
+
+        "color": "#b8e986",
+
+        "category": {
+
+:            "name": "Massage and Reflexology Therapists",
+
+            "id": 1
+
+
+        }
+
+    },
+
+    {
+
+        "id": 6,
+
+"        "name": "????? - 90 ??'",
+
+        "price": "0",
+
+        "duration": 90,
+
+        "color": "#b8e986",
+
+        "category": {
+
+:            "name": "Massage and Reflexology Therapists",
+
+            "id": 1
+
+
+        }
+
+    },
+
+    {
+
+        "id": 7,
+
+        "name": "??????",
+
+        "price": "0",
+
+        "duration": 60,
+
+        "color": "#b8e986",
+
+        "category": {
+
+:            "name": "Massage and Reflexology Therapists",
+
+            "id": 1
+
+
+        }
+
+    },
+
+    {
+
+        "id": 8,
+
+         "name": "???? ???????",
+
+        "price": "0",
+
+        "duration": 30,
+
+        "color": "#b8e986",
+
+        "category": {
+
+:            "name": "Massage and Reflexology Therapists",
+
+            "id": 1
+
+
+        }
+
+    }
+
+]
+6=== ACCOUNT: api_servicetest-574726368@gmail.com ===
 Request method:	POST
 8Request URI:	https://lista.atzma.im/signup-new-account
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
-(Form params:	added=2020-04-27 01:10:28
-0				email=api_servicetest-1741860070@gmail.com
+(Form params:	added=2020-04-29 12:56:00
+/				email=api_servicetest-574726368@gmail.com
 				pass=Pa$$w@rd
 				phone=0547613154
 				permit_ads=true
@@ -424,7 +2382,7 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 Body:			<none>
 )Account creation response: /en/calendar
 Create account code: 201
-bCookie value account creation : 78B4700A309E1C917D9B985B4762F7848D771F651762215DE460E82B25E516F5
+bCookie value account creation : F4CBFCE5244AD7A505DD2BBE666F0D8E6D0921E1CE3CF722BE3287D7938E6D1C
 Request method:	GET
 7Request URI:	https://lista.atzma.im/catalog/services/
 Proxy:			<none>
@@ -434,18 +2392,91 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 Path params:	<none>
 /Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
 				Accept=*/*
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=78B4700A309E1C917D9B985B4762F7848D771F651762215DE460E82B25E516F5
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=F4CBFCE5244AD7A505DD2BBE666F0D8E6D0921E1CE3CF722BE3287D7938E6D1C
 Multiparts:		<none>
 Body:			<none>
-ºmove /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getMoversJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getMoversJSON.approved.txt"
-7=== ACCOUNT: api_servicetest-1806828356@gmail.com ===
+[
+    {
+        "id": 1,
+!        "name": "????? ?????? ",
+        "price": "0",
+        "duration": 60,
+        "color": "#3fb6dc",
+        "category": {
++            "name": "Movers and Cleaners",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 2,
+"        "name": "????? - ??????",
+        "price": "0",
+        "duration": 120,
+        "color": "#3fb6dc",
+        "category": {
++            "name": "Movers and Cleaners",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 3,
+"        "name": "????? - 3 ????",
+        "price": "0",
+        "duration": 180,
+        "color": "#3fb6dc",
+        "category": {
++            "name": "Movers and Cleaners",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 4,
+"        "name": "????? - 4 ????",
+        "price": "0",
+        "duration": 240,
+        "color": "#3fb6dc",
+        "category": {
++            "name": "Movers and Cleaners",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 5,
+"        "name": "????? - 5 ????",
+        "price": "0",
+        "duration": 300,
+        "color": "#3fb6dc",
+        "category": {
++            "name": "Movers and Cleaners",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 6,
+         "name": "???? ???????",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
++            "name": "Movers and Cleaners",
+            "id": 1
+
+        }
+    }
+]
+6=== ACCOUNT: api_servicetest1748440074@gmail.com ===
 Request method:	POST
 8Request URI:	https://lista.atzma.im/signup-new-account
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
-(Form params:	added=2020-04-27 01:10:28
-0				email=api_servicetest-1806828356@gmail.com
+(Form params:	added=2020-04-29 12:56:00
+/				email=api_servicetest1748440074@gmail.com
 				pass=Pa$$w@rd
 				phone=0547613154
 				permit_ads=true
@@ -464,7 +2495,7 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 Body:			<none>
 )Account creation response: /en/calendar
 Create account code: 201
-bCookie value account creation : 608B9F5BE62BB27E500C0D66FCECA4C1C12EF1CF0641CEAA44E187722C34ACA9
+bCookie value account creation : 94D80E80E4A34277F440798533CCBFCFA3673F65C9B89C89E99F78F0BDBB8979
 Request method:	GET
 7Request URI:	https://lista.atzma.im/catalog/services/
 Proxy:			<none>
@@ -474,18 +2505,115 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 Path params:	<none>
 /Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
 				Accept=*/*
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=608B9F5BE62BB27E500C0D66FCECA4C1C12EF1CF0641CEAA44E187722C34ACA9
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=94D80E80E4A34277F440798533CCBFCFA3673F65C9B89C89E99F78F0BDBB8979
 Multiparts:		<none>
 Body:			<none>
-Èmove /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getNutritionistsJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getNutritionistsJSON.approved.txt"
-6=== ACCOUNT: api_servicetest1895889677@gmail.com ===
+[
+    {
+        "id": 1,
+)        "name": "????? ?????? / ??????",
+        "price": "0",
+        "duration": 90,
+        "color": "#deceff",
+        "category": {
+5            "name": "Nutritionists and Naturopaths",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 2,
+        "name": "?????",
+        "price": "0",
+        "duration": 60,
+        "color": "#deceff",
+        "category": {
+5            "name": "Nutritionists and Naturopaths",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 3,
+         "name": "???? ???????",
+        "price": "0",
+        "duration": 30,
+        "color": "#deceff",
+        "category": {
+5            "name": "Nutritionists and Naturopaths",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 4,
+"        "name": "????? - 45 ??'",
+        "price": "0",
+        "duration": 45,
+        "color": "#deceff",
+        "category": {
+5            "name": "Nutritionists and Naturopaths",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 5,
+"        "name": "????? - 60 ??'",
+        "price": "0",
+        "duration": 60,
+        "color": "#deceff",
+        "category": {
+5            "name": "Nutritionists and Naturopaths",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 6,
+"        "name": "????? - 90 ??'",
+        "price": "0",
+        "duration": 90,
+        "color": "#deceff",
+        "category": {
+5            "name": "Nutritionists and Naturopaths",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 7,
+#        "name": "????? - 120 ??'",
+        "price": "0",
+        "duration": 120,
+        "color": "#deceff",
+        "category": {
+5            "name": "Nutritionists and Naturopaths",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 8,
+        "name": "??????",
+        "price": "0",
+        "duration": 60,
+        "color": "#deceff",
+        "category": {
+5            "name": "Nutritionists and Naturopaths",
+            "id": 1
+
+        }
+    }
+]
+7=== ACCOUNT: api_servicetest-1004763701@gmail.com ===
 Request method:	POST
 8Request URI:	https://lista.atzma.im/signup-new-account
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
-(Form params:	added=2020-04-27 01:10:28
-/				email=api_servicetest1895889677@gmail.com
+(Form params:	added=2020-04-29 12:56:00
+0				email=api_servicetest-1004763701@gmail.com
 				pass=Pa$$w@rd
 				phone=0547613154
 				permit_ads=true
@@ -504,7 +2632,7 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 Body:			<none>
 )Account creation response: /en/calendar
 Create account code: 201
-bCookie value account creation : B40AE7B59C594E76167E79D2D5DEEA35A850760A915A15CF9518CE8861C14C2B
+bCookie value account creation : C6901CE3AD36C786E10867EF1A63FE8A8C0B0DD3886D51A46F85E939F4D6AB96
 Request method:	GET
 7Request URI:	https://lista.atzma.im/catalog/services/
 Proxy:			<none>
@@ -514,18 +2642,151 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 Path params:	<none>
 /Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
 				Accept=*/*
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=B40AE7B59C594E76167E79D2D5DEEA35A850760A915A15CF9518CE8861C14C2B
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=C6901CE3AD36C786E10867EF1A63FE8A8C0B0DD3886D51A46F85E939F4D6AB96
 Multiparts:		<none>
 Body:			<none>
-¶move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getPestJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getPestJSON.approved.txt"
-5=== ACCOUNT: api_servicetest757200374@gmail.com ===
+[
+    {
+        "id": 1,
+,        "name": "???? ??????? / ???? ????",
+        "price": "0",
+        "duration": 30,
+        "color": "#ff98ad",
+        "category": {
+(            "name": "Pest Controllers",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 2,
+&        "name": "????? ???? 2 ?????",
+        "price": "0",
+        "duration": 60,
+        "color": "#ff98ad",
+        "category": {
+(            "name": "Pest Controllers",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 3,
+&        "name": "????? ???? 3 ?????",
+        "price": "0",
+        "duration": 60,
+        "color": "#ff98ad",
+        "category": {
+(            "name": "Pest Controllers",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 4,
+&        "name": "????? ???? 4 ?????",
+        "price": "0",
+        "duration": 90,
+        "color": "#ff98ad",
+        "category": {
+(            "name": "Pest Controllers",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 5,
+$        "name": "????? ????? ????",
+        "price": "0",
+        "duration": 60,
+        "color": "#ff98ad",
+        "category": {
+(            "name": "Pest Controllers",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 6,
+(        "name": "????? ??? ???? - ???",
+        "price": "0",
+        "duration": 120,
+        "color": "#ff98ad",
+        "category": {
+(            "name": "Pest Controllers",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 7,
+)        "name": "????? ??? ???? - ????",
+        "price": "0",
+        "duration": 180,
+        "color": "#ff98ad",
+        "category": {
+(            "name": "Pest Controllers",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 8,
+$        "name": "????? ???? ?????",
+        "price": "0",
+        "duration": 30,
+        "color": "#ff98ad",
+        "category": {
+(            "name": "Pest Controllers",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 9,
+'        "name": "????? ??????? / ???",
+        "price": "0",
+        "duration": 60,
+        "color": "#ff98ad",
+        "category": {
+(            "name": "Pest Controllers",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 10,
++        "name": "????? ???? / ??? / ????",
+        "price": "0",
+        "duration": 60,
+        "color": "#ff98ad",
+        "category": {
+(            "name": "Pest Controllers",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 11,
+'        "name": "????? ?????? ????? ",
+        "price": "0",
+        "duration": 180,
+        "color": "#ff98ad",
+        "category": {
+(            "name": "Pest Controllers",
+            "id": 1
+
+        }
+    }
+]
+6=== ACCOUNT: api_servicetest1224137853@gmail.com ===
 Request method:	POST
 8Request URI:	https://lista.atzma.im/signup-new-account
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
-(Form params:	added=2020-04-27 01:10:28
-.				email=api_servicetest757200374@gmail.com
+(Form params:	added=2020-04-29 12:56:00
+/				email=api_servicetest1224137853@gmail.com
 				pass=Pa$$w@rd
 				phone=0547613154
 				permit_ads=true
@@ -544,7 +2805,7 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 Body:			<none>
 )Account creation response: /en/calendar
 Create account code: 201
-bCookie value account creation : E2F8BD55A1B4DF662EB89169B49FA7373016373F4559139F876F762AB2ACFB28
+bCookie value account creation : 191999DB18573D6D32DD415D73CD3168372DDD04724D8669D53262681A857B20
 Request method:	GET
 7Request URI:	https://lista.atzma.im/catalog/services/
 Proxy:			<none>
@@ -554,18 +2815,79 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 Path params:	<none>
 /Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
 				Accept=*/*
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E2F8BD55A1B4DF662EB89169B49FA7373016373F4559139F876F762AB2ACFB28
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=191999DB18573D6D32DD415D73CD3168372DDD04724D8669D53262681A857B20
 Multiparts:		<none>
 Body:			<none>
-¾move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getTeachersJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getTeachersJSON.approved.txt"
-6=== ACCOUNT: api_servicetest1872576526@gmail.com ===
+[
+    {
+        "id": 1,
+)        "name": "????? ?????? / ??????",
+        "price": "0",
+        "duration": 90,
+        "color": "#a44bc2",
+        "category": {
+3            "name": "Private Teachers and Tutors",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 2,
+"        "name": "????? - 45 ??'",
+        "price": "0",
+        "duration": 45,
+        "color": "#a44bc2",
+        "category": {
+3            "name": "Private Teachers and Tutors",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 3,
+"        "name": "????? - 60 ??'",
+        "price": "0",
+        "duration": 60,
+        "color": "#a44bc2",
+        "category": {
+3            "name": "Private Teachers and Tutors",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 4,
+"        "name": "????? - 90 ??'",
+        "price": "0",
+        "duration": 90,
+        "color": "#a44bc2",
+        "category": {
+3            "name": "Private Teachers and Tutors",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 5,
+#        "name": "????? - 120 ??'",
+        "price": "0",
+        "duration": 120,
+        "color": "#a44bc2",
+        "category": {
+3            "name": "Private Teachers and Tutors",
+            "id": 1
+
+        }
+    }
+]
+6=== ACCOUNT: api_servicetest1925426343@gmail.com ===
 Request method:	POST
 8Request URI:	https://lista.atzma.im/signup-new-account
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
-(Form params:	added=2020-04-27 01:10:28
-/				email=api_servicetest1872576526@gmail.com
+(Form params:	added=2020-04-29 12:56:00
+/				email=api_servicetest1925426343@gmail.com
 				pass=Pa$$w@rd
 				phone=0547613154
 				permit_ads=true
@@ -584,7 +2906,7 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 Body:			<none>
 )Account creation response: /en/calendar
 Create account code: 201
-bCookie value account creation : E73B0504E131A21CCE7B8F775CA7D32A2EDB51C3ED89F713C3F9A214EEB0C0F5
+bCookie value account creation : A3F8A0E9254A48720A1DABEAA7A92E42D4E7D8EE41837F711DEFFB8E6C0DB9F1
 Request method:	GET
 7Request URI:	https://lista.atzma.im/catalog/services/
 Proxy:			<none>
@@ -594,18 +2916,91 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 Path params:	<none>
 /Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
 				Accept=*/*
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E73B0504E131A21CCE7B8F775CA7D32A2EDB51C3ED89F713C3F9A214EEB0C0F5
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=A3F8A0E9254A48720A1DABEAA7A92E42D4E7D8EE41837F711DEFFB8E6C0DB9F1
 Multiparts:		<none>
 Body:			<none>
-¸move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getSalesJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getSalesJSON.approved.txt"
-6=== ACCOUNT: api_servicetest-993576953@gmail.com ===
+[
+    {
+        "id": 1,
+!        "name": "????? ?????? ",
+        "price": "0",
+        "duration": 90,
+        "color": "#efa5fe",
+        "category": {
+=            "name": "Real Estate Agents Marketers Insurers",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 2,
+"        "name": "????? - 45 ??'",
+        "price": "0",
+        "duration": 45,
+        "color": "#efa5fe",
+        "category": {
+=            "name": "Real Estate Agents Marketers Insurers",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 3,
+"        "name": "????? - 60 ??'",
+        "price": "0",
+        "duration": 60,
+        "color": "#efa5fe",
+        "category": {
+=            "name": "Real Estate Agents Marketers Insurers",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 4,
+"        "name": "????? - 90 ??'",
+        "price": "0",
+        "duration": 90,
+        "color": "#efa5fe",
+        "category": {
+=            "name": "Real Estate Agents Marketers Insurers",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 5,
+#        "name": "????? - 120 ??'",
+        "price": "0",
+        "duration": 120,
+        "color": "#efa5fe",
+        "category": {
+=            "name": "Real Estate Agents Marketers Insurers",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 6,
+         "name": "???? ???????",
+        "price": "0",
+        "duration": 30,
+        "color": "#efa5fe",
+        "category": {
+=            "name": "Real Estate Agents Marketers Insurers",
+            "id": 1
+
+        }
+    }
+]
+6=== ACCOUNT: api_servicetest1413222884@gmail.com ===
 Request method:	POST
 8Request URI:	https://lista.atzma.im/signup-new-account
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
-(Form params:	added=2020-04-27 01:10:28
-/				email=api_servicetest-993576953@gmail.com
+(Form params:	added=2020-04-29 12:56:00
+/				email=api_servicetest1413222884@gmail.com
 				pass=Pa$$w@rd
 				phone=0547613154
 				permit_ads=true
@@ -624,7 +3019,7 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 Body:			<none>
 )Account creation response: /en/calendar
 Create account code: 201
-bCookie value account creation : 9446E888F80B08F85B5C2ECD234942D8A5EF8100F96290BE899BF80DF507D8C3
+bCookie value account creation : 0666B5AA2D0CCE163A8A3F7FE733C4EB6B8F1E377558A30C29E35F48808E62D9
 Request method:	GET
 7Request URI:	https://lista.atzma.im/catalog/services/
 Proxy:			<none>
@@ -634,18 +3029,91 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 Path params:	<none>
 /Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
 				Accept=*/*
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=9446E888F80B08F85B5C2ECD234942D8A5EF8100F96290BE899BF80DF507D8C3
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=0666B5AA2D0CCE163A8A3F7FE733C4EB6B8F1E377558A30C29E35F48808E62D9
 Multiparts:		<none>
 Body:			<none>
-Îmove /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getServiceProvidersJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getServiceProvidersJSON.approved.txt"
-7=== ACCOUNT: api_servicetest-1484453125@gmail.com ===
+[
+    {
+        "id": 1,
+         "name": "????? ??????",
+        "price": "0",
+        "duration": 90,
+        "color": "#fff581",
+        "category": {
+?            "name": "Service Providers For Home and Business",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 2,
+"        "name": "????? - 45 ??'",
+        "price": "0",
+        "duration": 45,
+        "color": "#fff581",
+        "category": {
+?            "name": "Service Providers For Home and Business",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 3,
+"        "name": "????? - 60 ??'",
+        "price": "0",
+        "duration": 60,
+        "color": "#fff581",
+        "category": {
+?            "name": "Service Providers For Home and Business",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 4,
+"        "name": "????? - 90 ??'",
+        "price": "0",
+        "duration": 90,
+        "color": "#fff581",
+        "category": {
+?            "name": "Service Providers For Home and Business",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 5,
+#        "name": "????? - 120 ??'",
+        "price": "0",
+        "duration": 120,
+        "color": "#fff581",
+        "category": {
+?            "name": "Service Providers For Home and Business",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 6,
+         "name": "???? ???????",
+        "price": "0",
+        "duration": 30,
+        "color": "#fff581",
+        "category": {
+?            "name": "Service Providers For Home and Business",
+            "id": 1
+
+        }
+    }
+]
+5=== ACCOUNT: api_servicetest372999527@gmail.com ===
 Request method:	POST
 8Request URI:	https://lista.atzma.im/signup-new-account
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
-(Form params:	added=2020-04-27 01:10:28
-0				email=api_servicetest-1484453125@gmail.com
+(Form params:	added=2020-04-29 12:56:00
+.				email=api_servicetest372999527@gmail.com
 				pass=Pa$$w@rd
 				phone=0547613154
 				permit_ads=true
@@ -664,7 +3132,7 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 Body:			<none>
 )Account creation response: /en/calendar
 Create account code: 201
-bCookie value account creation : C7BD00542FA63EFA61910AB53178C79B97615D9C6658B5F8A43497EDAF3D34FF
+bCookie value account creation : 5E75300A277690AFDD917D5855F635747412D04FACE8BED7D0C2822C2C80F654
 Request method:	GET
 7Request URI:	https://lista.atzma.im/catalog/services/
 Proxy:			<none>
@@ -674,18 +3142,103 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 Path params:	<none>
 /Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
 				Accept=*/*
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=C7BD00542FA63EFA61910AB53178C79B97615D9C6658B5F8A43497EDAF3D34FF
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=5E75300A277690AFDD917D5855F635747412D04FACE8BED7D0C2822C2C80F654
 Multiparts:		<none>
 Body:			<none>
-¾move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getPersonalJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getPersonalJSON.approved.txt"
-5=== ACCOUNT: api_servicetest277959166@gmail.com ===
+[
+    {
+        "id": 1,
+        "name": "????? ????",
+        "price": "0",
+        "duration": 15,
+        "color": "#50e3c1",
+        "category": {
+6            "name": "Sports and Fitness Instructors",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 2,
+        "name": "????? ????",
+        "price": "0",
+        "duration": 60,
+        "color": "#50e3c1",
+        "category": {
+6            "name": "Sports and Fitness Instructors",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 3,
+        "name": "????? ????",
+        "price": "0",
+        "duration": 60,
+        "color": "#50e3c1",
+        "category": {
+6            "name": "Sports and Fitness Instructors",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 4,
+"        "name": "????? - 45 ??'",
+        "price": "0",
+        "duration": 45,
+        "color": "#50e3c1",
+        "category": {
+6            "name": "Sports and Fitness Instructors",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 5,
+"        "name": "????? - 60 ??'",
+        "price": "0",
+        "duration": 60,
+        "color": "#50e3c1",
+        "category": {
+6            "name": "Sports and Fitness Instructors",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 6,
+"        "name": "????? - 90 ??'",
+        "price": "0",
+        "duration": 90,
+        "color": "#50e3c1",
+        "category": {
+6            "name": "Sports and Fitness Instructors",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 7,
+)        "name": "?????? / ????? ??????",
+        "price": "0",
+        "duration": 30,
+        "color": "#50e3c1",
+        "category": {
+6            "name": "Sports and Fitness Instructors",
+            "id": 1
+
+        }
+    }
+]
+6=== ACCOUNT: api_servicetest1798551076@gmail.com ===
 Request method:	POST
 8Request URI:	https://lista.atzma.im/signup-new-account
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
-(Form params:	added=2020-04-27 01:10:28
-.				email=api_servicetest277959166@gmail.com
+(Form params:	added=2020-04-29 12:56:00
+/				email=api_servicetest1798551076@gmail.com
 				pass=Pa$$w@rd
 				phone=0547613154
 				permit_ads=true
@@ -704,7 +3257,7 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 Body:			<none>
 )Account creation response: /en/calendar
 Create account code: 201
-bCookie value account creation : 1E67A19137D8F42791E78E0FC901154DF654242ACCF261FFB7CAF7DBB8108E72
+bCookie value account creation : E10E8EF856F64E8C21580DAA1248EA19A472C5CD4FE6954E2100799B9859219B
 Request method:	GET
 7Request URI:	https://lista.atzma.im/catalog/services/
 Proxy:			<none>
@@ -714,18 +3267,67 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 Path params:	<none>
 /Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
 				Accept=*/*
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=1E67A19137D8F42791E78E0FC901154DF654242ACCF261FFB7CAF7DBB8108E72
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E10E8EF856F64E8C21580DAA1248EA19A472C5CD4FE6954E2100799B9859219B
 Multiparts:		<none>
 Body:			<none>
-ºmove /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getTattooJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getTattooJSON.approved.txt"
-6=== ACCOUNT: api_servicetest1388627347@gmail.com ===
+[
+    {
+        "id": 1,
+         "name": "????? ??????",
+        "price": "0",
+        "duration": 60,
+        "color": "#fff581",
+        "category": {
+&            "name": "Tattoo Artists",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 2,
+*        "name": "????? ?? ???? - 60 ??'",
+        "price": "0",
+        "duration": 60,
+        "color": "#fff581",
+        "category": {
+&            "name": "Tattoo Artists",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 3,
+*        "name": "????? ?? ???? - 90 ??'",
+        "price": "0",
+        "duration": 90,
+        "color": "#fff581",
+        "category": {
+&            "name": "Tattoo Artists",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 4,
++        "name": "????? ?? ???? - 120 ??'",
+        "price": "0",
+        "duration": 120,
+        "color": "#fff581",
+        "category": {
+&            "name": "Tattoo Artists",
+            "id": 1
+
+        }
+    }
+]
+7=== ACCOUNT: api_servicetest-1044844139@gmail.com ===
 Request method:	POST
 8Request URI:	https://lista.atzma.im/signup-new-account
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
-(Form params:	added=2020-04-27 01:10:28
-/				email=api_servicetest1388627347@gmail.com
+(Form params:	added=2020-04-29 12:56:00
+0				email=api_servicetest-1044844139@gmail.com
 				pass=Pa$$w@rd
 				phone=0547613154
 				permit_ads=true
@@ -744,7 +3346,7 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 Body:			<none>
 )Account creation response: /en/calendar
 Create account code: 201
-bCookie value account creation : 35D9973F6C1CE18AB08597A7DB342979B2D72FFCB49B325FC24539DC9E5CDFB2
+bCookie value account creation : 47357AD7A8B698A5176A0F1579DA3B044BE953EB697E88FE50E8E9F8CE2FF375
 Request method:	GET
 7Request URI:	https://lista.atzma.im/catalog/services/
 Proxy:			<none>
@@ -754,18 +3356,115 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 Path params:	<none>
 /Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
 				Accept=*/*
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=35D9973F6C1CE18AB08597A7DB342979B2D72FFCB49B325FC24539DC9E5CDFB2
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=47357AD7A8B698A5176A0F1579DA3B044BE953EB697E88FE50E8E9F8CE2FF375
 Multiparts:		<none>
 Body:			<none>
-Âmove /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getTherapistsJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getTherapistsJSON.approved.txt"
-6=== ACCOUNT: api_servicetest-815547566@gmail.com ===
+[
+    {
+        "id": 1,
+)        "name": "????? ?????? / ??????",
+        "price": "0",
+        "duration": 90,
+        "color": "#759bfa",
+        "category": {
++            "name": "Therapy Specialists",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 2,
+"        "name": "????? - 45 ??'",
+        "price": "0",
+        "duration": 45,
+        "color": "#759bfa",
+        "category": {
++            "name": "Therapy Specialists",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 3,
+"        "name": "????? - 60 ??'",
+        "price": "0",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
++            "name": "Therapy Specialists",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 4,
+"        "name": "????? - 90 ??'",
+        "price": "0",
+        "duration": 90,
+        "color": "#759bfa",
+        "category": {
++            "name": "Therapy Specialists",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 5,
+#        "name": "????? - 120 ??'",
+        "price": "0",
+        "duration": 120,
+        "color": "#759bfa",
+        "category": {
++            "name": "Therapy Specialists",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 6,
+        "name": "?????",
+        "price": "0",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
++            "name": "Therapy Specialists",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 7,
+        "name": "??????",
+        "price": "0",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
++            "name": "Therapy Specialists",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 8,
+         "name": "???? ???????",
+        "price": "0",
+        "duration": 30,
+        "color": "#759bfa",
+        "category": {
++            "name": "Therapy Specialists",
+            "id": 1
+
+        }
+    }
+]
+6=== ACCOUNT: api_servicetest1974677266@gmail.com ===
 Request method:	POST
 8Request URI:	https://lista.atzma.im/signup-new-account
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
-(Form params:	added=2020-04-27 01:10:28
-/				email=api_servicetest-815547566@gmail.com
+(Form params:	added=2020-04-29 12:56:00
+/				email=api_servicetest1974677266@gmail.com
 				pass=Pa$$w@rd
 				phone=0547613154
 				permit_ads=true
@@ -784,7 +3483,7 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 Body:			<none>
 )Account creation response: /en/calendar
 Create account code: 201
-bCookie value account creation : D47753F257F73D9D0C5ABC35EC41ACB500384B30618D8AFB3EDD8235EEF23134
+bCookie value account creation : D8F45D961C186B1168B47BF630BC2CE7622DA1CA48B2C23F70EDBE24E8499941
 Request method:	GET
 7Request URI:	https://lista.atzma.im/catalog/services/
 Proxy:			<none>
@@ -794,10 +3493,2603 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 Path params:	<none>
 /Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
 				Accept=*/*
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=D47753F257F73D9D0C5ABC35EC41ACB500384B30618D8AFB3EDD8235EEF23134
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=D8F45D961C186B1168B47BF630BC2CE7622DA1CA48B2C23F70EDBE24E8499941
 Multiparts:		<none>
 Body:			<none>
-¼move /Y "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getAllTypeJSON.received.txt"  "D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\.\src\test\java\lista2020\tests\VerifyServicesSetTests.getAllTypeJSON.approved.txt"
+[
+    {
+        "id": 1,
+        "name": "?????",
+        "price": "0",
+        "duration": 60,
+        "color": "#efa5fe",
+        "category": {
+7            "name": "Alternative Therapy Specialists",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 2,
+&        "name": "????? ????? ??????",
+        "price": "0",
+        "duration": 90,
+        "color": "#efa5fe",
+        "category": {
+7            "name": "Alternative Therapy Specialists",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 3,
+"        "name": "????? - 30 ??'",
+        "price": "0",
+        "duration": 30,
+        "color": "#efa5fe",
+        "category": {
+7            "name": "Alternative Therapy Specialists",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 4,
+"        "name": "????? - 45 ??'",
+        "price": "0",
+        "duration": 45,
+        "color": "#efa5fe",
+        "category": {
+7            "name": "Alternative Therapy Specialists",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 5,
+$        "name": "????? - 60 ??', ",
+        "price": "0",
+        "duration": 60,
+        "color": "#efa5fe",
+        "category": {
+7            "name": "Alternative Therapy Specialists",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 6,
+"        "name": "????? - 90 ??'",
+        "price": "0",
+        "duration": 90,
+        "color": "#efa5fe",
+        "category": {
+7            "name": "Alternative Therapy Specialists",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 7,
+        "name": "??????",
+        "price": "0",
+        "duration": 60,
+        "color": "#efa5fe",
+        "category": {
+7            "name": "Alternative Therapy Specialists",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 8,
+         "name": "???? ???????",
+        "price": "0",
+        "duration": 30,
+        "color": "#efa5fe",
+        "category": {
+7            "name": "Alternative Therapy Specialists",
+            "id": 1
+
+        }
+    },
+    {
+        "id": 9,
+         "name": "????? ??????",
+        "price": "0",
+        "duration": 60,
+        "color": "#fff581",
+        "category": {
+0            "name": "Consultants And Coachers",
+            "id": 2
+
+        }
+    },
+    {
+        "id": 10,
+.        "name": "????? ?????/????? - 60 ??'",
+        "price": "0",
+        "duration": 60,
+        "color": "#fff581",
+        "category": {
+0            "name": "Consultants And Coachers",
+            "id": 2
+
+        }
+    },
+    {
+        "id": 11,
+0        "name": "????? ?????/????? - 90 ??', ",
+        "price": "0",
+        "duration": 90,
+        "color": "#fff581",
+        "category": {
+0            "name": "Consultants And Coachers",
+            "id": 2
+
+        }
+    },
+    {
+        "id": 12,
+1        "name": "????? ?????/????? - 120 ??', ",
+        "price": "0",
+        "duration": 120,
+        "color": "#fff581",
+        "category": {
+0            "name": "Consultants And Coachers",
+            "id": 2
+
+        }
+    },
+    {
+        "id": 13,
+&        "name": "?????/????? ??????",
+        "price": "0",
+        "duration": 60,
+        "color": "#fff581",
+        "category": {
+0            "name": "Consultants And Coachers",
+            "id": 2
+
+        }
+    },
+    {
+        "id": 14,
+        "name": "????? ????",
+        "price": "350",
+        "duration": 60,
+        "color": "#50e3c1",
+        "category": {
+'            "name": "Skin Treatments",
+            "id": 3
+
+        }
+    },
+    {
+        "id": 15,
+#        "name": "????? ????/????",
+        "price": "250",
+        "duration": 45,
+        "color": "#50e3c1",
+        "category": {
+'            "name": "Skin Treatments",
+            "id": 3
+
+        }
+    },
+    {
+        "id": 16,
+"        "name": "????? ????????",
+        "price": "400",
+        "duration": 90,
+        "color": "#50e3c1",
+        "category": {
+'            "name": "Skin Treatments",
+            "id": 3
+
+        }
+    },
+    {
+        "id": 17,
+$        "name": "????? ????? ????",
+        "price": "200",
+        "duration": 60,
+        "color": "#50e3c1",
+        "category": {
+'            "name": "Skin Treatments",
+            "id": 3
+
+        }
+    },
+    {
+        "id": 18,
+#        "name": "????? ?????????",
+        "price": "300",
+        "duration": 75,
+        "color": "#50e3c1",
+        "category": {
+'            "name": "Skin Treatments",
+            "id": 3
+
+        }
+    },
+    {
+        "id": 19,
+        "name": "????? ????",
+        "price": "250",
+        "duration": 90,
+        "color": "#50e3c1",
+        "category": {
+'            "name": "Skin Treatments",
+            "id": 3
+
+        }
+    },
+    {
+        "id": 20,
+.        "name": "????? ????????'??? / ?????",
+        "price": "300",
+        "duration": 60,
+        "color": "#50e3c1",
+        "category": {
+'            "name": "Skin Treatments",
+            "id": 3
+
+        }
+    },
+    {
+        "id": 21,
+        "name": "??????",
+        "price": "400",
+        "duration": 75,
+        "color": "#50e3c1",
+        "category": {
+'            "name": "Skin Treatments",
+            "id": 3
+
+        }
+    },
+    {
+        "id": 22,
+        "name": "?? ?'?",
+        "price": "120",
+        "duration": 45,
+        "color": "#efefff",
+        "category": {
+)            "name": "Manicure Pedicure",
+            "id": 4
+
+        }
+    },
+    {
+        "id": 23,
+        "name": "?? ?'?",
+        "price": "120",
+        "duration": 45,
+        "color": "#efefff",
+        "category": {
+)            "name": "Manicure Pedicure",
+            "id": 4
+
+        }
+    },
+    {
+        "id": 24,
+"        "name": "?? ?'? ???????",
+        "price": "150",
+        "duration": 30,
+        "color": "#efefff",
+        "category": {
+)            "name": "Manicure Pedicure",
+            "id": 4
+
+        }
+    },
+    {
+        "id": 25,
+"        "name": "?? ?'? ???????",
+        "price": "150",
+        "duration": 30,
+        "color": "#efefff",
+        "category": {
+)            "name": "Manicure Pedicure",
+            "id": 4
+
+        }
+    },
+    {
+        "id": 26,
+!        "name": "?????? ??????",
+        "price": "45",
+        "duration": 15,
+        "color": "#efefff",
+        "category": {
+)            "name": "Manicure Pedicure",
+            "id": 4
+
+        }
+    },
+    {
+        "id": 27,
+!        "name": "?????? ??????",
+        "price": "45",
+        "duration": 15,
+        "color": "#efefff",
+        "category": {
+)            "name": "Manicure Pedicure",
+            "id": 4
+
+        }
+    },
+    {
+        "id": 28,
+        "name": "??????",
+        "price": "70",
+        "duration": 30,
+        "color": "#efefff",
+        "category": {
+)            "name": "Manicure Pedicure",
+            "id": 4
+
+        }
+    },
+    {
+        "id": 29,
+        "name": "??????",
+        "price": "70",
+        "duration": 30,
+        "color": "#efefff",
+        "category": {
+)            "name": "Manicure Pedicure",
+            "id": 4
+
+        }
+    },
+    {
+        "id": 30,
+!        "name": "?????? ??????",
+        "price": "55",
+        "duration": 15,
+        "color": "#efefff",
+        "category": {
+)            "name": "Manicure Pedicure",
+            "id": 4
+
+        }
+    },
+    {
+        "id": 31,
+!        "name": "?????? ??????",
+        "price": "55",
+        "duration": 15,
+        "color": "#efefff",
+        "category": {
+)            "name": "Manicure Pedicure",
+            "id": 4
+
+        }
+    },
+    {
+        "id": 32,
+        "name": "??????",
+        "price": "140",
+        "duration": 45,
+        "color": "#efefff",
+        "category": {
+)            "name": "Manicure Pedicure",
+            "id": 4
+
+        }
+    },
+    {
+        "id": 33,
+        "name": "??????",
+        "price": "140",
+        "duration": 45,
+        "color": "#efefff",
+        "category": {
+)            "name": "Manicure Pedicure",
+            "id": 4
+
+        }
+    },
+    {
+        "id": 34,
+         "name": "?????? ?????",
+        "price": "155",
+        "duration": 45,
+        "color": "#efefff",
+        "category": {
+)            "name": "Manicure Pedicure",
+            "id": 4
+
+        }
+    },
+    {
+        "id": 35,
+         "name": "?????? ?????",
+        "price": "155",
+        "duration": 45,
+        "color": "#efefff",
+        "category": {
+)            "name": "Manicure Pedicure",
+            "id": 4
+
+        }
+    },
+    {
+        "id": 36,
+"        "name": "????? + ?? ?'?",
+        "price": "240",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+&            "name": "Nail Sculpting",
+            "id": 5
+
+        }
+    },
+    {
+        "id": 37,
+"        "name": "????? + ?? ?'?",
+        "price": "240",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+&            "name": "Nail Sculpting",
+            "id": 5
+
+        }
+    },
+    {
+        "id": 38,
+"        "name": "????? + ?? ?'?",
+        "price": "130",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+&            "name": "Nail Sculpting",
+            "id": 5
+
+        }
+    },
+    {
+        "id": 39,
+"        "name": "????? + ?? ?'?",
+        "price": "130",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+&            "name": "Nail Sculpting",
+            "id": 5
+
+        }
+    },
+    {
+        "id": 40,
+#        "name": "????? ?????????",
+        "price": "300",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+&            "name": "Nail Sculpting",
+            "id": 5
+
+        }
+    },
+    {
+        "id": 41,
+#        "name": "????? ?????????",
+        "price": "300",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+&            "name": "Nail Sculpting",
+            "id": 5
+
+        }
+    },
+    {
+        "id": 42,
+        "name": "????? ??'?",
+        "price": "220",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+&            "name": "Nail Sculpting",
+            "id": 5
+
+        }
+    },
+    {
+        "id": 43,
+        "name": "????? ??'?",
+        "price": "220",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+&            "name": "Nail Sculpting",
+            "id": 5
+
+        }
+    },
+    {
+        "id": 44,
+         "name": "????? ??????",
+        "price": "0",
+        "duration": 15,
+        "color": "#759bfa",
+        "category": {
+&            "name": "Nail Sculpting",
+            "id": 5
+
+        }
+    },
+    {
+        "id": 45,
+         "name": "????? ??????",
+        "price": "0",
+        "duration": 15,
+        "color": "#759bfa",
+        "category": {
+&            "name": "Nail Sculpting",
+            "id": 5
+
+        }
+    },
+    {
+        "id": 46,
+        "name": "????? ????",
+        "price": "110",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+&            "name": "Nail Sculpting",
+            "id": 5
+
+        }
+    },
+    {
+        "id": 47,
+        "name": "????? ????",
+        "price": "110",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+&            "name": "Nail Sculpting",
+            "id": 5
+
+        }
+    },
+    {
+        "id": 48,
+%        "name": "???? ?????/?? ?'?",
+        "price": "50",
+        "duration": 30,
+        "color": "#759bfa",
+        "category": {
+&            "name": "Nail Sculpting",
+            "id": 5
+
+        }
+    },
+    {
+        "id": 49,
+%        "name": "???? ?????/?? ?'?",
+        "price": "50",
+        "duration": 30,
+        "color": "#759bfa",
+        "category": {
+&            "name": "Nail Sculpting",
+            "id": 5
+
+        }
+    },
+    {
+        "id": 50,
+#        "name": "????? ?????????",
+        "price": "0",
+        "duration": 30,
+        "color": "#759bfa",
+        "category": {
+&            "name": "Nail Sculpting",
+            "id": 5
+
+        }
+    },
+    {
+        "id": 51,
+#        "name": "????? ?????????",
+        "price": "0",
+        "duration": 30,
+        "color": "#759bfa",
+        "category": {
+&            "name": "Nail Sculpting",
+            "id": 5
+
+        }
+    },
+    {
+        "id": 52,
+        "name": "????? ????",
+        "price": "30",
+        "duration": 15,
+        "color": "#b8e986",
+        "category": {
++            "name": "Eyebrows / Mustache",
+            "id": 6
+
+        }
+    },
+    {
+        "id": 53,
+        "name": "????? ????",
+        "price": "30",
+        "duration": 15,
+        "color": "#b8e986",
+        "category": {
++            "name": "Eyebrows / Mustache",
+            "id": 6
+
+        }
+    },
+    {
+        "id": 54,
+        "name": "???",
+        "price": "30",
+        "duration": 15,
+        "color": "#b8e986",
+        "category": {
++            "name": "Eyebrows / Mustache",
+            "id": 6
+
+        }
+    },
+    {
+        "id": 55,
+        "name": "???",
+        "price": "30",
+        "duration": 15,
+        "color": "#b8e986",
+        "category": {
++            "name": "Eyebrows / Mustache",
+            "id": 6
+
+        }
+    },
+    {
+        "id": 56,
+        "name": "??? + ????",
+        "price": "50",
+        "duration": 30,
+        "color": "#b8e986",
+        "category": {
++            "name": "Eyebrows / Mustache",
+            "id": 6
+
+        }
+    },
+    {
+        "id": 57,
+        "name": "??? + ????",
+        "price": "50",
+        "duration": 30,
+        "color": "#b8e986",
+        "category": {
++            "name": "Eyebrows / Mustache",
+            "id": 6
+
+        }
+    },
+    {
+        "id": 58,
+        "name": "???? ?????",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 7
+
+        }
+    },
+    {
+        "id": 59,
+        "name": "????? ?????",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 7
+
+        }
+    },
+    {
+        "id": 60,
+         "name": "????? ??????",
+        "price": "0",
+        "duration": 45,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 7
+
+        }
+    },
+    {
+        "id": 61,
+#        "name": "????? ?????+???",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 7
+
+        }
+    },
+    {
+        "id": 62,
+        "name": "????? ?????",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 7
+
+        }
+    },
+    {
+        "id": 63,
+        "name": "????? ???",
+        "price": "0",
+        "duration": 15,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 7
+
+        }
+    },
+    {
+        "id": 64,
+&        "name": "????? ?.??? ??????",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 7
+
+        }
+    },
+    {
+        "id": 65,
+&        "name": "????? ?.??? ??????",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 7
+
+        }
+    },
+    {
+        "id": 66,
+        "name": "????? ????",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 7
+
+        }
+    },
+    {
+        "id": 67,
+        "name": "????? ??",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 7
+
+        }
+    },
+    {
+        "id": 68,
+        "name": "????? ???",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 7
+
+        }
+    },
+    {
+        "id": 69,
+!        "name": "????? ???+???",
+        "price": "0",
+        "duration": 45,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 7
+
+        }
+    },
+    {
+        "id": 70,
+        "name": "????? ????",
+        "price": "0",
+        "duration": 15,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 7
+
+        }
+    },
+    {
+        "id": 71,
+        "name": "????? ????",
+        "price": "0",
+        "duration": 15,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 7
+
+        }
+    },
+    {
+        "id": 72,
+"        "name": "????? ???+????",
+        "price": "0",
+        "duration": 15,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 7
+
+        }
+    },
+    {
+        "id": 73,
+        "name": "????? ???",
+        "price": "0",
+        "duration": 15,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 7
+
+        }
+    },
+    {
+        "id": 74,
+#        "name": "????? ????? ???",
+        "price": "0",
+        "duration": 15,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 7
+
+        }
+    },
+    {
+        "id": 75,
+        "name": "????? ???",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 7
+
+        }
+    },
+    {
+        "id": 76,
+         "name": "????? ?? ???",
+        "price": "0",
+        "duration": 15,
+        "color": "#3fb6dc",
+        "category": {
+!            "name": "Epilation",
+            "id": 7
+
+        }
+    },
+    {
+        "id": 77,
+         "name": "????? - ????",
+        "price": "50",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 8
+
+        }
+    },
+    {
+        "id": 78,
+        "name": "????? - ???",
+        "price": "30",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 8
+
+        }
+    },
+    {
+        "id": 79,
+"        "name": "????? - ??????",
+        "price": "40",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 8
+
+        }
+    },
+    {
+        "id": 80,
+"        "name": "????? - ??????",
+        "price": "60",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 8
+
+        }
+    },
+    {
+        "id": 81,
+         "name": "????? - ????",
+        "price": "80",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 8
+
+        }
+    },
+    {
+        "id": 82,
+"        "name": "????? - ??????",
+        "price": "120",
+        "duration": 30,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 8
+
+        }
+    },
+    {
+        "id": 83,
+#        "name": "????? - ??? ???",
+        "price": "80",
+        "duration": 30,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 8
+
+        }
+    },
+    {
+        "id": 84,
+*        "name": "????? - ?????? + ?????",
+        "price": "150",
+        "duration": 30,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 8
+
+        }
+    },
+    {
+        "id": 85,
+!        "name": "????? - ?????",
+        "price": "80",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 8
+
+        }
+    },
+    {
+        "id": 86,
+"        "name": "????? ??? - ??",
+        "price": "120",
+        "duration": 30,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 8
+
+        }
+    },
+    {
+        "id": 87,
+#        "name": "????? ??? - ???",
+        "price": "80",
+        "duration": 30,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 8
+
+        }
+    },
+    {
+        "id": 88,
+&        "name": "????? ??? - ??????",
+        "price": "50",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 8
+
+        }
+    },
+    {
+        "id": 89,
+$        "name": "????? ??? - ????",
+        "price": "30",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 8
+
+        }
+    },
+    {
+        "id": 90,
+        "name": "????? - ???",
+        "price": "50",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 8
+
+        }
+    },
+    {
+        "id": 91,
+#        "name": "????? ??? - ???",
+        "price": "70",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 8
+
+        }
+    },
+    {
+        "id": 92,
+"        "name": "????? - ??? ??",
+        "price": "40",
+        "duration": 15,
+        "color": "#deceff",
+        "category": {
+            "name": "Waxing",
+            "id": 8
+
+        }
+    },
+    {
+        "id": 93,
+.        "name": "????? ????- ???????? ?????",
+        "price": "0",
+        "duration": 120,
+        "color": "#ff98ad",
+        "category": {
+1            "name": "Makeup / Permanent Makeup",
+            "id": 9
+
+        }
+    },
+    {
+        "id": 94,
+/        "name": "????? ???? - ???????? ?????",
+        "price": "0",
+        "duration": 120,
+        "color": "#ff98ad",
+        "category": {
+1            "name": "Makeup / Permanent Makeup",
+            "id": 9
+
+        }
+    },
+    {
+        "id": 95,
+'        "name": "????? ???? - ??????",
+        "price": "0",
+        "duration": 120,
+        "color": "#ff98ad",
+        "category": {
+1            "name": "Makeup / Permanent Makeup",
+            "id": 9
+
+        }
+    },
+    {
+        "id": 96,
+$        "name": "????? ????? ????",
+        "price": "0",
+        "duration": 60,
+        "color": "#ff98ad",
+        "category": {
+1            "name": "Makeup / Permanent Makeup",
+            "id": 9
+
+        }
+    },
+    {
+        "id": 97,
+        "name": "????? ???",
+        "price": "300",
+        "duration": 45,
+        "color": "#ff98ad",
+        "category": {
+1            "name": "Makeup / Permanent Makeup",
+            "id": 9
+
+        }
+    },
+    {
+        "id": 98,
+        "name": "????? ???",
+        "price": "950",
+        "duration": 90,
+        "color": "#ff98ad",
+        "category": {
+1            "name": "Makeup / Permanent Makeup",
+            "id": 9
+
+        }
+    },
+    {
+        "id": 99,
+#        "name": "????? ???? ????",
+        "price": "0",
+        "duration": 120,
+        "color": "#ff98ad",
+        "category": {
+1            "name": "Makeup / Permanent Makeup",
+            "id": 9
+
+        }
+    },
+    {
+        "id": 100,
+        "name": "?????? ???",
+        "price": "50",
+        "duration": 15,
+        "color": "#50e3c1",
+        "category": {
+$            "name": "Hair Styling",
+            "id": 10
+
+        }
+    },
+    {
+        "id": 101,
+        "name": "?????? ???",
+        "price": "50",
+        "duration": 15,
+        "color": "#a44bc2",
+        "category": {
+$            "name": "Hair Styling",
+            "id": 10
+
+        }
+    },
+    {
+        "id": 102,
+        "name": "?????? ????",
+        "price": "150",
+        "duration": 30,
+        "color": "#a44bc2",
+        "category": {
+$            "name": "Hair Styling",
+            "id": 10
+
+        }
+    },
+    {
+        "id": 103,
+        "name": "?? ???",
+        "price": "80",
+        "duration": 30,
+        "color": "#a44bc2",
+        "category": {
+$            "name": "Hair Styling",
+            "id": 10
+
+        }
+    },
+    {
+        "id": 104,
+        "name": "?? ????",
+        "price": "100",
+        "duration": 45,
+        "color": "#a44bc2",
+        "category": {
+$            "name": "Hair Styling",
+            "id": 10
+
+        }
+    },
+    {
+        "id": 105,
+        "name": "?? ????",
+        "price": "0",
+        "duration": 15,
+        "color": "#a44bc2",
+        "category": {
+$            "name": "Hair Styling",
+            "id": 10
+
+        }
+    },
+    {
+        "id": 106,
+        "name": "?? ????????",
+        "price": "120",
+        "duration": 30,
+        "color": "#a44bc2",
+        "category": {
+$            "name": "Hair Styling",
+            "id": 10
+
+        }
+    },
+    {
+        "id": 107,
+        "name": "?????? ???",
+        "price": "250",
+        "duration": 60,
+        "color": "#a44bc2",
+        "category": {
+$            "name": "Hair Styling",
+            "id": 10
+
+        }
+    },
+    {
+        "id": 108,
+$        "name": "?????? ???? + ??",
+        "price": "180",
+        "duration": 60,
+        "color": "#a44bc2",
+        "category": {
+$            "name": "Hair Styling",
+            "id": 10
+
+        }
+    },
+    {
+        "id": 109,
+$        "name": "?????? ??? + ???",
+        "price": "70",
+        "duration": 30,
+        "color": "#a44bc2",
+        "category": {
+$            "name": "Hair Styling",
+            "id": 10
+
+        }
+    },
+    {
+        "id": 110,
+        "name": "???? ?????",
+        "price": "0",
+        "duration": 15,
+        "color": "#efa5fe",
+        "category": {
+%            "name": "Hair Coloring",
+            "id": 11
+
+        }
+    },
+    {
+        "id": 111,
+        "name": "??? ??? ???",
+        "price": "220",
+        "duration": 15,
+        "color": "#efa5fe",
+        "category": {
+%            "name": "Hair Coloring",
+            "id": 11
+
+        }
+    },
+    {
+        "id": 112,
+        "name": "??? ????",
+        "price": "150",
+        "duration": 15,
+        "color": "#efa5fe",
+        "category": {
+%            "name": "Hair Coloring",
+            "id": 11
+
+        }
+    },
+    {
+        "id": 113,
+        "name": "?????",
+        "price": "150",
+        "duration": 15,
+        "color": "#efa5fe",
+        "category": {
+%            "name": "Hair Coloring",
+            "id": 11
+
+        }
+    },
+    {
+        "id": 114,
+"        "name": "?????? ??? ???",
+        "price": "500",
+        "duration": 75,
+        "color": "#efa5fe",
+        "category": {
+%            "name": "Hair Coloring",
+            "id": 11
+
+        }
+    },
+    {
+        "id": 115,
+"        "name": "?????? ??? ???",
+        "price": "300",
+        "duration": 45,
+        "color": "#efa5fe",
+        "category": {
+%            "name": "Hair Coloring",
+            "id": 11
+
+        }
+    },
+    {
+        "id": 116,
+        "name": "??????",
+        "price": "600",
+        "duration": 120,
+        "color": "#efa5fe",
+        "category": {
+%            "name": "Hair Coloring",
+            "id": 11
+
+        }
+    },
+    {
+        "id": 117,
+        "name": "?????'",
+        "price": "800",
+        "duration": 120,
+        "color": "#efa5fe",
+        "category": {
+%            "name": "Hair Coloring",
+            "id": 11
+
+        }
+    },
+    {
+        "id": 118,
+        "name": "?????",
+        "price": "150",
+        "duration": 60,
+        "color": "#efa5fe",
+        "category": {
+%            "name": "Hair Coloring",
+            "id": 11
+
+        }
+    },
+    {
+        "id": 119,
+         "name": "????? ??????",
+        "price": "250",
+        "duration": 45,
+        "color": "#efa5fe",
+        "category": {
+%            "name": "Hair Coloring",
+            "id": 11
+
+        }
+    },
+    {
+        "id": 120,
+         "name": "????? ??????",
+        "price": "600",
+        "duration": 45,
+        "color": "#fff581",
+        "category": {
+*            "name": "Hair Straightening",
+            "id": 12
+
+        }
+    },
+    {
+        "id": 121,
+!        "name": "????? ???????",
+        "price": "600",
+        "duration": 45,
+        "color": "#fff581",
+        "category": {
+*            "name": "Hair Straightening",
+            "id": 12
+
+        }
+    },
+    {
+        "id": 122,
+         "name": "????? ??????",
+        "price": "800",
+        "duration": 120,
+        "color": "#fff581",
+        "category": {
+*            "name": "Hair Straightening",
+            "id": 12
+
+        }
+    },
+    {
+        "id": 123,
+        "name": "????? ?????",
+        "price": "1200",
+        "duration": 60,
+        "color": "#fff581",
+        "category": {
+*            "name": "Hair Straightening",
+            "id": 12
+
+        }
+    },
+    {
+        "id": 124,
+!        "name": "????? / ?????",
+        "price": "0",
+        "duration": 90,
+        "color": "#fff581",
+        "category": {
+*            "name": "Hair Straightening",
+            "id": 12
+
+        }
+    },
+    {
+        "id": 125,
+         "name": "???? ???????",
+        "price": "0",
+        "duration": 30,
+        "color": "#50e3c1",
+        "category": {
+2            "name": "Installers and Technicians",
+            "id": 13
+
+        }
+    },
+    {
+        "id": 126,
+!        "name": "????? ?????? ",
+        "price": "0",
+        "duration": 90,
+        "color": "#50e3c1",
+        "category": {
+2            "name": "Installers and Technicians",
+            "id": 13
+
+        }
+    },
+    {
+        "id": 127,
+(        "name": "?????/????? - 45 ??'",
+        "price": "0",
+        "duration": 45,
+        "color": "#50e3c1",
+        "category": {
+2            "name": "Installers and Technicians",
+            "id": 13
+
+        }
+    },
+    {
+        "id": 128,
+(        "name": "?????/????? - 60 ??'",
+        "price": "0",
+        "duration": 60,
+        "color": "#50e3c1",
+        "category": {
+2            "name": "Installers and Technicians",
+            "id": 13
+
+        }
+    },
+    {
+        "id": 129,
+(        "name": "?????/????? - 90 ??'",
+        "price": "0",
+        "duration": 90,
+        "color": "#50e3c1",
+        "category": {
+2            "name": "Installers and Technicians",
+            "id": 13
+
+        }
+    },
+    {
+        "id": 130,
+)        "name": "?????/????? - 120 ??'",
+        "price": "0",
+        "duration": 120,
+        "color": "#50e3c1",
+        "category": {
+2            "name": "Installers and Technicians",
+            "id": 13
+
+        }
+    },
+    {
+        "id": 131,
+         "name": "????? ??????",
+        "price": "0",
+        "duration": 60,
+        "color": "#efefff",
+        "category": {
+9            "name": "Interior Designers and Architects",
+            "id": 14
+
+        }
+    },
+    {
+        "id": 132,
+*        "name": "????? ????? ???? - ???",
+        "price": "0",
+        "duration": 60,
+        "color": "#efefff",
+        "category": {
+9            "name": "Interior Designers and Architects",
+            "id": 14
+
+        }
+    },
+    {
+        "id": 133,
+.        "name": "????? ????? ????? - ??????",
+        "price": "0",
+        "duration": 120,
+        "color": "#efefff",
+        "category": {
+9            "name": "Interior Designers and Architects",
+            "id": 14
+
+        }
+    },
+    {
+        "id": 134,
+.        "name": "????? ????? ????? - 3 ????",
+        "price": "0",
+        "duration": 180,
+        "color": "#efefff",
+        "category": {
+9            "name": "Interior Designers and Architects",
+            "id": 14
+
+        }
+    },
+    {
+        "id": 135,
+#        "name": "??? ??? ?? ????",
+        "price": "0",
+        "duration": 360,
+        "color": "#efefff",
+        "category": {
+9            "name": "Interior Designers and Architects",
+            "id": 14
+
+        }
+    },
+    {
+        "id": 136,
+        "name": "????? ?????",
+        "price": "0",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+/            "name": "Makeup / Wedding Makeup",
+            "id": 15
+
+        }
+    },
+    {
+        "id": 137,
+        "name": "????? ???",
+        "price": "300",
+        "duration": 45,
+        "color": "#759bfa",
+        "category": {
+/            "name": "Makeup / Wedding Makeup",
+            "id": 15
+
+        }
+    },
+    {
+        "id": 138,
+        "name": "????? ???",
+        "price": "800",
+        "duration": 75,
+        "color": "#759bfa",
+        "category": {
+/            "name": "Makeup / Wedding Makeup",
+            "id": 15
+
+        }
+    },
+    {
+        "id": 139,
+        "name": "????? ?????",
+        "price": "250",
+        "duration": 45,
+        "color": "#759bfa",
+        "category": {
+/            "name": "Makeup / Wedding Makeup",
+            "id": 15
+
+        }
+    },
+    {
+        "id": 140,
+         "name": "????? ??????",
+        "price": "100",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+/            "name": "Makeup / Wedding Makeup",
+            "id": 15
+
+        }
+    },
+    {
+        "id": 141,
+        "name": "?????? ???",
+        "price": "0",
+        "duration": 90,
+        "color": "#759bfa",
+        "category": {
+/            "name": "Makeup / Wedding Makeup",
+            "id": 15
+
+        }
+    },
+    {
+        "id": 142,
+        "name": "?????? ???",
+        "price": "1200",
+        "duration": 120,
+        "color": "#759bfa",
+        "category": {
+/            "name": "Makeup / Wedding Makeup",
+            "id": 15
+
+        }
+    },
+    {
+        "id": 143,
+         "name": "?????? ?????",
+        "price": "300",
+        "duration": 90,
+        "color": "#759bfa",
+        "category": {
+/            "name": "Makeup / Wedding Makeup",
+            "id": 15
+
+        }
+    },
+    {
+        "id": 144,
+!        "name": "?????? ??????",
+        "price": "0",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+/            "name": "Makeup / Wedding Makeup",
+            "id": 15
+
+        }
+    },
+    {
+        "id": 145,
+,        "name": "????? ??? (???? + ?????)",
+        "price": "1700",
+        "duration": 210,
+        "color": "#759bfa",
+        "category": {
+/            "name": "Makeup / Wedding Makeup",
+            "id": 15
+
+        }
+    },
+    {
+        "id": 146,
+.        "name": "????? ????? (???? + ?????)",
+        "price": "500",
+        "duration": 180,
+        "color": "#759bfa",
+        "category": {
+/            "name": "Makeup / Wedding Makeup",
+            "id": 15
+
+        }
+    },
+    {
+        "id": 147,
+'        "name": "???? / ????? ??????",
+        "price": "0",
+        "duration": 120,
+        "color": "#759bfa",
+        "category": {
+/            "name": "Makeup / Wedding Makeup",
+            "id": 15
+
+        }
+    },
+    {
+        "id": 148,
+        "name": "?????",
+        "price": "0",
+        "duration": 60,
+        "color": "#b8e986",
+        "category": {
+:            "name": "Massage and Reflexology Therapists",
+            "id": 16
+
+        }
+    },
+    {
+        "id": 149,
+&        "name": "????? ????? ??????",
+        "price": "0",
+        "duration": 90,
+        "color": "#b8e986",
+        "category": {
+:            "name": "Massage and Reflexology Therapists",
+            "id": 16
+
+        }
+    },
+    {
+        "id": 150,
+"        "name": "????? - 30 ??'",
+        "price": "0",
+        "duration": 30,
+        "color": "#b8e986",
+        "category": {
+:            "name": "Massage and Reflexology Therapists",
+            "id": 16
+
+        }
+    },
+    {
+        "id": 151,
+"        "name": "????? - 45 ??'",
+        "price": "0",
+        "duration": 45,
+        "color": "#b8e986",
+        "category": {
+:            "name": "Massage and Reflexology Therapists",
+            "id": 16
+
+        }
+    },
+    {
+        "id": 152,
+"        "name": "????? - 60 ??'",
+        "price": "0",
+        "duration": 60,
+        "color": "#b8e986",
+        "category": {
+:            "name": "Massage and Reflexology Therapists",
+            "id": 16
+
+        }
+    },
+    {
+        "id": 153,
+"        "name": "????? - 90 ??'",
+        "price": "0",
+        "duration": 90,
+        "color": "#b8e986",
+        "category": {
+:            "name": "Massage and Reflexology Therapists",
+            "id": 16
+
+        }
+    },
+    {
+        "id": 154,
+        "name": "??????",
+        "price": "0",
+        "duration": 60,
+        "color": "#b8e986",
+        "category": {
+:            "name": "Massage and Reflexology Therapists",
+            "id": 16
+
+        }
+    },
+    {
+        "id": 155,
+         "name": "???? ???????",
+        "price": "0",
+        "duration": 30,
+        "color": "#b8e986",
+        "category": {
+:            "name": "Massage and Reflexology Therapists",
+            "id": 16
+
+        }
+    },
+    {
+        "id": 156,
+!        "name": "????? ?????? ",
+        "price": "0",
+        "duration": 60,
+        "color": "#3fb6dc",
+        "category": {
++            "name": "Movers and Cleaners",
+            "id": 17
+
+        }
+    },
+    {
+        "id": 157,
+"        "name": "????? - ??????",
+        "price": "0",
+        "duration": 120,
+        "color": "#3fb6dc",
+        "category": {
++            "name": "Movers and Cleaners",
+            "id": 17
+
+        }
+    },
+    {
+        "id": 158,
+"        "name": "????? - 3 ????",
+        "price": "0",
+        "duration": 180,
+        "color": "#3fb6dc",
+        "category": {
++            "name": "Movers and Cleaners",
+            "id": 17
+
+        }
+    },
+    {
+        "id": 159,
+"        "name": "????? - 4 ????",
+        "price": "0",
+        "duration": 240,
+        "color": "#3fb6dc",
+        "category": {
++            "name": "Movers and Cleaners",
+            "id": 17
+
+        }
+    },
+    {
+        "id": 160,
+"        "name": "????? - 5 ????",
+        "price": "0",
+        "duration": 300,
+        "color": "#3fb6dc",
+        "category": {
++            "name": "Movers and Cleaners",
+            "id": 17
+
+        }
+    },
+    {
+        "id": 161,
+         "name": "???? ???????",
+        "price": "0",
+        "duration": 30,
+        "color": "#3fb6dc",
+        "category": {
++            "name": "Movers and Cleaners",
+            "id": 17
+
+        }
+    },
+    {
+        "id": 162,
+)        "name": "????? ?????? / ??????",
+        "price": "0",
+        "duration": 90,
+        "color": "#deceff",
+        "category": {
+5            "name": "Nutritionists and Naturopaths",
+            "id": 18
+
+        }
+    },
+    {
+        "id": 163,
+        "name": "?????",
+        "price": "0",
+        "duration": 60,
+        "color": "#deceff",
+        "category": {
+5            "name": "Nutritionists and Naturopaths",
+            "id": 18
+
+        }
+    },
+    {
+        "id": 164,
+         "name": "???? ???????",
+        "price": "0",
+        "duration": 30,
+        "color": "#deceff",
+        "category": {
+5            "name": "Nutritionists and Naturopaths",
+            "id": 18
+
+        }
+    },
+    {
+        "id": 165,
+"        "name": "????? - 45 ??'",
+        "price": "0",
+        "duration": 45,
+        "color": "#deceff",
+        "category": {
+5            "name": "Nutritionists and Naturopaths",
+            "id": 18
+
+        }
+    },
+    {
+        "id": 166,
+"        "name": "????? - 60 ??'",
+        "price": "0",
+        "duration": 60,
+        "color": "#deceff",
+        "category": {
+5            "name": "Nutritionists and Naturopaths",
+            "id": 18
+
+        }
+    },
+    {
+        "id": 167,
+"        "name": "????? - 90 ??'",
+        "price": "0",
+        "duration": 90,
+        "color": "#deceff",
+        "category": {
+5            "name": "Nutritionists and Naturopaths",
+            "id": 18
+
+        }
+    },
+    {
+        "id": 168,
+#        "name": "????? - 120 ??'",
+        "price": "0",
+        "duration": 120,
+        "color": "#deceff",
+        "category": {
+5            "name": "Nutritionists and Naturopaths",
+            "id": 18
+
+        }
+    },
+    {
+        "id": 169,
+        "name": "??????",
+        "price": "0",
+        "duration": 60,
+        "color": "#deceff",
+        "category": {
+5            "name": "Nutritionists and Naturopaths",
+            "id": 18
+
+        }
+    },
+    {
+        "id": 170,
+,        "name": "???? ??????? / ???? ????",
+        "price": "0",
+        "duration": 30,
+        "color": "#ff98ad",
+        "category": {
+(            "name": "Pest Controllers",
+            "id": 19
+
+        }
+    },
+    {
+        "id": 171,
+&        "name": "????? ???? 2 ?????",
+        "price": "0",
+        "duration": 60,
+        "color": "#ff98ad",
+        "category": {
+(            "name": "Pest Controllers",
+            "id": 19
+
+        }
+    },
+    {
+        "id": 172,
+&        "name": "????? ???? 3 ?????",
+        "price": "0",
+        "duration": 60,
+        "color": "#ff98ad",
+        "category": {
+(            "name": "Pest Controllers",
+            "id": 19
+
+        }
+    },
+    {
+        "id": 173,
+&        "name": "????? ???? 4 ?????",
+        "price": "0",
+        "duration": 90,
+        "color": "#ff98ad",
+        "category": {
+(            "name": "Pest Controllers",
+            "id": 19
+
+        }
+    },
+    {
+        "id": 174,
+$        "name": "????? ????? ????",
+        "price": "0",
+        "duration": 60,
+        "color": "#ff98ad",
+        "category": {
+(            "name": "Pest Controllers",
+            "id": 19
+
+        }
+    },
+    {
+        "id": 175,
+(        "name": "????? ??? ???? - ???",
+        "price": "0",
+        "duration": 120,
+        "color": "#ff98ad",
+        "category": {
+(            "name": "Pest Controllers",
+            "id": 19
+
+        }
+    },
+    {
+        "id": 176,
+)        "name": "????? ??? ???? - ????",
+        "price": "0",
+        "duration": 180,
+        "color": "#ff98ad",
+        "category": {
+(            "name": "Pest Controllers",
+            "id": 19
+
+        }
+    },
+    {
+        "id": 177,
+$        "name": "????? ???? ?????",
+        "price": "0",
+        "duration": 30,
+        "color": "#ff98ad",
+        "category": {
+(            "name": "Pest Controllers",
+            "id": 19
+
+        }
+    },
+    {
+        "id": 178,
+'        "name": "????? ??????? / ???",
+        "price": "0",
+        "duration": 60,
+        "color": "#ff98ad",
+        "category": {
+(            "name": "Pest Controllers",
+            "id": 19
+
+        }
+    },
+    {
+        "id": 179,
++        "name": "????? ???? / ??? / ????",
+        "price": "0",
+        "duration": 60,
+        "color": "#ff98ad",
+        "category": {
+(            "name": "Pest Controllers",
+            "id": 19
+
+        }
+    },
+    {
+        "id": 180,
+'        "name": "????? ?????? ????? ",
+        "price": "0",
+        "duration": 180,
+        "color": "#ff98ad",
+        "category": {
+(            "name": "Pest Controllers",
+            "id": 19
+
+        }
+    },
+    {
+        "id": 181,
+)        "name": "????? ?????? / ??????",
+        "price": "0",
+        "duration": 90,
+        "color": "#a44bc2",
+        "category": {
+3            "name": "Private Teachers and Tutors",
+            "id": 20
+
+        }
+    },
+    {
+        "id": 182,
+"        "name": "????? - 45 ??'",
+        "price": "0",
+        "duration": 45,
+        "color": "#a44bc2",
+        "category": {
+3            "name": "Private Teachers and Tutors",
+            "id": 20
+
+        }
+    },
+    {
+        "id": 183,
+"        "name": "????? - 60 ??'",
+        "price": "0",
+        "duration": 60,
+        "color": "#a44bc2",
+        "category": {
+3            "name": "Private Teachers and Tutors",
+            "id": 20
+
+        }
+    },
+    {
+        "id": 184,
+"        "name": "????? - 90 ??'",
+        "price": "0",
+        "duration": 90,
+        "color": "#a44bc2",
+        "category": {
+3            "name": "Private Teachers and Tutors",
+            "id": 20
+
+        }
+    },
+    {
+        "id": 185,
+#        "name": "????? - 120 ??'",
+        "price": "0",
+        "duration": 120,
+        "color": "#a44bc2",
+        "category": {
+3            "name": "Private Teachers and Tutors",
+            "id": 20
+
+        }
+    },
+    {
+        "id": 186,
+!        "name": "????? ?????? ",
+        "price": "0",
+        "duration": 90,
+        "color": "#efa5fe",
+        "category": {
+=            "name": "Real Estate Agents Marketers Insurers",
+            "id": 21
+
+        }
+    },
+    {
+        "id": 187,
+"        "name": "????? - 45 ??'",
+        "price": "0",
+        "duration": 45,
+        "color": "#efa5fe",
+        "category": {
+=            "name": "Real Estate Agents Marketers Insurers",
+            "id": 21
+
+        }
+    },
+    {
+        "id": 188,
+"        "name": "????? - 60 ??'",
+        "price": "0",
+        "duration": 60,
+        "color": "#efa5fe",
+        "category": {
+=            "name": "Real Estate Agents Marketers Insurers",
+            "id": 21
+
+        }
+    },
+    {
+        "id": 189,
+"        "name": "????? - 90 ??'",
+        "price": "0",
+        "duration": 90,
+        "color": "#efa5fe",
+        "category": {
+=            "name": "Real Estate Agents Marketers Insurers",
+            "id": 21
+
+        }
+    },
+    {
+        "id": 190,
+#        "name": "????? - 120 ??'",
+        "price": "0",
+        "duration": 120,
+        "color": "#efa5fe",
+        "category": {
+=            "name": "Real Estate Agents Marketers Insurers",
+            "id": 21
+
+        }
+    },
+    {
+        "id": 191,
+         "name": "???? ???????",
+        "price": "0",
+        "duration": 30,
+        "color": "#efa5fe",
+        "category": {
+=            "name": "Real Estate Agents Marketers Insurers",
+            "id": 21
+
+        }
+    },
+    {
+        "id": 192,
+         "name": "????? ??????",
+        "price": "0",
+        "duration": 90,
+        "color": "#fff581",
+        "category": {
+?            "name": "Service Providers For Home and Business",
+            "id": 22
+
+        }
+    },
+    {
+        "id": 193,
+"        "name": "????? - 45 ??'",
+        "price": "0",
+        "duration": 45,
+        "color": "#fff581",
+        "category": {
+?            "name": "Service Providers For Home and Business",
+            "id": 22
+
+        }
+    },
+    {
+        "id": 194,
+"        "name": "????? - 60 ??'",
+        "price": "0",
+        "duration": 60,
+        "color": "#fff581",
+        "category": {
+?            "name": "Service Providers For Home and Business",
+            "id": 22
+
+        }
+    },
+    {
+        "id": 195,
+"        "name": "????? - 90 ??'",
+        "price": "0",
+        "duration": 90,
+        "color": "#fff581",
+        "category": {
+?            "name": "Service Providers For Home and Business",
+            "id": 22
+
+        }
+    },
+    {
+        "id": 196,
+#        "name": "????? - 120 ??'",
+        "price": "0",
+        "duration": 120,
+        "color": "#fff581",
+        "category": {
+?            "name": "Service Providers For Home and Business",
+            "id": 22
+
+        }
+    },
+    {
+        "id": 197,
+         "name": "???? ???????",
+        "price": "0",
+        "duration": 30,
+        "color": "#fff581",
+        "category": {
+?            "name": "Service Providers For Home and Business",
+            "id": 22
+
+        }
+    },
+    {
+        "id": 198,
+        "name": "????? ????",
+        "price": "0",
+        "duration": 15,
+        "color": "#50e3c1",
+        "category": {
+6            "name": "Sports and Fitness Instructors",
+            "id": 23
+
+        }
+    },
+    {
+        "id": 199,
+        "name": "????? ????",
+        "price": "0",
+        "duration": 60,
+        "color": "#50e3c1",
+        "category": {
+6            "name": "Sports and Fitness Instructors",
+            "id": 23
+
+        }
+    },
+    {
+        "id": 200,
+        "name": "????? ????",
+        "price": "0",
+        "duration": 60,
+        "color": "#50e3c1",
+        "category": {
+6            "name": "Sports and Fitness Instructors",
+            "id": 23
+
+        }
+    },
+    {
+        "id": 201,
+"        "name": "????? - 45 ??'",
+        "price": "0",
+        "duration": 45,
+        "color": "#50e3c1",
+        "category": {
+6            "name": "Sports and Fitness Instructors",
+            "id": 23
+
+        }
+    },
+    {
+        "id": 202,
+"        "name": "????? - 60 ??'",
+        "price": "0",
+        "duration": 60,
+        "color": "#50e3c1",
+        "category": {
+6            "name": "Sports and Fitness Instructors",
+            "id": 23
+
+        }
+    },
+    {
+        "id": 203,
+"        "name": "????? - 90 ??'",
+        "price": "0",
+        "duration": 90,
+        "color": "#50e3c1",
+        "category": {
+6            "name": "Sports and Fitness Instructors",
+            "id": 23
+
+        }
+    },
+    {
+        "id": 204,
+)        "name": "?????? / ????? ??????",
+        "price": "0",
+        "duration": 30,
+        "color": "#50e3c1",
+        "category": {
+6            "name": "Sports and Fitness Instructors",
+            "id": 23
+
+        }
+    },
+    {
+        "id": 205,
+         "name": "????? ??????",
+        "price": "0",
+        "duration": 60,
+        "color": "#fff581",
+        "category": {
+&            "name": "Tattoo Artists",
+            "id": 24
+
+        }
+    },
+    {
+        "id": 206,
+*        "name": "????? ?? ???? - 60 ??'",
+        "price": "0",
+        "duration": 60,
+        "color": "#fff581",
+        "category": {
+&            "name": "Tattoo Artists",
+            "id": 24
+
+        }
+    },
+    {
+        "id": 207,
+*        "name": "????? ?? ???? - 90 ??'",
+        "price": "0",
+        "duration": 90,
+        "color": "#fff581",
+        "category": {
+&            "name": "Tattoo Artists",
+            "id": 24
+
+        }
+    },
+    {
+        "id": 208,
++        "name": "????? ?? ???? - 120 ??'",
+        "price": "0",
+        "duration": 120,
+        "color": "#fff581",
+        "category": {
+&            "name": "Tattoo Artists",
+            "id": 24
+
+        }
+    },
+    {
+        "id": 209,
+)        "name": "????? ?????? / ??????",
+        "price": "0",
+        "duration": 90,
+        "color": "#759bfa",
+        "category": {
++            "name": "Therapy Specialists",
+            "id": 25
+
+        }
+    },
+    {
+        "id": 210,
+"        "name": "????? - 45 ??'",
+        "price": "0",
+        "duration": 45,
+        "color": "#759bfa",
+        "category": {
++            "name": "Therapy Specialists",
+            "id": 25
+
+        }
+    },
+    {
+        "id": 211,
+"        "name": "????? - 60 ??'",
+        "price": "0",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
++            "name": "Therapy Specialists",
+            "id": 25
+
+        }
+    },
+    {
+        "id": 212,
+"        "name": "????? - 90 ??'",
+        "price": "0",
+        "duration": 90,
+        "color": "#759bfa",
+        "category": {
++            "name": "Therapy Specialists",
+            "id": 25
+
+        }
+    },
+    {
+        "id": 213,
+#        "name": "????? - 120 ??'",
+        "price": "0",
+        "duration": 120,
+        "color": "#759bfa",
+        "category": {
++            "name": "Therapy Specialists",
+            "id": 25
+
+        }
+    },
+    {
+        "id": 214,
+        "name": "?????",
+        "price": "0",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
++            "name": "Therapy Specialists",
+            "id": 25
+
+        }
+    },
+    {
+        "id": 215,
+        "name": "??????",
+        "price": "0",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
++            "name": "Therapy Specialists",
+            "id": 25
+
+        }
+    },
+    {
+        "id": 216,
+         "name": "???? ???????",
+        "price": "0",
+        "duration": 30,
+        "color": "#759bfa",
+        "category": {
++            "name": "Therapy Specialists",
+            "id": 25
+
+        }
+    }
+]
 ?//----------------------- DELETION ------------------------//
 == ACCOUNTS FOR DELETION: 19
 Request method:	DELETE
@@ -811,7 +6103,7 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 %				X-Requested-With=XMLHttpRequest
 				Accept=*/*
 4				Content-Type=application/x-www-form-urlencoded
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=8463E57E9F6BC9D2296032177FE7C9F0B6F6EC9D2EB8149247F4544C7E44FE8B
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=D59ABAAF5D619E3767D93BC73426438C75B587DC77FA811DF85562E4D6AF8BD6
 Multiparts:		<none>
 Body:			<none>
 Delete account 1 code: 401
@@ -826,7 +6118,7 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 %				X-Requested-With=XMLHttpRequest
 				Accept=*/*
 4				Content-Type=application/x-www-form-urlencoded
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=28FC28620D84093516E1ECEE66D9C7F2598471AA18E0009CC59E670C0B5A8B17
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=754DE35E341AC4D520EECAB6BF00238F8BDDF8BB0B039C75C8371E2818E5773B
 Multiparts:		<none>
 Body:			<none>
 Delete account 1 code: 401
@@ -841,7 +6133,7 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 %				X-Requested-With=XMLHttpRequest
 				Accept=*/*
 4				Content-Type=application/x-www-form-urlencoded
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=F58FD29C608EA4E8B8C17A20E66ADEFC7593D90638B5BB86AF6D24F40AF012D7
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=ADFE1F929271555D7C478B3CE58645BBA14D9B8BB941FA88E0A941E9772ED99B
 Multiparts:		<none>
 Body:			<none>
 Delete account 1 code: 401
@@ -856,7 +6148,7 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 %				X-Requested-With=XMLHttpRequest
 				Accept=*/*
 4				Content-Type=application/x-www-form-urlencoded
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=21F8BFDF2F6C226F3384805041404DF76A4C83EA6165B607B90617EC24BE476B
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=19CC56155426FF01882EB151B32BF7D1899E2CF10C0013B39158DA9B3034E4DB
 Multiparts:		<none>
 Body:			<none>
 Delete account 1 code: 401
@@ -871,7 +6163,7 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 %				X-Requested-With=XMLHttpRequest
 				Accept=*/*
 4				Content-Type=application/x-www-form-urlencoded
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=55517A80B695140AF0571D3EDB09531816A6EC08A6D6DF8EC0CB708191A8A12C
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=D64026E8E90B651E289D175DDA72CA654E0077767983537051F5F59BA30F09A5
 Multiparts:		<none>
 Body:			<none>
 Delete account 1 code: 401
@@ -886,7 +6178,7 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 %				X-Requested-With=XMLHttpRequest
 				Accept=*/*
 4				Content-Type=application/x-www-form-urlencoded
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=BCDC565F40E183713C5097F86884A0B5FFA7122919FBA8248965D9B80BC9DA2B
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=22D38FDD505499FCE5CA41A156BEAF4951AFF12632BD2C20B5C956AE791FCFA4
 Multiparts:		<none>
 Body:			<none>
 Delete account 1 code: 401
@@ -901,7 +6193,7 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 %				X-Requested-With=XMLHttpRequest
 				Accept=*/*
 4				Content-Type=application/x-www-form-urlencoded
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=1E139010C960EA9283C7CB7C8FD61CF40D97B44D34C9E05D2AEF583BC4F8022F
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=75F7DF2CCF817F881BC4AA9CF726F697358E1CD06075BC1A773D7B50462F4F63
 Multiparts:		<none>
 Body:			<none>
 Delete account 1 code: 401
@@ -916,7 +6208,7 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 %				X-Requested-With=XMLHttpRequest
 				Accept=*/*
 4				Content-Type=application/x-www-form-urlencoded
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=C27E25D6FACB2B78845E15EBB0BB3BE69156B70B4E0400F52228B3E225E8F99A
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=F7933B6414536A48136096CEB613997D67645B20C1C8DDB2FBC7D992F32D900F
 Multiparts:		<none>
 Body:			<none>
 Delete account 1 code: 401
@@ -931,7 +6223,7 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 %				X-Requested-With=XMLHttpRequest
 				Accept=*/*
 4				Content-Type=application/x-www-form-urlencoded
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B5225FD0906CA3AE45164113F1CBF
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=807B98D12121BE67EEB9455F6DBE061892EE4AC9C54207EAD5DF97C9156F9BB4
 Multiparts:		<none>
 Body:			<none>
 Delete account 1 code: 401
@@ -946,7 +6238,7 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 %				X-Requested-With=XMLHttpRequest
 				Accept=*/*
 4				Content-Type=application/x-www-form-urlencoded
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=78B4700A309E1C917D9B985B4762F7848D771F651762215DE460E82B25E516F5
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=F4CBFCE5244AD7A505DD2BBE666F0D8E6D0921E1CE3CF722BE3287D7938E6D1C
 Multiparts:		<none>
 Body:			<none>
 Delete account 1 code: 401
@@ -961,7 +6253,7 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 %				X-Requested-With=XMLHttpRequest
 				Accept=*/*
 4				Content-Type=application/x-www-form-urlencoded
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=608B9F5BE62BB27E500C0D66FCECA4C1C12EF1CF0641CEAA44E187722C34ACA9
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=94D80E80E4A34277F440798533CCBFCFA3673F65C9B89C89E99F78F0BDBB8979
 Multiparts:		<none>
 Body:			<none>
 Delete account 1 code: 401
@@ -976,7 +6268,7 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 %				X-Requested-With=XMLHttpRequest
 				Accept=*/*
 4				Content-Type=application/x-www-form-urlencoded
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=B40AE7B59C594E76167E79D2D5DEEA35A850760A915A15CF9518CE8861C14C2B
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=C6901CE3AD36C786E10867EF1A63FE8A8C0B0DD3886D51A46F85E939F4D6AB96
 Multiparts:		<none>
 Body:			<none>
 Delete account 1 code: 401
@@ -991,7 +6283,7 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 %				X-Requested-With=XMLHttpRequest
 				Accept=*/*
 4				Content-Type=application/x-www-form-urlencoded
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E2F8BD55A1B4DF662EB89169B49FA7373016373F4559139F876F762AB2ACFB28
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=191999DB18573D6D32DD415D73CD3168372DDD04724D8669D53262681A857B20
 Multiparts:		<none>
 Body:			<none>
 Delete account 1 code: 401
@@ -1006,7 +6298,7 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 %				X-Requested-With=XMLHttpRequest
 				Accept=*/*
 4				Content-Type=application/x-www-form-urlencoded
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E73B0504E131A21CCE7B8F775CA7D32A2EDB51C3ED89F713C3F9A214EEB0C0F5
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=A3F8A0E9254A48720A1DABEAA7A92E42D4E7D8EE41837F711DEFFB8E6C0DB9F1
 Multiparts:		<none>
 Body:			<none>
 Delete account 1 code: 401
@@ -1021,7 +6313,7 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 %				X-Requested-With=XMLHttpRequest
 				Accept=*/*
 4				Content-Type=application/x-www-form-urlencoded
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=9446E888F80B08F85B5C2ECD234942D8A5EF8100F96290BE899BF80DF507D8C3
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=0666B5AA2D0CCE163A8A3F7FE733C4EB6B8F1E377558A30C29E35F48808E62D9
 Multiparts:		<none>
 Body:			<none>
 Delete account 1 code: 401
@@ -1036,7 +6328,7 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 %				X-Requested-With=XMLHttpRequest
 				Accept=*/*
 4				Content-Type=application/x-www-form-urlencoded
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=C7BD00542FA63EFA61910AB53178C79B97615D9C6658B5F8A43497EDAF3D34FF
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=5E75300A277690AFDD917D5855F635747412D04FACE8BED7D0C2822C2C80F654
 Multiparts:		<none>
 Body:			<none>
 Delete account 1 code: 401
@@ -1051,7 +6343,7 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 %				X-Requested-With=XMLHttpRequest
 				Accept=*/*
 4				Content-Type=application/x-www-form-urlencoded
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=1E67A19137D8F42791E78E0FC901154DF654242ACCF261FFB7CAF7DBB8108E72
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E10E8EF856F64E8C21580DAA1248EA19A472C5CD4FE6954E2100799B9859219B
 Multiparts:		<none>
 Body:			<none>
 Delete account 1 code: 401
@@ -1066,7 +6358,7 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 %				X-Requested-With=XMLHttpRequest
 				Accept=*/*
 4				Content-Type=application/x-www-form-urlencoded
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=35D9973F6C1CE18AB08597A7DB342979B2D72FFCB49B325FC24539DC9E5CDFB2
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=47357AD7A8B698A5176A0F1579DA3B044BE953EB697E88FE50E8E9F8CE2FF375
 Multiparts:		<none>
 Body:			<none>
 Delete account 1 code: 401
@@ -1081,45 +6373,45 @@ mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=E406C4686E1469A47D391830E2F64CBF661B
 %				X-Requested-With=XMLHttpRequest
 				Accept=*/*
 4				Content-Type=application/x-www-form-urlencoded
-mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=D47753F257F73D9D0C5ABC35EC41ACB500384B30618D8AFB3EDD8235EEF23134
+mCookies:		7b7a53e239400a13bd6be6c91c4f6c4e=D8F45D961C186B1168B47BF630BC2CE7622DA1CA48B2C23F70EDBE24E8499941
 Multiparts:		<none>
 Body:			<none>
 Delete account 1 code: 401
-5Deleted mail - api_servicetest-2092549810@gmail.com
+4Deleted mail - api_servicetest1925426343@gmail.com
 Deleted password - Pa$$w@rd
-5Deleted mail - api_servicetest-1806828356@gmail.com
+2Deleted mail - api_servicetest-6159714@gmail.com
 Deleted password - Pa$$w@rd
-4Deleted mail - api_servicetest-993576953@gmail.com
+4Deleted mail - api_servicetest1748440074@gmail.com
 Deleted password - Pa$$w@rd
-4Deleted mail - api_servicetest1388627347@gmail.com
+4Deleted mail - api_servicetest1413222884@gmail.com
 Deleted password - Pa$$w@rd
-4Deleted mail - api_servicetest-924542230@gmail.com
+4Deleted mail - api_servicetest1298587871@gmail.com
 Deleted password - Pa$$w@rd
-3Deleted mail - api_servicetest277959166@gmail.com
+4Deleted mail - api_servicetest-798601411@gmail.com
 Deleted password - Pa$$w@rd
-4Deleted mail - api_servicetest-824186078@gmail.com
+4Deleted mail - api_servicetest1205704629@gmail.com
 Deleted password - Pa$$w@rd
-3Deleted mail - api_servicetest757200374@gmail.com
+5Deleted mail - api_servicetest-2052805988@gmail.com
 Deleted password - Pa$$w@rd
-4Deleted mail - api_servicetest-815547566@gmail.com
+3Deleted mail - api_servicetest372999527@gmail.com
 Deleted password - Pa$$w@rd
-5Deleted mail - api_servicetest-1456831931@gmail.com
+5Deleted mail - api_servicetest-1776186181@gmail.com
 Deleted password - Pa$$w@rd
-4Deleted mail - api_servicetest1872576526@gmail.com
+4Deleted mail - api_servicetest-159415712@gmail.com
 Deleted password - Pa$$w@rd
-3Deleted mail - api_servicetest189054288@gmail.com
+4Deleted mail - api_servicetest1798551076@gmail.com
 Deleted password - Pa$$w@rd
-3Deleted mail - api_servicetest943513205@gmail.com
+4Deleted mail - api_servicetest1974677266@gmail.com
 Deleted password - Pa$$w@rd
-5Deleted mail - api_servicetest-1741860070@gmail.com
+4Deleted mail - api_servicetest-574726368@gmail.com
 Deleted password - Pa$$w@rd
-4Deleted mail - api_servicetest1895889677@gmail.com
+5Deleted mail - api_servicetest-1044844139@gmail.com
 Deleted password - Pa$$w@rd
-5Deleted mail - api_servicetest-1214094535@gmail.com
+4Deleted mail - api_servicetest1905007095@gmail.com
 Deleted password - Pa$$w@rd
-5Deleted mail - api_servicetest-1484453125@gmail.com
+4Deleted mail - api_servicetest-323251352@gmail.com
 Deleted password - Pa$$w@rd
-4Deleted mail - api_servicetest-765668705@gmail.com
+5Deleted mail - api_servicetest-1004763701@gmail.com
 Deleted password - Pa$$w@rd
-3Deleted mail - api_servicetest730710264@gmail.com
+4Deleted mail - api_servicetest1224137853@gmail.com
 Deleted password - Pa$$w@rd
