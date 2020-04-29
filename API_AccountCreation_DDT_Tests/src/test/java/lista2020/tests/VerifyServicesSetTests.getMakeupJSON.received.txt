@@ -1,0 +1,149 @@
+Server=nginx
+###Date##
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Vary=Accept-Encoding
+###Set-Cookie##
+###X-Request-Id##
+Strict-Transport-Security=max-age=604800
+X-Content-Type-Options=nosniff
+X-Robots-Tag=noindex
+Content-Security-Policy=upgrade-insecure-requests
+X-Powered-By=php/4.3.10-16
+Content-Encoding=gzip
+
+[
+    {
+        "id": 1,
+        "name": "Pgishat Iuts",
+        "price": "0",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+            "name": "Makeup / Wedding Makeup",
+            "id": 1
+        }
+    },
+    {
+        "id": 2,
+        "name": "אןפוr עrב",
+        "price": "300",
+        "duration": 45,
+        "color": "#759bfa",
+        "category": {
+            "name": "Makeup / Wedding Makeup",
+            "id": 1
+        }
+    },
+    {
+        "id": 3,
+        "name": "אןפוr kala",
+        "price": "800",
+        "duration": 75,
+        "color": "#759bfa",
+        "category": {
+            "name": "Makeup / Wedding Makeup",
+            "id": 1
+        }
+    },
+    {
+        "id": 4,
+        "name": "אןפוr melave",
+        "price": "250",
+        "duration": 45,
+        "color": "#759bfa",
+        "category": {
+            "name": "Makeup / Wedding Makeup",
+            "id": 1
+        }
+    },
+    {
+        "id": 5,
+        "name": "אןפוr נןסןון",
+        "price": "100",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+            "name": "Makeup / Wedding Makeup",
+            "id": 1
+        }
+    },
+    {
+        "id": 6,
+        "name": "תסrוקת עrב",
+        "price": "0",
+        "duration": 90,
+        "color": "#759bfa",
+        "category": {
+            "name": "Makeup / Wedding Makeup",
+            "id": 1
+        }
+    },
+    {
+        "id": 7,
+        "name": "תסrוקת kala",
+        "price": "1200",
+        "duration": 120,
+        "color": "#759bfa",
+        "category": {
+            "name": "Makeup / Wedding Makeup",
+            "id": 1
+        }
+    },
+    {
+        "id": 8,
+        "name": "תסrוקת melave",
+        "price": "300",
+        "duration": 90,
+        "color": "#759bfa",
+        "category": {
+            "name": "Makeup / Wedding Makeup",
+            "id": 1
+        }
+    },
+    {
+        "id": 9,
+        "name": "תסrוקת נןסןון",
+        "price": "0",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+            "name": "Makeup / Wedding Makeup",
+            "id": 1
+        }
+    },
+    {
+        "id": 10,
+        "name": "חבןלת kala (שןעr + אןפוr)",
+        "price": "1700",
+        "duration": 210,
+        "color": "#759bfa",
+        "category": {
+            "name": "Makeup / Wedding Makeup",
+            "id": 1
+        }
+    },
+    {
+        "id": 11,
+        "name": "חבןלת melave (שןעr + אןפוr)",
+        "price": "500",
+        "duration": 180,
+        "color": "#759bfa",
+        "category": {
+            "name": "Makeup / Wedding Makeup",
+            "id": 1
+        }
+    },
+    {
+        "id": 12,
+        "name": "Agaa / לןוון לאןrוע",
+        "price": "0",
+        "duration": 120,
+        "color": "#759bfa",
+        "category": {
+            "name": "Makeup / Wedding Makeup",
+            "id": 1
+        }
+    }
+]

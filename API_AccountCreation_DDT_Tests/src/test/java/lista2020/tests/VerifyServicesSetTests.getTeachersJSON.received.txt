@@ -1,0 +1,72 @@
+Server=nginx
+###Date##
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Vary=Accept-Encoding
+###Set-Cookie##
+###X-Request-Id##
+Strict-Transport-Security=max-age=604800
+X-Content-Type-Options=nosniff
+X-Robots-Tag=noindex
+Content-Security-Policy=upgrade-insecure-requests
+X-Powered-By=php/4.3.10-16
+Content-Encoding=gzip
+
+[
+    {
+        "id": 1,
+        "name": "Pgishat ikerut / reshona",
+        "price": "0",
+        "duration": 90,
+        "color": "#a44bc2",
+        "category": {
+            "name": "Private Teachers and Tutors",
+            "id": 1
+        }
+    },
+    {
+        "id": 2,
+        "name": "שןעוr - 45 min",
+        "price": "0",
+        "duration": 45,
+        "color": "#a44bc2",
+        "category": {
+            "name": "Private Teachers and Tutors",
+            "id": 1
+        }
+    },
+    {
+        "id": 3,
+        "name": "שןעוr - 60 min",
+        "price": "0",
+        "duration": 60,
+        "color": "#a44bc2",
+        "category": {
+            "name": "Private Teachers and Tutors",
+            "id": 1
+        }
+    },
+    {
+        "id": 4,
+        "name": "שןעוr - 90 min",
+        "price": "0",
+        "duration": 90,
+        "color": "#a44bc2",
+        "category": {
+            "name": "Private Teachers and Tutors",
+            "id": 1
+        }
+    },
+    {
+        "id": 5,
+        "name": "שןעוr - 120 min",
+        "price": "0",
+        "duration": 120,
+        "color": "#a44bc2",
+        "category": {
+            "name": "Private Teachers and Tutors",
+            "id": 1
+        }
+    }
+]

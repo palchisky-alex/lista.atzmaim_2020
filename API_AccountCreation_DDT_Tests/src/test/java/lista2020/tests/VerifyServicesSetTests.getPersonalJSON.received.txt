@@ -1,0 +1,94 @@
+Server=nginx
+###Date##
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Vary=Accept-Encoding
+###Set-Cookie##
+###X-Request-Id##
+Strict-Transport-Security=max-age=604800
+X-Content-Type-Options=nosniff
+X-Robots-Tag=noindex
+Content-Security-Policy=upgrade-insecure-requests
+X-Powered-By=php/4.3.10-16
+Content-Encoding=gzip
+
+[
+    {
+        "id": 1,
+        "name": "Pgishat Iuts",
+        "price": "0",
+        "duration": 15,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Sports and Fitness Instructors",
+            "id": 1
+        }
+    },
+    {
+        "id": 2,
+        "name": "אןמון אןשן",
+        "price": "0",
+        "duration": 60,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Sports and Fitness Instructors",
+            "id": 1
+        }
+    },
+    {
+        "id": 3,
+        "name": "אןמון זוגן",
+        "price": "0",
+        "duration": 60,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Sports and Fitness Instructors",
+            "id": 1
+        }
+    },
+    {
+        "id": 4,
+        "name": "אןמון - 45 min",
+        "price": "0",
+        "duration": 45,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Sports and Fitness Instructors",
+            "id": 1
+        }
+    },
+    {
+        "id": 5,
+        "name": "אןמון - 60 min",
+        "price": "0",
+        "duration": 60,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Sports and Fitness Instructors",
+            "id": 1
+        }
+    },
+    {
+        "id": 6,
+        "name": "אןמון - 90 min",
+        "price": "0",
+        "duration": 90,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Sports and Fitness Instructors",
+            "id": 1
+        }
+    },
+    {
+        "id": 7,
+        "name": "Bikoret / Bnyat תוכנןת",
+        "price": "0",
+        "duration": 30,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Sports and Fitness Instructors",
+            "id": 1
+        }
+    }
+]

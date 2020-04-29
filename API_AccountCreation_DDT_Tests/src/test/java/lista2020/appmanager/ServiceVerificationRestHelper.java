@@ -33,9 +33,6 @@ public class ServiceVerificationRestHelper {
         String random_mail = "api_servicetest" + randomInt + "@gmail.com";
         String password = "Pa$$w@rd";
 
-        System.out.println("=== ACCOUNT: " + random_mail + " ===");
-        accounts.put(random_mail, password);
-
         post_response = given().
                 header("Content-Type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
@@ -58,17 +55,24 @@ public class ServiceVerificationRestHelper {
         System.out.println("Account creation response: " + responseToString);
         System.out.println("Create account code: " + post_response.getStatusCode());
 
-        loginCookie = post_response.getCookies();
+        if( post_response.getStatusCode() == 201) {
+            System.out.println("=== ACCOUNT: " + random_mail + " ===");
+            accounts.put(random_mail, password);
 
-        for (Map.Entry<String, String> entry : loginCookie.entrySet()) {
-            value = entry.getValue();
-            cookies.add(value);
-            System.out.println("Cookie value account creation : " + value);
+            loginCookie = post_response.getCookies();
+
+            for (Map.Entry<String, String> entry : loginCookie.entrySet()) {
+                value = entry.getValue();
+                cookies.add(value);
+                System.out.println("Cookie value account creation : " + value);
+            }
+            String serviceResponse = getServiceList();
+            return serviceResponse;
         }
-
-        String serviceResponse = getServiceList();
-        String s = "<script><![CDATA[<message>" + serviceResponse + "</message>]]></script >";
-        return serviceResponse;
+        else {
+            System.out.println("=== ACCOUNT " + random_mail + " NOT CREATED");
+        }
+        return null;
     }
 
     public String getServiceList() {
