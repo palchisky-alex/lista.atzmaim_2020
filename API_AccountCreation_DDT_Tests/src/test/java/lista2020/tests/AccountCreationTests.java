@@ -33,9 +33,4 @@ public class AccountCreationTests extends TestBase {
         return excel.getTableArray(System.getProperty("user.dir") + "/src/test/resources/input.xlsx", "Singup");
     }
 
-    @DataProvider
-    public Object[][] getDataFromExcel2(){
-        Excel excel = new Excel();
-        return excel.getTableArray(System.getProperty("user.dir") + "/src/test/resources/input.xlsx", "List_accounts");
-    }
 }

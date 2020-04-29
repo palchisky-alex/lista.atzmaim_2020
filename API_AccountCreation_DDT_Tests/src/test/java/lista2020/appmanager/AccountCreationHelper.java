@@ -80,8 +80,8 @@ public class AccountCreationHelper {
     }
 
     public void deleteAccount() {
-
-        System.out.println("Cookie size: " + cookies.size());
+        System.out.println("ACCOUNTS DESIGNED FOR REMOVAL - 21 ");
+        System.out.println("ACCOUNTS RECEIVED FOR REMOVAL IN TEST: " + accounts.size());
         for (int i = 0; i < cookies.size(); i++) {
             String value_delete = cookies.get(i);
 
@@ -100,7 +100,7 @@ public class AccountCreationHelper {
             status = String.valueOf(delete_response.getStatusCode());
 
             if (delete_response.getStatusCode() != 401) {
-                System.out.println("VALUE FAILD! - " + value_delete);
+                System.out.println("DELETION STATUS NOT 401, VALUE " + value_delete + " FAILD!");
             }
         }
     }
@@ -119,8 +119,8 @@ public class AccountCreationHelper {
                     header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                     header("X-Requested-With", "XMLHttpRequest").
                     formParam("time_zone", "Asia/Jerusalem").
-                    formParam("email", "katalon14444@gmail.com").
-                    formParam("pass", "Pa$$w@rd").
+                    formParam("email", delete_password).
+                    formParam("pass", delete_mail).
                     when().
                     post("/check-login").then().extract().response();
             c = response.getCookies().toString();

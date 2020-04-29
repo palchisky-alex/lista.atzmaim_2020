@@ -51,9 +51,7 @@ public class ServiceVerificationRestHelper {
                 post("/signup-new-account").then().assertThat().statusCode(201).
                 extract().response();
 
-        String responseToString = post_response.asString();
-        System.out.println("Account creation response: " + responseToString);
-        System.out.println("Create account code: " + post_response.getStatusCode());
+        System.out.println("STATUS POST CODE " + post_response.getStatusCode());
 
         if( post_response.getStatusCode() == 201) {
             System.out.println("=== ACCOUNT: " + random_mail + " ===");
@@ -70,6 +68,7 @@ public class ServiceVerificationRestHelper {
             return serviceResponse;
         }
         else {
+            System.out.println("STATUS POST CODE:" + post_response.getStatusCode());
             System.out.println("=== ACCOUNT " + random_mail + " NOT CREATED");
         }
         return null;
@@ -254,7 +253,8 @@ public class ServiceVerificationRestHelper {
 
     public void deleteAccount() {
         System.out.println("//----------------------- DELETION ------------------------//");
-        System.out.println("== ACCOUNTS FOR DELETION: " + cookies.size());
+        System.out.println("== ACCOUNTS DESIGNED FOR REMOVAL - 19");
+        System.out.println("== ACCOUNTS RECEIVED FOR REMOVAL IN TEST: " + cookies.size());
         for (int i = 0; i < cookies.size(); i++) {
             String value_delete = cookies.get(i);
 
