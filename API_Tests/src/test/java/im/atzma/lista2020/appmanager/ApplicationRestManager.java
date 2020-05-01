@@ -19,7 +19,7 @@ public class ApplicationRestManager {
     public void init() throws IOException, InterruptedException {
 
         Map<String, String> firstCookie = cookieManager.createLoginCookie();
-        firstCookie.forEach((k,v)->System.out.println("Key : " + k + " Value : " + v));
+        firstCookie.forEach((k, v) -> System.out.println("Key : " + k + " Value : " + v));
         restRequests = new RestRequests(firstCookie);
         restRequests.cleaner();
         serviceCreationHelper = new ServiceCreationHelper(firstCookie);
@@ -29,18 +29,18 @@ public class ApplicationRestManager {
     }
 
 
+    public void stop() throws InterruptedException, IOException { cookieManager.deleteAccount(); }
 
+//    public CookieManager cookieManager() { return cookieManager; }
 
-    public void stop() throws InterruptedException, IOException {
-        cookieManager.deleteAccount();
-    }
-
-    //    public CookieManager cookieManager() {return cookieManager;}
     public ServiceCreationHelper serviceCreationHelper() {
         return serviceCreationHelper;
     }
-    public ClientCreationHelper clientCreationHelper() { return  clientCreationHelper; }
-    public AppointmentRestHelper appointmentHelper() { return  appointmentHelper; }
-    public RestRequests restRequests() {return  restRequests; }
+
+    public ClientCreationHelper clientCreationHelper() { return clientCreationHelper; }
+
+    public AppointmentRestHelper appointmentHelper() { return appointmentHelper; }
+
+    public RestRequests restRequests() { return restRequests; }
 
 }

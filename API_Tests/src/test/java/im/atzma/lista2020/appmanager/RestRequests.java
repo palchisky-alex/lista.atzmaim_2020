@@ -113,6 +113,7 @@ public class RestRequests extends HelperBase {
     }
 
     public static void removeRest(ArrayList<Integer> IDs_list, String req_delete) throws InterruptedException {
+        System.out.println("=========== REMOVE ALL DEFAULT ELEMENTS FROM RANDOM ACCOUNT BEFORE TESTS =========== ");
         count = IDs_list.size();
         System.out.println("== List items size for deletion: " + count + " ==");
         System.out.print("== Items for deletion:");

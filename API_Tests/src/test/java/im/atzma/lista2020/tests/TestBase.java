@@ -14,6 +14,11 @@ public class TestBase {
     //Logger logger = LoggerFactory.getLogger(TestBase.class);
     protected static final ApplicationRestManager app = new ApplicationRestManager();
 
+    @BeforeMethod (alwaysRun = true)
+    public void printStart() {
+
+        System.out.println("================================ START TEST ===================================");
+    }
 
     @BeforeSuite (alwaysRun = true)
     public void setUp() throws Exception {
@@ -27,15 +32,9 @@ public class TestBase {
         app.stop();
     }
 
-//    @BeforeMethod()
-//    public void logTestStart(Method method, Object[] p) throws IOException {
-//        logger.info("Start test " + method.getName() + " with parrametrs " + Arrays.asList(p));
-//    }
-//
-//    @AfterMethod(alwaysRun = true)
-//
-//    public void logTestStop(Method method) {
-//        logger.info("Stop test " + method.getName());
-//    }
+    @AfterMethod (alwaysRun = true)
+    public void printEnd() {
 
+        System.out.println("================================ END TEST ===================================");
+    }
 }

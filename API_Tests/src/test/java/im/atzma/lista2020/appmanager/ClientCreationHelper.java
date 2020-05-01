@@ -33,6 +33,7 @@ public class ClientCreationHelper {
     }
 
     public Integer createClient() {
+        System.out.println("CREATE A CLIENT");
         response_post = given().cookies(key, value).log().all().
                 //    header("content-type", "application/x-www-form-urlencoded").
                         header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
@@ -61,6 +62,7 @@ public class ClientCreationHelper {
     }
 
     public String getClientList() {
+        System.out.println("VERIFY CLIENT AFTER APPOINTMENT DELETION");
         Response response = given().cookies(key, value).
                 //  header("content-type", "application/json; charset=utf-8").
                         header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
@@ -69,7 +71,6 @@ public class ClientCreationHelper {
         responseString = response.asString();
         if (!responseString.equals("[]")) {
 
-            System.out.println("Client list: " + responseString);
             JsonPath jp = new JsonPath(responseString);    //convert response String to JSON
             client_id = jp.get("id[0]");                 //get id from JSON
 
@@ -116,12 +117,13 @@ public class ClientCreationHelper {
     }
 
     public Integer getClientID() {
-        System.out.println("getClientID: " + client_id);
+        System.out.println("GET CLIENT ID: " + client_id);
         return client_id;
     }
 
 
     public void modificateClient(int client_id) {
+        System.out.println("MODIFY APPOINTMENT");
         response_get = given().cookies(key, value).
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 formParam("birthdate", "03-01").

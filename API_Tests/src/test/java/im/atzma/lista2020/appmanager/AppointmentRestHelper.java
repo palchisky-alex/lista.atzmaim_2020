@@ -38,11 +38,7 @@ public class AppointmentRestHelper {
 
 
     public void createAppointment(int client_id, int service_id, int category_id) {
-
-//        Pattern p = Pattern.compile("[\\d][0-3]");
-//        Matcher m = p.matcher(currentTime);
-//        String newTime = m.replaceAll("");
-
+        System.out.println("================================= CREATE 12 APPOINTMENTS =================================");
         System.out.println("CURRENT TIME: " + currentTime);
 
         slots.add("T09:00:00");
@@ -88,6 +84,7 @@ public class AppointmentRestHelper {
     }
 
     public String getAppointmentList() {
+        System.out.println("================================= VERIFY APPOINTMENTS CREATION OR MODIFICATION =================================");
         response = given().cookies(key, value).
                 header("content-type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
@@ -98,7 +95,6 @@ public class AppointmentRestHelper {
                 extract().response();
 
         String responseString = response.asString();   //convert response (RAW) to String
-        System.out.println("Appointment String: " + responseString);
 
         if (!responseString.equals("[]")) {
 
@@ -123,6 +119,7 @@ public class AppointmentRestHelper {
     }
 
     public String getAppointmentString() {
+        System.out.println("================================= VERIFY APPOINTMENT =================================");
         response = given().cookies(key, value).
                 header("content-type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
@@ -132,11 +129,12 @@ public class AppointmentRestHelper {
                 then().
                 extract().response();
         String responseString = response.asString();
-        System.out.println("Appointment String: " + responseString);
+        System.out.println("APPOINTMENT STRING MUST BE EMPTY: " + responseString);
         return responseString;
     }
 
     public ArrayList<Integer> getAppointmentID() {
+        System.out.println("================================= GET APPOINTMENT ID =================================");
         response = given().cookies(key, value).
                 header("content-type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
@@ -161,6 +159,7 @@ public class AppointmentRestHelper {
 
     public void modifyAppointment(int client_id, int service_id, int category_id) {
         getAppointmentID();
+        System.out.println("================================= MODIFY APPOINTMENT =================================");
         for (int i = 0; i < IDs_list.size(); i++) {
             int count = 0;
             appointment_id = IDs_list.get(i);
@@ -192,10 +191,11 @@ public class AppointmentRestHelper {
     }
 
     public void deleteAppointment() {
+        System.out.println("================================= DELETE APPOINTMENTS =================================");
         IDs_list.clear();
         getAppointmentID();
-
-        System.out.println("== Appointment for deletion: "+ IDs_list.size() + " ==");
+        System.out.println("== APPOINTMENTS DESIGN FOR REMOVAL: 12 ==");
+        System.out.println("== APPOINTMENTS FOR REMOVAL IN TEST: "+ IDs_list.size() + " ==");
 
         for (int q = 0; q < IDs_list.size(); q++) {
             appointment_id = IDs_list.get(q);
@@ -210,6 +210,7 @@ public class AppointmentRestHelper {
     }
 
     public String getSettings() {
+        System.out.println("================================= GET DEFAULT SETTINGS JSON =================================");
         response = given().cookies(key, value).
                 header("content-type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").

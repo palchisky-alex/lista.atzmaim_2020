@@ -10,9 +10,7 @@ public class AccountCreationTests extends TestBase {
 
     @Test(priority = 1)
     public void getBusinessTypeJSON() {
-
         Approvals.verify(app.accountCreationHelper().businessTypeResponse());
-
     }
 
     @Test(priority = 2, dataProvider="getDataFromExcel")

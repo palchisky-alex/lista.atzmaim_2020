@@ -28,6 +28,7 @@ public class ServiceCreationHelper {
 
 
     public Integer createService(int id) {
+        System.out.println("CREATE A SERVICE");
         response_post = given().cookies(key, value).
                 header("content-type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
@@ -50,6 +51,7 @@ public class ServiceCreationHelper {
     }
 
     public int createCategory() {
+        System.out.println("CREATE A CATEGORY");
         response_post = given().cookies(key, value).
                 header("content-type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
@@ -66,17 +68,18 @@ public class ServiceCreationHelper {
     }
 
     public int getCategoryID() {
-        System.out.println("Get category ID: " + category_id);
+        System.out.println("GET CATEGORY ID: " + category_id);
         return category_id;
     }
 
 
     public Integer getServiceID() {
-        System.out.println("Get service ID: " + service_id);
+        System.out.println("GET SERVICE ID: " + service_id);
         return service_id;
     }
 
     public String getServiceList() {
+        System.out.println("VERIFY SERVICE");
         Response response = given().cookies(key, value).
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 when().
@@ -84,7 +87,6 @@ public class ServiceCreationHelper {
         responseString = response.asString();
         if (!responseString.equals("[]")) {
 
-            System.out.println("service list: " + responseString);
             JsonPath jp = new JsonPath(responseString);    //convert response String to JSON
             service_id = jp.get("id[0]");                 //get id from JSON
             service_name = jp.get("name[0]");

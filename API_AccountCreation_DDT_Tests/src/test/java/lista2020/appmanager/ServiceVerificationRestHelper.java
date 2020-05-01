@@ -32,6 +32,8 @@ public class ServiceVerificationRestHelper {
         int randomInt = random.nextInt();
         String random_mail = "api_servicetest" + randomInt + "@gmail.com";
         String password = "Pa$$w@rd";
+        System.out.println("============ CREATE RANDOM ACCOUNT WITH BUSINESS TYPE " + type + " AND VERIFY JSON ============");
+        System.out.println("==== CREATED " + random_mail + " WITH PASSWORD " + password);
 
         post_response = given().
                 header("Content-Type", "application/x-www-form-urlencoded").

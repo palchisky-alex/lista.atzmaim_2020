@@ -33,7 +33,7 @@ public class CookieManager {
                 and().config().encoderConfig(encoderConfig().appendDefaultContentCharsetToContentTypeIfUndefined(false));
         RestAssured.useRelaxedHTTPSValidation();
 
-        System.out.println("Create random account - " + randomMail);
+        System.out.println("===== CREATE RANDOM ACCOUNT BEFORE TEST - " + randomMail + " =======");
 
         post_response = given().
                 header("Content-Type", "application/x-www-form-urlencoded").
@@ -76,8 +76,9 @@ public class CookieManager {
 
 
     public void deleteAccount() {
+        System.out.println("== ACCOUNTS DESIGNED FOR REMOVAL - 1");
+        System.out.println("== ACCOUNTS RECEIVED FOR REMOVAL IN TEST: " + loginCookie.size() + " = " + randomMail);
 
-        System.out.println("Cookies map size: " + loginCookie.size());
         for (Map.Entry<String, String> entry : loginCookie.entrySet()) {
             String value = entry.getValue();
             String key = entry.getKey();
@@ -88,10 +89,10 @@ public class CookieManager {
                     header("X-Requested-With", "XMLHttpRequest").
                     when().
                     delete("/settings/business/account").
-                    then().assertThat().statusCode(401).
+                    then().log().all().assertThat().statusCode(401).
                     extract().response();
 
-            System.out.println("RANDOM ACCOUNT " + randomMail + " WAS DELETED / STATUS CODE: " + delete_response.getStatusCode());
+            System.out.println("======== RANDOM ACCOUNT " + randomMail + " WAS DELETED / STATUS CODE: " + delete_response.getStatusCode() + " ======================");
         }
     }
 }

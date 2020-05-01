@@ -28,6 +28,7 @@ public class AccountCreationHelper {
 
 
     public String businessTypeResponse() {
+        System.out.println("=== GET BUSINESS TYPE JSON ===");
         get_response = given().
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 header("lang", "en").
@@ -43,7 +44,7 @@ public class AccountCreationHelper {
         int randomInt = random.nextInt();
         String random_for_mail = "api_test_" + randomInt;
 
-        System.out.println("=== ACCOUNT: " + random_for_mail + mail + " ===");
+        System.out.println("=== CREATE RANDOM ACCOUNT: " + random_for_mail + mail + " AND VERIFY JSON ===");
         accounts.put(random_for_mail + mail, pass);
 
         post_response = given().
@@ -80,12 +81,11 @@ public class AccountCreationHelper {
     }
 
     public void deleteAccount() {
-        System.out.println("ACCOUNTS DESIGNED FOR REMOVAL - 21 ");
-        System.out.println("ACCOUNTS RECEIVED FOR REMOVAL IN TEST: " + accounts.size());
+        System.out.println("================= REMOVE ALL ACCOUNTS AND VERIFY DELETION ===============");
+        System.out.println("=== ACCOUNTS DESIGNED FOR REMOVAL - 21 ");
+        System.out.println("=== ACCOUNTS RECEIVED FOR REMOVAL IN TEST: " + accounts.size());
         for (int i = 0; i < cookies.size(); i++) {
             String value_delete = cookies.get(i);
-
-            int AccountNumber = 0;
 
             delete_response = given().cookies(key, value_delete).
                     header("content-type", "application/x-www-form-urlencoded").
@@ -95,17 +95,17 @@ public class AccountCreationHelper {
                     delete("/settings/business/account").
                     then().
                     extract().response();
-            AccountNumber = AccountNumber + 1;
-            System.out.println("Delete account " + AccountNumber + " code: " + delete_response.getStatusCode());
+            System.out.println("============== DELETED ACCOUNT " + " STATUS: " + delete_response.getStatusCode());
             status = String.valueOf(delete_response.getStatusCode());
 
             if (delete_response.getStatusCode() != 401) {
-                System.out.println("DELETION STATUS NOT 401, VALUE " + value_delete + " FAILD!");
+                System.out.println("=== DELETION STATUS NOT 401, VALUE " + value_delete + " FAILD!");
             }
         }
     }
 
     public String checkAccountDeletion() {
+        System.out.println("======== VERIFY ACCOUNTS DELETION =======");
         String c = null;
         for (Map.Entry<String, String> entry : accounts.entrySet()) {
             String delete_mail = entry.getKey();
