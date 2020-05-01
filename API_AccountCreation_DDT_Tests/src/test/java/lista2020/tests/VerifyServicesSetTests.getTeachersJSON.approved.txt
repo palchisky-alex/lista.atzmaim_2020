@@ -16,7 +16,7 @@ Content-Encoding=gzip
 [
     {
         "id": 1,
-        "name": "Pgishat ikerut / reshona",
+        "name": "????? ?????? / ??????",
         "price": "0",
         "duration": 90,
         "color": "#a44bc2",
@@ -27,7 +27,7 @@ Content-Encoding=gzip
     },
     {
         "id": 2,
-        "name": "????r - 45 min",
+        "name": "????? - 45 ??'",
         "price": "0",
         "duration": 45,
         "color": "#a44bc2",
@@ -38,7 +38,7 @@ Content-Encoding=gzip
     },
     {
         "id": 3,
-        "name": "????r - 60 min",
+        "name": "????? - 60 ??'",
         "price": "0",
         "duration": 60,
         "color": "#a44bc2",
@@ -49,7 +49,7 @@ Content-Encoding=gzip
     },
     {
         "id": 4,
-        "name": "????r - 90 min",
+        "name": "????? - 90 ??'",
         "price": "0",
         "duration": 90,
         "color": "#a44bc2",
@@ -60,7 +60,7 @@ Content-Encoding=gzip
     },
     {
         "id": 5,
-        "name": "????r - 120 min",
+        "name": "????? - 120 ??'",
         "price": "0",
         "duration": 120,
         "color": "#a44bc2",

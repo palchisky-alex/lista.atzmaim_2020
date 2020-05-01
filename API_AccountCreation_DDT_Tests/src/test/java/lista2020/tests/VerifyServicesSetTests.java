@@ -6,6 +6,11 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import java.util.HashSet;
+import java.util.Set;
+
+import static org.testng.Assert.assertEquals;
+
 public class VerifyServicesSetTests extends TestBase {
 
     @Test(priority = 1)
@@ -107,13 +112,20 @@ public class VerifyServicesSetTests extends TestBase {
         }
     }
 
-
-
-
     @Test(priority = 20)
+    public void withoutTypeJSON() {
+        for (int i = 0; i < 1; i++) {
+            Approvals.verify(app.serviceRestHelper().createAccountWithType("[]"));
+        }
+    }
+
+
+
+
+    @Test(priority = 21)
     public void deleteAccount() {
-        app.serviceRestHelper().deleteAccount();
-        Assert.assertEquals(app.serviceRestHelper().checkAccountDeletion(), "{}");
+
+        assertEquals(app.serviceRestHelper().deleteAccount(), new HashSet<>() );
     }
 
 

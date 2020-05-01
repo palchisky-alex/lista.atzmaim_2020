@@ -16,7 +16,7 @@ Content-Encoding=gzip
 [
     {
         "id": 1,
-        "name": "Pgishat Iuts",
+        "name": "????? ?????",
         "price": "0",
         "duration": 60,
         "color": "#759bfa",
@@ -27,7 +27,7 @@ Content-Encoding=gzip
     },
     {
         "id": 2,
-        "name": "????r ?r?",
+        "name": "????? ???",
         "price": "300",
         "duration": 45,
         "color": "#759bfa",
@@ -38,7 +38,7 @@ Content-Encoding=gzip
     },
     {
         "id": 3,
-        "name": "????r kala",
+        "name": "????? ???",
         "price": "800",
         "duration": 75,
         "color": "#759bfa",
@@ -49,7 +49,7 @@ Content-Encoding=gzip
     },
     {
         "id": 4,
-        "name": "????r melave",
+        "name": "????? ?????",
         "price": "250",
         "duration": 45,
         "color": "#759bfa",
@@ -60,7 +60,7 @@ Content-Encoding=gzip
     },
     {
         "id": 5,
-        "name": "????r ??????",
+        "name": "????? ??????",
         "price": "100",
         "duration": 60,
         "color": "#759bfa",
@@ -71,7 +71,7 @@ Content-Encoding=gzip
     },
     {
         "id": 6,
-        "name": "??r??? ?r?",
+        "name": "?????? ???",
         "price": "0",
         "duration": 90,
         "color": "#759bfa",
@@ -82,7 +82,7 @@ Content-Encoding=gzip
     },
     {
         "id": 7,
-        "name": "??r??? kala",
+        "name": "?????? ???",
         "price": "1200",
         "duration": 120,
         "color": "#759bfa",
@@ -93,7 +93,7 @@ Content-Encoding=gzip
     },
     {
         "id": 8,
-        "name": "??r??? melave",
+        "name": "?????? ?????",
         "price": "300",
         "duration": 90,
         "color": "#759bfa",
@@ -104,7 +104,7 @@ Content-Encoding=gzip
     },
     {
         "id": 9,
-        "name": "??r??? ??????",
+        "name": "?????? ??????",
         "price": "0",
         "duration": 60,
         "color": "#759bfa",
@@ -115,7 +115,7 @@ Content-Encoding=gzip
     },
     {
         "id": 10,
-        "name": "????? kala (???r + ????r)",
+        "name": "????? ??? (???? + ?????)",
         "price": "1700",
         "duration": 210,
         "color": "#759bfa",
@@ -126,7 +126,7 @@ Content-Encoding=gzip
     },
     {
         "id": 11,
-        "name": "????? melave (???r + ????r)",
+        "name": "????? ????? (???? + ?????)",
         "price": "500",
         "duration": 180,
         "color": "#759bfa",
@@ -137,7 +137,7 @@ Content-Encoding=gzip
     },
     {
         "id": 12,
-        "name": "Agaa / ????? ???r??",
+        "name": "???? / ????? ??????",
         "price": "0",
         "duration": 120,
         "color": "#759bfa",

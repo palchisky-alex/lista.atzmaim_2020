@@ -27,7 +27,7 @@ Content-Encoding=gzip
     },
     {
         "id": 2,
-        "name": "Pgishat ikerut ",
+        "name": "????? ?????? ",
         "price": "0",
         "duration": 90,
         "color": "#50e3c1",
@@ -38,7 +38,7 @@ Content-Encoding=gzip
     },
     {
         "id": 3,
-        "name": "Tikun/Atkana - 45 min",
+        "name": "?????/????? - 45 ??'",
         "price": "0",
         "duration": 45,
         "color": "#50e3c1",
@@ -49,7 +49,7 @@ Content-Encoding=gzip
     },
     {
         "id": 4,
-        "name": "Tikun/Atkana - 60 min",
+        "name": "?????/????? - 60 ??'",
         "price": "0",
         "duration": 60,
         "color": "#50e3c1",
@@ -60,7 +60,7 @@ Content-Encoding=gzip
     },
     {
         "id": 5,
-        "name": "Tikun/Atkana - 90 min",
+        "name": "?????/????? - 90 ??'",
         "price": "0",
         "duration": 90,
         "color": "#50e3c1",
@@ -71,7 +71,7 @@ Content-Encoding=gzip
     },
     {
         "id": 6,
-        "name": "Tikun/Atkana - 120 min",
+        "name": "?????/????? - 120 ??'",
         "price": "0",
         "duration": 120,
         "color": "#50e3c1",

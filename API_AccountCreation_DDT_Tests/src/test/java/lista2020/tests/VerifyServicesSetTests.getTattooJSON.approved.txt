@@ -16,7 +16,7 @@ Content-Encoding=gzip
 [
     {
         "id": 1,
-        "name": "Pgishat ikerut",
+        "name": "????? ??????",
         "price": "0",
         "duration": 60,
         "color": "#fff581",
@@ -27,7 +27,7 @@ Content-Encoding=gzip
     },
     {
         "id": 2,
-        "name": "Pgisha im Lak?? - 60 min",
+        "name": "????? ?? ???? - 60 ??'",
         "price": "0",
         "duration": 60,
         "color": "#fff581",
@@ -38,7 +38,7 @@ Content-Encoding=gzip
     },
     {
         "id": 3,
-        "name": "Pgisha im Lak?? - 90 min",
+        "name": "????? ?? ???? - 90 ??'",
         "price": "0",
         "duration": 90,
         "color": "#fff581",
@@ -49,7 +49,7 @@ Content-Encoding=gzip
     },
     {
         "id": 4,
-        "name": "Pgisha im Lak?? - 120 min",
+        "name": "????? ?? ???? - 120 ??'",
         "price": "0",
         "duration": 120,
         "color": "#fff581",

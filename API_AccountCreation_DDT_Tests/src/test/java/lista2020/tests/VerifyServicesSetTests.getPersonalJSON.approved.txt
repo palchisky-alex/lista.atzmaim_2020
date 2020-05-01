@@ -16,7 +16,7 @@ Content-Encoding=gzip
 [
     {
         "id": 1,
-        "name": "Pgishat Iuts",
+        "name": "????? ????",
         "price": "0",
         "duration": 15,
         "color": "#50e3c1",
@@ -49,7 +49,7 @@ Content-Encoding=gzip
     },
     {
         "id": 4,
-        "name": "????? - 45 min",
+        "name": "????? - 45 ??'",
         "price": "0",
         "duration": 45,
         "color": "#50e3c1",
@@ -60,7 +60,7 @@ Content-Encoding=gzip
     },
     {
         "id": 5,
-        "name": "????? - 60 min",
+        "name": "????? - 60 ??'",
         "price": "0",
         "duration": 60,
         "color": "#50e3c1",
@@ -71,7 +71,7 @@ Content-Encoding=gzip
     },
     {
         "id": 6,
-        "name": "????? - 90 min",
+        "name": "????? - 90 ??'",
         "price": "0",
         "duration": 90,
         "color": "#50e3c1",
@@ -82,7 +82,7 @@ Content-Encoding=gzip
     },
     {
         "id": 7,
-        "name": "Bikoret / Bnyat ??????",
+        "name": "?????? / ????? ??????",
         "price": "0",
         "duration": 30,
         "color": "#50e3c1",

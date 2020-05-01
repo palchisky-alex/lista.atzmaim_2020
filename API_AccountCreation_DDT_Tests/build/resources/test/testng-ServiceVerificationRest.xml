@@ -24,6 +24,7 @@
                     <include name="getTattooJSON"/>
                     <include name="getTherapistsJSON"/>
                     <include name="getAllTypeJSON"/>
+                    <include name="withoutTypeJSON"/>
                     <include name="deleteAccount"/>
                 </methods>
             </class>

@@ -16,7 +16,7 @@ Content-Encoding=gzip
 [
     {
         "id": 1,
-        "name": "????r? gavr",
+        "name": "?????? ???",
         "price": "50",
         "duration": 15,
         "color": "#50e3c1",
@@ -27,7 +27,7 @@ Content-Encoding=gzip
     },
     {
         "id": 2,
-        "name": "????r? ???",
+        "name": "?????? ???",
         "price": "50",
         "duration": 15,
         "color": "#a44bc2",
@@ -38,7 +38,7 @@ Content-Encoding=gzip
     },
     {
         "id": 3,
-        "name": "????r? ????",
+        "name": "?????? ????",
         "price": "150",
         "duration": 30,
         "color": "#a44bc2",
@@ -49,7 +49,7 @@ Content-Encoding=gzip
     },
     {
         "id": 4,
-        "name": "Fen ??r",
+        "name": "?? ???",
         "price": "80",
         "duration": 30,
         "color": "#a44bc2",
@@ -60,7 +60,7 @@ Content-Encoding=gzip
     },
     {
         "id": 5,
-        "name": "Fen ?r??",
+        "name": "?? ????",
         "price": "100",
         "duration": 45,
         "color": "#a44bc2",
@@ -71,7 +71,7 @@ Content-Encoding=gzip
     },
     {
         "id": 6,
-        "name": "Fen kalul",
+        "name": "?? ????",
         "price": "0",
         "duration": 15,
         "color": "#a44bc2",
@@ -82,7 +82,7 @@ Content-Encoding=gzip
     },
     {
         "id": 7,
-        "name": "Fen ????????",
+        "name": "?? ????????",
         "price": "120",
         "duration": 30,
         "color": "#a44bc2",
@@ -93,7 +93,7 @@ Content-Encoding=gzip
     },
     {
         "id": 8,
-        "name": "??r??? ?r?",
+        "name": "?????? ???",
         "price": "250",
         "duration": 60,
         "color": "#a44bc2",
@@ -104,7 +104,7 @@ Content-Encoding=gzip
     },
     {
         "id": 9,
-        "name": "????r? ???? + Fen",
+        "name": "?????? ???? + ??",
         "price": "180",
         "duration": 60,
         "color": "#a44bc2",
@@ -115,7 +115,7 @@ Content-Encoding=gzip
     },
     {
         "id": 10,
-        "name": "????r? gavr + zakan",
+        "name": "?????? ??? + ???",
         "price": "70",
         "duration": 30,
         "color": "#a44bc2",
@@ -126,7 +126,7 @@ Content-Encoding=gzip
     },
     {
         "id": 11,
-        "name": "Iuts ??Lak?",
+        "name": "???? ?????",
         "price": "0",
         "duration": 15,
         "color": "#efa5fe",
@@ -137,7 +137,7 @@ Content-Encoding=gzip
     },
     {
         "id": 12,
-        "name": "Tzeva r?? male",
+        "name": "??? ??? ???",
         "price": "220",
         "duration": 15,
         "color": "#efa5fe",
@@ -148,7 +148,7 @@ Content-Encoding=gzip
     },
     {
         "id": 13,
-        "name": "Tzeva ??r?",
+        "name": "??? ????",
         "price": "150",
         "duration": 15,
         "color": "#efa5fe",
@@ -170,7 +170,7 @@ Content-Encoding=gzip
     },
     {
         "id": 15,
-        "name": "?????? r?? male",
+        "name": "?????? ??? ???",
         "price": "500",
         "duration": 75,
         "color": "#efa5fe",
@@ -181,7 +181,7 @@ Content-Encoding=gzip
     },
     {
         "id": 16,
-        "name": "?????? hatzi r??",
+        "name": "?????? ??? ???",
         "price": "300",
         "duration": 45,
         "color": "#efa5fe",
@@ -192,7 +192,7 @@ Content-Encoding=gzip
     },
     {
         "id": 17,
-        "name": "????r?",
+        "name": "??????",
         "price": "600",
         "duration": 120,
         "color": "#efa5fe",
@@ -214,7 +214,7 @@ Content-Encoding=gzip
     },
     {
         "id": 19,
-        "name": "???r?",
+        "name": "?????",
         "price": "150",
         "duration": 60,
         "color": "#efa5fe",
@@ -236,7 +236,7 @@ Content-Encoding=gzip
     },
     {
         "id": 21,
-        "name": "??Lak? ??r???",
+        "name": "????? ??????",
         "price": "600",
         "duration": 45,
         "color": "#fff581",
@@ -247,7 +247,7 @@ Content-Encoding=gzip
     },
     {
         "id": 22,
-        "name": "??Lak? ??r????",
+        "name": "????? ???????",
         "price": "600",
         "duration": 45,
         "color": "#fff581",
@@ -258,7 +258,7 @@ Content-Encoding=gzip
     },
     {
         "id": 23,
-        "name": "??Lak? meshulevet",
+        "name": "????? ??????",
         "price": "800",
         "duration": 120,
         "color": "#fff581",
@@ -269,7 +269,7 @@ Content-Encoding=gzip
     },
     {
         "id": 24,
-        "name": "??Lak? ?????",
+        "name": "????? ?????",
         "price": "1200",
         "duration": 60,
         "color": "#fff581",

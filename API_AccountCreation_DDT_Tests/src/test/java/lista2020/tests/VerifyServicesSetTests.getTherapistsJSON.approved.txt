@@ -16,7 +16,7 @@ Content-Encoding=gzip
 [
     {
         "id": 1,
-        "name": "Pgishat ikerut / reshona",
+        "name": "????? ?????? / ??????",
         "price": "0",
         "duration": 90,
         "color": "#759bfa",
@@ -27,7 +27,7 @@ Content-Encoding=gzip
     },
     {
         "id": 2,
-        "name": "Tipul - 45 min",
+        "name": "????? - 45 ??'",
         "price": "0",
         "duration": 45,
         "color": "#759bfa",
@@ -38,7 +38,7 @@ Content-Encoding=gzip
     },
     {
         "id": 3,
-        "name": "Tipul - 60 min",
+        "name": "????? - 60 ??'",
         "price": "0",
         "duration": 60,
         "color": "#759bfa",
@@ -49,7 +49,7 @@ Content-Encoding=gzip
     },
     {
         "id": 4,
-        "name": "Tipul - 90 min",
+        "name": "????? - 90 ??'",
         "price": "0",
         "duration": 90,
         "color": "#759bfa",
@@ -60,7 +60,7 @@ Content-Encoding=gzip
     },
     {
         "id": 5,
-        "name": "Tipul - 120 min",
+        "name": "????? - 120 ??'",
         "price": "0",
         "duration": 120,
         "color": "#759bfa",
@@ -71,7 +71,7 @@ Content-Encoding=gzip
     },
     {
         "id": 6,
-        "name": "Iuts",
+        "name": "?????",
         "price": "0",
         "duration": 60,
         "color": "#759bfa",
@@ -82,7 +82,7 @@ Content-Encoding=gzip
     },
     {
         "id": 7,
-        "name": "Bikoret",
+        "name": "??????",
         "price": "0",
         "duration": 60,
         "color": "#759bfa",

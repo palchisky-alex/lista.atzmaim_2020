@@ -16,7 +16,7 @@ Content-Encoding=gzip
 [
     {
         "id": 1,
-        "name": "Iuts",
+        "name": "?????",
         "price": "0",
         "duration": 60,
         "color": "#efa5fe",
@@ -27,7 +27,7 @@ Content-Encoding=gzip
     },
     {
         "id": 2,
-        "name": "Pgishat ivhun reshona",
+        "name": "????? ????? ??????",
         "price": "0",
         "duration": 90,
         "color": "#efa5fe",
@@ -38,7 +38,7 @@ Content-Encoding=gzip
     },
     {
         "id": 3,
-        "name": "Tipul - 30 min",
+        "name": "????? - 30 ??'",
         "price": "0",
         "duration": 30,
         "color": "#efa5fe",
@@ -49,7 +49,7 @@ Content-Encoding=gzip
     },
     {
         "id": 4,
-        "name": "Tipul - 45 min",
+        "name": "????? - 45 ??'",
         "price": "0",
         "duration": 45,
         "color": "#efa5fe",
@@ -60,7 +60,7 @@ Content-Encoding=gzip
     },
     {
         "id": 5,
-        "name": "Tipul - 60 min, ",
+        "name": "????? - 60 ??', ",
         "price": "0",
         "duration": 60,
         "color": "#efa5fe",
@@ -71,7 +71,7 @@ Content-Encoding=gzip
     },
     {
         "id": 6,
-        "name": "Tipul - 90 min",
+        "name": "????? - 90 ??'",
         "price": "0",
         "duration": 90,
         "color": "#efa5fe",
@@ -82,7 +82,7 @@ Content-Encoding=gzip
     },
     {
         "id": 7,
-        "name": "Bikoret",
+        "name": "??????",
         "price": "0",
         "duration": 60,
         "color": "#efa5fe",
@@ -104,7 +104,7 @@ Content-Encoding=gzip
     },
     {
         "id": 9,
-        "name": "Pgishat ikerut",
+        "name": "????? ??????",
         "price": "0",
         "duration": 60,
         "color": "#fff581",
@@ -115,7 +115,7 @@ Content-Encoding=gzip
     },
     {
         "id": 10,
-        "name": "Pgishat Iuts/????? - 60 min",
+        "name": "????? ?????/????? - 60 ??'",
         "price": "0",
         "duration": 60,
         "color": "#fff581",
@@ -126,7 +126,7 @@ Content-Encoding=gzip
     },
     {
         "id": 11,
-        "name": "Pgishat Iuts/????? - 90 min, ",
+        "name": "????? ?????/????? - 90 ??', ",
         "price": "0",
         "duration": 90,
         "color": "#fff581",
@@ -137,7 +137,7 @@ Content-Encoding=gzip
     },
     {
         "id": 12,
-        "name": "Pgishat Iuts/????? - 120 min, ",
+        "name": "????? ?????/????? - 120 ??', ",
         "price": "0",
         "duration": 120,
         "color": "#fff581",
@@ -148,7 +148,7 @@ Content-Encoding=gzip
     },
     {
         "id": 13,
-        "name": "Iuts/????? ??????",
+        "name": "?????/????? ??????",
         "price": "0",
         "duration": 60,
         "color": "#fff581",
@@ -159,7 +159,7 @@ Content-Encoding=gzip
     },
     {
         "id": 14,
-        "name": "Tipul panim",
+        "name": "????? ????",
         "price": "350",
         "duration": 60,
         "color": "#50e3c1",
@@ -170,7 +170,7 @@ Content-Encoding=gzip
     },
     {
         "id": 15,
-        "name": "Tipul yoffi/zoer",
+        "name": "????? ????/????",
         "price": "250",
         "duration": 45,
         "color": "#50e3c1",
@@ -181,7 +181,7 @@ Content-Encoding=gzip
     },
     {
         "id": 16,
-        "name": "Tipul mezoterapya",
+        "name": "????? ????????",
         "price": "400",
         "duration": 90,
         "color": "#50e3c1",
@@ -192,7 +192,7 @@ Content-Encoding=gzip
     },
     {
         "id": 17,
-        "name": "Tipul ahdarat lahut",
+        "name": "????? ????? ????",
         "price": "200",
         "duration": 60,
         "color": "#50e3c1",
@@ -203,7 +203,7 @@ Content-Encoding=gzip
     },
     {
         "id": 18,
-        "name": "Tipul pigmentasya",
+        "name": "????? ?????????",
         "price": "300",
         "duration": 75,
         "color": "#50e3c1",
@@ -214,7 +214,7 @@ Content-Encoding=gzip
     },
     {
         "id": 19,
-        "name": "Tipul akne",
+        "name": "????? ????",
         "price": "250",
         "duration": 90,
         "color": "#50e3c1",
@@ -225,7 +225,7 @@ Content-Encoding=gzip
     },
     {
         "id": 20,
-        "name": "Tipul antiaging / Mitzuk",
+        "name": "????? ????????'??? / ?????",
         "price": "300",
         "duration": 60,
         "color": "#50e3c1",
@@ -236,7 +236,7 @@ Content-Encoding=gzip
     },
     {
         "id": 21,
-        "name": "Piling",
+        "name": "??????",
         "price": "400",
         "duration": 75,
         "color": "#50e3c1",
@@ -247,7 +247,7 @@ Content-Encoding=gzip
     },
     {
         "id": 22,
-        "name": "Lak dgel",
+        "name": "?? ?'?",
         "price": "120",
         "duration": 45,
         "color": "#efefff",
@@ -258,7 +258,7 @@ Content-Encoding=gzip
     },
     {
         "id": 23,
-        "name": "Lak dgel",
+        "name": "?? ?'?",
         "price": "120",
         "duration": 45,
         "color": "#efefff",
@@ -269,7 +269,7 @@ Content-Encoding=gzip
     },
     {
         "id": 24,
-        "name": "Lak dgel reglaim",
+        "name": "?? ?'? ???????",
         "price": "150",
         "duration": 30,
         "color": "#efefff",
@@ -280,7 +280,7 @@ Content-Encoding=gzip
     },
     {
         "id": 25,
-        "name": "Lak dgel reglaim",
+        "name": "?? ?'? ???????",
         "price": "150",
         "duration": 30,
         "color": "#efefff",
@@ -291,7 +291,7 @@ Content-Encoding=gzip
     },
     {
         "id": 26,
-        "name": "Manikur express",
+        "name": "?????? ??????",
         "price": "45",
         "duration": 15,
         "color": "#efefff",
@@ -302,7 +302,7 @@ Content-Encoding=gzip
     },
     {
         "id": 27,
-        "name": "Manikur express",
+        "name": "?????? ??????",
         "price": "45",
         "duration": 15,
         "color": "#efefff",
@@ -313,7 +313,7 @@ Content-Encoding=gzip
     },
     {
         "id": 28,
-        "name": "Manikur",
+        "name": "??????",
         "price": "70",
         "duration": 30,
         "color": "#efefff",
@@ -324,7 +324,7 @@ Content-Encoding=gzip
     },
     {
         "id": 29,
-        "name": "Manikur",
+        "name": "??????",
         "price": "70",
         "duration": 30,
         "color": "#efefff",
@@ -335,7 +335,7 @@ Content-Encoding=gzip
     },
     {
         "id": 30,
-        "name": "Pedikur express",
+        "name": "?????? ??????",
         "price": "55",
         "duration": 15,
         "color": "#efefff",
@@ -346,7 +346,7 @@ Content-Encoding=gzip
     },
     {
         "id": 31,
-        "name": "Pedikur express",
+        "name": "?????? ??????",
         "price": "55",
         "duration": 15,
         "color": "#efefff",
@@ -357,7 +357,7 @@ Content-Encoding=gzip
     },
     {
         "id": 32,
-        "name": "Pedikur",
+        "name": "??????",
         "price": "140",
         "duration": 45,
         "color": "#efefff",
@@ -368,7 +368,7 @@ Content-Encoding=gzip
     },
     {
         "id": 33,
-        "name": "Pedikur",
+        "name": "??????",
         "price": "140",
         "duration": 45,
         "color": "#efefff",
@@ -379,7 +379,7 @@ Content-Encoding=gzip
     },
     {
         "id": 34,
-        "name": "Pedikur refui",
+        "name": "?????? ?????",
         "price": "155",
         "duration": 45,
         "color": "#efefff",
@@ -390,7 +390,7 @@ Content-Encoding=gzip
     },
     {
         "id": 35,
-        "name": "Pedikur refui",
+        "name": "?????? ?????",
         "price": "155",
         "duration": 45,
         "color": "#efefff",
@@ -401,7 +401,7 @@ Content-Encoding=gzip
     },
     {
         "id": 36,
-        "name": "Bnya + Lak dgel",
+        "name": "????? + ?? ?'?",
         "price": "240",
         "duration": 60,
         "color": "#759bfa",
@@ -412,7 +412,7 @@ Content-Encoding=gzip
     },
     {
         "id": 37,
-        "name": "Bnya + Lak dgel",
+        "name": "????? + ?? ?'?",
         "price": "240",
         "duration": 60,
         "color": "#759bfa",
@@ -423,7 +423,7 @@ Content-Encoding=gzip
     },
     {
         "id": 38,
-        "name": "Miluy + Lak dgel",
+        "name": "????? + ?? ?'?",
         "price": "130",
         "duration": 60,
         "color": "#759bfa",
@@ -434,7 +434,7 @@ Content-Encoding=gzip
     },
     {
         "id": 39,
-        "name": "Miluy + Lak dgel",
+        "name": "????? + ?? ?'?",
         "price": "130",
         "duration": 60,
         "color": "#759bfa",
@@ -445,7 +445,7 @@ Content-Encoding=gzip
     },
     {
         "id": 40,
-        "name": "Bnyat Bniyat tzipornaim",
+        "name": "????? ?????????",
         "price": "300",
         "duration": 60,
         "color": "#759bfa",
@@ -456,7 +456,7 @@ Content-Encoding=gzip
     },
     {
         "id": 41,
-        "name": "Bnyat Bniyat tzipornaim",
+        "name": "????? ?????????",
         "price": "300",
         "duration": 60,
         "color": "#759bfa",
@@ -467,7 +467,7 @@ Content-Encoding=gzip
     },
     {
         "id": 42,
-        "name": "Bnya ?dgel",
+        "name": "????? ??'?",
         "price": "220",
         "duration": 60,
         "color": "#759bfa",
@@ -478,7 +478,7 @@ Content-Encoding=gzip
     },
     {
         "id": 43,
-        "name": "Bnya ?dgel",
+        "name": "????? ??'?",
         "price": "220",
         "duration": 60,
         "color": "#759bfa",
@@ -489,7 +489,7 @@ Content-Encoding=gzip
     },
     {
         "id": 44,
-        "name": "Tikun tzipornayim",
+        "name": "????? ??????",
         "price": "0",
         "duration": 15,
         "color": "#759bfa",
@@ -500,7 +500,7 @@ Content-Encoding=gzip
     },
     {
         "id": 45,
-        "name": "Tikun tzipornayim",
+        "name": "????? ??????",
         "price": "0",
         "duration": 15,
         "color": "#759bfa",
@@ -511,7 +511,7 @@ Content-Encoding=gzip
     },
     {
         "id": 46,
-        "name": "Miluy ragil",
+        "name": "????? ????",
         "price": "110",
         "duration": 60,
         "color": "#759bfa",
@@ -522,7 +522,7 @@ Content-Encoding=gzip
     },
     {
         "id": 47,
-        "name": "Miluy ragil",
+        "name": "????? ????",
         "price": "110",
         "duration": 60,
         "color": "#759bfa",
@@ -533,7 +533,7 @@ Content-Encoding=gzip
     },
     {
         "id": 48,
-        "name": "Asarat Bnya/Lak dgel",
+        "name": "???? ?????/?? ?'?",
         "price": "50",
         "duration": 30,
         "color": "#759bfa",
@@ -544,7 +544,7 @@ Content-Encoding=gzip
     },
     {
         "id": 49,
-        "name": "Asarat Bnya/Lak dgel",
+        "name": "???? ?????/?? ?'?",
         "price": "50",
         "duration": 30,
         "color": "#759bfa",
@@ -555,7 +555,7 @@ Content-Encoding=gzip
     },
     {
         "id": 50,
-        "name": "Adbakat Bniyat tzipornaim",
+        "name": "????? ?????????",
         "price": "0",
         "duration": 30,
         "color": "#759bfa",
@@ -566,7 +566,7 @@ Content-Encoding=gzip
     },
     {
         "id": 51,
-        "name": "Adbakat Bniyat tzipornaim",
+        "name": "????? ?????????",
         "price": "0",
         "duration": 30,
         "color": "#759bfa",
@@ -577,7 +577,7 @@ Content-Encoding=gzip
     },
     {
         "id": 52,
-        "name": "Sidur gabot",
+        "name": "????? ????",
         "price": "30",
         "duration": 15,
         "color": "#b8e986",
@@ -588,7 +588,7 @@ Content-Encoding=gzip
     },
     {
         "id": 53,
-        "name": "Sidur gabot",
+        "name": "????? ????",
         "price": "30",
         "duration": 15,
         "color": "#b8e986",
@@ -599,7 +599,7 @@ Content-Encoding=gzip
     },
     {
         "id": 54,
-        "name": "Sapham",
+        "name": "???",
         "price": "30",
         "duration": 15,
         "color": "#b8e986",
@@ -610,7 +610,7 @@ Content-Encoding=gzip
     },
     {
         "id": 55,
-        "name": "Sapham",
+        "name": "???",
         "price": "30",
         "duration": 15,
         "color": "#b8e986",
@@ -621,7 +621,7 @@ Content-Encoding=gzip
     },
     {
         "id": 56,
-        "name": "Sapham + gabot",
+        "name": "??? + ????",
         "price": "50",
         "duration": 30,
         "color": "#b8e986",
@@ -632,7 +632,7 @@ Content-Encoding=gzip
     },
     {
         "id": 57,
-        "name": "Sapham + gabot",
+        "name": "??? + ????",
         "price": "50",
         "duration": 30,
         "color": "#b8e986",
@@ -643,7 +643,7 @@ Content-Encoding=gzip
     },
     {
         "id": 58,
-        "name": "Iuts Leizer",
+        "name": "???? ?????",
         "price": "0",
         "duration": 30,
         "color": "#3fb6dc",
@@ -654,7 +654,7 @@ Content-Encoding=gzip
     },
     {
         "id": 59,
-        "name": "Leizer yadaim",
+        "name": "????? ?????",
         "price": "0",
         "duration": 30,
         "color": "#3fb6dc",
@@ -665,7 +665,7 @@ Content-Encoding=gzip
     },
     {
         "id": 60,
-        "name": "Leizer reglaim",
+        "name": "????? ??????",
         "price": "0",
         "duration": 45,
         "color": "#3fb6dc",
@@ -676,7 +676,7 @@ Content-Encoding=gzip
     },
     {
         "id": 61,
-        "name": "Leizer bikini+shehi",
+        "name": "????? ?????+???",
         "price": "0",
         "duration": 30,
         "color": "#3fb6dc",
@@ -687,7 +687,7 @@ Content-Encoding=gzip
     },
     {
         "id": 62,
-        "name": "Leizer bikini",
+        "name": "????? ?????",
         "price": "0",
         "duration": 30,
         "color": "#3fb6dc",
@@ -698,7 +698,7 @@ Content-Encoding=gzip
     },
     {
         "id": 63,
-        "name": "Leizer shehi",
+        "name": "????? ???",
         "price": "0",
         "duration": 15,
         "color": "#3fb6dc",
@@ -709,7 +709,7 @@ Content-Encoding=gzip
     },
     {
         "id": 64,
-        "name": "Leizer ?.regel ilyona",
+        "name": "????? ?.??? ??????",
         "price": "0",
         "duration": 30,
         "color": "#3fb6dc",
@@ -720,7 +720,7 @@ Content-Encoding=gzip
     },
     {
         "id": 65,
-        "name": "Leizer ?.regel tahtona",
+        "name": "????? ?.??? ??????",
         "price": "0",
         "duration": 30,
         "color": "#3fb6dc",
@@ -731,7 +731,7 @@ Content-Encoding=gzip
     },
     {
         "id": 66,
-        "name": "Leizer yashvan",
+        "name": "????? ????",
         "price": "0",
         "duration": 30,
         "color": "#3fb6dc",
@@ -742,7 +742,7 @@ Content-Encoding=gzip
     },
     {
         "id": 67,
-        "name": "Leizer gav",
+        "name": "????? ??",
         "price": "0",
         "duration": 30,
         "color": "#3fb6dc",
@@ -753,7 +753,7 @@ Content-Encoding=gzip
     },
     {
         "id": 68,
-        "name": "Leizer beten",
+        "name": "????? ???",
         "price": "0",
         "duration": 30,
         "color": "#3fb6dc",
@@ -764,7 +764,7 @@ Content-Encoding=gzip
     },
     {
         "id": 69,
-        "name": "Leizer haze+beten",
+        "name": "????? ???+???",
         "price": "0",
         "duration": 45,
         "color": "#3fb6dc",
@@ -775,7 +775,7 @@ Content-Encoding=gzip
     },
     {
         "id": 70,
-        "name": "Leizer ??r?",
+        "name": "????? ????",
         "price": "0",
         "duration": 15,
         "color": "#3fb6dc",
@@ -786,7 +786,7 @@ Content-Encoding=gzip
     },
     {
         "id": 71,
-        "name": "Leizer panim",
+        "name": "????? ????",
         "price": "0",
         "duration": 15,
         "color": "#3fb6dc",
@@ -797,7 +797,7 @@ Content-Encoding=gzip
     },
     {
         "id": 72,
-        "name": "Leizer Sapham+???r",
+        "name": "????? ???+????",
         "price": "0",
         "duration": 15,
         "color": "#3fb6dc",
@@ -808,7 +808,7 @@ Content-Encoding=gzip
     },
     {
         "id": 73,
-        "name": "Leizer Sapham",
+        "name": "????? ???",
         "price": "0",
         "duration": 15,
         "color": "#3fb6dc",
@@ -819,7 +819,7 @@ Content-Encoding=gzip
     },
     {
         "id": 74,
-        "name": "Leizer lahaim gavr",
+        "name": "????? ????? ???",
         "price": "0",
         "duration": 15,
         "color": "#3fb6dc",
@@ -830,7 +830,7 @@ Content-Encoding=gzip
     },
     {
         "id": 75,
-        "name": "Leizer haze",
+        "name": "????? ???",
         "price": "0",
         "duration": 30,
         "color": "#3fb6dc",
@@ -841,7 +841,7 @@ Content-Encoding=gzip
     },
     {
         "id": 76,
-        "name": "Leizer pas beten",
+        "name": "????? ?? ???",
         "price": "0",
         "duration": 15,
         "color": "#3fb6dc",
@@ -852,7 +852,7 @@ Content-Encoding=gzip
     },
     {
         "id": 77,
-        "name": "Shaava - panim",
+        "name": "????? - ????",
         "price": "50",
         "duration": 15,
         "color": "#deceff",
@@ -863,7 +863,7 @@ Content-Encoding=gzip
     },
     {
         "id": 78,
-        "name": "Shaava - shehi",
+        "name": "????? - ???",
         "price": "30",
         "duration": 15,
         "color": "#deceff",
@@ -874,7 +874,7 @@ Content-Encoding=gzip
     },
     {
         "id": 79,
-        "name": "Shaava - ??????",
+        "name": "????? - ??????",
         "price": "40",
         "duration": 15,
         "color": "#deceff",
@@ -885,7 +885,7 @@ Content-Encoding=gzip
     },
     {
         "id": 80,
-        "name": "Shaava - mafshaut",
+        "name": "????? - ??????",
         "price": "60",
         "duration": 15,
         "color": "#deceff",
@@ -896,7 +896,7 @@ Content-Encoding=gzip
     },
     {
         "id": 81,
-        "name": "Shaava - peot",
+        "name": "????? - ????",
         "price": "80",
         "duration": 15,
         "color": "#deceff",
@@ -907,7 +907,7 @@ Content-Encoding=gzip
     },
     {
         "id": 82,
-        "name": "Shaava - reglaim",
+        "name": "????? - ??????",
         "price": "120",
         "duration": 30,
         "color": "#deceff",
@@ -918,7 +918,7 @@ Content-Encoding=gzip
     },
     {
         "id": 83,
-        "name": "Shaava - hatzi regel",
+        "name": "????? - ??? ???",
         "price": "80",
         "duration": 30,
         "color": "#deceff",
@@ -929,7 +929,7 @@ Content-Encoding=gzip
     },
     {
         "id": 84,
-        "name": "Shaava - reglaim + bikini",
+        "name": "????? - ?????? + ?????",
         "price": "150",
         "duration": 30,
         "color": "#deceff",
@@ -940,7 +940,7 @@ Content-Encoding=gzip
     },
     {
         "id": 85,
-        "name": "Shaava - yadaim",
+        "name": "????? - ?????",
         "price": "80",
         "duration": 15,
         "color": "#deceff",
@@ -951,7 +951,7 @@ Content-Encoding=gzip
     },
     {
         "id": 86,
-        "name": "Shaava gavr - gav",
+        "name": "????? ??? - ??",
         "price": "120",
         "duration": 30,
         "color": "#deceff",
@@ -962,7 +962,7 @@ Content-Encoding=gzip
     },
     {
         "id": 87,
-        "name": "Shaava gavr - haze",
+        "name": "????? ??? - ???",
         "price": "80",
         "duration": 30,
         "color": "#deceff",
@@ -973,7 +973,7 @@ Content-Encoding=gzip
     },
     {
         "id": 88,
-        "name": "Shaava gavr - ??Fen??",
+        "name": "????? ??? - ??????",
         "price": "50",
         "duration": 15,
         "color": "#deceff",
@@ -984,7 +984,7 @@ Content-Encoding=gzip
     },
     {
         "id": 89,
-        "name": "Shaava gavr - ??r?",
+        "name": "????? ??? - ????",
         "price": "30",
         "duration": 15,
         "color": "#deceff",
@@ -995,7 +995,7 @@ Content-Encoding=gzip
     },
     {
         "id": 90,
-        "name": "Shaava - beten",
+        "name": "????? - ???",
         "price": "50",
         "duration": 15,
         "color": "#deceff",
@@ -1006,7 +1006,7 @@ Content-Encoding=gzip
     },
     {
         "id": 91,
-        "name": "Shaava gavr - beten",
+        "name": "????? ??? - ???",
         "price": "70",
         "duration": 15,
         "color": "#deceff",
@@ -1017,7 +1017,7 @@ Content-Encoding=gzip
     },
     {
         "id": 92,
-        "name": "Shaava - hatzi ??",
+        "name": "????? - ??? ??",
         "price": "40",
         "duration": 15,
         "color": "#deceff",
@@ -1028,7 +1028,7 @@ Content-Encoding=gzip
     },
     {
         "id": 93,
-        "name": "????r kavua- ???????r ?????",
+        "name": "????? ????- ???????? ?????",
         "price": "0",
         "duration": 120,
         "color": "#ff98ad",
@@ -1039,7 +1039,7 @@ Content-Encoding=gzip
     },
     {
         "id": 94,
-        "name": "????r kavua - ???????r tahton",
+        "name": "????? ???? - ???????? ?????",
         "price": "0",
         "duration": 120,
         "color": "#ff98ad",
@@ -1050,7 +1050,7 @@ Content-Encoding=gzip
     },
     {
         "id": 95,
-        "name": "????r kavua - ??????",
+        "name": "????? ???? - ??????",
         "price": "0",
         "duration": 120,
         "color": "#ff98ad",
@@ -1061,7 +1061,7 @@ Content-Encoding=gzip
     },
     {
         "id": 96,
-        "name": "????? ????r kavua",
+        "name": "????? ????? ????",
         "price": "0",
         "duration": 60,
         "color": "#ff98ad",
@@ -1072,7 +1072,7 @@ Content-Encoding=gzip
     },
     {
         "id": 97,
-        "name": "????r ?r?",
+        "name": "????? ???",
         "price": "300",
         "duration": 45,
         "color": "#ff98ad",
@@ -1083,7 +1083,7 @@ Content-Encoding=gzip
     },
     {
         "id": 98,
-        "name": "????r kala",
+        "name": "????? ???",
         "price": "950",
         "duration": 90,
         "color": "#ff98ad",
@@ -1094,7 +1094,7 @@ Content-Encoding=gzip
     },
     {
         "id": 99,
-        "name": "????r kavua gabot",
+        "name": "????? ???? ????",
         "price": "0",
         "duration": 120,
         "color": "#ff98ad",
@@ -1105,7 +1105,7 @@ Content-Encoding=gzip
     },
     {
         "id": 100,
-        "name": "????r? gavr",
+        "name": "?????? ???",
         "price": "50",
         "duration": 15,
         "color": "#50e3c1",
@@ -1116,7 +1116,7 @@ Content-Encoding=gzip
     },
     {
         "id": 101,
-        "name": "????r? ???",
+        "name": "?????? ???",
         "price": "50",
         "duration": 15,
         "color": "#a44bc2",
@@ -1127,7 +1127,7 @@ Content-Encoding=gzip
     },
     {
         "id": 102,
-        "name": "????r? ????",
+        "name": "?????? ????",
         "price": "150",
         "duration": 30,
         "color": "#a44bc2",
@@ -1138,7 +1138,7 @@ Content-Encoding=gzip
     },
     {
         "id": 103,
-        "name": "Fen ??r",
+        "name": "?? ???",
         "price": "80",
         "duration": 30,
         "color": "#a44bc2",
@@ -1149,7 +1149,7 @@ Content-Encoding=gzip
     },
     {
         "id": 104,
-        "name": "Fen ?r??",
+        "name": "?? ????",
         "price": "100",
         "duration": 45,
         "color": "#a44bc2",
@@ -1160,7 +1160,7 @@ Content-Encoding=gzip
     },
     {
         "id": 105,
-        "name": "Fen kalul",
+        "name": "?? ????",
         "price": "0",
         "duration": 15,
         "color": "#a44bc2",
@@ -1171,7 +1171,7 @@ Content-Encoding=gzip
     },
     {
         "id": 106,
-        "name": "Fen ????????",
+        "name": "?? ????????",
         "price": "120",
         "duration": 30,
         "color": "#a44bc2",
@@ -1182,7 +1182,7 @@ Content-Encoding=gzip
     },
     {
         "id": 107,
-        "name": "??r??? ?r?",
+        "name": "?????? ???",
         "price": "250",
         "duration": 60,
         "color": "#a44bc2",
@@ -1193,7 +1193,7 @@ Content-Encoding=gzip
     },
     {
         "id": 108,
-        "name": "????r? ???? + Fen",
+        "name": "?????? ???? + ??",
         "price": "180",
         "duration": 60,
         "color": "#a44bc2",
@@ -1204,7 +1204,7 @@ Content-Encoding=gzip
     },
     {
         "id": 109,
-        "name": "????r? gavr + zakan",
+        "name": "?????? ??? + ???",
         "price": "70",
         "duration": 30,
         "color": "#a44bc2",
@@ -1215,7 +1215,7 @@ Content-Encoding=gzip
     },
     {
         "id": 110,
-        "name": "Iuts ??Lak?",
+        "name": "???? ?????",
         "price": "0",
         "duration": 15,
         "color": "#efa5fe",
@@ -1226,7 +1226,7 @@ Content-Encoding=gzip
     },
     {
         "id": 111,
-        "name": "Tzeva r?? male",
+        "name": "??? ??? ???",
         "price": "220",
         "duration": 15,
         "color": "#efa5fe",
@@ -1237,7 +1237,7 @@ Content-Encoding=gzip
     },
     {
         "id": 112,
-        "name": "Tzeva ??r?",
+        "name": "??? ????",
         "price": "150",
         "duration": 15,
         "color": "#efa5fe",
@@ -1259,7 +1259,7 @@ Content-Encoding=gzip
     },
     {
         "id": 114,
-        "name": "?????? r?? male",
+        "name": "?????? ??? ???",
         "price": "500",
         "duration": 75,
         "color": "#efa5fe",
@@ -1270,7 +1270,7 @@ Content-Encoding=gzip
     },
     {
         "id": 115,
-        "name": "?????? hatzi r??",
+        "name": "?????? ??? ???",
         "price": "300",
         "duration": 45,
         "color": "#efa5fe",
@@ -1281,7 +1281,7 @@ Content-Encoding=gzip
     },
     {
         "id": 116,
-        "name": "????r?",
+        "name": "??????",
         "price": "600",
         "duration": 120,
         "color": "#efa5fe",
@@ -1303,7 +1303,7 @@ Content-Encoding=gzip
     },
     {
         "id": 118,
-        "name": "???r?",
+        "name": "?????",
         "price": "150",
         "duration": 60,
         "color": "#efa5fe",
@@ -1325,7 +1325,7 @@ Content-Encoding=gzip
     },
     {
         "id": 120,
-        "name": "??Lak? ??r???",
+        "name": "????? ??????",
         "price": "600",
         "duration": 45,
         "color": "#fff581",
@@ -1336,7 +1336,7 @@ Content-Encoding=gzip
     },
     {
         "id": 121,
-        "name": "??Lak? ??r????",
+        "name": "????? ???????",
         "price": "600",
         "duration": 45,
         "color": "#fff581",
@@ -1347,7 +1347,7 @@ Content-Encoding=gzip
     },
     {
         "id": 122,
-        "name": "??Lak? meshulevet",
+        "name": "????? ??????",
         "price": "800",
         "duration": 120,
         "color": "#fff581",
@@ -1358,7 +1358,7 @@ Content-Encoding=gzip
     },
     {
         "id": 123,
-        "name": "??Lak? ?????",
+        "name": "????? ?????",
         "price": "1200",
         "duration": 60,
         "color": "#fff581",
@@ -1391,7 +1391,7 @@ Content-Encoding=gzip
     },
     {
         "id": 126,
-        "name": "Pgishat ikerut ",
+        "name": "????? ?????? ",
         "price": "0",
         "duration": 90,
         "color": "#50e3c1",
@@ -1402,7 +1402,7 @@ Content-Encoding=gzip
     },
     {
         "id": 127,
-        "name": "Tikun/Atkana - 45 min",
+        "name": "?????/????? - 45 ??'",
         "price": "0",
         "duration": 45,
         "color": "#50e3c1",
@@ -1413,7 +1413,7 @@ Content-Encoding=gzip
     },
     {
         "id": 128,
-        "name": "Tikun/Atkana - 60 min",
+        "name": "?????/????? - 60 ??'",
         "price": "0",
         "duration": 60,
         "color": "#50e3c1",
@@ -1424,7 +1424,7 @@ Content-Encoding=gzip
     },
     {
         "id": 129,
-        "name": "Tikun/Atkana - 90 min",
+        "name": "?????/????? - 90 ??'",
         "price": "0",
         "duration": 90,
         "color": "#50e3c1",
@@ -1435,7 +1435,7 @@ Content-Encoding=gzip
     },
     {
         "id": 130,
-        "name": "Tikun/Atkana - 120 min",
+        "name": "?????/????? - 120 ??'",
         "price": "0",
         "duration": 120,
         "color": "#50e3c1",
@@ -1446,7 +1446,7 @@ Content-Encoding=gzip
     },
     {
         "id": 131,
-        "name": "Pgishat ikerut",
+        "name": "????? ??????",
         "price": "0",
         "duration": 60,
         "color": "#efefff",
@@ -1457,7 +1457,7 @@ Content-Encoding=gzip
     },
     {
         "id": 132,
-        "name": "Pgishat avoda ??r? - shaa",
+        "name": "????? ????? ???? - ???",
         "price": "0",
         "duration": 60,
         "color": "#efefff",
@@ -1468,7 +1468,7 @@ Content-Encoding=gzip
     },
     {
         "id": 133,
-        "name": "Pgishat avoda ?r??? - ??????",
+        "name": "????? ????? ????? - ??????",
         "price": "0",
         "duration": 120,
         "color": "#efefff",
@@ -1479,7 +1479,7 @@ Content-Encoding=gzip
     },
     {
         "id": 134,
-        "name": "Pgishat avoda ?r??? - 3 shaot",
+        "name": "????? ????? ????? - 3 ????",
         "price": "0",
         "duration": 180,
         "color": "#efefff",
@@ -1490,7 +1490,7 @@ Content-Encoding=gzip
     },
     {
         "id": 135,
-        "name": "??? shalem im Lak??",
+        "name": "??? ??? ?? ????",
         "price": "0",
         "duration": 360,
         "color": "#efefff",
@@ -1501,7 +1501,7 @@ Content-Encoding=gzip
     },
     {
         "id": 136,
-        "name": "Pgishat Iuts",
+        "name": "????? ?????",
         "price": "0",
         "duration": 60,
         "color": "#759bfa",
@@ -1512,7 +1512,7 @@ Content-Encoding=gzip
     },
     {
         "id": 137,
-        "name": "????r ?r?",
+        "name": "????? ???",
         "price": "300",
         "duration": 45,
         "color": "#759bfa",
@@ -1523,7 +1523,7 @@ Content-Encoding=gzip
     },
     {
         "id": 138,
-        "name": "????r kala",
+        "name": "????? ???",
         "price": "800",
         "duration": 75,
         "color": "#759bfa",
@@ -1534,7 +1534,7 @@ Content-Encoding=gzip
     },
     {
         "id": 139,
-        "name": "????r melave",
+        "name": "????? ?????",
         "price": "250",
         "duration": 45,
         "color": "#759bfa",
@@ -1545,7 +1545,7 @@ Content-Encoding=gzip
     },
     {
         "id": 140,
-        "name": "????r ??????",
+        "name": "????? ??????",
         "price": "100",
         "duration": 60,
         "color": "#759bfa",
@@ -1556,7 +1556,7 @@ Content-Encoding=gzip
     },
     {
         "id": 141,
-        "name": "??r??? ?r?",
+        "name": "?????? ???",
         "price": "0",
         "duration": 90,
         "color": "#759bfa",
@@ -1567,7 +1567,7 @@ Content-Encoding=gzip
     },
     {
         "id": 142,
-        "name": "??r??? kala",
+        "name": "?????? ???",
         "price": "1200",
         "duration": 120,
         "color": "#759bfa",
@@ -1578,7 +1578,7 @@ Content-Encoding=gzip
     },
     {
         "id": 143,
-        "name": "??r??? melave",
+        "name": "?????? ?????",
         "price": "300",
         "duration": 90,
         "color": "#759bfa",
@@ -1589,7 +1589,7 @@ Content-Encoding=gzip
     },
     {
         "id": 144,
-        "name": "??r??? ??????",
+        "name": "?????? ??????",
         "price": "0",
         "duration": 60,
         "color": "#759bfa",
@@ -1600,7 +1600,7 @@ Content-Encoding=gzip
     },
     {
         "id": 145,
-        "name": "????? kala (???r + ????r)",
+        "name": "????? ??? (???? + ?????)",
         "price": "1700",
         "duration": 210,
         "color": "#759bfa",
@@ -1611,7 +1611,7 @@ Content-Encoding=gzip
     },
     {
         "id": 146,
-        "name": "????? melave (???r + ????r)",
+        "name": "????? ????? (???? + ?????)",
         "price": "500",
         "duration": 180,
         "color": "#759bfa",
@@ -1622,7 +1622,7 @@ Content-Encoding=gzip
     },
     {
         "id": 147,
-        "name": "Agaa / ????? ???r??",
+        "name": "???? / ????? ??????",
         "price": "0",
         "duration": 120,
         "color": "#759bfa",
@@ -1633,7 +1633,7 @@ Content-Encoding=gzip
     },
     {
         "id": 148,
-        "name": "Iuts",
+        "name": "?????",
         "price": "0",
         "duration": 60,
         "color": "#b8e986",
@@ -1644,7 +1644,7 @@ Content-Encoding=gzip
     },
     {
         "id": 149,
-        "name": "Pgishat ivhun reshona",
+        "name": "????? ????? ??????",
         "price": "0",
         "duration": 90,
         "color": "#b8e986",
@@ -1655,7 +1655,7 @@ Content-Encoding=gzip
     },
     {
         "id": 150,
-        "name": "Tipul - 30 min",
+        "name": "????? - 30 ??'",
         "price": "0",
         "duration": 30,
         "color": "#b8e986",
@@ -1666,7 +1666,7 @@ Content-Encoding=gzip
     },
     {
         "id": 151,
-        "name": "Tipul - 45 min",
+        "name": "????? - 45 ??'",
         "price": "0",
         "duration": 45,
         "color": "#b8e986",
@@ -1677,7 +1677,7 @@ Content-Encoding=gzip
     },
     {
         "id": 152,
-        "name": "Tipul - 60 min",
+        "name": "????? - 60 ??'",
         "price": "0",
         "duration": 60,
         "color": "#b8e986",
@@ -1688,7 +1688,7 @@ Content-Encoding=gzip
     },
     {
         "id": 153,
-        "name": "Tipul - 90 min",
+        "name": "????? - 90 ??'",
         "price": "0",
         "duration": 90,
         "color": "#b8e986",
@@ -1699,7 +1699,7 @@ Content-Encoding=gzip
     },
     {
         "id": 154,
-        "name": "Bikoret",
+        "name": "??????",
         "price": "0",
         "duration": 60,
         "color": "#b8e986",
@@ -1721,7 +1721,7 @@ Content-Encoding=gzip
     },
     {
         "id": 156,
-        "name": "Pgishat ikerut ",
+        "name": "????? ?????? ",
         "price": "0",
         "duration": 60,
         "color": "#3fb6dc",
@@ -1732,7 +1732,7 @@ Content-Encoding=gzip
     },
     {
         "id": 157,
-        "name": "avoda - ??????",
+        "name": "????? - ??????",
         "price": "0",
         "duration": 120,
         "color": "#3fb6dc",
@@ -1743,7 +1743,7 @@ Content-Encoding=gzip
     },
     {
         "id": 158,
-        "name": "avoda - 3 shaot",
+        "name": "????? - 3 ????",
         "price": "0",
         "duration": 180,
         "color": "#3fb6dc",
@@ -1754,7 +1754,7 @@ Content-Encoding=gzip
     },
     {
         "id": 159,
-        "name": "avoda - 4 shaot",
+        "name": "????? - 4 ????",
         "price": "0",
         "duration": 240,
         "color": "#3fb6dc",
@@ -1765,7 +1765,7 @@ Content-Encoding=gzip
     },
     {
         "id": 160,
-        "name": "avoda - 5 shaot",
+        "name": "????? - 5 ????",
         "price": "0",
         "duration": 300,
         "color": "#3fb6dc",
@@ -1787,7 +1787,7 @@ Content-Encoding=gzip
     },
     {
         "id": 162,
-        "name": "Pgishat ikerut / reshona",
+        "name": "????? ?????? / ??????",
         "price": "0",
         "duration": 90,
         "color": "#deceff",
@@ -1798,7 +1798,7 @@ Content-Encoding=gzip
     },
     {
         "id": 163,
-        "name": "Iuts",
+        "name": "?????",
         "price": "0",
         "duration": 60,
         "color": "#deceff",
@@ -1820,7 +1820,7 @@ Content-Encoding=gzip
     },
     {
         "id": 165,
-        "name": "Tipul - 45 min",
+        "name": "????? - 45 ??'",
         "price": "0",
         "duration": 45,
         "color": "#deceff",
@@ -1831,7 +1831,7 @@ Content-Encoding=gzip
     },
     {
         "id": 166,
-        "name": "Tipul - 60 min",
+        "name": "????? - 60 ??'",
         "price": "0",
         "duration": 60,
         "color": "#deceff",
@@ -1842,7 +1842,7 @@ Content-Encoding=gzip
     },
     {
         "id": 167,
-        "name": "Tipul - 90 min",
+        "name": "????? - 90 ??'",
         "price": "0",
         "duration": 90,
         "color": "#deceff",
@@ -1853,7 +1853,7 @@ Content-Encoding=gzip
     },
     {
         "id": 168,
-        "name": "Tipul - 120 min",
+        "name": "????? - 120 ??'",
         "price": "0",
         "duration": 120,
         "color": "#deceff",
@@ -1864,7 +1864,7 @@ Content-Encoding=gzip
     },
     {
         "id": 169,
-        "name": "Bikoret",
+        "name": "??????",
         "price": "0",
         "duration": 60,
         "color": "#deceff",
@@ -1875,7 +1875,7 @@ Content-Encoding=gzip
     },
     {
         "id": 170,
-        "name": "???? ??????? / atzaat ???r",
+        "name": "???? ??????? / ???? ????",
         "price": "0",
         "duration": 30,
         "color": "#ff98ad",
@@ -1886,7 +1886,7 @@ Content-Encoding=gzip
     },
     {
         "id": 171,
-        "name": "???r? ??r? 2 ??r??",
+        "name": "????? ???? 2 ?????",
         "price": "0",
         "duration": 60,
         "color": "#ff98ad",
@@ -1897,7 +1897,7 @@ Content-Encoding=gzip
     },
     {
         "id": 172,
-        "name": "???r? ??r? 3 ??r??",
+        "name": "????? ???? 3 ?????",
         "price": "0",
         "duration": 60,
         "color": "#ff98ad",
@@ -1908,7 +1908,7 @@ Content-Encoding=gzip
     },
     {
         "id": 173,
-        "name": "???r? ??r? 4 ??r??",
+        "name": "????? ???? 4 ?????",
         "price": "0",
         "duration": 90,
         "color": "#ff98ad",
@@ -1919,7 +1919,7 @@ Content-Encoding=gzip
     },
     {
         "id": 174,
-        "name": "???r? ????? ???r",
+        "name": "????? ????? ????",
         "price": "0",
         "duration": 60,
         "color": "#ff98ad",
@@ -1930,7 +1930,7 @@ Content-Encoding=gzip
     },
     {
         "id": 175,
-        "name": "???r? ??? ?r?? - katan",
+        "name": "????? ??? ???? - ???",
         "price": "0",
         "duration": 120,
         "color": "#ff98ad",
@@ -1941,7 +1941,7 @@ Content-Encoding=gzip
     },
     {
         "id": 176,
-        "name": "???r? ??? ?r?? - gadol",
+        "name": "????? ??? ???? - ????",
         "price": "0",
         "duration": 180,
         "color": "#ff98ad",
@@ -1952,7 +1952,7 @@ Content-Encoding=gzip
     },
     {
         "id": 177,
-        "name": "???r? ???? ?r???",
+        "name": "????? ???? ?????",
         "price": "0",
         "duration": 30,
         "color": "#ff98ad",
@@ -1963,7 +1963,7 @@ Content-Encoding=gzip
     },
     {
         "id": 178,
-        "name": "???r? ??????? / ??r",
+        "name": "????? ??????? / ???",
         "price": "0",
         "duration": 60,
         "color": "#ff98ad",
@@ -1974,7 +1974,7 @@ Content-Encoding=gzip
     },
     {
         "id": 179,
-        "name": "???r? hanut / esek / ??r?",
+        "name": "????? ???? / ??? / ????",
         "price": "0",
         "duration": 60,
         "color": "#ff98ad",
@@ -1985,7 +1985,7 @@ Content-Encoding=gzip
     },
     {
         "id": 180,
-        "name": "???r? mosdot ????r ",
+        "name": "????? ?????? ????? ",
         "price": "0",
         "duration": 180,
         "color": "#ff98ad",
@@ -1996,7 +1996,7 @@ Content-Encoding=gzip
     },
     {
         "id": 181,
-        "name": "Pgishat ikerut / reshona",
+        "name": "????? ?????? / ??????",
         "price": "0",
         "duration": 90,
         "color": "#a44bc2",
@@ -2007,7 +2007,7 @@ Content-Encoding=gzip
     },
     {
         "id": 182,
-        "name": "????r - 45 min",
+        "name": "????? - 45 ??'",
         "price": "0",
         "duration": 45,
         "color": "#a44bc2",
@@ -2018,7 +2018,7 @@ Content-Encoding=gzip
     },
     {
         "id": 183,
-        "name": "????r - 60 min",
+        "name": "????? - 60 ??'",
         "price": "0",
         "duration": 60,
         "color": "#a44bc2",
@@ -2029,7 +2029,7 @@ Content-Encoding=gzip
     },
     {
         "id": 184,
-        "name": "????r - 90 min",
+        "name": "????? - 90 ??'",
         "price": "0",
         "duration": 90,
         "color": "#a44bc2",
@@ -2040,7 +2040,7 @@ Content-Encoding=gzip
     },
     {
         "id": 185,
-        "name": "????r - 120 min",
+        "name": "????? - 120 ??'",
         "price": "0",
         "duration": 120,
         "color": "#a44bc2",
@@ -2051,7 +2051,7 @@ Content-Encoding=gzip
     },
     {
         "id": 186,
-        "name": "Pgishat ikerut ",
+        "name": "????? ?????? ",
         "price": "0",
         "duration": 90,
         "color": "#efa5fe",
@@ -2062,7 +2062,7 @@ Content-Encoding=gzip
     },
     {
         "id": 187,
-        "name": "Pgisha - 45 min",
+        "name": "????? - 45 ??'",
         "price": "0",
         "duration": 45,
         "color": "#efa5fe",
@@ -2073,7 +2073,7 @@ Content-Encoding=gzip
     },
     {
         "id": 188,
-        "name": "Pgisha - 60 min",
+        "name": "????? - 60 ??'",
         "price": "0",
         "duration": 60,
         "color": "#efa5fe",
@@ -2084,7 +2084,7 @@ Content-Encoding=gzip
     },
     {
         "id": 189,
-        "name": "Pgisha - 90 min",
+        "name": "????? - 90 ??'",
         "price": "0",
         "duration": 90,
         "color": "#efa5fe",
@@ -2095,7 +2095,7 @@ Content-Encoding=gzip
     },
     {
         "id": 190,
-        "name": "Pgisha - 120 min",
+        "name": "????? - 120 ??'",
         "price": "0",
         "duration": 120,
         "color": "#efa5fe",
@@ -2117,7 +2117,7 @@ Content-Encoding=gzip
     },
     {
         "id": 192,
-        "name": "Pgishat ikerut",
+        "name": "????? ??????",
         "price": "0",
         "duration": 90,
         "color": "#fff581",
@@ -2128,7 +2128,7 @@ Content-Encoding=gzip
     },
     {
         "id": 193,
-        "name": "Pgisha - 45 min",
+        "name": "????? - 45 ??'",
         "price": "0",
         "duration": 45,
         "color": "#fff581",
@@ -2139,7 +2139,7 @@ Content-Encoding=gzip
     },
     {
         "id": 194,
-        "name": "Pgisha - 60 min",
+        "name": "????? - 60 ??'",
         "price": "0",
         "duration": 60,
         "color": "#fff581",
@@ -2150,7 +2150,7 @@ Content-Encoding=gzip
     },
     {
         "id": 195,
-        "name": "Pgisha - 90 min",
+        "name": "????? - 90 ??'",
         "price": "0",
         "duration": 90,
         "color": "#fff581",
@@ -2161,7 +2161,7 @@ Content-Encoding=gzip
     },
     {
         "id": 196,
-        "name": "Pgisha - 120 min",
+        "name": "????? - 120 ??'",
         "price": "0",
         "duration": 120,
         "color": "#fff581",
@@ -2183,7 +2183,7 @@ Content-Encoding=gzip
     },
     {
         "id": 198,
-        "name": "Pgishat Iuts",
+        "name": "????? ????",
         "price": "0",
         "duration": 15,
         "color": "#50e3c1",
@@ -2216,7 +2216,7 @@ Content-Encoding=gzip
     },
     {
         "id": 201,
-        "name": "????? - 45 min",
+        "name": "????? - 45 ??'",
         "price": "0",
         "duration": 45,
         "color": "#50e3c1",
@@ -2227,7 +2227,7 @@ Content-Encoding=gzip
     },
     {
         "id": 202,
-        "name": "????? - 60 min",
+        "name": "????? - 60 ??'",
         "price": "0",
         "duration": 60,
         "color": "#50e3c1",
@@ -2238,7 +2238,7 @@ Content-Encoding=gzip
     },
     {
         "id": 203,
-        "name": "????? - 90 min",
+        "name": "????? - 90 ??'",
         "price": "0",
         "duration": 90,
         "color": "#50e3c1",
@@ -2249,7 +2249,7 @@ Content-Encoding=gzip
     },
     {
         "id": 204,
-        "name": "Bikoret / Bnyat ??????",
+        "name": "?????? / ????? ??????",
         "price": "0",
         "duration": 30,
         "color": "#50e3c1",
@@ -2260,7 +2260,7 @@ Content-Encoding=gzip
     },
     {
         "id": 205,
-        "name": "Pgishat ikerut",
+        "name": "????? ??????",
         "price": "0",
         "duration": 60,
         "color": "#fff581",
@@ -2271,7 +2271,7 @@ Content-Encoding=gzip
     },
     {
         "id": 206,
-        "name": "Pgisha im Lak?? - 60 min",
+        "name": "????? ?? ???? - 60 ??'",
         "price": "0",
         "duration": 60,
         "color": "#fff581",
@@ -2282,7 +2282,7 @@ Content-Encoding=gzip
     },
     {
         "id": 207,
-        "name": "Pgisha im Lak?? - 90 min",
+        "name": "????? ?? ???? - 90 ??'",
         "price": "0",
         "duration": 90,
         "color": "#fff581",
@@ -2293,7 +2293,7 @@ Content-Encoding=gzip
     },
     {
         "id": 208,
-        "name": "Pgisha im Lak?? - 120 min",
+        "name": "????? ?? ???? - 120 ??'",
         "price": "0",
         "duration": 120,
         "color": "#fff581",
@@ -2304,7 +2304,7 @@ Content-Encoding=gzip
     },
     {
         "id": 209,
-        "name": "Pgishat ikerut / reshona",
+        "name": "????? ?????? / ??????",
         "price": "0",
         "duration": 90,
         "color": "#759bfa",
@@ -2315,7 +2315,7 @@ Content-Encoding=gzip
     },
     {
         "id": 210,
-        "name": "Tipul - 45 min",
+        "name": "????? - 45 ??'",
         "price": "0",
         "duration": 45,
         "color": "#759bfa",
@@ -2326,7 +2326,7 @@ Content-Encoding=gzip
     },
     {
         "id": 211,
-        "name": "Tipul - 60 min",
+        "name": "????? - 60 ??'",
         "price": "0",
         "duration": 60,
         "color": "#759bfa",
@@ -2337,7 +2337,7 @@ Content-Encoding=gzip
     },
     {
         "id": 212,
-        "name": "Tipul - 90 min",
+        "name": "????? - 90 ??'",
         "price": "0",
         "duration": 90,
         "color": "#759bfa",
@@ -2348,7 +2348,7 @@ Content-Encoding=gzip
     },
     {
         "id": 213,
-        "name": "Tipul - 120 min",
+        "name": "????? - 120 ??'",
         "price": "0",
         "duration": 120,
         "color": "#759bfa",
@@ -2359,7 +2359,7 @@ Content-Encoding=gzip
     },
     {
         "id": 214,
-        "name": "Iuts",
+        "name": "?????",
         "price": "0",
         "duration": 60,
         "color": "#759bfa",
@@ -2370,7 +2370,7 @@ Content-Encoding=gzip
     },
     {
         "id": 215,
-        "name": "Bikoret",
+        "name": "??????",
         "price": "0",
         "duration": 60,
         "color": "#759bfa",

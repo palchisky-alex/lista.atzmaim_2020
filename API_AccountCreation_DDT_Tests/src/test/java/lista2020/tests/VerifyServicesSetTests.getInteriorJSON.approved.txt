@@ -16,7 +16,7 @@ Content-Encoding=gzip
 [
     {
         "id": 1,
-        "name": "Pgishat ikerut",
+        "name": "????? ??????",
         "price": "0",
         "duration": 60,
         "color": "#efefff",
@@ -27,7 +27,7 @@ Content-Encoding=gzip
     },
     {
         "id": 2,
-        "name": "Pgishat avoda ??r? - shaa",
+        "name": "????? ????? ???? - ???",
         "price": "0",
         "duration": 60,
         "color": "#efefff",
@@ -38,7 +38,7 @@ Content-Encoding=gzip
     },
     {
         "id": 3,
-        "name": "Pgishat avoda ?r??? - ??????",
+        "name": "????? ????? ????? - ??????",
         "price": "0",
         "duration": 120,
         "color": "#efefff",
@@ -49,7 +49,7 @@ Content-Encoding=gzip
     },
     {
         "id": 4,
-        "name": "Pgishat avoda ?r??? - 3 shaot",
+        "name": "????? ????? ????? - 3 ????",
         "price": "0",
         "duration": 180,
         "color": "#efefff",
@@ -60,7 +60,7 @@ Content-Encoding=gzip
     },
     {
         "id": 5,
-        "name": "??? shalem im Lak??",
+        "name": "??? ??? ?? ????",
         "price": "0",
         "duration": 360,
         "color": "#efefff",
