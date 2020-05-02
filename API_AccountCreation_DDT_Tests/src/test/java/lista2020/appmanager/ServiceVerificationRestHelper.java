@@ -91,12 +91,13 @@ public class ServiceVerificationRestHelper {
     }
 
     public Set<String> deleteAccount() {
-        String value_delete = null;
-        String accounts_for_deletion = null;
+        String value_delete;
+        String accounts_for_deletion;
+
         System.out.println("//----------------------- DELETION ------------------------//");
         System.out.println("== ACCOUNTS DESIGNED FOR REMOVAL - 20");
         System.out.println("== ACCOUNTS RECEIVED FOR REMOVAL IN TEST: " + accounts.size());
-        System.out.print(accounts);
+        accounts.forEach((k, v) -> System.out.println("//: " + k));
         Set<String> removedAccounts = new HashSet<>();
 
         for (Map.Entry<String, String> entry : accounts.entrySet()) {
