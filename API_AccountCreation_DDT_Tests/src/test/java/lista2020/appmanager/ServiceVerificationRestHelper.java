@@ -16,6 +16,7 @@ public class ServiceVerificationRestHelper {
     String key = "7b7a53e239400a13bd6be6c91c4f6c4e";
     String value;
     String status;
+    String deleted_account;
     Response get_response;
     Response delete_response;
     Response post_response;
@@ -91,15 +92,16 @@ public class ServiceVerificationRestHelper {
 
     public Set<String> deleteAccount() {
         String value_delete = null;
-        String deleted_account = null;
+        String accounts_for_deletion = null;
         System.out.println("//----------------------- DELETION ------------------------//");
         System.out.println("== ACCOUNTS DESIGNED FOR REMOVAL - 20");
         System.out.println("== ACCOUNTS RECEIVED FOR REMOVAL IN TEST: " + accounts.size());
+        System.out.print(accounts);
         Set<String> removedAccounts = new HashSet<>();
 
         for (Map.Entry<String, String> entry : accounts.entrySet()) {
             value_delete = entry.getValue();
-            deleted_account = entry.getKey();
+            accounts_for_deletion = entry.getKey();
 
             delete_response = given().cookies(key, value_delete).
                     header("content-type", "application/x-www-form-urlencoded").
@@ -107,14 +109,19 @@ public class ServiceVerificationRestHelper {
                     header("X-Requested-With", "XMLHttpRequest").
                     when().log().all().
                     delete("/settings/business/account").
-                    then().extract().response();
+                    then().assertThat().statusCode(401).extract().response();
 
             if (delete_response.getStatusCode() == 401) {
-                System.out.println("DELETED ACCOUNT " + " = " + deleted_account + " = STATUS CODE: " + delete_response.getStatusCode());
+                System.out.println("DELETED ACCOUNT " + " = " + accounts_for_deletion + " = STATUS CODE: " + delete_response.getStatusCode());
+                deleted_account = accounts_for_deletion;
                 deleted_account = "removed";
                 removedAccounts.add(deleted_account);
             }
+            else {
+                removedAccounts.add(accounts_for_deletion);
+            }
         }
+
         removedAccounts.remove(deleted_account);
         System.out.println("LIST OF REMOVED ACCOUNTS MUST BE EMPTY, AND CONTAINS: " + removedAccounts);
         return removedAccounts;
