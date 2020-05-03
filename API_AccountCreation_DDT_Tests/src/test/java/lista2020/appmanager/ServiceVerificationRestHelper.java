@@ -66,12 +66,13 @@ public class ServiceVerificationRestHelper {
                 accounts.put(random_mail, value);
             }
             String serviceResponse = getServiceList();
-            return serviceResponse;
+            return  serviceResponse;
         } else {
             System.out.println("STATUS POST CODE:" + post_response.getStatusCode());
             System.out.println("=== ACCOUNT " + random_mail + " NOT CREATED");
         }
-        return null;
+        String status = String.valueOf(post_response.getStatusCode() + " ACCOUNT CREATION STATUS");
+        return status;
     }
 
     public String getServiceList() {
