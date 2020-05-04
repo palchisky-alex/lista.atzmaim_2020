@@ -42,7 +42,7 @@ public class AccountCreationHelper {
     public String createAccount(String mail, String pass, String tel, String timezone, String country, String city) {
         Random random = new Random();
         int randomInt = random.nextInt();
-        String random_for_mail = "api_test_" + randomInt;
+        String random_for_mail = "api_accounts_" + randomInt;
 
         System.out.println("=== CREATE RANDOM ACCOUNT: " + random_for_mail + mail + " AND VERIFY JSON ===");
         accounts.put(random_for_mail + mail, pass);

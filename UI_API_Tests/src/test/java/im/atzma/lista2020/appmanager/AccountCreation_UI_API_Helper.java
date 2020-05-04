@@ -46,7 +46,7 @@ public class AccountCreation_UI_API_Helper {
     public int createAccount() {
         Random random = new Random();
         int randomInt = random.nextInt();
-        String random_for_mail = "api_test_" + randomInt;
+        String random_for_mail = "api_test_ui" + randomInt;
 
         System.out.println("=== CREATE RANDOM ACCOUNT, STATUS MUST BE 201 ===");
         System.out.println();
