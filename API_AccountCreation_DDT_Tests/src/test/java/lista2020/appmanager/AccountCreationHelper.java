@@ -62,7 +62,7 @@ public class AccountCreationHelper {
                 formParam("country", country).
                 formParam("city", city).
                 when().log().all().
-                post("/signup-new-account").then().assertThat().statusCode(201).
+                post("/signup-new-account").then().
                 extract().response();
 
         String responseString = post_response.asString();

@@ -57,8 +57,8 @@ public class AccountCreation_UI_API_Helper {
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 header("X-Requested-With", "XMLHttpRequest").
                 formParam("added", currentDate + " " + currentTime).
-                formParam("email", random_for_mail + "@gmail.com").
-                formParam("pass", "Pa$$w@rd").
+                formParam("email", "Pa$$w@rd").
+                formParam("pass", random_for_mail + "gmail.com").
                 formParam("phone", "0547613154").
                 formParam("permit_ads", "true").
                 formParam("business_types", "[1]").
@@ -67,7 +67,7 @@ public class AccountCreation_UI_API_Helper {
                 formParam("country", "IL").
                 formParam("city", "Tesl Aviv").
                 when().log().all().
-                post("/signup-new-account").then().
+                post("/signup-new-account").then().assertThat().statusCode(201).
                 extract().response();
 
         accountCreationResponse = post_response.asString();
