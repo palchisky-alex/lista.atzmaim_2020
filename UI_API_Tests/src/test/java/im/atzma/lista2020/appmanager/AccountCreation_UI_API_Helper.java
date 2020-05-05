@@ -1,5 +1,6 @@
 package im.atzma.lista2020.appmanager;
 
+import io.qameta.allure.Attachment;
 import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
@@ -27,7 +28,7 @@ public class AccountCreation_UI_API_Helper extends AllureRestAssured {
     DateTimeFormatter dtf2 = DateTimeFormatter.ofPattern("HH:mm:ss");
     String currentTime = time.format(dtf2);
 
-
+    @Attachment
     public String businessTypeResponse() {
         System.out.println("=== GET BUSINESS TYPE JSON ===");
         get_response = given().filter(new AllureRestAssured()).
@@ -39,7 +40,7 @@ public class AccountCreation_UI_API_Helper extends AllureRestAssured {
         System.out.println(responseString);
         return responseString;
     }
-
+    @Attachment
     public int createAccount() {
         Random random = new Random();
         int randomInt = random.nextInt();
@@ -78,13 +79,13 @@ public class AccountCreation_UI_API_Helper extends AllureRestAssured {
         System.out.println("Create account status: " + post_response.getStatusCode());
         return post_response.getStatusCode();
     }
-
+    @Attachment
     public String verifyAccountCreation() {
         System.out.println("ACCOUNT CREATION RESPONSE MUST BE '/en/calendar'");
         System.out.println("Account creation response: " + accountCreationResponse);
         return accountCreationResponse;
     }
-
+    @Attachment
     public int deleteAccount() {
         System.out.println("=== REMOVE ALL ACCOUNTS, STATUS MUST BE 401 ===");
         System.out.println("=== ACCOUNTS DESIGNED FOR REMOVAL - 1 ");
@@ -105,7 +106,7 @@ public class AccountCreation_UI_API_Helper extends AllureRestAssured {
         return delete_response.getStatusCode();
     }
 
-
+    @Attachment
     public String verifyAccountDeletion() {
         System.out.println("=== VERIFY ACCOUNTS DELETION ===");
         System.out.println("=== STATUS MUST BE 302 AND 'LOCATION' VALUE - '/he/login' ===");
