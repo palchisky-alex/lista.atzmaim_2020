@@ -41,7 +41,8 @@ public class AccountCreation_UI_API_Helper extends AllureRestAssured {
         System.out.println(responseString);
         return responseString;
     }
-
+    
+    @Attachment
     public int createAccount() {
         Random random = new Random();
         int randomInt = random.nextInt();
