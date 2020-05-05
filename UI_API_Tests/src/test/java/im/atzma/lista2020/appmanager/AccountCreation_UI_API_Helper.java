@@ -40,7 +40,7 @@ public class AccountCreation_UI_API_Helper extends AllureRestAssured {
         System.out.println(responseString);
         return responseString;
     }
-    @Attachment
+    @Attachment(value = "createAccount", type = "integer")
     public int createAccount() {
         Random random = new Random();
         int randomInt = random.nextInt();
@@ -50,7 +50,7 @@ public class AccountCreation_UI_API_Helper extends AllureRestAssured {
         System.out.println();
         accounts.put(random_for_mail + "@gmail.com", "Pa$$w@rd");
 
-        post_response = given().filter(new AllureRestAssured().setRequestTemplate("custom-http-request.ftl").setResponseTemplate("custom-http-response.ftl")).
+        post_response = given().filter(new AllureRestAssured().setRequestTemplate("http-request.ftl").setResponseTemplate("http-response.ftl")).
                 header("Content-Type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 header("X-Requested-With", "XMLHttpRequest").
