@@ -49,7 +49,7 @@ public class AccountCreation_UI_API_Helper extends AllureRestAssured {
         System.out.println();
         accounts.put(random_for_mail + "@gmail.com", "Pa$$w@rd");
 
-        post_response = given().
+        post_response = given().filter(new AllureRestAssured()).
                 header("Content-Type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 header("X-Requested-With", "XMLHttpRequest").
@@ -92,7 +92,7 @@ public class AccountCreation_UI_API_Helper extends AllureRestAssured {
         for (int i = 0; i < cookies.size(); i++) {
             String value_delete = cookies.get(i);
 
-            delete_response = given().cookies(key, value_delete).
+            delete_response = given().cookies(key, value_delete).filter(new AllureRestAssured()).
                     header("content-type", "application/x-www-form-urlencoded").
                     header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                     header("X-Requested-With", "XMLHttpRequest").
@@ -117,7 +117,7 @@ public class AccountCreation_UI_API_Helper extends AllureRestAssured {
             System.out.println("Deleted mail - " + delete_mail);
             System.out.println("Deleted password - " + delete_password);
 
-            Response response = given().config(RestAssured.config().redirect(redirectConfig().followRedirects(false))).
+            Response response = given().filter(new AllureRestAssured()).
                     header("Content-Type", "application/x-www-form-urlencoded").
                     header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                     header("Accept-Encoding", "gzip, deflate, br").
