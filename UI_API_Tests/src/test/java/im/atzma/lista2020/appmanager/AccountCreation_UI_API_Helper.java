@@ -49,7 +49,7 @@ public class AccountCreation_UI_API_Helper extends AllureRestAssured {
         System.out.println();
         accounts.put(random_for_mail + "@gmail.com", "Pa$$w@rd");
 
-        post_response = given().filter(new AllureRestAssured()).
+        post_response = given().filter(new AllureRestAssured().setRequestTemplate("custom-http-request.ftl").setResponseTemplate("custom-http-response.ftl")).
                 header("Content-Type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 header("X-Requested-With", "XMLHttpRequest").
