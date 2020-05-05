@@ -4,7 +4,10 @@ import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;
 import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.RestAssured;
+import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
@@ -41,7 +44,7 @@ public class AccountCreation_UI_API_Helper extends AllureRestAssured {
         System.out.println(responseString);
         return responseString;
     }
-    
+
     @Attachment
     public int createAccount() {
         Random random = new Random();
@@ -49,10 +52,10 @@ public class AccountCreation_UI_API_Helper extends AllureRestAssured {
         String random_for_mail = "api_test_ui" + randomInt;
 
         System.out.println("=== CREATE RANDOM ACCOUNT, STATUS MUST BE 201 ===");
-        Allure.getLifecycle().updateTestCase((t) ->
-        {t.setStatusDetails( t.getStatusDetails().setMessage("=== CREATE RANDOM ACCOUNT, STATUS MUST BE 201 ===")); });
+        Allure.getLifecycle().updateTestCase((e) ->
+        {e.setStatusDetails( e.getStatusDetails().setMessage("=== CREATE RANDOM ACCOUNT, STATUS MUST BE 201 ===")); });
         accounts.put(random_for_mail + "@gmail.com", "Pa$$w@rd");
-
+        RestAssured.requestSpecification = new RequestSpecBuilder().build().filter(new AllureRestAssured());;
         post_response = given().filter(new AllureRestAssured().setRequestTemplate("http-request.ftl").setResponseTemplate("http-response.ftl")).
                 header("Content-Type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
