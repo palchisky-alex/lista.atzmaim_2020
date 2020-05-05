@@ -1,5 +1,6 @@
 package im.atzma.lista2020.Tests;
 
+import io.qameta.allure.Description;
 import org.approvaltests.Approvals;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -23,8 +24,14 @@ public class AccountCreation_UI_API_Tests extends TestBase {
     }
 
     @Test(priority = 4)
+    @Description("verifyAccountDeletion")
     public void verifyAccountDeletion() {
         Assert.assertEquals(app.accountCreation_UI_API_Helper().verifyAccountDeletion(), "/he/login");
+    }
+
+    @Test(priority = 5)
+    public void getBusinessTypeJSON() {
+        Approvals.verify(app.accountCreation_UI_API_Helper().businessTypeResponse());
     }
 
 

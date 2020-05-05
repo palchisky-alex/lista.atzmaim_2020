@@ -34,6 +34,9 @@ dependencies {
     compile group: 'io.qameta.allure', name: 'allure-testng', version: '2.13.3'
     // https://mvnrepository.com/artifact/io.qameta.allure/allure-java-commons
     compile group: 'io.qameta.allure', name: 'allure-java-commons', version: '2.13.3'
+    // https://mvnrepository.com/artifact/io.qameta.allure/allure-rest-assured
+    compile group: 'io.qameta.allure', name: 'allure-rest-assured', version: '2.13.3'
+
 }
 
 task accountCreation(type: Test) {

@@ -1,5 +1,6 @@
 package im.atzma.lista2020.appmanager;
 
+import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import java.time.LocalDate;
@@ -10,7 +11,7 @@ import java.util.*;
 import static io.restassured.RestAssured.given;
 import static io.restassured.config.RedirectConfig.redirectConfig;
 
-public class AccountCreation_UI_API_Helper {
+public class AccountCreation_UI_API_Helper extends AllureRestAssured {
     String key = "7b7a53e239400a13bd6be6c91c4f6c4e";
     String value;
     String headerValue;
@@ -29,7 +30,7 @@ public class AccountCreation_UI_API_Helper {
 
     public String businessTypeResponse() {
         System.out.println("=== GET BUSINESS TYPE JSON ===");
-        get_response = given().
+        get_response = given().filter(new AllureRestAssured()).
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 header("lang", "en").
                 when().
@@ -53,8 +54,8 @@ public class AccountCreation_UI_API_Helper {
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 header("X-Requested-With", "XMLHttpRequest").
                 formParam("added", currentDate + " " + currentTime).
-                formParam("email", "Pa$$w@rd").
-                formParam("pass", random_for_mail + "gmail.com").
+                formParam("email", random_for_mail + "@gmail.com").
+                formParam("pass", "Pa$$w@rd").
                 formParam("phone", "0547613154").
                 formParam("permit_ads", "true").
                 formParam("business_types", "[1]").

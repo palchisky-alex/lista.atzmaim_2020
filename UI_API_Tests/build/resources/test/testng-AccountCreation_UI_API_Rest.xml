@@ -9,6 +9,7 @@
                     <include name="verifyAccountCreation"/>
                     <include name="deleteAccount"/>
                     <include name="verifyAccountDeletion"/>
+                    <include name="getBusinessTypeJSON"/>
                 </methods>
             </class>
         </classes>
