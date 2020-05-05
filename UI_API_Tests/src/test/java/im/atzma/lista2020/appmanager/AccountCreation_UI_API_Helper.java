@@ -48,6 +48,8 @@ public class AccountCreation_UI_API_Helper extends AllureRestAssured {
         String random_for_mail = "api_test_ui" + randomInt;
 
         System.out.println("=== CREATE RANDOM ACCOUNT, STATUS MUST BE 201 ===");
+        Allure.getLifecycle().updateTestCase((t) ->
+        {t.setStatusDetails( t.getStatusDetails().setMessage("=== CREATE RANDOM ACCOUNT, STATUS MUST BE 201 ===")); });
         accounts.put(random_for_mail + "@gmail.com", "Pa$$w@rd");
 
         post_response = given().filter(new AllureRestAssured().setRequestTemplate("http-request.ftl").setResponseTemplate("http-response.ftl")).
@@ -69,6 +71,8 @@ public class AccountCreation_UI_API_Helper extends AllureRestAssured {
                 extract().response();
 
         accountCreationResponse = post_response.asString();
+        Allure.getLifecycle().updateTestCase((t) -> {t.setStatusDetails( t.getStatusDetails().setMessage(accountCreationResponse));
+        });
         loginCookie = post_response.getCookies();
 
         for (Map.Entry<String, String> entry : loginCookie.entrySet()) {
