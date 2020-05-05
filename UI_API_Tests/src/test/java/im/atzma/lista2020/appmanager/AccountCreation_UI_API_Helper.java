@@ -1,11 +1,7 @@
 package im.atzma.lista2020.appmanager;
 
 import io.restassured.RestAssured;
-import io.restassured.http.Header;
-import io.restassured.http.Headers;
-import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
@@ -27,7 +23,7 @@ public class AccountCreation_UI_API_Helper {
     Map<String, String> accounts = new HashMap<>();
     String currentDate = LocalDate.now().toString();
     LocalTime time = LocalTime.now();
-    DateTimeFormatter dtf2 = DateTimeFormatter.ofPattern("hh:mm:ss");
+    DateTimeFormatter dtf2 = DateTimeFormatter.ofPattern("HH:mm:ss");
     String currentTime = time.format(dtf2);
 
 

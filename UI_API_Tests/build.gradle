@@ -5,7 +5,6 @@ compileTestJava.options.encoding = 'UTF-8'
 repositories {
     mavenCentral()
     mavenLocal()
-    maven(url = "https://dl.bintray.com/qameta/maven-unstable/")
 }
 
 
@@ -35,7 +34,6 @@ dependencies {
     compile group: 'io.qameta.allure', name: 'allure-testng', version: '2.13.3'
     // https://mvnrepository.com/artifact/io.qameta.allure/allure-java-commons
     compile group: 'io.qameta.allure', name: 'allure-java-commons', version: '2.13.3'
-    testCompile("io.qameta.allure:allure-ee-testng:3.28.3")
 }
 
 task accountCreation(type: Test) {

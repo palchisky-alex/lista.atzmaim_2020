@@ -23,7 +23,7 @@ public class AccountCreationHelper {
     Map<String, String> accounts = new HashMap<>();
     String currentDate = LocalDate.now().toString();
     LocalTime time = LocalTime.now();
-    DateTimeFormatter dtf2 = DateTimeFormatter.ofPattern("hh:mm:ss");
+    DateTimeFormatter dtf2 = DateTimeFormatter.ofPattern("HH:mm:ss");
     String currentTime = time.format(dtf2);
 
 
