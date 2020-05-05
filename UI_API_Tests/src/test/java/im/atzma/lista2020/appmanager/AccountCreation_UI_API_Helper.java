@@ -1,5 +1,6 @@
 package im.atzma.lista2020.appmanager;
 
+import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;
 import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.RestAssured;
@@ -40,14 +41,13 @@ public class AccountCreation_UI_API_Helper extends AllureRestAssured {
         System.out.println(responseString);
         return responseString;
     }
-    @Attachment
-    public Response createAccount() {
+
+    public int createAccount() {
         Random random = new Random();
         int randomInt = random.nextInt();
         String random_for_mail = "api_test_ui" + randomInt;
 
         System.out.println("=== CREATE RANDOM ACCOUNT, STATUS MUST BE 201 ===");
-        System.out.println();
         accounts.put(random_for_mail + "@gmail.com", "Pa$$w@rd");
 
         post_response = given().filter(new AllureRestAssured().setRequestTemplate("http-request.ftl").setResponseTemplate("http-response.ftl")).
@@ -77,7 +77,7 @@ public class AccountCreation_UI_API_Helper extends AllureRestAssured {
             System.out.println("Cookie value account creation : " + value);
         }
         System.out.println("Create account status: " + post_response.getStatusCode());
-        return post_response;
+        return post_response.getStatusCode();
     }
     @Attachment
     public String verifyAccountCreation() {
@@ -111,6 +111,9 @@ public class AccountCreation_UI_API_Helper extends AllureRestAssured {
         System.out.println("=== VERIFY ACCOUNTS DELETION ===");
         System.out.println("=== STATUS MUST BE 302 AND 'LOCATION' VALUE - '/he/login' ===");
 
+        Allure.getLifecycle().updateTestCase((t) -> {t.setStatusDetails( t.getStatusDetails().setMessage("=== STATUS MUST BE 302 AND 'LOCATION' VALUE - '/he/login' ==="));
+        });
+
         for (Map.Entry<String, String> entry : accounts.entrySet()) {
             String delete_mail = entry.getKey();
             String delete_password = entry.getValue();
@@ -133,6 +136,8 @@ public class AccountCreation_UI_API_Helper extends AllureRestAssured {
             headerValue = response.getHeader("Location");
             System.out.println("Login into deleted account status: " + response.getStatusCode());
             System.out.println("'Location' header value: " + headerValue);
+            Allure.getLifecycle().updateTestCase((t) -> {t.setStatusDetails( t.getStatusDetails().setMessage("'Location' header value: " + headerValue));
+            });
 
         }
         return headerValue;
