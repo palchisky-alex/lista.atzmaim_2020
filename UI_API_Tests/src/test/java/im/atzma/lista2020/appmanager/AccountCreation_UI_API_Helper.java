@@ -40,8 +40,8 @@ public class AccountCreation_UI_API_Helper extends AllureRestAssured {
         System.out.println(responseString);
         return responseString;
     }
-    @Attachment(value = "createAccount", type = "integer")
-    public int createAccount() {
+    @Attachment
+    public Response createAccount() {
         Random random = new Random();
         int randomInt = random.nextInt();
         String random_for_mail = "api_test_ui" + randomInt;
@@ -65,7 +65,7 @@ public class AccountCreation_UI_API_Helper extends AllureRestAssured {
                 formParam("country", "IL").
                 formParam("city", "Tesl Aviv").
                 when().log().all().
-                post("/signup-new-account").then().assertThat().statusCode(201).
+                post("/signup-new-account").then().
                 extract().response();
 
         accountCreationResponse = post_response.asString();
@@ -77,7 +77,7 @@ public class AccountCreation_UI_API_Helper extends AllureRestAssured {
             System.out.println("Cookie value account creation : " + value);
         }
         System.out.println("Create account status: " + post_response.getStatusCode());
-        return post_response.getStatusCode();
+        return post_response;
     }
     @Attachment
     public String verifyAccountCreation() {
