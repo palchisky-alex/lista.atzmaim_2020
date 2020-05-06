@@ -2,6 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="477da253-88be-40ae-98c6-8ed2876fb43d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../UI_API_Tests/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/30e36bf6-6d81-45a1-86bf-450b6f98f398-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/3119f1d0-d6b5-4ba8-b0f7-3ab94b9a49e8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/31e9debd-fdc1-4f09-a4c1-2cefb2e50f18-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/34368a9a-4c95-4e9c-9238-4e39866b5e96-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/3afaf9ef-a125-44cb-8007-c844c4251448-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/4742352a-e14b-4259-9ea1-be409954480e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/499a18af-7bea-42a1-b6c7-feddf9e518f0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/6d86d4f4-17dd-47d1-bed2-0036e7007524-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/78910eba-e3bd-4da5-b7e7-0d249e10a4cd-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/80cf9496-315f-4b4e-9593-2a8c4edcf4a6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/89e4b2c0-5cea-4427-8fbc-68e7dde57479-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/a1f07da3-d2e4-4566-94b4-3f63c9d01d1f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/a2137f2a-1340-475d-80a4-b6677981c241-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/c7df48f9-9859-4d5e-9a66-66471b2d4577-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/cfc774f5-a333-4995-b264-3b3ec75df7ef-attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/d1849bd9-ccce-4895-b570-04e40d71ee7e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/f44258b0-967c-4d3d-bd8e-e8674f7cfcbd-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/f592ecf8-89dd-4d07-af04-a68aca4dcc1a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/f61b3e95-c058-439e-8ec4-a0ed77dd3138-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/f8fbe2df-ce19-42a2-8417-c05582a7092e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/classes/java/test/im/atzma/lista2020/Tests/AccountCreation_UI_API_Tests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/classes/java/test/im/atzma/lista2020/Tests/TestBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/classes/java/test/im/atzma/lista2020/appmanager/AccountCreation_UI_API_Helper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/classes/java/test/im/atzma/lista2020/appmanager/ApplicationRest_UI_API_Manager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/reports/tests/accountCreation/classes/im.atzma.lista2020.Tests.AccountCreation_UI_API_Tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/reports/tests/accountCreation/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/reports/tests/accountCreation/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/reports/tests/accountCreation/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/reports/tests/accountCreation/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/reports/tests/accountCreation/packages/im.atzma.lista2020.Tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/resources/test/testng-AccountCreation_UI_API_Rest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/test-results/accountCreation/TEST-im.atzma.lista2020.Tests.AccountCreation_UI_API_Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/test-results/accountCreation/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/test-results/accountCreation/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/test-results/accountCreation/binary/results.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/tmp/accountCreation/jar_extract_6537663673878682957_tmp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/AccountCreation_UI_API_Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/AccountCreation_UI_API_Helper.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,6 +63,102 @@
     <ignored path="$PROJECT_DIR$/../UI_API_Tests/out/" />
     <ignored path="D:/allure-docs/.gradle/" />
     <ignored path="D:/allure-docs/build/" />
+    <ignored path="D:/allure-java/.gradle/" />
+    <ignored path="D:/allure-java/build/" />
+    <ignored path="D:/allure-java/out/" />
+    <ignored path="D:/allure-java/allure-assertj/.gradle/" />
+    <ignored path="D:/allure-java/allure-assertj/build/" />
+    <ignored path="D:/allure-java/allure-assertj/out/" />
+    <ignored path="D:/allure-java/allure-attachments/.gradle/" />
+    <ignored path="D:/allure-java/allure-attachments/build/" />
+    <ignored path="D:/allure-java/allure-attachments/out/" />
+    <ignored path="D:/allure-java/allure-citrus/.gradle/" />
+    <ignored path="D:/allure-java/allure-citrus/build/" />
+    <ignored path="D:/allure-java/allure-citrus/out/" />
+    <ignored path="D:/allure-java/allure-cucumber-jvm/.gradle/" />
+    <ignored path="D:/allure-java/allure-cucumber-jvm/build/" />
+    <ignored path="D:/allure-java/allure-cucumber-jvm/out/" />
+    <ignored path="D:/allure-java/allure-cucumber2-jvm/.gradle/" />
+    <ignored path="D:/allure-java/allure-cucumber2-jvm/build/" />
+    <ignored path="D:/allure-java/allure-cucumber2-jvm/out/" />
+    <ignored path="D:/allure-java/allure-cucumber3-jvm/.gradle/" />
+    <ignored path="D:/allure-java/allure-cucumber3-jvm/build/" />
+    <ignored path="D:/allure-java/allure-cucumber3-jvm/out/" />
+    <ignored path="D:/allure-java/allure-cucumber4-jvm/.gradle/" />
+    <ignored path="D:/allure-java/allure-cucumber4-jvm/build/" />
+    <ignored path="D:/allure-java/allure-cucumber4-jvm/out/" />
+    <ignored path="D:/allure-java/allure-cucumber5-jvm/.gradle/" />
+    <ignored path="D:/allure-java/allure-cucumber5-jvm/build/" />
+    <ignored path="D:/allure-java/allure-cucumber5-jvm/out/" />
+    <ignored path="D:/allure-java/allure-descriptions-javadoc/.gradle/" />
+    <ignored path="D:/allure-java/allure-descriptions-javadoc/build/" />
+    <ignored path="D:/allure-java/allure-descriptions-javadoc/out/" />
+    <ignored path="D:/allure-java/allure-httpclient/.gradle/" />
+    <ignored path="D:/allure-java/allure-httpclient/build/" />
+    <ignored path="D:/allure-java/allure-httpclient/out/" />
+    <ignored path="D:/allure-java/allure-java-commons/.gradle/" />
+    <ignored path="D:/allure-java/allure-java-commons/build/" />
+    <ignored path="D:/allure-java/allure-java-commons/out/" />
+    <ignored path="D:/allure-java/allure-java-commons-test/.gradle/" />
+    <ignored path="D:/allure-java/allure-java-commons-test/build/" />
+    <ignored path="D:/allure-java/allure-java-commons-test/out/" />
+    <ignored path="D:/allure-java/allure-java-migration/.gradle/" />
+    <ignored path="D:/allure-java/allure-java-migration/build/" />
+    <ignored path="D:/allure-java/allure-java-migration/out/" />
+    <ignored path="D:/allure-java/allure-jax-rs/.gradle/" />
+    <ignored path="D:/allure-java/allure-jax-rs/build/" />
+    <ignored path="D:/allure-java/allure-jax-rs/out/" />
+    <ignored path="D:/allure-java/allure-jbehave/.gradle/" />
+    <ignored path="D:/allure-java/allure-jbehave/build/" />
+    <ignored path="D:/allure-java/allure-jbehave/out/" />
+    <ignored path="D:/allure-java/allure-jsonunit/.gradle/" />
+    <ignored path="D:/allure-java/allure-jsonunit/build/" />
+    <ignored path="D:/allure-java/allure-jsonunit/out/" />
+    <ignored path="D:/allure-java/allure-junit-platform/.gradle/" />
+    <ignored path="D:/allure-java/allure-junit-platform/build/" />
+    <ignored path="D:/allure-java/allure-junit-platform/out/" />
+    <ignored path="D:/allure-java/allure-junit4/.gradle/" />
+    <ignored path="D:/allure-java/allure-junit4/build/" />
+    <ignored path="D:/allure-java/allure-junit4/out/" />
+    <ignored path="D:/allure-java/allure-junit4-aspect/.gradle/" />
+    <ignored path="D:/allure-java/allure-junit4-aspect/build/" />
+    <ignored path="D:/allure-java/allure-junit4-aspect/out/" />
+    <ignored path="D:/allure-java/allure-junit5/.gradle/" />
+    <ignored path="D:/allure-java/allure-junit5/build/" />
+    <ignored path="D:/allure-java/allure-junit5/out/" />
+    <ignored path="D:/allure-java/allure-junit5-assert/.gradle/" />
+    <ignored path="D:/allure-java/allure-junit5-assert/build/" />
+    <ignored path="D:/allure-java/allure-junit5-assert/out/" />
+    <ignored path="D:/allure-java/allure-model/.gradle/" />
+    <ignored path="D:/allure-java/allure-model/build/" />
+    <ignored path="D:/allure-java/allure-model/out/" />
+    <ignored path="D:/allure-java/allure-okhttp/.gradle/" />
+    <ignored path="D:/allure-java/allure-okhttp/build/" />
+    <ignored path="D:/allure-java/allure-okhttp/out/" />
+    <ignored path="D:/allure-java/allure-okhttp3/.gradle/" />
+    <ignored path="D:/allure-java/allure-okhttp3/build/" />
+    <ignored path="D:/allure-java/allure-okhttp3/out/" />
+    <ignored path="D:/allure-java/allure-rest-assured/.gradle/" />
+    <ignored path="D:/allure-java/allure-rest-assured/build/" />
+    <ignored path="D:/allure-java/allure-rest-assured/out/" />
+    <ignored path="D:/allure-java/allure-scalatest/.gradle/" />
+    <ignored path="D:/allure-java/allure-scalatest/build/" />
+    <ignored path="D:/allure-java/allure-scalatest/out/" />
+    <ignored path="D:/allure-java/allure-selenide/.gradle/" />
+    <ignored path="D:/allure-java/allure-selenide/build/" />
+    <ignored path="D:/allure-java/allure-selenide/out/" />
+    <ignored path="D:/allure-java/allure-servlet-api/.gradle/" />
+    <ignored path="D:/allure-java/allure-servlet-api/build/" />
+    <ignored path="D:/allure-java/allure-servlet-api/out/" />
+    <ignored path="D:/allure-java/allure-spock/.gradle/" />
+    <ignored path="D:/allure-java/allure-spock/build/" />
+    <ignored path="D:/allure-java/allure-spock/out/" />
+    <ignored path="D:/allure-java/allure-spring-web/.gradle/" />
+    <ignored path="D:/allure-java/allure-spring-web/build/" />
+    <ignored path="D:/allure-java/allure-spring-web/out/" />
+    <ignored path="D:/allure-java/allure-testng/.gradle/" />
+    <ignored path="D:/allure-java/allure-testng/build/" />
+    <ignored path="D:/allure-java/allure-testng/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +185,12 @@
       <ProjectState />
     </projectState>
     <projectState path="D:/allure-docs">
+      <ProjectState />
+    </projectState>
+    <projectState path="D:/allure-java">
+      <ProjectState />
+    </projectState>
+    <projectState path="D:/allure-java/gradle">
       <ProjectState />
     </projectState>
   </component>
@@ -103,11 +244,9 @@
         <entry file="file://$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/Tests/AccountCreation_UI_API_Tests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
-                <element signature="e#382#383#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,17 +255,41 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/AccountCreation_UI_API_Helper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="57" column="33" lean-forward="true" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+            <state relative-caret-position="-213">
+              <caret line="65" column="102" selection-start-line="65" selection-start-column="102" selection-end-line="65" selection-end-column="102" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.qameta.allure/allure-rest-assured/2.13.3/358212ff57e1e73745e49bd371c210148c2454fd/allure-rest-assured-2.13.3-sources.jar!/io/qameta/allure/restassured/AllureRestAssured.java">
+        <entry file="file://$PROJECT_DIR$/../UI_API_Tests/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="49" column="48" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="48" />
+            <state relative-caret-position="554">
+              <caret line="32" column="79" selection-start-line="32" selection-start-column="79" selection-end-line="32" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/allure-java/allure-rest-assured/src/test/java/io/qameta/allure/restassured/AllureRestAssuredTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="806">
+              <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/allure-java/allure-rest-assured/src/main/java/io/qameta/allure/restassured/AllureRestAssured.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-483">
+              <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -232,9 +395,9 @@
         <option value="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/Tests/TestBase.java" />
         <option value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/appmanager/AccountCreationHelper.java" />
         <option value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/appmanager/ServiceVerificationRestHelper.java" />
-        <option value="$PROJECT_DIR$/../UI_API_Tests/build.gradle" />
         <option value="$PROJECT_DIR$/../UI_API_Tests/src/test/resources/testng-AccountCreation_UI_API_Rest.xml" />
         <option value="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/Tests/AccountCreation_UI_API_Tests.java" />
+        <option value="$PROJECT_DIR$/../UI_API_Tests/build.gradle" />
         <option value="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/AccountCreation_UI_API_Helper.java" />
       </list>
     </option>
@@ -253,6 +416,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="CatdeaLogs" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -260,66 +424,83 @@
           <expand>
             <path>
               <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="allure-docs" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="io.qameta.allure" type="9c53a853:ProjectViewModuleGroupNode" />
             </path>
             <path>
               <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="allure-docs" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="io.qameta.allure" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="allure-rest-assured" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="allure-docs" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="allure-docs" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="reporting" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="API_AccountCreation_DDT_Tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="API_AccountCreation_DDT_Tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="io.qameta.allure" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="allure-rest-assured" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="API_AccountCreation_DDT_Tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="io.qameta.allure" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="allure-rest-assured" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="io.qameta.allure" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="allure-rest-assured" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="io.qameta.allure" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="allure-rest-assured" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="restassured" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="io.qameta.allure" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="allure-rest-assured" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="API_AccountCreation_DDT_Tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="io.qameta.allure" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="allure-rest-assured" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="API_AccountCreation_DDT_Tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="io.qameta.allure" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="allure-rest-assured" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lista2020" type="462c0819:PsiDirectoryNode" />
+              <item name="restassured" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="API_AccountCreation_DDT_Tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="io.qameta.allure" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="allure-rest-assured" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lista2020" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
               <item name="UI_API_Tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI_API_Tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="allure-results" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
@@ -389,13 +570,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="CatdeaLogs" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588714439823" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588773905590" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/im/atzma/lista2020" />
-    <property name="last_opened_file_path" value="D:/allure-docs/build.gradle" />
+    <property name="last_opened_file_path" value="D:/allure-java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15527344" />
     <property name="project.structure.side.proportion" value="0.36091954" />
@@ -606,7 +786,7 @@
       <window_info id="Learn" order="7" weight="0.32955465" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3268206" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25754884" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25754884" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38365898" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -626,37 +806,6 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Gradle" order="8" weight="0.3554656" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2834008" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Learn" order="7" weight="0.32955465" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3268206" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43694493" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38365898" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="6" weight="0.3285968" />
-      <window_info anchor="bottom" id="TODO" order="7" weight="0.3285968" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3285968" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3285968" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.40497336" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.37122557" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Gradle" order="8" weight="0.3554656" />
-    </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -678,90 +827,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/AccountCreationTests.getBusinessTypeJSON.approved.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng-AppointmentModificationRest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="11" column="171" selection-start-line="11" selection-start-column="171" selection-end-line="11" selection-end-column="171" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.0.0/5a0241ace5a7b8eb3d31556a7d5dd2b3aae9baf/testng-7.0.0-sources.jar!/org/testng/internal/MethodRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.0.0/5a0241ace5a7b8eb3d31556a7d5dd2b3aae9baf/testng-7.0.0-sources.jar!/org/testng/internal/TestMethodWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="132" selection-start-line="132" selection-end-line="132" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.0.0/5a0241ace5a7b8eb3d31556a7d5dd2b3aae9baf/testng-7.0.0-sources.jar!/org/testng/TestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="595" selection-start-line="595" selection-end-line="595" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.0.0/5a0241ace5a7b8eb3d31556a7d5dd2b3aae9baf/testng-7.0.0-sources.jar!/org/testng/SuiteRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="307" selection-start-line="307" selection-end-line="307" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.0.0/5a0241ace5a7b8eb3d31556a7d5dd2b3aae9baf/testng-7.0.0-sources.jar!/org/testng/TestNG.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="1019" selection-start-line="1019" selection-end-line="1019" />
-          <folding>
-            <element signature="e#33923#33924#0" expanded="true" />
-            <element signature="e#33958#33959#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.0.0/5a0241ace5a7b8eb3d31556a7d5dd2b3aae9baf/testng-7.0.0-sources.jar!/org/testng/SuiteRunnerWorker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="96" selection-start-line="96" selection-end-line="96" />
-          <folding>
-            <element signature="e#2908#2909#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.0.0/5a0241ace5a7b8eb3d31556a7d5dd2b3aae9baf/testng-7.0.0-sources.jar!/org/testng/internal/MethodInvocationHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="132" selection-start-line="132" selection-end-line="132" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.0.0/5a0241ace5a7b8eb3d31556a7d5dd2b3aae9baf/testng-7.0.0-sources.jar!/org/testng/Assert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="1246" column="21" selection-start-line="1246" selection-start-column="21" selection-end-line="1246" selection-end-column="21" />
-          <folding>
-            <element signature="e#40887#40888#0" expanded="true" />
-            <element signature="e#40933#40934#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/ClientHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-861">
@@ -1002,13 +1067,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../UI_API_Tests/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="41" column="20" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.qameta.allure/allure-rest-assured/2.13.3/358212ff57e1e73745e49bd371c210148c2454fd/allure-rest-assured-2.13.3-sources.jar!/io/qameta/allure/restassured/AllureRestAssured.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -1044,18 +1102,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/Tests/AccountCreation_UI_API_Tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/4.1.2/2ca0ee9995d7de20c0e3ee6cf5916208ad29fcb9/rest-assured-4.1.2-sources.jar!/io/restassured/specification/RequestSpecification.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2642">
@@ -1063,10 +1109,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../UI_API_Tests/allure-results/0da6b85d-be6a-45a8-be10-4d5e1d84563e-attachment.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../UI_API_Tests/allure-results/1b88341c-cc46-463d-b0d3-f8de104cb7ad-attachment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-189" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../UI_API_Tests/allure-results/1bd1d939-7345-4de7-a4cc-0afdfab06fc3-attachment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-109" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../UI_API_Tests/allure-results/28c4eb92-2121-4213-a85c-9b637c62b4c0-attachment.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../UI_API_Tests/allure-results/2b038af0-7d36-43c6-8f74-f000766ad260-attachment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="34" lean-forward="true" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/allure-java/allure-model/src/main/java/io/qameta/allure/model/ExecutableItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="256" column="28" selection-start-line="256" selection-start-column="28" selection-end-line="256" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.assertj/assertj-core/3.11.1/55362d8f04018b1140c5a370057bf8cd4a63c3de/assertj-core-3.11.1-sources.jar!/org/assertj/core/api/AbstractIterableAssert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="1308" column="103" selection-start-line="1308" selection-start-column="103" selection-end-line="1308" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/allure-java/allure-java-commons-test/src/main/java/io/qameta/allure/test/AllureResults.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/allure-java/allure-rest-assured/src/main/java/io/qameta/allure/restassured/AllureRestAssured.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-483">
+          <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/Tests/AccountCreation_UI_API_Tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../UI_API_Tests/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="32" column="79" selection-start-line="32" selection-start-column="79" selection-end-line="32" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.6/2566800dc841d9d2c5a0d34d807e45d4107dbbdf/commons-io-2.6-sources.jar!/org/apache/commons/io/output/WriterOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="201" column="11" selection-start-line="201" selection-start-column="11" selection-end-line="201" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/allure-java/allure-rest-assured/src/test/java/io/qameta/allure/restassured/AllureRestAssuredTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/AccountCreation_UI_API_Helper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="57" column="33" lean-forward="true" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+        <state relative-caret-position="-213">
+          <caret line="65" column="102" selection-start-line="65" selection-start-column="102" selection-end-line="65" selection-end-column="102" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1122,7 +1256,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>allure-docs</last-edited>
+          <last-edited>allure-java</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

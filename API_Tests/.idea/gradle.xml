@@ -67,6 +67,50 @@
         <option name="useAutoImport" value="true" />
         <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="createEmptyContentRootDirectories" value="true" />
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="D:/allure-java" />
+        <option name="gradleHome" value="C:/Tools/Gradle/gradle-5.6.2" />
+        <option name="modules">
+          <set>
+            <option value="D:/allure-java" />
+            <option value="D:/allure-java/allure-assertj" />
+            <option value="D:/allure-java/allure-attachments" />
+            <option value="D:/allure-java/allure-citrus" />
+            <option value="D:/allure-java/allure-cucumber-jvm" />
+            <option value="D:/allure-java/allure-cucumber2-jvm" />
+            <option value="D:/allure-java/allure-cucumber3-jvm" />
+            <option value="D:/allure-java/allure-cucumber4-jvm" />
+            <option value="D:/allure-java/allure-cucumber5-jvm" />
+            <option value="D:/allure-java/allure-descriptions-javadoc" />
+            <option value="D:/allure-java/allure-httpclient" />
+            <option value="D:/allure-java/allure-java-commons" />
+            <option value="D:/allure-java/allure-java-commons-test" />
+            <option value="D:/allure-java/allure-java-migration" />
+            <option value="D:/allure-java/allure-jax-rs" />
+            <option value="D:/allure-java/allure-jbehave" />
+            <option value="D:/allure-java/allure-jsonunit" />
+            <option value="D:/allure-java/allure-junit-platform" />
+            <option value="D:/allure-java/allure-junit4" />
+            <option value="D:/allure-java/allure-junit4-aspect" />
+            <option value="D:/allure-java/allure-junit5" />
+            <option value="D:/allure-java/allure-junit5-assert" />
+            <option value="D:/allure-java/allure-model" />
+            <option value="D:/allure-java/allure-okhttp" />
+            <option value="D:/allure-java/allure-okhttp3" />
+            <option value="D:/allure-java/allure-rest-assured" />
+            <option value="D:/allure-java/allure-scalatest" />
+            <option value="D:/allure-java/allure-selenide" />
+            <option value="D:/allure-java/allure-servlet-api" />
+            <option value="D:/allure-java/allure-spock" />
+            <option value="D:/allure-java/allure-spring-web" />
+            <option value="D:/allure-java/allure-testng" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
     </option>
   </component>
 </project>

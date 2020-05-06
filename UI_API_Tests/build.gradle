@@ -7,7 +7,6 @@ repositories {
     mavenLocal()
 }
 
-
 dependencies {
     
     implementation 'org.testng:testng:7.0.0'
@@ -36,6 +35,9 @@ dependencies {
     compile group: 'io.qameta.allure', name: 'allure-java-commons', version: '2.13.3'
     // https://mvnrepository.com/artifact/io.qameta.allure/allure-rest-assured
     compile group: 'io.qameta.allure', name: 'allure-rest-assured', version: '2.13.3'
+
+    // https://mvnrepository.com/artifact/org.apache.commons/commons-lang3
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.10'
 
 }
 
