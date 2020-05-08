@@ -11,8 +11,6 @@ import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.response.Response;
-import io.restassured.specification.RequestSpecification;
-import org.apache.commons.io.output.WriterOutputStream;
 
 import java.io.PrintStream;
 import java.io.StringWriter;
@@ -163,17 +161,6 @@ public class AccountCreation_UI_API_Helper extends RequestSpecBuilder {
 
         }
         return headerValue;
-    }
-
-    public void dd () {
-        final StringWriter writerReqest= new StringWriter();
-        final StringWriter writerResponse = new StringWriter();
-        final PrintStream requestVar = new PrintStream(new WriterOutputStream(writerReqest), true);
-        final PrintStream responseVar = new PrintStream(new WriterOutputStream(writerResponse), true);
-        given(). filters(new ResponseLoggingFilter(responseVar),
-                new RequestLoggingFilter(requestVar)). body("somebody").
-                when().
-                post("https://httpbin.org/post");
     }
 
 }
