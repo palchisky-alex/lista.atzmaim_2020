@@ -2,10 +2,16 @@ package im.atzma.lista2020.Tests;
 
 
 import im.atzma.lista2020.appmanager.ApplicationRest_UI_API_Manager;
+import io.restassured.RestAssured;
+import io.restassured.filter.log.LogDetail;
+import io.restassured.filter.log.RequestLoggingFilter;
+import io.restassured.filter.log.ResponseLoggingFilter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+
+import java.io.PrintStream;
 
 
 public class TestBase_UI_API {
@@ -20,6 +26,9 @@ public class TestBase_UI_API {
 
     @BeforeSuite (alwaysRun = true)
     public void setUp() throws Exception {
+        RestAssured.filters(
+                ResponseLoggingFilter.responseLogger(),
+                new RequestLoggingFilter());
       app.init();
 
 

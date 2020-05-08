@@ -5,6 +5,7 @@ import io.qameta.allure.Attachment;
 import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.config.LogConfig;
 import io.restassured.filter.log.LogDetail;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
@@ -41,7 +42,7 @@ public class AccountCreation_UI_API_Helper  {
     public String businessTypeResponse() {
 
         System.out.println("=== GET BUSINESS TYPE JSON ===");
-        get_response = given().filter(new AllureRestAssured()).
+        get_response = given().
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 header("lang", "en").
                 when().
@@ -53,6 +54,9 @@ public class AccountCreation_UI_API_Helper  {
 
 
     public int createAccount() {
+        LogConfig logconfig = new LogConfig().enableLoggingOfRequestAndResponseIfValidationFails().enablePrettyPrinting(true);
+        RestAssured.config().logConfig(logconfig);
+
         Random random = new Random();
         int randomInt = random.nextInt();
         String random_for_mail = "api_test_ui" + randomInt;
@@ -60,17 +64,13 @@ public class AccountCreation_UI_API_Helper  {
         System.out.println("=== CREATE RANDOM ACCOUNT, STATUS MUST BE 201 ===");
         accounts.put(random_for_mail + "@gmail.com", "Pa$$w@rd");
 
-//        final StringWriter writerReqest= new StringWriter();
-//        final StringWriter writerResponse = new StringWriter();
-//        final PrintStream requestVar = new PrintStream(new WriterOutputStream(writerReqest), true);
-//        final PrintStream responseVar = new PrintStream(new WriterOutputStream(writerResponse), true);
         String requestTemplatePath = "resources/tpl/http-request.ftl";
         String responseTemplatePath = "resources/tpl/http-response.ftl";
 
 
         // filters(new CustomAllureRestAssured().setRequestTemplate(requestTemplatePath).setResponseTemplate(responseTemplatePath)).
 
-        post_response = given().
+        post_response = given().log().all().
                 header("Content-Type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 header("X-Requested-With", "XMLHttpRequest").

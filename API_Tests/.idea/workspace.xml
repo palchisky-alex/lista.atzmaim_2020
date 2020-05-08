@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="477da253-88be-40ae-98c6-8ed2876fb43d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/Tests/AccountCreation_UI_API_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/Tests/AccountCreation_UI_API_Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/Tests/TestBase_UI_API.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/Tests/TestBase_UI_API.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/AccountCreation_UI_API_Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/AccountCreation_UI_API_Helper.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -208,11 +209,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/Tests/AccountCreation_UI_API_Tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="36" column="49" lean-forward="true" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+            <state relative-caret-position="231">
+              <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -224,7 +225,19 @@
         <entry file="file://$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/AccountCreation_UI_API_Helper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
-              <caret line="34" selection-start-line="34" selection-end-line="37" selection-end-column="43" />
+              <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/Tests/TestBase_UI_API.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -342,10 +355,10 @@
         <option value="$PROJECT_DIR$/../UI_API_Tests/build.gradle" />
         <option value="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/CustomAllureRestAssured.java" />
         <option value="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/Tests/TestBase.java" />
-        <option value="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/Tests/TestBase_UI_API.java" />
         <option value="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/LogListener.java" />
-        <option value="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/AccountCreation_UI_API_Helper.java" />
         <option value="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/Tests/AccountCreation_UI_API_Tests.java" />
+        <option value="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/Tests/TestBase_UI_API.java" />
+        <option value="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/AccountCreation_UI_API_Helper.java" />
       </list>
     </option>
   </component>
@@ -431,7 +444,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588974174536" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588975680983" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/im/atzma/lista2020" />
     <property name="last_opened_file_path" value="D:/rest-assured-untappd" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -654,7 +667,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23805667" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23805667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1009,27 +1022,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/ApplicationRest_UI_API_Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../UI_API_Tests/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/Tests/TestBase_UI_API.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1051,6 +1047,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/ApplicationRest_UI_API_Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/LogListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -1064,14 +1067,24 @@
     <entry file="file://$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/AccountCreation_UI_API_Helper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
-          <caret line="34" selection-start-line="34" selection-end-line="37" selection-end-column="43" />
+          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/Tests/AccountCreation_UI_API_Tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="36" column="49" lean-forward="true" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+        <state relative-caret-position="231">
+          <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/Tests/TestBase_UI_API.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
