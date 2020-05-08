@@ -56,19 +56,6 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="createEmptyContentRootDirectories" value="true" />
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="D:/allure-docs" />
-        <option name="gradleHome" value="C:/Tools/Gradle/gradle-5.6.2" />
-        <option name="modules">
-          <set>
-            <option value="D:/allure-docs" />
-          </set>
-        </option>
-        <option name="useAutoImport" value="true" />
-        <option name="useQualifiedModuleNames" value="true" />
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="createEmptyContentRootDirectories" value="true" />
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="D:/allure-java" />
         <option name="gradleHome" value="C:/Tools/Gradle/gradle-5.6.2" />

@@ -1,16 +1,15 @@
 package im.atzma.lista2020.Tests;
 
 import im.atzma.lista2020.appmanager.LogListener;
-import io.qameta.allure.Attachment;
 import io.qameta.allure.Description;
+import org.apache.commons.logging.Log;
 import org.approvaltests.Approvals;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-@Listeners(LogListener.class)
-public class AccountCreation_UI_API_Tests extends TestBase {
-
+@Listeners({LogListener.class })
+public class AccountCreation_UI_API_Tests extends TestBase_UI_API {
 
     @Test(priority = 1)
     public void createAccount() {
@@ -20,6 +19,7 @@ public class AccountCreation_UI_API_Tests extends TestBase {
 
     @Test(priority = 2)
     public void verifyAccountCreation() {
+
         Assert.assertEquals(app.accountCreation_UI_API_Helper().verifyAccountCreation(), "/en/calendar");
     }
 

@@ -9,9 +9,7 @@ import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import org.apache.commons.io.output.WriterOutputStream;
 import org.testng.annotations.Listeners;
-
 import java.io.PrintStream;
 import java.io.StringWriter;
 import java.time.LocalDate;
@@ -21,7 +19,7 @@ import java.util.*;
 
 import static io.restassured.RestAssured.given;
 
-public class AccountCreation_UI_API_Helper extends RequestSpecBuilder {
+public class AccountCreation_UI_API_Helper  {
     String key = "7b7a53e239400a13bd6be6c91c4f6c4e";
     String value;
     String headerValue;
@@ -67,10 +65,6 @@ public class AccountCreation_UI_API_Helper extends RequestSpecBuilder {
         String requestTemplatePath = "resources/tpl/http-request.ftl";
         String responseTemplatePath = "resources/tpl/http-response.ftl";
 
-        StringWriter writerReqes = new StringWriter();
-        final StringWriter writerResponse = new StringWriter();
-        final PrintStream requestVar = new PrintStream(new WriterOutputStream(writerReqes));
-        final PrintStream responseVar = new PrintStream(new WriterOutputStream(writerResponse), true);
 
         // filters(new CustomAllureRestAssured().setRequestTemplate(requestTemplatePath).setResponseTemplate(responseTemplatePath)).
 

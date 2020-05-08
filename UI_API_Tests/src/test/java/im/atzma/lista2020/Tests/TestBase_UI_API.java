@@ -1,5 +1,6 @@
 package im.atzma.lista2020.Tests;
 
+
 import im.atzma.lista2020.appmanager.ApplicationRest_UI_API_Manager;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -7,9 +8,9 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
 
-public class TestBase {
-    //Logger logger = LoggerFactory.getLogger(TestBase.class);
-    protected static final ApplicationRest_UI_API_Manager app = new ApplicationRest_UI_API_Manager();
+public class TestBase_UI_API {
+    //Logger logger = LoggerFactory.getLogger(TestBase_UI_API.class);
+     static final ApplicationRest_UI_API_Manager app = new ApplicationRest_UI_API_Manager();
 
     @BeforeMethod (alwaysRun = true)
     public void printStart() {

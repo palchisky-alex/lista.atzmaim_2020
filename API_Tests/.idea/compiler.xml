@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="com.untappd.api.test.api-tests.main" target="11" />
+      <module name="com.untappd.api.test.api-tests.test" target="11" />
+      <module name="io.qameta.allure.allure-assertj.main" target="1.8" />
+      <module name="io.qameta.allure.allure-assertj.test" target="1.8" />
+      <module name="io.qameta.allure.allure-attachments.main" target="1.8" />
+      <module name="io.qameta.allure.allure-attachments.test" target="1.8" />
+      <module name="io.qameta.allure.allure-citrus.main" target="1.8" />
+      <module name="io.qameta.allure.allure-citrus.test" target="1.8" />
+      <module name="io.qameta.allure.allure-cucumber-jvm.main" target="1.8" />
+      <module name="io.qameta.allure.allure-cucumber-jvm.test" target="1.8" />
+      <module name="io.qameta.allure.allure-cucumber2-jvm.main" target="1.8" />
+      <module name="io.qameta.allure.allure-cucumber2-jvm.test" target="1.8" />
+      <module name="io.qameta.allure.allure-cucumber3-jvm.main" target="1.8" />
+      <module name="io.qameta.allure.allure-cucumber3-jvm.test" target="1.8" />
+      <module name="io.qameta.allure.allure-cucumber4-jvm.main" target="1.8" />
+      <module name="io.qameta.allure.allure-cucumber4-jvm.test" target="1.8" />
+      <module name="io.qameta.allure.allure-cucumber5-jvm.main" target="1.8" />
+      <module name="io.qameta.allure.allure-cucumber5-jvm.test" target="1.8" />
+      <module name="io.qameta.allure.allure-descriptions-javadoc.main" target="1.8" />
+      <module name="io.qameta.allure.allure-descriptions-javadoc.test" target="1.8" />
+      <module name="io.qameta.allure.allure-httpclient.main" target="1.8" />
+      <module name="io.qameta.allure.allure-httpclient.test" target="1.8" />
+      <module name="io.qameta.allure.allure-java-commons-test.main" target="1.8" />
+      <module name="io.qameta.allure.allure-java-commons-test.test" target="1.8" />
+      <module name="io.qameta.allure.allure-java-commons.main" target="1.8" />
+      <module name="io.qameta.allure.allure-java-commons.test" target="1.8" />
+      <module name="io.qameta.allure.allure-java-migration.main" target="1.8" />
+      <module name="io.qameta.allure.allure-java-migration.test" target="1.8" />
+      <module name="io.qameta.allure.allure-java.main" target="1.8" />
+      <module name="io.qameta.allure.allure-java.test" target="1.8" />
+      <module name="io.qameta.allure.allure-jax-rs.main" target="1.8" />
+      <module name="io.qameta.allure.allure-jax-rs.test" target="1.8" />
+      <module name="io.qameta.allure.allure-jbehave.main" target="1.8" />
+      <module name="io.qameta.allure.allure-jbehave.test" target="1.8" />
+      <module name="io.qameta.allure.allure-jsonunit.main" target="1.8" />
+      <module name="io.qameta.allure.allure-jsonunit.test" target="1.8" />
+      <module name="io.qameta.allure.allure-junit-platform.main" target="1.8" />
+      <module name="io.qameta.allure.allure-junit-platform.test" target="1.8" />
+      <module name="io.qameta.allure.allure-junit4-aspect.main" target="1.8" />
+      <module name="io.qameta.allure.allure-junit4-aspect.test" target="1.8" />
+      <module name="io.qameta.allure.allure-junit4.main" target="1.8" />
+      <module name="io.qameta.allure.allure-junit4.test" target="1.8" />
+      <module name="io.qameta.allure.allure-junit5-assert.main" target="1.8" />
+      <module name="io.qameta.allure.allure-junit5-assert.test" target="1.8" />
+      <module name="io.qameta.allure.allure-junit5.main" target="1.8" />
+      <module name="io.qameta.allure.allure-junit5.test" target="1.8" />
+      <module name="io.qameta.allure.allure-model.main" target="1.8" />
+      <module name="io.qameta.allure.allure-model.test" target="1.8" />
+      <module name="io.qameta.allure.allure-okhttp.main" target="1.8" />
+      <module name="io.qameta.allure.allure-okhttp.test" target="1.8" />
+      <module name="io.qameta.allure.allure-okhttp3.main" target="1.8" />
+      <module name="io.qameta.allure.allure-okhttp3.test" target="1.8" />
+      <module name="io.qameta.allure.allure-rest-assured.main" target="1.8" />
+      <module name="io.qameta.allure.allure-rest-assured.test" target="1.8" />
+      <module name="io.qameta.allure.allure-scalatest.main" target="1.8" />
+      <module name="io.qameta.allure.allure-scalatest.test" target="1.8" />
+      <module name="io.qameta.allure.allure-selenide.main" target="1.8" />
+      <module name="io.qameta.allure.allure-selenide.test" target="1.8" />
+      <module name="io.qameta.allure.allure-servlet-api.main" target="1.8" />
+      <module name="io.qameta.allure.allure-servlet-api.test" target="1.8" />
+      <module name="io.qameta.allure.allure-spock.main" target="1.8" />
+      <module name="io.qameta.allure.allure-spock.test" target="1.8" />
+      <module name="io.qameta.allure.allure-spring-web.main" target="1.8" />
+      <module name="io.qameta.allure.allure-spring-web.test" target="1.8" />
+      <module name="io.qameta.allure.allure-testng.main" target="1.8" />
+      <module name="io.qameta.allure.allure-testng.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

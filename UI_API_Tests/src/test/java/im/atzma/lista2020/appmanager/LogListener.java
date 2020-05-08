@@ -5,11 +5,11 @@ import io.restassured.RestAssured;
 import io.restassured.filter.log.LogDetail;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
-import org.apache.commons.io.output.ByteArrayOutputStream;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
+import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
 public class LogListener implements ITestListener {
