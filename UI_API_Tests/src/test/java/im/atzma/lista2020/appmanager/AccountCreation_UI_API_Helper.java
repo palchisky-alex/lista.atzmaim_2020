@@ -4,6 +4,7 @@ import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;
 import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.filter.log.LogDetail;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.response.Response;
@@ -71,8 +72,10 @@ public class AccountCreation_UI_API_Helper extends RequestSpecBuilder {
         final PrintStream requestVar = new PrintStream(new WriterOutputStream(writerReqes));
         final PrintStream responseVar = new PrintStream(new WriterOutputStream(writerResponse), true);
 
-        post_response = given().// filters(new CustomAllureRestAssured().setRequestTemplate(requestTemplatePath).setResponseTemplate(responseTemplatePath)).
+        // filters(new CustomAllureRestAssured().setRequestTemplate(requestTemplatePath).setResponseTemplate(responseTemplatePath)).
 
+        post_response = given().filters(new ResponseLoggingFilter(LogDetail.ALL),
+                new RequestLoggingFilter(LogDetail.ALL)).
                 header("Content-Type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 header("X-Requested-With", "XMLHttpRequest").
