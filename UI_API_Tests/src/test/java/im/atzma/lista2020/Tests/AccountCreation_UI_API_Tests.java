@@ -1,11 +1,13 @@
 package im.atzma.lista2020.Tests;
 
+import im.atzma.lista2020.appmanager.LogListener;
 import io.qameta.allure.Attachment;
 import io.qameta.allure.Description;
 import org.approvaltests.Approvals;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
+@Listeners(LogListener.class)
 public class AccountCreation_UI_API_Tests extends TestBase {
 
 
