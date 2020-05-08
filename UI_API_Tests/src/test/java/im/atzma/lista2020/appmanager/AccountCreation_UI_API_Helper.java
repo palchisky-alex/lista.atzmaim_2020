@@ -1,7 +1,10 @@
 package im.atzma.lista2020.appmanager;
 
 import io.qameta.allure.Allure;
+import io.qameta.allure.AllureLifecycle;
 import io.qameta.allure.Attachment;
+import io.qameta.allure.model.Status;
+import io.qameta.allure.model.StepResult;
 import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
@@ -21,7 +24,7 @@ import java.util.*;
 import static io.restassured.RestAssured.given;
 import static io.restassured.config.RedirectConfig.redirectConfig;
 
-public class AccountCreation_UI_API_Helper extends AllureRestAssured {
+public class AccountCreation_UI_API_Helper extends RequestSpecBuilder {
     String key = "7b7a53e239400a13bd6be6c91c4f6c4e";
     String value;
     String headerValue;
@@ -60,13 +63,13 @@ public class AccountCreation_UI_API_Helper extends AllureRestAssured {
         System.out.println("=== CREATE RANDOM ACCOUNT, STATUS MUST BE 201 ===");
         accounts.put(random_for_mail + "@gmail.com", "Pa$$w@rd");
 
-        final StringWriter writerReqest= new StringWriter();
-        final StringWriter writerResponse = new StringWriter();
-        final PrintStream requestVar = new PrintStream(new WriterOutputStream(writerReqest), true);
-        final PrintStream responseVar = new PrintStream(new WriterOutputStream(writerResponse), true);
+//        final StringWriter writerReqest= new StringWriter();
+//        final StringWriter writerResponse = new StringWriter();
+//        final PrintStream requestVar = new PrintStream(new WriterOutputStream(writerReqest), true);
+//        final PrintStream responseVar = new PrintStream(new WriterOutputStream(writerResponse), true);
 
-        post_response = given(). filters(new ResponseLoggingFilter(responseVar),
-                new RequestLoggingFilter(requestVar)).
+
+        post_response = given(). filters(new CustomAllureRestAssured()).
                 header("Content-Type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 header("X-Requested-With", "XMLHttpRequest").

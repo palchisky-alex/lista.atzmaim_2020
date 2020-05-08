@@ -4,43 +4,6 @@
     <list default="true" id="477da253-88be-40ae-98c6-8ed2876fb43d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../UI_API_Tests/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/30e36bf6-6d81-45a1-86bf-450b6f98f398-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/3119f1d0-d6b5-4ba8-b0f7-3ab94b9a49e8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/31e9debd-fdc1-4f09-a4c1-2cefb2e50f18-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/34368a9a-4c95-4e9c-9238-4e39866b5e96-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/3afaf9ef-a125-44cb-8007-c844c4251448-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/4742352a-e14b-4259-9ea1-be409954480e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/499a18af-7bea-42a1-b6c7-feddf9e518f0-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/6d86d4f4-17dd-47d1-bed2-0036e7007524-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/78910eba-e3bd-4da5-b7e7-0d249e10a4cd-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/80cf9496-315f-4b4e-9593-2a8c4edcf4a6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/89e4b2c0-5cea-4427-8fbc-68e7dde57479-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/a1f07da3-d2e4-4566-94b4-3f63c9d01d1f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/a2137f2a-1340-475d-80a4-b6677981c241-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/c7df48f9-9859-4d5e-9a66-66471b2d4577-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/cfc774f5-a333-4995-b264-3b3ec75df7ef-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/d1849bd9-ccce-4895-b570-04e40d71ee7e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/f44258b0-967c-4d3d-bd8e-e8674f7cfcbd-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/f592ecf8-89dd-4d07-af04-a68aca4dcc1a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/f61b3e95-c058-439e-8ec4-a0ed77dd3138-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/allure-results/f8fbe2df-ce19-42a2-8417-c05582a7092e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/classes/java/test/im/atzma/lista2020/Tests/AccountCreation_UI_API_Tests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/classes/java/test/im/atzma/lista2020/Tests/TestBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/classes/java/test/im/atzma/lista2020/appmanager/AccountCreation_UI_API_Helper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/classes/java/test/im/atzma/lista2020/appmanager/ApplicationRest_UI_API_Manager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/reports/tests/accountCreation/classes/im.atzma.lista2020.Tests.AccountCreation_UI_API_Tests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/reports/tests/accountCreation/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/reports/tests/accountCreation/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/reports/tests/accountCreation/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/reports/tests/accountCreation/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/reports/tests/accountCreation/packages/im.atzma.lista2020.Tests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/resources/test/testng-AccountCreation_UI_API_Rest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/test-results/accountCreation/TEST-im.atzma.lista2020.Tests.AccountCreation_UI_API_Tests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/test-results/accountCreation/binary/output.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/test-results/accountCreation/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/test-results/accountCreation/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/tmp/accountCreation/jar_extract_6537663673878682957_tmp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/AccountCreation_UI_API_Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/AccountCreation_UI_API_Helper.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -159,6 +122,9 @@
     <ignored path="D:/allure-java/allure-testng/.gradle/" />
     <ignored path="D:/allure-java/allure-testng/build/" />
     <ignored path="D:/allure-java/allure-testng/out/" />
+    <ignored path="D:/rest-assured-untappd/.gradle/" />
+    <ignored path="D:/rest-assured-untappd/build/" />
+    <ignored path="D:/rest-assured-untappd/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,6 +157,9 @@
       <ProjectState />
     </projectState>
     <projectState path="D:/allure-java/gradle">
+      <ProjectState />
+    </projectState>
+    <projectState path="D:/rest-assured-untappd">
       <ProjectState />
     </projectState>
   </component>
@@ -240,23 +209,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/Tests/AccountCreation_UI_API_Tests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/AccountCreation_UI_API_Helper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-213">
-              <caret line="65" column="102" selection-start-line="65" selection-start-column="102" selection-end-line="65" selection-end-column="102" />
+            <state relative-caret-position="735">
+              <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -265,19 +222,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../UI_API_Tests/build.gradle">
+        <entry file="file://$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/CustomAllureRestAssured.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="32" column="79" selection-start-line="32" selection-start-column="79" selection-end-line="32" selection-end-column="79" />
+            <state relative-caret-position="231">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/allure-java/allure-rest-assured/src/test/java/io/qameta/allure/restassured/AllureRestAssuredTest.java">
+        <entry file="file://D:/rest-assured-untappd/src/test/java/requests/UntappdAPIRequests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="806">
-              <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
+            <state relative-caret-position="288">
+              <caret line="103" column="22" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -286,10 +243,69 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/allure-java/allure-rest-assured/src/main/java/io/qameta/allure/restassured/AllureRestAssured.java">
+        <entry file="file://D:/rest-assured-untappd/src/test/java/apitests/HelpersTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-483">
-              <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
+            <state relative-caret-position="143">
+              <caret line="32" column="61" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/rest-assured-untappd/src/test/java/apitests/EditCheckInTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="61" column="60" lean-forward="true" selection-start-line="61" selection-start-column="60" selection-end-line="61" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/rest-assured-untappd/src/test/java/apitests/BaseAPITest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="23" column="70" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/rest-assured-untappd/src/test/java/utils/restassured/RequestSpecificationUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/rest-assured-untappd/src/test/java/utils/restassured/RequestSpecificationBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="76" column="40" lean-forward="true" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#681#682#0" expanded="true" />
+                <element signature="e#704#705#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/rest-assured-untappd/src/test/java/utils/restassured/CustomAllureRestAssured.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -306,7 +322,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ניסיון</find>
       <find>איפור</find>
       <find>חבילת</find>
       <find>שיער</find>
@@ -336,6 +351,7 @@
       <find>to</find>
       <find>telepho</find>
       <find>201</find>
+      <find>addFil</find>
     </findStrings>
     <dirStrings>
       <dir>D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\src\test\java\im\atzma\lista2020\tests</dir>
@@ -348,11 +364,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/resources/testng-ServiceModificationRest.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/ServiceModificationTests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/HelperBase.java" />
-        <option value="$PROJECT_DIR$/../API_AccountCreation_Tests/src/test/java/lista2020/tests/AccountCreationTests.java" />
-        <option value="$PROJECT_DIR$/../API_AccountCreation_Tests/src/test/java/lista2020/tests/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/resources/rest.properties" />
         <option value="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentCreationTests.java" />
         <option value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/appmanager/Excel.java" />
@@ -398,6 +409,11 @@
         <option value="$PROJECT_DIR$/../UI_API_Tests/src/test/resources/testng-AccountCreation_UI_API_Rest.xml" />
         <option value="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/Tests/AccountCreation_UI_API_Tests.java" />
         <option value="$PROJECT_DIR$/../UI_API_Tests/build.gradle" />
+        <option value="D:/rest-assured-untappd/src/test/java/utils/restassured/CustomAllureRestAssured.java" />
+        <option value="D:/rest-assured-untappd/src/test/java/apitests/AuthenticateTest.java" />
+        <option value="D:/rest-assured-untappd/src/test/java/utils/TestDataUtils.java" />
+        <option value="D:/rest-assured-untappd/src/test/java/utils/restassured/RequestSpecificationBuilder.java" />
+        <option value="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/CustomAllureRestAssured.java" />
         <option value="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/AccountCreation_UI_API_Helper.java" />
       </list>
     </option>
@@ -416,109 +432,282 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="CatdeaLogs" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="CatdeaLogs" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="io.qameta.allure" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="com" type="9c53a853:ProjectViewModuleGroupNode" />
             </path>
             <path>
               <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="io.qameta.allure" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="allure-rest-assured" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="untappd" type="9c53a853:ProjectViewModuleGroupNode" />
             </path>
             <path>
               <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="io.qameta.allure" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="allure-rest-assured" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="untappd" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="api" type="9c53a853:ProjectViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="untappd" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="api" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="test" type="9c53a853:ProjectViewModuleGroupNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="untappd" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="api" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="test" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="rest-assured-untappd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="untappd" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="api" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="test" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="rest-assured-untappd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="io.qameta.allure" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="allure-rest-assured" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="untappd" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="api" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="test" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="rest-assured-untappd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="io.qameta.allure" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="allure-rest-assured" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="untappd" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="api" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="test" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="rest-assured-untappd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="io.qameta.allure" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="allure-rest-assured" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="untappd" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="api" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="test" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="rest-assured-untappd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="response" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="untappd" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="api" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="test" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="rest-assured-untappd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="untappd" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="api" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="test" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="rest-assured-untappd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="untappd" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="api" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="test" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="rest-assured-untappd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="json_schema" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="untappd" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="api" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="test" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="rest-assured-untappd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="untappd" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="api" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="test" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="rest-assured-untappd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="untappd" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="api" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="test" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="rest-assured-untappd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="apitests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="untappd" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="api" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="test" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="rest-assured-untappd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="untappd" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="api" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="test" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="rest-assured-untappd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="requests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="untappd" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="api" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="test" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="rest-assured-untappd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="untappd" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="api" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="test" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="rest-assured-untappd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
               <item name="restassured" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="io.qameta.allure" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="allure-rest-assured" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="io.qameta.allure" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="allure-rest-assured" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="io.qameta.allure" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="allure-rest-assured" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="restassured" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="io.qameta.allure" type="9c53a853:ProjectViewModuleGroupNode" />
-              <item name="allure-rest-assured" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="untappd" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="api" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="test" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="rest-assured-untappd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UI_API_Tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UI_API_Tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="allure-results" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UI_API_Tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="untappd" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="api" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="test" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="rest-assured-untappd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UI_API_Tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UI_API_Tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="untappd" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="api" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="test" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="rest-assured-untappd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="development" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="untappd" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="api" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="test" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="rest-assured-untappd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="untappd" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="api" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="test" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="rest-assured-untappd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="testdata" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="com" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="untappd" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="api" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="test" type="9c53a853:ProjectViewModuleGroupNode" />
+              <item name="rest-assured-untappd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="tpl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI_API_Tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI_API_Tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
@@ -555,15 +744,6 @@
               <item name="UI_API_Tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lista2020" type="462c0819:PsiDirectoryNode" />
-              <item name="Tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UI_API_Tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -573,9 +753,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588773905590" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588943006769" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/im/atzma/lista2020" />
-    <property name="last_opened_file_path" value="D:/allure-java" />
+    <property name="last_opened_file_path" value="D:/rest-assured-untappd" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15527344" />
     <property name="project.structure.side.proportion" value="0.36091954" />
@@ -588,12 +768,9 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="im.atzma.lista2020" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Devel_lista2020\lista.atzmaim_2020\UI_API_Tets\src\test\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Devel_lista2020\lista.atzmaim_2020\UI_API_Tests\src\test\resources" />
       <recent name="D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\src\test\resources" />
-      <recent name="D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\src\test\java" />
-      <recent name="D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_Tests\src\test\java" />
-      <recent name="D:\Devel_lista2020\lista.atzmaim_2020\API_Tests\src\test\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="im.atzma.lista2020.appmanager" />
@@ -601,9 +778,12 @@
       <recent name="lista2020.tests" />
       <recent name="im.atzma.lista2020.tests" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Devel_lista2020\lista.atzmaim_2020\UI_API_Tests\src\test\resources" />
+      <recent name="D:\Devel_lista2020\lista.atzmaim_2020\UI_API_Tets\src\test\resources" />
       <recent name="D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\src\test\resources" />
+      <recent name="D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\src\test\java" />
+      <recent name="D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_Tests\src\test\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -618,13 +798,53 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/UI_API_Tests/src/test/resources/testng-AccountCreation_UI_API_Rest.xml">
+  <component name="RunManager" selected="Gradle.AuthenticateTest.authenticateWithValidCredsTestAssertAll">
     <configuration name="AccountCreation_UI_API_Tests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/../UI_API_Tests" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests im.atzma.lista2020.Tests.AccountCreation_UI_API_Tests" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AuthenticateTest.authenticateWithValidCredsTestAssertAll" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="D:/rest-assured-untappd" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;apitests.AuthenticateTest.authenticateWithValidCredsTestAssertAll&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="GetWishListsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="D:/rest-assured-untappd" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests apitests.GetWishListsTest" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -659,26 +879,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentCreationRest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="API_Tests.test" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng-AppointmentCreationRest.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentModificationRest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="API_Tests.test" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng-AppointmentModificationRest.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/UI_API_Tests/src/test/resources/testng-AccountCreation_UI_API_Rest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UI_API_Tests.test" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/../UI_API_Tests/src/test/resources/testng-AccountCreation_UI_API_Rest.xml" />
@@ -701,20 +901,20 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.AccountCreation_UI_API_Tests" />
+      <item itemvalue="Gradle.GetWishListsTest" />
+      <item itemvalue="Gradle.AuthenticateTest.authenticateWithValidCredsTestAssertAll" />
       <item itemvalue="TestNG.F:/Devel_2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AccountCreationRest.xml" />
       <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml" />
-      <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentCreationRest.xml" />
-      <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentModificationRest.xml" />
       <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-ServiceVerificationRest.xml" />
       <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/UI_API_Tests/src/test/resources/testng-AccountCreation_UI_API_Rest.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AuthenticateTest.authenticateWithValidCredsTestAssertAll" />
+        <item itemvalue="Gradle.GetWishListsTest" />
         <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/UI_API_Tests/src/test/resources/testng-AccountCreation_UI_API_Rest.xml" />
         <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-ServiceVerificationRest.xml" />
         <item itemvalue="Gradle.AccountCreation_UI_API_Tests" />
-        <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentModificationRest.xml" />
-        <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentCreationRest.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -732,12 +932,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_API_AccountCreation_DDT_Tests_src_test_resources_testng-AccountCreationRest_xml - 2020.05.05 at 10h 42m 14s.xml">
-      <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_UI_API_Tests_src_test_resources_testng-AccountCreation_UI_API_Rest_xml - 2020.05.05 at 16h 29m 10s.xml">
-      <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/UI_API_Tests/src/test/resources/testng-AccountCreation_UI_API_Rest.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_UI_API_Tests_src_test_resources_testng-AccountCreation_UI_API_Rest_xml - 2020.05.05 at 16h 29m 39s.xml">
       <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/UI_API_Tests/src/test/resources/testng-AccountCreation_UI_API_Rest.xml" configurationId="TestNG" />
     </history-entry>
@@ -762,6 +956,12 @@
     <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_UI_API_Tests_src_test_resources_testng-AccountCreation_UI_API_Rest_xml - 2020.05.05 at 23h 07m 28s.xml">
       <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/UI_API_Tests/src/test/resources/testng-AccountCreation_UI_API_Rest.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="GetWishListsTest - 2020.05.06 at 23h 34m 10s.xml">
+      <configuration name="GetWishListsTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="AuthenticateTest_authenticateWithValidCredsTestAssertAll - 2020.05.07 at 00h 49m 28s.xml">
+      <configuration name="AuthenticateTest.authenticateWithValidCredsTestAssertAll" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -776,7 +976,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22591093" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2340081" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -785,7 +985,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Learn" order="7" weight="0.32955465" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3268206" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.5168739" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.25754884" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38365898" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -794,7 +994,7 @@
       <window_info anchor="bottom" id="TODO" order="7" weight="0.3285968" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3285968" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3285968" />
-      <window_info anchor="bottom" id="Build" order="10" weight="0.40497336" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.053285968" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.37122557" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -806,6 +1006,37 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Gradle" order="8" weight="0.3554656" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2340081" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Learn" order="7" weight="0.32955465" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.5168739" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25754884" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38365898" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.3285968" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3285968" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3285968" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.053285968" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.37122557" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Gradle" order="8" weight="0.3554656" />
+    </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -827,203 +1058,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/ClientHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-861">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="38" column="37" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/ServiceCreationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="63" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentModificationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="45" column="60" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="60" />
-          <folding>
-            <element signature="e#1779#1780#0" expanded="true" />
-            <element signature="e#1850#1851#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentCreationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="68" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Selenium_tests/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/resources/testng-ServiceVerificationRest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
-          <folding>
-            <marker date="1588297491377" expanded="true" signature="310:1228" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/resources/STATUS CODE.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/7.0.0/5a0241ace5a7b8eb3d31556a7d5dd2b3aae9baf/testng-7.0.0-sources.jar!/org/testng/internal/TestInvoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="594" selection-start-line="594" selection-end-line="594" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/4.1.2/2ca0ee9995d7de20c0e3ee6cf5916208ad29fcb9/rest-assured-4.1.2-sources.jar!/io/restassured/internal/ResponseSpecificationImpl.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="492" selection-start-line="492" selection-end-line="492" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="16" selection-start-line="16" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/ServiceCreationHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="86" column="8" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/Tests/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="33" column="46" lean-forward="true" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../UI_API_Tests/allure-results/1ec4b9c1-6da9-44bb-98db-0a663414effc-result.json" />
-    <entry file="file://$USER_HOME$/.gradle/wrapper/dists/gradle-5.6.2-all/9st6wgf78h16so49nn74lgtbb/gradle-5.6.2/src/core-api/org/gradle/api/Project.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="650" column="9" selection-start-line="650" selection-start-column="9" selection-end-line="650" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/appmanager/CookieManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="29" column="99" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/appmanager/ApplicationRestDDTManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="16" selection-start-line="16" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/CookieManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/ApplicationRestManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="20" column="63" lean-forward="true" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/appmanager/ServiceVerificationRestHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/ClientCreationHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1764">
-          <caret line="125" column="46" selection-start-line="125" selection-start-column="46" selection-end-line="125" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/RestRequests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="115" column="72" selection-start-line="115" selection-start-column="72" selection-end-line="115" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/appmanager/AccountCreationHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/AppointmentRestHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1113">
-          <caret line="66" column="48" selection-start-line="66" selection-start-column="48" selection-end-line="66" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/ApplicationRest_UI_API_Manager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="71">
@@ -1038,14 +1072,14 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://D:/allure-docs/docs/index.adoc">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-49" />
+      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;AsciiDocPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-374" />
           <second_editor />
         </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="-49" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/AccountCreationTests.java">
@@ -1153,9 +1187,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.6/2566800dc841d9d2c5a0d34d807e45d4107dbbdf/commons-io-2.6-sources.jar!/org/apache/commons/io/output/WriterOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="201" column="11" selection-start-line="201" selection-start-column="11" selection-end-line="201" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../UI_API_Tests/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" column="79" selection-start-line="32" selection-start-column="79" selection-end-line="32" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/allure-java/allure-rest-assured/src/test/java/io/qameta/allure/restassured/AllureRestAssuredTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://D:/allure-java/allure-rest-assured/src/main/java/io/qameta/allure/restassured/AllureRestAssured.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-483">
+        <state relative-caret-position="210">
           <caret line="41" column="32" selection-start-line="41" selection-start-column="32" selection-end-line="41" selection-end-column="32" />
         </state>
       </provider>
@@ -1170,34 +1228,200 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../UI_API_Tests/build.gradle">
+    <entry file="file://D:/rest-assured-untappd/src/test/resources/testdata/testdata.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/rest-assured-untappd/src/test/java/config/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="32" column="79" selection-start-line="32" selection-start-column="79" selection-end-line="32" selection-end-column="79" />
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.6/2566800dc841d9d2c5a0d34d807e45d4107dbbdf/commons-io-2.6-sources.jar!/org/apache/commons/io/output/WriterOutputStream.java">
+    <entry file="file://D:/rest-assured-untappd/src/test/java/utils/PropertiesUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/rest-assured-untappd/src/test/resources/allure.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/json-schema-validator/4.0.0/1c4c0871bae464ca7321081f832bddf4b2a49972/json-schema-validator-4.0.0-sources.jar!/io/restassured/module/jsv/JsonSchemaValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="115" column="38" selection-start-line="115" selection-start-column="38" selection-end-line="115" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/4.0.0/894ac3a674c00a2d8d448e86aa79ee4e37e76c3c/rest-assured-4.0.0-sources.jar!/io/restassured/RestAssured.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
-          <caret line="201" column="11" selection-start-line="201" selection-start-column="11" selection-end-line="201" selection-end-column="11" />
+          <caret line="342" column="13" selection-start-line="342" selection-start-column="13" selection-end-line="342" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/allure-java/allure-rest-assured/src/test/java/io/qameta/allure/restassured/AllureRestAssuredTest.java">
+    <entry file="file://D:/rest-assured-untappd/src/test/java/apitests/CreateWishListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="806">
-          <caret line="72" column="34" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
+        <state relative-caret-position="-76">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.qameta.allure/allure-rest-assured/2.10.0/74d299d10b5c362edf0d8f20d803f6865fd6f6de/allure-rest-assured-2.10.0-sources.jar!/io/qameta/allure/restassured/AllureRestAssured.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="49" column="29" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/rest-assured-untappd/src/test/resources/config/development/env.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/rest-assured-untappd/src/test/java/utils/TestDataUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="94" column="5" lean-forward="true" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/rest-assured-untappd/src/test/java/apitests/GetCheckInTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="44" column="53" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/rest-assured-untappd/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-769">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/rest-assured-untappd/src/test/java/apitests/AuthenticateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="144" column="7" lean-forward="true" selection-start-line="144" selection-start-column="7" selection-end-line="144" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/3.3.0/c1d1d3b1604f6681e955e2edea8af9a4cc4f1f33/rest-assured-3.3.0-sources.jar!/io/restassured/internal/filter/FilterContextImpl.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/4.0.0/894ac3a674c00a2d8d448e86aa79ee4e37e76c3c/rest-assured-4.0.0-sources.jar!/io/restassured/builder/RequestSpecBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="71" column="13" selection-start-line="71" selection-start-column="13" selection-end-line="71" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/rest-assured-untappd/src/test/java/utils/restassured/CustomAllureRestAssured.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/rest-assured-untappd/src/test/java/utils/restassured/RequestSpecificationBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="76" column="40" lean-forward="true" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/rest-assured-untappd/src/test/java/apitests/EditWishListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-462">
+          <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/rest-assured-untappd/src/test/java/apitests/HelpersTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="32" column="61" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/4.0.0/894ac3a674c00a2d8d448e86aa79ee4e37e76c3c/rest-assured-4.0.0-sources.jar!/io/restassured/response/ResponseOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/4.0.0/894ac3a674c00a2d8d448e86aa79ee4e37e76c3c/rest-assured-4.0.0-sources.jar!/io/restassured/response/ResponseBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/rest-assured-untappd/src/test/java/requests/UntappdAPIRequests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="103" column="22" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/rest-assured-untappd/src/test/java/apitests/EditCheckInTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="61" column="60" lean-forward="true" selection-start-line="61" selection-start-column="60" selection-end-line="61" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/rest-assured-untappd/src/test/java/apitests/BaseAPITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="23" column="70" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/rest-assured-untappd/src/test/java/utils/restassured/RequestSpecificationUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/CustomAllureRestAssured.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/AccountCreation_UI_API_Helper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-213">
-          <caret line="65" column="102" selection-start-line="65" selection-start-column="102" selection-end-line="65" selection-end-column="102" />
+        <state relative-caret-position="735">
+          <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1256,7 +1480,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>allure-java</last-edited>
+          <last-edited>rest-assured-untappd|allure</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
