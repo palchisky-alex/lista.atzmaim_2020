@@ -71,7 +71,7 @@ public class AccountCreation_UI_API_Helper extends RequestSpecBuilder {
         final PrintStream requestVar = new PrintStream(new WriterOutputStream(writerReqes));
         final PrintStream responseVar = new PrintStream(new WriterOutputStream(writerResponse), true);
 
-        post_response = given(). filters(new CustomAllureRestAssured().setRequestTemplate(requestTemplatePath).setResponseTemplate(responseTemplatePath)).
+        post_response = given().// filters(new CustomAllureRestAssured().setRequestTemplate(requestTemplatePath).setResponseTemplate(responseTemplatePath)).
 
                 header("Content-Type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
