@@ -3,6 +3,7 @@ package im.atzma.lista2020.appmanager;
 import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;
 import io.qameta.allure.restassured.AllureRestAssured;
+import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.filter.log.LogDetail;
 import io.restassured.filter.log.RequestLoggingFilter;
@@ -18,6 +19,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.*;
 
 import static io.restassured.RestAssured.given;
+
 @Listeners({LogListener.class })
 public class AccountCreation_UI_API_Helper  {
     String key = "7b7a53e239400a13bd6be6c91c4f6c4e";
@@ -68,8 +70,7 @@ public class AccountCreation_UI_API_Helper  {
 
         // filters(new CustomAllureRestAssured().setRequestTemplate(requestTemplatePath).setResponseTemplate(responseTemplatePath)).
 
-        post_response = given().filters(new ResponseLoggingFilter(LogDetail.ALL),
-                new RequestLoggingFilter(LogDetail.ALL)).
+        post_response = given().
                 header("Content-Type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 header("X-Requested-With", "XMLHttpRequest").

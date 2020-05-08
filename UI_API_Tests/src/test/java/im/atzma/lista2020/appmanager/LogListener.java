@@ -14,6 +14,7 @@ import java.io.PrintStream;
 
 public class LogListener implements ITestListener {
 
+
     private ByteArrayOutputStream request = new ByteArrayOutputStream();
     private ByteArrayOutputStream response = new ByteArrayOutputStream();
 
