@@ -3,156 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="477da253-88be-40ae-98c6-8ed2876fb43d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/027dbe1e-4f5b-47c2-9881-404f49007bb9-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/02dea97f-0d4a-4d8a-8b4c-154cc5fb9ffe-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/04bb42bd-9b65-49da-8a79-22b15621e1f9-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/05b8eeb1-23da-44ee-902c-88a3120cd979-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/07af60c3-13e6-4418-a4a9-c271ccaad9c2-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/0cf00b2f-7b41-435e-b550-4077b9c9b2cf-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/0d5ebe89-75d6-4149-967e-dd55d977b536-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/0da478be-c5af-4303-b488-dac62cf9c3a2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/0da6b85d-be6a-45a8-be10-4d5e1d84563e-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/0e4fd83a-203f-4560-a12b-a50b9dcef6bf-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/0f77a38b-e143-4b46-85f1-ba886b3487a2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/0fd8f7b2-596b-467b-afaf-c53207fc709b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/12893ef1-0ef1-401b-8e8f-a11c0d9730e7-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/159a8ec6-d5a0-47a8-83cd-fd2ba09bfbda-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/1af049e4-1625-4ddb-ab92-c57898ae4367-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/1b88341c-cc46-463d-b0d3-f8de104cb7ad-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/1bd1d939-7345-4de7-a4cc-0afdfab06fc3-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/1f5affe2-544d-4fb5-b763-dda39bd3204d-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/2065f5b8-dddb-425d-bd45-30ef4f8ab31b-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/2406632f-c89b-4dcc-8f35-ee54fc07fd1b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/2594dcc6-b424-4fd5-91f5-0bfee0fc7056-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/27c50df6-c910-4643-99b6-5afced541f95-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/2863e088-53bb-429f-8f1c-3769d45f915a-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/288d49b6-ec1b-4b9b-ac5c-080cc052070a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/28c4eb92-2121-4213-a85c-9b637c62b4c0-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/2ad37d04-b88e-403f-baf1-7198ff75848a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/2b038af0-7d36-43c6-8f74-f000766ad260-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/2bba4f9f-6e44-4549-a7c9-d839b0152e36-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/2d1df26e-759e-43d4-ade8-1c39cdbc21c0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/2f1d5510-55f2-4b79-8a74-99cb1ff2cfe4-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/2f340bb7-d56f-4a01-ac70-a9b2f6835f22-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/375072d1-5ebb-49af-a112-80715311d2fc-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/394f1653-c830-46cb-9d5d-cf80d64cf827-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/3c131c2d-7447-488c-8ade-7683e1991388-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/3d4cbd5a-4d11-429d-ba7b-574b3bfb9ed1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/3f60226a-d4e4-4b56-8cc7-f253148080c8-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/3f7ffa37-e7d2-4908-ba16-3efc9afeb0ce-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/411ce432-f3b3-44c3-a6d0-cd27cb43d76a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/42820d27-ceeb-4a28-a6cd-fbee868f179c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/43686b60-b5df-434c-879e-6a6f4ef78d54-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/43a8d24e-2a32-4008-8889-06cba4c43478-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/442f7cc0-cd16-4801-9540-a0b13593457b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/466b2b8b-6665-4903-996f-77f5069ea2cc-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/4763d1b8-e14c-486d-9faf-bb1249eab60f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/4788dd18-7263-41ae-9ea2-aa211f804a3f-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/5037b545-72c5-45cf-9c33-388ae05120fd-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/51f6626f-9a57-444b-b2ba-8f9d0e97ed0e-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/5648a8bc-0ef9-4cb3-93ed-f38c5a1e1fb1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/57f21358-68d6-469e-8feb-674e8c07b4fd-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/587deda0-b984-4326-9772-179dda4fbd20-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/592e47cf-96ba-4989-a4aa-4dbbf6cf405a-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/5d28df59-d51a-45a6-852e-788047dc4e93-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/5de0202f-1865-4e26-9a77-c1fc381c5422-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/5e0e3861-51e4-4c6a-82b8-57893ebd8aa4-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/5fbc5b28-b97d-443d-a374-84e8b75c263e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/5fea0ca2-8c81-4149-b1a0-80356aaa8543-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/64b0c1fb-bc17-4458-93b1-82bf73ca7018-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/662d4ebb-f50d-4440-9e54-cb2729824098-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/66feb09d-6512-4f97-b149-de317f794890-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/6910e506-1f0f-4114-8f3c-1a912b05c533-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/691e8e6d-0c62-4a10-afde-a8bca2933e75-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/6b429d99-de6c-4d87-b8a9-f9384fcb3709-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/6ca76582-c087-4aea-9d3d-e1f00ec06162-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/6d8329f2-1f89-4aab-bec5-0557e31138b6-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/6dd9ee2b-dc9b-4711-a416-72a9c30d831e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/70b97fec-9f84-4ff5-b1c7-b4dbd8037438-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/71bcff81-8e72-4ed8-b2f5-b001ae4b47d0-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/73bf2e08-f7cc-43d1-998f-042441e7de92-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/73e43b27-805c-43f6-b597-1d7f6b66ce19-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/75364756-c456-4d38-b0be-224ac24d810a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/77c2dea3-387d-4ed4-9e87-a57b05089428-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/78366d77-eeee-47f2-9c12-762b347c45c5-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/79b2455e-45a5-440b-8fda-2055506778f2-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/7b3edfbe-4687-439a-9715-499342401a4f-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/7bb354d3-3e5d-429e-979d-eb7fa73421e4-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/7d68529f-3839-4b2d-89e8-977e585ab6dc-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/7e1991e9-2c51-412d-95bf-3c068a0da40b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/8015a335-4e44-4c8d-b288-12d1d332a972-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/80425006-a7e6-4ae9-90a0-dbf76e50a036-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/8156c382-a8ca-46d2-937f-485bf23209f2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/81d28148-8242-4cc7-8ce0-5868a8e0a660-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/8b369de2-d14e-4bdc-a933-bce5e8fedb4c-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/8ee5246f-0f7e-449e-9bd0-98b7b15a7d8e-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/905dcb0b-e6f0-4459-a23c-732447480dec-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/91405e2f-3922-46a8-bb60-a231124893d2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/91cd3bea-ad24-4acf-ab4b-5787ba04c7ee-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/9519f728-20e8-4d0a-b910-bb7fd205a937-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/95208389-e046-4f3c-9e86-4a95904ef5df-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/958268b1-119e-42b2-9381-00d55fe65615-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/9746b998-2e96-4c9a-9c7f-801449bfba65-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/990a7a85-9562-48b0-b676-ee9f8ca7e708-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/99cf2d80-f769-429f-adc4-73ac6cc91025-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/9db0aea4-652e-4a80-9047-b3e00d597f1e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/9df1c29b-72b2-4bc2-b9d7-d19b6cff088f-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/9e1ee33e-294c-4ecd-9bc5-8d9344b04623-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/9f6a4b0a-c1b6-43c2-8d77-985f97a923a0-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/a120225c-aacd-4f36-8707-e292ff40ac09-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/a138cad7-af13-464e-9610-59dedfe9897c-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/a206cc58-f6b4-428c-b1f3-7b5715a409df-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/a6a9d73f-1dc4-430a-b694-3b7bed0f10a1-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/a97afaca-84df-47f8-ad17-079b307280e4-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/aa000725-7d5a-4ae8-ab14-bad8fec6d80b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/ab053893-d8d8-491b-b91b-0cfbb3d14b70-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/ac886769-50bd-4c75-9dd5-a5f4b19176f0-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/ad805c1b-d954-44e6-b676-d036bbc16f38-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/ba8d3539-05fd-4c06-8367-621f5a6e3403-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/bb450a90-1ae3-44bf-b384-d9170c5297a5-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/bbe57cc8-eed6-4eb2-bfd0-d3ab5feed42e-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/c18eba08-38d8-4723-86ef-ae48aa0a6920-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/c2355ace-5219-4735-86a1-580169f55c1b-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/c4dff291-eb6e-4dff-8739-86c56def5ebc-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/c642eff7-010b-4dde-a2e1-a3c2f9fd17dd-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/cdf40c83-6fc7-4122-8c90-48428523847f-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/ce493b41-b065-4b45-956a-fa0225a6b630-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/d0a33ee5-4b4b-4cad-a8ed-76d13c6ffccb-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/d0fb73cc-8805-458e-bd8c-b247baee14df-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/d28ff97a-2ba3-40bb-b059-82034fea972e-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/d29f3065-f93c-49fe-9792-6a09ccfe88e8-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/d61b3a0b-e149-4ca9-b5b8-30582cae3082-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/d976fb9a-c4fa-4f63-b9bc-98dfd49f52cf-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/dad75be8-9717-4d3f-bb24-df3003852036-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/dafe557c-88b4-49f9-9155-16e8720f1ead-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/ddcff6e3-68f3-41d7-9f1d-5ffbcb221e91-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/de7a6c2b-f0e4-4ac6-aac6-c8578d07f595-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/e018a544-de0a-4c1f-bf50-571eb99923a2-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/e1829ab1-194c-4579-bb40-939e805b447f-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/e27401c7-6869-4b27-8908-eabf61add2e3-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/e2c5b176-54bf-4216-963f-e166347288cf-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/e2fce443-9759-44db-b153-de8a43f0707d-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/e35b0bf1-a06d-4adc-879a-bd561b810de9-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/e3d50f3d-d65e-4a22-afb9-83a10fa081f5-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/e5027efb-18c7-4fb7-ae10-1f4c09ed514c-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/e58fa315-e61d-43ef-a04c-7f4a8e227831-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/e78430a7-fba4-4a40-8b74-777a1d5f5ea8-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/e7d47720-6d40-43b6-8363-0538f1dff3b3-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/e8ead05f-fac6-4c3b-ac93-a149fafda55a-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/e929cd6d-036d-43e3-8d8d-35df4ca580cc-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/ea0bc08b-5823-49fe-aa14-d3c38e31b6d9-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/eb9fc702-ffb1-428d-bd4e-dd12abf61742-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/ecf8396b-bf0c-49e0-9158-5e01448bec96-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/f4f4a75a-2926-4248-abb9-02c8753f34a3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/f5ece5e7-c2a1-4cf3-8583-5072872776fa-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/fa16d323-1f5f-4d08-9db5-663618b9995c-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/fa954c7f-9c41-49f7-bbab-a424e140cf74-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/fd351268-be92-454e-8ff8-0548059f2a66-attachment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/fdbeb80f-2999-476e-89d5-52c530eafed1-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/fe19dd2d-38f5-476e-8f14-234db4eb02eb-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/allure-results/ff5e81b3-0c29-4ee7-a6a6-3a78404a0510-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../UI_API_Tests/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/out/test/classes/im/atzma/lista2020/appmanager/AccountCreation_UI_API_Helper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI_API_Tests/out/test/classes/im/atzma/lista2020/appmanager/AccountCreation_UI_API_Helper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/AccountCreation_UI_API_Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/AccountCreation_UI_API_Helper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/CustomAllureRestAssured.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/CustomAllureRestAssured.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -361,29 +214,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/AccountCreation_UI_API_Helper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../UI_API_Tests/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/rest-assured-untappd/src/test/java/apitests/HelpersTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-202">
-              <caret line="32" column="61" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
+            <state relative-caret-position="161">
+              <caret line="73" column="48" lean-forward="true" selection-start-line="73" selection-start-column="48" selection-end-line="73" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -392,31 +227,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/rest-assured-untappd/src/test/java/apitests/EditCheckInTest.java">
+        <entry file="file://$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/CustomAllureRestAssured.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="861">
-              <caret line="61" column="60" selection-start-line="61" selection-start-column="60" selection-end-line="61" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/rest-assured-untappd/src/test/java/apitests/BaseAPITest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="23" column="70" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/rest-assured-untappd/src/test/java/utils/restassured/RequestSpecificationUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="79" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
+            <state relative-caret-position="71">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -427,8 +241,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://D:/rest-assured-untappd/src/test/java/utils/restassured/RequestSpecificationBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="76" column="34" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
+            <state relative-caret-position="168">
+              <caret line="23" column="42" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#681#682#0" expanded="true" />
@@ -439,19 +253,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.qameta.allure/allure-rest-assured/2.10.0/74d299d10b5c362edf0d8f20d803f6865fd6f6de/allure-rest-assured-2.10.0-sources.jar!/io/qameta/allure/restassured/AllureRestAssured.java">
+        <entry file="file://D:/rest-assured-untappd/src/test/java/utils/restassured/RequestSpecificationUtils.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+              <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/rest-assured-untappd/src/test/java/utils/restassured/CustomAllureRestAssured.java">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.qameta.allure/allure-rest-assured/2.13.3/358212ff57e1e73745e49bd371c210148c2454fd/allure-rest-assured-2.13.3-sources.jar!/io/qameta/allure/restassured/AllureRestAssured.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="554">
+              <caret line="88" column="23" selection-start-line="88" selection-start-column="23" selection-end-line="88" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -557,10 +374,10 @@
         <option value="D:/rest-assured-untappd/src/test/java/utils/restassured/CustomAllureRestAssured.java" />
         <option value="D:/rest-assured-untappd/src/test/java/apitests/AuthenticateTest.java" />
         <option value="D:/rest-assured-untappd/src/test/java/utils/TestDataUtils.java" />
-        <option value="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/CustomAllureRestAssured.java" />
         <option value="D:/rest-assured-untappd/src/test/java/utils/restassured/RequestSpecificationBuilder.java" />
-        <option value="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/AccountCreation_UI_API_Helper.java" />
         <option value="$PROJECT_DIR$/../UI_API_Tests/build.gradle" />
+        <option value="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/CustomAllureRestAssured.java" />
+        <option value="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/AccountCreation_UI_API_Helper.java" />
       </list>
     </option>
   </component>
@@ -863,7 +680,74 @@
             <path>
               <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
               <item name="UI_API_Tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="test-results" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI_API_Tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="test-results" type="462c0819:PsiDirectoryNode" />
+              <item name="accountCreation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI_API_Tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI_API_Tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI_API_Tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI_API_Tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lista2020" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI_API_Tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lista2020" type="462c0819:PsiDirectoryNode" />
+              <item name="appmanager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI_API_Tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lista2020" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI_API_Tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="API_Tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UI_API_Tests" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="tpl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -872,7 +756,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588946062085" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588959410023" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/im/atzma/lista2020" />
     <property name="last_opened_file_path" value="D:/rest-assured-untappd" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -887,9 +771,12 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="im.atzma.lista2020" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Devel_lista2020\lista.atzmaim_2020\UI_API_Tests\src\test\resources" />
+      <recent name="D:\Devel_lista2020\lista.atzmaim_2020\UI_API_Tets\src\test\resources" />
       <recent name="D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\src\test\resources" />
+      <recent name="D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\src\test\java" />
+      <recent name="D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_Tests\src\test\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="im.atzma.lista2020.appmanager" />
@@ -897,12 +784,9 @@
       <recent name="lista2020.tests" />
       <recent name="im.atzma.lista2020.tests" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Devel_lista2020\lista.atzmaim_2020\UI_API_Tests\src\test\resources" />
-      <recent name="D:\Devel_lista2020\lista.atzmaim_2020\UI_API_Tets\src\test\resources" />
       <recent name="D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\src\test\resources" />
-      <recent name="D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\src\test\java" />
-      <recent name="D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_Tests\src\test\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1051,12 +935,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_UI_API_Tests_src_test_resources_testng-AccountCreation_UI_API_Rest_xml - 2020.05.05 at 16h 30m 16s.xml">
-      <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/UI_API_Tests/src/test/resources/testng-AccountCreation_UI_API_Rest.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_UI_API_Tests_src_test_resources_testng-AccountCreation_UI_API_Rest_xml - 2020.05.05 at 16h 55m 15s.xml">
-      <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/UI_API_Tests/src/test/resources/testng-AccountCreation_UI_API_Rest.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_UI_API_Tests_src_test_resources_testng-AccountCreation_UI_API_Rest_xml - 2020.05.05 at 22h 53m 50s.xml">
       <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/UI_API_Tests/src/test/resources/testng-AccountCreation_UI_API_Rest.xml" configurationId="TestNG" />
     </history-entry>
@@ -1081,6 +959,12 @@
     <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_UI_API_Tests_src_test_resources_testng-AccountCreation_UI_API_Rest_xml - 2020.05.08 at 16h 35m 05s.xml">
       <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/UI_API_Tests/src/test/resources/testng-AccountCreation_UI_API_Rest.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_UI_API_Tests_src_test_resources_testng-AccountCreation_UI_API_Rest_xml - 2020.05.08 at 19h 32m 34s.xml">
+      <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/UI_API_Tests/src/test/resources/testng-AccountCreation_UI_API_Rest.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="D__Devel_lista2020_lista_atzmaim_2020_UI_API_Tests_src_test_resources_testng-AccountCreation_UI_API_Rest_xml - 2020.05.08 at 19h 33m 13s.xml">
+      <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/UI_API_Tests/src/test/resources/testng-AccountCreation_UI_API_Rest.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1095,7 +979,7 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2340081" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2340081" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -1105,7 +989,7 @@
       <window_info id="Learn" order="7" weight="0.32955465" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3516874" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25754884" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37833038" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38365898" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1123,7 +1007,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info active="true" anchor="right" id="Gradle" order="8" visible="true" weight="0.3554656" />
+      <window_info anchor="right" id="Gradle" order="8" weight="0.3554656" />
     </layout>
   </component>
   <component name="XDebuggerManager">
@@ -1146,9 +1030,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/allure-docs/docs/index-docinfo-footer.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://D:/allure-docs/docs/index.adoc">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="-49" />
@@ -1169,13 +1050,6 @@
             <element signature="e#320#321#0" expanded="true" />
             <element signature="e#404#405#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.qameta.allure/allure-rest-assured/2.13.3/358212ff57e1e73745e49bd371c210148c2454fd/allure-rest-assured-2.13.3-sources.jar!/io/qameta/allure/restassured/AllureRestAssured.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="49" column="48" selection-start-line="49" selection-start-column="29" selection-end-line="49" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -1371,13 +1245,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/rest-assured-untappd/src/test/java/utils/restassured/CustomAllureRestAssured.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/rest-assured-untappd/src/test/java/apitests/EditWishListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-462">
@@ -1399,82 +1266,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/rest-assured-untappd/src/test/java/requests/UntappdAPIRequests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="22" column="78" selection-start-line="22" selection-start-column="78" selection-end-line="22" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/CustomAllureRestAssured.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/rest-assured-untappd/src/test/java/utils/restassured/RequestSpecificationUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="79" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/rest-assured-untappd/src/test/java/apitests/BaseAPITest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="70" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/rest-assured-untappd/src/test/java/apitests/EditCheckInTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="61" column="60" selection-start-line="61" selection-start-column="60" selection-end-line="61" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/rest-assured-untappd/src/test/java/apitests/HelpersTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-202">
-          <caret line="32" column="61" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.qameta.allure/allure-rest-assured/2.10.0/74d299d10b5c362edf0d8f20d803f6865fd6f6de/allure-rest-assured-2.10.0-sources.jar!/io/qameta/allure/restassured/AllureRestAssured.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/rest-assured-untappd/src/test/java/utils/restassured/RequestSpecificationBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="76" column="34" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../UI_API_Tests/src/test/resources/testng-AccountCreation_UI_API_Rest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -1492,13 +1283,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/AccountCreation_UI_API_Helper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/allure-java/allure-junit4-aspect/build.gradle.kts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1506,6 +1290,113 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
           <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/rest-assured-untappd/src/test/java/apitests/EditCheckInTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-399">
+          <caret line="61" column="60" selection-start-line="61" selection-start-column="60" selection-end-line="61" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/rest-assured-untappd/src/test/java/apitests/BaseAPITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="23" column="70" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.qameta.allure/allure-rest-assured/2.10.0/74d299d10b5c362edf0d8f20d803f6865fd6f6de/allure-rest-assured-2.10.0-sources.jar!/io/qameta/allure/restassured/AllureRestAssured.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-70">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.rest-assured/rest-assured/4.1.2/2ca0ee9995d7de20c0e3ee6cf5916208ad29fcb9/rest-assured-4.1.2-sources.jar!/io/restassured/filter/FilterContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-517">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.qameta.allure/allure-rest-assured/2.13.3/358212ff57e1e73745e49bd371c210148c2454fd/allure-rest-assured-2.13.3-sources.jar!/io/qameta/allure/restassured/AllureRestAssured.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="88" column="23" selection-start-line="88" selection-start-column="23" selection-end-line="88" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/rest-assured-untappd/src/test/java/utils/restassured/CustomAllureRestAssured.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/rest-assured-untappd/src/test/java/requests/UntappdAPIRequests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1533">
+          <caret line="22" column="78" selection-start-line="22" selection-start-column="78" selection-end-line="22" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/rest-assured-untappd/src/test/java/apitests/HelpersTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="32" column="61" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/rest-assured-untappd/src/test/java/utils/restassured/RequestSpecificationUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/CustomAllureRestAssured.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/rest-assured-untappd/src/test/java/utils/restassured/RequestSpecificationBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/AccountCreation_UI_API_Helper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="73" column="48" lean-forward="true" selection-start-line="73" selection-start-column="48" selection-end-line="73" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

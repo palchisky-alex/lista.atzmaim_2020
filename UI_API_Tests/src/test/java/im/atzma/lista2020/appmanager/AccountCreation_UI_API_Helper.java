@@ -11,6 +11,8 @@ import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+import io.restassured.specification.ResponseSpecification;
 
 import java.io.PrintStream;
 import java.io.StringWriter;
@@ -19,6 +21,7 @@ import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 
+import static io.restassured.RestAssured.config;
 import static io.restassured.RestAssured.given;
 import static io.restassured.config.RedirectConfig.redirectConfig;
 
@@ -65,8 +68,10 @@ public class AccountCreation_UI_API_Helper extends RequestSpecBuilder {
 //        final StringWriter writerResponse = new StringWriter();
 //        final PrintStream requestVar = new PrintStream(new WriterOutputStream(writerReqest), true);
 //        final PrintStream responseVar = new PrintStream(new WriterOutputStream(writerResponse), true);
-        String requestTemplatePath = "http-request.ftl";
-        String responseTemplatePath = "http-response.ftl";
+        String requestTemplatePath = "resources/tpl/http-request.ftl";
+        String responseTemplatePath = "resources/tpl/http-response.ftl";
+        RequestSpecification requestSpecification = null;
+        requestSpecification.when().log().all();
 
         post_response = given(). filters(new CustomAllureRestAssured().setRequestTemplate(requestTemplatePath).setResponseTemplate(responseTemplatePath)).
                 header("Content-Type", "application/x-www-form-urlencoded").
