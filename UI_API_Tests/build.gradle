@@ -44,7 +44,7 @@ dependencies {
 task accountCreation(type: Test) {
     useTestNG() {
         suites './src/test/resources/testng-AccountCreation_UI_API_Rest.xml'
-        systemProperty 'allure.results.directory', 'build/allure-results'
+        //systemProperty 'allure.results.directory', 'build/allure-results'
     }
 }
 
