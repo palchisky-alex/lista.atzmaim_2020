@@ -67,9 +67,10 @@ public class AccountCreation_UI_API_Helper extends RequestSpecBuilder {
 //        final StringWriter writerResponse = new StringWriter();
 //        final PrintStream requestVar = new PrintStream(new WriterOutputStream(writerReqest), true);
 //        final PrintStream responseVar = new PrintStream(new WriterOutputStream(writerResponse), true);
+        String requestTemplatePath = "http-request.ftl";
+        String responseTemplatePath = "http-response.ftl";
 
-
-        post_response = given(). filters(new CustomAllureRestAssured()).
+        post_response = given(). filters(new CustomAllureRestAssured().setRequestTemplate(requestTemplatePath).setResponseTemplate(responseTemplatePath)).
                 header("Content-Type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 header("X-Requested-With", "XMLHttpRequest").
