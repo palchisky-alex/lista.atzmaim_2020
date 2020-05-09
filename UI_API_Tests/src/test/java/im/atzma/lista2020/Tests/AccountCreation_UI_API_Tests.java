@@ -15,7 +15,6 @@ import java.util.Random;
 
 import static io.restassured.RestAssured.given;
 
-@Listeners({LogListener.class })
 public class AccountCreation_UI_API_Tests extends TestBase_UI_API {
 
     @Test(priority = 1)

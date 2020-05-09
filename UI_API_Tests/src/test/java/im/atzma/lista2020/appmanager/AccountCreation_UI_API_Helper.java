@@ -21,7 +21,6 @@ import java.util.*;
 
 import static io.restassured.RestAssured.given;
 
-@Listeners({LogListener.class })
 public class AccountCreation_UI_API_Helper  {
     String key = "7b7a53e239400a13bd6be6c91c4f6c4e";
     String value;
