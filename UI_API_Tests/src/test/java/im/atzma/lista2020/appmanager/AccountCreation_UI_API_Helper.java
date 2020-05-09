@@ -83,7 +83,7 @@ public class AccountCreation_UI_API_Helper  {
                 formParam("timezone", "Asia/Jerusalem").
                 formParam("country", "IL").
                 formParam("city", "Tesl Aviv").
-                when().
+                when().filters(new AllureRestAssured()).
                 post("/signup-new-account").then().
                 extract().response();
 
