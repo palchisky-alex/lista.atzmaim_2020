@@ -63,8 +63,8 @@ public class AccountCreation_UI_API_Helper  {
         System.out.println("=== CREATE RANDOM ACCOUNT, STATUS MUST BE 201 ===");
         accounts.put(random_for_mail + "@gmail.com", "Pa$$w@rd");
 
-        String requestTemplatePath = "./resources/tpl/http-request.ftl";
-        String responseTemplatePath = "./resources/tpl/http-response.ftl";
+        String requestTemplatePath = "UI-API_Tests/src/test/resources/tpl/http-request.ftl";
+        String responseTemplatePath = "UI-API_Tests/src/test/resources/tpl/http-response.ftl";
 
 
         // filters(new CustomAllureRestAssured().setRequestTemplate(requestTemplatePath).setResponseTemplate(responseTemplatePath)).
