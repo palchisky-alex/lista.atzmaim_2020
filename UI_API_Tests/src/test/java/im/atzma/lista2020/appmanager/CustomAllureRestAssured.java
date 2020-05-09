@@ -17,8 +17,6 @@ import java.util.UUID;
 // This class is used to create Allure reports for Rest Assured tests
 public class CustomAllureRestAssured extends AllureRestAssured {
 
-
-
     public Response filter(FilterableRequestSpecification requestSpec, FilterableResponseSpecification responseSpec,
                            FilterContext filterContext) {
         AllureLifecycle lifecycle = Allure.getLifecycle();

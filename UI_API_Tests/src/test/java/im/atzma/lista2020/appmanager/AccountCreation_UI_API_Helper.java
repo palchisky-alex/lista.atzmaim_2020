@@ -54,8 +54,8 @@ public class AccountCreation_UI_API_Helper  {
 
 
     public int createAccount() {
-        LogConfig logconfig = new LogConfig().enableLoggingOfRequestAndResponseIfValidationFails().enablePrettyPrinting(true);
-        RestAssured.config().logConfig(logconfig);
+//        LogConfig logconfig = new LogConfig().enableLoggingOfRequestAndResponseIfValidationFails().enablePrettyPrinting(true);
+//        RestAssured.config().logConfig(logconfig);
 
         Random random = new Random();
         int randomInt = random.nextInt();
@@ -70,7 +70,7 @@ public class AccountCreation_UI_API_Helper  {
 
         // filters(new CustomAllureRestAssured().setRequestTemplate(requestTemplatePath).setResponseTemplate(responseTemplatePath)).
 
-        post_response = given().filter(new CustomAllureRestAssured()).
+        post_response = given().filters(new AllureRestAssured().setRequestTemplate(requestTemplatePath).setResponseTemplate(responseTemplatePath)).
                 header("Content-Type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 header("X-Requested-With", "XMLHttpRequest").
