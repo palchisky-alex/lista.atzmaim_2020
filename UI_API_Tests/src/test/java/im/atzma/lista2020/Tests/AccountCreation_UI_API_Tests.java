@@ -32,19 +32,21 @@ public class AccountCreation_UI_API_Tests extends TestBase_UI_API {
 
 
     @Test(priority = 2)
+    @Step("verify account creation")
     public void verifyAccountCreation() {
-
         assertEquals(app.accountCreation_UI_API_Helper().verifyAccountCreation().asString(), "/en/calendar");
     }
 
 
     @Test(priority = 3)
+    @Step("delete account")
     public void deleteAccount() {
         app.accountCreation_UI_API_Helper().deleteAccount().then().assertThat().statusCode(401);
     }
 
 
     @Test(priority = 4)
+    @Step("verify account deletion")
     @Description("verifyAccountDeletion")
     public void verifyAccountDeletion() {
         assertEquals(app.accountCreation_UI_API_Helper().verifyAccountDeletion(), "/he/login");
