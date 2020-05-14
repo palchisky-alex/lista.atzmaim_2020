@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
     <meta http-equiv="content-type" content="text/html; charset = UTF-8">
-    <title>HTTP-Response</title>
+    <title>HTTP-Request</title>
     <link href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/default.min.css" rel="stylesheet"
           crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
@@ -25,64 +25,59 @@
 <table class="table table-sm table-hover">
     <tbody>
     <tr class="table-primary">
-        <th nowrap>Status code</th>
-        <th colspan="2">401</th>
+        <th colspan="3">
+            <pre><code class="http">DELETE: https://lista.atzma.im/settings/business/account</code></pre>
+        </th>
     </tr>
+
         <tr>
             <th colspan="3" nowrap>Headers</th>
         </tr>
             <tr>
-                <td nowrap>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Server:</td>
+                <td nowrap>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; X-Requested-With:</td>
                 <td colspan="2">
-                    <pre>nginx</pre>
+                    <pre>XMLHttpRequest</pre>
                 </td>
             </tr>
             <tr>
-                <td nowrap>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; X-Request-Id:</td>
+                <td nowrap>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Accept:</td>
                 <td colspan="2">
-                    <pre>3a0d51a0-9621-11ea-922c-5b7bb77377d5</pre>
+                    <pre>*/*</pre>
                 </td>
             </tr>
             <tr>
-                <td nowrap>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Connection:</td>
+                <td nowrap>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; user-agent:</td>
                 <td colspan="2">
-                    <pre>keep-alive</pre>
-                </td>
-            </tr>
-            <tr>
-                <td nowrap>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Set-Cookie:</td>
-                <td colspan="2">
-                    <pre>7b7a53e239400a13bd6be6c91c4f6c4e=; Max-Age=0; Path=/; Expires=Thu, 14 May 2020 20:26:44 GMT</pre>
-                </td>
-            </tr>
-            <tr>
-                <td nowrap>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Content-Length:</td>
-                <td colspan="2">
-                    <pre>12</pre>
-                </td>
-            </tr>
-            <tr>
-                <td nowrap>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Date:</td>
-                <td colspan="2">
-                    <pre>Thu, 14 May 2020 20:26:44 GMT</pre>
+                    <pre>alpalch-qpEzhaOvY0Ecb4e0</pre>
                 </td>
             </tr>
             <tr>
                 <td nowrap>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Content-Type:</td>
                 <td colspan="2">
-                    <pre>text/plain; charset=utf-8</pre>
+                    <pre>application/x-www-form-urlencoded</pre>
                 </td>
             </tr>
         <tr>
-            <th colspan="3" nowrap>Body</th>
+            <th colspan="3">Cookies</th>
+        </tr>
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7b7a53e239400a13bd6be6c91c4f6c4e:</td>
+                <td colspan="2">
+                    <pre>B77969BC782BEAC44ADDDF7AE44111F430F4E16AEE8E62D1D32F39247FDD0B45</pre>
+                </td>
+            </tr>
+        <tr>
+            <th>Curl</th>
         </tr>
         <tr>
-            <th colspan="3"><pre><code>Unauthorized</code></pre></th>
+            <td colspan="3">
+                <pre><code class="bash">curl -v -X DELETE 'https://lista.atzma.im/settings/business/account' -H 'X-Requested-With: XMLHttpRequest' -H 'Accept: */*' -H 'user-agent: alpalch-qpEzhaOvY0Ecb4e0' -H 'Content-Type: application/x-www-form-urlencoded' -b '7b7a53e239400a13bd6be6c91c4f6c4e=B77969BC782BEAC44ADDDF7AE44111F430F4E16AEE8E62D1D32F39247FDD0B45'</code></pre>
+            </td>
         </tr>
-
 
     </tbody>
 </table>
+
 
 </body>
 </html>
