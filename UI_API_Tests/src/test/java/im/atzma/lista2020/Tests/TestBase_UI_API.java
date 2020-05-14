@@ -2,6 +2,9 @@ package im.atzma.lista2020.Tests;
 
 
 import im.atzma.lista2020.appmanager.ApplicationRest_UI_API_Manager;
+import io.qameta.allure.attachment.DefaultAttachmentContent;
+import io.qameta.allure.attachment.FreemarkerAttachmentRenderer;
+import io.qameta.allure.attachment.http.HttpRequestAttachment;
 import io.restassured.RestAssured;
 import io.restassured.filter.log.LogDetail;
 import io.restassured.filter.log.RequestLoggingFilter;
@@ -9,6 +12,8 @@ import io.restassured.filter.log.ResponseLoggingFilter;
 import org.testng.annotations.*;
 
 import java.io.PrintStream;
+
+import static im.atzma.lista2020.Tests.testdata.TestData.randomHttpRequestAttachment;
 
 
 public class TestBase_UI_API {
@@ -24,6 +29,9 @@ public class TestBase_UI_API {
     public void printStart() {
         System.out.println("<<<< START TEST >>>>");
         System.out.println("____________________");
+        final HttpRequestAttachment data = randomHttpRequestAttachment();
+        final DefaultAttachmentContent content = new FreemarkerAttachmentRenderer("http-request.ftl")
+                .render(data);
     }
 
     @BeforeSuite(alwaysRun = true)

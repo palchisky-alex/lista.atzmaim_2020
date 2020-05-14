@@ -3,6 +3,10 @@ package im.atzma.lista2020.Tests;
 import im.atzma.lista2020.appmanager.LogListener;
 import io.qameta.allure.Description;
 import io.qameta.allure.Step;
+import io.qameta.allure.attachment.DefaultAttachmentContent;
+import io.qameta.allure.attachment.FreemarkerAttachmentRenderer;
+import io.qameta.allure.attachment.http.HttpRequestAttachment;
+import io.qameta.allure.test.AllureFeatures;
 import io.restassured.RestAssured;
 import io.restassured.parsing.Parser;
 import io.restassured.path.json.JsonPath;
@@ -24,9 +28,11 @@ import static org.testng.Assert.assertEquals;
 
 public class AccountCreation_UI_API_Tests extends TestBase_UI_API {
 
+    @AllureFeatures.Attachments
     @Test(priority = 1)
     @Step("create account - POST request")
     public void createAccount() {
+
        app.accountCreation_UI_API_Helper().createAccount().then().assertThat().statusCode(201);
     }
 

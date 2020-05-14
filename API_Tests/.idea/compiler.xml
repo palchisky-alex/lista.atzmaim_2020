@@ -16,18 +16,16 @@
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.9.0/7c10d545325e3a6e72e06381afe469fd40eb701/jackson-annotations-2.9.0.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.8/f5a654e4675769c716e5b387830d19b501ca191/jackson-core-2.9.8.jar" />
         </processorPath>
-        <module name="allure-java.allure-junit-platform.test" />
         <module name="allure-java.allure-scalatest.test" />
-        <module name="allure-java.allure-testng.test" />
         <module name="allure-java.allure-junit5-assert.test" />
+        <module name="allure-java.allure-testng.test" />
+        <module name="allure-java.allure-junit-platform.test" />
         <module name="allure-java.allure-junit5.test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api-tests.main" target="11" />
       <module name="api-tests.test" target="11" />
-      <module name="API_Tests.main" target="1.8" />
-      <module name="API_Tests.test" target="1.8" />
       <module name="com.untappd.api.test.api-tests.main" target="11" />
       <module name="com.untappd.api.test.api-tests.test" target="11" />
       <module name="io.qameta.allure.allure-assertj.main" target="1.8" />

@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="477da253-88be-40ae-98c6-8ed2876fb43d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../UI_API_Tests/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/Tests/AccountCreation_UI_API_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/Tests/AccountCreation_UI_API_Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/Tests/TestBase_UI_API.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/Tests/TestBase_UI_API.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/ApplicationRest_UI_API_Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/ApplicationRest_UI_API_Manager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../rest-assured-untappd/src/test/java/apitests/AuthenticateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../rest-assured-untappd/src/test/java/apitests/AuthenticateTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../rest-assured-untappd/src/test/java/utils/TestDataUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../rest-assured-untappd/src/test/java/utils/TestDataUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../rest-assured-untappd/src/test/java/utils/restassured/CustomAllureRestAssured.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../rest-assured-untappd/src/test/java/utils/restassured/CustomAllureRestAssured.java" afterDir="false" />
@@ -74,6 +79,11 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="UI_API_Tests" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="UI_API_Tests" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
             </expand>
             <select />
@@ -174,6 +184,7 @@
       <recent name="D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_Tests\src\test\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="im.atzma.lista2020.Tests.testdata" />
       <recent name="im.atzma.lista2020.appmanager" />
       <recent name="im.atzma.lista2020.Tests" />
       <recent name="lista2020.tests" />
@@ -372,6 +383,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="280" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1589461666747" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1589479393961">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1589479393961" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
