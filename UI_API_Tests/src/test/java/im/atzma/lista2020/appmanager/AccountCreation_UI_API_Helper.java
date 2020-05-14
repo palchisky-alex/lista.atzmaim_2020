@@ -91,6 +91,7 @@ public class AccountCreation_UI_API_Helper {
     public Response verifyAccountCreation() {
         System.out.println("ACCOUNT CREATION RESPONSE MUST BE '/en/calendar'");
         System.out.println("Account creation response: " + post_response.asString());
+
         return post_response;
     }
 
@@ -101,7 +102,7 @@ public class AccountCreation_UI_API_Helper {
         for (int i = 0; i < cookies.size(); i++) {
             String value_delete = cookies.get(i);
 
-            delete_response = given().cookies(key, value_delete).filter(new AllureRestAssured()).
+            delete_response = given().cookies(key, value_delete).filters(new CustomAllureRestAssured()).
                     header("content-type", "application/x-www-form-urlencoded").
                     header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                     header("X-Requested-With", "XMLHttpRequest").
@@ -130,7 +131,7 @@ public class AccountCreation_UI_API_Helper {
             System.out.println("Deleted mail - " + delete_mail);
             System.out.println("Deleted password - " + delete_password);
 
-            Response response = given().filter(new AllureRestAssured()).
+            Response response = given().filters(new CustomAllureRestAssured()).
                     header("Content-Type", "application/x-www-form-urlencoded").
                     header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                     header("Accept-Encoding", "gzip, deflate, br").
