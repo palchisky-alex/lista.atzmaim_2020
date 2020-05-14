@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="im.atzma.lista2020.Tests.AccountCreation_UI_API_Tests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-05-14T21:14:57" hostname="DESKTOP-2TPN2B7" time="17.723">
+<testsuite name="im.atzma.lista2020.Tests.AccountCreation_UI_API_Tests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-05-14T21:26:54" hostname="DESKTOP-2TPN2B7" time="8.146">
   <properties/>
-  <testcase name="createAccount" classname="im.atzma.lista2020.Tests.AccountCreation_UI_API_Tests" time="15.756"/>
-  <testcase name="verifyAccountCreation" classname="im.atzma.lista2020.Tests.AccountCreation_UI_API_Tests" time="0.016"/>
-  <testcase name="deleteAccount" classname="im.atzma.lista2020.Tests.AccountCreation_UI_API_Tests" time="0.702"/>
-  <testcase name="verifyAccountDeletion" classname="im.atzma.lista2020.Tests.AccountCreation_UI_API_Tests" time="0.404"/>
-  <testcase name="getBusinessTypeJSON" classname="im.atzma.lista2020.Tests.AccountCreation_UI_API_Tests" time="0.802"/>
+  <testcase name="createAccount" classname="im.atzma.lista2020.Tests.AccountCreation_UI_API_Tests" time="6.091"/>
+  <testcase name="verifyAccountCreation" classname="im.atzma.lista2020.Tests.AccountCreation_UI_API_Tests" time="0.008"/>
+  <testcase name="deleteAccount" classname="im.atzma.lista2020.Tests.AccountCreation_UI_API_Tests" time="0.83"/>
+  <testcase name="verifyAccountDeletion" classname="im.atzma.lista2020.Tests.AccountCreation_UI_API_Tests" time="0.402"/>
+  <testcase name="getBusinessTypeJSON" classname="im.atzma.lista2020.Tests.AccountCreation_UI_API_Tests" time="0.733"/>
   <system-out><![CDATA[<<<< START TEST >>>>
 ____________________
 === CREATE RANDOM ACCOUNT, STATUS MUST BE 201 ===
@@ -14,8 +14,8 @@ Request URI:	https://lista.atzma.im/signup-new-account
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
-Form params:	added=2020-05-15 00:14:56
-				email=api_test_ui-1331117464@gmail.com
+Form params:	added=2020-05-15 00:26:54
+				email=api_test_ui1226993545@gmail.com
 				pass=Pa$$w@rd
 				phone=0547613154
 				permit_ads=true
@@ -34,12 +34,12 @@ Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 201 Created
 Server: nginx
-Date: Thu, 14 May 2020 21:15:11 GMT
+Date: Thu, 14 May 2020 21:26:59 GMT
 Content-Type: text/html; charset=utf-8
 Content-Length: 12
 Connection: keep-alive
-X-Request-Id: fd108270-9627-11ea-922c-5b7bb77377d5
-Set-Cookie: 7b7a53e239400a13bd6be6c91c4f6c4e=B77969BC782BEAC44ADDDF7AE44111F430F4E16AEE8E62D1D32F39247FDD0B45; Path=/; Expires=Thu, 21 May 2020 21:15:11 GMT; HttpOnly
+X-Request-Id: a3458810-9629-11ea-922c-5b7bb77377d5
+Set-Cookie: 7b7a53e239400a13bd6be6c91c4f6c4e=58127D57A4B96F0B7140D48F8DEE0C7D417BFD581457FD28CF1E56C614093D56; Path=/; Expires=Thu, 21 May 2020 21:26:59 GMT; HttpOnly
 Strict-Transport-Security: max-age=604800
 X-Content-Type-Options: nosniff
 X-Robots-Tag: noindex
@@ -49,7 +49,7 @@ X-Powered-By: php/4.3.10-16
 <html>
   <body>/en/calendar</body>
 </html>
-Cookie value account creation : B77969BC782BEAC44ADDDF7AE44111F430F4E16AEE8E62D1D32F39247FDD0B45
+Cookie value account creation : 58127D57A4B96F0B7140D48F8DEE0C7D417BFD581457FD28CF1E56C614093D56
 Create account status: 201
 __________________
 >>>> END TEST <<<<
@@ -75,7 +75,7 @@ Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
 				X-Requested-With=XMLHttpRequest
 				Accept=*/*
 				Content-Type=application/x-www-form-urlencoded
-Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=B77969BC782BEAC44ADDDF7AE44111F430F4E16AEE8E62D1D32F39247FDD0B45
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=58127D57A4B96F0B7140D48F8DEE0C7D417BFD581457FD28CF1E56C614093D56
 Multiparts:		<none>
 Body:			<none>
 Request method:	DELETE
@@ -89,18 +89,18 @@ Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
 				X-Requested-With=XMLHttpRequest
 				Accept=*/*
 				Content-Type=application/x-www-form-urlencoded
-Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=B77969BC782BEAC44ADDDF7AE44111F430F4E16AEE8E62D1D32F39247FDD0B45
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=58127D57A4B96F0B7140D48F8DEE0C7D417BFD581457FD28CF1E56C614093D56
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 401 Unauthorized
 Server: nginx
-Date: Thu, 14 May 2020 21:15:12 GMT
+Date: Thu, 14 May 2020 21:27:00 GMT
 Content-Type: text/plain; charset=utf-8
 Content-Length: 12
 Connection: keep-alive
-Set-Cookie: 7b7a53e239400a13bd6be6c91c4f6c4e=B77969BC782BEAC44ADDDF7AE44111F430F4E16AEE8E62D1D32F39247FDD0B45; Path=/; Expires=Thu, 21 May 2020 21:15:12 GMT; HttpOnly
-Set-Cookie: 7b7a53e239400a13bd6be6c91c4f6c4e=; Max-Age=0; Path=/; Expires=Thu, 14 May 2020 21:15:12 GMT
-X-Request-Id: ffd324e0-9627-11ea-922c-5b7bb77377d5
+Set-Cookie: 7b7a53e239400a13bd6be6c91c4f6c4e=58127D57A4B96F0B7140D48F8DEE0C7D417BFD581457FD28CF1E56C614093D56; Path=/; Expires=Thu, 21 May 2020 21:27:00 GMT; HttpOnly
+Set-Cookie: 7b7a53e239400a13bd6be6c91c4f6c4e=; Max-Age=0; Path=/; Expires=Thu, 14 May 2020 21:27:00 GMT
+X-Request-Id: a593bdd0-9629-11ea-922c-5b7bb77377d5
 
 Unauthorized
 Account deletion status: 401
@@ -110,7 +110,7 @@ __________________
 ____________________
 === VERIFY ACCOUNTS DELETION ===
 === STATUS MUST BE 302 AND 'LOCATION' VALUE - '/he/login' ===
-Deleted mail - api_test_ui-1331117464@gmail.com
+Deleted mail - api_test_ui1226993545@gmail.com
 Deleted password - Pa$$w@rd
 Request method:	POST
 Request URI:	https://lista.atzma.im/check-login
@@ -118,7 +118,7 @@ Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	time_zone=Asia/Jerusalem
-				email=api_test_ui-1331117464@gmail.com
+				email=api_test_ui1226993545@gmail.com
 				pass=Pa$$w@rd
 Path params:	<none>
 Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
@@ -132,11 +132,11 @@ Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 302 Found
 Server: nginx
-Date: Thu, 14 May 2020 21:15:13 GMT
+Date: Thu, 14 May 2020 21:27:01 GMT
 Content-Type: text/plain; charset=utf-8
 Content-Length: 31
 Connection: keep-alive
-X-Request-Id: 00208190-9628-11ea-922c-5b7bb77377d5
+X-Request-Id: a5f9d2a0-9629-11ea-922c-5b7bb77377d5
 Location: /he/login
 Vary: Accept
 Strict-Transport-Security: max-age=604800
@@ -168,12 +168,12 @@ Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
 Server: nginx
-Date: Thu, 14 May 2020 21:15:13 GMT
+Date: Thu, 14 May 2020 21:27:01 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 Vary: Accept-Encoding
-X-Request-Id: 005ca030-9628-11ea-922c-5b7bb77377d5
+X-Request-Id: a639e8e0-9629-11ea-922c-5b7bb77377d5
 Strict-Transport-Security: max-age=604800
 X-Content-Type-Options: nosniff
 X-Robots-Tag: noindex

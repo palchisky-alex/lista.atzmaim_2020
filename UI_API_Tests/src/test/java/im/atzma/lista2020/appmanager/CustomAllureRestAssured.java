@@ -20,7 +20,7 @@ public class CustomAllureRestAssured extends AllureRestAssured {
     public Response filter(FilterableRequestSpecification requestSpec, FilterableResponseSpecification responseSpec,
                            FilterContext filterContext) {
         AllureLifecycle lifecycle = Allure.getLifecycle();
-        StepResult stepResult = (new StepResult()).setStatus(Status.PASSED).setName(String.format("%s: %s", requestSpec.getMethod(), requestSpec.getURI()));
+        StepResult stepResult = (new StepResult()).setStatus(Status.PASSED).setName(String.format("%s: %s", requestSpec.getMethod(), requestSpec.getURI(), requestSpec.getFormParams()));
         lifecycle.startStep(UUID.randomUUID().toString(), stepResult);
 
         Response response;
