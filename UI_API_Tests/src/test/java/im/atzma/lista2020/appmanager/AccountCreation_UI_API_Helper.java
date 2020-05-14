@@ -55,8 +55,7 @@ public class AccountCreation_UI_API_Helper {
         System.out.println("=== CREATE RANDOM ACCOUNT, STATUS MUST BE 201 ===");
         accounts.put(random_for_mail + "@gmail.com", "Pa$$w@rd");
         // filters(new CustomAllureRestAssured().setRequestTemplate(requestTemplatePath).setResponseTemplate(responseTemplatePath)).
-        post_response = given().filter(new CustomAllureRestAssured().
-                setRequestTemplate("custom-http-request.ftl").setResponseTemplate("custom-http-response.ftl")).
+        post_response = given().filter(new CustomAllureRestAssured()).
                 header("Content-Type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 header("X-Requested-With", "XMLHttpRequest").
@@ -70,7 +69,7 @@ public class AccountCreation_UI_API_Helper {
                 formParam("timezone", "Asia/Jerusalem").
                 formParam("country", "IL").
                 formParam("city", "Tesl Aviv").
-                when().
+                when().filter(new CustomAllureRestAssured()).
                 post("/signup-new-account").then().
                 extract().response();
 
