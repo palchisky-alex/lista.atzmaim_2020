@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset = UTF-8">
+    <title>HTTP-Request</title>
+    <link href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/default.min.css" rel="stylesheet"
+          crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+          crossorigin="anonymous">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"
+            crossorigin="anonymous"></script>
+
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <style>
+        pre {
+            white-space: pre-wrap;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<table class="table table-sm table-hover">
+    <tbody>
+    <tr class="table-primary">
+        <th colspan="3">
+            <pre><code class="http">DELETE: https://lista.atzma.im/settings/business/account</code></pre>
+        </th>
+    </tr>
+
+        <tr>
+            <th colspan="3" nowrap>Headers</th>
+        </tr>
+            <tr>
+                <td nowrap>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; X-Requested-With:</td>
+                <td colspan="2">
+                    <pre>XMLHttpRequest</pre>
+                </td>
+            </tr>
+            <tr>
+                <td nowrap>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Accept:</td>
+                <td colspan="2">
+                    <pre>*/*</pre>
+                </td>
+            </tr>
+            <tr>
+                <td nowrap>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; user-agent:</td>
+                <td colspan="2">
+                    <pre>alpalch-qpEzhaOvY0Ecb4e0</pre>
+                </td>
+            </tr>
+            <tr>
+                <td nowrap>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Content-Type:</td>
+                <td colspan="2">
+                    <pre>application/x-www-form-urlencoded</pre>
+                </td>
+            </tr>
+        <tr>
+            <th colspan="3">Cookies</th>
+        </tr>
+            <tr>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7b7a53e239400a13bd6be6c91c4f6c4e:</td>
+                <td colspan="2">
+                    <pre>2D86B6C72CDB54F90D5E25F7969A240E135D7619165069E60AF0DA711298C2F9</pre>
+                </td>
+            </tr>
+        <tr>
+            <th>Curl</th>
+        </tr>
+        <tr>
+            <td colspan="3">
+                <pre><code class="bash">curl -v -X DELETE 'https://lista.atzma.im/settings/business/account' -H 'X-Requested-With: XMLHttpRequest' -H 'Accept: */*' -H 'user-agent: alpalch-qpEzhaOvY0Ecb4e0' -H 'Content-Type: application/x-www-form-urlencoded' -b '7b7a53e239400a13bd6be6c91c4f6c4e=2D86B6C72CDB54F90D5E25F7969A240E135D7619165069E60AF0DA711298C2F9'</code></pre>
+            </td>
+        </tr>
+
+    </tbody>
+</table>
+
+
+</body>
+</html>

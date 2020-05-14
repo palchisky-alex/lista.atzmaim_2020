@@ -29,9 +29,6 @@ public class TestBase_UI_API {
     public void printStart() {
         System.out.println("<<<< START TEST >>>>");
         System.out.println("____________________");
-        final HttpRequestAttachment data = randomHttpRequestAttachment();
-        final DefaultAttachmentContent content = new FreemarkerAttachmentRenderer("http-request.ftl")
-                .render(data);
     }
 
     @BeforeSuite(alwaysRun = true)
