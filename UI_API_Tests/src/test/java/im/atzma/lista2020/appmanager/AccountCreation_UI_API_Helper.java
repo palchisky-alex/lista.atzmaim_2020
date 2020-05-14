@@ -3,6 +3,8 @@ package im.atzma.lista2020.appmanager;
 import io.qameta.allure.Allure;
 import io.qameta.allure.Step;
 import io.qameta.allure.restassured.AllureRestAssured;
+import io.restassured.RestAssured;
+import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.response.Response;
 
 import java.time.LocalDate;
@@ -53,7 +55,7 @@ public class AccountCreation_UI_API_Helper {
         System.out.println("=== CREATE RANDOM ACCOUNT, STATUS MUST BE 201 ===");
         accounts.put(random_for_mail + "@gmail.com", "Pa$$w@rd");
         // filters(new CustomAllureRestAssured().setRequestTemplate(requestTemplatePath).setResponseTemplate(responseTemplatePath)).
-
+        RestAssured.requestSpecification = new RequestSpecBuilder().build().filter(new AllureRestAssured());
         post_response = given().filters(new CustomAllureRestAssured()).
                 header("Content-Type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").

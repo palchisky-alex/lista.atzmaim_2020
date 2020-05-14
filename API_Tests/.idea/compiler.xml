@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <annotationProcessing>
-      <profile name="Gradle Imported" enabled="true">
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$PROJECT_DIR$/../../../allure-java/allure-descriptions-javadoc/build/libs/allure-descriptions-javadoc-2.14-SNAPSHOT.jar" />
-          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.6/815893df5f31da2ece4040fe0a12fd44b577afaf/commons-io-2.6.jar" />
-          <entry name="$PROJECT_DIR$/../../../allure-java/allure-java-commons/build/libs/allure-java-commons-2.14-SNAPSHOT.jar" />
-          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.30/b5a4b6d16ab13e34a88fae84c35cd5d68cac922c/slf4j-api-1.7.30.jar" />
-          <entry name="$PROJECT_DIR$/../../../allure-java/allure-model/build/libs/allure-model-2.14-SNAPSHOT.jar" />
-          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.8/11283f21cc480aa86c4df7a0a3243ec508372ed2/jackson-databind-2.9.8.jar" />
-          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.tika/tika-core/1.20/85888f238720b062c551df5e2a9c943788010e33/tika-core-1.20.jar" />
-          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jooq/joor-java-8/0.9.10/38c6c92afd1ae5e63ebd32f640f3e168c1bec0a9/joor-java-8-0.9.10.jar" />
-          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.9.0/7c10d545325e3a6e72e06381afe469fd40eb701/jackson-annotations-2.9.0.jar" />
-          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.8/f5a654e4675769c716e5b387830d19b501ca191/jackson-core-2.9.8.jar" />
-        </processorPath>
-        <module name="allure-java.allure-scalatest.test" />
-        <module name="allure-java.allure-junit5-assert.test" />
-        <module name="allure-java.allure-testng.test" />
-        <module name="allure-java.allure-junit-platform.test" />
-        <module name="allure-java.allure-junit5.test" />
-      </profile>
-    </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="api-tests.main" target="11" />
-      <module name="api-tests.test" target="11" />
       <module name="com.untappd.api.test.api-tests.main" target="11" />
       <module name="com.untappd.api.test.api-tests.test" target="11" />
       <module name="io.qameta.allure.allure-assertj.main" target="1.8" />
