@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -12,7 +13,6 @@
             <option value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests" />
           </set>
         </option>
-        <option name="useAutoImport" value="true" />
         <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
@@ -25,7 +25,6 @@
             <option value="$PROJECT_DIR$" />
           </set>
         </option>
-        <option name="useAutoImport" value="true" />
         <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
@@ -38,7 +37,6 @@
             <option value="$PROJECT_DIR$/../Selenium_tests" />
           </set>
         </option>
-        <option name="useAutoImport" value="true" />
         <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
@@ -51,64 +49,61 @@
             <option value="$PROJECT_DIR$/../UI_API_Tests" />
           </set>
         </option>
-        <option name="useAutoImport" value="true" />
         <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="createEmptyContentRootDirectories" value="true" />
         <option name="distributionType" value="LOCAL" />
-        <option name="externalProjectPath" value="D:/allure-java" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../../../allure-java" />
         <option name="gradleHome" value="C:/Tools/Gradle/gradle-5.6.2" />
         <option name="modules">
           <set>
-            <option value="D:/allure-java" />
-            <option value="D:/allure-java/allure-assertj" />
-            <option value="D:/allure-java/allure-attachments" />
-            <option value="D:/allure-java/allure-citrus" />
-            <option value="D:/allure-java/allure-cucumber-jvm" />
-            <option value="D:/allure-java/allure-cucumber2-jvm" />
-            <option value="D:/allure-java/allure-cucumber3-jvm" />
-            <option value="D:/allure-java/allure-cucumber4-jvm" />
-            <option value="D:/allure-java/allure-cucumber5-jvm" />
-            <option value="D:/allure-java/allure-descriptions-javadoc" />
-            <option value="D:/allure-java/allure-httpclient" />
-            <option value="D:/allure-java/allure-java-commons" />
-            <option value="D:/allure-java/allure-java-commons-test" />
-            <option value="D:/allure-java/allure-java-migration" />
-            <option value="D:/allure-java/allure-jax-rs" />
-            <option value="D:/allure-java/allure-jbehave" />
-            <option value="D:/allure-java/allure-jsonunit" />
-            <option value="D:/allure-java/allure-junit-platform" />
-            <option value="D:/allure-java/allure-junit4" />
-            <option value="D:/allure-java/allure-junit4-aspect" />
-            <option value="D:/allure-java/allure-junit5" />
-            <option value="D:/allure-java/allure-junit5-assert" />
-            <option value="D:/allure-java/allure-model" />
-            <option value="D:/allure-java/allure-okhttp" />
-            <option value="D:/allure-java/allure-okhttp3" />
-            <option value="D:/allure-java/allure-rest-assured" />
-            <option value="D:/allure-java/allure-scalatest" />
-            <option value="D:/allure-java/allure-selenide" />
-            <option value="D:/allure-java/allure-servlet-api" />
-            <option value="D:/allure-java/allure-spock" />
-            <option value="D:/allure-java/allure-spring-web" />
-            <option value="D:/allure-java/allure-testng" />
+            <option value="$PROJECT_DIR$/../../../allure-java" />
+            <option value="$PROJECT_DIR$/../../../allure-java/allure-assertj" />
+            <option value="$PROJECT_DIR$/../../../allure-java/allure-attachments" />
+            <option value="$PROJECT_DIR$/../../../allure-java/allure-citrus" />
+            <option value="$PROJECT_DIR$/../../../allure-java/allure-cucumber-jvm" />
+            <option value="$PROJECT_DIR$/../../../allure-java/allure-cucumber2-jvm" />
+            <option value="$PROJECT_DIR$/../../../allure-java/allure-cucumber3-jvm" />
+            <option value="$PROJECT_DIR$/../../../allure-java/allure-cucumber4-jvm" />
+            <option value="$PROJECT_DIR$/../../../allure-java/allure-cucumber5-jvm" />
+            <option value="$PROJECT_DIR$/../../../allure-java/allure-descriptions-javadoc" />
+            <option value="$PROJECT_DIR$/../../../allure-java/allure-httpclient" />
+            <option value="$PROJECT_DIR$/../../../allure-java/allure-java-commons" />
+            <option value="$PROJECT_DIR$/../../../allure-java/allure-java-commons-test" />
+            <option value="$PROJECT_DIR$/../../../allure-java/allure-java-migration" />
+            <option value="$PROJECT_DIR$/../../../allure-java/allure-jax-rs" />
+            <option value="$PROJECT_DIR$/../../../allure-java/allure-jbehave" />
+            <option value="$PROJECT_DIR$/../../../allure-java/allure-jsonunit" />
+            <option value="$PROJECT_DIR$/../../../allure-java/allure-junit-platform" />
+            <option value="$PROJECT_DIR$/../../../allure-java/allure-junit4" />
+            <option value="$PROJECT_DIR$/../../../allure-java/allure-junit4-aspect" />
+            <option value="$PROJECT_DIR$/../../../allure-java/allure-junit5" />
+            <option value="$PROJECT_DIR$/../../../allure-java/allure-junit5-assert" />
+            <option value="$PROJECT_DIR$/../../../allure-java/allure-model" />
+            <option value="$PROJECT_DIR$/../../../allure-java/allure-okhttp" />
+            <option value="$PROJECT_DIR$/../../../allure-java/allure-okhttp3" />
+            <option value="$PROJECT_DIR$/../../../allure-java/allure-rest-assured" />
+            <option value="$PROJECT_DIR$/../../../allure-java/allure-scalatest" />
+            <option value="$PROJECT_DIR$/../../../allure-java/allure-selenide" />
+            <option value="$PROJECT_DIR$/../../../allure-java/allure-servlet-api" />
+            <option value="$PROJECT_DIR$/../../../allure-java/allure-spock" />
+            <option value="$PROJECT_DIR$/../../../allure-java/allure-spring-web" />
+            <option value="$PROJECT_DIR$/../../../allure-java/allure-testng" />
           </set>
         </option>
-        <option name="useAutoImport" value="true" />
         <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="createEmptyContentRootDirectories" value="true" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="D:/rest-assured-untappd" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../../../rest-assured-untappd" />
         <option name="gradleHome" value="C:/Tools/Gradle/gradle-5.6.2" />
         <option name="modules">
           <set>
-            <option value="D:/rest-assured-untappd" />
+            <option value="$PROJECT_DIR$/../../../rest-assured-untappd" />
           </set>
         </option>
-        <option name="useAutoImport" value="true" />
         <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
     </option>

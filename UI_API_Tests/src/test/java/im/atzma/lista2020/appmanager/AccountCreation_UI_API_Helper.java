@@ -1,19 +1,10 @@
 package im.atzma.lista2020.appmanager;
 
 import io.qameta.allure.Allure;
-import io.qameta.allure.Attachment;
+import io.qameta.allure.Step;
 import io.qameta.allure.restassured.AllureRestAssured;
-import io.restassured.RestAssured;
-import io.restassured.builder.RequestSpecBuilder;
-import io.restassured.config.LogConfig;
-import io.restassured.filter.log.LogDetail;
-import io.restassured.filter.log.RequestLoggingFilter;
-import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.response.Response;
-import io.restassured.specification.RequestSpecification;
-import org.testng.annotations.Listeners;
-import java.io.PrintStream;
-import java.io.StringWriter;
+
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
@@ -21,7 +12,7 @@ import java.util.*;
 
 import static io.restassured.RestAssured.given;
 
-public class AccountCreation_UI_API_Helper  {
+public class AccountCreation_UI_API_Helper {
     String key = "7b7a53e239400a13bd6be6c91c4f6c4e";
     String value;
     String headerValue;
@@ -51,8 +42,8 @@ public class AccountCreation_UI_API_Helper  {
         return responseString;
     }
 
-
-    public int createAccount() {
+    @Step("create account - POST request")
+    public Response createAccount() {
 //        LogConfig logconfig = new LogConfig().enableLoggingOfRequestAndResponseIfValidationFails().enablePrettyPrinting(true);
 //        RestAssured.config().logConfig(logconfig);
 
@@ -62,14 +53,9 @@ public class AccountCreation_UI_API_Helper  {
 
         System.out.println("=== CREATE RANDOM ACCOUNT, STATUS MUST BE 201 ===");
         accounts.put(random_for_mail + "@gmail.com", "Pa$$w@rd");
-
-        String requestTemplatePath = "UI_API_Tests/src/test/resources/tpl/http-request.ftl";
-        String responseTemplatePath = "UI_API_Tests/src/test/resources/tpl/http-response.ftl";
-
-
         // filters(new CustomAllureRestAssured().setRequestTemplate(requestTemplatePath).setResponseTemplate(responseTemplatePath)).
 
-        post_response = given().filters(new AllureRestAssured()).
+        post_response = given().filters(new CustomAllureRestAssured()).
                 header("Content-Type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 header("X-Requested-With", "XMLHttpRequest").
@@ -83,13 +69,14 @@ public class AccountCreation_UI_API_Helper  {
                 formParam("timezone", "Asia/Jerusalem").
                 formParam("country", "IL").
                 formParam("city", "Tesl Aviv").
-                when().filters(new AllureRestAssured()).
+                when().
                 post("/signup-new-account").then().
                 extract().response();
 
         accountCreationResponse = post_response.asString();
-        Allure.getLifecycle().updateTestCase((t) -> {t.setStatusDetails( t.getStatusDetails().setMessage(accountCreationResponse));
-        });
+//        Allure.getLifecycle().updateTestCase((t) -> {t.setStatusDetails( t.getStatusDetails().setMessage(accountCreationResponse));
+//        });
+
         loginCookie = post_response.getCookies();
 
         for (Map.Entry<String, String> entry : loginCookie.entrySet()) {
@@ -98,16 +85,17 @@ public class AccountCreation_UI_API_Helper  {
             System.out.println("Cookie value account creation : " + value);
         }
         System.out.println("Create account status: " + post_response.getStatusCode());
-        return post_response.getStatusCode();
+        return post_response;
+
     }
 
-    public String verifyAccountCreation() {
+    public Response verifyAccountCreation() {
         System.out.println("ACCOUNT CREATION RESPONSE MUST BE '/en/calendar'");
-        System.out.println("Account creation response: " + accountCreationResponse);
-        return accountCreationResponse;
+        System.out.println("Account creation response: " + post_response.asString());
+        return post_response;
     }
 
-    public int deleteAccount() {
+    public Response deleteAccount() {
         System.out.println("=== REMOVE ALL ACCOUNTS, STATUS MUST BE 401 ===");
         System.out.println("=== ACCOUNTS DESIGNED FOR REMOVAL - 1 ");
         System.out.println("=== ACCOUNTS RECEIVED FOR REMOVAL IN TEST: " + accounts.size());
@@ -124,7 +112,7 @@ public class AccountCreation_UI_API_Helper  {
                     extract().response();
         }
         System.out.println("Account deletion status: " + delete_response.getStatusCode());
-        return delete_response.getStatusCode();
+        return delete_response;
     }
 
 
@@ -132,7 +120,8 @@ public class AccountCreation_UI_API_Helper  {
         System.out.println("=== VERIFY ACCOUNTS DELETION ===");
         System.out.println("=== STATUS MUST BE 302 AND 'LOCATION' VALUE - '/he/login' ===");
 
-        Allure.getLifecycle().updateTestCase((t) -> {t.setStatusDetails( t.getStatusDetails().setMessage("=== STATUS MUST BE 302 AND 'LOCATION' VALUE - '/he/login' ==="));
+        Allure.getLifecycle().updateTestCase((t) -> {
+            t.setStatusDetails(t.getStatusDetails().setMessage("=== STATUS MUST BE 302 AND 'LOCATION' VALUE - '/he/login' ==="));
         });
 
         for (Map.Entry<String, String> entry : accounts.entrySet()) {
@@ -157,7 +146,8 @@ public class AccountCreation_UI_API_Helper  {
             headerValue = response.getHeader("Location");
             System.out.println("Login into deleted account status: " + response.getStatusCode());
             System.out.println("'Location' header value: " + headerValue);
-            Allure.getLifecycle().updateTestCase((t) -> {t.setStatusDetails( t.getStatusDetails().setMessage("'Location' header value: " + headerValue));
+            Allure.getLifecycle().updateTestCase((t) -> {
+                t.setStatusDetails(t.getStatusDetails().setMessage("'Location' header value: " + headerValue));
             });
 
         }

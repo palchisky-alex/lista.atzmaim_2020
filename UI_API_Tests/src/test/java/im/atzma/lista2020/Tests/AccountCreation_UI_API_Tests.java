@@ -2,6 +2,10 @@ package im.atzma.lista2020.Tests;
 
 import im.atzma.lista2020.appmanager.LogListener;
 import io.qameta.allure.Description;
+import io.restassured.RestAssured;
+import io.restassured.parsing.Parser;
+import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
 import org.apache.commons.logging.Log;
 import org.approvaltests.Approvals;
 import org.testng.Assert;
@@ -13,34 +17,35 @@ import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Random;
 
-import static io.restassured.RestAssured.given;
+import static io.restassured.RestAssured.*;
+import static org.hamcrest.Matchers.equalTo;
+import static org.testng.Assert.assertEquals;
 
 public class AccountCreation_UI_API_Tests extends TestBase_UI_API {
 
     @Test(priority = 1)
     public void createAccount() {
-
-        Assert.assertEquals(app.accountCreation_UI_API_Helper().createAccount(), 201);
+       app.accountCreation_UI_API_Helper().createAccount().then().assertThat().statusCode(201);
     }
 
 
     @Test(priority = 2)
     public void verifyAccountCreation() {
 
-        Assert.assertEquals(app.accountCreation_UI_API_Helper().verifyAccountCreation(), "/en/calendar");
+        assertEquals(app.accountCreation_UI_API_Helper().verifyAccountCreation().asString(), "/en/calendar");
     }
 
 
     @Test(priority = 3)
     public void deleteAccount() {
-        Assert.assertEquals(app.accountCreation_UI_API_Helper().deleteAccount(), 401);
+        app.accountCreation_UI_API_Helper().deleteAccount().then().assertThat().statusCode(401);
     }
 
 
     @Test(priority = 4)
     @Description("verifyAccountDeletion")
     public void verifyAccountDeletion() {
-        Assert.assertEquals(app.accountCreation_UI_API_Helper().verifyAccountDeletion(), "/he/login");
+        assertEquals(app.accountCreation_UI_API_Helper().verifyAccountDeletion(), "/he/login");
     }
 
 
@@ -48,6 +53,5 @@ public class AccountCreation_UI_API_Tests extends TestBase_UI_API {
     public void getBusinessTypeJSON() {
         Approvals.verify(app.accountCreation_UI_API_Helper().businessTypeResponse());
     }
-
 
 }
