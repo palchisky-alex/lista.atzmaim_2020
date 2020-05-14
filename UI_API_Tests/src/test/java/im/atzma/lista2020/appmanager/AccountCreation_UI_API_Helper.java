@@ -42,7 +42,6 @@ public class AccountCreation_UI_API_Helper {
         return responseString;
     }
 
-    @Step("create account - POST request")
     public Response createAccount() {
 //        LogConfig logconfig = new LogConfig().enableLoggingOfRequestAndResponseIfValidationFails().enablePrettyPrinting(true);
 //        RestAssured.config().logConfig(logconfig);

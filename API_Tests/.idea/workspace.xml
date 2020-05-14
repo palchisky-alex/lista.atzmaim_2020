@@ -311,9 +311,12 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="im.atzma.lista2020" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Devel_lista2020\lista.atzmaim_2020\UI_API_Tests\src\test\resources" />
+      <recent name="D:\Devel_lista2020\lista.atzmaim_2020\UI_API_Tets\src\test\resources" />
       <recent name="D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\src\test\resources" />
+      <recent name="D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\src\test\java" />
+      <recent name="D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_Tests\src\test\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="im.atzma.lista2020.appmanager" />
@@ -321,12 +324,9 @@
       <recent name="lista2020.tests" />
       <recent name="im.atzma.lista2020.tests" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Devel_lista2020\lista.atzmaim_2020\UI_API_Tests\src\test\resources" />
-      <recent name="D:\Devel_lista2020\lista.atzmaim_2020\UI_API_Tets\src\test\resources" />
       <recent name="D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\src\test\resources" />
-      <recent name="D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\src\test\java" />
-      <recent name="D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_Tests\src\test\java" />
     </key>
   </component>
   <component name="RunManager" selected="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/UI_API_Tests/src/test/resources/testng-AccountCreation_UI_API_Rest.xml">
