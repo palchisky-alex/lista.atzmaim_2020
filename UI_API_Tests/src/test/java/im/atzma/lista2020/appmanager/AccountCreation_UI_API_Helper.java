@@ -55,9 +55,6 @@ public class AccountCreation_UI_API_Helper {
 
         System.out.println("=== CREATE RANDOM ACCOUNT, STATUS MUST BE 201 ===");
         accounts.put(random_for_mail + "@gmail.com", "Pa$$w@rd");
-        RestAssured.filters(
-                new AllureRestAssured()
-        );
 
         post_response = given().filters(new CustomAllureRestAssured().
                 setRequestTemplate("http-request.ftl").
