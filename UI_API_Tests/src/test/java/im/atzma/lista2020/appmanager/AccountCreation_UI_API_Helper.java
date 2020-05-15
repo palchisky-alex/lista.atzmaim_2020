@@ -5,6 +5,7 @@ import io.qameta.allure.Step;
 import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.filter.Filter;
 import io.restassured.response.Response;
 
 import java.time.LocalDate;
@@ -54,8 +55,13 @@ public class AccountCreation_UI_API_Helper {
 
         System.out.println("=== CREATE RANDOM ACCOUNT, STATUS MUST BE 201 ===");
         accounts.put(random_for_mail + "@gmail.com", "Pa$$w@rd");
+        RestAssured.filters(
+                new AllureRestAssured()
+        );
 
-        post_response = given().filters(new AllureRestAssured().setRequestTemplate("http-request.ftl").setResponseTemplate("http-response.ftl")).
+        post_response = given().filters(new CustomAllureRestAssured().
+                setRequestTemplate("http-request.ftl").
+                setResponseTemplate("http-response.ftl")).
                 header("Content-Type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 header("X-Requested-With", "XMLHttpRequest").
