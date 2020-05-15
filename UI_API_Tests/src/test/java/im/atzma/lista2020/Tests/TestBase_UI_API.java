@@ -20,7 +20,7 @@ public class TestBase_UI_API {
     //Logger logger = LoggerFactory.getLogger(TestBase_UI_API.class);
     static final ApplicationRest_UI_API_Manager app = new ApplicationRest_UI_API_Manager();
 
-  //  @BeforeClass(alwaysRun = true)
+    @BeforeClass(alwaysRun = true)
     public void logs() {
         RestAssured.filters(new RequestLoggingFilter(), new ResponseLoggingFilter());
     }
