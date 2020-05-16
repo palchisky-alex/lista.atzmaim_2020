@@ -59,7 +59,7 @@ public class AccountCreation_UI_API_Helper {
         RequestSpecification specification = new RequestSpecBuilder()
                 .addFilter(new AllureRestAssured())
                 .build();
-        post_response = given().filters(new CustomAllureRestAssured().
+        post_response = given().filters(new AllureRestAssured().
                 setRequestTemplate("http-request.ftl").
                 setResponseTemplate("http-response.ftl")).
                 header("Content-Type", "application/x-www-form-urlencoded").
