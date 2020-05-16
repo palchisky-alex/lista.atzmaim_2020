@@ -25,9 +25,7 @@ public class TestBase_UI_API {
 
     @BeforeClass(alwaysRun = true)
     public void logs() {
-        RequestSpecification specification = new RequestSpecBuilder()
-                .addFilter(new AllureRestAssured())
-                .build();
+
        // RestAssured.filters(new RequestLoggingFilter(), new ResponseLoggingFilter());
     }
 

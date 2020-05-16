@@ -7,6 +7,7 @@ import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.filter.Filter;
 import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -55,7 +56,9 @@ public class AccountCreation_UI_API_Helper {
 
         System.out.println("=== CREATE RANDOM ACCOUNT, STATUS MUST BE 201 ===");
         accounts.put(random_for_mail + "@gmail.com", "Pa$$w@rd");
-
+        RequestSpecification specification = new RequestSpecBuilder()
+                .addFilter(new AllureRestAssured())
+                .build();
         post_response = given().filters(new CustomAllureRestAssured().
                 setRequestTemplate("http-request.ftl").
                 setResponseTemplate("http-response.ftl")).

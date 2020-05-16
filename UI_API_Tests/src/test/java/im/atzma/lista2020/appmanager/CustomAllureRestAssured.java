@@ -6,6 +6,7 @@ import io.qameta.allure.attachment.http.HttpRequestAttachment;
 import io.qameta.allure.model.Status;
 import io.qameta.allure.model.StepResult;
 import io.qameta.allure.restassured.AllureRestAssured;
+import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.filter.FilterContext;
 import io.restassured.response.Response;
 import io.restassured.specification.FilterableRequestSpecification;
@@ -16,7 +17,9 @@ import java.util.UUID;
 
 // This class is used to create Allure reports for Rest Assured tests
 public class CustomAllureRestAssured extends AllureRestAssured {
-
+    RequestSpecification specification = new RequestSpecBuilder()
+            .addFilter(new AllureRestAssured())
+            .build();
     public Response filter(FilterableRequestSpecification requestSpec, FilterableResponseSpecification responseSpec,
                            FilterContext filterContext) {
         AllureLifecycle lifecycle = Allure.getLifecycle();
