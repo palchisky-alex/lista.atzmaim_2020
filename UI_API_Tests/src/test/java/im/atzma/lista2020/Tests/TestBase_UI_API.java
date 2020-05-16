@@ -5,10 +5,13 @@ import im.atzma.lista2020.appmanager.ApplicationRest_UI_API_Manager;
 import io.qameta.allure.attachment.DefaultAttachmentContent;
 import io.qameta.allure.attachment.FreemarkerAttachmentRenderer;
 import io.qameta.allure.attachment.http.HttpRequestAttachment;
+import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.RestAssured;
+import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.filter.log.LogDetail;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
+import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.*;
 
 import java.io.PrintStream;
@@ -22,7 +25,10 @@ public class TestBase_UI_API {
 
     @BeforeClass(alwaysRun = true)
     public void logs() {
-        RestAssured.filters(new RequestLoggingFilter(), new ResponseLoggingFilter());
+        RequestSpecification specification = new RequestSpecBuilder()
+                .addFilter(new AllureRestAssured())
+                .build();
+       // RestAssured.filters(new RequestLoggingFilter(), new ResponseLoggingFilter());
     }
 
     @BeforeMethod(alwaysRun = true)
