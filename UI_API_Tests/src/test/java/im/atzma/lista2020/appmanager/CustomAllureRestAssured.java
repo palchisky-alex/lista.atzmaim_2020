@@ -19,12 +19,10 @@ import java.util.UUID;
 public class CustomAllureRestAssured extends AllureRestAssured {
 
     public Response filter(FilterableRequestSpecification requestSpec, FilterableResponseSpecification responseSpec, FilterContext filterContext) {
-        RequestSpecification specification = new RequestSpecBuilder()
-                .addFilter(new AllureRestAssured())
-                .build();
+
 
         AllureLifecycle lifecycle = Allure.getLifecycle();
-        StepResult stepResult = (new StepResult()).setStatus(Status.PASSED).setName(String.format("%s: %s", requestSpec.getRequestParams(), requestSpec.getURI()));
+        StepResult stepResult = (new StepResult()).setStatus(Status.PASSED).setName(String.format("%s: %s", requestSpec.getMethod(), requestSpec.getURI()));
         lifecycle.startStep(UUID.randomUUID().toString(), stepResult);
 
         Response response;

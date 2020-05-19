@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="477da253-88be-40ae-98c6-8ed2876fb43d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/AccountCreation_UI_API_Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/AccountCreation_UI_API_Helper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/CustomAllureRestAssured.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/CustomAllureRestAssured.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../rest-assured-untappd/src/test/java/apitests/AuthenticateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../rest-assured-untappd/src/test/java/apitests/AuthenticateTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../rest-assured-untappd/src/test/java/utils/TestDataUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../rest-assured-untappd/src/test/java/utils/TestDataUtils.java" afterDir="false" />
@@ -324,22 +325,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#Plugins/0.0.1280.680@0.0.1280.680" timestamp="1589060202232" />
-    <state width="1237" height="222" key="GridCell.Tab.0.bottom" timestamp="1589910842656">
+    <state width="1237" height="194" key="GridCell.Tab.0.bottom" timestamp="1589913058687">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="222" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589910842656" />
-    <state width="1237" height="222" key="GridCell.Tab.0.center" timestamp="1589910842656">
+    <state width="1237" height="194" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589913058687" />
+    <state width="1237" height="194" key="GridCell.Tab.0.center" timestamp="1589913058687">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="222" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589910842656" />
-    <state width="1237" height="222" key="GridCell.Tab.0.left" timestamp="1589910842656">
+    <state width="1237" height="194" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589913058687" />
+    <state width="1237" height="194" key="GridCell.Tab.0.left" timestamp="1589913058687">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="222" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589910842656" />
-    <state width="1237" height="222" key="GridCell.Tab.0.right" timestamp="1589910842656">
+    <state width="1237" height="194" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589913058687" />
+    <state width="1237" height="194" key="GridCell.Tab.0.right" timestamp="1589913058687">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="222" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589910842656" />
+    <state width="1237" height="194" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589913058687" />
+    <state width="1237" height="194" key="GridCell.Tab.1.bottom" timestamp="1589913061847">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="194" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589913061847" />
+    <state width="1237" height="194" key="GridCell.Tab.1.center" timestamp="1589913061847">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="194" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1589913061847" />
+    <state width="1237" height="194" key="GridCell.Tab.1.left" timestamp="1589913061847">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="194" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1589913061847" />
+    <state width="1237" height="194" key="GridCell.Tab.1.right" timestamp="1589913061847">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="194" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1589913061847" />
     <state x="-93" y="0" key="SettingsEditor" timestamp="1589060854477">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -368,6 +385,9 @@
         <watch expression="m.parentPattern.pattern.value[17]" />
         <watch expression="method" />
         <watch expression="this" />
+        <watch expression="lifecycle.writer" />
+        <watch expression="lifecycle.writer" language="JAVA" />
+        <watch expression="stepResult" />
       </configuration>
     </watches-manager>
   </component>
