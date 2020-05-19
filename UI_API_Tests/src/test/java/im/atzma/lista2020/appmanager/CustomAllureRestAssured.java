@@ -17,14 +17,15 @@ import java.util.UUID;
 
 // This class is used to create Allure reports for Rest Assured tests
 public class CustomAllureRestAssured extends AllureRestAssured {
-    RequestSpecification specification = new RequestSpecBuilder()
-            .addFilter(new AllureRestAssured())
-            .build();
-    public Response filter(FilterableRequestSpecification requestSpec, FilterableResponseSpecification responseSpec,
-                           FilterContext filterContext) {
+
+    public Response filter(FilterableRequestSpecification requestSpec, FilterableResponseSpecification responseSpec, FilterContext filterContext) {
+        RequestSpecification specification = new RequestSpecBuilder()
+                .addFilter(new AllureRestAssured())
+                .build();
+
         AllureLifecycle lifecycle = Allure.getLifecycle();
         StepResult stepResult = (new StepResult()).setStatus(Status.PASSED).
-                setName(String.format("%s: %s", requestSpec.getMethod(), requestSpec.getURI()));
+                setName(String.format("%s: %s", specification, requestSpec.getURI()));
         lifecycle.startStep(UUID.randomUUID().toString(), stepResult);
 
         Response response;
@@ -34,5 +35,8 @@ public class CustomAllureRestAssured extends AllureRestAssured {
             lifecycle.stopStep();
         }
         return response;
+
+
     }
+
 }
