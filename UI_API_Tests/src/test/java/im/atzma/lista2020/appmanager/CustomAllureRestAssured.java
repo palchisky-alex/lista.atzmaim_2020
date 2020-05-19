@@ -24,8 +24,7 @@ public class CustomAllureRestAssured extends AllureRestAssured {
                 .build();
 
         AllureLifecycle lifecycle = Allure.getLifecycle();
-        StepResult stepResult = (new StepResult()).setStatus(Status.PASSED).
-                setName(String.format("%s: %s", requestSpec.getMethod(), requestSpec.getURI(), requestSpec.getRequestParams()));
+        StepResult stepResult = (new StepResult()).setStatus(Status.PASSED).setName(String.format("%s: %s", requestSpec.getRequestParams(), requestSpec.getURI()));
         lifecycle.startStep(UUID.randomUUID().toString(), stepResult);
 
         Response response;
@@ -35,8 +34,6 @@ public class CustomAllureRestAssured extends AllureRestAssured {
             lifecycle.stopStep();
         }
         return response;
-
-
     }
 
 }
