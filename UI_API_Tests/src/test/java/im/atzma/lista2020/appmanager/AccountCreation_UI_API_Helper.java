@@ -58,9 +58,8 @@ public class AccountCreation_UI_API_Helper {
         accounts.put(random_for_mail + "@gmail.com", "Pa$$w@rd");
         RequestSpecification specification = new RequestSpecBuilder().addFilter(new CustomAllureRestAssured()).build();
 
-        post_response = given().spec(specification).filters(new CustomAllureRestAssured().
-                setRequestTemplate("http-request.ftl").
-                setResponseTemplate("http-response.ftl")).spec(specification).
+        post_response = given().spec(specification).
+            spec(specification).
                 header("Content-Type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 header("X-Requested-With", "XMLHttpRequest").
