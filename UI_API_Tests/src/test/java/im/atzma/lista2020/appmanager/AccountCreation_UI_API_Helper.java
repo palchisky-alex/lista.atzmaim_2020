@@ -65,8 +65,7 @@ public class AccountCreation_UI_API_Helper {
 
         RequestSpecification specification = new RequestSpecBuilder().addFilter(new AllureRestAssured()).build();
 
-            post_response = given().log().all().
-                    spec(specification).
+            post_response = given().
                     header("Content-Type", "application/x-www-form-urlencoded").
                     header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                     header("X-Requested-With", "XMLHttpRequest").
@@ -84,7 +83,7 @@ public class AccountCreation_UI_API_Helper {
                     post("/signup-new-account").then().
                     extract().response();
 
-        accountCreationResponse = post_response.getBody().prettyPrint();
+        accountCreationResponse = post_response.asString();
 //        Allure.getLifecycle().updateTestCase((t) -> {t.setStatusDetails( t.getStatusDetails().setMessage(accountCreationResponse));
 //        });
 
@@ -96,7 +95,6 @@ public class AccountCreation_UI_API_Helper {
             System.out.println("Cookie value account creation : " + value);
         }
         System.out.println("Create account status: " + post_response.getStatusCode());
-        Allure.addAttachment("result", "json", accountCreationResponse);
 
         return post_response;
 
