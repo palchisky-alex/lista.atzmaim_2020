@@ -56,9 +56,10 @@ public class AccountCreation_UI_API_Helper {
 
         System.out.println("=== CREATE RANDOM ACCOUNT, STATUS MUST BE 201 ===");
         accounts.put(random_for_mail + "@gmail.com", "Pa$$w@rd");
+
         RequestSpecification specification = new RequestSpecBuilder().addFilter(new AllureRestAssured()).build();
 
-        post_response = given().spec(specification).
+        post_response = given().
             spec(specification).
                 header("Content-Type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
@@ -73,14 +74,14 @@ public class AccountCreation_UI_API_Helper {
                 formParam("timezone", "Asia/Jerusalem").
                 formParam("country", "IL").
                 formParam("city", "Tesl Aviv").
-                when().spec(specification).
+                when().
                 post("/signup-new-account").then().
                 extract().response();
 
         accountCreationResponse = post_response.asString();
-//        Allure.getLifecycle().updateTestCase((t) -> {t.setStatusDetails( t.getStatusDetails().setMessage(accountCreationResponse));
-//        });
-
+        Allure.getLifecycle().updateTestCase((t) -> {t.setStatusDetails( t.getStatusDetails().setMessage(accountCreationResponse));
+        });
+        
         loginCookie = post_response.getCookies();
 
         for (Map.Entry<String, String> entry : loginCookie.entrySet()) {
