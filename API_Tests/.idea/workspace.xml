@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="477da253-88be-40ae-98c6-8ed2876fb43d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/AccountCreation_UI_API_Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/AccountCreation_UI_API_Helper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../rest-assured-untappd/src/test/java/apitests/AuthenticateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../rest-assured-untappd/src/test/java/apitests/AuthenticateTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../rest-assured-untappd/src/test/java/utils/TestDataUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../rest-assured-untappd/src/test/java/utils/TestDataUtils.java" afterDir="false" />
@@ -320,26 +321,34 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="267" y="19" key="#Inspections" timestamp="1590074758279">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="267" y="19" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1590074758279" />
     <state x="233" y="0" key="#Plugins" timestamp="1589060202232">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#Plugins/0.0.1280.680@0.0.1280.680" timestamp="1589060202232" />
-    <state width="1237" height="194" key="GridCell.Tab.0.bottom" timestamp="1589921102619">
+    <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1590077227980">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="194" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589921102619" />
-    <state width="1237" height="194" key="GridCell.Tab.0.center" timestamp="1589921102619">
+    <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.680@0.0.1280.680" timestamp="1590077227980" />
+    <state width="1237" height="88" key="GridCell.Tab.0.bottom" timestamp="1590077029791">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="194" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589921102619" />
-    <state width="1237" height="194" key="GridCell.Tab.0.left" timestamp="1589921102619">
+    <state width="1237" height="88" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590077029791" />
+    <state width="1237" height="88" key="GridCell.Tab.0.center" timestamp="1590077029791">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="194" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589921102619" />
-    <state width="1237" height="194" key="GridCell.Tab.0.right" timestamp="1589921102619">
+    <state width="1237" height="88" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1590077029791" />
+    <state width="1237" height="88" key="GridCell.Tab.0.left" timestamp="1590077029791">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="194" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589921102619" />
+    <state width="1237" height="88" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1590077029791" />
+    <state width="1237" height="88" key="GridCell.Tab.0.right" timestamp="1590077029791">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="88" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1590077029791" />
     <state width="1237" height="194" key="GridCell.Tab.1.bottom" timestamp="1589921102620">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

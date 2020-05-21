@@ -5,10 +5,16 @@ import io.qameta.allure.Step;
 import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.config.LogConfig;
 import io.restassured.filter.Filter;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
+
+import java.io.FileOutputStream;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintStream;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
@@ -59,24 +65,24 @@ public class AccountCreation_UI_API_Helper {
 
         RequestSpecification specification = new RequestSpecBuilder().addFilter(new AllureRestAssured()).build();
 
-        post_response = given().
-            spec(specification).log().params().
-                header("Content-Type", "application/x-www-form-urlencoded").
-                header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
-                header("X-Requested-With", "XMLHttpRequest").
-                formParam("added", currentDate + " " + currentTime).
-                formParam("email", random_for_mail + "@gmail.com").
-                formParam("pass", "Pa$$w@rd").
-                formParam("phone", "0547613154").
-                formParam("permit_ads", "true").
-                formParam("business_types", "[1]").
-                formParam("lang", "en").
-                formParam("timezone", "Asia/Jerusalem").
-                formParam("country", "IL").
-                formParam("city", "Tesl Aviv").
-                when().
-                post("/signup-new-account").then().
-                extract().response();
+            post_response = given().log().all().
+                    spec(specification).
+                    header("Content-Type", "application/x-www-form-urlencoded").
+                    header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
+                    header("X-Requested-With", "XMLHttpRequest").
+                    formParam("added", currentDate + " " + currentTime).
+                    formParam("email", random_for_mail + "@gmail.com").
+                    formParam("pass", "Pa$$w@rd").
+                    formParam("phone", "0547613154").
+                    formParam("permit_ads", "true").
+                    formParam("business_types", "[1]").
+                    formParam("lang", "en").
+                    formParam("timezone", "Asia/Jerusalem").
+                    formParam("country", "IL").
+                    formParam("city", "Tesl Aviv").
+                    when().
+                    post("/signup-new-account").then().
+                    extract().response();
 
         accountCreationResponse = post_response.getBody().prettyPrint();
 //        Allure.getLifecycle().updateTestCase((t) -> {t.setStatusDetails( t.getStatusDetails().setMessage(accountCreationResponse));
