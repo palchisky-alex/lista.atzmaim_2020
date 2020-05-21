@@ -35,14 +35,13 @@ public class AccountCreation_UI_API_Tests extends TestBase_UI_API {
     @Test(priority = 1)
     public void createAccount() {
 
-        app.accountCreation_UI_API_Helper().createAccount().then().assertThat().statusCode(201).body(" ", equalTo("/en/calendar"));
+        app.accountCreation_UI_API_Helper().createAccount().then().assertThat().statusCode(201);
     }
 
 
-    //@Test(priority = 2)
+    @Test(priority = 2)
     public void verifyAccountCreation() {
-      //  assertEquals(app.accountCreation_UI_API_Helper().verifyAccountCreation().asString(), "/en/calendar");
-        assertEquals( app.accountCreation_UI_API_Helper().verifyAccountCreation(),"/en/calendar");
+        assertEquals(app.accountCreation_UI_API_Helper().verifyAccountCreation(), "/en/calendar");
     }
 
 

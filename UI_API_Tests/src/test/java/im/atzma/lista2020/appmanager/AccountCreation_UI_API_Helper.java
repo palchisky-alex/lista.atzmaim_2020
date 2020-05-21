@@ -66,7 +66,7 @@ public class AccountCreation_UI_API_Helper {
 
         RequestSpecification specification = new RequestSpecBuilder().addFilter(new AllureRestAssured()).build();
 
-            post_response = given().filters(new CustomAllureRestAssured()).log().all().
+            post_response = given().log().all().filters(new CustomAllureRestAssured()).
                     header("Content-Type", "application/x-www-form-urlencoded").
                     header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                     header("X-Requested-With", "XMLHttpRequest").
