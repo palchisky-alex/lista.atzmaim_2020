@@ -79,8 +79,8 @@ public class AccountCreation_UI_API_Helper {
                 extract().response();
 
         accountCreationResponse = post_response.getBody().prettyPrint();
-        Allure.getLifecycle().updateTestCase((t) -> {t.setStatusDetails( t.getStatusDetails().setMessage(accountCreationResponse));
-        });
+//        Allure.getLifecycle().updateTestCase((t) -> {t.setStatusDetails( t.getStatusDetails().setMessage(accountCreationResponse));
+//        });
 
         loginCookie = post_response.getCookies();
 
@@ -91,6 +91,7 @@ public class AccountCreation_UI_API_Helper {
         }
         System.out.println("Create account status: " + post_response.getStatusCode());
         Allure.addAttachment("result", "json", accountCreationResponse);
+
         return post_response;
 
     }
