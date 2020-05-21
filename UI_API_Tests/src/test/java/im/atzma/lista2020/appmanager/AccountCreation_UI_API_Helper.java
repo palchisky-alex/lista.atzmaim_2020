@@ -9,6 +9,9 @@ import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.config.LogConfig;
 import io.restassured.filter.Filter;
+import io.restassured.filter.log.LogDetail;
+import io.restassured.filter.log.RequestLoggingFilter;
+import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.testng.Reporter;
@@ -40,10 +43,6 @@ public class AccountCreation_UI_API_Helper {
     DateTimeFormatter dtf2 = DateTimeFormatter.ofPattern("HH:mm:ss");
     String currentTime = time.format(dtf2);
 
-    @Attachment(value = "somefile", type = "text/plain")
-    public static String attachLog(final String name, final String data) {
-        return data;
-    }
 
 
     public String businessTypeResponse() {
@@ -60,8 +59,7 @@ public class AccountCreation_UI_API_Helper {
     }
     @Step("verify account creation status code 201")
     public Response createAccount() throws FileNotFoundException {
-//        LogConfig logconfig = new LogConfig().enableLoggingOfRequestAndResponseIfValidationFails().enablePrettyPrinting(true);
-//        RestAssured.config().logConfig(logconfig);
+
 
         Random random = new Random();
         int randomInt = random.nextInt();
@@ -74,7 +72,8 @@ public class AccountCreation_UI_API_Helper {
 
         PrintStream fileOutPutStream = new PrintStream(new File("somefile.txt"));
         config = config().logConfig(new LogConfig().defaultStream(fileOutPutStream));
-
+        RestAssured.filters(new ResponseLoggingFilter(LogDetail.ALL, fileOutPutStream),
+                new RequestLoggingFilter(LogDetail.ALL, fileOutPutStream));
             post_response = given().filters(new CustomAllureRestAssured()).log().params().
                     header("Content-Type", "application/x-www-form-urlencoded").
                     header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
