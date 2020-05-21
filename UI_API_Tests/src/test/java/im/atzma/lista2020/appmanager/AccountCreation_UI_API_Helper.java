@@ -45,7 +45,7 @@ public class AccountCreation_UI_API_Helper {
         System.out.println(responseString);
         return responseString;
     }
-
+    @Step("verify account creation status code 201")
     public Response createAccount() {
 //        LogConfig logconfig = new LogConfig().enableLoggingOfRequestAndResponseIfValidationFails().enablePrettyPrinting(true);
 //        RestAssured.config().logConfig(logconfig);
@@ -81,7 +81,7 @@ public class AccountCreation_UI_API_Helper {
         accountCreationResponse = post_response.asString();
         Allure.getLifecycle().updateTestCase((t) -> {t.setStatusDetails( t.getStatusDetails().setMessage(accountCreationResponse));
         });
-        
+
         loginCookie = post_response.getCookies();
 
         for (Map.Entry<String, String> entry : loginCookie.entrySet()) {
@@ -93,14 +93,14 @@ public class AccountCreation_UI_API_Helper {
         return post_response;
 
     }
-
+    @Step("verify account creation response /en/calendar")
     public Response verifyAccountCreation() {
         System.out.println("ACCOUNT CREATION RESPONSE MUST BE '/en/calendar'");
         System.out.println("Account creation response: " + post_response.asString());
 
         return post_response;
     }
-
+    @Step("verify delete account status code 401")
     public Response deleteAccount() {
         System.out.println("=== REMOVE ALL ACCOUNTS, STATUS MUST BE 401 ===");
         System.out.println("=== ACCOUNTS DESIGNED FOR REMOVAL - 1 ");
@@ -121,7 +121,7 @@ public class AccountCreation_UI_API_Helper {
         return delete_response;
     }
 
-
+    @Step("verify delete account response /he/login")
     public String verifyAccountDeletion() {
         System.out.println("=== VERIFY ACCOUNTS DELETION ===");
         System.out.println("=== STATUS MUST BE 302 AND 'LOCATION' VALUE - '/he/login' ===");
