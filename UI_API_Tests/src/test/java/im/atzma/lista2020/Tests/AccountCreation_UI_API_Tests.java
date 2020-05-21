@@ -19,6 +19,7 @@ import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import java.io.FileNotFoundException;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
@@ -33,7 +34,7 @@ import static org.testng.Assert.assertEquals;
 public class AccountCreation_UI_API_Tests extends TestBase_UI_API {
 
     @Test(priority = 1)
-    public void createAccount() {
+    public void createAccount() throws FileNotFoundException {
 
         app.accountCreation_UI_API_Helper().createAccount().then().assertThat().statusCode(201);
     }

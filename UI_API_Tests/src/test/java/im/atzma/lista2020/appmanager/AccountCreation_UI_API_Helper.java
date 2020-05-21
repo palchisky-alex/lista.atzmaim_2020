@@ -11,15 +11,13 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
 
-import java.io.FileOutputStream;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintStream;
+import java.io.*;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 
+import static io.restassured.RestAssured.config;
 import static io.restassured.RestAssured.given;
 
 public class AccountCreation_UI_API_Helper {
@@ -53,7 +51,7 @@ public class AccountCreation_UI_API_Helper {
         return responseString;
     }
     @Step("verify account creation status code 201")
-    public Response createAccount() {
+    public Response createAccount() throws FileNotFoundException {
 //        LogConfig logconfig = new LogConfig().enableLoggingOfRequestAndResponseIfValidationFails().enablePrettyPrinting(true);
 //        RestAssured.config().logConfig(logconfig);
 
@@ -66,7 +64,10 @@ public class AccountCreation_UI_API_Helper {
 
         RequestSpecification specification = new RequestSpecBuilder().addFilter(new AllureRestAssured()).build();
 
-            post_response = given().log().all().filters(new CustomAllureRestAssured()).
+        PrintStream fileOutPutStream = new PrintStream(new File("somefile.txt"));
+        config = config().logConfig(new LogConfig().defaultStream(fileOutPutStream));
+
+            post_response = given().filters(new CustomAllureRestAssured()).log().params().
                     header("Content-Type", "application/x-www-form-urlencoded").
                     header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                     header("X-Requested-With", "XMLHttpRequest").
