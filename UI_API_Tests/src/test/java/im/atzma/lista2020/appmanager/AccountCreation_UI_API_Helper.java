@@ -72,8 +72,7 @@ public class AccountCreation_UI_API_Helper {
 
         PrintStream fileOutPutStream = new PrintStream(new File("somefile.txt"));
         config = config().logConfig(new LogConfig().defaultStream(fileOutPutStream));
-        RestAssured.filters(new ResponseLoggingFilter(LogDetail.ALL, fileOutPutStream),
-                new RequestLoggingFilter(LogDetail.ALL, fileOutPutStream));
+
             post_response = given().filters(new CustomAllureRestAssured()).log().params().
                     header("Content-Type", "application/x-www-form-urlencoded").
                     header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
@@ -101,7 +100,8 @@ public class AccountCreation_UI_API_Helper {
             System.out.println("Cookie value account creation : " + value);
         }
         System.out.println("Create account status: " + post_response.getStatusCode());
-        Allure.addAttachment("", String.valueOf(fileOutPutStream));
+        RestAssured.filters(new ResponseLoggingFilter(LogDetail.ALL, fileOutPutStream),
+                new RequestLoggingFilter(LogDetail.ALL, fileOutPutStream));
         return post_response;
 
     }
