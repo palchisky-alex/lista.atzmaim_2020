@@ -14,17 +14,13 @@ import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import org.testng.Reporter;
-
-
 import java.io.*;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 
-import static io.restassured.RestAssured.config;
-import static io.restassured.RestAssured.given;
+import static io.restassured.RestAssured.*;
 
 public class AccountCreation_UI_API_Helper {
     String key = "7b7a53e239400a13bd6be6c91c4f6c4e";
@@ -70,10 +66,15 @@ public class AccountCreation_UI_API_Helper {
 
         RequestSpecification specification = new RequestSpecBuilder().addFilter(new AllureRestAssured()).build();
 
-        PrintStream fileOutPutStream = new PrintStream(new File("somefile.txt"));
-        config = config().logConfig(new LogConfig().defaultStream(fileOutPutStream));
+//        PrintStream fileOutPutStream = new PrintStream(new File("somefile.txt"));
+//        config = config().logConfig(new LogConfig().defaultStream(fileOutPutStream));
+StringWriter requestWriter = new StringWriter();
+        ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
+PrintStream requestStream = new PrintStream(new BufferedOutputStream(outputStream),true);
 
-            post_response = given().filters(new CustomAllureRestAssured()).log().params().
+
+            post_response = given().filters(new ResponseLoggingFilter(LogDetail.ALL, requestStream),
+                    new RequestLoggingFilter(LogDetail.ALL, requestStream)).log().params().
                     header("Content-Type", "application/x-www-form-urlencoded").
                     header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                     header("X-Requested-With", "XMLHttpRequest").
@@ -100,8 +101,7 @@ public class AccountCreation_UI_API_Helper {
             System.out.println("Cookie value account creation : " + value);
         }
         System.out.println("Create account status: " + post_response.getStatusCode());
-        RestAssured.filters(new ResponseLoggingFilter(LogDetail.ALL, fileOutPutStream),
-                new RequestLoggingFilter(LogDetail.ALL, fileOutPutStream));
+
         return post_response;
 
     }
