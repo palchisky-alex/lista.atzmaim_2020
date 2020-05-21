@@ -102,7 +102,7 @@ public class AccountCreation_UI_API_Helper {
             System.out.println("Cookie value account creation : " + value);
         }
         System.out.println("Create account status: " + post_response.getStatusCode());
-        Allure.addAttachment("file","somefile.txt");
+        Allure.addAttachment("", String.valueOf(fileOutPutStream));
         return post_response;
 
     }
