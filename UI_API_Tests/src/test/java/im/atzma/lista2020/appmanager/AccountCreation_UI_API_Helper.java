@@ -1,14 +1,17 @@
 package im.atzma.lista2020.appmanager;
 
 import io.qameta.allure.Allure;
+import io.qameta.allure.Attachment;
 import io.qameta.allure.Step;
 import io.qameta.allure.restassured.AllureRestAssured;
+import io.qameta.allure.testng.AllureTestNg;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.config.LogConfig;
 import io.restassured.filter.Filter;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import org.testng.Reporter;
 
 
 import java.io.*;
@@ -36,6 +39,11 @@ public class AccountCreation_UI_API_Helper {
     LocalTime time = LocalTime.now();
     DateTimeFormatter dtf2 = DateTimeFormatter.ofPattern("HH:mm:ss");
     String currentTime = time.format(dtf2);
+
+    @Attachment(value = "somefile", type = "text/plain")
+    public static String attachLog(final String name, final String data) {
+        return data;
+    }
 
 
     public String businessTypeResponse() {
@@ -85,8 +93,6 @@ public class AccountCreation_UI_API_Helper {
                     post("/signup-new-account");
       bodyS =   post_response.getBody().asString();
         accountCreationResponse = post_response.asString();
-//        Allure.getLifecycle().updateTestCase((t) -> {t.setStatusDetails( t.getStatusDetails().setMessage(accountCreationResponse));
-//        });
 
         loginCookie = post_response.getCookies();
 
@@ -96,7 +102,7 @@ public class AccountCreation_UI_API_Helper {
             System.out.println("Cookie value account creation : " + value);
         }
         System.out.println("Create account status: " + post_response.getStatusCode());
-
+        Allure.addAttachment("file","somefile.txt");
         return post_response;
 
     }
