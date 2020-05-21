@@ -25,6 +25,7 @@ import static io.restassured.RestAssured.given;
 public class AccountCreation_UI_API_Helper {
     String key = "7b7a53e239400a13bd6be6c91c4f6c4e";
     String value;
+    String bodyS;
     String headerValue;
     String accountCreationResponse;
     Response get_response;
@@ -82,7 +83,7 @@ public class AccountCreation_UI_API_Helper {
                     when().
                     post("/signup-new-account").then().
                     extract().response();
-
+      bodyS =   post_response.getBody().asString();
         accountCreationResponse = post_response.asString();
 //        Allure.getLifecycle().updateTestCase((t) -> {t.setStatusDetails( t.getStatusDetails().setMessage(accountCreationResponse));
 //        });
@@ -100,11 +101,14 @@ public class AccountCreation_UI_API_Helper {
 
     }
     @Step("verify account creation response /en/calendar")
-    public Response verifyAccountCreation() {
+    public String verifyAccountCreation( ) {
+        Allure.getLifecycle().updateTestCase((t) -> {
+            t.setStatusDetails(t.getStatusDetails().setMessage("ACCOUNT CREATION RESPONSE MUST BE '/en/calendar'"));
+        });
         System.out.println("ACCOUNT CREATION RESPONSE MUST BE '/en/calendar'");
         System.out.println("Account creation response: " + post_response.asString());
 
-        return post_response;
+        return  bodyS;
     }
     @Step("verify delete account status code 401")
     public Response deleteAccount() {
