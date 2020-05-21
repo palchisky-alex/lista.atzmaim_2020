@@ -66,7 +66,7 @@ public class AccountCreation_UI_API_Helper {
 
         RequestSpecification specification = new RequestSpecBuilder().addFilter(new AllureRestAssured()).build();
 
-            post_response = given().filters(new CustomAllureRestAssured()).
+            post_response = given().filters(new CustomAllureRestAssured()).log().all().
                     header("Content-Type", "application/x-www-form-urlencoded").
                     header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                     header("X-Requested-With", "XMLHttpRequest").
@@ -81,8 +81,7 @@ public class AccountCreation_UI_API_Helper {
                     formParam("country", "IL").
                     formParam("city", "Tesl Aviv").
                     when().
-                    post("/signup-new-account").then().
-                    extract().response();
+                    post("/signup-new-account");
       bodyS =   post_response.getBody().asString();
         accountCreationResponse = post_response.asString();
 //        Allure.getLifecycle().updateTestCase((t) -> {t.setStatusDetails( t.getStatusDetails().setMessage(accountCreationResponse));
