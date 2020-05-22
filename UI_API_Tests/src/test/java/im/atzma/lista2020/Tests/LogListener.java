@@ -1,4 +1,4 @@
-package im.atzma.lista2020.appmanager;
+package im.atzma.lista2020.Tests;
 
 import io.qameta.allure.Attachment;
 import io.restassured.RestAssured;
