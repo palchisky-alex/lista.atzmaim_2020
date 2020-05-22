@@ -9,7 +9,6 @@ public class AccountCreation_UI_API_Tests extends TestBase_UI_API {
 
     @Test(priority = 1)
     public void createAccount() throws FileNotFoundException {
-
         app.accountCreation_UI_API_Helper().createAccount().then().assertThat().statusCode(201);
     }
 
@@ -20,12 +19,10 @@ public class AccountCreation_UI_API_Tests extends TestBase_UI_API {
     }
 
 
-
     @Test(priority = 3)
     public void deleteAccount() {
         app.accountCreation_UI_API_Helper().deleteAccount().then().assertThat().statusCode(401);
     }
-
 
 
 

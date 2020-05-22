@@ -56,7 +56,7 @@ public class AccountCreation_UI_API_Helper {
 
     @Attachment(value = "request")
     @Step("verify account creation status code 201")
-    public Response createAccount() throws FileNotFoundException {
+    public Response createAccount() {
 
         Random random = new Random();
         int randomInt = random.nextInt();
@@ -69,9 +69,9 @@ public class AccountCreation_UI_API_Helper {
 
 //        PrintStream fileOutPutStream = new PrintStream(new File("somefile.txt"));
 //        config = config().logConfig(new LogConfig().defaultStream(fileOutPutStream));
+//.filters(new CustomAllureRestAssured(), new RequestLoggingFilter())
 
-
-            post_response = given().filters(new CustomAllureRestAssured(), new RequestLoggingFilter()).log().params().
+            post_response = given().log().all().
                     header("Content-Type", "application/x-www-form-urlencoded").
                     header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                     header("X-Requested-With", "XMLHttpRequest").
