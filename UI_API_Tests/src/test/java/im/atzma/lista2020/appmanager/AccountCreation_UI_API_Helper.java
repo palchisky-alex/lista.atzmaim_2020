@@ -58,7 +58,6 @@ public class AccountCreation_UI_API_Helper {
     @Step("verify account creation status code 201")
     public Response createAccount() throws FileNotFoundException {
 
-
         Random random = new Random();
         int randomInt = random.nextInt();
         String random_for_mail = "api_test_ui" + randomInt;
