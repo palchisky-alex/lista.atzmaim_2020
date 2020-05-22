@@ -14,6 +14,8 @@ import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
+import org.testng.annotations.Listeners;
+
 import java.io.*;
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -21,7 +23,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.*;
 
 import static io.restassured.RestAssured.*;
-
+@Listeners(LogListener.class)
 public class AccountCreation_UI_API_Helper {
     String key = "7b7a53e239400a13bd6be6c91c4f6c4e";
     String value;
@@ -71,7 +73,7 @@ public class AccountCreation_UI_API_Helper {
 //        config = config().logConfig(new LogConfig().defaultStream(fileOutPutStream));
 //.filters(new CustomAllureRestAssured(), new RequestLoggingFilter())
 
-            post_response = given().log().all().filter(new RequestLoggingFilter()).
+            post_response = given().log().all().filter(new CustomAllureRestAssured()).
                     header("Content-Type", "application/x-www-form-urlencoded").
                     header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                     header("X-Requested-With", "XMLHttpRequest").
