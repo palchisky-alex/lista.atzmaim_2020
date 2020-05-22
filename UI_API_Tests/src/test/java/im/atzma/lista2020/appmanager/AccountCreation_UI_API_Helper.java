@@ -68,13 +68,9 @@ public class AccountCreation_UI_API_Helper {
 
 //        PrintStream fileOutPutStream = new PrintStream(new File("somefile.txt"));
 //        config = config().logConfig(new LogConfig().defaultStream(fileOutPutStream));
-StringWriter requestWriter = new StringWriter();
-        ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
-PrintStream requestStream = new PrintStream(new BufferedOutputStream(outputStream),true);
 
 
-            post_response = given().filters(new ResponseLoggingFilter(LogDetail.ALL, requestStream),
-                    new RequestLoggingFilter(LogDetail.ALL, requestStream)).log().params().
+            post_response = given().filters(new CustomAllureRestAssured()).log().params().
                     header("Content-Type", "application/x-www-form-urlencoded").
                     header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                     header("X-Requested-With", "XMLHttpRequest").
