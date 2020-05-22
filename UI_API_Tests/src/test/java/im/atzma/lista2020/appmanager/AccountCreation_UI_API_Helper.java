@@ -53,6 +53,8 @@ public class AccountCreation_UI_API_Helper {
         System.out.println(responseString);
         return responseString;
     }
+
+    @Attachment(value = "request")
     @Step("verify account creation status code 201")
     public Response createAccount() throws FileNotFoundException {
 
