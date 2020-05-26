@@ -50,7 +50,7 @@ public class CookieManager {
                 formParam("country", "IL").
                 formParam("city", "Tel Aviv").
                 when().log().all().
-                post("/signup-new-account").then().assertThat().statusCode(201).
+                post("/signup?utm_source=automatic-tests").then().assertThat().statusCode(201).
                 extract().response();
 
         String responseString = post_response.asString();

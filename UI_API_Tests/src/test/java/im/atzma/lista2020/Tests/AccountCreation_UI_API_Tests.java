@@ -14,14 +14,14 @@ import java.util.*;
 
 import static io.restassured.RestAssured.given;
 import static org.testng.Assert.assertEquals;
+
 @Listeners(LogListener.class)
 public class AccountCreation_UI_API_Tests extends TestBase_UI_API {
 
     @Test(priority = 1)
-    public void createAccount() throws FileNotFoundException {
+    public void createAccount() {
         app.accountCreation_UI_API_Helper().createAccount().then().assertThat().statusCode(201);
     }
-
 
     @Test(priority = 2)
     public void verifyAccountCreation() {

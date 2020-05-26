@@ -65,7 +65,7 @@ public class AccountCreation_UI_API_Helper {
 //        config = config().logConfig(new LogConfig().defaultStream(fileOutPutStream));
 //.filters(new CustomAllureRestAssured(), new RequestLoggingFilter())
 
-            post_response = given().log().all().filter(new CustomAllureRestAssured()).
+            post_response = given().log().all().filter(new AllureRestAssured()).
                     header("Content-Type", "application/x-www-form-urlencoded").
                     header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                     header("X-Requested-With", "XMLHttpRequest").
