@@ -20,6 +20,8 @@
                     <include name="testLogOut"/>
                     <include name="testVerifyLoginWithNewUser"/>
                     <include name="testVerifyDefaultClientPage()"/>
+                    <include name="testVerifyDefaultClientPage_2()"/>
+                    <include name="testVerifyDefaultClientPage()_3"/>
                 </methods>
             </class>
             <!--<class name="im.atzma.lista2020.tests.ServiceCreationTest">-->
