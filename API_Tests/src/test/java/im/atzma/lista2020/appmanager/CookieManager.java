@@ -35,7 +35,7 @@ public class CookieManager {
 
         System.out.println("===== CREATE RANDOM ACCOUNT BEFORE TEST - " + randomMail + " =======");
 
-        post_response = given().
+        post_response = given().log().all().
                 header("Content-Type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 header("X-Requested-With", "XMLHttpRequest").
@@ -50,7 +50,7 @@ public class CookieManager {
                 formParam("country", "IL").
                 formParam("city", "Tel Aviv").
                 when().log().all().
-                post("/signup?utm_source=automatic-tests").then().assertThat().statusCode(201).
+                post("/signup-new-account").then().assertThat().statusCode(201).
                 extract().response();
 
         String responseString = post_response.asString();

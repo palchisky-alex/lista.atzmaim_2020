@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="477da253-88be-40ae-98c6-8ed2876fb43d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build/classes/java/test/lista2020/appmanager/AccountCreationHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build/classes/java/test/lista2020/appmanager/AccountCreationHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build/classes/java/test/lista2020/appmanager/ServiceVerificationRestHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build/classes/java/test/lista2020/appmanager/ServiceVerificationRestHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build/classes/java/test/lista2020/tests/AccountCreationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build/classes/java/test/lista2020/tests/AccountCreationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build/classes/java/test/lista2020/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/build/classes/java/test/lista2020/tests/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/im/atzma/lista2020/appmanager/CookieManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/im/atzma/lista2020/appmanager/CookieManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/ClientListPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/ClientListPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/tests/SingupTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/tests/SingupTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/resources/test/testng-AppointmentCreation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/resources/test/testng-AppointmentCreation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/classes/java/test/im/atzma/lista2020/Tests/AccountCreation_UI_API_Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI_API_Tests/build/classes/java/test/im/atzma/lista2020/Tests/AccountCreation_UI_API_Tests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/Tests/AccountCreation_UI_API_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/Tests/AccountCreation_UI_API_Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/CookieManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/CookieManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +131,7 @@
       <recent name="D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/UI_API_Tests/src/test/resources/testng-AccountCreation_UI_API_Rest.xml">
+  <component name="RunManager" selected="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ClientCreationRest.xml">
     <configuration name="AccountCreation_UI_API_Tests.createAccount" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -156,26 +144,6 @@
         <option name="taskNames">
           <list>
             <option value=":accountCreation" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="AuthenticateTest.authenticateWithValidCredsTestAssertAll" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/../../../rest-assured-untappd" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;apitests.AuthenticateTest.authenticateWithValidCredsTestAssertAll&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -222,6 +190,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ClientCreationRest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="API_Tests.test" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng-ClientCreationRest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/UI_API_Tests/src/test/resources/testng-AccountCreation_UI_API_Rest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UI_API_Tests.test" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/../UI_API_Tests/src/test/resources/testng-AccountCreation_UI_API_Rest.xml" />
@@ -243,21 +221,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.AuthenticateTest.authenticateWithValidCredsTestAssertAll" />
       <item itemvalue="Gradle.FreemarkerAttachmentRendererTest.shouldRenderResponseAttachment" />
       <item itemvalue="Gradle.AccountCreation_UI_API_Tests.createAccount" />
       <item itemvalue="TestNG.F:/Devel_2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AccountCreationRest.xml" />
       <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml" />
       <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/UI_API_Tests/src/test/resources/testng-AccountCreation_UI_API_Rest.xml" />
       <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentCreationRest.xml" />
+      <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ClientCreationRest.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ClientCreationRest.xml" />
         <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/UI_API_Tests/src/test/resources/testng-AccountCreation_UI_API_Rest.xml" />
         <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentCreationRest.xml" />
         <item itemvalue="Gradle.AccountCreation_UI_API_Tests.createAccount" />
         <item itemvalue="Gradle.FreemarkerAttachmentRendererTest.shouldRenderResponseAttachment" />
-        <item itemvalue="Gradle.AuthenticateTest.authenticateWithValidCredsTestAssertAll" />
       </list>
     </recent_temporary>
   </component>
@@ -317,22 +295,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.680@0.0.1280.680" timestamp="1590077227980" />
-    <state width="1237" height="190" key="GridCell.Tab.0.bottom" timestamp="1590485259114">
+    <state width="1237" height="181" key="GridCell.Tab.0.bottom" timestamp="1590489701324">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="190" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590485259114" />
-    <state width="1237" height="190" key="GridCell.Tab.0.center" timestamp="1590485259114">
+    <state width="1237" height="181" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590489701324" />
+    <state width="1237" height="181" key="GridCell.Tab.0.center" timestamp="1590489701324">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="190" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1590485259114" />
-    <state width="1237" height="190" key="GridCell.Tab.0.left" timestamp="1590485259114">
+    <state width="1237" height="181" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1590489701324" />
+    <state width="1237" height="181" key="GridCell.Tab.0.left" timestamp="1590489701324">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="190" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1590485259114" />
-    <state width="1237" height="190" key="GridCell.Tab.0.right" timestamp="1590485259114">
+    <state width="1237" height="181" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1590489701324" />
+    <state width="1237" height="181" key="GridCell.Tab.0.right" timestamp="1590489701324">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="190" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1590485259114" />
+    <state width="1237" height="181" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1590489701324" />
     <state width="1237" height="194" key="GridCell.Tab.1.bottom" timestamp="1590106218759">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
