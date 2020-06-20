@@ -47,8 +47,8 @@ public class ApplicationManager {
         properties.load(new FileReader(new File(String.format("src/test/resources/%s.properties", target))));
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setBrowserName("firefox");
-        capabilities.setVersion("75.0");
+        capabilities.setBrowserName("chrome");
+        capabilities.setVersion("81.0");
         capabilities.setCapability("enableVNC", true);
         capabilities.setCapability("enableVideo", true);
 
