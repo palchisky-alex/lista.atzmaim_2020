@@ -51,7 +51,7 @@ public class ApplicationManager {
         capabilities.setVersion("75.0");
         capabilities.setCapability("enableVNC", true);
         capabilities.setCapability("enableVideo", true);
-        capabilities.setCapability("videoName", "My video.mp4");
+        capabilities.setCapability("videoName", "myVideo.mp4");
 
         RemoteWebDriver driver = new RemoteWebDriver(
                 URI.create("http://67.205.150.243:4444/wd/hub").toURL(),
