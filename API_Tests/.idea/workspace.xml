@@ -277,22 +277,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.680@0.0.1280.680" timestamp="1590077227980" />
-    <state width="1237" height="187" key="GridCell.Tab.0.bottom" timestamp="1592656510630">
+    <state width="1237" height="306" key="GridCell.Tab.0.bottom" timestamp="1592667849155">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="187" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1592656510630" />
-    <state width="1237" height="187" key="GridCell.Tab.0.center" timestamp="1592656510630">
+    <state width="1237" height="306" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1592667849155" />
+    <state width="1237" height="306" key="GridCell.Tab.0.center" timestamp="1592667849151">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="187" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1592656510630" />
-    <state width="1237" height="187" key="GridCell.Tab.0.left" timestamp="1592656510630">
+    <state width="1237" height="306" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1592667849151" />
+    <state width="1237" height="306" key="GridCell.Tab.0.left" timestamp="1592667849151">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="187" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1592656510630" />
-    <state width="1237" height="187" key="GridCell.Tab.0.right" timestamp="1592656510630">
+    <state width="1237" height="306" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1592667849151" />
+    <state width="1237" height="306" key="GridCell.Tab.0.right" timestamp="1592667849151">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="187" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1592656510630" />
+    <state width="1237" height="306" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1592667849151" />
     <state width="1237" height="194" key="GridCell.Tab.1.bottom" timestamp="1590106218759">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -321,6 +321,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="151" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1590104211141" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1592657000985">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1592657000985" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

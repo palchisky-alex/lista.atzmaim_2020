@@ -48,12 +48,12 @@ public class ApplicationManager {
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setBrowserName("chrome");
-        capabilities.setVersion("83.0");
+        capabilities.setVersion("81.0");
         capabilities.setCapability("enableVNC", true);
         capabilities.setCapability("enableVideo", true);
 
         RemoteWebDriver driver = new RemoteWebDriver(
-                URI.create("http://selenoid:4444/wd/hub").toURL(),
+                URI.create("http://67.205.150.243:4444/wd/hub").toURL(),
                 capabilities
         );
 
