@@ -5,7 +5,11 @@
         <classes>
             <class name="im.atzma.lista2020.tests.StamTest">
                 <methods>
-                    <include name="st"/>
+                    <!--<class name="im.atzma.lista.tests.Login">-->
+                    <!--<methods>-->
+                    <!--<include name="login"/>-->
+                    <!--</methods>-->
+                    <!--</class>-->
                 </methods>
             </class>
         </classes>
