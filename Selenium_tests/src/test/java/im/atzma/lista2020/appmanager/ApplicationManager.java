@@ -58,8 +58,8 @@ public class ApplicationManager {
         );
 
 
-        if (browser.equals("Chrome")) {
-            System.setProperty("webdriver.chrome.driver", "C:\\automation\\browser drivers\\chromedriver_83_win32\\chromedriver_win32\\chromedriver.exe");
+        if (browser.equals("Chrome2")) {
+            System.setProperty("webdriver.chrome.driver", "C:\\automation\\browser drivers\\chrome\\chromedriver.exe");
             ChromeOptions chromeOptions = new ChromeOptions();
 //        chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
             chromeOptions.addArguments(("--auto-open-devtools-for-tabs"));
