@@ -140,7 +140,7 @@ public class NavigationHelper extends HelperBase {
             return false;
         }
     }
-
+//--------------------------- SELENOID TEST ------------------------------------------------------------
     public boolean seleniumSingup() throws IOException, InterruptedException {
         driver.get("https://lista.atzma.im/he/home");
         driver.findElement(By.cssSelector(".login-btn")).click();
@@ -157,6 +157,7 @@ public class NavigationHelper extends HelperBase {
 
         waitForElement(menu_gamburger); //------------- wait for menu of calendar and confirm account creation
         waitForElement( driver.findElement(By.cssSelector(".no-btn")));
+        highlight(   driver.findElement(By.cssSelector(".no-btn")));
         driver.findElement(By.cssSelector(".no-btn")).click();
 
         highlight(menu_gamburger);
@@ -169,8 +170,12 @@ public class NavigationHelper extends HelperBase {
 
     public String removeAccount() throws InterruptedException, IOException {
         driver.get("https://lista.atzma.im/he/settings/business");
-        waitForElement(driver.findElement(By.cssSelector(".button-delete")));
-        driver.findElement(By.cssSelector(".button-delete")).click();
+        driver.manage().window().setSize(new Dimension(376, 667));
+//        waitForElement(driver.findElement(By.cssSelector(".button-delete")));
+        highlight(driver.findElement(By.cssSelector(".button-delete")));
+        driver.findElement(By.cssSelector(".common.delete-account")).click();
+
+        waitForElement(driver.findElement(By.cssSelector(".yes-btn")));
         highlight(driver.findElement(By.cssSelector(".yes-btn")));
         driver.findElement(By.cssSelector(".yes-btn")).click();
         login();

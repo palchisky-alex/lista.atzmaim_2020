@@ -235,7 +235,7 @@ public class SingupTest extends TestBase {
 
     @Test(priority = 14)
     public  void seleniumRemoveAccount() throws IOException, InterruptedException {
-        Assert.assertEquals("https://lista.atzma.im/he/login", app.goTo().removeAccount());
+        Assert.assertEquals(app.goTo().removeAccount(), "https://lista.atzma.im/he/login");
 
     }
 
