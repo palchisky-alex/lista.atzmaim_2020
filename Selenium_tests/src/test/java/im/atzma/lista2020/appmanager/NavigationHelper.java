@@ -177,7 +177,7 @@ public class NavigationHelper extends HelperBase {
         driver.manage().window().setSize(new Dimension(376, 667));
         highlight(driver.findElement(By.cssSelector(".yes-btn")));
         driver.findElement(By.cssSelector(".yes-btn")).click();
-        login();
+       // login();
         return driver.getCurrentUrl();
     }
 
