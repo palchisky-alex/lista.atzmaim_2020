@@ -89,6 +89,7 @@ public class ApplicationManager {
 
 
     public void stop() throws InterruptedException, IOException {
+        driver.close();
         driver.quit();
         String verificationErrorString = verificationErrors.toString();
         if (!"".equals(verificationErrorString)) {
