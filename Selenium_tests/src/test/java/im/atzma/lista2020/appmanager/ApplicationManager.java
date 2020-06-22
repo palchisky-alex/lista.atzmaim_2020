@@ -46,19 +46,19 @@ public class ApplicationManager {
         String target = System.getProperty("target", "local");
         properties.load(new FileReader(new File(String.format("src/test/resources/%s.properties", target))));
 
-//        DesiredCapabilities capabilities = new DesiredCapabilities();
-//        capabilities.setBrowserName("chrome");
-//        capabilities.setVersion("81.0");
-//        capabilities.setCapability("enableVNC", true);
-//        capabilities.setCapability("enableVideo", true);
-//
-//        RemoteWebDriver driver = new RemoteWebDriver(
-//                URI.create("http://67.205.150.243:4444/wd/hub").toURL(),
-//                capabilities
-//        );
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities.setBrowserName("chrome");
+        capabilities.setVersion("81.0");
+        capabilities.setCapability("enableVNC", true);
+        capabilities.setCapability("enableVideo", true);
+
+        RemoteWebDriver driver = new RemoteWebDriver(
+                URI.create("http://67.205.150.243:4444/wd/hub").toURL(),
+                capabilities
+        );
 
 
-        if (browser.equals("Chrome")) {
+        if (browser.equals("Chrome2")) {
             System.setProperty("webdriver.chrome.driver", "C:\\automation\\browser drivers\\chromedriver_83_win32\\chromedriver.exe");
             ChromeOptions chromeOptions = new ChromeOptions();
 //        chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
