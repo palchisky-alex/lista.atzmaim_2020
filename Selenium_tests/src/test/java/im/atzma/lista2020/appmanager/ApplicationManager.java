@@ -20,7 +20,7 @@ import static org.testng.Assert.fail;
 
 public class ApplicationManager {
     private final String browser;
-    public WebDriver driver;
+    public RemoteWebDriver driver;
     Properties properties;
 
     NavigationHelper navigationHelper;
@@ -52,7 +52,7 @@ public class ApplicationManager {
         capabilities.setCapability("enableVNC", true);
         capabilities.setCapability("enableVideo", true);
 
-        RemoteWebDriver driver = new RemoteWebDriver(
+         driver = new RemoteWebDriver(
                 URI.create("http://67.205.150.243:4444/wd/hub").toURL(),
                 capabilities
         );
@@ -64,7 +64,7 @@ public class ApplicationManager {
         driver.manage().window().maximize();
 
         ChromeOptions chromeOptions = new ChromeOptions();
-       // chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
+        chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
         chromeOptions.addArguments(("--auto-open-devtools-for-tabs"));
         chromeOptions.addArguments("--ignore-certificate-errors");
         driver = new ChromeDriver(chromeOptions);
