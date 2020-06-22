@@ -3,10 +3,7 @@ package im.atzma.lista2020.tests;
 import im.atzma.lista2020.appmanager.ApplicationManager;
 
 
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.*;
 
 import java.io.IOException;
 import java.lang.reflect.Method;
@@ -24,7 +21,7 @@ public class TestBase {
 
     }
 
-    @AfterSuite(alwaysRun = true)
+    @AfterClass(alwaysRun = true)
     public void tearDown() throws Exception {
         app.stop();
     }
