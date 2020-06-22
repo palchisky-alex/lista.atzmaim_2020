@@ -64,7 +64,7 @@ public class ApplicationManager {
         driver.manage().window().maximize();
 
         ChromeOptions chromeOptions = new ChromeOptions();
-        chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
+       // chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
         chromeOptions.addArguments(("--auto-open-devtools-for-tabs"));
         chromeOptions.addArguments("--ignore-certificate-errors");
         driver = new ChromeDriver(chromeOptions);
