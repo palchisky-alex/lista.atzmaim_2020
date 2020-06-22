@@ -57,24 +57,31 @@ public class ApplicationManager {
                 capabilities
         );
 
-
-        if (browser.equals("Chrome2")) {
-            System.setProperty("webdriver.chrome.driver", "C:\\automation\\browser drivers\\chromedriver_83_win32\\chromedriver.exe");
-            ChromeOptions chromeOptions = new ChromeOptions();
-//        chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
-            chromeOptions.addArguments(("--auto-open-devtools-for-tabs"));
-            chromeOptions.addArguments("--ignore-certificate-errors");
-            driver = new ChromeDriver(chromeOptions);
-        } else if (browser.equals("Firefox")) {
-            System.setProperty("webdriver.gecko.driver", "C:\\automation\\browser drivers\\firefox\\geckodriver.exe");
-            driver = new FirefoxDriver();
-        }
-
         Map<String, String> mobileEmulation = new HashMap<>();
         mobileEmulation.put("deviceName", "iPhone X");
 
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.manage().window().maximize();
+
+        ChromeOptions chromeOptions = new ChromeOptions();
+        chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
+        chromeOptions.addArguments(("--auto-open-devtools-for-tabs"));
+        chromeOptions.addArguments("--ignore-certificate-errors");
+        driver = new ChromeDriver(chromeOptions);
+
+        if (browser.equals("Chrome2")) {
+            System.setProperty("webdriver.chrome.driver", "C:\\automation\\browser drivers\\chromedriver_83_win32\\chromedriver.exe");
+//            ChromeOptions chromeOptions = new ChromeOptions();
+//        chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
+//            chromeOptions.addArguments(("--auto-open-devtools-for-tabs"));
+//            chromeOptions.addArguments("--ignore-certificate-errors");
+//            driver = new ChromeDriver(chromeOptions);
+        } else if (browser.equals("Firefox")) {
+            System.setProperty("webdriver.gecko.driver", "C:\\automation\\browser drivers\\firefox\\geckodriver.exe");
+            driver = new FirefoxDriver();
+        }
+
+
 
         navigationHelper = new NavigationHelper(driver);
         singupPage = new SingupPage(driver);
@@ -88,14 +95,14 @@ public class ApplicationManager {
     }
 
 
-    public void stop() throws InterruptedException, IOException {
+    public void stop() {
         driver.close();
         driver.quit();
         String verificationErrorString = verificationErrors.toString();
         if (!"".equals(verificationErrorString)) {
             fail(verificationErrorString);
         }
-        Runtime.getRuntime().exec("taskkill /F /IM chromedriver.exe");
+       // Runtime.getRuntime().exec("taskkill /F /IM chromedriver.exe");
     }
 
     public NavigationHelper goTo() {
