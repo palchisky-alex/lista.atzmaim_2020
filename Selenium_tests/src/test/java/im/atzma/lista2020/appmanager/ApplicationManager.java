@@ -57,17 +57,9 @@ public class ApplicationManager {
                 capabilities
         );
 
-        Map<String, String> mobileEmulation = new HashMap<>();
-        mobileEmulation.put("deviceName", "iPhone X");
 
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.manage().window().maximize();
-
-        ChromeOptions chromeOptions = new ChromeOptions();
-        chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
-        chromeOptions.addArguments(("--auto-open-devtools-for-tabs"));
-        chromeOptions.addArguments("--ignore-certificate-errors");
-        driver = new ChromeDriver(chromeOptions);
 
         if (browser.equals("Chrome2")) {
             System.setProperty("webdriver.chrome.driver", "C:\\automation\\browser drivers\\chromedriver_83_win32\\chromedriver.exe");
@@ -76,7 +68,7 @@ public class ApplicationManager {
 //            chromeOptions.addArguments(("--auto-open-devtools-for-tabs"));
 //            chromeOptions.addArguments("--ignore-certificate-errors");
 //            driver = new ChromeDriver(chromeOptions);
-        } else if (browser.equals("Firefox")) {
+        } else if (browser.equals("Firefox2")) {
             System.setProperty("webdriver.gecko.driver", "C:\\automation\\browser drivers\\firefox\\geckodriver.exe");
             driver = new FirefoxDriver();
         }
