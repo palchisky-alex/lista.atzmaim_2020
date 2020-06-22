@@ -156,6 +156,9 @@ public class NavigationHelper extends HelperBase {
         driver.findElement(By.cssSelector(".next-step")).click();
 
         waitForElement(menu_gamburger); //------------- wait for menu of calendar and confirm account creation
+        waitForElement( driver.findElement(By.cssSelector(".no-btn")));
+        driver.findElement(By.cssSelector(".no-btn")).click();
+
         highlight(menu_gamburger);
         if (menu_gamburger.isDisplayed()) {
             return true;

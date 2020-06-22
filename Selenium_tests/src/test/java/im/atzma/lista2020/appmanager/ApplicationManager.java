@@ -46,19 +46,19 @@ public class ApplicationManager {
         String target = System.getProperty("target", "local");
         properties.load(new FileReader(new File(String.format("src/test/resources/%s.properties", target))));
 
-        DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setBrowserName("chrome");
-        capabilities.setVersion("81.0");
-        capabilities.setCapability("enableVNC", true);
-        capabilities.setCapability("enableVideo", true);
+//        DesiredCapabilities capabilities = new DesiredCapabilities();
+//        capabilities.setBrowserName("chrome");
+//        capabilities.setVersion("81.0");
+//        capabilities.setCapability("enableVNC", true);
+//        capabilities.setCapability("enableVideo", true);
+//
+//        RemoteWebDriver driver = new RemoteWebDriver(
+//                URI.create("http://67.205.150.243:4444/wd/hub").toURL(),
+//                capabilities
+//        );
 
-        RemoteWebDriver driver = new RemoteWebDriver(
-                URI.create("http://67.205.150.243:4444/wd/hub").toURL(),
-                capabilities
-        );
 
-
-        if (browser.equals("Chrome2")) {
+        if (browser.equals("Chrome")) {
             System.setProperty("webdriver.chrome.driver", "C:\\automation\\browser drivers\\chromedriver_83_win32\\chromedriver.exe");
             ChromeOptions chromeOptions = new ChromeOptions();
 //        chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
@@ -89,7 +89,6 @@ public class ApplicationManager {
 
 
     public void stop() throws InterruptedException, IOException {
-        Thread.sleep(1000);
         driver.quit();
         String verificationErrorString = verificationErrors.toString();
         if (!"".equals(verificationErrorString)) {
