@@ -1,6 +1,7 @@
 package im.atzma.lista2020.appmanager;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -15,7 +16,7 @@ public class NavigationHelper extends HelperBase {
     @FindBy(xpath = "//input[@type='password']")
     WebElement input_password;
 
-    @FindBy(xpath = "//button[@type='submit']")
+    @FindBy(css = "button.login-form__button.login-button")
     WebElement btn_submit;
 
     @FindBy(xpath = "//div[@class='more_wrap']")
@@ -48,8 +49,8 @@ public class NavigationHelper extends HelperBase {
     }
 
     public void singupPage() throws InterruptedException, IOException {
-        driver.findElement(By.xpath("//a[@href='/he/signup?utm_source=autotest-selenium']")).click();
-        waitForLocation(propertiesList("web.singupURL"));
+        driver.findElement(By.cssSelector(".login-btn")).click();
+        driver.findElement(By.cssSelector("footer > .dont-have-acc__sign-up")).click();
     }
 
     public void clientPage() throws InterruptedException, IOException {
@@ -74,10 +75,10 @@ public class NavigationHelper extends HelperBase {
         waitForElement(input_email);
         switch (userName) {
             case "random_":
-                fillText(input_email,   userName + randomLong + "@gmail.com");
+                fillText(input_email, userName + randomLong + "@gmail.com");
                 break;
             case "katalon":
-                fillText(input_email,  "katalon13@gmail.com");
+                fillText(input_email, mail);
                 break;
         }
 
@@ -98,7 +99,7 @@ public class NavigationHelper extends HelperBase {
     }
 
     public void submit2() throws InterruptedException, IOException {
-        driver.findElement(By.xpath("//span[text()='בואו נתחיל!']/..")).click();
+        driver.findElement(By.cssSelector(".start-button__all-set")).click();
         waitForLocation(propertiesList("web.allsetURL"));
     }
 
@@ -138,6 +139,39 @@ public class NavigationHelper extends HelperBase {
         } else {
             return false;
         }
+    }
+
+    public boolean seleniumSingup() throws IOException, InterruptedException {
+        driver.get("https://lista.atzma.im/he/home");
+        driver.findElement(By.cssSelector(".login-btn")).click();
+        driver.findElement(By.cssSelector(".dont-have-acc__sign-up")).click();
+        typeNewPassAndUser();
+        driver.findElement(By.cssSelector(".login-form__button")).click();
+        driver.findElement(By.cssSelector(".choose-menu__button")).click();
+        waitForElement(driver.findElement(By.id("twice")));
+        driver.findElement(By.id("twice")).click();
+        driver.findElement(By.cssSelector(".start-button__all-set")).click();
+        driver.findElement(By.cssSelector(".next-step > img")).click();
+        driver.findElement(By.cssSelector(".next-step")).click();
+        driver.findElement(By.cssSelector(".next-step")).click();
+
+        waitForElement(menu_gamburger); //------------- wait for menu of calendar and confirm account creation
+        highlight(menu_gamburger);
+        if (menu_gamburger.isDisplayed()) {
+            return true;
+        } else return false;
+
+
+    }
+
+    public String removeAccount() throws InterruptedException, IOException {
+        driver.get("https://lista.atzma.im/he/settings/business");
+        waitForElement(driver.findElement(By.cssSelector(".button-delete")));
+        driver.findElement(By.cssSelector(".button-delete")).click();
+        highlight(driver.findElement(By.cssSelector(".yes-btn")));
+        driver.findElement(By.cssSelector(".yes-btn")).click();
+        login();
+        return driver.getCurrentUrl();
     }
 
 }

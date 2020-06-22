@@ -3,13 +3,10 @@
 <suite name="suite_Menu">
     <test verbose="1" preserve-order="true" name="stam">
         <classes>
-            <class name="im.atzma.lista2020.tests.StamTest">
+            <class name="im.atzma.lista2020.tests.SingupTest">
                 <methods>
-                    <!--<class name="im.atzma.lista.tests.Login">-->
-                    <!--<methods>-->
-                    <!--<include name="login"/>-->
-                    <!--</methods>-->
-                    <!--</class>-->
+                    <include name="seleniumSingup"/>
+                    <include name="seleniumRemoveAccount"/>
                 </methods>
             </class>
         </classes>

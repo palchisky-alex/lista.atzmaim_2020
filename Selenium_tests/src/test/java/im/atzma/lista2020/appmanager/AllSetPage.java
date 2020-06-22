@@ -38,7 +38,7 @@ public class AllSetPage extends HelperBase{
     @FindBy(xpath = "//label[@for='twice']")
     WebElement label2;
 
-    @FindBy(xpath = "//span[text()='בואו נתחיל!']")
+    @FindBy(css = ".start-button__all-set")
     WebElement btn_text;
 
     @FindBy(xpath = "//button")

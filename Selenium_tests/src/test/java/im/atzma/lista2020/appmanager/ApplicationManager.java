@@ -59,7 +59,7 @@ public class ApplicationManager {
 
 
         if (browser.equals("Chrome2")) {
-            System.setProperty("webdriver.chrome.driver", "C:\\automation\\browser drivers\\chrome\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "C:\\automation\\browser drivers\\chromedriver_83_win32\\chromedriver.exe");
             ChromeOptions chromeOptions = new ChromeOptions();
 //        chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
             chromeOptions.addArguments(("--auto-open-devtools-for-tabs"));
@@ -89,7 +89,7 @@ public class ApplicationManager {
 
 
     public void stop() throws InterruptedException, IOException {
-        Thread.sleep(3000);
+        Thread.sleep(1000);
         driver.quit();
         String verificationErrorString = verificationErrors.toString();
         if (!"".equals(verificationErrorString)) {

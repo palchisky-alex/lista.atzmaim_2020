@@ -5,6 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -226,6 +227,17 @@ public class SingupTest extends TestBase {
         //--------------------------------------------------------------------------verify number of client (0)
         Assert.assertTrue(app.clientList().defaultNumberOfClient());
         }
+
+    @Test(priority = 13)
+    public  void seleniumSingup() throws IOException, InterruptedException {
+        Assert.assertTrue(app.goTo().seleniumSingup());
+    }
+
+    @Test(priority = 14)
+    public  void seleniumRemoveAccount() throws IOException, InterruptedException {
+        Assert.assertEquals("https://lista.atzma.im/he/login", app.goTo().removeAccount());
+
+    }
 
 
 }
