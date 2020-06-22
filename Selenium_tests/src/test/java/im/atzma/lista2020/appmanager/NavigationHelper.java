@@ -170,11 +170,11 @@ public class NavigationHelper extends HelperBase {
 
     public String removeAccount() throws InterruptedException, IOException {
         driver.get("https://lista.atzma.im/he/settings/business");
+        driver.manage().window().setSize(new Dimension(376, 667));
         highlight(driver.findElement(By.cssSelector(".button-delete")));
         driver.findElement(By.cssSelector(".common.delete-account")).click();
 
         waitForElement(driver.findElement(By.cssSelector(".yes-btn")));
-        driver.manage().window().setSize(new Dimension(376, 667));
         highlight(driver.findElement(By.cssSelector(".yes-btn")));
         driver.findElement(By.cssSelector(".yes-btn")).click();
        // login();
