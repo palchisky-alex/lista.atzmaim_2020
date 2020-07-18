@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 import java.util.List;
 
-public class ServiceCreationTest extends TestBase{
+public class ServiceCreationTest extends TestBase {
 
     @Test(priority = 1)
     public void testVerifyDefaultElements() throws InterruptedException, IOException {
@@ -119,23 +119,18 @@ public class ServiceCreationTest extends TestBase{
 
 
     @Test(priority = 6)
-    public void testFillServiceForm() throws InterruptedException {
+    public void testFillServiceForm() throws InterruptedException, IOException {
 
-
+        app.goTo().servicesPage();
         app.service().fillServiceFrom("Temp services_katalon", "Temp category_katalon");
-
-        String enabledButton_expected = "rgba(255, 53, 140, 1)";
-        String enabledButton_actual = app.service().verifyEnableddButtonColor();
-
-        try {
-            //--------------------------------------------------------------------------verify save new service enabled button css
-            Assert.assertEquals(enabledButton_actual, enabledButton_expected);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        app.goTo().servicesPage();
+        String actual = app.service().verifyTempService("Temp services_katalon");
+        String expected = "Temp services_katalon";
+        Assert.assertEquals(actual, expected);
 
 
     }
+
     @Test(priority = 7)
     public void testSaveServiceForm() throws InterruptedException {
 

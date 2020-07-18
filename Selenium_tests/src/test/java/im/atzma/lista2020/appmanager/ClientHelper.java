@@ -181,13 +181,13 @@ public class ClientHelper extends HelperBase {
         fillText(text_telephon, clientData.getTelNumber());
 
         click(text_email);
-        try {
-            if (message_same_number.isDisplayed()) {
-                click(message_same_number);
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+//        try {
+//            if (message_same_number.isDisplayed()) {
+//                click(message_same_number);
+//            }
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
         fillText(text_email, clientData.getEmail());
         fillText(text_address, clientData.getAddress());
 
@@ -205,7 +205,7 @@ public class ClientHelper extends HelperBase {
         click(btn_saveDebtNote);
 
         click(btn_saveClientForm);
-        Thread.sleep(2000);
+
     }
 
     public String verifyNewClientCreation() {

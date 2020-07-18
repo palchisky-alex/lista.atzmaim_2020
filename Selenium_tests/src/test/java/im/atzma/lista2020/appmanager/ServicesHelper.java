@@ -1,5 +1,6 @@
 package im.atzma.lista2020.appmanager;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -90,22 +91,22 @@ public class ServicesHelper extends HelperBase {
     @FindBy(xpath = "//img[@class='trash']")
     WebElement icon_trash;
 
-    @FindBy(xpath = "//*[@class='add-button add-rtl']")
+    @FindBy(css = ".add-button__icon")
     WebElement btn_addService;
 
-    @FindBy(xpath = "//input[@placeholder=\"הזינו שם של טיפול...\"]")
+    @FindBy(xpath = "//*[@name='checkClientsList']")
     WebElement input_serviceName;
 
-    @FindBy(xpath = "//span[text()='שייך לקטגוריה']")
+    @FindBy(css = ".category-name__title")
     WebElement btn_addCategory;
 
-    @FindBy(xpath = "//input[@placeholder=\"נא הזינו שם של קטגוריה חדשה\"]")
+    @FindBy(xpath = "//*[@name='search']")
     WebElement input_categoryName;
 
-    @FindBy(xpath = "//span[text()='הוסף קטגוריה חדשה']")
+    @FindBy(css = ".create-button")
     WebElement btn_saveCategory;
 
-    @FindBy(xpath = "//button[@class='bottom enabled']")
+    @FindBy(css = ".enabled")
     WebElement btn_saveService_enabled;
 
     @FindBy(xpath = "//button[@class='bottom disabled']")
@@ -281,17 +282,19 @@ public class ServicesHelper extends HelperBase {
     }
 
     public void fillServiceFrom(String serviceName, String categoryName) throws InterruptedException {
+        click(btn_addService);
         fillText(input_serviceName, serviceName);
         click(btn_addCategory);
         fillText(input_categoryName, categoryName);
         click(btn_saveCategory);
+        click(btn_saveService_enabled);
+        driver.findElement(By.cssSelector(".more_wrap")).click();
 
     }
 
     public void saveServiceFrom() throws InterruptedException {
 //        driver.navigate().refresh();
         click(btn_saveService_enabled);
-        waitForLocation("https://lista.atzma.im/he/catalog/services");
 
     }
 

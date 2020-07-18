@@ -19,14 +19,13 @@ import java.util.concurrent.TimeUnit;
 import static org.testng.Assert.fail;
 
 public class ApplicationManager {
-    private final String browser;
-    public RemoteWebDriver driver;
+    private  String browser;
+    public RemoteWebDriver driver2;
+    public WebDriver driver;
     Properties properties;
 
     NavigationHelper navigationHelper;
     SingupPage singupPage;
-    BusinessPage businessPage;
-    AllSetPage allSetPage;
     CalendarPage calendarPage;
     ClientListPage clientPage;
     ServicesHelper servicesHelper;
@@ -37,6 +36,7 @@ public class ApplicationManager {
     public StringBuffer verificationErrors = new StringBuffer();
     public boolean acceptNextAlert = true;
 
+
     public ApplicationManager(String browser) {
         this.browser = browser;
         properties = new Properties();
@@ -46,39 +46,35 @@ public class ApplicationManager {
         String target = System.getProperty("target", "local");
         properties.load(new FileReader(new File(String.format("src/test/resources/%s.properties", target))));
 
-        DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setBrowserName("chrome");
-        capabilities.setVersion("81.0");
-        capabilities.setCapability("enableVNC", true);
-        capabilities.setCapability("enableVideo", true);
+//        DesiredCapabilities capabilities = new DesiredCapabilities();
+//        capabilities.setBrowserName("chrome");
+//        capabilities.setVersion("81.0");
+//        capabilities.setCapability("enableVNC", true);
+//        capabilities.setCapability("enableVideo", true);
+//
+//         driver = new RemoteWebDriver(
+//                URI.create("http://67.205.150.243:4444/wd/hub").toURL(),
+//                capabilities
+//        );
 
-         driver = new RemoteWebDriver(
-                URI.create("http://67.205.150.243:4444/wd/hub").toURL(),
-                capabilities
-        );
-
-
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        driver.manage().window().maximize();
-
-        if (browser.equals("Chrome2")) {
+        if (browser.equals("Chrome")) {
             System.setProperty("webdriver.chrome.driver", "C:\\automation\\browser drivers\\chromedriver_83_win32\\chromedriver.exe");
 //            ChromeOptions chromeOptions = new ChromeOptions();
 //        chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
 //            chromeOptions.addArguments(("--auto-open-devtools-for-tabs"));
 //            chromeOptions.addArguments("--ignore-certificate-errors");
-//            driver = new ChromeDriver(chromeOptions);
+            driver = new ChromeDriver();
         } else if (browser.equals("Firefox2")) {
             System.setProperty("webdriver.gecko.driver", "C:\\automation\\browser drivers\\firefox\\geckodriver.exe");
             driver = new FirefoxDriver();
         }
 
 
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
 
         navigationHelper = new NavigationHelper(driver);
         singupPage = new SingupPage(driver);
-        businessPage = new BusinessPage(driver);
-        allSetPage = new AllSetPage(driver);
         calendarPage = new CalendarPage(driver);
         clientPage = new ClientListPage(driver);
         servicesHelper = new ServicesHelper(driver);
@@ -105,14 +101,6 @@ public class ApplicationManager {
         return singupPage;
     }
 
-    public BusinessPage businessPage() {
-        return businessPage;
-    }
-
-    public AllSetPage allSetPage() {
-        return allSetPage;
-    }
-
     public CalendarPage calendar() {
         return calendarPage;
     }
@@ -133,3 +121,5 @@ public class ApplicationManager {
         return appointmentHelper;
     }
 }
+
+

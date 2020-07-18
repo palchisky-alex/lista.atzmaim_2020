@@ -3,45 +3,38 @@
 <suite name="suite_Menu">
     <test verbose="1" preserve-order="true" name="testsMenu">
         <classes>
-            <class name="im.atzma.lista2020.tests.Login">
-                <methods>
-                    <include name="login"/>
-                </methods>
-            </class>
             <class name="im.atzma.lista2020.tests.SingupTest">
                 <methods>
-                    <include name="testVerifySignupPageElements"/>
-                    <include name="testPasswordVisibleIcons"/>
-                    <include name="testVerifyBusinessTypePageElements"/>
-                    <include name="testMarkBussnessType_atzmaimButtonChecked"/>
-                    <include name="testVerifyAllSetPageElements"/>
-                    <include name="testVerifyAllTestPageCheckboxes"/>
-                    <include name="testCreateNewAccount_submit"/>
-                    <include name="testLogOut"/>
-                    <include name="testVerifyLoginWithNewUser"/>
-                    <include name="testVerifyDefaultClientPage()"/>
+                    <include name="testLoginPage"/>
+                    <include name="testSingupPage"/>
+                    <include name="testBusinessTypePage"/>
+                    <include name="testAllSetPage"/>
+                    <include name="testOnboardingPage"/>
+                    <include name="testOnboarding1Page"/>
+                    <include name="testOnboarding2Page"/>
+                    <include name="testCalendarPage"/>
                 </methods>
             </class>
             <class name="im.atzma.lista2020.tests.ServiceCreationTest">
                 <methods>
-                    <include name="testVerifyDefaultElements"/>
-                    <include name="testVerifyDefaultServices30min"/>
-                    <include name="testVerifyDefaultServices45min"/>
-                    <include name="testVerifyDefaultServices60min"/>
-                    <include name="testVerifyDefaultServiceFormElements"/>
+<!--                    <include name="testVerifyDefaultElements"/>-->
+<!--                    <include name="testVerifyDefaultServices30min"/>-->
+<!--                    <include name="testVerifyDefaultServices45min"/>-->
+<!--                    <include name="testVerifyDefaultServices60min"/>-->
+<!--                    <include name="testVerifyDefaultServiceFormElements"/>-->
                     <include name="testFillServiceForm"/>
-                    <include name="testSaveServiceForm"/>
+<!--                    <include name="testSaveServiceForm"/>-->
                 </methods>
             </class>
-            <class name="im.atzma.lista2020.tests.MenuTest">
-                <methods>
-                    <include name="verifyLinkText"/>
-                </methods>
-            </class>
+<!--            <class name="im.atzma.lista2020.tests.MenuTest">-->
+<!--                <methods>-->
+<!--                    <include name="verifyLinkText"/>-->
+<!--                </methods>-->
+<!--            </class>-->
             <class name="im.atzma.lista2020.tests.DeleteAccountTest">
                 <methods>
                     <include name="testDeleteAccount"/>
-                    <include name="testDeleteAccountVerification"/>
+<!--                    <include name="testDeleteAccountVerification"/>-->
                 </methods>
             </class>
         </classes>

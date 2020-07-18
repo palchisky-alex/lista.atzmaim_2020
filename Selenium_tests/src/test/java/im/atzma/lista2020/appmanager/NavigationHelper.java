@@ -28,6 +28,9 @@ public class NavigationHelper extends HelperBase {
     @FindBy(xpath = "//a[@href='/he/login']")
     WebElement btn_login;
 
+//    @FindBy(css = ".no-btn")
+//    WebElement popup_install;
+
 
     Random random = new Random();
     long randomLong = random.nextLong();
@@ -41,7 +44,6 @@ public class NavigationHelper extends HelperBase {
 
     public void homePage() throws InterruptedException, IOException {
         driver.get(propertiesList("web.BaseUrl"));
-        waitForLocation(propertiesList("web.BaseUrl"));
     }
 
     public void goToLoginPage() throws InterruptedException, IOException {
@@ -65,7 +67,17 @@ public class NavigationHelper extends HelperBase {
 
     public void calendarPage() throws InterruptedException, IOException {
         driver.get(propertiesList("web.calendarURL"));
-//        waitForLocation(calendarURL);
+        closePopup();
+    }
+
+    public void closePopup() {
+        WebElement popup_install = driver.findElement(By.cssSelector(".no-btn"));
+        if (isElementPresent(popup_install)) {
+            popup_install.click();
+        }
+        else {
+            System.out.println("popup not present");
+        }
     }
 
     public void typeNewPassAndUser() throws InterruptedException, IOException {
@@ -140,7 +152,8 @@ public class NavigationHelper extends HelperBase {
             return false;
         }
     }
-//--------------------------- SELENOID TEST ------------------------------------------------------------
+
+    //--------------------------- SELENOID TEST ------------------------------------------------------------
     public boolean seleniumSingup() throws IOException, InterruptedException {
         driver.get("https://lista.atzma.im/he/home");
         driver.findElement(By.cssSelector(".login-btn")).click();
@@ -156,8 +169,8 @@ public class NavigationHelper extends HelperBase {
         driver.findElement(By.cssSelector(".next-step")).click();
 
         waitForElement(menu_gamburger); //------------- wait for menu of calendar and confirm account creation
-        waitForElement( driver.findElement(By.cssSelector(".no-btn")));
-        highlight(   driver.findElement(By.cssSelector(".no-btn")));
+        waitForElement(driver.findElement(By.cssSelector(".no-btn")));
+        highlight(driver.findElement(By.cssSelector(".no-btn")));
         driver.findElement(By.cssSelector(".no-btn")).click();
 
         highlight(menu_gamburger);
@@ -177,7 +190,7 @@ public class NavigationHelper extends HelperBase {
         waitForElement(driver.findElement(By.cssSelector(".yes-btn")));
         highlight(driver.findElement(By.cssSelector(".yes-btn")));
         driver.findElement(By.cssSelector(".yes-btn")).click();
-       // login();
+        // login();
         return driver.getCurrentUrl();
     }
 

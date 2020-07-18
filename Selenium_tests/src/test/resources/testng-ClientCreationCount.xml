@@ -3,39 +3,31 @@
 <suite name="suite_Menu">
     <test verbose="1" preserve-order="true" name="test count after client creation">
         <classes>
-            <!--<class name="im.atzma.lista.tests.Login">-->
-                <!--<methods>-->
-                    <!--<include name="login"/>-->
-                <!--</methods>-->
-            <!--</class>-->
             <class name="im.atzma.lista2020.tests.SingupTest">
                 <methods>
-                    <include name="testVerifySignupPageElements"/>
-                    <include name="testPasswordVisibleIcons"/>
-                    <include name="testVerifyBusinessTypePageElements"/>
-                    <include name="testMarkBussnessType_atzmaimButtonChecked"/>
-                    <include name="testVerifyAllSetPageElements"/>
-                    <include name="testVerifyAllTestPageCheckboxes"/>
-                    <include name="testCreateNewAccount_submit"/>
-                    <!--<include name="testLogOut"/>-->
-                    <!--<include name="testVerifyLoginWithNewUser"/>-->
-                    <!--<include name="testVerifyDefaultClientPage()"/>-->
+                    <include name="testLoginPage"/>
+                    <include name="testSingupPage"/>
+                    <include name="testBusinessTypePage"/>
+                    <include name="testAllSetPage"/>
+                    <include name="testOnboardingPage"/>
+                    <include name="testOnboarding1Page"/>
+                    <include name="testOnboarding2Page"/>
+                    <include name="testCalendarPage"/>
                 </methods>
             </class>
             <class name="im.atzma.lista2020.tests.ClientCreationTest">
                 <methods>
-                    <include name="photos"/>
-                    <!--<include name="initNewClientCreation"/>-->
+                    <include name="initNewClientCreation"/>
                     <!--<include name="verifyClientForm"/>-->
-                    <!--<include name="testCreateClientCount"/>-->
+                    <include name="testCreateClientCount"/>
                 </methods>
             </class>
-            <!--<class name="im.atzma.lista.tests.DeleteAccountTest">-->
-                <!--<methods>-->
-                    <!--<include name="testDeleteAccount"/>-->
-                    <!--<include name="testDeleteAccountVerification"/>-->
-                <!--</methods>-->
-            <!--</class>-->
+            <class name="im.atzma.lista2020.tests.DeleteAccountTest">
+                <methods>
+                    <include name="testDeleteAccount"/>
+<!--                    <include name="testDeleteAccountVerification"/>-->
+                </methods>
+            </class>
         </classes>
 
     </test>

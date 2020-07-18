@@ -16,7 +16,7 @@ public class AppointmentHelper extends HelperBase {
         super(driver);
     }
 
-    @FindBy(css="tr[data-time='15:00:00']>td:nth-child(1)")
+    @FindBy(xpath = "//tr[5]/td[1]")
     WebElement time_15;
 
     @FindBy(css = "tr[data-time] > :first-child")
@@ -68,20 +68,21 @@ public class AppointmentHelper extends HelperBase {
     @FindBy(xpath = "//button[@class='btn-styl edite']")
     WebElement btn_modifyAppointment;
 
-    @FindBy(xpath = "//button[@class=\"yes-btn\"]")
+    @FindBy(xpath = "//button[contains(.,'למחוק')]")
     WebElement btn_confirm_AppointmentDeletion;
 
     @FindBy(xpath = "//p[@class=\"floating-button standartLeft\"]")
     WebElement btn_addNewAppointment;
-
-    @FindBy(css = ".fc-business-container")
-    WebElement nonbusiness;
 
     @FindBy(xpath = "//div[@class='prev_button_wrap common']")
     WebElement back_arrow;
 
     @FindBy(xpath = "//div[@class='next_button_wrap common']")
     WebElement next_arrow;
+
+    @FindBy(css = "#refresh_button")
+    WebElement btn_refresh;
+
 
     @FindBy(xpath = "//*[@class='strip-name']/p")
     WebElement strip_name;
@@ -122,8 +123,8 @@ public class AppointmentHelper extends HelperBase {
     WebElement btn_add_Service;
     @FindBy(css = ".add-button.add-rtl")
     WebElement icon_plus_addSerice;
-    @FindBy(xpath = "//img[@class='search-inner__img--close']")
-    WebElement btn_delete_search_result;
+    @FindBy(css = ".click-mask")
+    WebElement appointment;
 
     @FindBy(xpath = "(//*[@class='regulation-menu-plus'])[2]")
     WebElement btn_duration_plus;
@@ -147,10 +148,12 @@ public class AppointmentHelper extends HelperBase {
     @FindBy(xpath = "//*[@style='max-height: 0px; overflow: hidden;']")
     WebElement service_area;
 
-    @FindBy(xpath = "//a[@href='/he/settings/business_settings_group']")
+    @FindBy(xpath = "//*[@href='/he/settings/business']/p")
     WebElement btn_buisness_settings;
     @FindBy(css = ".button-delete")
     WebElement btn_deleteAccount;
+    @FindBy(css = ".yes-btn")
+    WebElement btn_yes;
 
     public void test() {
         click(next_arrow);
@@ -158,7 +161,7 @@ public class AppointmentHelper extends HelperBase {
 
 
     public void create(String clientName) throws InterruptedException {
-        // verifyNonbusinessDay();
+        driver.findElement(By.cssSelector(".next_button_wrap.common")).click();
         chooseAppointmentHour();
         fillNewAppointment(clientName);
     }
@@ -229,38 +232,38 @@ public class AppointmentHelper extends HelperBase {
     }
 
     public void deleteAppointment() throws InterruptedException {
-//        verifyNonbusinessDay();
-
-        clickOnExistsAppointment();
-        waitForElement(btn_deleteAppointment);
-        click(btn_deleteAppointment);
-        waitForElement(btn_confirm_AppointmentDeletion);
-        click(btn_confirm_AppointmentDeletion);
+        while (btn_existing_appointment.size() > 0) {
+            clickOnExistsAppointment();
+            driver.navigate().refresh();
+            Thread.sleep(200);
+        }
+//        waitForElement(btn_deleteAppointment);
+//        click(btn_deleteAppointment);
+//        waitForElement(btn_confirm_AppointmentDeletion);
+//        click(btn_confirm_AppointmentDeletion);
 
     }
 
 
-    public Integer appointmentList() throws InterruptedException {
-
+    public int appointmentList() throws InterruptedException {
+        click(btn_refresh);
         return btn_existing_appointment.size();
     }
 
     public void chooseAppointmentHour() throws InterruptedException {
-      //  wait.until(ExpectedConditions.elementToBeClickable(time_15));
-        click(time_15);
+        WebElement slot = driver.findElement(By.cssSelector(".fc-nonbusiness"));
+        clickJS(slot);
+        driver.findElement(By.xpath("//tr[5]/td[1]")).click();
     }
 
     public void clickOnExistsAppointment() throws InterruptedException {
-        //  verifyNonbusinessDay();
         System.out.println(btn_existing_appointment.size());
 
-        if (btn_existing_appointment.size() < 1) {
-            click(back_arrow);
-            waitForElement(appointmentTime);
-        }
-        for (int i = 0; i < btn_existing_appointment.size(); i++) {
-            click(btn_existing_appointment.get(i));
-        }
+        click(btn_existing_appointment.get(0));
+        click(btn_deleteAppointment);
+        click(btn_confirm_AppointmentDeletion);
+        System.out.println(btn_existing_appointment.size());
+
     }
 
     public void clickOnExistsAppointment2() throws InterruptedException {
@@ -273,12 +276,6 @@ public class AppointmentHelper extends HelperBase {
 
     private void verifyAppointmentExistens() {
         if (!isElementPresent(appointmentTime)) {
-            click(back_arrow);
-        }
-    }
-
-    public void verifyNonbusinessDay() {
-        if (isElementPresent(nonbusiness)) {
             click(back_arrow);
         }
     }
@@ -402,11 +399,13 @@ public class AppointmentHelper extends HelperBase {
 
     public void deleteAccount() throws InterruptedException, IOException {
         driver.get(propertiesList("web.settings"));
-        waitForElement(btn_buisness_settings);
         click(btn_buisness_settings);
-        highlight(btn_deleteAccount);
         click(btn_deleteAccount);
-        driver.findElement(By.xpath("//button[@class='yes-btn']")).click();
+        if (isElementPresent(btn_yes)) {
+            click(btn_yes);
+        } else {
+            new RuntimeException("yes button not present");
+        }
 
     }
 

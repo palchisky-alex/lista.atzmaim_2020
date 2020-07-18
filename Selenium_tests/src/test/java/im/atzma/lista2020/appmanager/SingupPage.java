@@ -1,110 +1,50 @@
 package im.atzma.lista2020.appmanager;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
-import java.util.ArrayList;
-import java.util.List;
+import java.io.IOException;
+import java.util.Random;
 
 public class SingupPage extends HelperBase {
-    public SingupPage(WebDriver driver) {
-        super(driver);
-    }
 
-    @FindBy(xpath = "//li[text()='ru']")
-    WebElement lang_switch_ru;
+    public SingupPage(WebDriver driver) { super(driver); }
 
-    @FindBy(xpath = "//li[text()='en']")
-    WebElement lang_switch_en;
-
-    @FindBy(xpath = "//li[text()='he']")
-    WebElement lang_switch_he;
-
-    @FindBy(xpath = "//img[@src='/public/signup/media/logo.svg']")
-    WebElement atzmaim_logo;
-
-    @FindBy(xpath = "//div[text()='מלא פרטים כדי לצור חשבון:']")
-    WebElement page_text;
-
-    @FindBy(xpath = "//input[@placeholder='הזן את האימיייל שלך']")
-    WebElement email_placeholderText;
-
-    @FindBy(xpath = "//input[@placeholder='הזן את הססמא שלך']")
-    WebElement password_placeholderText;
-
-    @FindBy(xpath = "//button[text()='המשך']")
-    WebElement submit_btnText;
-
-    @FindBy(xpath = "//button[@type='submit']")
-    WebElement submit_btn;
-
-    @FindBy(xpath = "//img[@src='/public/signup/media/mail.svg']")
-    WebElement email_icon;
-
-    @FindBy(xpath = "//img[@src='/public/signup/media/lock.svg']")
-    WebElement lock_icon;
-
-    @FindBy(xpath = "//img[@src='/public/signup/media/eye.svg']")
-    WebElement pass_eye_icon;
-
-    @FindBy(xpath = "//img[@src='/public/signup/media/eye-off.svg']")
-    WebElement pass_eye_icon_off;
-
-    @FindBy(xpath = "//div[@class='group password ']//input[@type='text']")
-    WebElement visiblePassword;
-
-    @FindBy(xpath = "//button[@type='submit']")
-    WebElement btn_submit;
-
-    public List<WebElement> getSignupPageElements() throws InterruptedException {
-        List<WebElement> itemList = new ArrayList<>();
-        itemList.add(lang_switch_ru);
-        itemList.add(lang_switch_en);
-        itemList.add(lang_switch_he);
-        itemList.add(atzmaim_logo);
-        itemList.add(page_text);
-        itemList.add(email_placeholderText);
-        itemList.add(password_placeholderText);
-        itemList.add(submit_btnText);
-        itemList.add(submit_btn);
-        itemList.add(email_icon);
-        itemList.add(lock_icon);
-
-        for (int i = 0; i < itemList.size(); i++) {
-            highlight(itemList.get(i));
+    public String getCurrentURL(String url) throws InterruptedException {
+        String currentURL = driver.getCurrentUrl();
+        if (!currentURL.equals(url)) {
+            Thread.sleep(10000);
         }
-        return itemList;
+        return driver.getCurrentUrl();
     }
 
-    public boolean eye_icon() {
-        click(pass_eye_icon_off);
-        if (pass_eye_icon.isDisplayed()) {
-            highlight(pass_eye_icon);
-            return true;
-        } else {
-            return false;
-        }
+    public String getURL(String url) throws IOException, InterruptedException { return propertiesList(url); }
+
+    public void pressOnLoginButton() {
+        click(driver.findElement(By.cssSelector(".login-btn")));
     }
 
-    public boolean eye_icon_off() {
-        if (pass_eye_icon_off.isDisplayed()) {
-            highlight(pass_eye_icon_off);
-            return true;
-        } else {
-            return false;
-        }
+    public void pressOnSingupButton() {
+        click(driver.findElement(By.cssSelector(".sign_label")));
     }
 
-    public boolean passwordVisible() {
-        click(pass_eye_icon);
-        if (visiblePassword.isDisplayed()) {
-            return true;
-        } else {
-            return false;
-        }
+    public void pressOnSkipHereButton() {
+        click(driver.findElement(By.cssSelector(".choose-menu__button")));
     }
 
+    public void pressOnIAgreeCheckbox() { click(driver.findElement(By.id("twice"))); }
+
+    public void pressOnDoneButton() { click(driver.findElement(By.cssSelector(".all-set-form__button"))); }
+
+    public void pressOnNextButton() { click(driver.findElement(By.cssSelector(".next-step"))); }
+
+    public void fillAccountData() throws InterruptedException {
+        Random random = new Random();
+        int randomInt = random.nextInt();
+        String random_for_mail = "selenium_" + randomInt + "@gmail.com";
+        fillText(driver.findElement(By.name("email")), random_for_mail);
+        fillText(driver.findElement(By.name("pass")), "qwer");
+        click(driver.findElement(By.cssSelector(".login-button")));
+    }
 }

@@ -16,7 +16,7 @@ public class CreateAppointmentTest extends TestBase {
         app.appointment().addServiceCategory("Temp services_katalon", "Temp category_katalon");
         app.appointment().saveForm();
 
-        String expected = "[15:00 - 15:30, Temp Client katalon, Temp services_katalon, 30 דקות]";
+        String expected = "[10:00 - 10:30, Temp Client katalon, Temp services_katalon, 30 דקות]";
         List<String> actual = app.appointment().verifyAppointmentCreation();
         Assert.assertEquals(actual.toString(), expected, "verify appointment creation");
 

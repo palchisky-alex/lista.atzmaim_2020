@@ -11,13 +11,10 @@ public class DeleteAppointmentTest extends TestBase {
     @Test(priority = 1)
     public void testAppointmentDeletion() throws InterruptedException, IOException {
         app.goTo().calendarPage();
-        int before = app.appointment().appointmentList();
         app.appointment().deleteAppointment();
-        app.calendar().logout();
-        app.goTo().login();
 
         int after = app.appointment().appointmentList();
-        Assert.assertEquals(after, before - 1);
+        Assert.assertEquals(after, 0);
 
     }
 
