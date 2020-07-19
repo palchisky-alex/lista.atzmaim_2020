@@ -247,13 +247,13 @@ public class ServicesHelper extends HelperBase {
         return itemList;
     }
 
-    public boolean verifyTrashIcon() {
+    public boolean verifyTrashIcon() throws InterruptedException {
         if (isElementPresent(icon_trash)) {
             return true;
         } else return false;
     }
 
-    public boolean verifyTrashIconPresent_1() {
+    public boolean verifyTrashIconPresent_1() throws InterruptedException {
         click(checkbox_trash1);
         if (isElementPresent(icon_trash)) {
             click(checkbox_trash1);
@@ -261,7 +261,7 @@ public class ServicesHelper extends HelperBase {
         } else return false;
     }
 
-    public boolean verifyTrashIconPresent_2() {
+    public boolean verifyTrashIconPresent_2() throws InterruptedException {
         click(checkbox_trash2);
         if (isElementPresent(icon_trash)) {
             click(checkbox_trash2);
@@ -269,7 +269,7 @@ public class ServicesHelper extends HelperBase {
         } else return false;
     }
 
-    public boolean verifyTrashIconPresent_3() {
+    public boolean verifyTrashIconPresent_3() throws InterruptedException {
         click(checkbox_trash3);
         if (isElementPresent(icon_trash)) {
             click(checkbox_trash3);

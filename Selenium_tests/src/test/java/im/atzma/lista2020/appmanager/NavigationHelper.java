@@ -67,17 +67,18 @@ public class NavigationHelper extends HelperBase {
 
     public void calendarPage() throws InterruptedException, IOException {
         driver.get(propertiesList("web.calendarURL"));
-        closePopup();
     }
 
-    public void closePopup() {
+    public String closePopup() throws InterruptedException {
         WebElement popup_install = driver.findElement(By.cssSelector(".no-btn"));
         if (isElementPresent(popup_install)) {
-            popup_install.click();
+            click(popup_install);
+            return "popup closed";
         }
         else {
             System.out.println("popup not present");
         }
+        return "popup not presented";
     }
 
     public void typeNewPassAndUser() throws InterruptedException, IOException {

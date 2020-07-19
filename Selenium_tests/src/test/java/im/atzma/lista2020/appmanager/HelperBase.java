@@ -41,7 +41,7 @@ public class HelperBase {
 
     public void click(WebElement el) {
 //        wait.until(ExpectedConditions.elementToBeClickable(el));
-//        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", el);
+        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", el);
         highlight(el);
 
 
@@ -76,7 +76,7 @@ public class HelperBase {
         if (text != null) {
             String existingText = el.getAttribute("value");
             if (!text.equals(existingText)) {
-                Thread.sleep(500);
+                Thread.sleep(200);
                 el.click();
                 el.clear();
                 el.sendKeys(text);
@@ -108,11 +108,8 @@ public class HelperBase {
 
     public void waitForElement(WebElement myElement) throws InterruptedException {
         for (int second = 0; ; second++) {
-            if (second >= 100) fail("timeout");
-            try {
-                if (myElement.isDisplayed()) break;
-            } catch (Exception e) {
-            }
+            if (second >= 20) fail("timeout");
+            if (myElement.isDisplayed()) break;
         }
     }
 
@@ -120,9 +117,16 @@ public class HelperBase {
         Thread.sleep(3000);
     }
 
+    public boolean isElementPresent2(List<WebElement> el) throws InterruptedException {
+        if (el.size() > 0) {
+            return true;
+        }
+        return false;
+    }
 
-    public boolean isElementPresent(WebElement el) {
-        if (el.isDisplayed()) {
+    public boolean isElementPresent(WebElement el) throws InterruptedException {
+
+        if (el != null) {
             List<WebElement> itemlist = new ArrayList<>();
             itemlist.clear();
             itemlist.add(el);

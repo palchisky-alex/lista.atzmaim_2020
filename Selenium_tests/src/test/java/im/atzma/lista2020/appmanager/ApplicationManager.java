@@ -19,7 +19,7 @@ import java.util.concurrent.TimeUnit;
 import static org.testng.Assert.fail;
 
 public class ApplicationManager {
-    private  String browser;
+    private String browser;
     public RemoteWebDriver driver2;
     public WebDriver driver;
     Properties properties;
@@ -59,12 +59,14 @@ public class ApplicationManager {
 
         if (browser.equals("Chrome")) {
             System.setProperty("webdriver.chrome.driver", "C:\\automation\\browser drivers\\chromedriver_83_win32\\chromedriver.exe");
-//            ChromeOptions chromeOptions = new ChromeOptions();
-//        chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
-//            chromeOptions.addArguments(("--auto-open-devtools-for-tabs"));
-//            chromeOptions.addArguments("--ignore-certificate-errors");
-            driver = new ChromeDriver();
-        } else if (browser.equals("Firefox2")) {
+            Map<String, String> mobileEmulation = new HashMap<>();
+            mobileEmulation.put("deviceName", "Nexus 5");
+            ChromeOptions chromeOptions = new ChromeOptions();
+            chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
+            chromeOptions.addArguments(("--auto-open-devtools-for-tabs"));
+            chromeOptions.addArguments("--ignore-certificate-errors");
+            driver = new ChromeDriver(chromeOptions);
+        } else if (browser.equals("Firefox")) {
             System.setProperty("webdriver.gecko.driver", "C:\\automation\\browser drivers\\firefox\\geckodriver.exe");
             driver = new FirefoxDriver();
         }
@@ -90,7 +92,7 @@ public class ApplicationManager {
         if (!"".equals(verificationErrorString)) {
             fail(verificationErrorString);
         }
-       // Runtime.getRuntime().exec("taskkill /F /IM chromedriver.exe");
+        // Runtime.getRuntime().exec("taskkill /F /IM chromedriver.exe");
     }
 
     public NavigationHelper goTo() {

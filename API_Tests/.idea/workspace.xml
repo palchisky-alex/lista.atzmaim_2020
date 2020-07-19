@@ -3,43 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="477da253-88be-40ae-98c6-8ed2876fb43d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/AllSetPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/ApplicationManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/AppointmentHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/AppointmentHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/BusinessPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/ClientListPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/ClientListPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/HelperBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/HelperBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/NavigationHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/NavigationHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/ServicesHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/ServicesHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/SingupPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/SingupPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/tests/ClientCreationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/tests/ClientCreationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/tests/DeleteAppointmentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/tests/DeleteAppointmentTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/tests/ServiceCreationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/tests/ServiceCreationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/tests/SingupTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/tests/SingupTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/tests/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/resources/test/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/resources/test/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/resources/test/testng-AppointmentCreation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/resources/test/testng-AppointmentCreation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/resources/test/testng-ClientCreationCount.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/resources/test/testng-ClientCreationCount.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/resources/test/testng-Menu_Service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/resources/test/testng-Menu_Service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/resources/test/testng-Singup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/resources/test/testng-Singup.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/AllSetPage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/ApplicationManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/AppointmentHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/AppointmentHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/BusinessPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/ClientHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/ClientHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/HelperBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/NavigationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/NavigationHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/ServicesHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/ServicesHelper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/SingupPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/SingupPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/tests/DeleteAppointmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/tests/DeleteAppointmentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/tests/ServiceCreationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/tests/ServiceCreationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/tests/SingupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/tests/SingupTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/resources/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/resources/local.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/resources/testng-AppointmentCreation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/resources/testng-AppointmentCreation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/resources/testng-ClientCreationCount.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/resources/testng-ClientCreationCount.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/resources/testng-Menu_Service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/resources/testng-Menu_Service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/resources/testng-Singup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/resources/testng-Singup.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -252,8 +223,8 @@
       <list>
         <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-AppointmentCreation.xml" />
         <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-Singup.xml" />
-        <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-Menu_Service.xml" />
         <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-ClientCreationCount.xml" />
+        <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-Menu_Service.xml" />
         <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-ClientCompareCount.xml" />
       </list>
     </recent_temporary>
@@ -314,10 +285,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1595007925396" />
-    <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1595104525594">
+    <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1595152320950">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.680@0.0.1280.680" timestamp="1595104525594" />
+    <state x="93" y="93" width="1095" height="495" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.680@0.0.1280.680" timestamp="1595152320950" />
     <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1594922562991">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -326,38 +297,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="370" y="182" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1594843146613" />
-    <state width="1237" height="137" key="GridCell.Tab.0.bottom" timestamp="1595116205507">
+    <state width="1237" height="194" key="GridCell.Tab.0.bottom" timestamp="1595164708645">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="137" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1595116205507" />
-    <state width="1237" height="137" key="GridCell.Tab.0.center" timestamp="1595116205507">
+    <state width="1237" height="194" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1595164708645" />
+    <state width="1237" height="194" key="GridCell.Tab.0.center" timestamp="1595164708645">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="137" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1595116205507" />
-    <state width="1237" height="137" key="GridCell.Tab.0.left" timestamp="1595116205507">
+    <state width="1237" height="194" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1595164708645" />
+    <state width="1237" height="194" key="GridCell.Tab.0.left" timestamp="1595164708645">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="137" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1595116205507" />
-    <state width="1237" height="137" key="GridCell.Tab.0.right" timestamp="1595116205507">
+    <state width="1237" height="194" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1595164708645" />
+    <state width="1237" height="194" key="GridCell.Tab.0.right" timestamp="1595164708645">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="137" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1595116205507" />
-    <state width="1237" height="194" key="GridCell.Tab.1.bottom" timestamp="1595101357576">
+    <state width="1237" height="194" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1595164708645" />
+    <state width="1237" height="194" key="GridCell.Tab.1.bottom" timestamp="1595164708645">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="194" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1595101357576" />
-    <state width="1237" height="194" key="GridCell.Tab.1.center" timestamp="1595101357576">
+    <state width="1237" height="194" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1595164708645" />
+    <state width="1237" height="194" key="GridCell.Tab.1.center" timestamp="1595164708645">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="194" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1595101357576" />
-    <state width="1237" height="194" key="GridCell.Tab.1.left" timestamp="1595101357576">
+    <state width="1237" height="194" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1595164708645" />
+    <state width="1237" height="194" key="GridCell.Tab.1.left" timestamp="1595164708645">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="194" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1595101357576" />
-    <state width="1237" height="194" key="GridCell.Tab.1.right" timestamp="1595101357576">
+    <state width="1237" height="194" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1595164708645" />
+    <state width="1237" height="194" key="GridCell.Tab.1.right" timestamp="1595164708645">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="194" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1595101357576" />
+    <state width="1237" height="194" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1595164708645" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1595007878141">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

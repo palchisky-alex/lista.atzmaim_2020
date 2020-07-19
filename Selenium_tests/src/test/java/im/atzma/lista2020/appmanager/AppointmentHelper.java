@@ -161,7 +161,6 @@ public class AppointmentHelper extends HelperBase {
 
 
     public void create(String clientName) throws InterruptedException {
-        driver.findElement(By.cssSelector(".next_button_wrap.common")).click();
         chooseAppointmentHour();
         fillNewAppointment(clientName);
     }
@@ -204,7 +203,6 @@ public class AppointmentHelper extends HelperBase {
 
 
     public List<String> verifyAppointmentCreation() throws InterruptedException {
-        // verifyNonbusinessDay();
         List<String> itemList = new ArrayList<>();
         itemList.add(appointmentTime.getText());
         itemList.add(appointmentClientName.getText());
@@ -251,9 +249,13 @@ public class AppointmentHelper extends HelperBase {
     }
 
     public void chooseAppointmentHour() throws InterruptedException {
-        WebElement slot = driver.findElement(By.cssSelector(".fc-nonbusiness"));
-        clickJS(slot);
-        driver.findElement(By.xpath("//tr[5]/td[1]")).click();
+
+//        click(driver.findElement(By.cssSelector(".next_button_wrap.common")));
+        if (isElementPresent2(driver.findElements(By.cssSelector(".fc-nonbusiness")))) {
+            clickJS(driver.findElement(By.cssSelector(".fc-nonbusiness")));
+        } else System.out.println("nonbusiness day not present");
+
+        driver.findElement(By.xpath("//tr[5]/td[1]")).click(); // click on empty slot hour
     }
 
     public void clickOnExistsAppointment() throws InterruptedException {
@@ -274,10 +276,11 @@ public class AppointmentHelper extends HelperBase {
     }
 
 
-    private void verifyAppointmentExistens() {
-        if (!isElementPresent(appointmentTime)) {
+    private void verifyAppointmentExistens() throws InterruptedException {
+        if (!isElementPresent2(driver.findElements(By.cssSelector("//p[@class='event-start']")))) {
             click(back_arrow);
         }
+
     }
 
     public List<String> verifyAppointmentElements() {
@@ -401,7 +404,7 @@ public class AppointmentHelper extends HelperBase {
         driver.get(propertiesList("web.settings"));
         click(btn_buisness_settings);
         click(btn_deleteAccount);
-        if (isElementPresent(btn_yes)) {
+        if (isElementPresent2(driver.findElements(By.cssSelector(".yes-btn")))) {
             click(btn_yes);
         } else {
             new RuntimeException("yes button not present");
