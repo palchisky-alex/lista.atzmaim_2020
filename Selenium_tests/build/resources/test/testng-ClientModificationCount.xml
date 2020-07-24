@@ -10,29 +10,28 @@
             <!--</class>-->
             <class name="im.atzma.lista2020.tests.SingupTest">
                 <methods>
-                    <include name="testVerifySignupPageElements"/>
-                    <include name="testPasswordVisibleIcons"/>
-                    <include name="testVerifyBusinessTypePageElements"/>
-                    <include name="testMarkBussnessType_atzmaimButtonChecked"/>
-                    <include name="testVerifyAllSetPageElements"/>
-                    <include name="testVerifyAllTestPageCheckboxes"/>
-                    <include name="testCreateNewAccount_submit"/>
-                    <include name="testLogOut"/>
-                    <include name="testVerifyLoginWithNewUser"/>
-                    <include name="testVerifyDefaultClientPage()"/>
+                    <include name="testLoginPage"/>
+                    <include name="testSingupPage"/>
+                    <include name="testBusinessTypePage"/>
+                    <include name="testAllSetPage"/>
+                    <include name="testOnboardingPage"/>
+                    <include name="testOnboarding1Page"/>
+                    <include name="testOnboarding2Page"/>
+                    <include name="testCalendarPage"/>
+                    <include name="testPopupInstallation"/>
                 </methods>
             </class>
-            <class name="im.atzma.lista.tests.ClientModificationTest">
+            <class name="im.atzma.lista2020.tests.ClientModificationTest">
                 <methods>
-                    <include name="testVerifyClientForm"/>
+<!--                    <include name="testVerifyClientForm"/>-->
                     <include name="testCreateClientCount_1"/>
-                    <include name="testCreateClientCount_2"/>
+<!--                    <include name="testCreateClientCount_2"/>-->
                     <include name="testModificateClient_1"/>
-                    <include name="testModificateClient_2"/>
+<!--                    <include name="testModificateClient_2"/>-->
                     <include name="testCompareClient"/>
                 </methods>
             </class>
-            <class name="im.atzma.lista.tests.DeleteAccountTest">
+            <class name="im.atzma.lista2020.tests.DeleteAccountTest">
                 <methods>
                     <include name="testDeleteAccount"/>
                     <include name="testDeleteAccountVerification"/>

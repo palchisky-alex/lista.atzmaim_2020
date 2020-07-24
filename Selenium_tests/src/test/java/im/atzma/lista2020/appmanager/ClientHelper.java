@@ -62,7 +62,7 @@ public class ClientHelper extends HelperBase {
     @FindBy(css = "#save .bot-button")
     WebElement btn_saveClientForm;
 
-    @FindBy(xpath = "//*[@class='client-name']/h1")
+    @FindBy(xpath = "//*[@class='client-name']/p")
     WebElement title_newClientName;
 
     @FindBy(xpath = "//span[text()='חזור']")
@@ -210,7 +210,7 @@ public class ClientHelper extends HelperBase {
 
     public String verifyNewClientCreation() {
         highlight(title_newClientName);
-        System.out.println("Name of ew client: " + title_newClientName);
+        System.out.println("Name of new client: " + title_newClientName);
         return title_newClientName.getText();
     }
 

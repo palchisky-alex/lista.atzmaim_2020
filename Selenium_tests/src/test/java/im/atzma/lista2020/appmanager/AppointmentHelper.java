@@ -25,7 +25,7 @@ public class AppointmentHelper extends HelperBase {
     @FindBy(xpath = "//a[@data-appointment_id]")
     List<WebElement> btn_existing_appointment;
 
-    @FindBy(xpath = "//input[@placeholder=\"חפש שם, טלפון או הזן לקוח חדש\"]")
+    @FindBy(xpath = "//input[@placeholder]")
     WebElement input_findClient;
 
     @FindBy(xpath = "//span[@class='all-clients__item-name']")

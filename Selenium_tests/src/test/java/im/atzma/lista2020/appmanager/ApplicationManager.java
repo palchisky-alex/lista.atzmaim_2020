@@ -65,6 +65,9 @@ public class ApplicationManager {
             chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
             chromeOptions.addArguments(("--auto-open-devtools-for-tabs"));
             chromeOptions.addArguments("--ignore-certificate-errors");
+            chromeOptions.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
+//            chromeOptions.addArguments("user-data-dir=C:/Users/user/AppData/Local/Google/Chrome/User Data");
+//            chromeOptions.addArguments("--headless", "--disable-gpu");
             driver = new ChromeDriver(chromeOptions);
         } else if (browser.equals("Firefox")) {
             System.setProperty("webdriver.gecko.driver", "C:\\automation\\browser drivers\\firefox\\geckodriver.exe");
@@ -73,6 +76,7 @@ public class ApplicationManager {
 
 
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
         driver.manage().window().maximize();
 
         navigationHelper = new NavigationHelper(driver);

@@ -70,8 +70,8 @@ public class NavigationHelper extends HelperBase {
     }
 
     public String closePopup() throws InterruptedException {
-        WebElement popup_install = driver.findElement(By.cssSelector(".no-btn"));
-        if (isElementPresent(popup_install)) {
+        if (isElementPresent2(driver.findElements(By.cssSelector(".no-btn")))) {
+            WebElement popup_install = driver.findElement(By.cssSelector(".no-btn"));
             click(popup_install);
             return "popup closed";
         }
