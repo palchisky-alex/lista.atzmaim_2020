@@ -20,7 +20,6 @@ import static org.testng.Assert.fail;
 
 public class ApplicationManager {
     private String browser;
-    public RemoteWebDriver driver2;
     public WebDriver driver;
     Properties properties;
 
@@ -37,14 +36,15 @@ public class ApplicationManager {
     public boolean acceptNextAlert = true;
 
 
-    public ApplicationManager(String browser) {
-        this.browser = browser;
+    public ApplicationManager() {
+
         properties = new Properties();
     }
 
     public void init() throws InterruptedException, IOException {
         String target = System.getProperty("target", "local");
         properties.load(new FileReader(new File(String.format("src/test/resources/%s.properties", target))));
+        browser = properties.getProperty("web.browser");
 
 //        DesiredCapabilities capabilities = new DesiredCapabilities();
 //        capabilities.setBrowserName("chrome");
@@ -72,6 +72,17 @@ public class ApplicationManager {
         } else if (browser.equals("Firefox")) {
             System.setProperty("webdriver.gecko.driver", "C:\\automation\\browser drivers\\firefox\\geckodriver.exe");
             driver = new FirefoxDriver();
+        } else if (browser.equals("Selenoid")) {
+            DesiredCapabilities capabilities = new DesiredCapabilities();
+            capabilities.setBrowserName("chrome");
+            capabilities.setVersion("81.0");
+            capabilities.setCapability("enableVNC", true);
+            capabilities.setCapability("enableVideo", true);
+
+            driver = new RemoteWebDriver(
+                    URI.create("http://164.90.232.102:4444/wd/hub").toURL(),
+                    capabilities
+            );
         }
 
 
