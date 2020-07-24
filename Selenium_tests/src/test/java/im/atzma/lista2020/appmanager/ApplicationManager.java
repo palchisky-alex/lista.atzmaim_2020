@@ -75,7 +75,7 @@ public class ApplicationManager {
         } else if (browser.equals("Selenoid")) {
             DesiredCapabilities capabilities = new DesiredCapabilities();
             capabilities.setBrowserName("chrome");
-            capabilities.setVersion("81.0");
+            capabilities.setVersion("84.0");
             capabilities.setCapability("enableVNC", true);
             capabilities.setCapability("enableVideo", true);
 
