@@ -79,8 +79,17 @@ public class ApplicationManager {
             capabilities.setCapability("enableVNC", true);
             capabilities.setCapability("enableVideo", true);
 
+            Map<String, String> mobileEmulation = new HashMap<>();
+            mobileEmulation.put("deviceName", "Nexus 5");
+            ChromeOptions chromeOptions = new ChromeOptions();
+            chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
+            chromeOptions.addArguments(("--auto-open-devtools-for-tabs"));
+            chromeOptions.addArguments("--ignore-certificate-errors");
+            chromeOptions.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
+            chromeOptions.merge(capabilities);
+
             driver = new RemoteWebDriver(
-                    URI.create("http://164.90.232.102:4444/wd/hub").toURL(),
+                    URI.create("http://164.90.232.122/:4444/wd/hub").toURL(),
                     capabilities
             );
         }
