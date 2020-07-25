@@ -46,16 +46,6 @@ public class ApplicationManager {
         properties.load(new FileReader(new File(String.format("src/test/resources/%s.properties", target))));
         browser = properties.getProperty("web.browser");
 
-//        DesiredCapabilities capabilities = new DesiredCapabilities();
-//        capabilities.setBrowserName("chrome");
-//        capabilities.setVersion("81.0");
-//        capabilities.setCapability("enableVNC", true);
-//        capabilities.setCapability("enableVideo", true);
-//
-//         driver = new RemoteWebDriver(
-//                URI.create("http://67.205.150.243:4444/wd/hub").toURL(),
-//                capabilities
-//        );
 
         if (browser.equals("Chrome")) {
             System.setProperty("webdriver.chrome.driver", "C:\\automation\\browser drivers\\chromedriver_83_win32\\chromedriver.exe");
@@ -89,9 +79,7 @@ public class ApplicationManager {
             chromeOptions.merge(capabilities);
 
             driver = new RemoteWebDriver(
-                    URI.create("http://164.90.232.102:4444/wd/hub").toURL(),
-                    capabilities
-            );
+                    URI.create("http://164.90.232.102:4444/wd/hub").toURL(), chromeOptions);
         }
 
 
