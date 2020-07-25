@@ -65,7 +65,7 @@ public class ApplicationManager {
         } else if (browser.equals("Selenoid")) {
             DesiredCapabilities capabilities = new DesiredCapabilities();
             capabilities.setBrowserName("chrome");
-            capabilities.setVersion("84.0");
+            capabilities.setVersion("83.0");
             capabilities.setCapability("enableVNC", true);
             capabilities.setCapability("enableVideo", true);
 
@@ -79,7 +79,7 @@ public class ApplicationManager {
             chromeOptions.merge(capabilities);
 
             driver = new RemoteWebDriver(
-                    URI.create("http://68.183.243.172/:4444/wd/hub").toURL(), chromeOptions);
+                    URI.create("http://68.183.243.172:4444/wd/hub").toURL(), chromeOptions);
         }
 
 
