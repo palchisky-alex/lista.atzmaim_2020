@@ -10,9 +10,8 @@ import java.lang.reflect.Method;
 import java.util.Arrays;
 
 
-
 public class TestBase {
-  //  Logger logger = LoggerFactory.getLogger(TestBase.class);
+    //  Logger logger = LoggerFactory.getLogger(TestBase.class);
 //    protected static final ApplicationManager app = new ApplicationManager(System.getProperty("browser", "Chrome"));
     protected static final ApplicationManager app = new ApplicationManager();
 
@@ -23,7 +22,7 @@ public class TestBase {
 
     }
 
- //   @AfterSuite(alwaysRun = true)
+    @AfterSuite(alwaysRun = true)
     public void tearDown() {
         app.stop();
     }
@@ -40,3 +39,5 @@ public class TestBase {
 //    }
 
 }
+
+

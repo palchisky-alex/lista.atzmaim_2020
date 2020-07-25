@@ -16,6 +16,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
@@ -139,7 +140,9 @@ public class HelperBase {
     }
 
     public String propertiesList(String key) throws IOException, InterruptedException {
-        LocalDate local_time = LocalDate.now();
+        ZoneId zid = ZoneId.of("Asia/Jerusalem");
+        LocalDate local_time = LocalDate.now(zid);
+        System.out.println("Localtime: " + local_time);
         String worker = "?worker_id=1&calendar_view_type=daily";
 
         properties = new Properties();

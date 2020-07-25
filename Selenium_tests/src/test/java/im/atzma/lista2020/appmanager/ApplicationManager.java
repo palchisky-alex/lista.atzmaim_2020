@@ -89,7 +89,7 @@ public class ApplicationManager {
             chromeOptions.merge(capabilities);
 
             driver = new RemoteWebDriver(
-                    URI.create("http://164.90.232.122/:4444/wd/hub").toURL(),
+                    URI.create("http://164.90.232.102:4444/wd/hub").toURL(),
                     capabilities
             );
         }
