@@ -7,6 +7,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 public class NavigationHelper extends HelperBase {
@@ -43,11 +45,21 @@ public class NavigationHelper extends HelperBase {
 
 
     public void homePage() throws InterruptedException, IOException {
-        driver.get(propertiesList("web.BaseUrl"));
+        String getURLfromList = propertiesList("web.BaseUrl");
+        driver.get(getURLfromList);
+        String currentURL = driver.getCurrentUrl();
+        if (!currentURL.equals(getURLfromList)) {
+            Thread.sleep(10000);
+        }
     }
 
-    public void goToLoginPage() throws InterruptedException, IOException {
-        driver.get(propertiesList("web.loginURL"));
+    public void goToLoginPage(String url) throws InterruptedException, IOException {
+        String getURLfromList = propertiesList("web.loginURL");
+        driver.get(getURLfromList);
+        String currentURL = driver.getCurrentUrl();
+        if (!currentURL.equals(getURLfromList)) {
+            Thread.sleep(10000);
+        }
     }
 
     public void singupPage() throws InterruptedException, IOException {
@@ -56,29 +68,40 @@ public class NavigationHelper extends HelperBase {
     }
 
     public void clientPage() throws InterruptedException, IOException {
-        driver.get(propertiesList("web.clientURL"));
-        waitForLocation(propertiesList("web.clientURL"));
+        String getURLfromList = propertiesList("web.clientURL");
+        driver.get(getURLfromList);
+        String currentURL = driver.getCurrentUrl();
+        if (!currentURL.equals(getURLfromList)) {
+            Thread.sleep(10000);
+        }
     }
 
     public void servicesPage() throws InterruptedException, IOException {
-        driver.get(propertiesList("web.servicesURL"));
-        waitForLocation(propertiesList("web.servicesURL"));
+        String getURLfromList = propertiesList("web.servicesURL");
+        driver.get(getURLfromList);
+        String currentURL = driver.getCurrentUrl();
+        if (!currentURL.equals(getURLfromList)) {
+            Thread.sleep(10000);
+        }
     }
 
     public void calendarPage() throws InterruptedException, IOException {
-        driver.get(propertiesList("web.calendarURL"));
+        String getURLfromList = propertiesList("web.calendarURL");
+        driver.get(getURLfromList);
+        String currentURL = driver.getCurrentUrl();
+        if (!currentURL.equals(getURLfromList)) {
+            Thread.sleep(10000);
+        }
+        closePopup();
     }
 
-    public String closePopup() throws InterruptedException {
-        if (isElementPresent2(driver.findElements(By.cssSelector(".no-btn")))) {
-            WebElement popup_install = driver.findElement(By.cssSelector(".no-btn"));
-            click(popup_install);
-            return "popup closed";
+    public void closePopup() throws InterruptedException {
+        int size = driver.findElement(By.cssSelector(".installModal")).getSize().getHeight();
+        if(size != 0) {
+            click(driver.findElement(By.cssSelector(".no-btn")));
         }
-        else {
-            System.out.println("popup not present");
-        }
-        return "popup not presented";
+        else System.out.println("Popup not present");
+
     }
 
     public void typeNewPassAndUser() throws InterruptedException, IOException {
@@ -126,8 +149,6 @@ public class NavigationHelper extends HelperBase {
     }
 
     public void login() throws InterruptedException, IOException {
-        homePage();
-        highlight(btn_login);
         click(btn_login);
         waitForElement(input_email);
         typeNewPassAndUser();
@@ -144,7 +165,6 @@ public class NavigationHelper extends HelperBase {
         }
     }
 
-
     public boolean verifyPasswordInput() {
         if (input_password.isDisplayed()) {
             highlight(input_password);
@@ -152,47 +172,6 @@ public class NavigationHelper extends HelperBase {
         } else {
             return false;
         }
-    }
-
-    //--------------------------- SELENOID TEST ------------------------------------------------------------
-    public boolean seleniumSingup() throws IOException, InterruptedException {
-        driver.get("https://lista.atzma.im/he/home");
-        driver.findElement(By.cssSelector(".login-btn")).click();
-        driver.findElement(By.cssSelector(".dont-have-acc__sign-up")).click();
-        typeNewPassAndUser();
-        driver.findElement(By.cssSelector(".login-form__button")).click();
-        driver.findElement(By.cssSelector(".choose-menu__button")).click();
-        waitForElement(driver.findElement(By.id("twice")));
-        driver.findElement(By.id("twice")).click();
-        driver.findElement(By.cssSelector(".start-button__all-set")).click();
-        driver.findElement(By.cssSelector(".next-step > img")).click();
-        driver.findElement(By.cssSelector(".next-step")).click();
-        driver.findElement(By.cssSelector(".next-step")).click();
-
-        waitForElement(menu_gamburger); //------------- wait for menu of calendar and confirm account creation
-        waitForElement(driver.findElement(By.cssSelector(".no-btn")));
-        highlight(driver.findElement(By.cssSelector(".no-btn")));
-        driver.findElement(By.cssSelector(".no-btn")).click();
-
-        highlight(menu_gamburger);
-        if (menu_gamburger.isDisplayed()) {
-            return true;
-        } else return false;
-
-
-    }
-
-    public String removeAccount() throws InterruptedException, IOException {
-        driver.get("https://lista.atzma.im/he/settings/business");
-        driver.manage().window().setSize(new Dimension(376, 667));
-        highlight(driver.findElement(By.cssSelector(".button-delete")));
-        driver.findElement(By.cssSelector(".common.delete-account")).click();
-
-        waitForElement(driver.findElement(By.cssSelector(".yes-btn")));
-        highlight(driver.findElement(By.cssSelector(".yes-btn")));
-        driver.findElement(By.cssSelector(".yes-btn")).click();
-        // login();
-        return driver.getCurrentUrl();
     }
 
 }

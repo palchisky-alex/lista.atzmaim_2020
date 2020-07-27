@@ -23,14 +23,8 @@
 <!--                    <include name="testVerifyDefaultServices60min"/>-->
 <!--                    <include name="testVerifyDefaultServiceFormElements"/>-->
                     <include name="testFillServiceForm"/>
-<!--                    <include name="testSaveServiceForm"/>-->
                 </methods>
             </class>
-<!--            <class name="im.atzma.lista2020.tests.MenuTest">-->
-<!--                <methods>-->
-<!--                    <include name="verifyLinkText"/>-->
-<!--                </methods>-->
-<!--            </class>-->
             <class name="im.atzma.lista2020.tests.DeleteAccountTest">
                 <methods>
                     <include name="testDeleteAccount"/>

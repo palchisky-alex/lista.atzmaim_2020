@@ -55,7 +55,7 @@ public class ApplicationManager {
             chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
             chromeOptions.addArguments(("--auto-open-devtools-for-tabs"));
             chromeOptions.addArguments("--ignore-certificate-errors");
-            chromeOptions.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
+        //    chromeOptions.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
 //            chromeOptions.addArguments("user-data-dir=C:/Users/user/AppData/Local/Google/Chrome/User Data");
 //            chromeOptions.addArguments("--headless", "--disable-gpu");
             driver = new ChromeDriver(chromeOptions);
@@ -135,5 +135,4 @@ public class ApplicationManager {
         return appointmentHelper;
     }
 }
-
 

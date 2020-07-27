@@ -250,7 +250,6 @@ public class AppointmentHelper extends HelperBase {
 
     public void chooseAppointmentHour() throws InterruptedException {
 
-//        click(driver.findElement(By.cssSelector(".next_button_wrap.common")));
         if (isElementPresent2(driver.findElements(By.cssSelector(".fc-nonbusiness")))) {
             clickJS(driver.findElement(By.cssSelector(".fc-nonbusiness")));
         } else System.out.println("nonbusiness day not present");

@@ -10,19 +10,9 @@ import java.util.List;
 public class ServiceCreationTest extends TestBase {
 
     @Test(priority = 1)
-    public void testVerifyDefaultElements() throws InterruptedException, IOException {
+    public void testVerifyURL() throws InterruptedException, IOException {
         app.goTo().servicesPage();
         Assert.assertTrue(app.driver.getCurrentUrl().matches("https://lista.atzma.im/he/catalog/services"));
-
-        List<WebElement> elementList = app.service().verifyServicePageElements();
-        try {
-            for (int i = 0; i < elementList.size(); i++) {
-                Assert.assertTrue(elementList.get(i).isDisplayed());
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
     }
 
     @Test(priority = 2)
@@ -128,20 +118,7 @@ public class ServiceCreationTest extends TestBase {
         String expected = "Temp services_katalon";
         Assert.assertEquals(actual, expected);
 
-
     }
 
-    @Test(priority = 7)
-    public void testSaveServiceForm() throws InterruptedException {
-
-        app.service().saveServiceFrom();
-        String actual = app.service().verifyTempService("Temp services_katalon");
-        String expected = "Temp services_katalon";
-        try {
-            Assert.assertEquals(actual, expected);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-    }
 
 }

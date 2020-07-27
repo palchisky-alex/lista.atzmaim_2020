@@ -288,13 +288,17 @@ public class ServicesHelper extends HelperBase {
         fillText(input_categoryName, categoryName);
         click(btn_saveCategory);
         click(btn_saveService_enabled);
-        driver.findElement(By.cssSelector(".more_wrap")).click();
+        driver.findElement(By.cssSelector(".enabled")).click();
+
+
+
+//        driver.findElement(By.cssSelector(".more_wrap")).click();
 
     }
 
     public void saveServiceFrom() throws InterruptedException {
-//        driver.navigate().refresh();
         click(btn_saveService_enabled);
+
 
     }
 
@@ -386,14 +390,14 @@ public class ServicesHelper extends HelperBase {
 
     }
 
-    public List<String> verifyServiceDeletion() {
-        driver.navigate().refresh();
-        List<String> itemList = new ArrayList<>();
-        for (int i = 0; i < btn_procedures_item__add_list.size(); i++) {
-            itemList.add(btn_procedures_item__add_list.get(i).getText());
-            System.out.println(btn_procedures_item__add_list.get(i).getText());
-            highlight(btn_procedures_item__add_list.get(i));
-        }
-        return itemList;
-    }
+//    public List<String> verifyServiceDeletion() {
+//        driver.navigate().refresh();
+//        List<String> itemList = new ArrayList<>();
+//        for (int i = 0; i < btn_procedures_item__add_list.size(); i++) {
+//            itemList.add(btn_procedures_item__add_list.get(i).getText());
+//            System.out.println(btn_procedures_item__add_list.get(i).getText());
+//            highlight(btn_procedures_item__add_list.get(i));
+//        }
+//        return itemList;
+//    }
 }

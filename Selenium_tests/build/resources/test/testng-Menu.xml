@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Account_creation_suite">
-    <test verbose="1" preserve-order="true" name="create and delete account">
+<suite name="suite_Menu">
+    <test verbose="1" preserve-order="true" name="testsMenu">
         <classes>
             <class name="im.atzma.lista2020.tests.SingupTest">
                 <methods>
@@ -13,12 +13,17 @@
                     <include name="testOnboarding1Page"/>
                     <include name="testOnboarding2Page"/>
                     <include name="testCalendarPage"/>
-<!--                    <include name="testPopupInstallation"/>-->
+                </methods>
+            </class>
+            <class name="im.atzma.lista2020.tests.MenuTest">
+                <methods>
+                    <include name="verifyLinkText"/>
                 </methods>
             </class>
             <class name="im.atzma.lista2020.tests.DeleteAccountTest">
                 <methods>
                     <include name="testDeleteAccount"/>
+<!--                    <include name="testDeleteAccountVerification"/>-->
                 </methods>
             </class>
         </classes>

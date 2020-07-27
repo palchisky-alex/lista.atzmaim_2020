@@ -11,7 +11,7 @@ public class SingupPage extends HelperBase {
 
     public SingupPage(WebDriver driver) { super(driver); }
 
-    public String getCurrentURL(String url) throws InterruptedException {
+    public String  getCurrentURL(String url) throws InterruptedException {
         String currentURL = driver.getCurrentUrl();
         if (!currentURL.equals(url)) {
             Thread.sleep(10000);

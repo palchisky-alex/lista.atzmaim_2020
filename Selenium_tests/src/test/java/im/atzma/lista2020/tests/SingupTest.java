@@ -73,8 +73,6 @@ public class SingupTest extends TestBase {
     @Test(priority = 9)
     public void testPopupInstallation() throws Exception {
         app.goTo().calendarPage();
-        Assert.assertEquals(app.goTo().closePopup(), "popup closed");
-
     }
 
 }

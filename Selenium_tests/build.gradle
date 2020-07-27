@@ -120,4 +120,14 @@ task testSingup(type: Test) {
     }
 }
 
-  
+task testMenu(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/testng-Menu.xml'
+    }
+}
+
+task testService(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/testng-Service.xml'
+    }
+}

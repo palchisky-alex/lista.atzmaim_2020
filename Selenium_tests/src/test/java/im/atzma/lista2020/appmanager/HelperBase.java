@@ -126,18 +126,17 @@ public class HelperBase {
     }
 
     public boolean isElementPresent(WebElement el) throws InterruptedException {
+        System.out.println("Element: " + el);
+        List<WebElement> itemlist = new ArrayList<>();
+        itemlist.clear();
+        itemlist.add(el);
+        if (itemlist.size() > 0) {
+            return true;
+        } else System.out.println("Element not present");
 
-        if (el != null) {
-            List<WebElement> itemlist = new ArrayList<>();
-            itemlist.clear();
-            itemlist.add(el);
-            System.out.println("itemlist.size()- " + el + ": " + itemlist.size());
-            if (itemlist.size() > 0) {
-                return true;
-            }
-        }
         return false;
     }
+
 
     public String propertiesList(String key) throws IOException, InterruptedException {
         ZoneId zid = ZoneId.of("Asia/Jerusalem");
