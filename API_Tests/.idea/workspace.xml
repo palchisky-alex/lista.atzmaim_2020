@@ -131,7 +131,7 @@
       <recent name="D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-AppointmentCreation.xml">
+  <component name="RunManager" selected="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-Menu.xml">
     <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml" type="TestNG" nameIsGenerated="true">
       <module name="API_AccountCreation_DDT_Tests.test" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml" />
@@ -162,9 +162,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-ClientCreationCount.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-Menu.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_tests.test" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/../Selenium_tests/src/test/resources/testng-ClientCreationCount.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/../Selenium_tests/src/test/resources/testng-Menu.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -206,18 +206,18 @@
       <item itemvalue="TestNG.F:/Devel_2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AccountCreationRest.xml" />
       <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml" />
       <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-AppointmentCreation.xml" />
-      <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-ClientCreationCount.xml" />
       <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-AppointmentModification.xml" />
       <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-Singup.xml" />
       <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-Service.xml" />
+      <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-Menu.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-Menu.xml" />
+        <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-Singup.xml" />
         <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-AppointmentCreation.xml" />
         <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-Service.xml" />
-        <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-Singup.xml" />
         <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-AppointmentModification.xml" />
-        <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-ClientCreationCount.xml" />
       </list>
     </recent_temporary>
   </component>

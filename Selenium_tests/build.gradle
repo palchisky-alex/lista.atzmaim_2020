@@ -10,24 +10,9 @@ dependencies {
     implementation 'org.testng:testng:7.0.0'
     implementation 'org.seleniumhq.selenium:selenium-java:4.0.0-alpha-2'
     implementation 'org.hamcrest:java-hamcrest:2.0.0.0'
-    
 
 }
 
-
-    task testMenu(type: Test) {
-        useTestNG() {
-            suites './src/test/resources/testng-Menu_Service.xml'
-        }
-        if (project.hasProperty('browser')) {
-            systemProperty 'browser', "${browser}"
-        }
-
-        if (project.hasProperty('target')) {
-            systemProperty 'target', "${target}"
-        }
-
-    }
 
 task testNewAppointment(type: Test) {
     useTestNG() {
