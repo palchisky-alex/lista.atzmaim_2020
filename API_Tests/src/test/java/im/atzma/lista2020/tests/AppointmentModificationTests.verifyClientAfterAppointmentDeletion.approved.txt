@@ -22,5 +22,6 @@ Content-Encoding=gzip
         "address": "Russia, Khabarovsk, Krasnorechenskaya 179",
         "status": "status - before",
         "###last_appointment##
+        "phone_canonical": "+972543666666"
     }
 ]

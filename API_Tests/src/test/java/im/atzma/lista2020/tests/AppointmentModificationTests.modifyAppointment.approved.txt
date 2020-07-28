@@ -39,7 +39,8 @@ Content-Encoding=gzip
                 "#####
                 "name": "TestService"
             }
-        ]
+        ],
+        "phone_canonical": "+972543666666"
     },
     {
         "#####
@@ -66,7 +67,8 @@ Content-Encoding=gzip
                 "#####
                 "name": "TestService"
             }
-        ]
+        ],
+        "phone_canonical": "+972543666666"
     },
     {
         "#####
@@ -93,7 +95,8 @@ Content-Encoding=gzip
                 "#####
                 "name": "TestService"
             }
-        ]
+        ],
+        "phone_canonical": "+972543666666"
     },
     {
         "#####
@@ -120,7 +123,8 @@ Content-Encoding=gzip
                 "#####
                 "name": "TestService"
             }
-        ]
+        ],
+        "phone_canonical": "+972543666666"
     },
     {
         "#####
@@ -147,7 +151,8 @@ Content-Encoding=gzip
                 "#####
                 "name": "TestService"
             }
-        ]
+        ],
+        "phone_canonical": "+972543666666"
     },
     {
         "#####
@@ -174,7 +179,8 @@ Content-Encoding=gzip
                 "#####
                 "name": "TestService"
             }
-        ]
+        ],
+        "phone_canonical": "+972543666666"
     },
     {
         "#####
@@ -201,7 +207,8 @@ Content-Encoding=gzip
                 "#####
                 "name": "TestService"
             }
-        ]
+        ],
+        "phone_canonical": "+972543666666"
     },
     {
         "#####
@@ -228,7 +235,8 @@ Content-Encoding=gzip
                 "#####
                 "name": "TestService"
             }
-        ]
+        ],
+        "phone_canonical": "+972543666666"
     },
     {
         "#####
@@ -255,7 +263,8 @@ Content-Encoding=gzip
                 "#####
                 "name": "TestService"
             }
-        ]
+        ],
+        "phone_canonical": "+972543666666"
     },
     {
         "#####
@@ -282,7 +291,8 @@ Content-Encoding=gzip
                 "#####
                 "name": "TestService"
             }
-        ]
+        ],
+        "phone_canonical": "+972543666666"
     },
     {
         "#####
@@ -309,7 +319,8 @@ Content-Encoding=gzip
                 "#####
                 "name": "TestService"
             }
-        ]
+        ],
+        "phone_canonical": "+972543666666"
     },
     {
         "#####
@@ -336,6 +347,7 @@ Content-Encoding=gzip
                 "#####
                 "name": "TestService"
             }
-        ]
+        ],
+        "phone_canonical": "+972543666666"
     }
 ]

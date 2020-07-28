@@ -26,6 +26,7 @@ Content-Encoding=gzip
     "permit_ads": false,
     "registration_date": "2020-08-02",
     "#####
+    "phone_canonical": "+972543666666",
     "phone": [
         "0543666666",
         "033333333"
