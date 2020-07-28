@@ -2,10 +2,8 @@ package im.atzma.lista2020.appmanager;
 
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-import org.apache.commons.lang3.StringUtils;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
@@ -14,7 +12,7 @@ import java.util.regex.Pattern;
 
 import static io.restassured.RestAssured.given;
 
-public class RestRequests extends HelperBase {
+public class RestRequests extends HelperBaseAPI {
     static int count;
     static int id;
     static String key;

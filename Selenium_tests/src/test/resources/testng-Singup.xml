@@ -13,7 +13,7 @@
                     <include name="testOnboarding1Page"/>
                     <include name="testOnboarding2Page"/>
                     <include name="testCalendarPage"/>
-<!--                    <include name="testPopupInstallation"/>-->
+                    <include name="testPopupInstallation"/>
                 </methods>
             </class>
             <class name="im.atzma.lista2020.tests.DeleteAccountTest">

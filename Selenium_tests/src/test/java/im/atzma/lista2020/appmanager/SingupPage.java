@@ -45,7 +45,7 @@ public class SingupPage extends HelperBase {
         int randomInt = random.nextInt();
         String random_for_mail = "selenium_" + randomInt + "@gmail.com";
         fillText(driver.findElement(By.name("email")), random_for_mail);
-        fillText(driver.findElement(By.name("pass")), "qwer");
+        fillText(driver.findElement(By.name("new-password")), "qwer");
         click(driver.findElement(By.cssSelector(".login-button")));
     }
 }

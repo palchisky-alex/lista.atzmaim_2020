@@ -13,32 +13,20 @@
                     <include name="testOnboarding1Page"/>
                     <include name="testOnboarding2Page"/>
                     <include name="testCalendarPage"/>
+                    <include name="testPopupInstallation"/>
                 </methods>
             </class>
             <class name="im.atzma.lista2020.tests.ClientCreationTest">
                 <methods>
                     <include name="initNewClientCreation"/>
-                    <!--<include name="verifyClientForm"/>-->
                     <include name="testCreateClientCount"/>
                 </methods>
             </class>
             <class name="im.atzma.lista2020.tests.DeleteAppointmentTest">
                 <methods>
                     <include name="testAppointmentDeletion"/>
-                    <!--                    <include name="testServiceDeletion"/>-->
                 </methods>
             </class>
-<!--             <class name="im.atzma.lista2020.tests.ServiceCreationTest">-->
-<!--                <methods>-->
-<!--                    &lt;!&ndash;                    <include name="testVerifyDefaultElements"/>&ndash;&gt;-->
-<!--                    &lt;!&ndash;                    <include name="testVerifyDefaultServices30min"/>&ndash;&gt;-->
-<!--                    &lt;!&ndash;                    <include name="testVerifyDefaultServices45min"/>&ndash;&gt;-->
-<!--                    &lt;!&ndash;                    <include name="testVerifyDefaultServices60min"/>&ndash;&gt;-->
-<!--                    &lt;!&ndash;                    <include name="testVerifyDefaultServiceFormElements"/>&ndash;&gt;-->
-<!--                    <include name="testFillServiceForm"/>-->
-<!--                    &lt;!&ndash;                    <include name="testSaveServiceForm"/>&ndash;&gt;-->
-<!--                </methods>-->
-<!--            </class>-->
             <class name="im.atzma.lista2020.tests.CreateAppointmentTest">
             <methods>
                 <include name="testAppointmentCreation"/>

@@ -1,9 +1,6 @@
 package im.atzma.lista2020.appmanager;
 
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebDriverException;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedCondition;
@@ -135,6 +132,13 @@ public class HelperBase {
         } else System.out.println("Element not present");
 
         return false;
+    }
+
+    public boolean isElementVisible(WebElement el) {
+        if (el.isDisplayed() || el.getSize().getHeight() != 0) {
+            return true;
+        } else
+            return false;
     }
 
 

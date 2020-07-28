@@ -13,22 +13,24 @@
                     <include name="testOnboarding1Page"/>
                     <include name="testOnboarding2Page"/>
                     <include name="testCalendarPage"/>
+                    <include name="testPopupInstallation"/>
                 </methods>
             </class>
             <class name="im.atzma.lista2020.tests.ServiceCreationTest">
                 <methods>
-<!--                    <include name="testVerifyDefaultElements"/>-->
-<!--                    <include name="testVerifyDefaultServices30min"/>-->
-<!--                    <include name="testVerifyDefaultServices45min"/>-->
-<!--                    <include name="testVerifyDefaultServices60min"/>-->
-<!--                    <include name="testVerifyDefaultServiceFormElements"/>-->
+                    <!--                    <include name="testVerifyDefaultElements"/>-->
+                    <!--                    <include name="testVerifyDefaultServices30min"/>-->
+                    <!--                    <include name="testVerifyDefaultServices45min"/>-->
+                    <!--                    <include name="testVerifyDefaultServices60min"/>-->
+                    <!--                    <include name="testVerifyDefaultServiceFormElements"/>-->
+                    <include name="testVerifyURL"/>
                     <include name="testFillServiceForm"/>
                 </methods>
             </class>
             <class name="im.atzma.lista2020.tests.DeleteAccountTest">
                 <methods>
                     <include name="testDeleteAccount"/>
-<!--                    <include name="testDeleteAccountVerification"/>-->
+                    <!--                    <include name="testDeleteAccountVerification"/>-->
                 </methods>
             </class>
         </classes>

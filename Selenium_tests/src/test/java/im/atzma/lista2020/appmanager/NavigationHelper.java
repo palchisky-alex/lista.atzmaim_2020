@@ -96,11 +96,15 @@ public class NavigationHelper extends HelperBase {
     }
 
     public void closePopup() throws InterruptedException {
-        int size = driver.findElement(By.cssSelector(".installModal")).getSize().getHeight();
-        if(size != 0) {
+        if(isElementVisible(driver.findElement(By.cssSelector(".installModal")))) {
             click(driver.findElement(By.cssSelector(".no-btn")));
         }
         else System.out.println("Popup not present");
+//        int size = driver.findElement(By.cssSelector(".installModal")).getSize().getHeight();
+//        if(size != 0) {
+//            click(driver.findElement(By.cssSelector(".no-btn")));
+//        }
+//        else System.out.println("Popup not present");
 
     }
 

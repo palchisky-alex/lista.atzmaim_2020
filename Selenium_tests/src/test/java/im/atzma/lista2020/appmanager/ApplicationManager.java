@@ -75,7 +75,7 @@ public class ApplicationManager {
             chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
             chromeOptions.addArguments(("--auto-open-devtools-for-tabs"));
             chromeOptions.addArguments("--ignore-certificate-errors");
-            chromeOptions.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
+          //  chromeOptions.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
             chromeOptions.merge(capabilities);
 
             driver = new RemoteWebDriver(

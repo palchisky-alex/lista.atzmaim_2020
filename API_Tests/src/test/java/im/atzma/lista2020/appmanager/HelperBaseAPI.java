@@ -17,7 +17,7 @@ import java.util.Properties;
 
 import static org.testng.Assert.fail;
 
-public class HelperBase {
+public class HelperBaseAPI {
 
     public String propertiesList(String key) throws IOException {
 

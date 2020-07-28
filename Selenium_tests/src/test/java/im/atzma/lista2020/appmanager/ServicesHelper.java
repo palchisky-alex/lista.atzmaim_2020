@@ -288,7 +288,10 @@ public class ServicesHelper extends HelperBase {
         fillText(input_categoryName, categoryName);
         click(btn_saveCategory);
         click(btn_saveService_enabled);
-        driver.findElement(By.cssSelector(".enabled")).click();
+        if(isElementVisible( driver.findElement(By.cssSelector(".enabled")))) {
+            driver.findElement(By.cssSelector(".enabled")).click();
+        }
+
 
 
 
