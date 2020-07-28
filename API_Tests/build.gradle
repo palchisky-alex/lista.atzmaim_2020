@@ -23,34 +23,18 @@ dependencies {
 // https://mvnrepository.com/artifact/com.approvaltests/approvaltests
     compile group: 'com.approvaltests', name: 'approvaltests', version: '4.0.2'
 
-
-
-
 }
 
 task testCreateClientRest(type: Test) {
     useTestNG() {
         suites './src/test/resources/testng-ClientCreationRest.xml'
     }
-    if (project.hasProperty('browser')) {
-        systemProperty 'browser', "${browser}"
-    }
-
-    if (project.hasProperty('target')) {
-        systemProperty 'target', "${target}"
-    }
 }
+
 
 task testCreateServiceRest(type: Test) {
     useTestNG() {
         suites './src/test/resources/testng-ServiceCreationRest.xml'
-    }
-    if (project.hasProperty('browser')) {
-        systemProperty 'browser', "${browser}"
-    }
-
-    if (project.hasProperty('target')) {
-        systemProperty 'target', "${target}"
     }
 }
 
@@ -58,38 +42,16 @@ task testModifyServiceRest(type: Test) {
     useTestNG() {
         suites './src/test/resources/testng-ServiceModificationRest.xml'
     }
-    if (project.hasProperty('browser')) {
-        systemProperty 'browser', "${browser}"
-    }
-
-    if (project.hasProperty('target')) {
-        systemProperty 'target', "${target}"
-    }
 }
-
     task testCreateAppointmentRest(type: Test) {
         useTestNG() {
             suites './src/test/resources/testng-AppointmentCreationRest.xml'
         }
-        if (project.hasProperty('browser')) {
-            systemProperty 'browser', "${browser}"
-        }
-
-        if (project.hasProperty('target')) {
-            systemProperty 'target', "${target}"
-        }
-}
+    }
 
 task testModifyAppointmentRest(type: Test) {
     useTestNG() {
         suites './src/test/resources/testng-AppointmentModificationRest.xml'
-    }
-    if (project.hasProperty('browser')) {
-        systemProperty 'browser', "${browser}"
-    }
-
-    if (project.hasProperty('target')) {
-        systemProperty 'target', "${target}"
     }
 }
 
@@ -97,12 +59,4 @@ task testClientModificationRest(type: Test) {
     useTestNG() {
         suites './src/test/resources/testng-ClientModificationRest.xml'
     }
-    if (project.hasProperty('browser')) {
-        systemProperty 'browser', "${browser}"
-    }
-
-    if (project.hasProperty('target')) {
-        systemProperty 'target', "${target}"
-    }
 }
-
