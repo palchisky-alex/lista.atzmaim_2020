@@ -287,10 +287,11 @@ public class ServicesHelper extends HelperBase {
         click(btn_addCategory);
         fillText(input_categoryName, categoryName);
         click(btn_saveCategory);
-        click(btn_saveService_enabled);
-        if(isElementVisible( driver.findElement(By.cssSelector(".enabled")))) {
-            driver.findElement(By.cssSelector(".enabled")).click();
-        }
+        waitForElement(btn_saveService_enabled);
+        driver.findElement(By.cssSelector(".enabled")).click();
+//        System.out.println(btn_saveService_enabled.getAttribute("background-color"));
+//        if(isElementVisible( driver.findElement(By.cssSelector(".enabled")))) {
+//        }
 
 
 
@@ -307,7 +308,7 @@ public class ServicesHelper extends HelperBase {
 
     public String verifyTempService(String tempServiceName) throws InterruptedException {
         fillText(inputBox_placeholder, tempServiceName);
-        highlight(btn_procedures_item__add);
+        highlight( btn_procedures_item__add);
         return btn_procedures_item__add.getText();
     }
 

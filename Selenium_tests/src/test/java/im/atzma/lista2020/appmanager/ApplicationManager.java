@@ -1,5 +1,6 @@
 package im.atzma.lista2020.appmanager;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -50,14 +51,24 @@ public class ApplicationManager {
         if (browser.equals("Chrome")) {
             System.setProperty("webdriver.chrome.driver", "C:\\automation\\browser drivers\\chromedriver_83_win32\\chromedriver.exe");
             Map<String, String> mobileEmulation = new HashMap<>();
-            mobileEmulation.put("deviceName", "Nexus 5");
+            mobileEmulation.put("deviceName", "iPhone X");
             ChromeOptions chromeOptions = new ChromeOptions();
             chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
             chromeOptions.addArguments(("--auto-open-devtools-for-tabs"));
             chromeOptions.addArguments("--ignore-certificate-errors");
-        //    chromeOptions.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
-//            chromeOptions.addArguments("user-data-dir=C:/Users/user/AppData/Local/Google/Chrome/User Data");
-//            chromeOptions.addArguments("--headless", "--disable-gpu");
+
+            chromeOptions.addArguments("--disable-gpu");
+            chromeOptions.addArguments("--disable-extensions");
+            chromeOptions.addArguments("--no-sandbox");
+            chromeOptions.addArguments("--disable-dev-shm-usage");
+            chromeOptions.setExperimentalOption("useAutomationExtension", false);
+
+            Map<String, Object> prefs = new HashMap<String, Object>();
+            prefs.put("credentials_enable_service", false);
+            prefs.put("profile.password_manager_enabled", false);
+            prefs.put("profile.default_content_setting_values.notifications", 3);
+            chromeOptions.setExperimentalOption("prefs", prefs);
+
             driver = new ChromeDriver(chromeOptions);
         } else if (browser.equals("Firefox")) {
             System.setProperty("webdriver.gecko.driver", "C:\\automation\\browser drivers\\firefox\\geckodriver.exe");
@@ -65,17 +76,30 @@ public class ApplicationManager {
         } else if (browser.equals("Selenoid")) {
             DesiredCapabilities capabilities = new DesiredCapabilities();
             capabilities.setBrowserName("chrome");
-            capabilities.setVersion("83.0");
+            capabilities.setVersion("84.0");
             capabilities.setCapability("enableVNC", true);
             capabilities.setCapability("enableVideo", true);
+            capabilities.setCapability("timeZone", "Asia/Jerusalem");
 
             Map<String, String> mobileEmulation = new HashMap<>();
-            mobileEmulation.put("deviceName", "Nexus 5");
+            mobileEmulation.put("deviceName", "iPhone X");
             ChromeOptions chromeOptions = new ChromeOptions();
+
+            chromeOptions.addArguments("--disable-gpu");
+            chromeOptions.addArguments("--disable-extensions");
+            chromeOptions.addArguments("--no-sandbox");
+            chromeOptions.addArguments("--disable-dev-shm-usage");
+            chromeOptions.setExperimentalOption("useAutomationExtension", false);
+
             chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
             chromeOptions.addArguments(("--auto-open-devtools-for-tabs"));
             chromeOptions.addArguments("--ignore-certificate-errors");
-          //  chromeOptions.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
+
+            Map<String, Object> prefs = new HashMap<String, Object>();
+            prefs.put("credentials_enable_service", false);
+            prefs.put("profile.password_manager_enabled", false);
+            prefs.put("profile.default_content_setting_values.notifications", 3);
+            chromeOptions.setExperimentalOption("prefs", prefs);
             chromeOptions.merge(capabilities);
 
             driver = new RemoteWebDriver(
