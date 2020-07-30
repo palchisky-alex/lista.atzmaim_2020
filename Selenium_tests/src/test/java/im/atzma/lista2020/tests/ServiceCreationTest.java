@@ -113,7 +113,7 @@ public class ServiceCreationTest extends TestBase {
 
         app.goTo().servicesPage();
         app.service().fillServiceFrom("Temp services_katalon", "Temp category_katalon");
-        app.goTo().servicesPage();
+//        app.goTo().servicesPage();
         String actual = app.service().verifyTempService("Temp services_katalon");
         String expected = "Temp services_katalon";
         Assert.assertEquals(actual, expected);

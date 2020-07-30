@@ -69,7 +69,7 @@ public class ApplicationManager {
             prefs.put("profile.default_content_setting_values.notifications", 3);
             chromeOptions.setExperimentalOption("prefs", prefs);
 
-            driver = new ChromeDriver(chromeOptions);
+            driver = new ChromeDriver();
         } else if (browser.equals("Firefox")) {
             System.setProperty("webdriver.gecko.driver", "C:\\automation\\browser drivers\\firefox\\geckodriver.exe");
             driver = new FirefoxDriver();
@@ -82,7 +82,7 @@ public class ApplicationManager {
             capabilities.setCapability("timeZone", "Asia/Jerusalem");
 
             Map<String, String> mobileEmulation = new HashMap<>();
-            mobileEmulation.put("deviceName", "iPhone X");
+//            mobileEmulation.put("deviceName", "iPhone X");
             ChromeOptions chromeOptions = new ChromeOptions();
 
             chromeOptions.addArguments("--disable-gpu");
@@ -91,7 +91,7 @@ public class ApplicationManager {
             chromeOptions.addArguments("--disable-dev-shm-usage");
             chromeOptions.setExperimentalOption("useAutomationExtension", false);
 
-            chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
+//            chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
             chromeOptions.addArguments(("--auto-open-devtools-for-tabs"));
             chromeOptions.addArguments("--ignore-certificate-errors");
 

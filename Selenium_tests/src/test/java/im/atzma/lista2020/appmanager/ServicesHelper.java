@@ -108,8 +108,10 @@ public class ServicesHelper extends HelperBase {
 
     @FindBy(css = ".enabled")
     WebElement btn_saveService_enabled;
+    @FindBy(css = ".duration__plus-icon1")
+    WebElement btn_duration_plus;
 
-    @FindBy(xpath = "//button[@class='bottom disabled']")
+    @FindBy(xpath = "//button[@class='.disabled']")
     WebElement btn_saveService_disabled;
 
     @FindBy(xpath = "//input[@placeholder='הזינו שם של טיפול']")
@@ -283,32 +285,23 @@ public class ServicesHelper extends HelperBase {
 
     public void fillServiceFrom(String serviceName, String categoryName) throws InterruptedException {
         click(btn_addService);
-        fillText(input_serviceName, serviceName);
         click(btn_addCategory);
         fillText(input_categoryName, categoryName);
         click(btn_saveCategory);
-        waitForElement(btn_saveService_enabled);
-        driver.findElement(By.cssSelector(".enabled")).click();
-//        System.out.println(btn_saveService_enabled.getAttribute("background-color"));
-//        if(isElementVisible( driver.findElement(By.cssSelector(".enabled")))) {
-//        }
+        fillText(input_serviceName, serviceName);
 
-
-
-
-//        driver.findElement(By.cssSelector(".more_wrap")).click();
-
-    }
-
-    public void saveServiceFrom() throws InterruptedException {
+        for (int i = 0; i < 2; i++) {
+            click(btn_duration_plus);
+        }
         click(btn_saveService_enabled);
 
-
     }
+
+
 
     public String verifyTempService(String tempServiceName) throws InterruptedException {
         fillText(inputBox_placeholder, tempServiceName);
-        highlight( btn_procedures_item__add);
+        highlight(btn_procedures_item__add);
         return btn_procedures_item__add.getText();
     }
 
@@ -380,15 +373,15 @@ public class ServicesHelper extends HelperBase {
 
     public void deleteTempService() throws InterruptedException {
 
-            for (int i = 0; i < temp_service_inList.size(); i++) {
+        for (int i = 0; i < temp_service_inList.size(); i++) {
 
-                click(temp_service_inList.get(i));
+            click(temp_service_inList.get(i));
 
-                click(btn_delete_service);
+            click(btn_delete_service);
 
-                click(btn_comfirm_service_deletion);
+            click(btn_comfirm_service_deletion);
 
-            }
+        }
 
 //        driver.navigate().refresh();
 

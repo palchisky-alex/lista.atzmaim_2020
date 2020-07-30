@@ -22,8 +22,8 @@ public class SingupPage extends HelperBase {
     public String getURL(String url) throws IOException, InterruptedException { return propertiesList(url); }
 
     public void pressOnLoginButton() {
-//        click(driver.findElement(By.cssSelector(".login-btn")));  // FOR DESKTOP
-        click(driver.findElement(By.cssSelector(".header_login_link")));   //FOR SELL
+        click(driver.findElement(By.cssSelector(".login-btn")));  // FOR DESKTOP
+//        click(driver.findElement(By.cssSelector(".header_login_link")));   //FOR SELL
     }
 
     public void pressOnSingupButton() {
