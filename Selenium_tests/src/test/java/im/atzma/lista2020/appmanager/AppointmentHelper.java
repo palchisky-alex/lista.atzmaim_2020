@@ -252,6 +252,7 @@ public class AppointmentHelper extends HelperBase {
 
         if (isElementPresent2(driver.findElements(By.cssSelector(".fc-nonbusiness")))) {
             clickJS(driver.findElement(By.cssSelector(".fc-nonbusiness")));
+            Thread.sleep(500);
         } else System.out.println("nonbusiness day not present");
 
         driver.findElement(By.xpath("//tr[5]/td[1]")).click(); // click on empty slot hour
