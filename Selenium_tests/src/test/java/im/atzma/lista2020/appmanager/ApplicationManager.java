@@ -48,8 +48,13 @@ public class ApplicationManager {
     }
 
     public void init() throws InterruptedException, IOException {
-        Date local_time = new GregorianCalendar().getTime();
+        GregorianCalendar cal = (GregorianCalendar) GregorianCalendar.getInstance();
+        cal.setTimeZone(TimeZone.getTimeZone("IST"));
+
+        Date local_time = cal.getTime();
         String time = local_time.toString();
+        System.out.println("TIME: " + time);
+
         properties = new Properties();
 
         String target = System.getProperty("target", "local");
