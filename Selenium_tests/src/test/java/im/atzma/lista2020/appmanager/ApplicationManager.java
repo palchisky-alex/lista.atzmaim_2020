@@ -48,12 +48,9 @@ public class ApplicationManager {
     }
 
     public void init() throws InterruptedException, IOException {
-        GregorianCalendar cal = new GregorianCalendar(TimeZone.getTimeZone("GMT+3"));
-
-       
-        String time = cal.toString();
-        System.out.println(cal.getTimeZone());
-        System.out.println("TIME: " + time);
+        ZoneId zid = ZoneId.of("Asia/Jerusalem");
+        LocalDate local_time = LocalDate.now(zid);
+        String time = local_time.toString();
 
         properties = new Properties();
 
