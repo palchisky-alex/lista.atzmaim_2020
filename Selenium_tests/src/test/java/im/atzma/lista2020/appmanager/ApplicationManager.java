@@ -49,7 +49,7 @@ public class ApplicationManager {
 
     public void init() throws InterruptedException, IOException {
         GregorianCalendar cal = (GregorianCalendar) GregorianCalendar.getInstance();
-        cal.setTimeZone(TimeZone.getTimeZone("IST"));
+        cal.setTimeZone(TimeZone.getTimeZone("UTC + 3"));
 
         Date local_time = cal.getTime();
         String time = local_time.toString();
