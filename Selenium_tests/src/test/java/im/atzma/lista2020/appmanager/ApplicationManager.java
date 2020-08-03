@@ -16,9 +16,9 @@ import java.io.IOException;
 import java.net.URI;
 import java.security.Timestamp;
 import java.text.SimpleDateFormat;
-import java.time.LocalDate;
-import java.time.LocalTime;
-import java.time.ZoneId;
+import java.time.*;
+import java.time.chrono.ChronoLocalDateTime;
+import java.time.chrono.IsoChronology;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
@@ -48,12 +48,10 @@ public class ApplicationManager {
     }
 
     public void init() throws InterruptedException, IOException {
-        ZoneId zoneId = ZoneId.of("Asia/Jerusalem");
-        LocalTime localTime = LocalTime.now(zoneId);
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/yyyy 'at' hh:mm a z");
-        String time = localTime.format(formatter);
-
-
+        Clock clock = Clock.system(ZoneId.of("Asia/Jerusalem"));
+        ZonedDateTime zdt = ZonedDateTime.now(clock);
+        ChronoLocalDateTime dt1 = IsoChronology.INSTANCE.localDateTime(zdt);
+        System.out.println(dt1);
         properties = new Properties();
 
         String target = System.getProperty("target", "local");
@@ -93,7 +91,7 @@ public class ApplicationManager {
             capabilities.setCapability("enableVNC", true);
             capabilities.setCapability("enableVideo", true);
             capabilities.setCapability("timeZone", "Asia/Jerusalem");
-            capabilities.setCapability("videoName", time);
+            capabilities.setCapability("videoName", "time");
 
             Map<String, String> mobileEmulation = new HashMap<>();
 //            mobileEmulation.put("deviceName", "iPhone X");
