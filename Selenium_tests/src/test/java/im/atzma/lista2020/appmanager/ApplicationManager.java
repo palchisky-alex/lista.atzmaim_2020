@@ -51,7 +51,7 @@ public class ApplicationManager {
         Clock clock = Clock.system(ZoneId.of("Asia/Jerusalem"));
         ZonedDateTime zdt = ZonedDateTime.now(clock);
         ChronoLocalDateTime dt1 = IsoChronology.INSTANCE.localDateTime(zdt);
-        System.out.println(dt1);
+        String time = dt1.toString();
         properties = new Properties();
 
         String target = System.getProperty("target", "local");
@@ -91,7 +91,7 @@ public class ApplicationManager {
             capabilities.setCapability("enableVNC", true);
             capabilities.setCapability("enableVideo", true);
             capabilities.setCapability("timeZone", "Asia/Jerusalem");
-            capabilities.setCapability("videoName", "time");
+            capabilities.setCapability("videoName", time);
 
             Map<String, String> mobileEmulation = new HashMap<>();
 //            mobileEmulation.put("deviceName", "iPhone X");
