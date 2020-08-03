@@ -50,9 +50,9 @@ public class ApplicationManager {
     public void init() throws InterruptedException, IOException {
         ZoneId zoneId = ZoneId.of("Asia/Jerusalem");
         LocalTime localTime = LocalTime.now(zoneId);
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss");
-        String time = localTime.format(formatter) + localTime;
-       
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/yyyy 'at' hh:mm a z");
+        String time = localTime.format(formatter);
+
 
         properties = new Properties();
 
