@@ -2,6 +2,7 @@ package im.atzma.lista2020.tests;
 
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import java.util.ArrayList;
@@ -67,7 +68,7 @@ public class SingupTest extends TestBase {
     public void testCalendarPage() throws Exception {
         String myURL = app.singupPage().getURL("web.calendarURL");
         app.singupPage().pressOnNextButton();
-        Assert.assertEquals(app.singupPage().getCurrentURL(myURL), myURL);
+        Assert.assertTrue(app.singupPage().verifyButton());
     }
 
     @Test(priority = 9)

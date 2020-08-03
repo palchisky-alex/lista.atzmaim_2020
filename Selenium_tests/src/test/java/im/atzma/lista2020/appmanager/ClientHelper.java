@@ -2,6 +2,7 @@ package im.atzma.lista2020.appmanager;
 
 import im.atzma.lista2020.model.ClientData;
 import im.atzma.lista2020.model.ModifyClientData;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -181,13 +182,6 @@ public class ClientHelper extends HelperBase {
         fillText(text_telephon, clientData.getTelNumber());
 
         click(text_email);
-//        try {
-//            if (message_same_number.isDisplayed()) {
-//                click(message_same_number);
-//            }
-//        } catch (Exception e) {
-//            e.printStackTrace();
-//        }
         fillText(text_email, clientData.getEmail());
         fillText(text_address, clientData.getAddress());
 
@@ -205,6 +199,7 @@ public class ClientHelper extends HelperBase {
         click(btn_saveDebtNote);
 
         click(btn_saveClientForm);
+        waitForElement(driver.findElement(By.xpath("//img[@src='/public/clients-details/media/whatsapp.svg']")));
 
     }
 

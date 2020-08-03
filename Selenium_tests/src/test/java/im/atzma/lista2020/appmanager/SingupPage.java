@@ -47,5 +47,14 @@ public class SingupPage extends HelperBase {
         fillText(driver.findElement(By.name("email")), random_for_mail);
         fillText(driver.findElement(By.name("new-password")), "qwer");
         click(driver.findElement(By.cssSelector(".login-button")));
+
+    }
+    public boolean verifyButton() {
+        if(isElementVisible(driver.findElement(By.cssSelector(".more_wrap")))) {
+            return true;
+        }
+        else
+            return false;
+
     }
 }

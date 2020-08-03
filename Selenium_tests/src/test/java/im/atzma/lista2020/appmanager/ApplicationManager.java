@@ -7,14 +7,20 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
 
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.net.URI;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Properties;
+import java.security.Timestamp;
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
+import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 import static org.testng.Assert.fail;
@@ -39,10 +45,13 @@ public class ApplicationManager {
 
     public ApplicationManager() {
 
-        properties = new Properties();
     }
 
     public void init() throws InterruptedException, IOException {
+        Date local_time = new GregorianCalendar().getTime();
+        String time = local_time.toString();
+        properties = new Properties();
+
         String target = System.getProperty("target", "local");
         properties.load(new FileReader(new File(String.format("src/test/resources/%s.properties", target))));
         browser = properties.getProperty("web.browser");
@@ -80,6 +89,7 @@ public class ApplicationManager {
             capabilities.setCapability("enableVNC", true);
             capabilities.setCapability("enableVideo", true);
             capabilities.setCapability("timeZone", "Asia/Jerusalem");
+            capabilities.setCapability("videoName", time);
 
             Map<String, String> mobileEmulation = new HashMap<>();
 //            mobileEmulation.put("deviceName", "iPhone X");
@@ -95,6 +105,7 @@ public class ApplicationManager {
             chromeOptions.addArguments(("--auto-open-devtools-for-tabs"));
             chromeOptions.addArguments("--ignore-certificate-errors");
 
+
             Map<String, Object> prefs = new HashMap<String, Object>();
             prefs.put("credentials_enable_service", false);
             prefs.put("profile.password_manager_enabled", false);
@@ -105,7 +116,6 @@ public class ApplicationManager {
             driver = new RemoteWebDriver(
                     URI.create("http://68.183.243.172:4444/wd/hub").toURL(), chromeOptions);
         }
-
 
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);

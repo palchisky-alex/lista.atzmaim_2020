@@ -11,12 +11,14 @@ import java.util.Arrays;
 
 
 public class TestBase {
-    //  Logger logger = LoggerFactory.getLogger(TestBase.class);
+//      Logger logger = LoggerFactory.getLogger(TestBase.class);
 //    protected static final ApplicationManager app = new ApplicationManager(System.getProperty("browser", "Chrome"));
+
     protected static final ApplicationManager app = new ApplicationManager();
 
 
     @BeforeSuite(alwaysRun = true)
+
     public void setUp() throws Exception {
         app.init();
 
@@ -32,11 +34,11 @@ public class TestBase {
 //        logger.info("Start test " + method.getName() + " with parrametrs " + Arrays.asList(p));
 //    }
 //
-//    @AfterMethod(alwaysRun = true)
-//
-//    public void logTestStop(Method method) {
+    @AfterMethod(alwaysRun = true)
+
+    public void logTestStop(Method method) {
 //        logger.info("Stop test " + method.getName());
-//    }
+    }
 
 }
 

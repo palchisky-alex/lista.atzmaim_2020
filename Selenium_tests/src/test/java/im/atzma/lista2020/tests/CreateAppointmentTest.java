@@ -9,7 +9,7 @@ import java.util.List;
 public class CreateAppointmentTest extends TestBase {
 
 
-    @Test(priority = 1)
+    @Test()
     public void testAppointmentCreation() throws InterruptedException, IOException {
         app.goTo().calendarPage();
         app.appointment().create("Temp Client katalon");
