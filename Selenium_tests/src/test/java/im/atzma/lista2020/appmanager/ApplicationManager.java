@@ -50,8 +50,8 @@ public class ApplicationManager {
     public void init() throws InterruptedException, IOException {
         GregorianCalendar cal = new GregorianCalendar(TimeZone.getTimeZone("GMT+3"));
 
-        Date local_time = cal.getTime();
-        String time = local_time.toString();
+       
+        String time = cal.toString();
         System.out.println(cal.getTimeZone());
         System.out.println("TIME: " + time);
 
