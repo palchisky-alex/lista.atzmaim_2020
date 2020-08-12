@@ -31,7 +31,7 @@ public class AppointmentHelper extends HelperBase {
     @FindBy(xpath = "//span[@class='all-clients__item-name']")
     WebElement tempClient;
 
-    @FindBy(xpath = "//p[@class='name-services']")
+    @FindBy(css = ".procedures-container .procedures-item")
     WebElement tempService;
 
     @FindBy(xpath = "//span[@class='procedures-item__add']")
@@ -46,7 +46,7 @@ public class AppointmentHelper extends HelperBase {
     @FindBy(xpath = "//span[text()='הבא']/..")
     WebElement btn_next;
 
-    @FindBy(xpath = "//img[@src='/public/creating-appointment/media/save-white.svg']")
+    @FindBy(css = ".bottomnav__bottom.bottomnav__bottom--next")
     WebElement btn_save;
 
     @FindBy(xpath = "//p[@class='event-start']")
@@ -59,6 +59,11 @@ public class AppointmentHelper extends HelperBase {
 
     @FindBy(xpath = "//*[@class='client-name']")
     WebElement appointmentClientName;
+
+    @FindBy(css = ".client-address")
+    WebElement appointmentAddress;
+    @FindBy(css = ".client-note.nowrap")
+    WebElement appointmentNote;
 
     @FindBy(xpath = "//*[@class='service-item']")
     WebElement appointmentServiceName;
@@ -165,14 +170,36 @@ public class AppointmentHelper extends HelperBase {
         fillNewAppointment(clientName);
     }
 
-    public void fillNewAppointment(String name) throws InterruptedException {
+    public void fillNewAppointment(String clientName) throws InterruptedException {
         waitForElement(input_findClient);
         click(input_findClient);
-        fillText(input_findClient, name);
+        fillText(input_findClient, clientName);
         waitForElement(tempClient);
         click(tempClient);
+    }
 
+    public void create_C(String clientName, String serviceName) throws InterruptedException {
+        chooseAppointmentHour();
+        fillNewAppointment(clientName);
+        chooseService(serviceName);
+        saveQueue();
+    }
 
+    private void chooseService(String serviceName) throws InterruptedException {
+        fillText(input_findClient, serviceName);
+        click(tempService);
+        click(btn_save);
+    }
+    public void addQueueNote(String my_note) throws InterruptedException {
+        clickJScript(driver.findElement(By.cssSelector("form:nth-child(1) .switch-label")));
+        fillText(driver.findElement(By.cssSelector("textarea.subject-textarea-wrap__text")), my_note);
+    }
+    public void addQueueAdress() {
+        clickJScript(driver.findElement(By.cssSelector("form.switch-form")));
+    }
+
+    private void saveQueue() {
+        click(btn_save);
     }
 
     public void addServiceCategory(String service, String notExistCategory) throws InterruptedException {
@@ -181,15 +208,16 @@ public class AppointmentHelper extends HelperBase {
         fillText(input_findService, " ");
         click(input_findService);
         fillText(input_findService, service);
+        for (int i = 0; i < 2; i++) {
+            click(driver.findElement(By.cssSelector(".duration__actions .round-button:nth-child(3)")));
+        }
         waitForElement(btn_add_Service);
-        click(btn_add_Service);
+        click(btn_save);
         waitForElement(inputBox_placeholder);
         fillText(inputBox_placeholder, notExistCategory);
         waitForElement(btn_add_newCategory);
         click(btn_add_newCategory);
-
         waitForElement(btn_add_Service);
-        System.out.println("Button text 3 : " + btn_add_Service.getText());
         click(btn_add_Service);
 
 
@@ -208,6 +236,8 @@ public class AppointmentHelper extends HelperBase {
         itemList.add(appointmentClientName.getText());
         itemList.add(appointmentServiceName.getText());
         itemList.add(appointmentDuration.getText());
+        itemList.add(appointmentAddress.getText());
+        itemList.add(appointmentNote.getText());
 
         System.out.println(itemList);
 
@@ -394,9 +424,6 @@ public class AppointmentHelper extends HelperBase {
     }
 
     public void saveForm() throws InterruptedException {
-        driver.navigate().refresh();
-        waitForElement(btn_save);
-        System.out.println("Button text 5 : " + btn_save.getText());
         click(btn_save);
     }
 
@@ -419,6 +446,7 @@ public class AppointmentHelper extends HelperBase {
 
         return error;
     }
+
 
 
 }

@@ -14,13 +14,26 @@ public class CreateAppointmentTest extends TestBase {
         app.goTo().calendarPage();
         app.appointment().create("Temp Client katalon");
         app.appointment().addServiceCategory("Temp services_katalon", "Temp category_katalon");
+        app.appointment().addQueueAdress();
+        app.appointment().addQueueNote("My note");
         app.appointment().saveForm();
 
-        String expected = "[10:00 - 10:30, Temp Client katalon, Temp services_katalon, 30 דקות]";
+        String expected = "[10:00 - 11:00, Temp Client katalon, Temp services_katalon, 1 שעה, רוקח 18, רמת גן, ישראל, My note]";
         List<String> actual = app.appointment().verifyAppointmentCreation();
         Assert.assertEquals(actual.toString(), expected, "verify appointment creation");
+    }
 
+    @Test()
+    public void testAppointmentCreation_C() throws InterruptedException, IOException {
+        app.goTo().calendarPage();
+        app.appointment().create_C("Temp Client katalon", "Temp services_katalon");
+        app.appointment().addQueueAdress();
+        app.appointment().addQueueNote("My note");
+        app.appointment().saveForm();
 
+        String expected = "[10:00 - 11:00, Temp Client katalon, Temp services_katalon, 1 שעה, רוקח 18, רמת גן, ישראל, My note]";
+        List<String> actual = app.appointment().verifyAppointmentCreation();
+        Assert.assertEquals(actual.toString(), expected, "verify appointment creation");
     }
 
 }
