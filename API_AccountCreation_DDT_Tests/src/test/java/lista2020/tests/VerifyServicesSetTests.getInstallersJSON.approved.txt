@@ -5,6 +5,7 @@ Transfer-Encoding=chunked
 Connection=keep-alive
 Vary=Accept-Encoding
 ###Set-Cookie##
+###Set-Cookie##
 ###X-Request-Id##
 Strict-Transport-Security=max-age=604800
 X-Content-Type-Options=nosniff
@@ -16,7 +17,7 @@ Content-Encoding=gzip
 [
     {
         "id": 1,
-        "name": "???? ???????",
+        "name": "שיחה טלפונית",
         "price": "0",
         "duration": 30,
         "color": "#50e3c1",
@@ -27,7 +28,7 @@ Content-Encoding=gzip
     },
     {
         "id": 2,
-        "name": "????? ?????? ",
+        "name": "פגישת היכרות ",
         "price": "0",
         "duration": 90,
         "color": "#50e3c1",
@@ -38,7 +39,7 @@ Content-Encoding=gzip
     },
     {
         "id": 3,
-        "name": "?????/????? - 45 ??'",
+        "name": "תיקון/התקנה - 45 דק'",
         "price": "0",
         "duration": 45,
         "color": "#50e3c1",
@@ -49,7 +50,7 @@ Content-Encoding=gzip
     },
     {
         "id": 4,
-        "name": "?????/????? - 60 ??'",
+        "name": "תיקון/התקנה - 60 דק'",
         "price": "0",
         "duration": 60,
         "color": "#50e3c1",
@@ -60,7 +61,7 @@ Content-Encoding=gzip
     },
     {
         "id": 5,
-        "name": "?????/????? - 90 ??'",
+        "name": "תיקון/התקנה - 90 דק'",
         "price": "0",
         "duration": 90,
         "color": "#50e3c1",
@@ -71,7 +72,7 @@ Content-Encoding=gzip
     },
     {
         "id": 6,
-        "name": "?????/????? - 120 ??'",
+        "name": "תיקון/התקנה - 120 דק'",
         "price": "0",
         "duration": 120,
         "color": "#50e3c1",

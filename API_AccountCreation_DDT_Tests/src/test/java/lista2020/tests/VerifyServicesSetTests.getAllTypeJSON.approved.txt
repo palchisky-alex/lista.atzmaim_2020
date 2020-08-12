@@ -5,6 +5,7 @@ Transfer-Encoding=chunked
 Connection=keep-alive
 Vary=Accept-Encoding
 ###Set-Cookie##
+###Set-Cookie##
 ###X-Request-Id##
 Strict-Transport-Security=max-age=604800
 X-Content-Type-Options=nosniff
@@ -16,7 +17,7 @@ Content-Encoding=gzip
 [
     {
         "id": 1,
-        "name": "?????",
+        "name": "ייעוץ",
         "price": "0",
         "duration": 60,
         "color": "#efa5fe",
@@ -27,7 +28,7 @@ Content-Encoding=gzip
     },
     {
         "id": 2,
-        "name": "????? ????? ??????",
+        "name": "פגישת אבחון ראשונה",
         "price": "0",
         "duration": 90,
         "color": "#efa5fe",
@@ -38,7 +39,7 @@ Content-Encoding=gzip
     },
     {
         "id": 3,
-        "name": "????? - 30 ??'",
+        "name": "טיפול - 30 דק'",
         "price": "0",
         "duration": 30,
         "color": "#efa5fe",
@@ -49,7 +50,7 @@ Content-Encoding=gzip
     },
     {
         "id": 4,
-        "name": "????? - 45 ??'",
+        "name": "טיפול - 45 דק'",
         "price": "0",
         "duration": 45,
         "color": "#efa5fe",
@@ -60,7 +61,7 @@ Content-Encoding=gzip
     },
     {
         "id": 5,
-        "name": "????? - 60 ??', ",
+        "name": "טיפול - 60 דק', ",
         "price": "0",
         "duration": 60,
         "color": "#efa5fe",
@@ -71,7 +72,7 @@ Content-Encoding=gzip
     },
     {
         "id": 6,
-        "name": "????? - 90 ??'",
+        "name": "טיפול - 90 דק'",
         "price": "0",
         "duration": 90,
         "color": "#efa5fe",
@@ -82,7 +83,7 @@ Content-Encoding=gzip
     },
     {
         "id": 7,
-        "name": "??????",
+        "name": "ביקורת",
         "price": "0",
         "duration": 60,
         "color": "#efa5fe",
@@ -93,7 +94,7 @@ Content-Encoding=gzip
     },
     {
         "id": 8,
-        "name": "???? ???????",
+        "name": "שיחה טלפונית",
         "price": "0",
         "duration": 30,
         "color": "#efa5fe",
@@ -104,7 +105,7 @@ Content-Encoding=gzip
     },
     {
         "id": 9,
-        "name": "????? ??????",
+        "name": "פגישת היכרות",
         "price": "0",
         "duration": 60,
         "color": "#fff581",
@@ -115,7 +116,7 @@ Content-Encoding=gzip
     },
     {
         "id": 10,
-        "name": "????? ?????/????? - 60 ??'",
+        "name": "פגישת ייעוץ/אימון - 60 דק'",
         "price": "0",
         "duration": 60,
         "color": "#fff581",
@@ -126,7 +127,7 @@ Content-Encoding=gzip
     },
     {
         "id": 11,
-        "name": "????? ?????/????? - 90 ??', ",
+        "name": "פגישת ייעוץ/אימון - 90 דק', ",
         "price": "0",
         "duration": 90,
         "color": "#fff581",
@@ -137,7 +138,7 @@ Content-Encoding=gzip
     },
     {
         "id": 12,
-        "name": "????? ?????/????? - 120 ??', ",
+        "name": "פגישת ייעוץ/אימון - 120 דק', ",
         "price": "0",
         "duration": 120,
         "color": "#fff581",
@@ -148,7 +149,7 @@ Content-Encoding=gzip
     },
     {
         "id": 13,
-        "name": "?????/????? ??????",
+        "name": "ייעוץ/אימון טלפוני",
         "price": "0",
         "duration": 60,
         "color": "#fff581",
@@ -159,7 +160,7 @@ Content-Encoding=gzip
     },
     {
         "id": 14,
-        "name": "????? ????",
+        "name": "טיפול פנים",
         "price": "350",
         "duration": 60,
         "color": "#50e3c1",
@@ -170,7 +171,7 @@ Content-Encoding=gzip
     },
     {
         "id": 15,
-        "name": "????? ????/????",
+        "name": "טיפול יופי/זוהר",
         "price": "250",
         "duration": 45,
         "color": "#50e3c1",
@@ -181,7 +182,7 @@ Content-Encoding=gzip
     },
     {
         "id": 16,
-        "name": "????? ????????",
+        "name": "טיפול מזוטרפיה",
         "price": "400",
         "duration": 90,
         "color": "#50e3c1",
@@ -192,7 +193,7 @@ Content-Encoding=gzip
     },
     {
         "id": 17,
-        "name": "????? ????? ????",
+        "name": "טיפול החדרת לחות",
         "price": "200",
         "duration": 60,
         "color": "#50e3c1",
@@ -203,7 +204,7 @@ Content-Encoding=gzip
     },
     {
         "id": 18,
-        "name": "????? ?????????",
+        "name": "טיפול פיגמנטציה",
         "price": "300",
         "duration": 75,
         "color": "#50e3c1",
@@ -214,7 +215,7 @@ Content-Encoding=gzip
     },
     {
         "id": 19,
-        "name": "????? ????",
+        "name": "טיפול אקנה",
         "price": "250",
         "duration": 90,
         "color": "#50e3c1",
@@ -225,7 +226,7 @@ Content-Encoding=gzip
     },
     {
         "id": 20,
-        "name": "????? ????????'??? / ?????",
+        "name": "טיפול אנטיאייג'ינג / מיצוק",
         "price": "300",
         "duration": 60,
         "color": "#50e3c1",
@@ -236,7 +237,7 @@ Content-Encoding=gzip
     },
     {
         "id": 21,
-        "name": "??????",
+        "name": "פילינג",
         "price": "400",
         "duration": 75,
         "color": "#50e3c1",
@@ -247,7 +248,7 @@ Content-Encoding=gzip
     },
     {
         "id": 22,
-        "name": "?? ?'?",
+        "name": "לק ג'ל",
         "price": "120",
         "duration": 45,
         "color": "#efefff",
@@ -258,7 +259,7 @@ Content-Encoding=gzip
     },
     {
         "id": 23,
-        "name": "?? ?'?",
+        "name": "לק ג'ל",
         "price": "120",
         "duration": 45,
         "color": "#efefff",
@@ -269,7 +270,7 @@ Content-Encoding=gzip
     },
     {
         "id": 24,
-        "name": "?? ?'? ???????",
+        "name": "לק ג'ל ברגליים",
         "price": "150",
         "duration": 30,
         "color": "#efefff",
@@ -280,7 +281,7 @@ Content-Encoding=gzip
     },
     {
         "id": 25,
-        "name": "?? ?'? ???????",
+        "name": "לק ג'ל ברגליים",
         "price": "150",
         "duration": 30,
         "color": "#efefff",
@@ -291,7 +292,7 @@ Content-Encoding=gzip
     },
     {
         "id": 26,
-        "name": "?????? ??????",
+        "name": "מניקור אקספרס",
         "price": "45",
         "duration": 15,
         "color": "#efefff",
@@ -302,7 +303,7 @@ Content-Encoding=gzip
     },
     {
         "id": 27,
-        "name": "?????? ??????",
+        "name": "מניקור אקספרס",
         "price": "45",
         "duration": 15,
         "color": "#efefff",
@@ -313,7 +314,7 @@ Content-Encoding=gzip
     },
     {
         "id": 28,
-        "name": "??????",
+        "name": "מניקור",
         "price": "70",
         "duration": 30,
         "color": "#efefff",
@@ -324,7 +325,7 @@ Content-Encoding=gzip
     },
     {
         "id": 29,
-        "name": "??????",
+        "name": "מניקור",
         "price": "70",
         "duration": 30,
         "color": "#efefff",
@@ -335,7 +336,7 @@ Content-Encoding=gzip
     },
     {
         "id": 30,
-        "name": "?????? ??????",
+        "name": "פדיקור אקספרס",
         "price": "55",
         "duration": 15,
         "color": "#efefff",
@@ -346,7 +347,7 @@ Content-Encoding=gzip
     },
     {
         "id": 31,
-        "name": "?????? ??????",
+        "name": "פדיקור אקספרס",
         "price": "55",
         "duration": 15,
         "color": "#efefff",
@@ -357,7 +358,7 @@ Content-Encoding=gzip
     },
     {
         "id": 32,
-        "name": "??????",
+        "name": "פדיקור",
         "price": "140",
         "duration": 45,
         "color": "#efefff",
@@ -368,7 +369,7 @@ Content-Encoding=gzip
     },
     {
         "id": 33,
-        "name": "??????",
+        "name": "פדיקור",
         "price": "140",
         "duration": 45,
         "color": "#efefff",
@@ -379,7 +380,7 @@ Content-Encoding=gzip
     },
     {
         "id": 34,
-        "name": "?????? ?????",
+        "name": "פדיקור רפואי",
         "price": "155",
         "duration": 45,
         "color": "#efefff",
@@ -390,7 +391,7 @@ Content-Encoding=gzip
     },
     {
         "id": 35,
-        "name": "?????? ?????",
+        "name": "פדיקור רפואי",
         "price": "155",
         "duration": 45,
         "color": "#efefff",
@@ -401,7 +402,7 @@ Content-Encoding=gzip
     },
     {
         "id": 36,
-        "name": "????? + ?? ?'?",
+        "name": "בנייה + לק ג'ל",
         "price": "240",
         "duration": 60,
         "color": "#759bfa",
@@ -412,7 +413,7 @@ Content-Encoding=gzip
     },
     {
         "id": 37,
-        "name": "????? + ?? ?'?",
+        "name": "בנייה + לק ג'ל",
         "price": "240",
         "duration": 60,
         "color": "#759bfa",
@@ -423,7 +424,7 @@ Content-Encoding=gzip
     },
     {
         "id": 38,
-        "name": "????? + ?? ?'?",
+        "name": "מילוי + לק ג'ל",
         "price": "130",
         "duration": 60,
         "color": "#759bfa",
@@ -434,7 +435,7 @@ Content-Encoding=gzip
     },
     {
         "id": 39,
-        "name": "????? + ?? ?'?",
+        "name": "מילוי + לק ג'ל",
         "price": "130",
         "duration": 60,
         "color": "#759bfa",
@@ -445,7 +446,7 @@ Content-Encoding=gzip
     },
     {
         "id": 40,
-        "name": "????? ?????????",
+        "name": "בניית ציפורניים",
         "price": "300",
         "duration": 60,
         "color": "#759bfa",
@@ -456,7 +457,7 @@ Content-Encoding=gzip
     },
     {
         "id": 41,
-        "name": "????? ?????????",
+        "name": "בניית ציפורניים",
         "price": "300",
         "duration": 60,
         "color": "#759bfa",
@@ -467,7 +468,7 @@ Content-Encoding=gzip
     },
     {
         "id": 42,
-        "name": "????? ??'?",
+        "name": "בנייה בג'ל",
         "price": "220",
         "duration": 60,
         "color": "#759bfa",
@@ -478,7 +479,7 @@ Content-Encoding=gzip
     },
     {
         "id": 43,
-        "name": "????? ??'?",
+        "name": "בנייה בג'ל",
         "price": "220",
         "duration": 60,
         "color": "#759bfa",
@@ -489,7 +490,7 @@ Content-Encoding=gzip
     },
     {
         "id": 44,
-        "name": "????? ??????",
+        "name": "תיקון ציפורן",
         "price": "0",
         "duration": 15,
         "color": "#759bfa",
@@ -500,7 +501,7 @@ Content-Encoding=gzip
     },
     {
         "id": 45,
-        "name": "????? ??????",
+        "name": "תיקון ציפורן",
         "price": "0",
         "duration": 15,
         "color": "#759bfa",
@@ -511,7 +512,7 @@ Content-Encoding=gzip
     },
     {
         "id": 46,
-        "name": "????? ????",
+        "name": "מילוי רגיל",
         "price": "110",
         "duration": 60,
         "color": "#759bfa",
@@ -522,7 +523,7 @@ Content-Encoding=gzip
     },
     {
         "id": 47,
-        "name": "????? ????",
+        "name": "מילוי רגיל",
         "price": "110",
         "duration": 60,
         "color": "#759bfa",
@@ -533,7 +534,7 @@ Content-Encoding=gzip
     },
     {
         "id": 48,
-        "name": "???? ?????/?? ?'?",
+        "name": "הסרת בנייה/לק ג'ל",
         "price": "50",
         "duration": 30,
         "color": "#759bfa",
@@ -544,7 +545,7 @@ Content-Encoding=gzip
     },
     {
         "id": 49,
-        "name": "???? ?????/?? ?'?",
+        "name": "הסרת בנייה/לק ג'ל",
         "price": "50",
         "duration": 30,
         "color": "#759bfa",
@@ -555,7 +556,7 @@ Content-Encoding=gzip
     },
     {
         "id": 50,
-        "name": "????? ?????????",
+        "name": "הדבקת ציפורניים",
         "price": "0",
         "duration": 30,
         "color": "#759bfa",
@@ -566,7 +567,7 @@ Content-Encoding=gzip
     },
     {
         "id": 51,
-        "name": "????? ?????????",
+        "name": "הדבקת ציפורניים",
         "price": "0",
         "duration": 30,
         "color": "#759bfa",
@@ -577,7 +578,7 @@ Content-Encoding=gzip
     },
     {
         "id": 52,
-        "name": "????? ????",
+        "name": "סידור גבות",
         "price": "30",
         "duration": 15,
         "color": "#b8e986",
@@ -588,7 +589,7 @@ Content-Encoding=gzip
     },
     {
         "id": 53,
-        "name": "????? ????",
+        "name": "סידור גבות",
         "price": "30",
         "duration": 15,
         "color": "#b8e986",
@@ -599,7 +600,7 @@ Content-Encoding=gzip
     },
     {
         "id": 54,
-        "name": "???",
+        "name": "שפם",
         "price": "30",
         "duration": 15,
         "color": "#b8e986",
@@ -610,7 +611,7 @@ Content-Encoding=gzip
     },
     {
         "id": 55,
-        "name": "???",
+        "name": "שפם",
         "price": "30",
         "duration": 15,
         "color": "#b8e986",
@@ -621,7 +622,7 @@ Content-Encoding=gzip
     },
     {
         "id": 56,
-        "name": "??? + ????",
+        "name": "שפם + גבות",
         "price": "50",
         "duration": 30,
         "color": "#b8e986",
@@ -632,7 +633,7 @@ Content-Encoding=gzip
     },
     {
         "id": 57,
-        "name": "??? + ????",
+        "name": "שפם + גבות",
         "price": "50",
         "duration": 30,
         "color": "#b8e986",
@@ -643,7 +644,7 @@ Content-Encoding=gzip
     },
     {
         "id": 58,
-        "name": "???? ?????",
+        "name": "יעוץ לייזר",
         "price": "0",
         "duration": 30,
         "color": "#3fb6dc",
@@ -654,7 +655,7 @@ Content-Encoding=gzip
     },
     {
         "id": 59,
-        "name": "????? ?????",
+        "name": "לייזר ידיים",
         "price": "0",
         "duration": 30,
         "color": "#3fb6dc",
@@ -665,7 +666,7 @@ Content-Encoding=gzip
     },
     {
         "id": 60,
-        "name": "????? ??????",
+        "name": "לייזר רגליים",
         "price": "0",
         "duration": 45,
         "color": "#3fb6dc",
@@ -676,7 +677,7 @@ Content-Encoding=gzip
     },
     {
         "id": 61,
-        "name": "????? ?????+???",
+        "name": "לייזר בקיני+שחי",
         "price": "0",
         "duration": 30,
         "color": "#3fb6dc",
@@ -687,7 +688,7 @@ Content-Encoding=gzip
     },
     {
         "id": 62,
-        "name": "????? ?????",
+        "name": "לייזר בקיני",
         "price": "0",
         "duration": 30,
         "color": "#3fb6dc",
@@ -698,7 +699,7 @@ Content-Encoding=gzip
     },
     {
         "id": 63,
-        "name": "????? ???",
+        "name": "לייזר שחי",
         "price": "0",
         "duration": 15,
         "color": "#3fb6dc",
@@ -709,7 +710,7 @@ Content-Encoding=gzip
     },
     {
         "id": 64,
-        "name": "????? ?.??? ??????",
+        "name": "לייזר ח.רגל עליונה",
         "price": "0",
         "duration": 30,
         "color": "#3fb6dc",
@@ -720,7 +721,7 @@ Content-Encoding=gzip
     },
     {
         "id": 65,
-        "name": "????? ?.??? ??????",
+        "name": "לייזר ח.רגל תחתונה",
         "price": "0",
         "duration": 30,
         "color": "#3fb6dc",
@@ -731,7 +732,7 @@ Content-Encoding=gzip
     },
     {
         "id": 66,
-        "name": "????? ????",
+        "name": "לייזר ישבן",
         "price": "0",
         "duration": 30,
         "color": "#3fb6dc",
@@ -742,7 +743,7 @@ Content-Encoding=gzip
     },
     {
         "id": 67,
-        "name": "????? ??",
+        "name": "לייזר גב",
         "price": "0",
         "duration": 30,
         "color": "#3fb6dc",
@@ -753,7 +754,7 @@ Content-Encoding=gzip
     },
     {
         "id": 68,
-        "name": "????? ???",
+        "name": "לייזר בטן",
         "price": "0",
         "duration": 30,
         "color": "#3fb6dc",
@@ -764,7 +765,7 @@ Content-Encoding=gzip
     },
     {
         "id": 69,
-        "name": "????? ???+???",
+        "name": "לייזר חזה+בטן",
         "price": "0",
         "duration": 45,
         "color": "#3fb6dc",
@@ -775,7 +776,7 @@ Content-Encoding=gzip
     },
     {
         "id": 70,
-        "name": "????? ????",
+        "name": "לייזר עורף",
         "price": "0",
         "duration": 15,
         "color": "#3fb6dc",
@@ -786,7 +787,7 @@ Content-Encoding=gzip
     },
     {
         "id": 71,
-        "name": "????? ????",
+        "name": "לייזר פנים",
         "price": "0",
         "duration": 15,
         "color": "#3fb6dc",
@@ -797,7 +798,7 @@ Content-Encoding=gzip
     },
     {
         "id": 72,
-        "name": "????? ???+????",
+        "name": "לייזר שפם+סנטר",
         "price": "0",
         "duration": 15,
         "color": "#3fb6dc",
@@ -808,7 +809,7 @@ Content-Encoding=gzip
     },
     {
         "id": 73,
-        "name": "????? ???",
+        "name": "לייזר שפם",
         "price": "0",
         "duration": 15,
         "color": "#3fb6dc",
@@ -819,7 +820,7 @@ Content-Encoding=gzip
     },
     {
         "id": 74,
-        "name": "????? ????? ???",
+        "name": "לייזר לחיים גבר",
         "price": "0",
         "duration": 15,
         "color": "#3fb6dc",
@@ -830,7 +831,7 @@ Content-Encoding=gzip
     },
     {
         "id": 75,
-        "name": "????? ???",
+        "name": "לייזר חזה",
         "price": "0",
         "duration": 30,
         "color": "#3fb6dc",
@@ -841,7 +842,7 @@ Content-Encoding=gzip
     },
     {
         "id": 76,
-        "name": "????? ?? ???",
+        "name": "לייזר פס בטן",
         "price": "0",
         "duration": 15,
         "color": "#3fb6dc",
@@ -852,7 +853,7 @@ Content-Encoding=gzip
     },
     {
         "id": 77,
-        "name": "????? - ????",
+        "name": "שעווה - פנים",
         "price": "50",
         "duration": 15,
         "color": "#deceff",
@@ -863,7 +864,7 @@ Content-Encoding=gzip
     },
     {
         "id": 78,
-        "name": "????? - ???",
+        "name": "שעווה - שחי",
         "price": "30",
         "duration": 15,
         "color": "#deceff",
@@ -874,7 +875,7 @@ Content-Encoding=gzip
     },
     {
         "id": 79,
-        "name": "????? - ??????",
+        "name": "שעווה - ביקיני",
         "price": "40",
         "duration": 15,
         "color": "#deceff",
@@ -885,7 +886,7 @@ Content-Encoding=gzip
     },
     {
         "id": 80,
-        "name": "????? - ??????",
+        "name": "שעווה - מפשעות",
         "price": "60",
         "duration": 15,
         "color": "#deceff",
@@ -896,7 +897,7 @@ Content-Encoding=gzip
     },
     {
         "id": 81,
-        "name": "????? - ????",
+        "name": "שעווה - פאות",
         "price": "80",
         "duration": 15,
         "color": "#deceff",
@@ -907,7 +908,7 @@ Content-Encoding=gzip
     },
     {
         "id": 82,
-        "name": "????? - ??????",
+        "name": "שעווה - רגליים",
         "price": "120",
         "duration": 30,
         "color": "#deceff",
@@ -918,7 +919,7 @@ Content-Encoding=gzip
     },
     {
         "id": 83,
-        "name": "????? - ??? ???",
+        "name": "שעווה - חצי רגל",
         "price": "80",
         "duration": 30,
         "color": "#deceff",
@@ -929,7 +930,7 @@ Content-Encoding=gzip
     },
     {
         "id": 84,
-        "name": "????? - ?????? + ?????",
+        "name": "שעווה - רגליים + בקיני",
         "price": "150",
         "duration": 30,
         "color": "#deceff",
@@ -940,7 +941,7 @@ Content-Encoding=gzip
     },
     {
         "id": 85,
-        "name": "????? - ?????",
+        "name": "שעווה - ידיים",
         "price": "80",
         "duration": 15,
         "color": "#deceff",
@@ -951,7 +952,7 @@ Content-Encoding=gzip
     },
     {
         "id": 86,
-        "name": "????? ??? - ??",
+        "name": "שעווה גבר - גב",
         "price": "120",
         "duration": 30,
         "color": "#deceff",
@@ -962,7 +963,7 @@ Content-Encoding=gzip
     },
     {
         "id": 87,
-        "name": "????? ??? - ???",
+        "name": "שעווה גבר - חזה",
         "price": "80",
         "duration": 30,
         "color": "#deceff",
@@ -973,7 +974,7 @@ Content-Encoding=gzip
     },
     {
         "id": 88,
-        "name": "????? ??? - ??????",
+        "name": "שעווה גבר - כתפיים",
         "price": "50",
         "duration": 15,
         "color": "#deceff",
@@ -984,7 +985,7 @@ Content-Encoding=gzip
     },
     {
         "id": 89,
-        "name": "????? ??? - ????",
+        "name": "שעווה גבר - עורף",
         "price": "30",
         "duration": 15,
         "color": "#deceff",
@@ -995,7 +996,7 @@ Content-Encoding=gzip
     },
     {
         "id": 90,
-        "name": "????? - ???",
+        "name": "שעווה - בטן",
         "price": "50",
         "duration": 15,
         "color": "#deceff",
@@ -1006,7 +1007,7 @@ Content-Encoding=gzip
     },
     {
         "id": 91,
-        "name": "????? ??? - ???",
+        "name": "שעווה גבר - בטן",
         "price": "70",
         "duration": 15,
         "color": "#deceff",
@@ -1017,7 +1018,7 @@ Content-Encoding=gzip
     },
     {
         "id": 92,
-        "name": "????? - ??? ??",
+        "name": "שעווה - חצי יד",
         "price": "40",
         "duration": 15,
         "color": "#deceff",
@@ -1028,7 +1029,7 @@ Content-Encoding=gzip
     },
     {
         "id": 93,
-        "name": "????? ????- ???????? ?????",
+        "name": "איפור קבוע- אייליינר עליון",
         "price": "0",
         "duration": 120,
         "color": "#ff98ad",
@@ -1039,7 +1040,7 @@ Content-Encoding=gzip
     },
     {
         "id": 94,
-        "name": "????? ???? - ???????? ?????",
+        "name": "איפור קבוע - אייליינר תחתון",
         "price": "0",
         "duration": 120,
         "color": "#ff98ad",
@@ -1050,7 +1051,7 @@ Content-Encoding=gzip
     },
     {
         "id": 95,
-        "name": "????? ???? - ??????",
+        "name": "איפור קבוע - שפתיים",
         "price": "0",
         "duration": 120,
         "color": "#ff98ad",
@@ -1061,7 +1062,7 @@ Content-Encoding=gzip
     },
     {
         "id": 96,
-        "name": "????? ????? ????",
+        "name": "חידוש איפור קבוע",
         "price": "0",
         "duration": 60,
         "color": "#ff98ad",
@@ -1072,7 +1073,7 @@ Content-Encoding=gzip
     },
     {
         "id": 97,
-        "name": "????? ???",
+        "name": "איפור ערב",
         "price": "300",
         "duration": 45,
         "color": "#ff98ad",
@@ -1083,7 +1084,7 @@ Content-Encoding=gzip
     },
     {
         "id": 98,
-        "name": "????? ???",
+        "name": "איפור כלה",
         "price": "950",
         "duration": 90,
         "color": "#ff98ad",
@@ -1094,7 +1095,7 @@ Content-Encoding=gzip
     },
     {
         "id": 99,
-        "name": "????? ???? ????",
+        "name": "איפור קבוע גבות",
         "price": "0",
         "duration": 120,
         "color": "#ff98ad",
@@ -1105,7 +1106,7 @@ Content-Encoding=gzip
     },
     {
         "id": 100,
-        "name": "?????? ???",
+        "name": "תספורת גבר",
         "price": "50",
         "duration": 15,
         "color": "#50e3c1",
@@ -1116,7 +1117,7 @@ Content-Encoding=gzip
     },
     {
         "id": 101,
-        "name": "?????? ???",
+        "name": "תספורת ילד",
         "price": "50",
         "duration": 15,
         "color": "#a44bc2",
@@ -1127,7 +1128,7 @@ Content-Encoding=gzip
     },
     {
         "id": 102,
-        "name": "?????? ????",
+        "name": "תספורת אישה",
         "price": "150",
         "duration": 30,
         "color": "#a44bc2",
@@ -1138,7 +1139,7 @@ Content-Encoding=gzip
     },
     {
         "id": 103,
-        "name": "?? ???",
+        "name": "פן קצר",
         "price": "80",
         "duration": 30,
         "color": "#a44bc2",
@@ -1149,7 +1150,7 @@ Content-Encoding=gzip
     },
     {
         "id": 104,
-        "name": "?? ????",
+        "name": "פן ארוך",
         "price": "100",
         "duration": 45,
         "color": "#a44bc2",
@@ -1160,7 +1161,7 @@ Content-Encoding=gzip
     },
     {
         "id": 105,
-        "name": "?? ????",
+        "name": "פן כלול",
         "price": "0",
         "duration": 15,
         "color": "#a44bc2",
@@ -1171,7 +1172,7 @@ Content-Encoding=gzip
     },
     {
         "id": 106,
-        "name": "?? ????????",
+        "name": "פן בייביליס",
         "price": "120",
         "duration": 30,
         "color": "#a44bc2",
@@ -1182,7 +1183,7 @@ Content-Encoding=gzip
     },
     {
         "id": 107,
-        "name": "?????? ???",
+        "name": "תסרוקת ערב",
         "price": "250",
         "duration": 60,
         "color": "#a44bc2",
@@ -1193,7 +1194,7 @@ Content-Encoding=gzip
     },
     {
         "id": 108,
-        "name": "?????? ???? + ??",
+        "name": "תספורת אישה + פן",
         "price": "180",
         "duration": 60,
         "color": "#a44bc2",
@@ -1204,7 +1205,7 @@ Content-Encoding=gzip
     },
     {
         "id": 109,
-        "name": "?????? ??? + ???",
+        "name": "תספורת גבר + זקן",
         "price": "70",
         "duration": 30,
         "color": "#a44bc2",
@@ -1215,7 +1216,7 @@ Content-Encoding=gzip
     },
     {
         "id": 110,
-        "name": "???? ?????",
+        "name": "יעוץ החלקה",
         "price": "0",
         "duration": 15,
         "color": "#efa5fe",
@@ -1226,7 +1227,7 @@ Content-Encoding=gzip
     },
     {
         "id": 111,
-        "name": "??? ??? ???",
+        "name": "צבע ראש מלא",
         "price": "220",
         "duration": 15,
         "color": "#efa5fe",
@@ -1237,7 +1238,7 @@ Content-Encoding=gzip
     },
     {
         "id": 112,
-        "name": "??? ????",
+        "name": "צבע שורש",
         "price": "150",
         "duration": 15,
         "color": "#efa5fe",
@@ -1248,7 +1249,7 @@ Content-Encoding=gzip
     },
     {
         "id": 113,
-        "name": "?????",
+        "name": "שטיפה",
         "price": "150",
         "duration": 15,
         "color": "#efa5fe",
@@ -1259,7 +1260,7 @@ Content-Encoding=gzip
     },
     {
         "id": 114,
-        "name": "?????? ??? ???",
+        "name": "גוונים ראש מלא",
         "price": "500",
         "duration": 75,
         "color": "#efa5fe",
@@ -1270,7 +1271,7 @@ Content-Encoding=gzip
     },
     {
         "id": 115,
-        "name": "?????? ??? ???",
+        "name": "גוונים חצי ראש",
         "price": "300",
         "duration": 45,
         "color": "#efa5fe",
@@ -1281,7 +1282,7 @@ Content-Encoding=gzip
     },
     {
         "id": 116,
-        "name": "??????",
+        "name": "אומברה",
         "price": "600",
         "duration": 120,
         "color": "#efa5fe",
@@ -1292,7 +1293,7 @@ Content-Encoding=gzip
     },
     {
         "id": 117,
-        "name": "?????'",
+        "name": "בליאז'",
         "price": "800",
         "duration": 120,
         "color": "#efa5fe",
@@ -1303,7 +1304,7 @@ Content-Encoding=gzip
     },
     {
         "id": 118,
-        "name": "?????",
+        "name": "הבהרה",
         "price": "150",
         "duration": 60,
         "color": "#efa5fe",
@@ -1314,7 +1315,7 @@ Content-Encoding=gzip
     },
     {
         "id": 119,
-        "name": "????? ??????",
+        "name": "פתיחת תלתלים",
         "price": "250",
         "duration": 45,
         "color": "#efa5fe",
@@ -1325,7 +1326,7 @@ Content-Encoding=gzip
     },
     {
         "id": 120,
-        "name": "????? ??????",
+        "name": "החלקת קארטין",
         "price": "600",
         "duration": 45,
         "color": "#fff581",
@@ -1336,7 +1337,7 @@ Content-Encoding=gzip
     },
     {
         "id": 121,
-        "name": "????? ???????",
+        "name": "החלקה אורגנית",
         "price": "600",
         "duration": 45,
         "color": "#fff581",
@@ -1347,7 +1348,7 @@ Content-Encoding=gzip
     },
     {
         "id": 122,
-        "name": "????? ??????",
+        "name": "החלקה משולבת",
         "price": "800",
         "duration": 120,
         "color": "#fff581",
@@ -1358,7 +1359,7 @@ Content-Encoding=gzip
     },
     {
         "id": 123,
-        "name": "????? ?????",
+        "name": "החלקה יפנית",
         "price": "1200",
         "duration": 60,
         "color": "#fff581",
@@ -1369,7 +1370,7 @@ Content-Encoding=gzip
     },
     {
         "id": 124,
-        "name": "????? / ?????",
+        "name": "מחליק / גיהוץ",
         "price": "0",
         "duration": 90,
         "color": "#fff581",
@@ -1380,7 +1381,7 @@ Content-Encoding=gzip
     },
     {
         "id": 125,
-        "name": "???? ???????",
+        "name": "שיחה טלפונית",
         "price": "0",
         "duration": 30,
         "color": "#50e3c1",
@@ -1391,7 +1392,7 @@ Content-Encoding=gzip
     },
     {
         "id": 126,
-        "name": "????? ?????? ",
+        "name": "פגישת היכרות ",
         "price": "0",
         "duration": 90,
         "color": "#50e3c1",
@@ -1402,7 +1403,7 @@ Content-Encoding=gzip
     },
     {
         "id": 127,
-        "name": "?????/????? - 45 ??'",
+        "name": "תיקון/התקנה - 45 דק'",
         "price": "0",
         "duration": 45,
         "color": "#50e3c1",
@@ -1413,7 +1414,7 @@ Content-Encoding=gzip
     },
     {
         "id": 128,
-        "name": "?????/????? - 60 ??'",
+        "name": "תיקון/התקנה - 60 דק'",
         "price": "0",
         "duration": 60,
         "color": "#50e3c1",
@@ -1424,7 +1425,7 @@ Content-Encoding=gzip
     },
     {
         "id": 129,
-        "name": "?????/????? - 90 ??'",
+        "name": "תיקון/התקנה - 90 דק'",
         "price": "0",
         "duration": 90,
         "color": "#50e3c1",
@@ -1435,7 +1436,7 @@ Content-Encoding=gzip
     },
     {
         "id": 130,
-        "name": "?????/????? - 120 ??'",
+        "name": "תיקון/התקנה - 120 דק'",
         "price": "0",
         "duration": 120,
         "color": "#50e3c1",
@@ -1446,7 +1447,7 @@ Content-Encoding=gzip
     },
     {
         "id": 131,
-        "name": "????? ??????",
+        "name": "פגישת היכרות",
         "price": "0",
         "duration": 60,
         "color": "#efefff",
@@ -1457,7 +1458,7 @@ Content-Encoding=gzip
     },
     {
         "id": 132,
-        "name": "????? ????? ???? - ???",
+        "name": "פגישת עבודה קצרה - שעה",
         "price": "0",
         "duration": 60,
         "color": "#efefff",
@@ -1468,7 +1469,7 @@ Content-Encoding=gzip
     },
     {
         "id": 133,
-        "name": "????? ????? ????? - ??????",
+        "name": "פגישת עבודה ארוכה - שעתיים",
         "price": "0",
         "duration": 120,
         "color": "#efefff",
@@ -1479,7 +1480,7 @@ Content-Encoding=gzip
     },
     {
         "id": 134,
-        "name": "????? ????? ????? - 3 ????",
+        "name": "פגישת עבודה ארוכה - 3 שעות",
         "price": "0",
         "duration": 180,
         "color": "#efefff",
@@ -1490,7 +1491,7 @@ Content-Encoding=gzip
     },
     {
         "id": 135,
-        "name": "??? ??? ?? ????",
+        "name": "יום שלם עם לקוח",
         "price": "0",
         "duration": 360,
         "color": "#efefff",
@@ -1501,7 +1502,7 @@ Content-Encoding=gzip
     },
     {
         "id": 136,
-        "name": "????? ?????",
+        "name": "פגישת ייעוץ",
         "price": "0",
         "duration": 60,
         "color": "#759bfa",
@@ -1512,7 +1513,7 @@ Content-Encoding=gzip
     },
     {
         "id": 137,
-        "name": "????? ???",
+        "name": "איפור ערב",
         "price": "300",
         "duration": 45,
         "color": "#759bfa",
@@ -1523,7 +1524,7 @@ Content-Encoding=gzip
     },
     {
         "id": 138,
-        "name": "????? ???",
+        "name": "איפור כלה",
         "price": "800",
         "duration": 75,
         "color": "#759bfa",
@@ -1534,7 +1535,7 @@ Content-Encoding=gzip
     },
     {
         "id": 139,
-        "name": "????? ?????",
+        "name": "איפור מלווה",
         "price": "250",
         "duration": 45,
         "color": "#759bfa",
@@ -1545,7 +1546,7 @@ Content-Encoding=gzip
     },
     {
         "id": 140,
-        "name": "????? ??????",
+        "name": "איפור ניסיון",
         "price": "100",
         "duration": 60,
         "color": "#759bfa",
@@ -1556,7 +1557,7 @@ Content-Encoding=gzip
     },
     {
         "id": 141,
-        "name": "?????? ???",
+        "name": "תסרוקת ערב",
         "price": "0",
         "duration": 90,
         "color": "#759bfa",
@@ -1567,7 +1568,7 @@ Content-Encoding=gzip
     },
     {
         "id": 142,
-        "name": "?????? ???",
+        "name": "תסרוקת כלה",
         "price": "1200",
         "duration": 120,
         "color": "#759bfa",
@@ -1578,7 +1579,7 @@ Content-Encoding=gzip
     },
     {
         "id": 143,
-        "name": "?????? ?????",
+        "name": "תסרוקת מלווה",
         "price": "300",
         "duration": 90,
         "color": "#759bfa",
@@ -1589,7 +1590,7 @@ Content-Encoding=gzip
     },
     {
         "id": 144,
-        "name": "?????? ??????",
+        "name": "תסרוקת ניסיון",
         "price": "0",
         "duration": 60,
         "color": "#759bfa",
@@ -1600,7 +1601,7 @@ Content-Encoding=gzip
     },
     {
         "id": 145,
-        "name": "????? ??? (???? + ?????)",
+        "name": "חבילת כלה (שיער + איפור)",
         "price": "1700",
         "duration": 210,
         "color": "#759bfa",
@@ -1611,7 +1612,7 @@ Content-Encoding=gzip
     },
     {
         "id": 146,
-        "name": "????? ????? (???? + ?????)",
+        "name": "חבילת מלווה (שיער + איפור)",
         "price": "500",
         "duration": 180,
         "color": "#759bfa",
@@ -1622,7 +1623,7 @@ Content-Encoding=gzip
     },
     {
         "id": 147,
-        "name": "???? / ????? ??????",
+        "name": "הגעה / ליווי לאירוע",
         "price": "0",
         "duration": 120,
         "color": "#759bfa",
@@ -1633,7 +1634,7 @@ Content-Encoding=gzip
     },
     {
         "id": 148,
-        "name": "?????",
+        "name": "ייעוץ",
         "price": "0",
         "duration": 60,
         "color": "#b8e986",
@@ -1644,7 +1645,7 @@ Content-Encoding=gzip
     },
     {
         "id": 149,
-        "name": "????? ????? ??????",
+        "name": "פגישת אבחון ראשונה",
         "price": "0",
         "duration": 90,
         "color": "#b8e986",
@@ -1655,7 +1656,7 @@ Content-Encoding=gzip
     },
     {
         "id": 150,
-        "name": "????? - 30 ??'",
+        "name": "טיפול - 30 דק'",
         "price": "0",
         "duration": 30,
         "color": "#b8e986",
@@ -1666,7 +1667,7 @@ Content-Encoding=gzip
     },
     {
         "id": 151,
-        "name": "????? - 45 ??'",
+        "name": "טיפול - 45 דק'",
         "price": "0",
         "duration": 45,
         "color": "#b8e986",
@@ -1677,7 +1678,7 @@ Content-Encoding=gzip
     },
     {
         "id": 152,
-        "name": "????? - 60 ??'",
+        "name": "טיפול - 60 דק'",
         "price": "0",
         "duration": 60,
         "color": "#b8e986",
@@ -1688,7 +1689,7 @@ Content-Encoding=gzip
     },
     {
         "id": 153,
-        "name": "????? - 90 ??'",
+        "name": "טיפול - 90 דק'",
         "price": "0",
         "duration": 90,
         "color": "#b8e986",
@@ -1699,7 +1700,7 @@ Content-Encoding=gzip
     },
     {
         "id": 154,
-        "name": "??????",
+        "name": "ביקורת",
         "price": "0",
         "duration": 60,
         "color": "#b8e986",
@@ -1710,7 +1711,7 @@ Content-Encoding=gzip
     },
     {
         "id": 155,
-        "name": "???? ???????",
+        "name": "שיחה טלפונית",
         "price": "0",
         "duration": 30,
         "color": "#b8e986",
@@ -1721,7 +1722,7 @@ Content-Encoding=gzip
     },
     {
         "id": 156,
-        "name": "????? ?????? ",
+        "name": "פגישת היכרות ",
         "price": "0",
         "duration": 60,
         "color": "#3fb6dc",
@@ -1732,7 +1733,7 @@ Content-Encoding=gzip
     },
     {
         "id": 157,
-        "name": "????? - ??????",
+        "name": "עבודה - שעתיים",
         "price": "0",
         "duration": 120,
         "color": "#3fb6dc",
@@ -1743,7 +1744,7 @@ Content-Encoding=gzip
     },
     {
         "id": 158,
-        "name": "????? - 3 ????",
+        "name": "עבודה - 3 שעות",
         "price": "0",
         "duration": 180,
         "color": "#3fb6dc",
@@ -1754,7 +1755,7 @@ Content-Encoding=gzip
     },
     {
         "id": 159,
-        "name": "????? - 4 ????",
+        "name": "עבודה - 4 שעות",
         "price": "0",
         "duration": 240,
         "color": "#3fb6dc",
@@ -1765,7 +1766,7 @@ Content-Encoding=gzip
     },
     {
         "id": 160,
-        "name": "????? - 5 ????",
+        "name": "עבודה - 5 שעות",
         "price": "0",
         "duration": 300,
         "color": "#3fb6dc",
@@ -1776,7 +1777,7 @@ Content-Encoding=gzip
     },
     {
         "id": 161,
-        "name": "???? ???????",
+        "name": "שיחה טלפונית",
         "price": "0",
         "duration": 30,
         "color": "#3fb6dc",
@@ -1787,7 +1788,7 @@ Content-Encoding=gzip
     },
     {
         "id": 162,
-        "name": "????? ?????? / ??????",
+        "name": "פגישת היכרות / ראשונה",
         "price": "0",
         "duration": 90,
         "color": "#deceff",
@@ -1798,7 +1799,7 @@ Content-Encoding=gzip
     },
     {
         "id": 163,
-        "name": "?????",
+        "name": "ייעוץ",
         "price": "0",
         "duration": 60,
         "color": "#deceff",
@@ -1809,7 +1810,7 @@ Content-Encoding=gzip
     },
     {
         "id": 164,
-        "name": "???? ???????",
+        "name": "שיחה טלפונית",
         "price": "0",
         "duration": 30,
         "color": "#deceff",
@@ -1820,7 +1821,7 @@ Content-Encoding=gzip
     },
     {
         "id": 165,
-        "name": "????? - 45 ??'",
+        "name": "טיפול - 45 דק'",
         "price": "0",
         "duration": 45,
         "color": "#deceff",
@@ -1831,7 +1832,7 @@ Content-Encoding=gzip
     },
     {
         "id": 166,
-        "name": "????? - 60 ??'",
+        "name": "טיפול - 60 דק'",
         "price": "0",
         "duration": 60,
         "color": "#deceff",
@@ -1842,7 +1843,7 @@ Content-Encoding=gzip
     },
     {
         "id": 167,
-        "name": "????? - 90 ??'",
+        "name": "טיפול - 90 דק'",
         "price": "0",
         "duration": 90,
         "color": "#deceff",
@@ -1853,7 +1854,7 @@ Content-Encoding=gzip
     },
     {
         "id": 168,
-        "name": "????? - 120 ??'",
+        "name": "טיפול - 120 דק'",
         "price": "0",
         "duration": 120,
         "color": "#deceff",
@@ -1864,7 +1865,7 @@ Content-Encoding=gzip
     },
     {
         "id": 169,
-        "name": "??????",
+        "name": "ביקורת",
         "price": "0",
         "duration": 60,
         "color": "#deceff",
@@ -1875,7 +1876,7 @@ Content-Encoding=gzip
     },
     {
         "id": 170,
-        "name": "???? ??????? / ???? ????",
+        "name": "שיחה טלפונית / הצעת מחיר",
         "price": "0",
         "duration": 30,
         "color": "#ff98ad",
@@ -1886,7 +1887,7 @@ Content-Encoding=gzip
     },
     {
         "id": 171,
-        "name": "????? ???? 2 ?????",
+        "name": "הדברה דירת 2 חדרים",
         "price": "0",
         "duration": 60,
         "color": "#ff98ad",
@@ -1897,7 +1898,7 @@ Content-Encoding=gzip
     },
     {
         "id": 172,
-        "name": "????? ???? 3 ?????",
+        "name": "הדברה דירת 3 חדרים",
         "price": "0",
         "duration": 60,
         "color": "#ff98ad",
@@ -1908,7 +1909,7 @@ Content-Encoding=gzip
     },
     {
         "id": 173,
-        "name": "????? ???? 4 ?????",
+        "name": "הדברה דירת 4 חדרים",
         "price": "0",
         "duration": 90,
         "color": "#ff98ad",
@@ -1919,7 +1920,7 @@ Content-Encoding=gzip
     },
     {
         "id": 174,
-        "name": "????? ????? ????",
+        "name": "הדברה יחידת דיור",
         "price": "0",
         "duration": 60,
         "color": "#ff98ad",
@@ -1930,7 +1931,7 @@ Content-Encoding=gzip
     },
     {
         "id": 175,
-        "name": "????? ??? ???? - ???",
+        "name": "הדברה בית פרטי - קטן",
         "price": "0",
         "duration": 120,
         "color": "#ff98ad",
@@ -1941,7 +1942,7 @@ Content-Encoding=gzip
     },
     {
         "id": 176,
-        "name": "????? ??? ???? - ????",
+        "name": "הדברה בית פרטי - גדול",
         "price": "0",
         "duration": 180,
         "color": "#ff98ad",
@@ -1952,7 +1953,7 @@ Content-Encoding=gzip
     },
     {
         "id": 177,
-        "name": "????? ???? ?????",
+        "name": "הדברת ביוב מרכזי",
         "price": "0",
         "duration": 30,
         "color": "#ff98ad",
@@ -1963,7 +1964,7 @@ Content-Encoding=gzip
     },
     {
         "id": 178,
-        "name": "????? ??????? / ???",
+        "name": "הדברה חיצונית / חצר",
         "price": "0",
         "duration": 60,
         "color": "#ff98ad",
@@ -1974,7 +1975,7 @@ Content-Encoding=gzip
     },
     {
         "id": 179,
-        "name": "????? ???? / ??? / ????",
+        "name": "הדברת חנות / עסק / משרד",
         "price": "0",
         "duration": 60,
         "color": "#ff98ad",
@@ -1985,7 +1986,7 @@ Content-Encoding=gzip
     },
     {
         "id": 180,
-        "name": "????? ?????? ????? ",
+        "name": "הדברת מוסדות ציבור ",
         "price": "0",
         "duration": 180,
         "color": "#ff98ad",
@@ -1996,7 +1997,7 @@ Content-Encoding=gzip
     },
     {
         "id": 181,
-        "name": "????? ?????? / ??????",
+        "name": "פגישת היכרות / ראשונה",
         "price": "0",
         "duration": 90,
         "color": "#a44bc2",
@@ -2007,7 +2008,7 @@ Content-Encoding=gzip
     },
     {
         "id": 182,
-        "name": "????? - 45 ??'",
+        "name": "שיעור - 45 דק'",
         "price": "0",
         "duration": 45,
         "color": "#a44bc2",
@@ -2018,7 +2019,7 @@ Content-Encoding=gzip
     },
     {
         "id": 183,
-        "name": "????? - 60 ??'",
+        "name": "שיעור - 60 דק'",
         "price": "0",
         "duration": 60,
         "color": "#a44bc2",
@@ -2029,7 +2030,7 @@ Content-Encoding=gzip
     },
     {
         "id": 184,
-        "name": "????? - 90 ??'",
+        "name": "שיעור - 90 דק'",
         "price": "0",
         "duration": 90,
         "color": "#a44bc2",
@@ -2040,7 +2041,7 @@ Content-Encoding=gzip
     },
     {
         "id": 185,
-        "name": "????? - 120 ??'",
+        "name": "שיעור - 120 דק'",
         "price": "0",
         "duration": 120,
         "color": "#a44bc2",
@@ -2051,7 +2052,7 @@ Content-Encoding=gzip
     },
     {
         "id": 186,
-        "name": "????? ?????? ",
+        "name": "פגישת היכרות ",
         "price": "0",
         "duration": 90,
         "color": "#efa5fe",
@@ -2062,7 +2063,7 @@ Content-Encoding=gzip
     },
     {
         "id": 187,
-        "name": "????? - 45 ??'",
+        "name": "פגישה - 45 דק'",
         "price": "0",
         "duration": 45,
         "color": "#efa5fe",
@@ -2073,7 +2074,7 @@ Content-Encoding=gzip
     },
     {
         "id": 188,
-        "name": "????? - 60 ??'",
+        "name": "פגישה - 60 דק'",
         "price": "0",
         "duration": 60,
         "color": "#efa5fe",
@@ -2084,7 +2085,7 @@ Content-Encoding=gzip
     },
     {
         "id": 189,
-        "name": "????? - 90 ??'",
+        "name": "פגישה - 90 דק'",
         "price": "0",
         "duration": 90,
         "color": "#efa5fe",
@@ -2095,7 +2096,7 @@ Content-Encoding=gzip
     },
     {
         "id": 190,
-        "name": "????? - 120 ??'",
+        "name": "פגישה - 120 דק'",
         "price": "0",
         "duration": 120,
         "color": "#efa5fe",
@@ -2106,7 +2107,7 @@ Content-Encoding=gzip
     },
     {
         "id": 191,
-        "name": "???? ???????",
+        "name": "שיחה טלפונית",
         "price": "0",
         "duration": 30,
         "color": "#efa5fe",
@@ -2117,7 +2118,7 @@ Content-Encoding=gzip
     },
     {
         "id": 192,
-        "name": "????? ??????",
+        "name": "פגישת היכרות",
         "price": "0",
         "duration": 90,
         "color": "#fff581",
@@ -2128,7 +2129,7 @@ Content-Encoding=gzip
     },
     {
         "id": 193,
-        "name": "????? - 45 ??'",
+        "name": "פגישה - 45 דק'",
         "price": "0",
         "duration": 45,
         "color": "#fff581",
@@ -2139,7 +2140,7 @@ Content-Encoding=gzip
     },
     {
         "id": 194,
-        "name": "????? - 60 ??'",
+        "name": "פגישה - 60 דק'",
         "price": "0",
         "duration": 60,
         "color": "#fff581",
@@ -2150,7 +2151,7 @@ Content-Encoding=gzip
     },
     {
         "id": 195,
-        "name": "????? - 90 ??'",
+        "name": "פגישה - 90 דק'",
         "price": "0",
         "duration": 90,
         "color": "#fff581",
@@ -2161,7 +2162,7 @@ Content-Encoding=gzip
     },
     {
         "id": 196,
-        "name": "????? - 120 ??'",
+        "name": "פגישה - 120 דק'",
         "price": "0",
         "duration": 120,
         "color": "#fff581",
@@ -2172,7 +2173,7 @@ Content-Encoding=gzip
     },
     {
         "id": 197,
-        "name": "???? ???????",
+        "name": "שיחה טלפונית",
         "price": "0",
         "duration": 30,
         "color": "#fff581",
@@ -2183,7 +2184,7 @@ Content-Encoding=gzip
     },
     {
         "id": 198,
-        "name": "????? ????",
+        "name": "פגישת יעוץ",
         "price": "0",
         "duration": 15,
         "color": "#50e3c1",
@@ -2194,7 +2195,7 @@ Content-Encoding=gzip
     },
     {
         "id": 199,
-        "name": "????? ????",
+        "name": "אימון אישי",
         "price": "0",
         "duration": 60,
         "color": "#50e3c1",
@@ -2205,7 +2206,7 @@ Content-Encoding=gzip
     },
     {
         "id": 200,
-        "name": "????? ????",
+        "name": "אימון זוגי",
         "price": "0",
         "duration": 60,
         "color": "#50e3c1",
@@ -2216,7 +2217,7 @@ Content-Encoding=gzip
     },
     {
         "id": 201,
-        "name": "????? - 45 ??'",
+        "name": "אימון - 45 דק'",
         "price": "0",
         "duration": 45,
         "color": "#50e3c1",
@@ -2227,7 +2228,7 @@ Content-Encoding=gzip
     },
     {
         "id": 202,
-        "name": "????? - 60 ??'",
+        "name": "אימון - 60 דק'",
         "price": "0",
         "duration": 60,
         "color": "#50e3c1",
@@ -2238,7 +2239,7 @@ Content-Encoding=gzip
     },
     {
         "id": 203,
-        "name": "????? - 90 ??'",
+        "name": "אימון - 90 דק'",
         "price": "0",
         "duration": 90,
         "color": "#50e3c1",
@@ -2249,7 +2250,7 @@ Content-Encoding=gzip
     },
     {
         "id": 204,
-        "name": "?????? / ????? ??????",
+        "name": "ביקורת / בניית תוכנית",
         "price": "0",
         "duration": 30,
         "color": "#50e3c1",
@@ -2260,7 +2261,7 @@ Content-Encoding=gzip
     },
     {
         "id": 205,
-        "name": "????? ??????",
+        "name": "פגישת היכרות",
         "price": "0",
         "duration": 60,
         "color": "#fff581",
@@ -2271,7 +2272,7 @@ Content-Encoding=gzip
     },
     {
         "id": 206,
-        "name": "????? ?? ???? - 60 ??'",
+        "name": "פגישה עם לקוח - 60 דק'",
         "price": "0",
         "duration": 60,
         "color": "#fff581",
@@ -2282,7 +2283,7 @@ Content-Encoding=gzip
     },
     {
         "id": 207,
-        "name": "????? ?? ???? - 90 ??'",
+        "name": "פגישה עם לקוח - 90 דק'",
         "price": "0",
         "duration": 90,
         "color": "#fff581",
@@ -2293,7 +2294,7 @@ Content-Encoding=gzip
     },
     {
         "id": 208,
-        "name": "????? ?? ???? - 120 ??'",
+        "name": "פגישה עם לקוח - 120 דק'",
         "price": "0",
         "duration": 120,
         "color": "#fff581",
@@ -2304,7 +2305,7 @@ Content-Encoding=gzip
     },
     {
         "id": 209,
-        "name": "????? ?????? / ??????",
+        "name": "פגישת היכרות / ראשונה",
         "price": "0",
         "duration": 90,
         "color": "#759bfa",
@@ -2315,7 +2316,7 @@ Content-Encoding=gzip
     },
     {
         "id": 210,
-        "name": "????? - 45 ??'",
+        "name": "טיפול - 45 דק'",
         "price": "0",
         "duration": 45,
         "color": "#759bfa",
@@ -2326,7 +2327,7 @@ Content-Encoding=gzip
     },
     {
         "id": 211,
-        "name": "????? - 60 ??'",
+        "name": "טיפול - 60 דק'",
         "price": "0",
         "duration": 60,
         "color": "#759bfa",
@@ -2337,7 +2338,7 @@ Content-Encoding=gzip
     },
     {
         "id": 212,
-        "name": "????? - 90 ??'",
+        "name": "טיפול - 90 דק'",
         "price": "0",
         "duration": 90,
         "color": "#759bfa",
@@ -2348,7 +2349,7 @@ Content-Encoding=gzip
     },
     {
         "id": 213,
-        "name": "????? - 120 ??'",
+        "name": "טיפול - 120 דק'",
         "price": "0",
         "duration": 120,
         "color": "#759bfa",
@@ -2359,7 +2360,7 @@ Content-Encoding=gzip
     },
     {
         "id": 214,
-        "name": "?????",
+        "name": "ייעוץ",
         "price": "0",
         "duration": 60,
         "color": "#759bfa",
@@ -2370,7 +2371,7 @@ Content-Encoding=gzip
     },
     {
         "id": 215,
-        "name": "??????",
+        "name": "ביקורת",
         "price": "0",
         "duration": 60,
         "color": "#759bfa",
@@ -2381,7 +2382,7 @@ Content-Encoding=gzip
     },
     {
         "id": 216,
-        "name": "???? ???????",
+        "name": "שיחה טלפונית",
         "price": "0",
         "duration": 30,
         "color": "#759bfa",

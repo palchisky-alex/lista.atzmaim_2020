@@ -5,6 +5,7 @@ Transfer-Encoding=chunked
 Connection=keep-alive
 Vary=Accept-Encoding
 ###Set-Cookie##
+###Set-Cookie##
 ###X-Request-Id##
 Strict-Transport-Security=max-age=604800
 X-Content-Type-Options=nosniff
@@ -16,7 +17,7 @@ Content-Encoding=gzip
 [
     {
         "id": 1,
-        "name": "?????",
+        "name": "ייעוץ",
         "price": "0",
         "duration": 60,
         "color": "#efa5fe",
@@ -27,7 +28,7 @@ Content-Encoding=gzip
     },
     {
         "id": 2,
-        "name": "????? ????? ??????",
+        "name": "פגישת אבחון ראשונה",
         "price": "0",
         "duration": 90,
         "color": "#efa5fe",
@@ -38,7 +39,7 @@ Content-Encoding=gzip
     },
     {
         "id": 3,
-        "name": "????? - 30 ??'",
+        "name": "טיפול - 30 דק'",
         "price": "0",
         "duration": 30,
         "color": "#efa5fe",
@@ -49,7 +50,7 @@ Content-Encoding=gzip
     },
     {
         "id": 4,
-        "name": "????? - 45 ??'",
+        "name": "טיפול - 45 דק'",
         "price": "0",
         "duration": 45,
         "color": "#efa5fe",
@@ -60,7 +61,7 @@ Content-Encoding=gzip
     },
     {
         "id": 5,
-        "name": "????? - 60 ??', ",
+        "name": "טיפול - 60 דק', ",
         "price": "0",
         "duration": 60,
         "color": "#efa5fe",
@@ -71,7 +72,7 @@ Content-Encoding=gzip
     },
     {
         "id": 6,
-        "name": "????? - 90 ??'",
+        "name": "טיפול - 90 דק'",
         "price": "0",
         "duration": 90,
         "color": "#efa5fe",
@@ -82,7 +83,7 @@ Content-Encoding=gzip
     },
     {
         "id": 7,
-        "name": "??????",
+        "name": "ביקורת",
         "price": "0",
         "duration": 60,
         "color": "#efa5fe",
@@ -93,7 +94,7 @@ Content-Encoding=gzip
     },
     {
         "id": 8,
-        "name": "???? ???????",
+        "name": "שיחה טלפונית",
         "price": "0",
         "duration": 30,
         "color": "#efa5fe",

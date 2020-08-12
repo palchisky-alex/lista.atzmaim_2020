@@ -5,6 +5,7 @@ Transfer-Encoding=chunked
 Connection=keep-alive
 Vary=Accept-Encoding
 ###Set-Cookie##
+###Set-Cookie##
 ###X-Request-Id##
 Strict-Transport-Security=max-age=604800
 X-Content-Type-Options=nosniff
@@ -16,7 +17,7 @@ Content-Encoding=gzip
 [
     {
         "id": 1,
-        "name": "?? ?'?",
+        "name": "לק ג'ל",
         "price": "120",
         "duration": 45,
         "color": "#efefff",
@@ -27,7 +28,7 @@ Content-Encoding=gzip
     },
     {
         "id": 2,
-        "name": "?? ?'? ???????",
+        "name": "לק ג'ל ברגליים",
         "price": "150",
         "duration": 30,
         "color": "#efefff",
@@ -38,7 +39,7 @@ Content-Encoding=gzip
     },
     {
         "id": 3,
-        "name": "?????? ??????",
+        "name": "מניקור אקספרס",
         "price": "45",
         "duration": 15,
         "color": "#efefff",
@@ -49,7 +50,7 @@ Content-Encoding=gzip
     },
     {
         "id": 4,
-        "name": "??????",
+        "name": "מניקור",
         "price": "70",
         "duration": 30,
         "color": "#efefff",
@@ -60,7 +61,7 @@ Content-Encoding=gzip
     },
     {
         "id": 5,
-        "name": "?????? ??????",
+        "name": "פדיקור אקספרס",
         "price": "55",
         "duration": 15,
         "color": "#efefff",
@@ -71,7 +72,7 @@ Content-Encoding=gzip
     },
     {
         "id": 6,
-        "name": "??????",
+        "name": "פדיקור",
         "price": "140",
         "duration": 45,
         "color": "#efefff",
@@ -82,7 +83,7 @@ Content-Encoding=gzip
     },
     {
         "id": 7,
-        "name": "?????? ?????",
+        "name": "פדיקור רפואי",
         "price": "155",
         "duration": 45,
         "color": "#efefff",
@@ -93,7 +94,7 @@ Content-Encoding=gzip
     },
     {
         "id": 8,
-        "name": "????? + ?? ?'?",
+        "name": "בנייה + לק ג'ל",
         "price": "240",
         "duration": 60,
         "color": "#759bfa",
@@ -104,7 +105,7 @@ Content-Encoding=gzip
     },
     {
         "id": 9,
-        "name": "????? + ?? ?'?",
+        "name": "מילוי + לק ג'ל",
         "price": "130",
         "duration": 60,
         "color": "#759bfa",
@@ -115,7 +116,7 @@ Content-Encoding=gzip
     },
     {
         "id": 10,
-        "name": "????? ?????????",
+        "name": "בניית ציפורניים",
         "price": "300",
         "duration": 60,
         "color": "#759bfa",
@@ -126,7 +127,7 @@ Content-Encoding=gzip
     },
     {
         "id": 11,
-        "name": "????? ??'?",
+        "name": "בנייה בג'ל",
         "price": "220",
         "duration": 60,
         "color": "#759bfa",
@@ -137,7 +138,7 @@ Content-Encoding=gzip
     },
     {
         "id": 12,
-        "name": "????? ??????",
+        "name": "תיקון ציפורן",
         "price": "0",
         "duration": 15,
         "color": "#759bfa",
@@ -148,7 +149,7 @@ Content-Encoding=gzip
     },
     {
         "id": 13,
-        "name": "????? ????",
+        "name": "מילוי רגיל",
         "price": "110",
         "duration": 60,
         "color": "#759bfa",
@@ -159,7 +160,7 @@ Content-Encoding=gzip
     },
     {
         "id": 14,
-        "name": "???? ?????/?? ?'?",
+        "name": "הסרת בנייה/לק ג'ל",
         "price": "50",
         "duration": 30,
         "color": "#759bfa",
@@ -170,7 +171,7 @@ Content-Encoding=gzip
     },
     {
         "id": 15,
-        "name": "????? ?????????",
+        "name": "הדבקת ציפורניים",
         "price": "0",
         "duration": 30,
         "color": "#759bfa",
@@ -181,7 +182,7 @@ Content-Encoding=gzip
     },
     {
         "id": 16,
-        "name": "????? ????",
+        "name": "סידור גבות",
         "price": "30",
         "duration": 15,
         "color": "#b8e986",
@@ -192,7 +193,7 @@ Content-Encoding=gzip
     },
     {
         "id": 17,
-        "name": "???",
+        "name": "שפם",
         "price": "30",
         "duration": 15,
         "color": "#b8e986",
@@ -203,7 +204,7 @@ Content-Encoding=gzip
     },
     {
         "id": 18,
-        "name": "??? + ????",
+        "name": "שפם + גבות",
         "price": "50",
         "duration": 30,
         "color": "#b8e986",

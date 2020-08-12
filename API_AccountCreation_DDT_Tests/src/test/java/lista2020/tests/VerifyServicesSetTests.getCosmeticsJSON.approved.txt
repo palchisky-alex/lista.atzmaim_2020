@@ -5,6 +5,7 @@ Transfer-Encoding=chunked
 Connection=keep-alive
 Vary=Accept-Encoding
 ###Set-Cookie##
+###Set-Cookie##
 ###X-Request-Id##
 Strict-Transport-Security=max-age=604800
 X-Content-Type-Options=nosniff
@@ -16,7 +17,7 @@ Content-Encoding=gzip
 [
     {
         "id": 1,
-        "name": "????? ????",
+        "name": "טיפול פנים",
         "price": "350",
         "duration": 60,
         "color": "#50e3c1",
@@ -27,7 +28,7 @@ Content-Encoding=gzip
     },
     {
         "id": 2,
-        "name": "????? ????/????",
+        "name": "טיפול יופי/זוהר",
         "price": "250",
         "duration": 45,
         "color": "#50e3c1",
@@ -38,7 +39,7 @@ Content-Encoding=gzip
     },
     {
         "id": 3,
-        "name": "????? ????????",
+        "name": "טיפול מזוטרפיה",
         "price": "400",
         "duration": 90,
         "color": "#50e3c1",
@@ -49,7 +50,7 @@ Content-Encoding=gzip
     },
     {
         "id": 4,
-        "name": "????? ????? ????",
+        "name": "טיפול החדרת לחות",
         "price": "200",
         "duration": 60,
         "color": "#50e3c1",
@@ -60,7 +61,7 @@ Content-Encoding=gzip
     },
     {
         "id": 5,
-        "name": "????? ?????????",
+        "name": "טיפול פיגמנטציה",
         "price": "300",
         "duration": 75,
         "color": "#50e3c1",
@@ -71,7 +72,7 @@ Content-Encoding=gzip
     },
     {
         "id": 6,
-        "name": "????? ????",
+        "name": "טיפול אקנה",
         "price": "250",
         "duration": 90,
         "color": "#50e3c1",
@@ -82,7 +83,7 @@ Content-Encoding=gzip
     },
     {
         "id": 7,
-        "name": "????? ????????'??? / ?????",
+        "name": "טיפול אנטיאייג'ינג / מיצוק",
         "price": "300",
         "duration": 60,
         "color": "#50e3c1",
@@ -93,7 +94,7 @@ Content-Encoding=gzip
     },
     {
         "id": 8,
-        "name": "??????",
+        "name": "פילינג",
         "price": "400",
         "duration": 75,
         "color": "#50e3c1",
@@ -104,7 +105,7 @@ Content-Encoding=gzip
     },
     {
         "id": 9,
-        "name": "?? ?'?",
+        "name": "לק ג'ל",
         "price": "120",
         "duration": 45,
         "color": "#efefff",
@@ -115,7 +116,7 @@ Content-Encoding=gzip
     },
     {
         "id": 10,
-        "name": "?? ?'? ???????",
+        "name": "לק ג'ל ברגליים",
         "price": "150",
         "duration": 30,
         "color": "#efefff",
@@ -126,7 +127,7 @@ Content-Encoding=gzip
     },
     {
         "id": 11,
-        "name": "?????? ??????",
+        "name": "מניקור אקספרס",
         "price": "45",
         "duration": 15,
         "color": "#efefff",
@@ -137,7 +138,7 @@ Content-Encoding=gzip
     },
     {
         "id": 12,
-        "name": "??????",
+        "name": "מניקור",
         "price": "70",
         "duration": 30,
         "color": "#efefff",
@@ -148,7 +149,7 @@ Content-Encoding=gzip
     },
     {
         "id": 13,
-        "name": "?????? ??????",
+        "name": "פדיקור אקספרס",
         "price": "55",
         "duration": 15,
         "color": "#efefff",
@@ -159,7 +160,7 @@ Content-Encoding=gzip
     },
     {
         "id": 14,
-        "name": "??????",
+        "name": "פדיקור",
         "price": "140",
         "duration": 45,
         "color": "#efefff",
@@ -170,7 +171,7 @@ Content-Encoding=gzip
     },
     {
         "id": 15,
-        "name": "?????? ?????",
+        "name": "פדיקור רפואי",
         "price": "155",
         "duration": 45,
         "color": "#efefff",
@@ -181,7 +182,7 @@ Content-Encoding=gzip
     },
     {
         "id": 16,
-        "name": "????? + ?? ?'?",
+        "name": "בנייה + לק ג'ל",
         "price": "240",
         "duration": 60,
         "color": "#759bfa",
@@ -192,7 +193,7 @@ Content-Encoding=gzip
     },
     {
         "id": 17,
-        "name": "????? + ?? ?'?",
+        "name": "מילוי + לק ג'ל",
         "price": "130",
         "duration": 60,
         "color": "#759bfa",
@@ -203,7 +204,7 @@ Content-Encoding=gzip
     },
     {
         "id": 18,
-        "name": "????? ?????????",
+        "name": "בניית ציפורניים",
         "price": "300",
         "duration": 60,
         "color": "#759bfa",
@@ -214,7 +215,7 @@ Content-Encoding=gzip
     },
     {
         "id": 19,
-        "name": "????? ??'?",
+        "name": "בנייה בג'ל",
         "price": "220",
         "duration": 60,
         "color": "#759bfa",
@@ -225,7 +226,7 @@ Content-Encoding=gzip
     },
     {
         "id": 20,
-        "name": "????? ??????",
+        "name": "תיקון ציפורן",
         "price": "0",
         "duration": 15,
         "color": "#759bfa",
@@ -236,7 +237,7 @@ Content-Encoding=gzip
     },
     {
         "id": 21,
-        "name": "????? ????",
+        "name": "מילוי רגיל",
         "price": "110",
         "duration": 60,
         "color": "#759bfa",
@@ -247,7 +248,7 @@ Content-Encoding=gzip
     },
     {
         "id": 22,
-        "name": "???? ?????/?? ?'?",
+        "name": "הסרת בנייה/לק ג'ל",
         "price": "50",
         "duration": 30,
         "color": "#759bfa",
@@ -258,7 +259,7 @@ Content-Encoding=gzip
     },
     {
         "id": 23,
-        "name": "????? ?????????",
+        "name": "הדבקת ציפורניים",
         "price": "0",
         "duration": 30,
         "color": "#759bfa",
@@ -269,7 +270,7 @@ Content-Encoding=gzip
     },
     {
         "id": 24,
-        "name": "????? ????",
+        "name": "סידור גבות",
         "price": "30",
         "duration": 15,
         "color": "#b8e986",
@@ -280,7 +281,7 @@ Content-Encoding=gzip
     },
     {
         "id": 25,
-        "name": "???",
+        "name": "שפם",
         "price": "30",
         "duration": 15,
         "color": "#b8e986",
@@ -291,7 +292,7 @@ Content-Encoding=gzip
     },
     {
         "id": 26,
-        "name": "??? + ????",
+        "name": "שפם + גבות",
         "price": "50",
         "duration": 30,
         "color": "#b8e986",
@@ -302,7 +303,7 @@ Content-Encoding=gzip
     },
     {
         "id": 27,
-        "name": "???? ?????",
+        "name": "יעוץ לייזר",
         "price": "0",
         "duration": 30,
         "color": "#3fb6dc",
@@ -313,7 +314,7 @@ Content-Encoding=gzip
     },
     {
         "id": 28,
-        "name": "????? ?????",
+        "name": "לייזר ידיים",
         "price": "0",
         "duration": 30,
         "color": "#3fb6dc",
@@ -324,7 +325,7 @@ Content-Encoding=gzip
     },
     {
         "id": 29,
-        "name": "????? ??????",
+        "name": "לייזר רגליים",
         "price": "0",
         "duration": 45,
         "color": "#3fb6dc",
@@ -335,7 +336,7 @@ Content-Encoding=gzip
     },
     {
         "id": 30,
-        "name": "????? ?????+???",
+        "name": "לייזר בקיני+שחי",
         "price": "0",
         "duration": 30,
         "color": "#3fb6dc",
@@ -346,7 +347,7 @@ Content-Encoding=gzip
     },
     {
         "id": 31,
-        "name": "????? ?????",
+        "name": "לייזר בקיני",
         "price": "0",
         "duration": 30,
         "color": "#3fb6dc",
@@ -357,7 +358,7 @@ Content-Encoding=gzip
     },
     {
         "id": 32,
-        "name": "????? ???",
+        "name": "לייזר שחי",
         "price": "0",
         "duration": 15,
         "color": "#3fb6dc",
@@ -368,7 +369,7 @@ Content-Encoding=gzip
     },
     {
         "id": 33,
-        "name": "????? ?.??? ??????",
+        "name": "לייזר ח.רגל עליונה",
         "price": "0",
         "duration": 30,
         "color": "#3fb6dc",
@@ -379,7 +380,7 @@ Content-Encoding=gzip
     },
     {
         "id": 34,
-        "name": "????? ?.??? ??????",
+        "name": "לייזר ח.רגל תחתונה",
         "price": "0",
         "duration": 30,
         "color": "#3fb6dc",
@@ -390,7 +391,7 @@ Content-Encoding=gzip
     },
     {
         "id": 35,
-        "name": "????? ????",
+        "name": "לייזר ישבן",
         "price": "0",
         "duration": 30,
         "color": "#3fb6dc",
@@ -401,7 +402,7 @@ Content-Encoding=gzip
     },
     {
         "id": 36,
-        "name": "????? ??",
+        "name": "לייזר גב",
         "price": "0",
         "duration": 30,
         "color": "#3fb6dc",
@@ -412,7 +413,7 @@ Content-Encoding=gzip
     },
     {
         "id": 37,
-        "name": "????? ???",
+        "name": "לייזר בטן",
         "price": "0",
         "duration": 30,
         "color": "#3fb6dc",
@@ -423,7 +424,7 @@ Content-Encoding=gzip
     },
     {
         "id": 38,
-        "name": "????? ???+???",
+        "name": "לייזר חזה+בטן",
         "price": "0",
         "duration": 45,
         "color": "#3fb6dc",
@@ -434,7 +435,7 @@ Content-Encoding=gzip
     },
     {
         "id": 39,
-        "name": "????? ????",
+        "name": "לייזר עורף",
         "price": "0",
         "duration": 15,
         "color": "#3fb6dc",
@@ -445,7 +446,7 @@ Content-Encoding=gzip
     },
     {
         "id": 40,
-        "name": "????? ????",
+        "name": "לייזר פנים",
         "price": "0",
         "duration": 15,
         "color": "#3fb6dc",
@@ -456,7 +457,7 @@ Content-Encoding=gzip
     },
     {
         "id": 41,
-        "name": "????? ???+????",
+        "name": "לייזר שפם+סנטר",
         "price": "0",
         "duration": 15,
         "color": "#3fb6dc",
@@ -467,7 +468,7 @@ Content-Encoding=gzip
     },
     {
         "id": 42,
-        "name": "????? ???",
+        "name": "לייזר שפם",
         "price": "0",
         "duration": 15,
         "color": "#3fb6dc",
@@ -478,7 +479,7 @@ Content-Encoding=gzip
     },
     {
         "id": 43,
-        "name": "????? ????? ???",
+        "name": "לייזר לחיים גבר",
         "price": "0",
         "duration": 15,
         "color": "#3fb6dc",
@@ -489,7 +490,7 @@ Content-Encoding=gzip
     },
     {
         "id": 44,
-        "name": "????? ???",
+        "name": "לייזר חזה",
         "price": "0",
         "duration": 30,
         "color": "#3fb6dc",
@@ -500,7 +501,7 @@ Content-Encoding=gzip
     },
     {
         "id": 45,
-        "name": "????? ?? ???",
+        "name": "לייזר פס בטן",
         "price": "0",
         "duration": 15,
         "color": "#3fb6dc",
@@ -511,7 +512,7 @@ Content-Encoding=gzip
     },
     {
         "id": 46,
-        "name": "????? - ????",
+        "name": "שעווה - פנים",
         "price": "50",
         "duration": 15,
         "color": "#deceff",
@@ -522,7 +523,7 @@ Content-Encoding=gzip
     },
     {
         "id": 47,
-        "name": "????? - ???",
+        "name": "שעווה - שחי",
         "price": "30",
         "duration": 15,
         "color": "#deceff",
@@ -533,7 +534,7 @@ Content-Encoding=gzip
     },
     {
         "id": 48,
-        "name": "????? - ??????",
+        "name": "שעווה - ביקיני",
         "price": "40",
         "duration": 15,
         "color": "#deceff",
@@ -544,7 +545,7 @@ Content-Encoding=gzip
     },
     {
         "id": 49,
-        "name": "????? - ??????",
+        "name": "שעווה - מפשעות",
         "price": "60",
         "duration": 15,
         "color": "#deceff",
@@ -555,7 +556,7 @@ Content-Encoding=gzip
     },
     {
         "id": 50,
-        "name": "????? - ????",
+        "name": "שעווה - פאות",
         "price": "80",
         "duration": 15,
         "color": "#deceff",
@@ -566,7 +567,7 @@ Content-Encoding=gzip
     },
     {
         "id": 51,
-        "name": "????? - ??????",
+        "name": "שעווה - רגליים",
         "price": "120",
         "duration": 30,
         "color": "#deceff",
@@ -577,7 +578,7 @@ Content-Encoding=gzip
     },
     {
         "id": 52,
-        "name": "????? - ??? ???",
+        "name": "שעווה - חצי רגל",
         "price": "80",
         "duration": 30,
         "color": "#deceff",
@@ -588,7 +589,7 @@ Content-Encoding=gzip
     },
     {
         "id": 53,
-        "name": "????? - ?????? + ?????",
+        "name": "שעווה - רגליים + בקיני",
         "price": "150",
         "duration": 30,
         "color": "#deceff",
@@ -599,7 +600,7 @@ Content-Encoding=gzip
     },
     {
         "id": 54,
-        "name": "????? - ?????",
+        "name": "שעווה - ידיים",
         "price": "80",
         "duration": 15,
         "color": "#deceff",
@@ -610,7 +611,7 @@ Content-Encoding=gzip
     },
     {
         "id": 55,
-        "name": "????? ??? - ??",
+        "name": "שעווה גבר - גב",
         "price": "120",
         "duration": 30,
         "color": "#deceff",
@@ -621,7 +622,7 @@ Content-Encoding=gzip
     },
     {
         "id": 56,
-        "name": "????? ??? - ???",
+        "name": "שעווה גבר - חזה",
         "price": "80",
         "duration": 30,
         "color": "#deceff",
@@ -632,7 +633,7 @@ Content-Encoding=gzip
     },
     {
         "id": 57,
-        "name": "????? ??? - ??????",
+        "name": "שעווה גבר - כתפיים",
         "price": "50",
         "duration": 15,
         "color": "#deceff",
@@ -643,7 +644,7 @@ Content-Encoding=gzip
     },
     {
         "id": 58,
-        "name": "????? ??? - ????",
+        "name": "שעווה גבר - עורף",
         "price": "30",
         "duration": 15,
         "color": "#deceff",
@@ -654,7 +655,7 @@ Content-Encoding=gzip
     },
     {
         "id": 59,
-        "name": "????? - ???",
+        "name": "שעווה - בטן",
         "price": "50",
         "duration": 15,
         "color": "#deceff",
@@ -665,7 +666,7 @@ Content-Encoding=gzip
     },
     {
         "id": 60,
-        "name": "????? ??? - ???",
+        "name": "שעווה גבר - בטן",
         "price": "70",
         "duration": 15,
         "color": "#deceff",
@@ -676,7 +677,7 @@ Content-Encoding=gzip
     },
     {
         "id": 61,
-        "name": "????? - ??? ??",
+        "name": "שעווה - חצי יד",
         "price": "40",
         "duration": 15,
         "color": "#deceff",
@@ -687,7 +688,7 @@ Content-Encoding=gzip
     },
     {
         "id": 62,
-        "name": "????? ????- ???????? ?????",
+        "name": "איפור קבוע- אייליינר עליון",
         "price": "0",
         "duration": 120,
         "color": "#ff98ad",
@@ -698,7 +699,7 @@ Content-Encoding=gzip
     },
     {
         "id": 63,
-        "name": "????? ???? - ???????? ?????",
+        "name": "איפור קבוע - אייליינר תחתון",
         "price": "0",
         "duration": 120,
         "color": "#ff98ad",
@@ -709,7 +710,7 @@ Content-Encoding=gzip
     },
     {
         "id": 64,
-        "name": "????? ???? - ??????",
+        "name": "איפור קבוע - שפתיים",
         "price": "0",
         "duration": 120,
         "color": "#ff98ad",
@@ -720,7 +721,7 @@ Content-Encoding=gzip
     },
     {
         "id": 65,
-        "name": "????? ????? ????",
+        "name": "חידוש איפור קבוע",
         "price": "0",
         "duration": 60,
         "color": "#ff98ad",
@@ -731,7 +732,7 @@ Content-Encoding=gzip
     },
     {
         "id": 66,
-        "name": "????? ???",
+        "name": "איפור ערב",
         "price": "300",
         "duration": 45,
         "color": "#ff98ad",
@@ -742,7 +743,7 @@ Content-Encoding=gzip
     },
     {
         "id": 67,
-        "name": "????? ???",
+        "name": "איפור כלה",
         "price": "950",
         "duration": 90,
         "color": "#ff98ad",
@@ -753,7 +754,7 @@ Content-Encoding=gzip
     },
     {
         "id": 68,
-        "name": "????? ???? ????",
+        "name": "איפור קבוע גבות",
         "price": "0",
         "duration": 120,
         "color": "#ff98ad",

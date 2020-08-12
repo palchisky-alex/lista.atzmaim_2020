@@ -2,10 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="477da253-88be-40ae-98c6-8ed2876fb43d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/AccountCreationTests.getBusinessTypeJSON.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/AccountCreationTests.getBusinessTypeJSON.approved.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getAllTypeJSON.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getAllTypeJSON.approved.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getAllTypeJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getConsultansJSON.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getConsultansJSON.approved.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getConsultansJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getCosmeticsJSON.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getCosmeticsJSON.approved.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getCosmeticsJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getHairSalonJSON.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getHairSalonJSON.approved.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getHairSalonJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getHolisticJSON.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getHolisticJSON.approved.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getHolisticJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getInstallersJSON.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getInstallersJSON.approved.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getInstallersJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getInteriorJSON.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getInteriorJSON.approved.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getInteriorJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getMakeupJSON.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getMakeupJSON.approved.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getMakeupJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getMassageJSON.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getMassageJSON.approved.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getMassageJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getMoversJSON.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getMoversJSON.approved.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getMoversJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getNailJSON.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getNailJSON.approved.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getNailJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getNutritionistsJSON.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getNutritionistsJSON.approved.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getNutritionistsJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getPersonalJSON.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getPersonalJSON.approved.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getPersonalJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getPestJSON.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getPestJSON.approved.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getPestJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getSalesJSON.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getSalesJSON.approved.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getSalesJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getServiceProvidersJSON.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getServiceProvidersJSON.approved.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getServiceProvidersJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getTattooJSON.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getTattooJSON.approved.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getTattooJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getTeachersJSON.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getTeachersJSON.approved.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getTeachersJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getTherapistsJSON.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getTherapistsJSON.approved.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.getTherapistsJSON.received.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.withoutTypeJSON.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.withoutTypeJSON.approved.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/java/lista2020/tests/VerifyServicesSetTests.withoutTypeJSON.received.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/ClientCreationTests.createClient.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/ClientCreationTests.createClient.approved.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/ApplicationManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/resources/test/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/resources/test/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,10 +174,20 @@
       <recent name="D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ClientCreationRest.xml">
+  <component name="RunManager" selected="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml">
     <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml" type="TestNG" nameIsGenerated="true">
       <module name="API_AccountCreation_DDT_Tests.test" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-ServiceVerificationRest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="API_AccountCreation_DDT_Tests.test" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/resources/testng-ServiceVerificationRest.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -177,16 +225,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-Service.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium_tests.test" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/../Selenium_tests/src/test/resources/testng-Service.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-Singup.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_tests.test" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/../Selenium_tests/src/test/resources/testng-Singup.xml" />
@@ -210,19 +248,19 @@
     <list>
       <item itemvalue="TestNG.F:/Devel_2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AccountCreationRest.xml" />
       <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml" />
-      <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-Service.xml" />
       <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-Singup.xml" />
       <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-AppointmentCreation.xml" />
       <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-ClientCreationCount.xml" />
       <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ClientCreationRest.xml" />
+      <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-ServiceVerificationRest.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-ServiceVerificationRest.xml" />
         <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ClientCreationRest.xml" />
         <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-Singup.xml" />
         <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-ClientCreationCount.xml" />
         <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-AppointmentCreation.xml" />
-        <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-Service.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -294,22 +332,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="370" y="182" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1594843146613" />
-    <state width="1237" height="259" key="GridCell.Tab.0.bottom" timestamp="1597013986021">
+    <state width="1237" height="259" key="GridCell.Tab.0.bottom" timestamp="1597251289961">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="259" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597013986021" />
-    <state width="1237" height="259" key="GridCell.Tab.0.center" timestamp="1597013986021">
+    <state width="1237" height="259" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1597251289961" />
+    <state width="1237" height="259" key="GridCell.Tab.0.center" timestamp="1597251289961">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="259" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1597013986021" />
-    <state width="1237" height="259" key="GridCell.Tab.0.left" timestamp="1597013986021">
+    <state width="1237" height="259" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1597251289961" />
+    <state width="1237" height="259" key="GridCell.Tab.0.left" timestamp="1597251289961">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="259" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1597013986021" />
-    <state width="1237" height="259" key="GridCell.Tab.0.right" timestamp="1597013986021">
+    <state width="1237" height="259" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1597251289961" />
+    <state width="1237" height="259" key="GridCell.Tab.0.right" timestamp="1597251289961">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="259" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1597013986021" />
+    <state width="1237" height="259" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1597251289961" />
     <state width="1237" height="186" key="GridCell.Tab.1.bottom" timestamp="1596049502290">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

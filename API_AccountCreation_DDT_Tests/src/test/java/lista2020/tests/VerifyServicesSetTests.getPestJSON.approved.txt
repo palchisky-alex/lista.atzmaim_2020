@@ -5,6 +5,7 @@ Transfer-Encoding=chunked
 Connection=keep-alive
 Vary=Accept-Encoding
 ###Set-Cookie##
+###Set-Cookie##
 ###X-Request-Id##
 Strict-Transport-Security=max-age=604800
 X-Content-Type-Options=nosniff
@@ -16,7 +17,7 @@ Content-Encoding=gzip
 [
     {
         "id": 1,
-        "name": "???? ??????? / ???? ????",
+        "name": "שיחה טלפונית / הצעת מחיר",
         "price": "0",
         "duration": 30,
         "color": "#ff98ad",
@@ -27,7 +28,7 @@ Content-Encoding=gzip
     },
     {
         "id": 2,
-        "name": "????? ???? 2 ?????",
+        "name": "הדברה דירת 2 חדרים",
         "price": "0",
         "duration": 60,
         "color": "#ff98ad",
@@ -38,7 +39,7 @@ Content-Encoding=gzip
     },
     {
         "id": 3,
-        "name": "????? ???? 3 ?????",
+        "name": "הדברה דירת 3 חדרים",
         "price": "0",
         "duration": 60,
         "color": "#ff98ad",
@@ -49,7 +50,7 @@ Content-Encoding=gzip
     },
     {
         "id": 4,
-        "name": "????? ???? 4 ?????",
+        "name": "הדברה דירת 4 חדרים",
         "price": "0",
         "duration": 90,
         "color": "#ff98ad",
@@ -60,7 +61,7 @@ Content-Encoding=gzip
     },
     {
         "id": 5,
-        "name": "????? ????? ????",
+        "name": "הדברה יחידת דיור",
         "price": "0",
         "duration": 60,
         "color": "#ff98ad",
@@ -71,7 +72,7 @@ Content-Encoding=gzip
     },
     {
         "id": 6,
-        "name": "????? ??? ???? - ???",
+        "name": "הדברה בית פרטי - קטן",
         "price": "0",
         "duration": 120,
         "color": "#ff98ad",
@@ -82,7 +83,7 @@ Content-Encoding=gzip
     },
     {
         "id": 7,
-        "name": "????? ??? ???? - ????",
+        "name": "הדברה בית פרטי - גדול",
         "price": "0",
         "duration": 180,
         "color": "#ff98ad",
@@ -93,7 +94,7 @@ Content-Encoding=gzip
     },
     {
         "id": 8,
-        "name": "????? ???? ?????",
+        "name": "הדברת ביוב מרכזי",
         "price": "0",
         "duration": 30,
         "color": "#ff98ad",
@@ -104,7 +105,7 @@ Content-Encoding=gzip
     },
     {
         "id": 9,
-        "name": "????? ??????? / ???",
+        "name": "הדברה חיצונית / חצר",
         "price": "0",
         "duration": 60,
         "color": "#ff98ad",
@@ -115,7 +116,7 @@ Content-Encoding=gzip
     },
     {
         "id": 10,
-        "name": "????? ???? / ??? / ????",
+        "name": "הדברת חנות / עסק / משרד",
         "price": "0",
         "duration": 60,
         "color": "#ff98ad",
@@ -126,7 +127,7 @@ Content-Encoding=gzip
     },
     {
         "id": 11,
-        "name": "????? ?????? ????? ",
+        "name": "הדברת מוסדות ציבור ",
         "price": "0",
         "duration": 180,
         "color": "#ff98ad",

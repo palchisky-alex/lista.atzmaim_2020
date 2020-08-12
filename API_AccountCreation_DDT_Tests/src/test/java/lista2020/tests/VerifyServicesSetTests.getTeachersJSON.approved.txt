@@ -5,6 +5,7 @@ Transfer-Encoding=chunked
 Connection=keep-alive
 Vary=Accept-Encoding
 ###Set-Cookie##
+###Set-Cookie##
 ###X-Request-Id##
 Strict-Transport-Security=max-age=604800
 X-Content-Type-Options=nosniff
@@ -16,7 +17,7 @@ Content-Encoding=gzip
 [
     {
         "id": 1,
-        "name": "????? ?????? / ??????",
+        "name": "פגישת היכרות / ראשונה",
         "price": "0",
         "duration": 90,
         "color": "#a44bc2",
@@ -27,7 +28,7 @@ Content-Encoding=gzip
     },
     {
         "id": 2,
-        "name": "????? - 45 ??'",
+        "name": "שיעור - 45 דק'",
         "price": "0",
         "duration": 45,
         "color": "#a44bc2",
@@ -38,7 +39,7 @@ Content-Encoding=gzip
     },
     {
         "id": 3,
-        "name": "????? - 60 ??'",
+        "name": "שיעור - 60 דק'",
         "price": "0",
         "duration": 60,
         "color": "#a44bc2",
@@ -49,7 +50,7 @@ Content-Encoding=gzip
     },
     {
         "id": 4,
-        "name": "????? - 90 ??'",
+        "name": "שיעור - 90 דק'",
         "price": "0",
         "duration": 90,
         "color": "#a44bc2",
@@ -60,7 +61,7 @@ Content-Encoding=gzip
     },
     {
         "id": 5,
-        "name": "????? - 120 ??'",
+        "name": "שיעור - 120 דק'",
         "price": "0",
         "duration": 120,
         "color": "#a44bc2",
