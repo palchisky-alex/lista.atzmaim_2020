@@ -30,6 +30,7 @@ task testNewAppointment_C(type: Test) {
     useTestNG() {
         suites './src/test/resources/testng-AppointmentCreation_C.xml'
     }
+}
 
 task testNewAppointmentModification(type: Test) {
     useTestNG() {
