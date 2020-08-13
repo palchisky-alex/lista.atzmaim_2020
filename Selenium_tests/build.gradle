@@ -18,6 +18,12 @@ task testNewAppointment_A(type: Test) {
     }
 }
 
+task testNewAppointment_B(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/testng-AppointmentCreation_B.xml'
+    }
+}
+
 task testNewAppointment(type: Test) {
     useTestNG() {
         suites './src/test/resources/testng-AppointmentCreation.xml'

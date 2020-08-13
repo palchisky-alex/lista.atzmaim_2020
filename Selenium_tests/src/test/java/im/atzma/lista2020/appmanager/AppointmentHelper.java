@@ -171,6 +171,31 @@ public class AppointmentHelper extends HelperBase {
         click(btn_save);
     }
 
+    public void create_B(String clientName, String tel, String service, String category) throws InterruptedException {
+        chooseAppointmentHour();
+        click(driver.findElement(By.cssSelector("button.create_btn")));     // add client
+        fillText(driver.findElement(By.id("text")), clientName);            // add client
+        fillText(driver.findElement(By.cssSelector("[name=phone]")), tel);  // add client
+        click(btn_save);                                                    // save client
+        Thread.sleep(2000);
+        click(driver.findElement(By.cssSelector("button.create_btn")));                     // add service
+        waitForElement(driver.findElement(By.cssSelector(".add-procedure > .add-procedure__main-content")));
+        fillText(driver.findElement(By.cssSelector("input[name=checkClientsList]")), service);   // add service
+
+        click(driver.findElement(By.cssSelector(".category__wrap > .category")));                           // add category
+        fillText(driver.findElement(By.cssSelector(".category__list-search > [type=search]")), category);   // add category
+        click(driver.findElement(By.cssSelector("button.category__list-add-procedure")));                   // save category
+
+        for (int i = 0; i < 2; i++) {
+            click(driver.findElement(By.cssSelector(".duration__actions > .round-button:nth-child(3)")));   // add duration
+            click(driver.findElement(By.cssSelector(".price__actions > .round-button:nth-child(3)")));      //add price
+        }
+
+        click(btn_save); // save service for queue
+        waitForElement(driver.findElement(By.cssSelector("span.favorites-procedures-name__span")));
+        click(btn_save); // save service for queue
+    }
+
     public void create(String clientName) throws InterruptedException {
         chooseAppointmentHour();
         fillNewAppointment(clientName);
@@ -195,10 +220,12 @@ public class AppointmentHelper extends HelperBase {
         click(tempService);
         click(btn_save);
     }
+
     public void addQueueNote(String my_note) throws InterruptedException {
         clickJScript(driver.findElement(By.cssSelector("form:nth-child(1) .switch-label")));
         fillText(driver.findElement(By.cssSelector("textarea.subject-textarea-wrap__text")), my_note);
     }
+
     public void addQueueAdress() {
         clickJScript(driver.findElement(By.cssSelector("form.switch-form")));
     }
@@ -471,7 +498,6 @@ public class AppointmentHelper extends HelperBase {
 
         return error;
     }
-
 
 
 }

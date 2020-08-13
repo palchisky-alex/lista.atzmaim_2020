@@ -110,7 +110,7 @@ public class HelperBase {
 
     public void waitForElement(WebElement myElement) throws InterruptedException {
         for (int second = 0; ; second++) {
-            if (second >= 20) fail("timeout");
+            if (second >= 100) fail("timeout");
             if (myElement.isDisplayed()) break;
         }
     }
