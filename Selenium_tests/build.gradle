@@ -12,7 +12,11 @@ dependencies {
     implementation 'org.hamcrest:java-hamcrest:2.0.0.0'
 
 }
-
+task testNewAppointment_A(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/testng-AppointmentCreation_A.xml'
+    }
+}
 
 task testNewAppointment(type: Test) {
     useTestNG() {
