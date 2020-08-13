@@ -284,8 +284,8 @@ public class AppointmentHelper extends HelperBase {
             clickJS(driver.findElement(By.cssSelector(".fc-nonbusiness")));
             Thread.sleep(500);
         } else System.out.println("nonbusiness day not present");
-
-        driver.findElement(By.xpath("//tr[5]/td[1]")).click(); // click on empty slot hour
+clickJScript(driver.findElement(By.xpath("//tr[5]/td[1]")));
+//        driver.findElement(By.xpath("//tr[5]/td[1]")).click(); // click on empty slot hour
     }
 
     public void clickOnExistsAppointment() throws InterruptedException {
