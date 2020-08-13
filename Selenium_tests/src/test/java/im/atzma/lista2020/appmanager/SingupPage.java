@@ -50,7 +50,7 @@ public class SingupPage extends HelperBase {
 
     }
     public boolean verifyButton() throws InterruptedException {
-        waitForElement(driver.findElement(By.cssSelector(".more_wrap")));
+        Thread.sleep(7000);
         if(isElementVisible(driver.findElement(By.cssSelector(".more_wrap")))) {
             return true;
         }
