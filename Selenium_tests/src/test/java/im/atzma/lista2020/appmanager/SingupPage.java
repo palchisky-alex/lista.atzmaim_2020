@@ -38,7 +38,9 @@ public class SingupPage extends HelperBase {
 
     public void pressOnDoneButton() { click(driver.findElement(By.cssSelector(".all-set-form__button"))); }
 
-    public void pressOnNextButton() { click(driver.findElement(By.cssSelector(".next-step"))); }
+    public void pressOnNextButton() throws InterruptedException { click(driver.findElement(By.cssSelector(".next-step")));
+    Thread.sleep(10000);
+    }
 
     public void fillAccountData() throws InterruptedException {
         Random random = new Random();

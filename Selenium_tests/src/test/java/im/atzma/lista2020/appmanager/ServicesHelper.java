@@ -106,7 +106,7 @@ public class ServicesHelper extends HelperBase {
     @FindBy(css = ".create-button")
     WebElement btn_saveCategory;
 
-    @FindBy(css = ".enabled")
+    @FindBy(css = ".bottom.enabled")
     WebElement btn_saveService_enabled;
     @FindBy(css = ".duration__plus-icon1")
     WebElement btn_duration_plus;
@@ -114,7 +114,7 @@ public class ServicesHelper extends HelperBase {
     @FindBy(xpath = "//button[@class='.disabled']")
     WebElement btn_saveService_disabled;
 
-    @FindBy(xpath = "//input[@placeholder='הזינו שם של טיפול']")
+    @FindBy(css = "input.search-input")
     WebElement inputBox_placeholder;
 
     @FindBy(xpath = "//p[@class='name-services']")
@@ -294,12 +294,14 @@ public class ServicesHelper extends HelperBase {
             click(btn_duration_plus);
         }
         click(btn_saveService_enabled);
+        waitForElement(inputBox_placeholder);
 
     }
 
 
 
     public String verifyTempService(String tempServiceName) throws InterruptedException {
+        waitForElement(inputBox_placeholder);
         fillText(inputBox_placeholder, tempServiceName);
         highlight(btn_procedures_item__add);
         return btn_procedures_item__add.getText();

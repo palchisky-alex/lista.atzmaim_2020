@@ -96,6 +96,7 @@ public class NavigationHelper extends HelperBase {
     }
 
     public void closePopup() throws InterruptedException {
+        Thread.sleep(500);
         if(isElementVisible(driver.findElement(By.cssSelector(".installModal")))) {
             click(driver.findElement(By.cssSelector(".no-btn")));
         }

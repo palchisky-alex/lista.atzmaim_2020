@@ -139,7 +139,8 @@ public class HelperBase {
     }
 
     public boolean isElementVisible(WebElement el) {
-        if (el.isDisplayed() || el.getSize().getHeight() != 0) {
+        if ( el.getSize().getHeight() != 0) {
+            System.out.println(el.getSize().getHeight());
             return true;
         } else
             return false;

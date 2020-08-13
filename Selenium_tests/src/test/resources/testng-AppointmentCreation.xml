@@ -16,15 +16,15 @@
                     <include name="testPopupInstallation"/>
                 </methods>
             </class>
+            <class name="im.atzma.lista2020.tests.DeleteAppointmentTest">
+                <methods>
+                    <include name="testAppointmentDeletion"/>
+                </methods>
+            </class>
             <class name="im.atzma.lista2020.tests.ClientCreationTest">
                 <methods>
                     <include name="initNewClientCreation"/>
                     <include name="testCreateClientCount"/>
-                </methods>
-            </class>
-            <class name="im.atzma.lista2020.tests.DeleteAppointmentTest">
-                <methods>
-                    <include name="testAppointmentDeletion"/>
                 </methods>
             </class>
             <class name="im.atzma.lista2020.tests.CreateAppointmentTest">

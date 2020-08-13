@@ -119,7 +119,7 @@ public class ApplicationManager {
                     URI.create("http://68.183.243.172:4444/wd/hub").toURL(), chromeOptions);
         }
 
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
         driver.manage().window().maximize();
 
