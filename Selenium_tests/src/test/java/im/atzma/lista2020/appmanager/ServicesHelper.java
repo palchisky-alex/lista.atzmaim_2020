@@ -294,7 +294,6 @@ public class ServicesHelper extends HelperBase {
             click(btn_duration_plus);
         }
         click(btn_saveService_enabled);
-        waitForElement(inputBox_placeholder);
 
     }
 
