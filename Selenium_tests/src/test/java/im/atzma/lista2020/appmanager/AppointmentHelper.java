@@ -40,7 +40,7 @@ public class AppointmentHelper extends HelperBase {
     @FindBy(xpath = "//div[text()='Temp services_katalon']")
     WebElement temp_service;
 
-    @FindBy(xpath = "//input[@placeholder='חפש טיפול או הכנס חדש']")
+    @FindBy(css = "input.search-inner__input")
     WebElement input_findService;
 
     @FindBy(xpath = "//span[text()='הבא']/..")
@@ -164,6 +164,12 @@ public class AppointmentHelper extends HelperBase {
         click(next_arrow);
     }
 
+    public void create_A() throws InterruptedException {
+        chooseAppointmentHour();
+        click(btn_save);
+        waitForElement(input_findService);
+        click(btn_save);
+    }
 
     public void create(String clientName) throws InterruptedException {
         chooseAppointmentHour();
@@ -197,6 +203,16 @@ public class AppointmentHelper extends HelperBase {
         clickJScript(driver.findElement(By.cssSelector("form.switch-form")));
     }
 
+    public void addNewQueueAdress() throws InterruptedException {
+        clickJScript(driver.findElement(By.cssSelector("form.switch-form")));
+        fillText(driver.findElement(By.cssSelector("input#pac-input")), "רוקח 18, רמת גן, ישראל 1");
+        click(driver.findElement(By.cssSelector(".center.save-button")));
+        for (int i = 0; i < 2; i++) {
+            click(driver.findElement(By.cssSelector(".round-button:nth-child(5)")));
+            click(driver.findElement(By.cssSelector(".round-button:nth-child(4)")));
+        }
+    }
+
     public void addServiceCategory(String service, String notExistCategory) throws InterruptedException {
         click(input_findService);
         waitForElement(input_findService);
@@ -226,6 +242,20 @@ public class AppointmentHelper extends HelperBase {
 
 
     public List<String> verifyAppointmentCreation() throws InterruptedException {
+        List<String> itemList = new ArrayList<>();
+        itemList.add(appointmentTime.getText());
+        itemList.add(appointmentClientName.getText());
+        itemList.add(appointmentServiceName.getText());
+        itemList.add(appointmentDuration.getText());
+        itemList.add(appointmentAddress.getText());
+        itemList.add(appointmentNote.getText());
+
+        System.out.println(itemList);
+
+        return itemList;
+    }
+
+    public List<String> verifyAppointmentCreation_A() {
         List<String> itemList = new ArrayList<>();
         itemList.add(appointmentTime.getText());
         itemList.add(appointmentClientName.getText());

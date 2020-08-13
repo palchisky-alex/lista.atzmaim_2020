@@ -90,7 +90,7 @@ public class NavigationHelper extends HelperBase {
         driver.get(getURLfromList);
         String currentURL = driver.getCurrentUrl();
         if (!currentURL.equals(getURLfromList)) {
-            Thread.sleep(10000);
+            Thread.sleep(1000);
         }
         closePopup();
     }
