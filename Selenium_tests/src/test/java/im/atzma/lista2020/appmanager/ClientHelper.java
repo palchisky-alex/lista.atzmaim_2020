@@ -199,8 +199,6 @@ public class ClientHelper extends HelperBase {
         click(btn_saveDebtNote);
 
         click(btn_saveClientForm);
-        waitForElement(driver.findElement(By.xpath("//img[@src='/public/clients-details/media/whatsapp.svg']")));
-
     }
 
     public String verifyNewClientCreation() {
