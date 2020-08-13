@@ -49,7 +49,8 @@ public class SingupPage extends HelperBase {
         click(driver.findElement(By.cssSelector(".login-button")));
 
     }
-    public boolean verifyButton() {
+    public boolean verifyButton() throws InterruptedException {
+        waitForElement(driver.findElement(By.cssSelector(".more_wrap")));
         if(isElementVisible(driver.findElement(By.cssSelector(".more_wrap")))) {
             return true;
         }
