@@ -19,9 +19,6 @@ public class AppointmentHelper extends HelperBase {
     @FindBy(xpath = "//tr[5]/td[1]")
     WebElement time_15;
 
-    @FindBy(css = "tr[data-time] > :first-child")
-    List<WebElement> all_time_slots;
-
     @FindBy(xpath = "//a[@data-appointment_id]")
     List<WebElement> btn_existing_appointment;
 
@@ -42,9 +39,6 @@ public class AppointmentHelper extends HelperBase {
 
     @FindBy(css = "input.search-inner__input")
     WebElement input_findService;
-
-    @FindBy(xpath = "//span[text()='הבא']/..")
-    WebElement btn_next;
 
     @FindBy(css = ".bottomnav__bottom.bottomnav__bottom--next")
     WebElement btn_save;
@@ -68,15 +62,15 @@ public class AppointmentHelper extends HelperBase {
     @FindBy(xpath = "//*[@class='service-item']")
     WebElement appointmentServiceName;
 
-    @FindBy(xpath = "//button[@class=\"btn-styl delete\"]")
+    @FindBy(xpath = "//button[@class='btn-styl delete']")
     WebElement btn_deleteAppointment;
     @FindBy(xpath = "//button[@class='btn-styl edite']")
     WebElement btn_modifyAppointment;
 
-    @FindBy(xpath = "//button[contains(.,'למחוק')]")
+    @FindBy(css = ".deleteModal .yes-btn")
     WebElement btn_confirm_AppointmentDeletion;
 
-    @FindBy(xpath = "//p[@class=\"floating-button standartLeft\"]")
+    @FindBy(xpath = "//p[@class='floating-button standartLeft']")
     WebElement btn_addNewAppointment;
 
     @FindBy(xpath = "//div[@class='prev_button_wrap common']")
@@ -118,18 +112,11 @@ public class AppointmentHelper extends HelperBase {
     WebElement btn_save_form;
     @FindBy(xpath = "//span[@class='bottomnav__bottom bottomnav__bottom--next']")
     WebElement btn_save_form_2;
-    @FindBy(xpath = "//input[@placeholder='הזן שם של קטגוריה חדשה']")
+    @FindBy(css = ".category__list-search > [type=search]")
     WebElement inputBox_placeholder;
-    @FindBy(xpath = "//button")
-    WebElement btn_add_category;
+
     @FindBy(xpath = "//*[@class='category__list-add-procedure category__list-add-procedure--active']")
     WebElement btn_add_newCategory;
-    @FindBy(xpath = "//span[text()='הוסף טיפול']/..")
-    WebElement btn_add_Service;
-    @FindBy(css = ".add-button.add-rtl")
-    WebElement icon_plus_addSerice;
-    @FindBy(css = ".click-mask")
-    WebElement appointment;
 
     @FindBy(xpath = "(//*[@class='regulation-menu-plus'])[2]")
     WebElement btn_duration_plus;
@@ -150,8 +137,6 @@ public class AppointmentHelper extends HelperBase {
 
     @FindBy(xpath = "//span[@class='login-err__text']")
     WebElement msg_error;
-    @FindBy(xpath = "//*[@style='max-height: 0px; overflow: hidden;']")
-    WebElement service_area;
 
     @FindBy(xpath = "//*[@href='/he/settings/business']/p")
     WebElement btn_buisness_settings;
@@ -255,20 +240,14 @@ public class AppointmentHelper extends HelperBase {
         fillText(input_findService, " ");
         click(input_findService);
         fillText(input_findService, service);
-        waitForElement(btn_add_Service);
         click(btn_save);
         waitForElement(inputBox_placeholder);
         fillText(inputBox_placeholder, notExistCategory);
         waitForElement(btn_add_newCategory);
         click(btn_add_newCategory);
-        waitForElement(btn_add_Service);
-       // addDurationAndPriceToService();
-        click(btn_add_Service);
-
-
-        waitForElement(btn_next);
-        System.out.println("Button text 4 : " + btn_next.getText());
-        click(btn_next);
+        addDurationAndPriceToService();
+        click(btn_save);
+        click(btn_save);
 
         Thread.sleep(500);
 
