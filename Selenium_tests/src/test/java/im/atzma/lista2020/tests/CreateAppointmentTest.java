@@ -61,7 +61,7 @@ public class CreateAppointmentTest extends TestBase {
     }
 
     @Test()
-    public void testAppointmentCreation() throws InterruptedException, IOException {
+    public void testAppointmentCreation_E() throws InterruptedException, IOException {
         app.goTo().calendarPage();
         app.appointment().create("Temp Client katalon");
         app.appointment().addServiceCategory("Temp services_katalon", "Temp category_katalon");

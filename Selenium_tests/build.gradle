@@ -36,9 +36,9 @@ task testNewAppointment_D(type: Test) {
     }
 }
 
-task testNewAppointment(type: Test) {
+task testNewAppointment_E(type: Test) {
     useTestNG() {
-        suites './src/test/resources/testng-AppointmentCreation.xml'
+        suites './src/test/resources/testng-AppointmentCreation_E.xml'
     }
     if (project.hasProperty('browser')) {
         systemProperty 'browser', "${browser}"

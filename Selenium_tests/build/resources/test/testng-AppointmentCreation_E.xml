@@ -29,7 +29,7 @@
             </class>
             <class name="im.atzma.lista2020.tests.CreateAppointmentTest">
             <methods>
-                <include name="testAppointmentCreation_D"/>
+                <include name="testAppointmentCreation_E"/>
             </methods>
         </class>
             <class name="im.atzma.lista2020.tests.DeleteAccountTest">

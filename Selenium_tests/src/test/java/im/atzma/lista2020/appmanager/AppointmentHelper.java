@@ -245,7 +245,7 @@ public class AppointmentHelper extends HelperBase {
         fillText(inputBox_placeholder, notExistCategory);
         waitForElement(btn_add_newCategory);
         click(btn_add_newCategory);
-        addDurationAndPriceToService();
+
         click(btn_save);
         click(btn_save);
 
