@@ -191,7 +191,13 @@ public class AppointmentHelper extends HelperBase {
 
     }
 
-    public void create(String clientName) throws InterruptedException {
+    public void create_E(String service) throws InterruptedException {
+        chooseAppointmentHour();
+        click(btn_save); // next
+        chooseService(service);
+    }
+
+    public void create_F(String clientName) throws InterruptedException {
         chooseAppointmentHour();
         fillNewAppointment(clientName);
     }
@@ -476,6 +482,5 @@ click(driver.findElement(By.cssSelector("[data-time='12:00:00'] td:nth-child(1)"
 
         return error;
     }
-
 
 }

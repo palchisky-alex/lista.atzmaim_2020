@@ -61,9 +61,22 @@ public class CreateAppointmentTest extends TestBase {
     }
 
     @Test()
+    public void testAppointmentCreation_E() throws InterruptedException, IOException {
+        app.goTo().calendarPage();
+        app.appointment().create_E("Temp services_katalon");
+        app.appointment().addNewQueueAdress();
+        app.appointment().addQueueNote("My note");
+        app.appointment().saveForm();
+
+        String expected = "[◀ Duration: 1ש45דק ▶, ◀ Time: 12:00 - 13:45 ▶, ◀ Client name: לקוח מזדמן ▶, ◀ Service: Temp services_katalon ▶, ◀ Address: רוקח 18, רמת גן, ישראל ▶, ◀ Note: My note ▶]";
+        List<String> actual = app.appointment().verifyAppointmentCreation();
+        Assert.assertEquals(actual.toString(), expected, "verify appointment creation");
+    }
+
+    @Test()
     public void testAppointmentCreation_F() throws InterruptedException, IOException {
         app.goTo().calendarPage();
-        app.appointment().create("Temp Client katalon");
+        app.appointment().create_F("Temp Client katalon");
         app.appointment().addServiceCategory("Temp services_katalon", "Temp category_katalon");
         app.appointment().addQueueAdress();
         app.appointment().addQueueNote("My note");
