@@ -188,7 +188,7 @@ public class AppointmentHelper extends HelperBase {
         chooseAppointmentHour();
         fillNewAppointment(clientName);
         click(btn_save);
-        addDurationAndPriceToService();
+
     }
 
     public void create(String clientName) throws InterruptedException {
@@ -224,7 +224,6 @@ public class AppointmentHelper extends HelperBase {
         clickJScript(driver.findElement(By.cssSelector("form.switch-form")));
         fillText(driver.findElement(By.cssSelector("input#pac-input")), "רוקח 18, רמת גן, ישראל 1");
         click(driver.findElement(By.cssSelector(".center.save-button")));
-        addDurationAndPriceToService();
     }
 
     public void addDurationAndPriceToService() {
@@ -462,6 +461,7 @@ public class AppointmentHelper extends HelperBase {
     }
 
     public void saveForm() throws InterruptedException {
+        addDurationAndPriceToService();
         click(btn_save);
     }
 
