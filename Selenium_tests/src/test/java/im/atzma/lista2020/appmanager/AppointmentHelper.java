@@ -333,7 +333,7 @@ public class AppointmentHelper extends HelperBase {
 
 
     public int appointmentList() throws InterruptedException {
-        click(btn_refresh);
+        //click(btn_refresh);
         return btn_existing_appointment.size();
     }
 
