@@ -262,7 +262,7 @@ public class AppointmentHelper extends HelperBase {
         waitForElement(btn_add_newCategory);
         click(btn_add_newCategory);
         waitForElement(btn_add_Service);
-        addDurationAndPriceToService();
+       // addDurationAndPriceToService();
         click(btn_add_Service);
 
 
