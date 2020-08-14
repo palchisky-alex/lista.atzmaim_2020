@@ -29,7 +29,7 @@ public class CreateAppointmentTest extends TestBase {
         app.appointment().addQueueNote("My note");
         app.appointment().saveForm();
 
-        String expected = "[10:00 - 11:30, Temp Client, Temp Services, 1ש30דק, רוקח 18, רמת גן, ישראל 1, My note]";
+        String expected = "[10:00 - 11:30, Temp Client, Temp Services, ש30דק, רוקח 18, רמת גן, ישראל , My note]";
         List<String> actual = app.appointment().verifyAppointmentCreation_A();
         Assert.assertEquals(actual.toString(), expected, "verify appointment creation");
     }

@@ -222,7 +222,7 @@ public class AppointmentHelper extends HelperBase {
 
     public void addNewQueueAdress() throws InterruptedException {
         clickJScript(driver.findElement(By.cssSelector("form.switch-form")));
-        fillText(driver.findElement(By.cssSelector("input#pac-input")), "רוקח 18, רמת גן, ישראל 1");
+        fillText(driver.findElement(By.cssSelector("input#pac-input")), "רוקח 18, רמת גן, ישראל");
         click(driver.findElement(By.cssSelector(".center.save-button")));
     }
 
