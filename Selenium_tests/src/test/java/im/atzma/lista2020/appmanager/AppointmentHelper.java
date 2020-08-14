@@ -17,7 +17,7 @@ public class AppointmentHelper extends HelperBase {
     }
 
     @FindBy(xpath = "//tr[5]/td[1]")
-    WebElement time_15;
+    WebElement time_10;
 
     @FindBy(xpath = "//a[@data-appointment_id]")
     List<WebElement> btn_existing_appointment;
@@ -233,22 +233,14 @@ public class AppointmentHelper extends HelperBase {
         }
     }
 
-    public void addServiceCategory(String service, String notExistCategory) throws InterruptedException {
-        click(input_findService);
-        waitForElement(input_findService);
-        fillText(input_findService, " ");
-        click(input_findService);
+    public void addServiceCategory(String service, String category) throws InterruptedException {
+        click(driver.findElement(By.cssSelector("button.create_btn")));
         fillText(input_findService, service);
-        click(btn_save);
-        waitForElement(inputBox_placeholder);
-        fillText(inputBox_placeholder, notExistCategory);
-        waitForElement(btn_add_newCategory);
-        click(btn_add_newCategory);
-
+        click(driver.findElement(By.cssSelector(".category__wrap > .category")));
+        fillText(driver.findElement(By.cssSelector(".category__list-search > [type=search]")), category);
+        click(driver.findElement(By.cssSelector("button.category__list-add-procedure")));
         click(btn_save);
         click(btn_save);
-
-        Thread.sleep(500);
 
     }
 
@@ -321,8 +313,8 @@ public class AppointmentHelper extends HelperBase {
             clickJS(driver.findElement(By.cssSelector(".fc-nonbusiness")));
             Thread.sleep(500);
         } else System.out.println("nonbusiness day not present");
-//clickJScript(driver.findElement(By.xpath("//tr[5]/td[1]")));
-        driver.findElement(By.xpath("//tr[5]/td[1]")).click(); // click on empty slot hour
+click(driver.findElement(By.cssSelector("[data-time='12:00:00'] td:nth-child(1)")));
+//        driver.findElement(By.xpath("//tr[5]/td[1]")).click(); // click on empty slot hour
     }
 
     public void clickOnExistsAppointment() throws InterruptedException {
