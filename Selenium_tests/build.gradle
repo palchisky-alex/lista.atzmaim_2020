@@ -24,6 +24,18 @@ task testNewAppointment_B(type: Test) {
     }
 }
 
+task testNewAppointment_C(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/testng-AppointmentCreation_C.xml'
+    }
+}
+
+task testNewAppointment_D(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/testng-AppointmentCreation_D.xml'
+    }
+}
+
 task testNewAppointment(type: Test) {
     useTestNG() {
         suites './src/test/resources/testng-AppointmentCreation.xml'
@@ -36,11 +48,7 @@ task testNewAppointment(type: Test) {
         systemProperty 'target', "${target}"
     }
 }
-task testNewAppointment_C(type: Test) {
-    useTestNG() {
-        suites './src/test/resources/testng-AppointmentCreation_C.xml'
-    }
-}
+
 
 task testNewAppointmentModification(type: Test) {
     useTestNG() {

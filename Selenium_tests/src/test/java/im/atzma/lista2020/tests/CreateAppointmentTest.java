@@ -35,6 +35,32 @@ public class CreateAppointmentTest extends TestBase {
     }
 
     @Test()
+    public void testAppointmentCreation_C() throws InterruptedException, IOException {
+        app.goTo().calendarPage();
+        app.appointment().create_C("Temp Client katalon", "Temp services_katalon");
+        app.appointment().addQueueAdress();
+        app.appointment().addQueueNote("My note");
+        app.appointment().saveForm();
+
+        String expected = "[10:00 - 11:00, Temp Client katalon, Temp services_katalon, 1 שעה, רוקח 18, רמת גן, ישראל, My note]";
+        List<String> actual = app.appointment().verifyAppointmentCreation();
+        Assert.assertEquals(actual.toString(), expected, "verify appointment creation");
+    }
+
+    @Test()
+    public void testAppointmentCreation_D() throws InterruptedException, IOException {
+        app.goTo().calendarPage();
+        app.appointment().create_D("Temp Client katalon");
+        app.appointment().addQueueAdress();
+        app.appointment().addQueueNote("My note");
+        app.appointment().saveForm();
+
+        String expected = "[10:00 - 11:00, Temp Client katalon, , 1 שעה, רוקח 18, רמת גן, ישראל, My note]";
+        List<String> actual = app.appointment().verifyAppointmentCreation_A();
+        Assert.assertEquals(actual.toString(), expected, "verify appointment creation");
+    }
+
+    @Test()
     public void testAppointmentCreation() throws InterruptedException, IOException {
         app.goTo().calendarPage();
         app.appointment().create("Temp Client katalon");
@@ -48,17 +74,5 @@ public class CreateAppointmentTest extends TestBase {
         Assert.assertEquals(actual.toString(), expected, "verify appointment creation");
     }
 
-    @Test()
-    public void testAppointmentCreation_C() throws InterruptedException, IOException {
-        app.goTo().calendarPage();
-        app.appointment().create_C("Temp Client katalon", "Temp services_katalon");
-        app.appointment().addQueueAdress();
-        app.appointment().addQueueNote("My note");
-        app.appointment().saveForm();
-
-        String expected = "[10:00 - 11:00, Temp Client katalon, Temp services_katalon, 1 שעה, רוקח 18, רמת גן, ישראל, My note]";
-        List<String> actual = app.appointment().verifyAppointmentCreation();
-        Assert.assertEquals(actual.toString(), expected, "verify appointment creation");
-    }
 
 }

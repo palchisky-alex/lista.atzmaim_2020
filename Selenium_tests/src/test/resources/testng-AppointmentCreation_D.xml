@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite_appointment_creation">
+     <test verbose="1" preserve-order="true" name="testsClient">
+        <classes>
+            <class name="im.atzma.lista2020.tests.SingupTest">
+                <methods>
+                    <include name="testLoginPage"/>
+                    <include name="testSingupPage"/>
+                    <include name="testBusinessTypePage"/>
+                    <include name="testAllSetPage"/>
+                    <include name="testOnboardingPage"/>
+                    <include name="testOnboarding1Page"/>
+                    <include name="testOnboarding2Page"/>
+                    <include name="testCalendarPage"/>
+                    <include name="testPopupInstallation"/>
+                </methods>
+            </class>
+            <class name="im.atzma.lista2020.tests.DeleteAppointmentTest">
+                <methods>
+                    <include name="testAppointmentDeletion"/>
+                </methods>
+            </class>
+            <class name="im.atzma.lista2020.tests.ClientCreationTest">
+                <methods>
+                    <include name="initNewClientCreation"/>
+                    <include name="testCreateClientCount"/>
+                </methods>
+            </class>
+            <class name="im.atzma.lista2020.tests.CreateAppointmentTest">
+            <methods>
+                <include name="testAppointmentCreation_D"/>
+            </methods>
+        </class>
+            <class name="im.atzma.lista2020.tests.DeleteAccountTest">
+                <methods>
+                    <include name="testDeleteAccount"/>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+</suite>

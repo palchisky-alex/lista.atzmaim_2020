@@ -178,22 +178,32 @@ public class AppointmentHelper extends HelperBase {
         fillText(driver.findElement(By.cssSelector("[name=phone]")), tel);  // add client
         click(btn_save);                                                    // save client
         Thread.sleep(2000);
-        click(driver.findElement(By.cssSelector("button.create_btn")));                     // add service
-        waitForElement(driver.findElement(By.cssSelector(".add-procedure > .add-procedure__main-content")));
-        fillText(driver.findElement(By.cssSelector("input[name=checkClientsList]")), service);   // add service
+        addServiceCategory(service, category);
+//        click(driver.findElement(By.cssSelector("button.create_btn")));                     // add service
+//        waitForElement(driver.findElement(By.cssSelector(".add-procedure > .add-procedure__main-content")));
+//        fillText(driver.findElement(By.cssSelector("input[name=checkClientsList]")), service);   // add service
+//
+//        click(driver.findElement(By.cssSelector(".category__wrap > .category")));                           // add category
+//        fillText(driver.findElement(By.cssSelector(".category__list-search > [type=search]")), category);   // add category
+//        click(driver.findElement(By.cssSelector("button.category__list-add-procedure")));                   // save category
+//
 
-        click(driver.findElement(By.cssSelector(".category__wrap > .category")));                           // add category
-        fillText(driver.findElement(By.cssSelector(".category__list-search > [type=search]")), category);   // add category
-        click(driver.findElement(By.cssSelector("button.category__list-add-procedure")));                   // save category
+//        click(btn_save); // save service for queue
+//        waitForElement(driver.findElement(By.cssSelector("span.favorites-procedures-name__span")));
+//        click(btn_save); // save service for queue
+    }
 
-        for (int i = 0; i < 2; i++) {
-            click(driver.findElement(By.cssSelector(".duration__actions > .round-button:nth-child(3)")));   // add duration
-            click(driver.findElement(By.cssSelector(".price__actions > .round-button:nth-child(3)")));      //add price
-        }
+    public void create_C(String clientName, String serviceName) throws InterruptedException {
+        chooseAppointmentHour();
+        fillNewAppointment(clientName);
+        chooseService(serviceName);
+    }
 
-        click(btn_save); // save service for queue
-        waitForElement(driver.findElement(By.cssSelector("span.favorites-procedures-name__span")));
-        click(btn_save); // save service for queue
+    public void create_D(String clientName) throws InterruptedException {
+        chooseAppointmentHour();
+        fillNewAppointment(clientName);
+        click(btn_save);
+        addDurationAndPriceToService();
     }
 
     public void create(String clientName) throws InterruptedException {
@@ -209,11 +219,6 @@ public class AppointmentHelper extends HelperBase {
         click(tempClient);
     }
 
-    public void create_C(String clientName, String serviceName) throws InterruptedException {
-        chooseAppointmentHour();
-        fillNewAppointment(clientName);
-        chooseService(serviceName);
-    }
 
     private void chooseService(String serviceName) throws InterruptedException {
         fillText(input_findClient, serviceName);
@@ -234,6 +239,10 @@ public class AppointmentHelper extends HelperBase {
         clickJScript(driver.findElement(By.cssSelector("form.switch-form")));
         fillText(driver.findElement(By.cssSelector("input#pac-input")), "רוקח 18, רמת גן, ישראל 1");
         click(driver.findElement(By.cssSelector(".center.save-button")));
+        addDurationAndPriceToService();
+    }
+
+    public void addDurationAndPriceToService() {
         for (int i = 0; i < 2; i++) {
             click(driver.findElement(By.cssSelector(".round-button:nth-child(5)")));
             click(driver.findElement(By.cssSelector(".round-button:nth-child(4)")));
@@ -246,9 +255,7 @@ public class AppointmentHelper extends HelperBase {
         fillText(input_findService, " ");
         click(input_findService);
         fillText(input_findService, service);
-        for (int i = 0; i < 2; i++) {
-            click(driver.findElement(By.cssSelector(".duration__actions .round-button:nth-child(3)")));
-        }
+        addDurationAndPriceToService();
         waitForElement(btn_add_Service);
         click(btn_save);
         waitForElement(inputBox_placeholder);
