@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="suite_appointment_creation">
-     <test verbose="1" preserve-order="true" name="testsClient">
+<suite name="suite_appointment_creation_B">
+     <test verbose="1" preserve-order="true" name="queue_flow">
         <classes>
             <class name="im.atzma.lista2020.tests.SingupTest">
                 <methods>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="suite_appointment_creation">
+<suite name="suite_appointment_creation_F">
      <test verbose="1" preserve-order="true" name="testsClient">
         <classes>
             <class name="im.atzma.lista2020.tests.SingupTest">
@@ -35,6 +35,7 @@
             <class name="im.atzma.lista2020.tests.DeleteAccountTest">
                 <methods>
                     <include name="testDeleteAccount"/>
+<!--                    <include name="testDeleteAccountVerification"/>-->
                 </methods>
             </class>
         </classes>

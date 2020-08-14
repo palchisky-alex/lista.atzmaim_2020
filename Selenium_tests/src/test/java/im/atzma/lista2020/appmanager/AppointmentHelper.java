@@ -56,7 +56,7 @@ public class AppointmentHelper extends HelperBase {
 
     @FindBy(css = ".client-address")
     WebElement appointmentAddress;
-    @FindBy(css = ".client-note.nowrap")
+    @FindBy(css = ".client-note")
     WebElement appointmentNote;
 
     @FindBy(xpath = "//*[@class='service-item']")
@@ -227,7 +227,7 @@ public class AppointmentHelper extends HelperBase {
     }
 
     public void addDurationAndPriceToService() {
-        for (int i = 0; i < 2; i++) {
+        for (int i = 0; i < 3; i++) {
             click(driver.findElement(By.cssSelector(".round-button:nth-child(5)")));
             click(driver.findElement(By.cssSelector(".round-button:nth-child(4)")));
         }
@@ -255,12 +255,12 @@ public class AppointmentHelper extends HelperBase {
 
     public List<String> verifyAppointmentCreation() throws InterruptedException {
         List<String> itemList = new ArrayList<>();
-        itemList.add(appointmentTime.getText());
-        itemList.add(appointmentClientName.getText());
-        itemList.add(appointmentServiceName.getText());
-        itemList.add(appointmentDuration.getText());
-        itemList.add(appointmentAddress.getText());
-        itemList.add(appointmentNote.getText());
+        itemList.add("◀ Duration: " + appointmentDuration.getText() + " ▶");
+        itemList.add("◀ Time: " + appointmentTime.getText() + " ▶");
+        itemList.add("◀ Client name: " + appointmentClientName.getText() + " ▶");
+        itemList.add("◀ Service: " + appointmentServiceName.getText() + " ▶");
+        itemList.add("◀ Address: " + appointmentAddress.getText() + " ▶");
+        itemList.add("◀ Note: " + appointmentNote.getText() + " ▶");
 
         System.out.println(itemList);
 
@@ -273,8 +273,8 @@ public class AppointmentHelper extends HelperBase {
         itemList.add(appointmentClientName.getText());
         itemList.add(appointmentServiceName.getText());
         itemList.add(appointmentDuration.getText());
-        itemList.add(appointmentAddress.getText());
         itemList.add(appointmentNote.getText());
+        itemList.add(appointmentAddress.getText());
 
         System.out.println(itemList);
 

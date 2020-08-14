@@ -16,8 +16,8 @@ public class CreateAppointmentTest extends TestBase {
         app.appointment().addQueueNote("My note");
         app.appointment().saveForm();
 
-        String expected = "[10:00 - 11:00, לקוח מזדמן, , 1 שעה, רוקח 18, רמת גן, ישראל 1, My note]";
-        List<String> actual = app.appointment().verifyAppointmentCreation_A();
+        String expected = "[◀ Duration: 1ש15דק ▶, ◀ Time: 10:00 - 11:15 ▶, ◀ Client name: לקוח מזדמן ▶, ◀ Service:  ▶, ◀ Address: רוקח 18, רמת גן, ישראל ▶, ◀ Note: My note ▶]";
+        List<String> actual = app.appointment().verifyAppointmentCreation();
         Assert.assertEquals(actual.toString(), expected, "verify appointment creation");
     }
 
@@ -29,8 +29,8 @@ public class CreateAppointmentTest extends TestBase {
         app.appointment().addQueueNote("My note");
         app.appointment().saveForm();
 
-        String expected = "[10:00 - 11:30, Temp Client, Temp Services, ש30דק, רוקח 18, רמת גן, ישראל , My note]";
-        List<String> actual = app.appointment().verifyAppointmentCreation_A();
+        String expected = "[◀ Duration: 1ש15דק ▶, ◀ Time: 10:00 - 11:15 ▶, ◀ Client name: Temp Client ▶, ◀ Service: Temp Services ▶, ◀ Address: רוקח 18, רמת גן, ישראל ▶, ◀ Note: My note ▶]";
+        List<String> actual = app.appointment().verifyAppointmentCreation();
         Assert.assertEquals(actual.toString(), expected, "verify appointment creation");
     }
 
@@ -42,7 +42,7 @@ public class CreateAppointmentTest extends TestBase {
         app.appointment().addQueueNote("My note");
         app.appointment().saveForm();
 
-        String expected = "[10:00 - 11:00, Temp Client katalon, Temp services_katalon, 1 שעה, רוקח 18, רמת גן, ישראל, My note]";
+        String expected = "[◀ Duration: 1ש45דק ▶, ◀ Time: 10:00 - 11:45 ▶, ◀ Client name: Temp Client katalon ▶, ◀ Service: Temp services_katalon ▶, ◀ Address: רוקח 18, רמת גן, ישראל ▶, ◀ Note: My note ▶]";
         List<String> actual = app.appointment().verifyAppointmentCreation();
         Assert.assertEquals(actual.toString(), expected, "verify appointment creation");
     }
@@ -55,8 +55,8 @@ public class CreateAppointmentTest extends TestBase {
         app.appointment().addQueueNote("My note");
         app.appointment().saveForm();
 
-        String expected = "[10:00 - 11:00, Temp Client katalon, , 1 שעה, רוקח 18, רמת גן, ישראל, My note]";
-        List<String> actual = app.appointment().verifyAppointmentCreation_A();
+        String expected = "[◀ Duration: 1ש15דק ▶, ◀ Time: 10:00 - 11:15 ▶, ◀ Client name: Temp Client katalon ▶, ◀ Service:  ▶, ◀ Address: רוקח 18, רמת גן, ישראל ▶, ◀ Note: My note ▶]";
+        List<String> actual = app.appointment().verifyAppointmentCreation();
         Assert.assertEquals(actual.toString(), expected, "verify appointment creation");
     }
 
@@ -69,7 +69,7 @@ public class CreateAppointmentTest extends TestBase {
         app.appointment().addQueueNote("My note");
         app.appointment().saveForm();
 
-        String expected = "[10:00 - 11:00, Temp Client katalon, Temp services_katalon, 1 שעה, רוקח 18, רמת גן, ישראל, My note]";
+        String expected = "[◀ Duration: 1ש15דק ▶, ◀ Time: 10:00 - 11:15 ▶, ◀ Client name: Temp Client katalon ▶, ◀ Service: Temp services_katalon ▶, ◀ Address: רוקח 18, רמת גן, ישראל ▶, ◀ Note: My note ▶]";
         List<String> actual = app.appointment().verifyAppointmentCreation();
         Assert.assertEquals(actual.toString(), expected, "verify appointment creation");
     }
