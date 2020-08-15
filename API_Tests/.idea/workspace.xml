@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="477da253-88be-40ae-98c6-8ed2876fb43d" name="Default Changelist" comment="" />
+    <list default="true" id="477da253-88be-40ae-98c6-8ed2876fb43d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/AppointmentHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/AppointmentHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/tests/CreateAppointmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/tests/CreateAppointmentTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,11 +117,8 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="im.atzma.lista2020" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Devel_lista2020\lista.atzmaim_2020\Selenium_tests\src\test\resources" />
-      <recent name="D:\Devel_lista2020\lista.atzmaim_2020\UI_API_Tests\src\main\java" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Devel_lista2020\lista.atzmaim_2020\UI_API_Tests\src\test\resources" />
-      <recent name="D:\Devel_lista2020\lista.atzmaim_2020\UI_API_Tets\src\test\resources" />
       <recent name="D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\src\test\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -126,8 +128,11 @@
       <recent name="lista2020.tests" />
       <recent name="im.atzma.lista2020.tests" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Devel_lista2020\lista.atzmaim_2020\Selenium_tests\src\test\resources" />
+      <recent name="D:\Devel_lista2020\lista.atzmaim_2020\UI_API_Tests\src\main\java" />
       <recent name="D:\Devel_lista2020\lista.atzmaim_2020\UI_API_Tests\src\test\resources" />
+      <recent name="D:\Devel_lista2020\lista.atzmaim_2020\UI_API_Tets\src\test\resources" />
       <recent name="D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\src\test\resources" />
     </key>
   </component>

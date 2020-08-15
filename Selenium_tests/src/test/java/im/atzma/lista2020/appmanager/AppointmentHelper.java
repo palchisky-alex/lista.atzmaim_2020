@@ -202,6 +202,12 @@ public class AppointmentHelper extends HelperBase {
         fillNewAppointment(clientName);
     }
 
+    public void create_G(String clientName, String service) throws InterruptedException {
+        fillText(driver.findElement(By.cssSelector("[placeholder='Search or add a new client']")), clientName); //search client
+        waitForElement(driver.findElement(By.xpath("//*[contains(text(), '"+clientName+"')]")));
+        click(driver.findElement(By.xpath("//*[contains(text(), '"+clientName+"')]"))); //click on client
+    }
+
     public void fillNewAppointment(String clientName) throws InterruptedException {
         waitForElement(input_findClient);
         click(input_findClient);
@@ -472,5 +478,6 @@ click(driver.findElement(By.cssSelector("[data-time='12:00:00'] td:nth-child(1)"
 
         return error;
     }
+
 
 }

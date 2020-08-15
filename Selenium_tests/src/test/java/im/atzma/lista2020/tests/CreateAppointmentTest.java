@@ -87,5 +87,18 @@ public class CreateAppointmentTest extends TestBase {
         Assert.assertEquals(actual.toString(), expected, "verify appointment creation");
     }
 
+    @Test()
+    public void testAppointmentCreation_G() throws InterruptedException, IOException {
+        app.goTo().clientPage();
+        app.appointment().create_G("Temp Client katalon", "Temp services_katalon");
+        app.appointment().addQueueAdress();
+        app.appointment().addQueueNote("My note");
+        app.appointment().saveForm();
+
+        String expected = "[◀ Duration: 1ש45דק ▶, ◀ Time: 12:00 - 13:45 ▶, ◀ Client name: Temp Client katalon ▶, ◀ Service: Temp services_katalon ▶, ◀ Address: רוקח 18, רמת גן, ישראל ▶, ◀ Note: My note ▶]";
+        List<String> actual = app.appointment().verifyAppointmentCreation();
+        Assert.assertEquals(actual.toString(), expected, "verify appointment creation");
+    }
+
 
 }
