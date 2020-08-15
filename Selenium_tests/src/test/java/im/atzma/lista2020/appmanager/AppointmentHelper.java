@@ -244,14 +244,17 @@ public class AppointmentHelper extends HelperBase {
         fillText(input_findService, service);
         click(driver.findElement(By.cssSelector(".category__wrap > .category")));
         fillText(driver.findElement(By.cssSelector(".category__list-search > [type=search]")), category);
-        click(driver.findElement(By.cssSelector("button.category__list-add-procedure")));
+        click(driver.findElement(By.cssSelector("button.category__list-add-procedure--active")));
         click(btn_save);
+        waitForElement(driver.findElement(By.cssSelector("span.favorites-procedures-name__span")));
         click(btn_save);
+        waitForElement(driver.findElement(By.cssSelector(".price-step__item-name  > p")));
 
     }
 
 
     public List<String> verifyAppointmentCreation() throws InterruptedException {
+        waitForElement(appointmentDuration);
         List<String> itemList = new ArrayList<>();
         itemList.add("◀ Duration: " + appointmentDuration.getText() + " ▶");
         itemList.add("◀ Time: " + appointmentTime.getText() + " ▶");
@@ -265,19 +268,6 @@ public class AppointmentHelper extends HelperBase {
         return itemList;
     }
 
-    public List<String> verifyAppointmentCreation_A() {
-        List<String> itemList = new ArrayList<>();
-        itemList.add(appointmentTime.getText());
-        itemList.add(appointmentClientName.getText());
-        itemList.add(appointmentServiceName.getText());
-        itemList.add(appointmentDuration.getText());
-        itemList.add(appointmentNote.getText());
-        itemList.add(appointmentAddress.getText());
-
-        System.out.println(itemList);
-
-        return itemList;
-    }
 
     public List<String> verifyAppointmentCreation2() throws InterruptedException {
 
