@@ -197,8 +197,8 @@ public class ClientHelper extends HelperBase {
         click(btn_plus_debt);
         fillText(area_debt, "חוב  של לקוח זמני");
         click(btn_saveDebtNote);
-
         click(btn_saveClientForm);
+        driver.navigate().refresh();
     }
 
     public String verifyNewClientCreation() {
