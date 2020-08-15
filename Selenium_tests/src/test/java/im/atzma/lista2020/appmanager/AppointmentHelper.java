@@ -203,9 +203,29 @@ public class AppointmentHelper extends HelperBase {
     }
 
     public void create_G(String clientName, String service) throws InterruptedException {
-        fillText(driver.findElement(By.cssSelector("[placeholder='Search or add a new client']")), clientName); //search client
-        waitForElement(driver.findElement(By.xpath("//*[contains(text(), '"+clientName+"')]")));
-        click(driver.findElement(By.xpath("//*[contains(text(), '"+clientName+"')]"))); //click on client
+        fillText(driver.findElement(By.cssSelector("[placeholder]")), clientName); //search client
+        waitForElement(driver.findElement(By.xpath("//*[contains(text(), '" + clientName + "')]")));
+        click(driver.findElement(By.xpath("//*[contains(text(), '" + clientName + "')]"))); //click on client
+
+        driver.navigate().refresh();
+        clickJScript(driver.findElement(By.cssSelector("a .circle-wrap"))); //click on btn - add queue
+
+        chooseService(service);
+
+        int myInt =12;
+        timeArea.sendKeys(Keys.ARROW_LEFT);
+        timeArea.sendKeys(String.valueOf(myInt));
+//        timeArea.sendKeys(Keys.ENTER);
+//      timeArea.sendKeys(Keys.ARROW_RIGHT);
+        int myInt2 = 00;
+        timeArea.sendKeys(String.valueOf(myInt2));
+
+        timeArea.sendKeys(Keys.ARROW_RIGHT);
+        timeArea.sendKeys(Keys.ARROW_DOWN);
+
+        dateArea.sendKeys(Keys.SPACE);
+        dateArea.sendKeys(Keys.ENTER);
+        click(btn_save);
     }
 
     public void fillNewAppointment(String clientName) throws InterruptedException {
@@ -315,7 +335,7 @@ public class AppointmentHelper extends HelperBase {
             clickJS(driver.findElement(By.cssSelector(".fc-nonbusiness")));
             Thread.sleep(500);
         } else System.out.println("nonbusiness day not present");
-click(driver.findElement(By.cssSelector("[data-time='12:00:00'] td:nth-child(1)")));
+        click(driver.findElement(By.cssSelector("[data-time='12:00:00'] td:nth-child(1)")));
 //        driver.findElement(By.xpath("//tr[5]/td[1]")).click(); // click on empty slot hour
     }
 
@@ -414,7 +434,7 @@ click(driver.findElement(By.cssSelector("[data-time='12:00:00'] td:nth-child(1)"
     }
 
     public void modifyAppTime() {
-        click(time_dur_form);
+       // click(time_dur_form);
         dateArea.sendKeys(Keys.ARROW_RIGHT, Keys.ARROW_UP);
         timeArea.sendKeys(Keys.ARROW_UP);
         click(btn_save_form_2);

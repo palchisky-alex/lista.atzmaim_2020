@@ -55,6 +55,12 @@ task testNewAppointment_F(type: Test) {
     }
 }
 
+task testNewAppointment_G(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/testng-AppointmentCreation_G.xml'
+    }
+}
+
 
 task testNewAppointmentModification(type: Test) {
     useTestNG() {

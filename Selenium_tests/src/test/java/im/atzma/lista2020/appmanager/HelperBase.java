@@ -62,6 +62,7 @@ public class HelperBase {
         ((JavascriptExecutor) driver).executeScript("arguments[0].click()", el);
     }
 
+
     public void select(WebElement el, String myvalue) {
         new Select(el).selectByValue(myvalue);
         try {
