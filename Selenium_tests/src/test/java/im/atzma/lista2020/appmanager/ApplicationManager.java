@@ -115,7 +115,6 @@ public class ApplicationManager {
             prefs.put("profile.default_content_setting_values.notifications", 3);
             chromeOptions.setExperimentalOption("prefs", prefs);
             chromeOptions.merge(capabilities);
-            ((RemoteWebDriver) driver).setLogLevel(Level.INFO);
 
             driver = new RemoteWebDriver(
             URI.create("http://68.183.243.172:4444/wd/hub").toURL(), chromeOptions);
