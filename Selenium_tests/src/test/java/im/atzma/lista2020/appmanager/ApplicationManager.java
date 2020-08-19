@@ -1,27 +1,25 @@
 package im.atzma.lista2020.appmanager;
 
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
-
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.net.URI;
-import java.security.Timestamp;
-import java.text.SimpleDateFormat;
-import java.time.*;
+import java.time.Clock;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
 import java.time.chrono.ChronoLocalDateTime;
 import java.time.chrono.IsoChronology;
-import java.time.format.DateTimeFormatter;
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
+import java.util.logging.Level;
 
 import static org.testng.Assert.fail;
 
@@ -58,7 +56,6 @@ public class ApplicationManager {
         properties.load(new FileReader(new File(String.format("src/test/resources/%s.properties", target))));
         browser = properties.getProperty("web.browser");
 
-
         if (browser.equals("Chrome")) {
             System.setProperty("webdriver.chrome.driver", "C:\\automation\\browser drivers\\chromedriver_83_win32\\chromedriver.exe");
             Map<String, String> mobileEmulation = new HashMap<>();
@@ -93,6 +90,9 @@ public class ApplicationManager {
             capabilities.setCapability("timeZone", "Asia/Jerusalem");
             capabilities.setCapability("geoLocation","IL");
             capabilities.setCapability("videoName", time);
+            capabilities.setCapability("applicationCacheEnabled", false);
+            capabilities.setCapability("locationContextEnabled", true);
+            capabilities.setCapability("javascriptEnabled", true);
 
             Map<String, String> mobileEmulation = new HashMap<>();
 //            mobileEmulation.put("deviceName", "iPhone X");
@@ -115,9 +115,10 @@ public class ApplicationManager {
             prefs.put("profile.default_content_setting_values.notifications", 3);
             chromeOptions.setExperimentalOption("prefs", prefs);
             chromeOptions.merge(capabilities);
+            ((RemoteWebDriver) driver).setLogLevel(Level.INFO);
 
             driver = new RemoteWebDriver(
-                    URI.create("http://68.183.243.172:4444/wd/hub").toURL(), chromeOptions);
+            URI.create("http://68.183.243.172:4444/wd/hub").toURL(), chromeOptions);
         }
 
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
