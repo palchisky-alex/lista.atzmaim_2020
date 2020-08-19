@@ -20,10 +20,7 @@ import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.time.chrono.ChronoLocalDateTime;
 import java.time.chrono.IsoChronology;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Properties;
+import java.util.*;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 
@@ -101,7 +98,7 @@ public class ApplicationManager {
             capabilities.setCapability("javascriptEnabled", true);
             LoggingPreferences loggingprefs = new LoggingPreferences();
             loggingprefs.enable(LogType.BROWSER, Level.ALL);
-            loggingprefs.enable(LogType.PERFORMANCE, Level.ALL);
+            loggingprefs.enable(LogType.PERFORMANCE, Level.INFO);
             capabilities.setCapability(CapabilityType.LOGGING_PREFS, loggingprefs);
 
             Map<String, String> mobileEmulation = new HashMap<>();
@@ -144,6 +141,7 @@ public class ApplicationManager {
 
 
     public void stop() {
+        getLogs();
         String verificationErrorString = verificationErrors.toString();
         if (!"".equals(verificationErrorString)) {
             fail(verificationErrorString);
@@ -182,9 +180,13 @@ public class ApplicationManager {
     }
 
     public void getLogs() {
-        LogEntries logEntries = driver.manage().logs().get(LogType.BROWSER);
+        List<LogEntry> logEntries = driver.manage().logs().get(LogType.BROWSER).getAll();
         for (LogEntry entry : logEntries) {
             System.out.println(entry.getTimestamp() + " " + entry.getLevel() + " " + entry.getMessage());
+        }
+
+        for (LogEntry entry : driver.manage().logs().get(LogType.PERFORMANCE)) {
+            System.out.println(entry.toString());
         }
     }
 }

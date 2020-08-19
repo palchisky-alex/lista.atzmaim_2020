@@ -36,7 +36,7 @@ public class TestBase {
     @AfterMethod(alwaysRun = true)
     public void logTestStop(Method method) {
 //        logger.info("Stop test " + method.getName());
-        app.getLogs();
+
 
     }
 
