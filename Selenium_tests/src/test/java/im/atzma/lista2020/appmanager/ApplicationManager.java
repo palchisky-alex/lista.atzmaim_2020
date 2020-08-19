@@ -142,8 +142,6 @@ public class ApplicationManager {
 
 
     public void stop() {
-        driver.close();
-        driver.quit();
         String verificationErrorString = verificationErrors.toString();
         if (!"".equals(verificationErrorString)) {
             fail(verificationErrorString);
@@ -152,6 +150,8 @@ public class ApplicationManager {
         for (LogEntry entry : logEntries) {
             System.out.println(new Date(entry.getTimestamp()) + " " + entry.getLevel() + " " + entry.getMessage());
         }
+        driver.close();
+        driver.quit();
         // Runtime.getRuntime().exec("taskkill /F /IM chromedriver.exe");
     }
 
