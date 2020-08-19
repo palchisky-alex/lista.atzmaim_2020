@@ -90,7 +90,8 @@ public class ApplicationManager {
             capabilities.setVersion("84.0");
             capabilities.setCapability("enableVNC", true);
             capabilities.setCapability("enableVideo", true);
-            capabilities.setCapability("timeZone", "Asia/Jerusalem");
+            capabilities.setCapability("timeZone", "GMT+3");
+            capabilities.setCapability("geoLocation","IL");
             capabilities.setCapability("videoName", time);
 
             Map<String, String> mobileEmulation = new HashMap<>();
