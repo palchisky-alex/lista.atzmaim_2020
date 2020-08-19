@@ -8,6 +8,7 @@ import org.openqa.selenium.logging.LogEntries;
 import org.openqa.selenium.logging.LogEntry;
 import org.openqa.selenium.logging.LogType;
 import org.openqa.selenium.logging.LoggingPreferences;
+import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import java.io.File;
@@ -101,6 +102,7 @@ public class ApplicationManager {
             LoggingPreferences loggingprefs = new LoggingPreferences();
             loggingprefs.enable(LogType.BROWSER, Level.ALL);
             loggingprefs.enable(LogType.PERFORMANCE, Level.ALL);
+            capabilities.setCapability(CapabilityType.LOGGING_PREFS, loggingprefs);
 
             Map<String, String> mobileEmulation = new HashMap<>();
 //            mobileEmulation.put("deviceName", "iPhone X");
@@ -115,7 +117,6 @@ public class ApplicationManager {
 //            chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
             chromeOptions.addArguments(("--auto-open-devtools-for-tabs"));
             chromeOptions.addArguments("--ignore-certificate-errors");
-
 
             Map<String, Object> prefs = new HashMap<String, Object>();
             prefs.put("credentials_enable_service", false);

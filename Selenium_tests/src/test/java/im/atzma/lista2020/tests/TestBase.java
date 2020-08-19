@@ -33,7 +33,7 @@ public class TestBase {
 //        logger.info("Start test " + method.getName() + " with parrametrs " + Arrays.asList(p));
 //    }
 //
-    @AfterTest(alwaysRun = true)
+    @AfterMethod(alwaysRun = true)
     public void logTestStop(Method method) {
 //        logger.info("Stop test " + method.getName());
         app.getLogs();
