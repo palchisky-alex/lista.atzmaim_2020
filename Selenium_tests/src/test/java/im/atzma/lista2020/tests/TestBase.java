@@ -23,7 +23,6 @@ public class TestBase {
         app.init();
 
     }
-
     @AfterSuite(alwaysRun = true)
     public void tearDown() {
         app.stop();
@@ -37,6 +36,7 @@ public class TestBase {
     @AfterMethod(alwaysRun = true)
     public void logTestStop(Method method) {
 //        logger.info("Stop test " + method.getName());
+        app.getLogs();
 
     }
 

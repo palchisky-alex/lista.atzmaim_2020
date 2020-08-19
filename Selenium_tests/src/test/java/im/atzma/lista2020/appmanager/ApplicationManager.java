@@ -100,6 +100,7 @@ public class ApplicationManager {
             capabilities.setCapability("javascriptEnabled", true);
             LoggingPreferences loggingprefs = new LoggingPreferences();
             loggingprefs.enable(LogType.BROWSER, Level.ALL);
+            loggingprefs.enable(LogType.PERFORMANCE, Level.ALL);
 
             Map<String, String> mobileEmulation = new HashMap<>();
 //            mobileEmulation.put("deviceName", "iPhone X");
@@ -146,10 +147,6 @@ public class ApplicationManager {
         if (!"".equals(verificationErrorString)) {
             fail(verificationErrorString);
         }
-        LogEntries logEntries = driver.manage().logs().get(LogType.BROWSER);
-        for (LogEntry entry : logEntries) {
-            System.out.println(new Date(entry.getTimestamp()) + " " + entry.getLevel() + " " + entry.getMessage());
-        }
         driver.close();
         driver.quit();
         // Runtime.getRuntime().exec("taskkill /F /IM chromedriver.exe");
@@ -181,6 +178,13 @@ public class ApplicationManager {
 
     public AppointmentHelper appointment() {
         return appointmentHelper;
+    }
+
+    public void getLogs() {
+        LogEntries logEntries = driver.manage().logs().get(LogType.BROWSER);
+        for (LogEntry entry : logEntries) {
+            System.out.println(new Date(entry.getTimestamp()) + " " + entry.getLevel() + " " + entry.getMessage());
+        }
     }
 }
 
