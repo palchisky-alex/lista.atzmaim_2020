@@ -123,7 +123,7 @@ public class ApplicationManager {
             chromeOptions.merge(capabilities);
 
             driver = new RemoteWebDriver(
-            URI.create("http://68.183.243.172:4444/wd/hub").toURL(), chromeOptions);
+            URI.create("http://68.183.243.172:4444/wd/hub").toURL(), capabilities);
         }
 
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
