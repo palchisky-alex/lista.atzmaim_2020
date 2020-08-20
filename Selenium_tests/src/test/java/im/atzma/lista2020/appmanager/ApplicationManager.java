@@ -183,7 +183,6 @@ public class ApplicationManager {
         for (LogEntry entry : logEntries) {
             System.out.println(entry.getTimestamp() + " " + entry.getLevel() + " " + entry.getMessage());
         }
-        System.out.println(driver.manage().logs().getAvailableLogTypes());
 
     }
 }
