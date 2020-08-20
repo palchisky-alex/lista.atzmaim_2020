@@ -180,14 +180,14 @@ public class ApplicationManager {
     }
 
     public void getLogs() {
-        LogEntries logEntries = driver.manage().logs().get(LogType.BROWSER);
+        LogEntries logEntries = driver.manage().logs().get(LogType.PERFORMANCE);
         List<LogEntry> errorLogs = logEntries.getAll();
 
         if (errorLogs.size() != 0) {
             for (LogEntry logEntry: logEntries) {
                 System.out.println("Found error in logs: " + logEntry.getMessage() );
             }
-            fail(errorLogs.size() + " Console error found");
+
         }
 
     }
