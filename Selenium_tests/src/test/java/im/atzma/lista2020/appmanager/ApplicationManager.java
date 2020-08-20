@@ -99,6 +99,7 @@ public class ApplicationManager {
             LoggingPreferences loggingprefs = new LoggingPreferences();
             loggingprefs.enable(LogType.BROWSER, Level.ALL);
             loggingprefs.enable(LogType.PERFORMANCE, Level.ALL);
+            loggingprefs.enable(LogType.DRIVER, Level.ALL);
             capabilities.setCapability(CapabilityType.LOGGING_PREFS, loggingprefs);
 
             Map<String, String> mobileEmulation = new HashMap<>();
@@ -179,10 +180,14 @@ public class ApplicationManager {
     }
 
     public void getLogs() {
-        List<LogEntry> logEntries = driver.manage().logs().get(LogType.PERFORMANCE).getAll();
-        for (LogEntry entry : logEntries) {
-            System.out.println(entry.getTimestamp() + " " + entry.getLevel() + " " + entry.getMessage());
-            System.out.println(entry.toString());
+        LogEntries logEntries = driver.manage().logs().get(LogType.BROWSER);
+        List<LogEntry> errorLogs = logEntries.getAll();
+
+        if (errorLogs.size() != 0) {
+            for (LogEntry logEntry: logEntries) {
+                System.out.println("Found error in logs: " + logEntry.getMessage() );
+            }
+            fail(errorLogs.size() + " Console error found");
         }
 
     }
