@@ -60,25 +60,43 @@ public class ApplicationManager {
         browser = properties.getProperty("web.browser");
 
         if (browser.equals("Chrome")) {
-            System.setProperty("webdriver.chrome.driver", "C:\\automation\\browser drivers\\chromedriver_83_win32\\chromedriver.exe");
-            Map<String, String> mobileEmulation = new HashMap<>();
-            mobileEmulation.put("deviceName", "iPhone X");
-            ChromeOptions chromeOptions = new ChromeOptions();
-            chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
-            chromeOptions.addArguments(("--auto-open-devtools-for-tabs"));
-            chromeOptions.addArguments("--ignore-certificate-errors");
+            System.setProperty("webdriver.chrome.driver", "C:\\automation\\browser drivers\\chromedriver_84_win32\\chromedriver.exe");
+            DesiredCapabilities capabilities = new DesiredCapabilities();
+            capabilities.setBrowserName("chrome");
+            capabilities.setVersion("84.0");
+            capabilities.setCapability("enableVNC", true);
+            capabilities.setCapability("enableVideo", true);
+            capabilities.setCapability("timeZone", "Asia/Jerusalem");
+            capabilities.setCapability("geoLocation","IL");
+            capabilities.setCapability("videoName", time);
+            capabilities.setCapability("applicationCacheEnabled", false);
+            capabilities.setCapability("locationContextEnabled", true);
+            capabilities.setCapability("javascriptEnabled", true);
+            LoggingPreferences loggingprefs = new LoggingPreferences();
+            loggingprefs.enable(LogType.BROWSER, Level.ALL);
+            loggingprefs.enable(LogType.PERFORMANCE, Level.ALL);
+            loggingprefs.enable(LogType.DRIVER, Level.ALL);
+            capabilities.setCapability(CapabilityType.LOGGING_PREFS, loggingprefs);
 
+            Map<String, String> mobileEmulation = new HashMap<>();
+//            mobileEmulation.put("deviceName", "iPhone X");
+            ChromeOptions chromeOptions = new ChromeOptions();
             chromeOptions.addArguments("--disable-gpu");
             chromeOptions.addArguments("--disable-extensions");
             chromeOptions.addArguments("--no-sandbox");
             chromeOptions.addArguments("--disable-dev-shm-usage");
             chromeOptions.setExperimentalOption("useAutomationExtension", false);
 
+//            chromeOptions.setExperimentalOption("mobileEmulation", mobileEmulation);
+            chromeOptions.addArguments(("--auto-open-devtools-for-tabs"));
+            chromeOptions.addArguments("--ignore-certificate-errors");
+
             Map<String, Object> prefs = new HashMap<String, Object>();
             prefs.put("credentials_enable_service", false);
             prefs.put("profile.password_manager_enabled", false);
             prefs.put("profile.default_content_setting_values.notifications", 3);
             chromeOptions.setExperimentalOption("prefs", prefs);
+            chromeOptions.merge(capabilities);
 
             driver = new ChromeDriver();
         } else if (browser.equals("Firefox")) {
