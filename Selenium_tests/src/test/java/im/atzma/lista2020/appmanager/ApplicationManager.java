@@ -98,7 +98,7 @@ public class ApplicationManager {
             capabilities.setCapability("javascriptEnabled", true);
             LoggingPreferences loggingprefs = new LoggingPreferences();
             loggingprefs.enable(LogType.BROWSER, Level.ALL);
-            loggingprefs.enable(LogType.PERFORMANCE, Level.INFO);
+            loggingprefs.enable(LogType.PERFORMANCE, Level.ALL);
             capabilities.setCapability(CapabilityType.LOGGING_PREFS, loggingprefs);
 
             Map<String, String> mobileEmulation = new HashMap<>();
@@ -123,7 +123,7 @@ public class ApplicationManager {
             chromeOptions.merge(capabilities);
 
             driver = new RemoteWebDriver(
-            URI.create("http://68.183.243.172:4444/wd/hub").toURL(), capabilities);
+            URI.create("http://68.183.243.172:4444/wd/hub").toURL(), chromeOptions);
         }
 
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
@@ -180,14 +180,12 @@ public class ApplicationManager {
     }
 
     public void getLogs() {
-//        List<LogEntry> logEntries = driver.manage().logs().get(LogType.BROWSER).getAll();
-//        for (LogEntry entry : logEntries) {
-//            System.out.println(entry.getTimestamp() + " " + entry.getLevel() + " " + entry.getMessage());
-//        }
-
-        for (LogEntry entry : driver.manage().logs().get(LogType.PERFORMANCE).getAll()) {
-            System.out.println(entry);
+        List<LogEntry> logEntries = driver.manage().logs().get(LogType.BROWSER).getAll();
+        for (LogEntry entry : logEntries) {
+            System.out.println(entry.getTimestamp() + " " + entry.getLevel() + " " + entry.getMessage());
         }
+        System.out.println(driver.manage().logs().getAvailableLogTypes());
+
     }
 }
 
