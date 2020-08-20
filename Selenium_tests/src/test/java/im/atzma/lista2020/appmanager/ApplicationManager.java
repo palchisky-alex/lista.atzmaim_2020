@@ -104,7 +104,6 @@ public class ApplicationManager {
             Map<String, String> mobileEmulation = new HashMap<>();
 //            mobileEmulation.put("deviceName", "iPhone X");
             ChromeOptions chromeOptions = new ChromeOptions();
-            chromeOptions.setExperimentalOption("w3c", true);
             chromeOptions.addArguments("--disable-gpu");
             chromeOptions.addArguments("--disable-extensions");
             chromeOptions.addArguments("--no-sandbox");
@@ -180,12 +179,16 @@ public class ApplicationManager {
     }
 
     public void getLogs() {
-        List<LogEntry> logEntries = driver.manage().logs().get(LogType.PERFORMANCE).getAll();
+        List<LogEntry> logEntries = driver.manage().logs().get(LogType.BROWSER).getAll();
         for (LogEntry entry : logEntries) {
             System.out.println(entry.getTimestamp() + " " + entry.getLevel() + " " + entry.getMessage());
         }
         System.out.println(driver.manage().logs().getAvailableLogTypes());
 
+        List<LogEntry> logEntries2 = driver.manage().logs().get(LogType.PERFORMANCE).getAll();
+        for (LogEntry entry : logEntries2) {
+            System.out.println(entry.getTimestamp() + " " + entry.getLevel() + " " + entry.getMessage());
+        }
     }
 }
 
