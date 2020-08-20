@@ -104,7 +104,7 @@ public class ApplicationManager {
             Map<String, String> mobileEmulation = new HashMap<>();
 //            mobileEmulation.put("deviceName", "iPhone X");
             ChromeOptions chromeOptions = new ChromeOptions();
-
+            chromeOptions.setExperimentalOption("w3c", false);
             chromeOptions.addArguments("--disable-gpu");
             chromeOptions.addArguments("--disable-extensions");
             chromeOptions.addArguments("--no-sandbox");
