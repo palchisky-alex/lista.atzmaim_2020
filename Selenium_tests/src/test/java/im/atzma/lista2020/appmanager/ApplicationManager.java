@@ -185,7 +185,7 @@ public class ApplicationManager {
             System.out.println(entry.getTimestamp() + " " + entry.getLevel() + " " + entry.getMessage());
         }
 
-        for (LogEntry entry : driver.manage().logs().get(LogType.PERFORMANCE)) {
+        for (LogEntry entry : driver.manage().logs().get(LogType.PERFORMANCE).getAll()) {
             System.out.println(entry.toString());
         }
     }
