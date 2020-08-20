@@ -180,7 +180,7 @@ public class ApplicationManager {
     }
 
     public void getLogs() {
-        List<LogEntry> logEntries = driver.manage().logs().get(LogType.BROWSER).getAll();
+        List<LogEntry> logEntries = driver.manage().logs().get(LogType.PERFORMANCE).getAll();
         for (LogEntry entry : logEntries) {
             System.out.println(entry.getTimestamp() + " " + entry.getLevel() + " " + entry.getMessage());
         }
