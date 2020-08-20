@@ -180,7 +180,7 @@ public class ApplicationManager {
     }
 
     public void getLogs() {
-        LogEntries logEntries = driver.manage().logs().get(LogType.PERFORMANCE);
+        LogEntries logEntries = driver.manage().logs().get(LogType.BROWSER);
         List<LogEntry> errorLogs = logEntries.getAll();
 
         if (errorLogs.size() != 0) {
