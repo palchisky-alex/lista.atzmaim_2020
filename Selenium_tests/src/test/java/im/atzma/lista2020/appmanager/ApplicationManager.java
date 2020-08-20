@@ -185,10 +185,6 @@ public class ApplicationManager {
         }
         System.out.println(driver.manage().logs().getAvailableLogTypes());
 
-        List<LogEntry> logEntries2 = driver.manage().logs().get(LogType.PERFORMANCE).getAll();
-        for (LogEntry entry : logEntries2) {
-            System.out.println(entry.getTimestamp() + " " + entry.getLevel() + " " + entry.getMessage());
-        }
     }
 }
 
