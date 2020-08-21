@@ -71,5 +71,4 @@ public class ClientCreationTest extends TestBase {
         Assert.assertEquals(after, before + 1);
     }
 
-
 }

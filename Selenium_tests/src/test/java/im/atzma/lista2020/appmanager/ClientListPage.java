@@ -73,9 +73,9 @@ public class ClientListPage extends HelperBase {
     }
 
     public void initAddNewClient()  {
+        driver.navigate().refresh();
         click(btn_addClient);
     }
-
 
 
     public void selectClient(int index) {
