@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="suite_Menu">
+<suite name="clientModif">
     <test verbose="1" preserve-order="true" name="test count after client creation">
         <classes>
             <!--<class name="im.atzma.lista.tests.Login">-->

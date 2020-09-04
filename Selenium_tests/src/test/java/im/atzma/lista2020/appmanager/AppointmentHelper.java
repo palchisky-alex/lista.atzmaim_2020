@@ -67,7 +67,7 @@ public class AppointmentHelper extends HelperBase {
     @FindBy(xpath = "//button[@class='btn-styl edite']")
     WebElement btn_modifyAppointment;
 
-    @FindBy(css = ".deleteModal .yes-btn")
+    @FindBy(css = "#delete-popup-background .yes-btn")
     WebElement btn_confirm_AppointmentDeletion;
 
     @FindBy(xpath = "//p[@class='floating-button standartLeft']")
@@ -335,7 +335,7 @@ public class AppointmentHelper extends HelperBase {
             clickJS(driver.findElement(By.cssSelector(".fc-nonbusiness")));
             Thread.sleep(500);
         } else System.out.println("nonbusiness day not present");
-        click(driver.findElement(By.cssSelector("[data-time='12:00:00'] td:nth-child(1)")));
+        click(driver.findElement(By.cssSelector("[data-time='16:00:00'] td:nth-child(1)")));
 //        driver.findElement(By.xpath("//tr[5]/td[1]")).click(); // click on empty slot hour
     }
 

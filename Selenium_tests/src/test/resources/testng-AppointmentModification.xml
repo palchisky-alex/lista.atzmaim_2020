@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="suite_newClient">
+<suite name="suite_modifQueue">
     <test verbose="1" preserve-order="true" name="modify app">
         <classes>
-            <!--<class name="im.atzma.lista.tests.Login">-->
-                <!--<methods>-->
-                    <!--<include name="login"/>-->
-                <!--</methods>-->
-            <!--</class>-->
             <class name="im.atzma.lista2020.tests.SingupTest">
                 <methods>
                     <include name="testLoginPage"/>
@@ -21,23 +16,20 @@
                     <include name="testPopupInstallation"/>
                 </methods>
             </class>
-
-            <class name="im.atzma.lista2020.tests.ClientCreationTest">
-                <methods>
-                    <include name="initNewClientCreation"/>
-                    <!--<include name="verifyClientForm"/>-->
-                    <include name="testCreateClientCount"/>
-                </methods>
-            </class>
             <class name="im.atzma.lista2020.tests.DeleteAppointmentTest">
                 <methods>
                     <include name="testAppointmentDeletion"/>
-                    <!--                    <include name="testServiceDeletion"/>-->
+                </methods>
+            </class>
+            <class name="im.atzma.lista2020.tests.ClientCreationTest">
+                <methods>
+                    <include name="initNewClientCreation"/>
+                    <include name="testCreateClientCount"/>
                 </methods>
             </class>
             <class name="im.atzma.lista2020.tests.CreateAppointmentTest">
                 <methods>
-                    <include name="testAppointmentCreation"/>
+                    <include name="testAppointmentCreation_B"/>
                 </methods>
             </class>
             <class name="im.atzma.lista2020.tests.ModifyAppointmentTest">
@@ -51,7 +43,7 @@
             <class name="im.atzma.lista2020.tests.DeleteAccountTest">
                 <methods>
                     <include name="testDeleteAccount"/>
-                    <include name="testDeleteAccountVerification"/>
+                    <!--                    <include name="testDeleteAccountVerification"/>-->
                 </methods>
             </class>
         </classes>
