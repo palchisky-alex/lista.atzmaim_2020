@@ -21,20 +21,20 @@
                     <include name="testAppointmentDeletion"/>
                 </methods>
             </class>
-            <class name="im.atzma.lista2020.tests.ClientCreationTest">
-                <methods>
-                    <include name="initNewClientCreation"/>
-                    <include name="testCreateClientCount"/>
-                </methods>
-            </class>
+<!--            <class name="im.atzma.lista2020.tests.ClientCreationTest">-->
+<!--                <methods>-->
+<!--                    <include name="initNewClientCreation"/>-->
+<!--                    <include name="testCreateClientCount"/>-->
+<!--                </methods>-->
+<!--            </class>-->
             <class name="im.atzma.lista2020.tests.CreateAppointmentTest">
                 <methods>
-                    <include name="testAppointmentCreation_B"/>
+                    <include name="testAppointmentCreation_A"/>
                 </methods>
             </class>
             <class name="im.atzma.lista2020.tests.ModifyAppointmentTest">
                 <methods>
-                    <include name="createSecondTempClient"/>
+<!--                    <include name="createSecondTempClient"/>-->
                     <include name="modifyAppointment"/>
                     <include name="verifyModifiedAppointment"/>
                     <include name="verifyModifiedAppointmentForm"/>

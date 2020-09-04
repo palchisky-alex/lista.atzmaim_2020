@@ -64,7 +64,7 @@ public class AppointmentHelper extends HelperBase {
 
     @FindBy(xpath = "//button[@class='btn-styl delete']")
     WebElement btn_deleteAppointment;
-    @FindBy(xpath = "//button[@class='btn-styl edite']")
+    @FindBy(css = ".edite")
     WebElement btn_modifyAppointment;
 
     @FindBy(css = "#delete-popup-background .yes-btn")
@@ -100,11 +100,11 @@ public class AppointmentHelper extends HelperBase {
     WebElement duration_form;
     @FindBy(xpath = "//*[@class='price__pretty-value']")
     WebElement price_form;
-    @FindBy(xpath = "//*[@class='price-step__procedure']")
+    @FindBy(css = "div.price-main-info")
     WebElement service_name_form;
-    @FindBy(xpath = "//*[@class='date-step__time']")
+    @FindBy(css = "div.date_info")
     WebElement time_dur_form;
-    @FindBy(xpath = "//*[@class='header__user-name']")
+    @FindBy(css = "div.selected_client_info")
     WebElement appointmentClientName_form;
     @FindBy(xpath = "(//*[@class='text'])[1]")
     WebElement btn_back_form;
@@ -434,7 +434,7 @@ public class AppointmentHelper extends HelperBase {
     }
 
     public void modifyAppTime() {
-       // click(time_dur_form);
+        click(time_dur_form);
         dateArea.sendKeys(Keys.ARROW_RIGHT, Keys.ARROW_UP);
         timeArea.sendKeys(Keys.ARROW_UP);
         click(btn_save_form_2);
