@@ -313,6 +313,8 @@ public class AppointmentHelper extends HelperBase {
     public void deleteAppointment() throws InterruptedException {
         while (btn_existing_appointment.size() > 0) {
             clickOnExistsAppointment();
+            click(btn_deleteAppointment);
+            click(btn_confirm_AppointmentDeletion);
             driver.navigate().refresh();
             Thread.sleep(200);
         }
@@ -343,8 +345,6 @@ public class AppointmentHelper extends HelperBase {
         System.out.println(btn_existing_appointment.size());
 
         click(btn_existing_appointment.get(0));
-        click(btn_deleteAppointment);
-        click(btn_confirm_AppointmentDeletion);
         System.out.println(btn_existing_appointment.size());
 
     }
@@ -425,12 +425,13 @@ public class AppointmentHelper extends HelperBase {
     }
 
     public void initAppModification() throws InterruptedException {
-        click(btn_modifyAppointment);
+//        click(btn_modifyAppointment);
+        click(driver.findElement(By.cssSelector(".edite")));
     }
 
     public void modifyService() {
         click(service_name_form);
-        click(btn_delete_old_service);
+//        click(btn_delete_old_service);
     }
 
     public void modifyAppTime() {
