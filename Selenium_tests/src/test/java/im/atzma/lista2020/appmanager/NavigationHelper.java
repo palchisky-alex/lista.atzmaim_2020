@@ -37,7 +37,7 @@ public class NavigationHelper extends HelperBase {
     Random random = new Random();
     long randomLong = random.nextLong();
 
-    public final String mail = "katalon_" + randomLong + "@gmail.com";
+    public final String mail = "katalon_" + randomLong + "@mail.ru";
 
     public NavigationHelper(WebDriver driver) {
         super(driver);

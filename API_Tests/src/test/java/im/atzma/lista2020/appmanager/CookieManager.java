@@ -21,7 +21,7 @@ public class CookieManager {
 
     Random random = new Random();
     int randomInt = random.nextInt();
-    String randomMail = "api_tests" + randomInt + "@gmail.com";
+    String randomMail = "api_tests" + randomInt + "@mail.ru";
 
     Response post_response;
     Response delete_response;

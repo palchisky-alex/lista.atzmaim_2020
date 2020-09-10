@@ -20,7 +20,7 @@ public class CookieManager {
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 header("X-Requested-With","XMLHttpRequest").
                 formParam("time_zone", "Asia/Jerusalem").
-                formParam("email", "katalon222@gmail.com").
+                formParam("email", "katalon222@mail.ru").
                 formParam("pass", "123").
                 when().
                 post("/check-login");
