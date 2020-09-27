@@ -1,20 +1,25 @@
 package im.atzma.lista2020.Tests;
-import im.atzma.lista2020.appmanager.CustomAllureRestAssured;
-import io.qameta.allure.restassured.AllureRestAssured;
-import io.restassured.builder.RequestSpecBuilder;
+
 import io.restassured.response.Response;
-import io.restassured.specification.RequestSpecification;
-import org.testng.Assert;
+import org.mockserver.client.MockServerClient;
+import org.mockserver.model.Format;
+import org.mockserver.model.Header;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import java.io.FileNotFoundException;
+
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
-import java.util.*;
+import java.util.Random;
+import java.util.concurrent.TimeUnit;
 
 import static io.restassured.RestAssured.given;
+import static org.mockserver.matchers.Times.exactly;
+import static org.mockserver.model.HttpRequest.request;
+import static org.mockserver.model.HttpResponse.response;
+import static org.mockserver.model.StringBody.exact;
 import static org.testng.Assert.assertEquals;
+import static org.mockserver.integration.ClientAndServer.startClientAndServer;
 
 @Listeners(LogListener.class)
 public class AccountCreation_UI_API_Tests extends TestBase_UI_API {
@@ -30,7 +35,7 @@ public class AccountCreation_UI_API_Tests extends TestBase_UI_API {
         String random_for_mail = "api_test_ui" + randomInt;
 
         System.out.println("=== CREATE RANDOM ACCOUNT, STATUS MUST BE 201 ===");
-        Response post_response = given().log().all().filter(new AllureRestAssured()).
+        Response post_response = given().log().all().
                 header("Content-Type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 header("X-Requested-With", "XMLHttpRequest").
@@ -47,10 +52,27 @@ public class AccountCreation_UI_API_Tests extends TestBase_UI_API {
                 when().
                 post("/signup-new-account").then().extract().response();
         assertEquals(post_response.statusCode(), 201);
+
+        new MockServerClient("127.0.0.1", 1080)
+                .when(
+                        request().withMethod("POST")
+                .withPath("/en/calendar")
+                .withHeader("\"Content-type\", \"application/json\"")
+                .withBody(exact("{username: 'foo', password: 'bar'}")),
+                exactly(1))
+                .respond(
+                response()
+                        .withStatusCode(201)
+                        .withHeaders(
+                                new Header("Content-Type", "application/json; charset=utf-8"),
+                                new Header("Cache-Control", "public, max-age=86400"))
+                        .withBody("{ message: 'incorrect username and password combination' }")
+                        .withDelay(TimeUnit.SECONDS,1)
+        );
     }
 
 //    @Test(priority = 1)
-//    public void createAccount() {
+//    public void createAccount2() {
 //        app.accountCreation_UI_API_Helper().createAccount().then().assertThat().statusCode(201);
 //    }
 //

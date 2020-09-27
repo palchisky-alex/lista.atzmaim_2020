@@ -21,11 +21,11 @@ Content-Encoding=gzip
         "#####
         "#####
         "total_price": "50",
-        "phone": null,
+        "phone": "0547613154",
         "note": "call one hour before",
         "client_#####
         "#####
-        "status": "status - before",
+        "status": null,
         "off_time": null,
         "address": "Israel, Rokah 18, Ramat Gan",
         "birthdate": "06-26",
@@ -40,7 +40,8 @@ Content-Encoding=gzip
                 "#####
                 "name": "TestService"
             }
-        ]
+        ],
+        "phone_canonical": "+972547613154"
     },
     {
         "#####
@@ -48,11 +49,11 @@ Content-Encoding=gzip
         "#####
         "#####
         "total_price": "50",
-        "phone": null,
+        "phone": "0547613154",
         "note": "call one hour before",
         "client_#####
         "#####
-        "status": "status - before",
+        "status": null,
         "off_time": null,
         "address": "Israel, Rokah 18, Ramat Gan",
         "birthdate": "06-26",
@@ -67,7 +68,8 @@ Content-Encoding=gzip
                 "#####
                 "name": "TestService"
             }
-        ]
+        ],
+        "phone_canonical": "+972547613154"
     },
     {
         "#####
@@ -75,11 +77,11 @@ Content-Encoding=gzip
         "#####
         "#####
         "total_price": "50",
-        "phone": null,
+        "phone": "0547613154",
         "note": "call one hour before",
         "client_#####
         "#####
-        "status": "status - before",
+        "status": null,
         "off_time": null,
         "address": "Israel, Rokah 18, Ramat Gan",
         "birthdate": "06-26",
@@ -94,7 +96,8 @@ Content-Encoding=gzip
                 "#####
                 "name": "TestService"
             }
-        ]
+        ],
+        "phone_canonical": "+972547613154"
     },
     {
         "#####
@@ -102,11 +105,11 @@ Content-Encoding=gzip
         "#####
         "#####
         "total_price": "50",
-        "phone": null,
+        "phone": "0547613154",
         "note": "call one hour before",
         "client_#####
         "#####
-        "status": "status - before",
+        "status": null,
         "off_time": null,
         "address": "Israel, Rokah 18, Ramat Gan",
         "birthdate": "06-26",
@@ -121,7 +124,8 @@ Content-Encoding=gzip
                 "#####
                 "name": "TestService"
             }
-        ]
+        ],
+        "phone_canonical": "+972547613154"
     },
     {
         "#####
@@ -129,11 +133,11 @@ Content-Encoding=gzip
         "#####
         "#####
         "total_price": "50",
-        "phone": null,
+        "phone": "0547613154",
         "note": "call one hour before",
         "client_#####
         "#####
-        "status": "status - before",
+        "status": null,
         "off_time": null,
         "address": "Israel, Rokah 18, Ramat Gan",
         "birthdate": "06-26",
@@ -148,7 +152,8 @@ Content-Encoding=gzip
                 "#####
                 "name": "TestService"
             }
-        ]
+        ],
+        "phone_canonical": "+972547613154"
     },
     {
         "#####
@@ -156,11 +161,11 @@ Content-Encoding=gzip
         "#####
         "#####
         "total_price": "50",
-        "phone": null,
+        "phone": "0547613154",
         "note": "call one hour before",
         "client_#####
         "#####
-        "status": "status - before",
+        "status": null,
         "off_time": null,
         "address": "Israel, Rokah 18, Ramat Gan",
         "birthdate": "06-26",
@@ -175,7 +180,8 @@ Content-Encoding=gzip
                 "#####
                 "name": "TestService"
             }
-        ]
+        ],
+        "phone_canonical": "+972547613154"
     },
     {
         "#####
@@ -183,11 +189,11 @@ Content-Encoding=gzip
         "#####
         "#####
         "total_price": "50",
-        "phone": null,
+        "phone": "0547613154",
         "note": "call one hour before",
         "client_#####
         "#####
-        "status": "status - before",
+        "status": null,
         "off_time": null,
         "address": "Israel, Rokah 18, Ramat Gan",
         "birthdate": "06-26",
@@ -202,7 +208,8 @@ Content-Encoding=gzip
                 "#####
                 "name": "TestService"
             }
-        ]
+        ],
+        "phone_canonical": "+972547613154"
     },
     {
         "#####
@@ -210,11 +217,11 @@ Content-Encoding=gzip
         "#####
         "#####
         "total_price": "50",
-        "phone": null,
+        "phone": "0547613154",
         "note": "call one hour before",
         "client_#####
         "#####
-        "status": "status - before",
+        "status": null,
         "off_time": null,
         "address": "Israel, Rokah 18, Ramat Gan",
         "birthdate": "06-26",
@@ -229,7 +236,8 @@ Content-Encoding=gzip
                 "#####
                 "name": "TestService"
             }
-        ]
+        ],
+        "phone_canonical": "+972547613154"
     },
     {
         "#####
@@ -237,11 +245,11 @@ Content-Encoding=gzip
         "#####
         "#####
         "total_price": "50",
-        "phone": null,
+        "phone": "0547613154",
         "note": "call one hour before",
         "client_#####
         "#####
-        "status": "status - before",
+        "status": null,
         "off_time": null,
         "address": "Israel, Rokah 18, Ramat Gan",
         "birthdate": "06-26",
@@ -256,7 +264,8 @@ Content-Encoding=gzip
                 "#####
                 "name": "TestService"
             }
-        ]
+        ],
+        "phone_canonical": "+972547613154"
     },
     {
         "#####
@@ -264,11 +273,11 @@ Content-Encoding=gzip
         "#####
         "#####
         "total_price": "50",
-        "phone": null,
+        "phone": "0547613154",
         "note": "call one hour before",
         "client_#####
         "#####
-        "status": "status - before",
+        "status": null,
         "off_time": null,
         "address": "Israel, Rokah 18, Ramat Gan",
         "birthdate": "06-26",
@@ -283,7 +292,8 @@ Content-Encoding=gzip
                 "#####
                 "name": "TestService"
             }
-        ]
+        ],
+        "phone_canonical": "+972547613154"
     },
     {
         "#####
@@ -291,11 +301,11 @@ Content-Encoding=gzip
         "#####
         "#####
         "total_price": "50",
-        "phone": null,
+        "phone": "0547613154",
         "note": "call one hour before",
         "client_#####
         "#####
-        "status": "status - before",
+        "status": null,
         "off_time": null,
         "address": "Israel, Rokah 18, Ramat Gan",
         "birthdate": "06-26",
@@ -310,7 +320,8 @@ Content-Encoding=gzip
                 "#####
                 "name": "TestService"
             }
-        ]
+        ],
+        "phone_canonical": "+972547613154"
     },
     {
         "#####
@@ -318,11 +329,11 @@ Content-Encoding=gzip
         "#####
         "#####
         "total_price": "50",
-        "phone": null,
+        "phone": "0547613154",
         "note": "call one hour before",
         "client_#####
         "#####
-        "status": "status - before",
+        "status": null,
         "off_time": null,
         "address": "Israel, Rokah 18, Ramat Gan",
         "birthdate": "06-26",
@@ -337,6 +348,7 @@ Content-Encoding=gzip
                 "#####
                 "name": "TestService"
             }
-        ]
+        ],
+        "phone_canonical": "+972547613154"
     }
 ]

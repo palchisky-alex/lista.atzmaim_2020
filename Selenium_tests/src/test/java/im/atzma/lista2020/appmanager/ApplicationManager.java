@@ -4,10 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.logging.LogEntries;
-import org.openqa.selenium.logging.LogEntry;
-import org.openqa.selenium.logging.LogType;
-import org.openqa.selenium.logging.LoggingPreferences;
+import org.openqa.selenium.logging.*;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -23,8 +20,8 @@ import java.time.chrono.IsoChronology;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
-
 import static org.testng.Assert.fail;
+
 
 public class ApplicationManager {
     private String browser;
@@ -72,11 +69,11 @@ public class ApplicationManager {
             capabilities.setCapability("applicationCacheEnabled", false);
             capabilities.setCapability("locationContextEnabled", true);
             capabilities.setCapability("javascriptEnabled", true);
-            LoggingPreferences loggingprefs = new LoggingPreferences();
-            loggingprefs.enable(LogType.BROWSER, Level.ALL);
-            loggingprefs.enable(LogType.PERFORMANCE, Level.ALL);
-            loggingprefs.enable(LogType.DRIVER, Level.ALL);
-            capabilities.setCapability(CapabilityType.LOGGING_PREFS, loggingprefs);
+//            LoggingPreferences loggingprefs = new LoggingPreferences();
+//            loggingprefs.enable(LogType.BROWSER, Level.ALL);
+//            loggingprefs.enable(LogType.PERFORMANCE, Level.INFO);
+//            loggingprefs.enable(LogType.DRIVER, Level.ALL);
+//            capabilities.setCapability(CapabilityType.LOGGING_PREFS, loggingprefs);
 
             Map<String, String> mobileEmulation = new HashMap<>();
 //            mobileEmulation.put("deviceName", "iPhone X");
@@ -98,7 +95,7 @@ public class ApplicationManager {
             chromeOptions.setExperimentalOption("prefs", prefs);
             chromeOptions.merge(capabilities);
 
-            driver = new ChromeDriver();
+            driver = new ChromeDriver(chromeOptions);
         } else if (browser.equals("Firefox")) {
             System.setProperty("webdriver.gecko.driver", "C:\\automation\\browser drivers\\firefox\\geckodriver.exe");
             driver = new FirefoxDriver();
@@ -114,11 +111,10 @@ public class ApplicationManager {
             capabilities.setCapability("applicationCacheEnabled", false);
             capabilities.setCapability("locationContextEnabled", true);
             capabilities.setCapability("javascriptEnabled", true);
-            LoggingPreferences loggingprefs = new LoggingPreferences();
-            loggingprefs.enable(LogType.BROWSER, Level.ALL);
-            loggingprefs.enable(LogType.PERFORMANCE, Level.ALL);
-            loggingprefs.enable(LogType.DRIVER, Level.ALL);
-            capabilities.setCapability(CapabilityType.LOGGING_PREFS, loggingprefs);
+//            LoggingPreferences loggingprefs = new LoggingPreferences();
+//            loggingprefs.enable(LogType.BROWSER, Level.ALL);
+//            loggingprefs.enable(LogType.DRIVER, Level.ALL);
+//            capabilities.setCapability(CapabilityType.LOGGING_PREFS, loggingprefs);
 
             Map<String, String> mobileEmulation = new HashMap<>();
 //            mobileEmulation.put("deviceName", "iPhone X");
@@ -159,7 +155,7 @@ public class ApplicationManager {
 
 
     public void stop() {
-        getLogs();
+     //   getLogs();
         String verificationErrorString = verificationErrors.toString();
         if (!"".equals(verificationErrorString)) {
             fail(verificationErrorString);
@@ -198,15 +194,20 @@ public class ApplicationManager {
     }
 
     public void getLogs() {
-        LogEntries logEntries = driver.manage().logs().get(LogType.BROWSER);
+        Logs logs = driver.manage().logs();
+        LogEntries logEntries = logs.get(LogType.PERFORMANCE);
+
         List<LogEntry> errorLogs = logEntries.getAll();
 
-        if (errorLogs.size() != 0) {
-            for (LogEntry logEntry: logEntries) {
-                System.out.println("Found error in logs: " + logEntry.getMessage() );
-            }
+        int status = -1;
 
+        System.out.println("\nList of log entries:\n");
+
+        for (LogEntry logEntry : logEntries) {
+            System.out.println(logEntry.getMessage());
         }
+
+        System.out.println("\nstatus code: " + status);
 
     }
 }

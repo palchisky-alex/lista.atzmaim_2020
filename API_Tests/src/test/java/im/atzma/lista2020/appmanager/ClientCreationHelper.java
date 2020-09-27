@@ -1,18 +1,24 @@
 package im.atzma.lista2020.appmanager;
 
 
+import io.restassured.RestAssured;
+import io.restassured.config.EncoderConfig;
+import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.response.ResponseBody;
 import io.restassured.response.ValidatableResponse;
 
+import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
+import static io.restassured.RestAssured.config;
 import static io.restassured.RestAssured.given;
+import static io.restassured.config.MultiPartConfig.multiPartConfig;
 
 public class ClientCreationHelper {
     int count;
@@ -29,23 +35,32 @@ public class ClientCreationHelper {
         for (Map.Entry<String, String> entry : firstCookie.entrySet()) {
             key = entry.getKey();
             value = entry.getValue();
+//            config(RestAssured.config().encoderConfig(EncoderConfig.encoderConfig().encodeContentTypeAs("multipart/form-data", ContentType.TEXT)))
+//            config(RestAssured.config().encoderConfig(encoderConfig().encodeContentTypeAs("multipart/form-data", ContentType.TEXT)))
+//            .encoderConfig(encoderConfig().appendDefaultContentCharsetToContentTypeIfUndefined(false).encodeContentTypeAs("application/form-data", ContentType.TEXT));
         }
     }
 
     public Integer createClient() {
         System.out.println("CREATE A CLIENT");
         response_post = given().cookies(key, value).log().all().
-                //    header("content-type", "application/x-www-form-urlencoded").
-                        header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
-                        formParam("birthdate", "06-26").
-                        formParam("birthyear", "1981").
-                        formParam("added", "2020-08-02 16:00:00").
-                        formParam("address", "Israel, Rokah 18, Ramat Gan").
-                        formParam("phone", "0547613154").
-                        formParam("email", "QA_Test-Before@gmail.com").
-                        formParam("name", "Test_changeClientsData_before").
-                        formParam("gender", "male").
-                        formParam("status", "status - before").
+                header("Content-Type", "multipart/form-data; boundary=WebKitFormBoundaryDh1IOGfW5uqYiAnz").
+                config(config().multiPartConfig(multiPartConfig().defaultSubtype("form-data"))).
+                header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
+
+//                        contentType("multipart/form-data; boundary=----WebKitFormBoundaryYZy0LSSzZ7jpJcDk").
+//                        multiPart("file",new File( "src/test/resources/clientJSON.txt")).
+
+                        multiPart("name", "Test_changeClientsData_before").
+                        multiPart("phone", "[\"0547613154\"]").
+                        multiPart("permit_ads", "false").
+                        multiPart("birthdate", "06-26").
+                        multiPart("birthyear", "1981").
+                        multiPart("added", "2020-08-02 16:00:00").
+                        multiPart("address", "Israel, Rokah 18, Ramat Gan").
+                        multiPart("email", "QA_Test-Before@gmail.com").
+                        multiPart("gender", "male").
+                        multiPart("status", "status - before").
                         when().
                         post("/clients").then().assertThat().statusCode(201).extract().response();
         System.out.println("STATUS POST CODE: " + response_post.getStatusCode());

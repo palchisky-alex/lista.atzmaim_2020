@@ -45,6 +45,8 @@ dependencies {
     testCompile group: 'org.assertj', name: 'assertj-core', version: '3.16.1'
     // https://mvnrepository.com/artifact/org.freemarker/freemarker
     compile group: 'org.freemarker', name: 'freemarker', version: '2.3.30'
+    // https://mvnrepository.com/artifact/org.mock-server/mockserver-netty
+    testCompile group: 'org.mock-server', name: 'mockserver-netty', version: '5.11.1'
 
 
 

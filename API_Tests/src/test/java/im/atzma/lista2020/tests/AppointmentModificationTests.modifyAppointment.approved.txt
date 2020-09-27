@@ -25,7 +25,7 @@ Content-Encoding=gzip
         "note": "call one hour after",
         "client_#####
         "#####
-        "status": "status - before",
+        "status": null,
         "off_time": null,
         "address": "Israel, Maron 8, Tel Aviv",
         "birthdate": "03-01",
@@ -53,7 +53,7 @@ Content-Encoding=gzip
         "note": "call one hour after",
         "client_#####
         "#####
-        "status": "status - before",
+        "status": null,
         "off_time": null,
         "address": "Israel, Maron 8, Tel Aviv",
         "birthdate": "03-01",
@@ -81,7 +81,7 @@ Content-Encoding=gzip
         "note": "call one hour after",
         "client_#####
         "#####
-        "status": "status - before",
+        "status": null,
         "off_time": null,
         "address": "Israel, Maron 8, Tel Aviv",
         "birthdate": "03-01",
@@ -109,7 +109,7 @@ Content-Encoding=gzip
         "note": "call one hour after",
         "client_#####
         "#####
-        "status": "status - before",
+        "status": null,
         "off_time": null,
         "address": "Israel, Maron 8, Tel Aviv",
         "birthdate": "03-01",
@@ -137,7 +137,7 @@ Content-Encoding=gzip
         "note": "call one hour after",
         "client_#####
         "#####
-        "status": "status - before",
+        "status": null,
         "off_time": null,
         "address": "Israel, Maron 8, Tel Aviv",
         "birthdate": "03-01",
@@ -165,7 +165,7 @@ Content-Encoding=gzip
         "note": "call one hour after",
         "client_#####
         "#####
-        "status": "status - before",
+        "status": null,
         "off_time": null,
         "address": "Israel, Maron 8, Tel Aviv",
         "birthdate": "03-01",
@@ -193,7 +193,7 @@ Content-Encoding=gzip
         "note": "call one hour after",
         "client_#####
         "#####
-        "status": "status - before",
+        "status": null,
         "off_time": null,
         "address": "Israel, Maron 8, Tel Aviv",
         "birthdate": "03-01",
@@ -221,7 +221,7 @@ Content-Encoding=gzip
         "note": "call one hour after",
         "client_#####
         "#####
-        "status": "status - before",
+        "status": null,
         "off_time": null,
         "address": "Israel, Maron 8, Tel Aviv",
         "birthdate": "03-01",
@@ -249,7 +249,7 @@ Content-Encoding=gzip
         "note": "call one hour after",
         "client_#####
         "#####
-        "status": "status - before",
+        "status": null,
         "off_time": null,
         "address": "Israel, Maron 8, Tel Aviv",
         "birthdate": "03-01",
@@ -277,7 +277,7 @@ Content-Encoding=gzip
         "note": "call one hour after",
         "client_#####
         "#####
-        "status": "status - before",
+        "status": null,
         "off_time": null,
         "address": "Israel, Maron 8, Tel Aviv",
         "birthdate": "03-01",
@@ -305,7 +305,7 @@ Content-Encoding=gzip
         "note": "call one hour after",
         "client_#####
         "#####
-        "status": "status - before",
+        "status": null,
         "off_time": null,
         "address": "Israel, Maron 8, Tel Aviv",
         "birthdate": "03-01",
@@ -333,7 +333,7 @@ Content-Encoding=gzip
         "note": "call one hour after",
         "client_#####
         "#####
-        "status": "status - before",
+        "status": null,
         "off_time": null,
         "address": "Israel, Maron 8, Tel Aviv",
         "birthdate": "03-01",

@@ -102,11 +102,11 @@ public class HelperBase {
 
     public void waitForLocation(String myURL) throws InterruptedException {
 
-        (new WebDriverWait(driver, 100)).until(new ExpectedCondition<Boolean>() {
-            public Boolean apply(WebDriver d) {
-                return d.getCurrentUrl().equals(myURL);
-            }
-        });
+//        (new WebDriverWait(driver, 100)).until(new ExpectedCondition<Boolean>() {
+//            public Boolean apply(WebDriver d) {
+//                return d.getCurrentUrl().equals(myURL);
+//            }
+//        });
     }
 
     public void waitForElement(WebElement myElement) throws InterruptedException {

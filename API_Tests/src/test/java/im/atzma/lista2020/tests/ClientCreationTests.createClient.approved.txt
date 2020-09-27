@@ -18,10 +18,11 @@ Content-Encoding=gzip
     {
         "##ID##
         "name": "Test_changeClientsData_before",
-        "phone": null,
+        "phone": "0547613154",
         "###profile_image##
         "address": "Israel, Rokah 18, Ramat Gan",
-        "status": "status - before",
+        "status": null,
         "###last_appointment##
+        "phone_canonical": "+972547613154"
     }
 ]

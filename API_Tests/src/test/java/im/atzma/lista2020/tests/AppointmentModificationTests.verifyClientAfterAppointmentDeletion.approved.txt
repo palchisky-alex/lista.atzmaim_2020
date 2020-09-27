@@ -21,7 +21,7 @@ Content-Encoding=gzip
         "phone": "0543666666",
         "###profile_image##
         "address": "Russia, Khabarovsk, Krasnorechenskaya 179",
-        "status": "status - before",
+        "status": null,
         "###last_appointment##
         "phone_canonical": "+972543666666"
     }
