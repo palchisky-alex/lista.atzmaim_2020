@@ -4,31 +4,9 @@
     <list default="true" id="477da253-88be-40ae-98c6-8ed2876fb43d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/im/atzma/lista2020/appmanager/ClientCreationHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/im/atzma/lista2020/appmanager/ClientCreationHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/im/atzma/lista2020/appmanager/CookieManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/im/atzma/lista2020/appmanager/CookieManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/im/atzma/lista2020/appmanager/RestRequests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/im/atzma/lista2020/appmanager/RestRequests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/ClientCreationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/ClientCreationHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentCreationTests.createAppointment.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentCreationTests.createAppointment.approved.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentModificationTests.createAppointment.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentModificationTests.createAppointment.approved.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentModificationTests.modifyAppointment.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentModificationTests.modifyAppointment.approved.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentModificationTests.verifyClientAfterAppointmentDeletion.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/AppointmentModificationTests.verifyClientAfterAppointmentDeletion.approved.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/ClientCreationTests.createClient.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/ClientCreationTests.createClient.approved.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/ClientModificationTests.modificateClient.approved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/tests/ClientModificationTests.modificateClient.approved.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/ApplicationManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/HelperBase$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/HelperBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/HelperBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/NavigationHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/NavigationHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/tests/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/HelperBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../UI_API_Tests/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/classes/java/test/im/atzma/lista2020/Tests/AccountCreation_UI_API_Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI_API_Tests/build/classes/java/test/im/atzma/lista2020/Tests/AccountCreation_UI_API_Tests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/classes/java/test/im/atzma/lista2020/Tests/TestBase_UI_API.class" beforeDir="false" afterPath="$PROJECT_DIR$/../UI_API_Tests/build/classes/java/test/im/atzma/lista2020/Tests/TestBase_UI_API.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/build/resources/test/testng-AccountCreation_UI_API_Rest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UI_API_Tests/build/resources/test/testng-AccountCreation_UI_API_Rest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/Tests/AccountCreation_UI_API_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/Tests/AccountCreation_UI_API_Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/Tests/TestBase_UI_API.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/Tests/TestBase_UI_API.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/AccountCreation_UI_API_Helper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../UI_API_Tests/src/test/java/im/atzma/lista2020/appmanager/AccountCreation_UI_API_Helper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_API_Tests/src/test/resources/testng-AccountCreation_UI_API_Rest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UI_API_Tests/src/test/resources/testng-AccountCreation_UI_API_Rest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/RestRequests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/RestRequests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +142,7 @@
       <recent name="D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ServiceModificationRest.xml">
+  <component name="RunManager" selected="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ClientModificationRest.xml">
     <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml" type="TestNG" nameIsGenerated="true">
       <module name="API_AccountCreation_DDT_Tests.test" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml" />
@@ -175,9 +153,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentCreationRest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentModificationRest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="API_Tests.test" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng-AppointmentCreationRest.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng-AppointmentModificationRest.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -185,9 +163,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentModificationRest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ClientCreationRest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="API_Tests.test" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng-AppointmentModificationRest.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng-ClientCreationRest.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -238,19 +216,19 @@
     <list>
       <item itemvalue="TestNG.F:/Devel_2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AccountCreationRest.xml" />
       <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml" />
-      <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ClientModificationRest.xml" />
-      <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentCreationRest.xml" />
       <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentModificationRest.xml" />
       <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ServiceCreationRest.xml" />
       <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ServiceModificationRest.xml" />
+      <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ClientCreationRest.xml" />
+      <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ClientModificationRest.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ClientModificationRest.xml" />
+        <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ClientCreationRest.xml" />
         <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ServiceModificationRest.xml" />
         <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ServiceCreationRest.xml" />
         <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentModificationRest.xml" />
-        <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AppointmentCreationRest.xml" />
-        <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ClientModificationRest.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -314,22 +292,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="370" y="182" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1594843146613" />
-    <state width="1237" height="198" key="GridCell.Tab.0.bottom" timestamp="1601244126425">
+    <state width="1237" height="198" key="GridCell.Tab.0.bottom" timestamp="1602074006675">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="198" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1601244126425" />
-    <state width="1237" height="198" key="GridCell.Tab.0.center" timestamp="1601244126425">
+    <state width="1237" height="198" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602074006675" />
+    <state width="1237" height="198" key="GridCell.Tab.0.center" timestamp="1602074006675">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="198" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1601244126425" />
-    <state width="1237" height="198" key="GridCell.Tab.0.left" timestamp="1601244126425">
+    <state width="1237" height="198" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602074006675" />
+    <state width="1237" height="198" key="GridCell.Tab.0.left" timestamp="1602074006675">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="198" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1601244126425" />
-    <state width="1237" height="198" key="GridCell.Tab.0.right" timestamp="1601244126425">
+    <state width="1237" height="198" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602074006675" />
+    <state width="1237" height="198" key="GridCell.Tab.0.right" timestamp="1602074006675">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="198" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1601244126425" />
+    <state width="1237" height="198" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602074006675" />
     <state width="1237" height="247" key="GridCell.Tab.1.bottom" timestamp="1599260424458">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

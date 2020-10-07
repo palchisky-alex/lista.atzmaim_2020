@@ -10,7 +10,9 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import static io.restassured.RestAssured.config;
 import static io.restassured.RestAssured.given;
+import static io.restassured.config.MultiPartConfig.multiPartConfig;
 
 public class RestRequests extends HelperBaseAPI {
     static int count;
@@ -120,10 +122,11 @@ public class RestRequests extends HelperBaseAPI {
             System.out.println("== id for deletion: " + IDs_list.get(q) + " ==");
             id = IDs_list.get(q);
             response_get = given().cookies(key, value).
-                    header("content-type", "application/x-www-form-urlencoded").
-                    header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
+                    header("Content-Type", "application/x-www-form-urlencoded").
+                    header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").formParam("clients", id).
                     when().
-                    delete(req_delete + id).then().extract().response();
+                    delete(req_delete).
+                    then().extract().response();
             count = count - 1;
             System.out.println("STATUS DELETE CODE: " + response_get.getStatusCode());
             System.out.println("== Number of deleted item: " + count + " ==");
@@ -133,13 +136,6 @@ public class RestRequests extends HelperBaseAPI {
 
     }
 
-
-    static void deleteRest() throws IOException {
-
-        //count();
-        //removeRest(IDs_list);
-
-    }
 
     public void loadProperties() throws IOException {
         properties_list.clear();
