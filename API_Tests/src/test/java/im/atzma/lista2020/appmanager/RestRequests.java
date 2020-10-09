@@ -20,6 +20,7 @@ public class RestRequests extends HelperBaseAPI {
     static String key;
     static String value;
     public String requests;
+    static String parametrName;
     static ArrayList<Integer> IDs_list = new ArrayList<>();
     static List<String> get_list = new ArrayList<>();
     static List<String> delete_list = new ArrayList<>();
@@ -114,6 +115,10 @@ public class RestRequests extends HelperBaseAPI {
 
     public static void removeRest(ArrayList<Integer> IDs_list, String req_delete) throws InterruptedException {
         System.out.println("=========== REMOVE ALL DEFAULT ELEMENTS FROM RANDOM ACCOUNT BEFORE TESTS =========== ");
+        System.out.println(req_delete);
+        if(req_delete == "/clients/") {
+             parametrName = "clients";
+        }
         count = IDs_list.size();
         System.out.println("== List items size for deletion: " + count + " ==");
         System.out.print("== Items for deletion:");
@@ -123,7 +128,7 @@ public class RestRequests extends HelperBaseAPI {
             id = IDs_list.get(q);
             response_get = given().cookies(key, value).
                     header("Content-Type", "application/x-www-form-urlencoded").
-                    header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").formParam("clients", id).
+                    header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").formParam(parametrName, id).
                     when().
                     delete(req_delete).
                     then().extract().response();

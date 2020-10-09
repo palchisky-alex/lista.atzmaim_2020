@@ -57,16 +57,13 @@ public class ApplicationManager {
         browser = properties.getProperty("web.browser");
 
         if (browser.equals("Chrome")) {
-            System.setProperty("webdriver.chrome.driver", "C:\\automation\\browser drivers\\chromedriver_84_win32\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "C:\\automation\\browser drivers\\chromedriver_86_win32\\chromedriver.exe");
             DesiredCapabilities capabilities = new DesiredCapabilities();
             capabilities.setBrowserName("chrome");
-            capabilities.setVersion("84.0");
-            capabilities.setCapability("enableVNC", true);
-            capabilities.setCapability("enableVideo", true);
+            capabilities.setVersion("86.0");
             capabilities.setCapability("timeZone", "Asia/Jerusalem");
             capabilities.setCapability("geoLocation","IL");
-            capabilities.setCapability("videoName", time);
-            capabilities.setCapability("applicationCacheEnabled", false);
+            capabilities.setCapability("applicationCacheEnabled", true);
             capabilities.setCapability("locationContextEnabled", true);
             capabilities.setCapability("javascriptEnabled", true);
 //            LoggingPreferences loggingprefs = new LoggingPreferences();

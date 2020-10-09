@@ -203,7 +203,7 @@ public class AppointmentHelper extends HelperBase {
     }
 
     public void create_G(String clientName, String service) throws InterruptedException {
-        fillText(driver.findElement(By.cssSelector("[placeholder]")), clientName); //search client
+//        fillText(driver.findElement(By.cssSelector("[placeholder]")), clientName); //search client
         waitForElement(driver.findElement(By.xpath("//*[contains(text(), '" + clientName + "')]")));
         click(driver.findElement(By.xpath("//*[contains(text(), '" + clientName + "')]"))); //click on client
 

@@ -5,7 +5,9 @@ import io.restassured.response.Response;
 
 import java.util.Map;
 
+import static io.restassured.RestAssured.config;
 import static io.restassured.RestAssured.given;
+import static io.restassured.config.MultiPartConfig.multiPartConfig;
 
 public class ServiceCreationHelper {
     String key;
@@ -29,16 +31,16 @@ public class ServiceCreationHelper {
 
     public Integer createService(int id) {
         System.out.println("CREATE A SERVICE");
-        response_post = given().cookies(key, value).
+        response_post = given().cookies(key, value).log().all().
                 header("content-type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 formParam("name", "TestService").
-                formParam("duration", 60).
-                formParam("price", 50).
+                formParam("duration", "60").
+                formParam("price", "50").
                 formParam("color", "#50e3c1").
                 formParam("category_id", id).
                 formParam("added", "2020-01-26 21:39:41").
-                when().log().all().
+                when().
                 post("/catalog/services").then().
                 assertThat().
                 statusCode(201).extract().response();
@@ -52,11 +54,11 @@ public class ServiceCreationHelper {
 
     public int createCategory() {
         System.out.println("CREATE A CATEGORY");
-        response_post = given().cookies(key, value).
+        response_post = given().cookies(key, value).log().all().
                 header("content-type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 formParam("name", "TestCategory").
-                when().log().all().
+                when().
                 post("/catalog/services/categories").then().
                 assertThat().
                 statusCode(201).extract().response();

@@ -46,7 +46,6 @@ public class ClientCreationHelper {
         response_post = given().cookies(key, value).log().all().
                 header("Content-Type", "multipart/form-data; boundary=WebKitFormBoundaryDh1IOGfW5uqYiAnz").
                 config(config().multiPartConfig(multiPartConfig().defaultSubtype("form-data"))).
-
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
 
 //                        contentType("multipart/form-data; boundary=----WebKitFormBoundaryYZy0LSSzZ7jpJcDk").
