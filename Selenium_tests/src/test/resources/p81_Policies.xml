@@ -15,7 +15,9 @@
                     <include name="initiatePolicyCreation"/>
                     <include name="veirfyPolicyURL"/>
                     <include name="addPolicy"/>
-                    <include name="verifyNewPolicy"/>
+                    <include name="verifyNumberOfPolicy"/>
+                    <include name="initiatePolicyDeletion"/>
+                    <include name="deletePolicies"/>
                 </methods>
             </class>
         </classes>

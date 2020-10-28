@@ -3,14 +3,12 @@ package im.atzma.lista2020.appmanager;
 import org.openqa.selenium.*;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.*;
 
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.time.Duration;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
@@ -38,6 +36,9 @@ public class HelperBase {
     }
 
     public void click(WebElement el) {
+//        FluentWait<WebDriver> wait = new FluentWait(driver)
+//                    .pollingEvery(Duration.ofSeconds(1))
+//                    .withTimeout(Duration.ofSeconds(5));
 //        wait.until(ExpectedConditions.elementToBeClickable(el));
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", el);
         highlight(el);
