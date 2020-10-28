@@ -44,7 +44,7 @@ public class HelperBase {
 
 
         try {
-            Thread.sleep(500);
+            Thread.sleep(100);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -111,7 +111,7 @@ public class HelperBase {
 
     public void waitForElement(WebElement myElement) throws InterruptedException {
         for (int second = 0; ; second++) {
-            if (second >= 100) fail("timeout");
+            if (second >= 3000000) fail("timeout");
             if (myElement.isDisplayed()) break;
         }
     }

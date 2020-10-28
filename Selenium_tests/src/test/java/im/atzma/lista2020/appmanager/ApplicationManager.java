@@ -8,6 +8,8 @@ import org.openqa.selenium.logging.*;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
@@ -35,6 +37,9 @@ public class ApplicationManager {
     ServicesHelper servicesHelper;
     ClientHelper clientHelper;
     AppointmentHelper appointmentHelper;
+
+    P81_NavigationHelper p81_navigationHelper;
+    P81_PolicyHelper p81_policyHelper;
 
 
     public StringBuffer verificationErrors = new StringBuffer();
@@ -92,7 +97,7 @@ public class ApplicationManager {
             chromeOptions.setExperimentalOption("prefs", prefs);
             chromeOptions.merge(capabilities);
 
-            driver = new ChromeDriver(chromeOptions);
+            driver = new ChromeDriver();
         } else if (browser.equals("Firefox")) {
             System.setProperty("webdriver.gecko.driver", "C:\\automation\\browser drivers\\firefox\\geckodriver.exe");
             driver = new FirefoxDriver();
@@ -148,6 +153,9 @@ public class ApplicationManager {
         servicesHelper = new ServicesHelper(driver);
         clientHelper = new ClientHelper(driver);
         appointmentHelper = new AppointmentHelper(driver);
+
+        p81_navigationHelper = new P81_NavigationHelper(driver);
+        p81_policyHelper = new P81_PolicyHelper(driver);
     }
 
 
@@ -162,9 +170,7 @@ public class ApplicationManager {
         // Runtime.getRuntime().exec("taskkill /F /IM chromedriver.exe");
     }
 
-    public NavigationHelper goTo() {
-        return navigationHelper;
-    }
+    public NavigationHelper goTo() { return navigationHelper; }
 
     public SingupPage singupPage() {
         return singupPage;
@@ -189,6 +195,10 @@ public class ApplicationManager {
     public AppointmentHelper appointment() {
         return appointmentHelper;
     }
+
+
+    public P81_NavigationHelper P81_goTo() { return p81_navigationHelper; }
+    public P81_PolicyHelper p81_policyHelper() { return p81_policyHelper; }
 
     public void getLogs() {
         Logs logs = driver.manage().logs();

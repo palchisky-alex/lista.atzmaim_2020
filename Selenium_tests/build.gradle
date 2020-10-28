@@ -12,6 +12,18 @@ dependencies {
     implementation 'org.hamcrest:java-hamcrest:2.0.0.0'
 
 }
+
+task p81_Login(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/p81_Login.xml'
+    }
+}
+task p81_Policies(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/p81_Policies.xml'
+    }
+}
+
 task testNewAppointment_A(type: Test) {
     useTestNG() {
         suites './src/test/resources/testng-AppointmentCreation_A.xml'

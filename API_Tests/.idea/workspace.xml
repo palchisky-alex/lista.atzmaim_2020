@@ -3,14 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="477da253-88be-40ae-98c6-8ed2876fb43d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/im/atzma/lista2020/appmanager/ClientCreationHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/im/atzma/lista2020/appmanager/ClientCreationHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/im/atzma/lista2020/appmanager/RestRequests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/im/atzma/lista2020/appmanager/RestRequests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/im/atzma/lista2020/appmanager/ServiceCreationHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/im/atzma/lista2020/appmanager/ServiceCreationHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/ClientCreationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/ClientCreationHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/RestRequests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/RestRequests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/ServiceCreationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/im/atzma/lista2020/appmanager/ServiceCreationHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/ApplicationManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/HelperBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/HelperBase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/AppointmentHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/AppointmentHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/HelperBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/resources/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/resources/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,11 +131,11 @@
       <recent name="D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\src\test\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="im.atzma.lista2020.Tests.testdata" />
       <recent name="im.atzma.lista2020.appmanager" />
+      <recent name="im.atzma.lista2020.tests" />
+      <recent name="im.atzma.lista2020.Tests.testdata" />
       <recent name="im.atzma.lista2020.Tests" />
       <recent name="lista2020.tests" />
-      <recent name="im.atzma.lista2020.tests" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Devel_lista2020\lista.atzmaim_2020\Selenium_tests\src\test\resources" />
@@ -146,7 +145,7 @@
       <recent name="D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-AppointmentCreation_G.xml">
+  <component name="RunManager" selected="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/p81_Policies.xml">
     <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml" type="TestNG" nameIsGenerated="true">
       <module name="API_AccountCreation_DDT_Tests.test" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml" />
@@ -167,16 +166,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ClientModificationRest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="API_Tests.test" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng-ClientModificationRest.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ServiceCreationRest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="API_Tests.test" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng-ServiceCreationRest.xml" />
@@ -187,9 +176,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ServiceModificationRest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="API_Tests.test" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng-ServiceModificationRest.xml" />
+    <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/p81_Login.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_tests.test" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/../Selenium_tests/src/test/resources/p81_Login.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/p81_Policies.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_tests.test" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/../Selenium_tests/src/test/resources/p81_Policies.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -221,18 +220,18 @@
       <item itemvalue="TestNG.F:/Devel_2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AccountCreationRest.xml" />
       <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml" />
       <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ServiceCreationRest.xml" />
-      <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ServiceModificationRest.xml" />
       <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ClientCreationRest.xml" />
-      <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ClientModificationRest.xml" />
       <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-AppointmentCreation_G.xml" />
+      <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/p81_Login.xml" />
+      <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/p81_Policies.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/p81_Policies.xml" />
+        <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/p81_Login.xml" />
         <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-AppointmentCreation_G.xml" />
         <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ClientCreationRest.xml" />
         <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ServiceCreationRest.xml" />
-        <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ClientModificationRest.xml" />
-        <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ServiceModificationRest.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -276,58 +275,42 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="267" y="19" key="#Inspections" timestamp="1594908088169">
+    <state x="101" y="149" width="1095" height="495" maximized="true" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1603841343029">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="267" y="19" key="#Inspections/0.0.1280.680@0.0.1280.680" timestamp="1594908088169" />
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595007925396">
+    <state x="101" y="149" width="1095" height="495" maximized="true" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.680@0.0.1280.680" timestamp="1603841343029" />
+    <state width="1237" height="188" key="GridCell.Tab.0.bottom" timestamp="1603893753449">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1595007925396" />
-    <state x="101" y="149" width="1095" height="495" maximized="true" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1599230170705">
+    <state width="1237" height="188" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603893753449" />
+    <state width="1237" height="188" key="GridCell.Tab.0.center" timestamp="1603893753449">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="101" y="149" width="1095" height="495" maximized="true" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.680@0.0.1280.680" timestamp="1599230170705" />
-    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1594922562991">
+    <state width="1237" height="188" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1603893753449" />
+    <state width="1237" height="188" key="GridCell.Tab.0.left" timestamp="1603893753449">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1594922562991" />
-    <state x="370" y="182" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1594843146613">
+    <state width="1237" height="188" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1603893753449" />
+    <state width="1237" height="188" key="GridCell.Tab.0.right" timestamp="1603893753449">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="370" y="182" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.680@0.0.1280.680" timestamp="1594843146613" />
-    <state width="1237" height="183" key="GridCell.Tab.0.bottom" timestamp="1602223231076">
+    <state width="1237" height="188" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1603893753449" />
+    <state width="1237" height="247" key="GridCell.Tab.1.bottom" timestamp="1602224307274">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="183" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602223231076" />
-    <state width="1237" height="183" key="GridCell.Tab.0.center" timestamp="1602223231076">
+    <state width="1237" height="247" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602224307274" />
+    <state width="1237" height="247" key="GridCell.Tab.1.center" timestamp="1602224307274">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="183" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602223231076" />
-    <state width="1237" height="183" key="GridCell.Tab.0.left" timestamp="1602223231076">
+    <state width="1237" height="247" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1602224307274" />
+    <state width="1237" height="247" key="GridCell.Tab.1.left" timestamp="1602224307274">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="183" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602223231076" />
-    <state width="1237" height="183" key="GridCell.Tab.0.right" timestamp="1602223231076">
+    <state width="1237" height="247" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1602224307274" />
+    <state width="1237" height="247" key="GridCell.Tab.1.right" timestamp="1602224307274">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="183" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602223231076" />
-    <state width="1237" height="247" key="GridCell.Tab.1.bottom" timestamp="1602220538628">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="247" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602220538628" />
-    <state width="1237" height="247" key="GridCell.Tab.1.center" timestamp="1602220538628">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="247" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1602220538628" />
-    <state width="1237" height="247" key="GridCell.Tab.1.left" timestamp="1602220538628">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="247" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1602220538628" />
-    <state width="1237" height="247" key="GridCell.Tab.1.right" timestamp="1602220538628">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="247" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1602220538628" />
+    <state width="1237" height="247" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1602224307274" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1595620130712">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
