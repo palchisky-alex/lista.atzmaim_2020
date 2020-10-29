@@ -25,4 +25,9 @@ public class P81_MembersTest extends TestBase {
     public void verifyInvitationsTest() {
         Assert.assertTrue(app.p81_membersHelper().verifyNewInvitationsInList());
     }
+
+    @Test
+    public void verifyRolesTest() {
+        Assert.assertTrue(app.p81_membersHelper().verifyRoles("User"));
+    }
 }

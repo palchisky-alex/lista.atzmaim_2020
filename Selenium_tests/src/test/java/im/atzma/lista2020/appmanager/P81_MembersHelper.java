@@ -37,6 +37,9 @@ public class P81_MembersHelper extends HelperBase {
     @FindBy(css = ".EntityIcon_small__2z6d9.Entity_icon__3YhQi ")
     List<WebElement> icons_of_unactivated_members;
 
+    @FindBy(css = ".EntityIcon_small__2z6d9.Entity_icon__3YhQi")
+    List<WebElement> roles_of_unactivated_members;
+
     WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
     List<String> mails;
 
@@ -138,5 +141,21 @@ public class P81_MembersHelper extends HelperBase {
             invitationsInList = false;
         }
         return invitationsInList;
+    }
+
+    public boolean verifyRoles(String rol) {
+        Boolean rolesInList = false;
+
+        for (int i = 0; i < mails.size(); i++) {
+            List<WebElement> roleInList = driver.findElements(By.xpath("//div[contains(@class, 'EntityIcon_small__2z6d9') and contains(@class,'Entity_icon__3YhQi')]/../../../td[3]"));
+            highlight(roleInList.get(i));
+            if (rol.equals(roleInList.get(i).getText())) {
+                System.out.println(i + ". Role of new member: " + roleInList.get(i).getText());
+                rolesInList = true;
+            } else {
+                rolesInList = false;
+            }
+        }
+        return rolesInList;
     }
 }

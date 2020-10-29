@@ -15,6 +15,7 @@
                     <include name="verifyPopupItems"/>
                     <include name="addNewMailTest"/>
                     <include name="verifyInvitationsTest"/>
+                    <include name="verifyRolesTest"/>
                 </methods>
             </class>
 
