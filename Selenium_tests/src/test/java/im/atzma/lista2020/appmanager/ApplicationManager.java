@@ -4,11 +4,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.logging.*;
-import org.openqa.selenium.remote.CapabilityType;
+import org.openqa.selenium.logging.LogEntries;
+import org.openqa.selenium.logging.LogEntry;
+import org.openqa.selenium.logging.LogType;
+import org.openqa.selenium.logging.Logs;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
 import java.io.FileReader;
@@ -19,9 +20,12 @@ import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.time.chrono.ChronoLocalDateTime;
 import java.time.chrono.IsoChronology;
-import java.util.*;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
-import java.util.logging.Level;
+
 import static org.testng.Assert.fail;
 
 
@@ -40,6 +44,7 @@ public class ApplicationManager {
 
     P81_NavigationHelper p81_navigationHelper;
     P81_PolicyHelper p81_policyHelper;
+    P81_MembersHelper p81_membersHelper;
 
 
     public StringBuffer verificationErrors = new StringBuffer();
@@ -156,6 +161,7 @@ public class ApplicationManager {
 
         p81_navigationHelper = new P81_NavigationHelper(driver);
         p81_policyHelper = new P81_PolicyHelper(driver);
+        p81_membersHelper = new P81_MembersHelper(driver);
     }
 
 
@@ -199,6 +205,7 @@ public class ApplicationManager {
 
     public P81_NavigationHelper P81_goTo() { return p81_navigationHelper; }
     public P81_PolicyHelper p81_policyHelper() { return p81_policyHelper; }
+    public P81_MembersHelper p81_membersHelper() { return  p81_membersHelper; }
 
     public void getLogs() {
         Logs logs = driver.manage().logs();

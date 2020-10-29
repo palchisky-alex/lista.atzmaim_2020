@@ -9,17 +9,15 @@
                     <include name="login"/>
                 </methods>
             </class>
-            <class name="im.atzma.lista2020.tests.P81_PoliciesTest">
+            <class name="im.atzma.lista2020.tests.P81_MembersTest">
                 <methods>
-                    <include name="goToPolicy"/>
-                    <include name="initiatePolicyCreation"/>
-                    <include name="veirfyPolicyURL"/>
-                    <include name="addPolicy"/>
-                    <include name="verifyNumberOfPolicy"/>
-                    <include name="checkPolicyMenuTest"/>
-                    <include name="deletePolicies"/>
+                    <include name="initiateMemberInviting"/>
+                    <include name="verifyPopupItems"/>
+                    <include name="addNewMailTest"/>
+                    <include name="verifyInvitationsTest"/>
                 </methods>
             </class>
+
         </classes>
 
     </test>

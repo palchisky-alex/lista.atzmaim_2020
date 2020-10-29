@@ -76,4 +76,8 @@ public class P81_NavigationHelper extends HelperBase {
         click(driver.findElement(By.cssSelector(".intercom-lr0ri6.es6hgh14 span")));
         driver.switchTo().defaultContent();
     }
+
+    public void goToMembersPage() {
+        driver.get("https://testcompany4.perimeter81.com/team/members");
+    }
 }

@@ -53,9 +53,9 @@ public class P81_PoliciesTest extends TestBase {
     }
 
     @Test
-    public void initiatePolicyDeletion() throws InterruptedException {
+    public void checkPolicyMenuTest() throws InterruptedException {
         app.P81_goTo().goToPolicyPage();
-        boolean verify_Menu_Items = app.p81_policyHelper().initiatePolicyDeletion();
+        boolean verify_Menu_Items = app.p81_policyHelper().checkPolicyMenu();
 
         if(verify_Menu_Items) {
             System.out.println("Number of items in Policy menu = 3 and and editable");

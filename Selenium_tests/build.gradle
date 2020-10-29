@@ -23,6 +23,11 @@ task p81_Policies(type: Test) {
         suites './src/test/resources/p81_Policies.xml'
     }
 }
+task p81_Members(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/p81_Members.xml'
+    }
+}
 
 task testNewAppointment_A(type: Test) {
     useTestNG() {

@@ -4,19 +4,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.FluentWait;
-import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.NoSuchElementException;
-import java.util.concurrent.TimeUnit;
-
-import static com.google.common.util.concurrent.Futures.withTimeout;
-import static java.util.concurrent.TimeUnit.SECONDS;
 
 public class P81_PolicyHelper extends HelperBase {
     @FindBy(xpath = "(//button)[1]")
@@ -87,7 +78,7 @@ public class P81_PolicyHelper extends HelperBase {
         return policyNames_onPage.size();
     }
 
-    public boolean initiatePolicyDeletion() throws InterruptedException {
+    public boolean checkPolicyMenu() throws InterruptedException {
         boolean verify_menuItems = false;
 
         click(btn_policyMenu.get(0));
@@ -118,7 +109,7 @@ public class P81_PolicyHelper extends HelperBase {
                 click(btn_policyMenu.get(i));
                 click(policy_menu_items.get(1));
                 click(btn_delete);
-                Thread.sleep(1000);
+                Thread.sleep(3000);
                 numPolicyRows_onPage += -1;
                 System.out.println("Number of policies after deletion: " + numPolicyRows_onPage);
             }

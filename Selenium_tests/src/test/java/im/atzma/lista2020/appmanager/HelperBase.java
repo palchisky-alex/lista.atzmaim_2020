@@ -123,6 +123,9 @@ public class HelperBase {
 
     public boolean isElementPresent2(List<WebElement> el) throws InterruptedException {
         if (el.size() > 0) {
+            for (int i = 0; i < el.size(); i++) {
+                highlight(el.get(i));
+            }
             return true;
         }
         return false;
@@ -134,6 +137,7 @@ public class HelperBase {
         itemlist.clear();
         itemlist.add(el);
         if (itemlist.size() > 0) {
+            highlight(el);
             return true;
         } else System.out.println("Element not present");
 
