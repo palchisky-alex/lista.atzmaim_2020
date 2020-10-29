@@ -17,6 +17,10 @@ import java.util.List;
 public class P81_MembersHelper extends HelperBase {
     @FindBy(xpath = "(//button)[1]")
     WebElement btn_inviteMember;
+    @FindBy(xpath = "(//button)[12]")
+    WebElement btn_copy_link;
+    @FindBy(xpath = "(//button)[13]")
+    WebElement btn_copy_link_done;
 
     @FindBy(xpath = "//input[@type='text']")
     List<WebElement> input_addMemberField;
@@ -40,8 +44,18 @@ public class P81_MembersHelper extends HelperBase {
     @FindBy(css = ".EntityIcon_small__2z6d9.Entity_icon__3YhQi")
     List<WebElement> roles_of_unactivated_members;
 
+    @FindBy(xpath = "//div[contains(@class, 'EntityIcon_small__2z6d9') and contains(@class,'Entity_icon__3YhQi')]/../../../td[6]/button")
+    List<WebElement> btn_menu_member;
+    @FindBy(css = "#dropdown-tooltip li")
+    List<WebElement> menu_member_items;
+
+    @FindBy(css = "div.Popup_popup__3vosY")
+    WebElement popup_with_link;
+
     WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
     List<String> mails;
+    List<String> links;
+
 
     public P81_MembersHelper(WebDriver driver) {
         super(driver);
@@ -134,6 +148,7 @@ public class P81_MembersHelper extends HelperBase {
         Boolean invitationsInList = false;
         if (icons_of_unactivated_members.size() == mails.size()) {
             for (int i = 0; i < mails.size(); i++) {
+                highlight(icons_of_unactivated_members.get(i));
                 highlight(driver.findElement(By.xpath("//span[text()='" + mails.get(i) + "']")));
             }
             invitationsInList = true;
@@ -157,5 +172,34 @@ public class P81_MembersHelper extends HelperBase {
             }
         }
         return rolesInList;
+    }
+
+    public boolean verifyMenuOfMember() throws InterruptedException {
+        Boolean verifyMenuVisible = false;
+        for (int i = 0; i < btn_menu_member.size(); i++) {
+            click(btn_menu_member.get(i));
+            if (isElementVisible(driver.findElement(By.id("dropdown-tooltip")))) {
+                for (int j = 0; j < menu_member_items.size(); j++) {
+                    highlight_blue(menu_member_items.get(j));
+                    Thread.sleep(200);
+                }
+                click(btn_menu_member.get(i));
+                verifyMenuVisible = true;
+            } else {
+                verifyMenuVisible = false;
+            }
+
+        }
+        return verifyMenuVisible;
+    }
+
+    public void copyLink() {
+        btn_menu_member.get(1).click();
+        menu_member_items.get(1).click();
+        if(isElementVisible(popup_with_link)) {
+           String v =driver.findElement(By.xpath("//*[@id=\"root\"]/main/section/section/div/div[2]/div[2]/section/div/div/div/input"))
+                   .getCssValue("readonly value");
+            System.out.println(v);
+        }
     }
 }

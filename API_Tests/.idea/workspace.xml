@@ -3,13 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="477da253-88be-40ae-98c6-8ed2876fb43d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/HelperBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/HelperBase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/P81_MembersHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/P81_MembersHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/tests/P81_MembersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/tests/P81_MembersTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/resources/test/p81_Members.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/resources/test/p81_Members.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium_tests/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/HelperBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/P81_MembersHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/P81_MembersHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/tests/P81_MembersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/tests/P81_MembersTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/resources/p81_Members.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/resources/p81_Members.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,6 +124,17 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="im.atzma.lista2020" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Devel_lista2020\lista.atzmaim_2020\UI_API_Tests\src\test\resources" />
+      <recent name="D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\src\test\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="im.atzma.lista2020.tests" />
+      <recent name="im.atzma.lista2020.appmanager" />
+      <recent name="im.atzma.lista2020.Tests.testdata" />
+      <recent name="im.atzma.lista2020.Tests" />
+      <recent name="lista2020.tests" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Devel_lista2020\lista.atzmaim_2020\Selenium_tests\src\test\resources" />
       <recent name="D:\Devel_lista2020\lista.atzmaim_2020\UI_API_Tests\src\main\java" />
@@ -133,19 +142,8 @@
       <recent name="D:\Devel_lista2020\lista.atzmaim_2020\UI_API_Tets\src\test\resources" />
       <recent name="D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\src\test\resources" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="im.atzma.lista2020.appmanager" />
-      <recent name="im.atzma.lista2020.tests" />
-      <recent name="im.atzma.lista2020.Tests.testdata" />
-      <recent name="im.atzma.lista2020.Tests" />
-      <recent name="lista2020.tests" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Devel_lista2020\lista.atzmaim_2020\UI_API_Tests\src\test\resources" />
-      <recent name="D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\src\test\resources" />
-    </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/p81_Members.xml">
+  <component name="RunManager" selected="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/p81_MembersActiation.xml">
     <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml" type="TestNG" nameIsGenerated="true">
       <module name="API_AccountCreation_DDT_Tests.test" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml" />
@@ -156,9 +154,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ClientCreationRest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="API_Tests.test" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng-ClientCreationRest.xml" />
+    <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/p81_Login.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Selenium_tests.test" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/../Selenium_tests/src/test/resources/p81_Login.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -166,9 +164,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/p81_Login.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/p81_MembersActiation.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium_tests.test" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/../Selenium_tests/src/test/resources/p81_Login.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/../Selenium_tests/src/test/resources/p81_MembersActiation.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -219,19 +217,19 @@
     <list>
       <item itemvalue="TestNG.F:/Devel_2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-AccountCreationRest.xml" />
       <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml" />
-      <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ClientCreationRest.xml" />
       <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-AppointmentCreation_G.xml" />
       <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/p81_Login.xml" />
       <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/p81_Policies.xml" />
       <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/p81_Members.xml" />
+      <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/p81_MembersActiation.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/p81_MembersActiation.xml" />
         <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/p81_Members.xml" />
         <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/p81_Policies.xml" />
         <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/p81_Login.xml" />
         <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/testng-AppointmentCreation_G.xml" />
-        <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/API_Tests/src/test/resources/testng-ClientCreationRest.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -279,22 +277,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="101" y="149" width="1095" height="495" maximized="true" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.680@0.0.1280.680" timestamp="1603841343029" />
-    <state width="1237" height="370" key="GridCell.Tab.0.bottom" timestamp="1603995494476">
+    <state width="1237" height="171" key="GridCell.Tab.0.bottom" timestamp="1604001593362">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="370" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603995494476" />
-    <state width="1237" height="370" key="GridCell.Tab.0.center" timestamp="1603995494476">
+    <state width="1237" height="171" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604001593362" />
+    <state width="1237" height="171" key="GridCell.Tab.0.center" timestamp="1604001593362">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="370" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1603995494476" />
-    <state width="1237" height="370" key="GridCell.Tab.0.left" timestamp="1603995494476">
+    <state width="1237" height="171" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1604001593362" />
+    <state width="1237" height="171" key="GridCell.Tab.0.left" timestamp="1604001593361">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="370" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1603995494476" />
-    <state width="1237" height="370" key="GridCell.Tab.0.right" timestamp="1603995494476">
+    <state width="1237" height="171" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1604001593361" />
+    <state width="1237" height="171" key="GridCell.Tab.0.right" timestamp="1604001593362">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="370" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1603995494476" />
+    <state width="1237" height="171" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1604001593362" />
     <state width="1237" height="247" key="GridCell.Tab.1.bottom" timestamp="1603915395227">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

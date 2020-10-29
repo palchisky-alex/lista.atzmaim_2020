@@ -34,6 +34,9 @@ public class HelperBase {
     public void highlight(WebElement el) {
         ((JavascriptExecutor) driver).executeScript("arguments[0].style.border='2px solid red'", el);
     }
+    public void highlight_blue(WebElement el) {
+        ((JavascriptExecutor) driver).executeScript("arguments[0].style.border='2px solid blue'", el);
+    }
 
     public void click(WebElement el) {
 //        FluentWait<WebDriver> wait = new FluentWait(driver)
@@ -132,7 +135,6 @@ public class HelperBase {
     }
 
     public boolean isElementPresent(WebElement el) throws InterruptedException {
-        System.out.println("Element: " + el);
         List<WebElement> itemlist = new ArrayList<>();
         itemlist.clear();
         itemlist.add(el);
@@ -146,7 +148,7 @@ public class HelperBase {
 
     public boolean isElementVisible(WebElement el) {
         if ( el.getSize().getHeight() != 0) {
-            System.out.println(el.getSize().getHeight());
+//            System.out.println(el.getSize().getHeight());
             return true;
         } else
             return false;
