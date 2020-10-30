@@ -115,7 +115,7 @@ public class HelperBase {
 
     public void waitForElement(WebElement myElement) throws InterruptedException {
         for (int second = 0; ; second++) {
-            if (second >= 3000000) fail("timeout");
+            if (second >= 30000) fail("timeout");
             if (myElement.isDisplayed()) break;
         }
     }

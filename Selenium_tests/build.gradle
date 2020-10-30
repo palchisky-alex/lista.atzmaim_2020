@@ -13,19 +13,31 @@ dependencies {
 
 }
 
+task p81_MembersActivationTest(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/p81_MembersActivation.xml'
+    }
+}
+
+task p81_DeleteMembersTest(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/p81_MembersDeletion.xml'
+    }
+}
+
 task p81_Login(type: Test) {
     useTestNG() {
         suites './src/test/resources/p81_Login.xml'
     }
 }
-task p81_Policies(type: Test) {
+task p81_PoliciesTest(type: Test) {
     useTestNG() {
         suites './src/test/resources/p81_Policies.xml'
     }
 }
-task p81_Members(type: Test) {
+task p81_InviteMembersTest(type: Test) {
     useTestNG() {
-        suites './src/test/resources/p81_Members.xml'
+        suites './src/test/resources/p81_MembersInvitation.xml'
     }
 }
 

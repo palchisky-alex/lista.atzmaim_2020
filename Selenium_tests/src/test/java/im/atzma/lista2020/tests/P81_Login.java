@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class P81_Login extends TestBase{
 
-    @Test
+    @Test(priority = 1, alwaysRun = true)
     public void login() throws InterruptedException {
         app.P81_goTo().goToLoginPage();
         app.P81_goTo().closePopap();

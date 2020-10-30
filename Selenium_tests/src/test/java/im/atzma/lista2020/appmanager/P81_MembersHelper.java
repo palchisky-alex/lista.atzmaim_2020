@@ -1,7 +1,5 @@
 package im.atzma.lista2020.appmanager;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
-import im.atzma.lista2020.model.ClientData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -18,9 +16,9 @@ import java.util.regex.Pattern;
 public class P81_MembersHelper extends HelperBase {
     @FindBy(xpath = "(//button)[1]")
     WebElement btn_inviteMember;
-    @FindBy(xpath = "(//button)[12]")
-    WebElement btn_copy_link;
-    @FindBy(xpath = "(//button)[13]")
+    @FindBy(xpath = "(//button)[10]")
+    WebElement btn_delete_member;
+    @FindBy(css = "div.Footer_buttons__1Bvuj button")
     WebElement btn_copy_link_done;
 
     @FindBy(xpath = "//input[@type='text']")
@@ -33,6 +31,9 @@ public class P81_MembersHelper extends HelperBase {
     @FindBy(css = "div.Footer_base__nT6Qr button:nth-child(1)")
     WebElement btn_enable_addMember;
 
+    @FindBy(css = "div.Footer_base__nT6Qr button:nth-child(3)")
+    WebElement btn_apply_role_change;
+
     @FindBy(xpath = "//div[@class='Popup_popup__3vosY']")
     List<WebElement> popup_addMemebrs;
 
@@ -41,12 +42,13 @@ public class P81_MembersHelper extends HelperBase {
 
     @FindBy(css = ".EntityIcon_small__2z6d9.Entity_icon__3YhQi")
     List<WebElement> icons_of_unactivated_members;
-
-    @FindBy(css = ".EntityIcon_small__2z6d9.Entity_icon__3YhQi")
-    List<WebElement> roles_of_unactivated_members;
+    @FindBy(xpath = "//figure")
+    List<WebElement> icons_of_activated_members;
 
     @FindBy(xpath = "//div[contains(@class, 'EntityIcon_small__2z6d9') and contains(@class,'Entity_icon__3YhQi')]/../../../td[6]/button")
-    List<WebElement> btn_menu_member;
+    List<WebElement> btn_menu_unavtive_member;
+    @FindBy(css = "tr button:nth-child(2)")
+    List<WebElement> btn_menu_acvtive_member;
     @FindBy(css = "#dropdown-tooltip li")
     List<WebElement> menu_member_items;
 
@@ -64,6 +66,12 @@ public class P81_MembersHelper extends HelperBase {
 
     @FindBy(xpath = "//button[@disabled]")
     List<WebElement> btn_disabled_submit_activation;
+
+    @FindBy(css = "tbody.Body_base__1ulvl tr")
+    List<WebElement> row_of_mebers;
+
+    @FindBy(css = "tr button:nth-child(1)")
+    List<WebElement> btn_trash;
 
     WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
     List<String> mails;
@@ -172,14 +180,31 @@ public class P81_MembersHelper extends HelperBase {
         return invitationsInList;
     }
 
-    public boolean verifyRoles(String rol) {
+    public boolean verifyRoles(String role) {
         Boolean rolesInList = false;
 
         for (int i = 0; i < mails.size(); i++) {
             List<WebElement> roleInList = driver.findElements(By.xpath("//div[contains(@class, 'EntityIcon_small__2z6d9') and contains(@class,'Entity_icon__3YhQi')]/../../../td[3]"));
             highlight(roleInList.get(i));
-            if (rol.equals(roleInList.get(i).getText())) {
+            if (role.equals(roleInList.get(i).getText())) {
                 System.out.println(i + ". Role of new member: " + roleInList.get(i).getText());
+                rolesInList = true;
+            } else {
+                rolesInList = false;
+            }
+        }
+        return rolesInList;
+    }
+
+    public boolean verifyRolesAfterActivation(String role) {
+        Boolean rolesInList = false;
+
+        for (int i = 0; i < mails.size(); i++) {
+            String new_mail = mails.get(i);
+            WebElement newMembrRoleInList = driver.findElement(By.xpath("//figure/../../..//span[text()='"+new_mail+"']/../../../../../..//td[3]"));
+            if (role.equals(newMembrRoleInList.getText())) {
+                highlight(newMembrRoleInList);
+                System.out.println(i + ". Role of new member: " + newMembrRoleInList.getText());
                 rolesInList = true;
             } else {
                 rolesInList = false;
@@ -190,14 +215,14 @@ public class P81_MembersHelper extends HelperBase {
 
     public boolean verifyMenuOfMember() throws InterruptedException {
         Boolean verifyMenuVisible = false;
-        for (int i = 0; i < btn_menu_member.size(); i++) {
-            click(btn_menu_member.get(i));
+        for (int i = 0; i < btn_menu_unavtive_member.size(); i++) {
+            click(btn_menu_unavtive_member.get(i));
             if (isElementVisible(driver.findElement(By.id("dropdown-tooltip")))) {
                 for (int j = 0; j < menu_member_items.size(); j++) {
                     highlight_blue(menu_member_items.get(j));
                     Thread.sleep(200);
                 }
-                click(btn_menu_member.get(i));
+                click(btn_menu_unavtive_member.get(i));
                 verifyMenuVisible = true;
             } else {
                 verifyMenuVisible = false;
@@ -206,20 +231,24 @@ public class P81_MembersHelper extends HelperBase {
         return verifyMenuVisible;
     }
 
-    public boolean copyLink() {
+    public boolean copyLink(String m1, String m2, String m3) throws InterruptedException {
         map_links = new HashMap<>();
+        mails = Arrays.asList(m3, m2, m1);
         String mail_for_map = null;
         Boolean links_list_size = false;
 
-        for (int j = 0; j < btn_menu_member.size(); j++) {                // iterate over all menu buttons
-            click(btn_menu_member.get(j));                                  // click on menu button (i)
+        for (int j = 0; j < mails.size(); j++) {                // iterate over all menu buttons
+            click(btn_menu_unavtive_member.get(j));                                  // click on menu button (i)
             click(menu_member_items.get(1));                              // click on "Show Link" button
             if (isElementVisible(popup_with_link)) {                        // if popup with link opened do next....
+                Thread.sleep(500);
                 String copied_links = link.getAttribute("value");       // copy link
                 Collections.reverse(mails);
+                Thread.sleep(500);
                 mail_for_map = mails.get(j);
                 map_links.put(mail_for_map, copied_links);
-                click(btn_copy_link_done);                                    // click on Done
+                click(btn_copy_link_done);                                   // click on Done
+                Thread.sleep(1000);
             }
         }
         map_links.forEach((k, v) -> System.out.println("map : " + k + " Value : " + v));
@@ -273,6 +302,9 @@ public class P81_MembersHelper extends HelperBase {
     public boolean verifyNew_activeMembers() {
         boolean verify_active_member = false;
         if (icons_of_unactivated_members.size() == 0) {
+            for (int i = 0; i < icons_of_activated_members.size(); i++) {
+                highlight(icons_of_activated_members.get(i));
+            }
             verify_active_member = true;
         } else {
             verify_active_member = false;
@@ -281,4 +313,60 @@ public class P81_MembersHelper extends HelperBase {
     }
 
 
+    public boolean initiateChangeOfRole() throws InterruptedException {
+        Boolean verifyMenuVisible = false;
+
+            click(btn_menu_acvtive_member.get(0));
+            click(menu_member_items.get(1));
+            Thread.sleep(500);
+            if (isElementVisible(driver.findElement(By.xpath("//div[@role='presentation']//form")))) {
+                verifyMenuVisible = true;
+                highlight_blue(driver.findElement(By.xpath("//div[@role='presentation']//form")));
+            } else {
+                verifyMenuVisible = false;
+            }
+        return verifyMenuVisible;
+    }
+
+    public boolean changeMemberRole(String role) throws InterruptedException {
+        click(driver.findElement(By.xpath("(//div[@tabindex='0'])[2]")));
+        click(btn_apply_role_change);
+
+        Thread.sleep(5000);
+        WebElement newMembrRoleInList = driver.findElement(By.xpath("//figure/../../..//span[text()='jon_snow@gmail.com']/../../../../../..//td[3]"));
+        System.out.println("ROLE: " + newMembrRoleInList.getText());
+        if (role.equals(newMembrRoleInList.getText())) {
+            return true;
+        }
+        else return false;
+    }
+
+    public boolean initiateMemberDeletion() throws InterruptedException {
+        boolean verify_delet_button = false;
+        for (int i = 0; i < btn_trash.size(); i++) {
+            click((btn_trash).get(i));
+            Thread.sleep(500);
+            if(isElementVisible(btn_delete_member)) {
+                verify_delet_button = true;
+                click(driver.findElement(By.cssSelector("div.Footer_buttons__1Bvuj button:nth-child(2)")));
+            }
+            else verify_delet_button = false;
+        }
+        return verify_delet_button;
+    }
+
+    public boolean deleteMembersTest() throws InterruptedException {
+        boolean verify_deletion = false;
+        for (int i = 0; i < btn_trash.size(); i++) {
+            click((btn_trash).get(i));
+            Thread.sleep(500);
+            click(driver.findElement(By.cssSelector("div.Footer_buttons__1Bvuj button:nth-child(1)")));
+            Thread.sleep(8000);
+        }
+        if(btn_trash.size() == 0 && row_of_mebers.size() == 0) {
+            verify_deletion = true;
+        }
+        else verify_deletion = false;
+        return verify_deletion;
+    }
 }

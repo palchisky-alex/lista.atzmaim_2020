@@ -9,24 +9,17 @@
                     <include name="login"/>
                 </methods>
             </class>
-            <class name="im.atzma.lista2020.tests.P81_MembersTest">
-                <methods>
-                    <include name="initiateMemberInviting"/>
-                    <include name="verifyPopupItems"/>
-                    <include name="addNewMailTest"/>
-                    <include name="verifyInvitationsTest"/>
-                    <include name="verifyRolesTest"/>
-                </methods>
-            </class>
             <class name="im.atzma.lista2020.tests.P81_MembersActivationTest">
                 <methods>
                     <include name="verifyMenu_Of_memberActivationTest"/>
                     <include name="copyLinkTest"/>
                     <include name="activateNewMemberTest"/>
                     <include name="verifyNewActiveMembersTest"/>
+                    <include name="verifyRolesTest"/>
+                    <include name="initiateChangeOfRoleTest"/>
+                    <include name="changeMemberRoleTest"/>
                 </methods>
             </class>
-
         </classes>
 
     </test>

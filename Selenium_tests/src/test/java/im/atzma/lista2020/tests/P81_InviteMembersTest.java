@@ -4,29 +4,29 @@ import im.atzma.lista2020.model.ClientData;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class P81_MembersTest extends TestBase {
+public class P81_InviteMembersTest extends TestBase {
 
-    @Test
+    @Test(priority = 1, alwaysRun = true)
     public void initiateMemberInviting() throws InterruptedException {
         Assert.assertTrue(app.p81_membersHelper().verifyInvitationButton());
     }
 
-    @Test
+    @Test(priority = 2, alwaysRun = true)
     public void verifyPopupItems() throws InterruptedException {
         Assert.assertTrue(app.p81_membersHelper().verifyPopup());
     }
 
-    @Test
+    @Test(priority = 3, alwaysRun = true)
     public void addNewMailTest() throws InterruptedException {
         Assert.assertTrue(app.p81_membersHelper().addMail("jon_snow@gmail.com", "ned_stark@gmail.com", "khal_drogo@gmail.com"));
     }
 
-    @Test
+    @Test(priority = 4, alwaysRun = true)
     public void verifyInvitationsTest() {
         Assert.assertTrue(app.p81_membersHelper().verifyNewInvitationsInList());
     }
 
-    @Test
+    @Test(priority = 5, alwaysRun = true)
     public void verifyRolesTest() {
         Assert.assertTrue(app.p81_membersHelper().verifyRoles("User"));
     }
