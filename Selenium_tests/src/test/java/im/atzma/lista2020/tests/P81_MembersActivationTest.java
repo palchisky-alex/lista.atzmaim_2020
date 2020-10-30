@@ -17,8 +17,13 @@ public class P81_MembersActivationTest extends TestBase {
 
 
     @Test
-    public void activateNewMemberTest() {
-        app.p81_membersHelper().activateMember();
+    public void activateNewMemberTest() throws InterruptedException {
+        Assert.assertTrue(app.p81_membersHelper().activateMember());
+    }
+
+    @Test
+    public void verifyNewActiveMembersTest() throws InterruptedException {
+        Assert.assertTrue(app.p81_membersHelper().verifyNew_activeMembers());
     }
 
 }

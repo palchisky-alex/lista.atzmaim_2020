@@ -5,11 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/P81_MembersHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/appmanager/P81_MembersHelper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/tests/P81_MembersActivationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/tests/P81_MembersActivationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/debug.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/P81_MembersHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/appmanager/P81_MembersHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/model/ClientData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/model/ClientData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/tests/P81_MembersActivationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/tests/P81_MembersActivationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/tests/P81_MembersTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/tests/P81_MembersTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/resources/p81_MembersActiation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/resources/p81_MembersActiation.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -284,38 +281,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="243" y="205" width="795" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1604012192795" />
-    <state width="1237" height="171" key="GridCell.Tab.0.bottom" timestamp="1604021400282">
+    <state width="1237" height="247" key="GridCell.Tab.0.bottom" timestamp="1604026577763">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="171" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604021400282" />
-    <state width="1237" height="171" key="GridCell.Tab.0.center" timestamp="1604021400282">
+    <state width="1237" height="247" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604026577763" />
+    <state width="1237" height="247" key="GridCell.Tab.0.center" timestamp="1604026577763">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="171" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1604021400282" />
-    <state width="1237" height="171" key="GridCell.Tab.0.left" timestamp="1604021400282">
+    <state width="1237" height="247" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1604026577763" />
+    <state width="1237" height="247" key="GridCell.Tab.0.left" timestamp="1604026577763">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="171" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1604021400282" />
-    <state width="1237" height="171" key="GridCell.Tab.0.right" timestamp="1604021400282">
+    <state width="1237" height="247" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1604026577763" />
+    <state width="1237" height="247" key="GridCell.Tab.0.right" timestamp="1604026577763">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="171" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1604021400282" />
-    <state width="1237" height="247" key="GridCell.Tab.1.bottom" timestamp="1604013593245">
+    <state width="1237" height="247" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1604026577763" />
+    <state width="1237" height="247" key="GridCell.Tab.1.bottom" timestamp="1604026577763">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604013593245" />
-    <state width="1237" height="247" key="GridCell.Tab.1.center" timestamp="1604013593245">
+    <state width="1237" height="247" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604026577763" />
+    <state width="1237" height="247" key="GridCell.Tab.1.center" timestamp="1604026577763">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1604013593245" />
-    <state width="1237" height="247" key="GridCell.Tab.1.left" timestamp="1604013593245">
+    <state width="1237" height="247" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1604026577763" />
+    <state width="1237" height="247" key="GridCell.Tab.1.left" timestamp="1604026577763">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1604013593245" />
-    <state width="1237" height="247" key="GridCell.Tab.1.right" timestamp="1604013593245">
+    <state width="1237" height="247" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1604026577763" />
+    <state width="1237" height="247" key="GridCell.Tab.1.right" timestamp="1604026577763">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1604013593245" />
+    <state width="1237" height="247" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1604026577763" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1595620130712">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

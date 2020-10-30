@@ -39,7 +39,7 @@ public class P81_MembersHelper extends HelperBase {
     @FindBy(xpath = "//textarea")
     List<WebElement> popup_textarea;
 
-    @FindBy(css = ".EntityIcon_small__2z6d9.Entity_icon__3YhQi ")
+    @FindBy(css = ".EntityIcon_small__2z6d9.Entity_icon__3YhQi")
     List<WebElement> icons_of_unactivated_members;
 
     @FindBy(css = ".EntityIcon_small__2z6d9.Entity_icon__3YhQi")
@@ -55,7 +55,17 @@ public class P81_MembersHelper extends HelperBase {
     @FindBy(css = "div.Popup_popup__3vosY .Input_container__2DhZL input")
     WebElement link;
 
-    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(1));
+    @FindBy(xpath = "//input[@name='firstName']")
+    WebElement input_firstName;
+    @FindBy(xpath = "//input[@name='lastName']")
+    WebElement input_lastName;
+    @FindBy(xpath = "//input[@name='password']")
+    WebElement input_password;
+
+    @FindBy(xpath = "//button[@disabled]")
+    List<WebElement> btn_disabled_submit_activation;
+
+    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
     List<String> mails;
     HashMap<String, String> map_links;
 
@@ -197,13 +207,13 @@ public class P81_MembersHelper extends HelperBase {
     }
 
     public boolean copyLink() {
-        map_links  = new HashMap<>();
+        map_links = new HashMap<>();
         String mail_for_map = null;
         Boolean links_list_size = false;
 
         for (int j = 0; j < btn_menu_member.size(); j++) {                // iterate over all menu buttons
             click(btn_menu_member.get(j));                                  // click on menu button (i)
-            click( menu_member_items.get(1));                              // click on "Show Link" button
+            click(menu_member_items.get(1));                              // click on "Show Link" button
             if (isElementVisible(popup_with_link)) {                        // if popup with link opened do next....
                 String copied_links = link.getAttribute("value");       // copy link
                 Collections.reverse(mails);
@@ -213,29 +223,61 @@ public class P81_MembersHelper extends HelperBase {
             }
         }
         map_links.forEach((k, v) -> System.out.println("map : " + k + " Value : " + v));
-        if(map_links.size() > 0) { links_list_size = true; }
-        else  {links_list_size = false; }
+        if (map_links.size() > 0) {
+            links_list_size = true;
+        } else {
+            links_list_size = false;
+        }
         return links_list_size;
     }
 
-    public void activateMember() {
+    public boolean activateMember() throws InterruptedException {
         String get_email = null;
         String get_link = null;
+        boolean if_activation_end = false;
 
         for (Map.Entry<String, String> entry : map_links.entrySet()) {
-             get_email =  entry.getKey();
+            get_email = entry.getKey();
+            get_link = entry.getValue();
             System.out.println("GET MAIL: " + get_email);
 
-            Pattern p = Pattern.compile("^(\\w+)_(\\w+)@(.*)$");
+            Pattern p = Pattern.compile("^([a-z]+)_([a-z]+)@(.*)$");
             Matcher m = p.matcher(get_email);
+            m.matches();
             String first_name = m.group(1);
             String last_name = m.group(2);
 
             System.out.println("fName: " + first_name);
             System.out.println("lastName: " + last_name);
+
+            driver.get(get_link);
+            new WebDriverWait(driver, Duration.ofSeconds(20)).until(driver -> driver.findElement(By.xpath("//h2[text()='Activate Your Account']")));
+            fillText(input_firstName, first_name);
+            fillText(input_lastName, last_name);
+            fillText(input_password, "123$%^qweQWE");
+            if (!isElementPresent2(btn_disabled_submit_activation)) {
+                click(driver.findElement(By.xpath("//button")));
+                wait.until(ExpectedConditions
+                        .invisibilityOf(driver.findElement(By.xpath("(//button)[1]"))));
+            }
         }
+        driver.get("https://testcompany4.perimeter81.com/team/members");
+        if (driver.getCurrentUrl().equals("https://testcompany4.perimeter81.com/team/members")) {
+            if_activation_end = true;
+        } else {
+            if_activation_end = false;
+        }
+        return if_activation_end;
+    }
 
-
+    public boolean verifyNew_activeMembers() {
+        boolean verify_active_member = false;
+        if (icons_of_unactivated_members.size() == 0) {
+            verify_active_member = true;
+        } else {
+            verify_active_member = false;
+        }
+        return verify_active_member;
     }
 
 

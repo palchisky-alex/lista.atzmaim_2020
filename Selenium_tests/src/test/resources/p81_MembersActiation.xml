@@ -20,9 +20,10 @@
             </class>
             <class name="im.atzma.lista2020.tests.P81_MembersActivationTest">
                 <methods>
-<!--                    <include name="verifyMenu_Of_memberActivationTest"/>-->
+                    <include name="verifyMenu_Of_memberActivationTest"/>
                     <include name="copyLinkTest"/>
                     <include name="activateNewMemberTest"/>
+                    <include name="verifyNewActiveMembersTest"/>
                 </methods>
             </class>
 
