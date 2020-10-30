@@ -18,6 +18,11 @@ task p81_MembersActivationTest(type: Test) {
         suites './src/test/resources/p81_MembersActivation.xml'
     }
 }
+task p81_ChangeRoleTest(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/p81_ChangeRole.xml'
+    }
+}
 
 task p81_DeleteMembersTest(type: Test) {
     useTestNG() {
@@ -40,6 +45,7 @@ task p81_InviteMembersTest(type: Test) {
         suites './src/test/resources/p81_MembersInvitation.xml'
     }
 }
+
 
 task testNewAppointment_A(type: Test) {
     useTestNG() {
