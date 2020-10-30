@@ -11,8 +11,14 @@ public class P81_MembersActivationTest extends TestBase {
     }
 
     @Test
-    public void copyLinkTest() {
-        app.p81_membersHelper().copyLink();
+    public void copyLinkTest() throws InterruptedException {
+        Assert.assertTrue(app.p81_membersHelper().copyLink());
+    }
+
+
+    @Test
+    public void activateNewMemberTest() {
+        app.p81_membersHelper().activateMember();
     }
 
 }

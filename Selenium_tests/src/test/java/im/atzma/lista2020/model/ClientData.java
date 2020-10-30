@@ -15,7 +15,6 @@ public class ClientData {
     private Integer id;
 
 
-
     public ClientData(String tempClientName, String telNumber, String email, String address, String sex, String birthday, String debts, String note, String status, Integer id) {
         this.tempClientName = tempClientName;
         this.telNumber = telNumber;

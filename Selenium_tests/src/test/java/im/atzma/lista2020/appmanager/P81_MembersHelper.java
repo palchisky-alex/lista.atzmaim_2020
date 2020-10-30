@@ -1,6 +1,7 @@
 package im.atzma.lista2020.appmanager;
 
 import com.sun.org.apache.xpath.internal.operations.Bool;
+import im.atzma.lista2020.model.ClientData;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -10,9 +11,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class P81_MembersHelper extends HelperBase {
     @FindBy(xpath = "(//button)[1]")
@@ -51,10 +52,12 @@ public class P81_MembersHelper extends HelperBase {
 
     @FindBy(css = "div.Popup_popup__3vosY")
     WebElement popup_with_link;
+    @FindBy(css = "div.Popup_popup__3vosY .Input_container__2DhZL input")
+    WebElement link;
 
-    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
+    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(1));
     List<String> mails;
-    List<String> links;
+    HashMap<String, String> map_links;
 
 
     public P81_MembersHelper(WebDriver driver) {
@@ -100,7 +103,8 @@ public class P81_MembersHelper extends HelperBase {
 
     public boolean addMail(String m1, String m2, String m3) throws InterruptedException {
         Boolean popup = false;
-        mails = Arrays.asList(m1, m2, m3);
+        mails = Arrays.asList(m3, m2, m1);
+
 
         for (int i = 0; i < mails.size(); i++) {
             field_addMemberField.sendKeys(mails.get(i));
@@ -188,18 +192,51 @@ public class P81_MembersHelper extends HelperBase {
             } else {
                 verifyMenuVisible = false;
             }
-
         }
         return verifyMenuVisible;
     }
 
-    public void copyLink() {
-        btn_menu_member.get(1).click();
-        menu_member_items.get(1).click();
-        if(isElementVisible(popup_with_link)) {
-           String v =driver.findElement(By.xpath("//*[@id=\"root\"]/main/section/section/div/div[2]/div[2]/section/div/div/div/input"))
-                   .getCssValue("readonly value");
-            System.out.println(v);
+    public boolean copyLink() {
+        map_links  = new HashMap<>();
+        String mail_for_map = null;
+        Boolean links_list_size = false;
+
+        for (int j = 0; j < btn_menu_member.size(); j++) {                // iterate over all menu buttons
+            click(btn_menu_member.get(j));                                  // click on menu button (i)
+            click( menu_member_items.get(1));                              // click on "Show Link" button
+            if (isElementVisible(popup_with_link)) {                        // if popup with link opened do next....
+                String copied_links = link.getAttribute("value");       // copy link
+                Collections.reverse(mails);
+                mail_for_map = mails.get(j);
+                map_links.put(mail_for_map, copied_links);
+                click(btn_copy_link_done);                                    // click on Done
+            }
         }
+        map_links.forEach((k, v) -> System.out.println("map : " + k + " Value : " + v));
+        if(map_links.size() > 0) { links_list_size = true; }
+        else  {links_list_size = false; }
+        return links_list_size;
     }
+
+    public void activateMember() {
+        String get_email = null;
+        String get_link = null;
+
+        for (Map.Entry<String, String> entry : map_links.entrySet()) {
+             get_email =  entry.getKey();
+            System.out.println("GET MAIL: " + get_email);
+
+            Pattern p = Pattern.compile("^(\\w+)_(\\w+)@(.*)$");
+            Matcher m = p.matcher(get_email);
+            String first_name = m.group(1);
+            String last_name = m.group(2);
+
+            System.out.println("fName: " + first_name);
+            System.out.println("lastName: " + last_name);
+        }
+
+
+    }
+
+
 }
