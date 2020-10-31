@@ -121,7 +121,10 @@ public class HelperBase {
     }
 
     public void waitForElements(List<WebElement> myElement) throws InterruptedException {
-        Thread.sleep(3000);
+        for (int second = 0; ; second++) {
+            if (second >= 30000) fail("timeout");
+
+        }
     }
 
     public boolean isElementPresent2(List<WebElement> el) throws InterruptedException {
