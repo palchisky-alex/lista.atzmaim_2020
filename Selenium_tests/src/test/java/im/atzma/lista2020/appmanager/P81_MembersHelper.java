@@ -80,6 +80,9 @@ public class P81_MembersHelper extends HelperBase {
     @FindBy(css = "span.TruncatedText_container__8UkCa")
     List<WebElement> names_in_membersList;
 
+    @FindBy(css = "span.FormField_alert__2nz-0")
+    List<WebElement> message_error_member_mail;
+
     WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
     List<String> mails;
     HashMap<String, String> map_links;
@@ -415,4 +418,33 @@ public class P81_MembersHelper extends HelperBase {
         return licenses_count_to_integer;
     }
 
+    public String addMail_negative(String mail) throws InterruptedException {
+        String error = null;
+        System.out.println("Address: " + mail);
+        field_addMemberField.sendKeys(Keys.BACK_SPACE);
+        field_addMemberField.sendKeys(mail);
+        field_addMemberField.sendKeys(Keys.SPACE);
+      
+        if(isElementPresent2(message_error_member_mail)) {
+            error = message_error_member_mail.get(0).getText();
+            Thread.sleep(200);
+        }
+
+        return error;
+    }
+
+    public String addMail_noError() throws InterruptedException {
+        String error = null;
+
+        field_addMemberField.sendKeys("jon_snow@mail.ru");
+        Thread.sleep(100);
+        field_addMemberField.sendKeys(Keys.ENTER);
+        field_addMemberField.sendKeys("ned_stark@gmail.com");
+        field_addMemberField.sendKeys(",");
+
+        if (isElementPresent2(message_error_member_mail)) {
+            error = message_error_member_mail.get(0).getText();
+        }
+        return error;
+    }
 }

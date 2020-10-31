@@ -10,6 +10,9 @@ dependencies {
     implementation 'org.testng:testng:7.0.0'
     implementation 'org.seleniumhq.selenium:selenium-java:4.0.0-alpha-2'
     implementation 'org.hamcrest:java-hamcrest:2.0.0.0'
+    compile group: 'org.apache.poi', name: 'poi', version: '4.1.1'
+    // https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml
+    compile group: 'org.apache.poi', name: 'poi-ooxml', version: '4.1.1'
 
 }
 
@@ -35,6 +38,11 @@ task p81_Login(type: Test) {
         suites './src/test/resources/p81_Login.xml'
     }
 }
+task p81_Login_negative(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/p81_Login_negative.xml'
+    }
+}
 task p81_PoliciesTest(type: Test) {
     useTestNG() {
         suites './src/test/resources/p81_Policies.xml'
@@ -43,6 +51,11 @@ task p81_PoliciesTest(type: Test) {
 task p81_InviteMembersTest(type: Test) {
     useTestNG() {
         suites './src/test/resources/p81_MembersInvitation.xml'
+    }
+}
+task p81_InviteMembersTest_negative(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/p81_MembersInvitation_negative.xml'
     }
 }
 
