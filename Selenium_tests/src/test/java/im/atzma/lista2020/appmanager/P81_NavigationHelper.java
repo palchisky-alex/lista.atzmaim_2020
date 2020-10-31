@@ -95,16 +95,16 @@ public class P81_NavigationHelper extends HelperBase {
         fillText(pass, password);
         click(btn_login);
 
-        if (isElementPresent2(login_error_messages_blank_invalid)) {
+        if (isElementPresent2(login_error_messages_blank_invalid) || isElementPresent2(login_error_messages_wrong)) {
             for (int i = 0; i < login_error_messages_blank_invalid.size(); i++) {
                 errors.add(login_error_messages_blank_invalid.get(i).getText());
                 highlight_blue(login_error_messages_blank_invalid.get(i));
             }
-        }
-        if (isElementPresent2(login_error_messages_wrong)) {
-            for (int i = 0; i < login_error_messages_wrong.size(); i++) {
-                errors.add(login_error_messages_wrong.get(i).getText());
-                highlight_blue(login_error_messages_wrong.get(i));
+            if (isElementPresent2(login_error_messages_wrong)) {
+                for (int i = 0; i < login_error_messages_wrong.size(); i++) {
+                    errors.add(login_error_messages_wrong.get(i).getText());
+                    highlight_blue(login_error_messages_wrong.get(i));
+                }
             }
         }
         return errors;
