@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="477da253-88be-40ae-98c6-8ed2876fb43d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/classes/java/test/im/atzma/lista2020/tests/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium_tests/build/resources/test/p81_MembersActivation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/build/resources/test/p81_MembersActivation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/tests/P81_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/tests/P81_Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Selenium_tests/src/test/java/im/atzma/lista2020/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +142,7 @@
       <recent name="D:\Devel_lista2020\lista.atzmaim_2020\API_AccountCreation_DDT_Tests\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/p81_MembersActivation.xml">
+  <component name="RunManager" selected="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/p81_Login.xml">
     <configuration name="D:/Devel_lista2020/lista.atzmaim_2020/API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml" type="TestNG" nameIsGenerated="true">
       <module name="API_AccountCreation_DDT_Tests.test" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/../API_AccountCreation_DDT_Tests/src/test/resources/testng-AccountCreationRest.xml" />
@@ -220,10 +224,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/p81_Login.xml" />
         <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/p81_MembersActivation.xml" />
         <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/p81_MembersDeletion.xml" />
         <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/p81_MembersInvitation.xml" />
-        <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/p81_Login.xml" />
         <item itemvalue="TestNG.D:/Devel_lista2020/lista.atzmaim_2020/Selenium_tests/src/test/resources/p81_RunAllTests.xml" />
       </list>
     </recent_temporary>
@@ -276,38 +280,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="243" y="205" width="795" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1604012192795" />
-    <state width="1237" height="199" key="GridCell.Tab.0.bottom" timestamp="1604103064321">
+    <state width="1237" height="91" key="GridCell.Tab.0.bottom" timestamp="1604146223036">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="199" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604103064321" />
-    <state width="1237" height="199" key="GridCell.Tab.0.center" timestamp="1604103064321">
+    <state width="1237" height="91" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604146223036" />
+    <state width="1237" height="91" key="GridCell.Tab.0.center" timestamp="1604146223036">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="199" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1604103064321" />
-    <state width="1237" height="199" key="GridCell.Tab.0.left" timestamp="1604103064321">
+    <state width="1237" height="91" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1604146223036" />
+    <state width="1237" height="91" key="GridCell.Tab.0.left" timestamp="1604146223036">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="199" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1604103064321" />
-    <state width="1237" height="199" key="GridCell.Tab.0.right" timestamp="1604103064321">
+    <state width="1237" height="91" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1604146223036" />
+    <state width="1237" height="91" key="GridCell.Tab.0.right" timestamp="1604146223036">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="199" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1604103064321" />
-    <state width="1237" height="247" key="GridCell.Tab.1.bottom" timestamp="1604097648405">
+    <state width="1237" height="91" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1604146223036" />
+    <state width="1237" height="247" key="GridCell.Tab.1.bottom" timestamp="1604105981795">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604097648405" />
-    <state width="1237" height="247" key="GridCell.Tab.1.center" timestamp="1604097648405">
+    <state width="1237" height="247" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1604105981795" />
+    <state width="1237" height="247" key="GridCell.Tab.1.center" timestamp="1604105981795">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1604097648405" />
-    <state width="1237" height="247" key="GridCell.Tab.1.left" timestamp="1604097648405">
+    <state width="1237" height="247" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1604105981795" />
+    <state width="1237" height="247" key="GridCell.Tab.1.left" timestamp="1604105981795">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1604097648405" />
-    <state width="1237" height="247" key="GridCell.Tab.1.right" timestamp="1604097648405">
+    <state width="1237" height="247" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1604105981795" />
+    <state width="1237" height="247" key="GridCell.Tab.1.right" timestamp="1604105981795">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="247" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1604097648405" />
+    <state width="1237" height="247" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1604105981795" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1595620130712">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

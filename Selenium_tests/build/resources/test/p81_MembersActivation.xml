@@ -16,8 +16,6 @@
                     <include name="activateNewMemberTest"/>
                     <include name="verifyNewActiveMembersTest"/>
                     <include name="verifyRolesTest"/>
-                    <include name="initiateChangeOfRoleTest"/>
-                    <include name="changeMemberRoleTest"/>
                 </methods>
             </class>
         </classes>
