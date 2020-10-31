@@ -8,10 +8,16 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.IOException;
 import java.time.Duration;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
 public class P81_NavigationHelper extends HelperBase {
+    @FindBy(css = ".auth0-lock-error-invalid-hint")
+    List<WebElement> login_error_messages_blank_invalid;
+    @FindBy(css = "span.animated.fadeInUp")
+    List<WebElement> login_error_messages_wrong;
+
     @FindBy(xpath = "//input[@id='1-email']")
     WebElement email;
 
@@ -38,6 +44,7 @@ public class P81_NavigationHelper extends HelperBase {
     }
 
     public boolean login(String mail, String password) throws InterruptedException {
+        System.out.println(password);
         fillText(email, mail);
         fillText(pass, password);
         click(btn_login);
@@ -54,10 +61,9 @@ public class P81_NavigationHelper extends HelperBase {
     public boolean goToPolicyPage() throws InterruptedException {
         click(btn_policy_in_menu);
 
-        if(message_noPolicy.size() != 0) {
+        if (message_noPolicy.size() != 0) {
             click(driver.findElement(By.xpath("//h3[text()='You have no policies yet']")));
-        }
-        else {
+        } else {
             System.out.println("The number of policies more than one — no message");
         }
 
@@ -80,4 +86,27 @@ public class P81_NavigationHelper extends HelperBase {
     public void goToMembersPage() {
         driver.get("https://testcompany4.perimeter81.com/team/members");
     }
+
+    public List<String> login_negative(String mail, String password) throws InterruptedException {
+        List<String> errors = new ArrayList<>();
+        errors.clear();
+        System.out.println(password);
+        fillText(email, mail);
+        fillText(pass, password);
+        click(btn_login);
+        Thread.sleep(500);
+        if (login_error_messages_blank_invalid.size() > 0) {
+            for (int i = 0; i < login_error_messages_blank_invalid.size(); i++) {
+                errors.add(login_error_messages_blank_invalid.get(i).getText());
+            }
+        }
+        if (login_error_messages_wrong.size() > 0) {
+            for (int i = 0; i < login_error_messages_wrong.size(); i++) {
+                errors.add(login_error_messages_wrong.get(i).getText());
+            }
+        }
+        return errors;
+    }
+
+
 }

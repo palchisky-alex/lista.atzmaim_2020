@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Account_creation_suite">
+    <test verbose="1" preserve-order="true" name="create and delete account">
+        <parameter name="testName"  value="SingupTest" />
+        <classes>
+            <class name="im.atzma.lista2020.tests.P81_Login_negative">
+                <methods>
+                    <include name="login_negative_01"/>
+                    <include name="login_negative_02"/>
+                    <include name="login_negative_03"/>
+                    <include name="login_negative_04"/>
+                    <include name="login_negative_05"/>
+                    <include name="login_negative_06"/>
+                    <include name="login_negative_07"/>
+                    <include name="login_negative_08"/>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+</suite>
