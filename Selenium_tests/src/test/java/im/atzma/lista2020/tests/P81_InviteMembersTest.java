@@ -8,6 +8,12 @@ public class P81_InviteMembersTest extends TestBase {
 
     @Test(priority = 1, alwaysRun = true)
     public void initiateMemberInviting() throws InterruptedException {
+        int count = app.p81_membersHelper().countLicenses();
+        if(count < 8) {
+            app.p81_membersHelper().deleteMembersTest();
+        }
+        else { System.out.println("No members in login");}
+
         Assert.assertTrue(app.p81_membersHelper().verifyInvitationButton());
     }
 

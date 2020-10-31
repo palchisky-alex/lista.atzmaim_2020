@@ -12,12 +12,6 @@ public class P81_Login extends TestBase{
         app.P81_goTo().goToLoginPage();
         app.P81_goTo().closePopap();
         boolean login =app.P81_goTo().login("alex.palchisky@gmail.com", "!z8Jk4KpT9cCtd3");
-        int count = app.p81_membersHelper().countLicenses();
-        if(count < 8) {
-            app.p81_membersHelper().deleteMembersTest();
-        }
-        else { System.out.println("No members in login");}
-
         Assert.assertTrue(login);
     }
 
