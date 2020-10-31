@@ -98,11 +98,13 @@ public class P81_NavigationHelper extends HelperBase {
         if (login_error_messages_blank_invalid.size() > 0) {
             for (int i = 0; i < login_error_messages_blank_invalid.size(); i++) {
                 errors.add(login_error_messages_blank_invalid.get(i).getText());
+                highlight_blue(login_error_messages_blank_invalid.get(i));
             }
         }
         if (login_error_messages_wrong.size() > 0) {
             for (int i = 0; i < login_error_messages_wrong.size(); i++) {
                 errors.add(login_error_messages_wrong.get(i).getText());
+                highlight_blue(login_error_messages_wrong.get(i));
             }
         }
         return errors;
