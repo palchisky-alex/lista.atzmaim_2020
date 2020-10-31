@@ -424,7 +424,7 @@ public class P81_MembersHelper extends HelperBase {
         field_addMemberField.sendKeys(Keys.BACK_SPACE);
         field_addMemberField.sendKeys(mail);
         field_addMemberField.sendKeys(Keys.SPACE);
-      
+
         if(isElementPresent2(message_error_member_mail)) {
             error = message_error_member_mail.get(0).getText();
             Thread.sleep(200);
