@@ -94,7 +94,7 @@ public class P81_NavigationHelper extends HelperBase {
         fillText(email, mail);
         fillText(pass, password);
         click(btn_login);
-        Thread.sleep(500);
+
         if (isElementPresent2(login_error_messages_blank_invalid)) {
             for (int i = 0; i < login_error_messages_blank_invalid.size(); i++) {
                 errors.add(login_error_messages_blank_invalid.get(i).getText());
