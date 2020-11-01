@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Random;
 
 public class P81_Login_negative extends TestBase{
 
@@ -44,9 +45,10 @@ public class P81_Login_negative extends TestBase{
     @Test(priority = 4, alwaysRun = true)
     public void login_negative_04() throws InterruptedException {
         List<String> my_errors = Arrays.asList("WRONG EMAIL OR PASSWORD.");
-
+        Random random = new Random();
+        int randomInt = random.nextInt();
         app.P81_goTo().goToLoginPage();
-        List<String> login_error = app.P81_goTo().login_negative("abcd@gmail.com", "!z8Jk4KpT9cCtd3");
+        List<String> login_error = app.P81_goTo().login_negative("ab'"+randomInt+"'cd@gmail.com", "!z8Jk4KpT9cCtd3");
 
         Assert.assertEquals(login_error, my_errors);
     }

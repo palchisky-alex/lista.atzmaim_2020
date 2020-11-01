@@ -25,9 +25,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
-
 import static org.testng.Assert.fail;
-
 
 public class ApplicationManager {
     private String browser;
@@ -45,6 +43,7 @@ public class ApplicationManager {
     P81_NavigationHelper p81_navigationHelper;
     P81_PolicyHelper p81_policyHelper;
     P81_MembersHelper p81_membersHelper;
+    P81_API_Helper p81_api_helper;
 
 
     public StringBuffer verificationErrors = new StringBuffer();
@@ -56,6 +55,7 @@ public class ApplicationManager {
     }
 
     public void init() throws InterruptedException, IOException {
+
         Clock clock = Clock.system(ZoneId.of("Asia/Jerusalem"));
         ZonedDateTime zdt = ZonedDateTime.now(clock);
         ChronoLocalDateTime dt1 = IsoChronology.INSTANCE.localDateTime(zdt);
@@ -162,6 +162,7 @@ public class ApplicationManager {
         p81_navigationHelper = new P81_NavigationHelper(driver);
         p81_policyHelper = new P81_PolicyHelper(driver);
         p81_membersHelper = new P81_MembersHelper(driver);
+        p81_api_helper = new P81_API_Helper();
     }
 
 
@@ -206,6 +207,7 @@ public class ApplicationManager {
     public P81_NavigationHelper P81_goTo() { return p81_navigationHelper; }
     public P81_PolicyHelper p81_policyHelper() { return p81_policyHelper; }
     public P81_MembersHelper p81_membersHelper() { return  p81_membersHelper; }
+    public P81_API_Helper p81_api_helper() {return  p81_api_helper; }
 
     public void getLogs() {
         Logs logs = driver.manage().logs();
