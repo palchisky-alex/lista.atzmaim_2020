@@ -276,7 +276,7 @@ public class P81_MembersHelper extends HelperBase {
                 }
             }
             map_links.forEach((k, v) -> System.out.println("map : " + k + " Value : " + v));
-            if (map_links.size() > 0) {
+            if (map_links.size() == 3) {
                 links_list_size = true;
             } else {
                 links_list_size = false;

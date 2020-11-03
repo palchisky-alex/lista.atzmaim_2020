@@ -7,7 +7,6 @@ public class P81_PoliciesTest extends TestBase {
 
     @Test(priority = 1, alwaysRun = true)
     public void goToPolicy() throws InterruptedException {
-        app.P81_goTo().goToPolicyPage();
         Assert.assertTrue(app.P81_goTo().goToPolicyPage());
     }
 
