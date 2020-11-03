@@ -115,12 +115,12 @@ public class AccountCreationHelper {
             System.out.println("Deleted password - " + delete_password);
 
             Response response = given().
-                    header("Content-Type", "multipart/form-data; boundary=WebKitFormBoundaryDh1IOGfW5uqYiAnz").
+                    header("content-type", "application/x-www-form-urlencoded").
                     header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                     header("X-Requested-With", "XMLHttpRequest").
-                    multiPart("time_zone", "Asia/Jerusalem").
-                    multiPart("email", delete_mail).
-                    multiPart("current-password", delete_password).
+                    formParam("time_zone", "Asia/Jerusalem").
+                    formParam("email", delete_mail).
+                    formParam("current-password", delete_password).
                     when().
                     post("/check-login").then().extract().response();
             post_response.getStatusCode();
