@@ -51,6 +51,7 @@ public class AccountCreationHelper {
                 header("Content-Type", "application/x-www-form-urlencoded").
                 header("user-agent", "alpalch-qpEzhaOvY0Ecb4e0").
                 header("X-Requested-With", "XMLHttpRequest").
+                header("referrer", "https://lista.atzma.im/he/settings").
                 formParam("added", currentDate + " " + currentTime).
                 formParam("email", random_for_mail + mail).
                 formParam("pass", pass).
