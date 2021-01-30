@@ -1,6 +1,5 @@
 package im.atzma.lista2020.tests;
 
-import im.atzma.lista2020.model.ClientData;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite_rest">
+    <test verbose="1" preserve-order="true" name="testsAppointment">
+        <classes>
+            <class name="im.atzma.lista2020.tests.AppointmentModificationTests">
+                <methods>
+                    <include name="createAppointment"/>
+                    <include name="modifyAppointment"/>
+                    <include name="deleteAppointment"/>
+                    <include name="verifyClientAfterAppointmentDeletion"/>
+                    <include name="verifyServiceAfterAppointmentDeletion"/>
+<!--                    <include name="verifySettingsAfterAppointmentDeletion"/>-->
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+</suite>

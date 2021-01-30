@@ -1,21 +1,10 @@
 package im.atzma.lista2020.appmanager;
 
 import io.restassured.RestAssured;
-import io.restassured.http.Cookie;
-import io.restassured.http.Cookies;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-import io.restassured.specification.RequestSpecification;
-import net.minidev.json.JSONObject;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 
-import io.restassured.RestAssured;
-
-import java.io.IOException;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 import static io.restassured.RestAssured.*;

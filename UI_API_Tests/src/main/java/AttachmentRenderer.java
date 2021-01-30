@@ -14,10 +14,6 @@
  *  limitations under the License.
  */
 
-import io.qameta.allure.attachment.AttachmentContent;
-import io.qameta.allure.attachment.AttachmentData;
-import io.qameta.allure.attachment.AttachmentRenderException;
-
 /**
  * @param <T> the type of attachment data
  * @author charlie (Dmitry Baev).

@@ -1,13 +1,9 @@
 package lista2020.tests;
 
-import lista2020.appmanager.Excel;
 import org.approvaltests.Approvals;
-import org.testng.Assert;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.util.HashSet;
-import java.util.Set;
 
 import static org.testng.Assert.assertEquals;
 

@@ -3,8 +3,6 @@ package im.atzma.lista2020.tests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import java.io.IOException;
-
 public class P81_Login extends TestBase{
 
     @Test(priority = 1, alwaysRun = true)

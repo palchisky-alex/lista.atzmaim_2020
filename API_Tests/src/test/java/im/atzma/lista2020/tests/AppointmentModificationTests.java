@@ -4,8 +4,6 @@ import org.approvaltests.Approvals;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import java.util.ArrayList;
-
 public class AppointmentModificationTests extends TestBase {
 
     @Test(priority = 1)

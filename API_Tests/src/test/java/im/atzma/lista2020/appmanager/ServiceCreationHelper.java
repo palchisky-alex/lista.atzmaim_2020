@@ -5,9 +5,7 @@ import io.restassured.response.Response;
 
 import java.util.Map;
 
-import static io.restassured.RestAssured.config;
 import static io.restassured.RestAssured.given;
-import static io.restassured.config.MultiPartConfig.multiPartConfig;
 
 public class ServiceCreationHelper {
     String key;

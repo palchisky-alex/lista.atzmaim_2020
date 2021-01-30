@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="im.atzma.lista2020.Tests.AccountCreation_UI_API_Tests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-05-26T09:16:52" hostname="DESKTOP-2TPN2B7" time="7.744">
+  <properties/>
+  <testcase name="createAccount" classname="im.atzma.lista2020.Tests.AccountCreation_UI_API_Tests" time="6.496"/>
+  <testcase name="verifyAccountCreation" classname="im.atzma.lista2020.Tests.AccountCreation_UI_API_Tests" time="0.008"/>
+  <testcase name="deleteAccount" classname="im.atzma.lista2020.Tests.AccountCreation_UI_API_Tests" time="0.644"/>
+  <testcase name="verifyAccountDeletion" classname="im.atzma.lista2020.Tests.AccountCreation_UI_API_Tests" time="0.54"/>
+  <system-out><![CDATA[<<<< START TEST >>>>
+____________________
+=== CREATE RANDOM ACCOUNT, STATUS MUST BE 201 ===
+Request method:	POST
+Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	added=2020-05-26 12:16:52
+				email=api_test_ui1809564141@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[1]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tesl Aviv
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+Request method:	POST
+Request URI:	https://lista.atzma.im/signup-new-account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	added=2020-05-26 12:16:52
+				email=api_test_ui1809564141@gmail.com
+				pass=Pa$$w@rd
+				phone=0547613154
+				permit_ads=true
+				business_types=[1]
+				lang=en
+				timezone=Asia/Jerusalem
+				country=IL
+				city=Tesl Aviv
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 201 Created
+Server: nginx
+Date: Tue, 26 May 2020 09:16:56 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 12
+Connection: keep-alive
+X-Request-Id: a3c9d9b0-9f31-11ea-9d37-5d62b328ef68
+Set-Cookie: 7b7a53e239400a13bd6be6c91c4f6c4e=FB6A6C005D694C178DEADE17FC2BB184F500A88406C022E308DDBEDF60BA55E7; Path=/; Expires=Tue, 02 Jun 2020 09:16:56 GMT; HttpOnly
+Strict-Transport-Security: max-age=604800
+X-Content-Type-Options: nosniff
+X-Robots-Tag: noindex
+Content-Security-Policy: upgrade-insecure-requests
+X-Powered-By: php/4.3.10-16
+
+<html>
+  <body>/en/calendar</body>
+</html>
+Cookie value account creation : FB6A6C005D694C178DEADE17FC2BB184F500A88406C022E308DDBEDF60BA55E7
+Create account status: 201
+__________________
+>>>> END TEST <<<<
+<<<< START TEST >>>>
+____________________
+ACCOUNT CREATION RESPONSE MUST BE '/en/calendar'
+Account creation response: /en/calendar
+__________________
+>>>> END TEST <<<<
+<<<< START TEST >>>>
+____________________
+=== REMOVE ALL ACCOUNTS, STATUS MUST BE 401 ===
+=== ACCOUNTS DESIGNED FOR REMOVAL - 1 
+=== ACCOUNTS RECEIVED FOR REMOVAL IN TEST: 1
+Request method:	DELETE
+Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=FB6A6C005D694C178DEADE17FC2BB184F500A88406C022E308DDBEDF60BA55E7
+Multiparts:		<none>
+Body:			<none>
+Request method:	DELETE
+Request URI:	https://lista.atzma.im/settings/business/account
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				X-Requested-With=XMLHttpRequest
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		7b7a53e239400a13bd6be6c91c4f6c4e=FB6A6C005D694C178DEADE17FC2BB184F500A88406C022E308DDBEDF60BA55E7
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 401 Unauthorized
+Server: nginx
+Date: Tue, 26 May 2020 09:16:58 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 12
+Connection: keep-alive
+Set-Cookie: 7b7a53e239400a13bd6be6c91c4f6c4e=FB6A6C005D694C178DEADE17FC2BB184F500A88406C022E308DDBEDF60BA55E7; Path=/; Expires=Tue, 02 Jun 2020 09:16:58 GMT; HttpOnly
+Set-Cookie: 7b7a53e239400a13bd6be6c91c4f6c4e=; Max-Age=0; Path=/; Expires=Tue, 26 May 2020 09:16:58 GMT
+X-Request-Id: a64d0220-9f31-11ea-9d37-5d62b328ef68
+
+Unauthorized
+Account deletion status: 401
+__________________
+>>>> END TEST <<<<
+<<<< START TEST >>>>
+____________________
+=== VERIFY ACCOUNTS DELETION ===
+=== STATUS MUST BE 302 AND 'LOCATION' VALUE - '/he/login' ===
+Deleted mail - api_test_ui1809564141@gmail.com
+Deleted password - Pa$$w@rd
+Request method:	POST
+Request URI:	https://lista.atzma.im/check-login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	time_zone=Asia/Jerusalem
+				email=api_test_ui1809564141@gmail.com
+				pass=Pa$$w@rd
+Path params:	<none>
+Headers:		user-agent=alpalch-qpEzhaOvY0Ecb4e0
+				Accept-Encoding=gzip, deflate, br
+				X-Requested-With=XMLHttpRequest
+				Referer=/he/login
+				Accept=*/*
+				Content-Type=application/x-www-form-urlencoded
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 302 Found
+Server: nginx
+Date: Tue, 26 May 2020 09:16:58 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Length: 31
+Connection: keep-alive
+X-Request-Id: a69de140-9f31-11ea-9d37-5d62b328ef68
+Location: /he/login
+Vary: Accept
+Strict-Transport-Security: max-age=604800
+X-Content-Type-Options: nosniff
+X-Robots-Tag: noindex
+Content-Security-Policy: upgrade-insecure-requests
+X-Powered-By: php/4.3.10-16
+
+Found. Redirecting to /he/login
+Login into deleted account status: 302
+'Location' header value: /he/login
+__________________
+>>>> END TEST <<<<
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

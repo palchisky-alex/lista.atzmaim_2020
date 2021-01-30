@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="im.atzma.lista2020.tests.DeleteAccountTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-03-12T18:32:08" hostname="DESKTOP-2TPN2B7" time="13.932">
+  <properties/>
+  <testcase name="testDeleteAccount" classname="im.atzma.lista2020.tests.DeleteAccountTest" time="4.363"/>
+  <testcase name="testDeleteAccountVerification" classname="im.atzma.lista2020.tests.DeleteAccountTest" time="9.566"/>
+  <system-out><![CDATA[email: random_
+password: Pa$$w@rd
+????? ?? ?????? ?? ??????? ??? ??????
+]]></system-out>
+  <system-err><![CDATA[[1584037933.443][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037935.476][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037935.742][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037942.046][SEVERE]: Timed out receiving message from renderer: 0.100
+[1584037942.269][SEVERE]: Timed out receiving message from renderer: 0.100
+]]></system-err>
+</testsuite>

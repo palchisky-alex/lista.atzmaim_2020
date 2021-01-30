@@ -1,0 +1,28 @@
+Server=nginx
+###Date##
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Vary=Accept-Encoding
+Set-##Cookie###
+Set-##Cookie###
+###X-Request-Id##
+Strict-Transport-Security=max-age=604800
+X-Content-Type-Options=nosniff
+X-Robots-Tag=noindex
+Content-Security-Policy=upgrade-insecure-requests
+X-Powered-By=php/4.3.10-16
+Content-Encoding=gzip
+
+[
+    {
+        "##ID##
+        "name": "Test_changeClientsData_before",
+        "phone": "0547613154",
+        "###profile_image##
+        "address": "Israel, Rokah 18, Ramat Gan",
+        "status": null,
+        "###last_appointment##
+        "phone_canonical": "+972547613154"
+    }
+]

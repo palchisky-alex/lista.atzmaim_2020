@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite_JSONTests">
+    <test verbose="1" preserve-order="true" name="testsServicesTests">
+        <classes>
+            <class name="lista2020.tests.VerifyServicesSetTests">
+                <methods>
+                    <include name="getHolisticJSON"/>
+                    <include name="getConsultansJSON"/>
+                    <include name="getCosmeticsJSON"/>
+                    <include name="getHairSalonJSON"/>
+                    <include name="getInteriorJSON"/>
+                    <include name="getInstallersJSON"/>
+                    <include name="getMakeupJSON"/>
+                    <include name="getNailJSON"/>
+                    <include name="getMassageJSON"/>
+                    <include name="getMoversJSON"/>
+                    <include name="getNutritionistsJSON"/>
+                    <include name="getPestJSON"/>
+                    <include name="getTeachersJSON"/>
+                    <include name="getSalesJSON"/>
+                    <include name="getServiceProvidersJSON"/>
+                    <include name="getPersonalJSON"/>
+                    <include name="getTattooJSON"/>
+                    <include name="getTherapistsJSON"/>
+                    <include name="getAllTypeJSON"/>
+                    <include name="withoutTypeJSON"/>
+                    <include name="deleteAccount"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

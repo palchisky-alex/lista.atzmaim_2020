@@ -14,8 +14,6 @@
  *  limitations under the License.
  */
 
-import io.qameta.allure.attachment.AttachmentContent;
-
 /**
  * @author charlie (Dmitry Baev).
  */

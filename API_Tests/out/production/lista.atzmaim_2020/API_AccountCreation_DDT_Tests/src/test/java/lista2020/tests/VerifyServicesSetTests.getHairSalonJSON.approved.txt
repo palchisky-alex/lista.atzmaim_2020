@@ -1,0 +1,293 @@
+Server=nginx
+###Date##
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Vary=Accept-Encoding
+###Set-Cookie##
+###Set-Cookie##
+###X-Request-Id##
+Strict-Transport-Security=max-age=604800
+X-Content-Type-Options=nosniff
+X-Robots-Tag=noindex
+Content-Security-Policy=upgrade-insecure-requests
+X-Powered-By=php/4.3.10-16
+Content-Encoding=gzip
+
+[
+    {
+        "id": 1,
+        "name": "תספורת גבר",
+        "price": "50",
+        "duration": 15,
+        "color": "#50e3c1",
+        "category": {
+            "name": "Hair Styling",
+            "id": 1
+        }
+    },
+    {
+        "id": 2,
+        "name": "תספורת ילד",
+        "price": "50",
+        "duration": 15,
+        "color": "#a44bc2",
+        "category": {
+            "name": "Hair Styling",
+            "id": 1
+        }
+    },
+    {
+        "id": 3,
+        "name": "תספורת אישה",
+        "price": "150",
+        "duration": 30,
+        "color": "#a44bc2",
+        "category": {
+            "name": "Hair Styling",
+            "id": 1
+        }
+    },
+    {
+        "id": 4,
+        "name": "פן קצר",
+        "price": "80",
+        "duration": 30,
+        "color": "#a44bc2",
+        "category": {
+            "name": "Hair Styling",
+            "id": 1
+        }
+    },
+    {
+        "id": 5,
+        "name": "פן ארוך",
+        "price": "100",
+        "duration": 45,
+        "color": "#a44bc2",
+        "category": {
+            "name": "Hair Styling",
+            "id": 1
+        }
+    },
+    {
+        "id": 6,
+        "name": "פן כלול",
+        "price": "0",
+        "duration": 15,
+        "color": "#a44bc2",
+        "category": {
+            "name": "Hair Styling",
+            "id": 1
+        }
+    },
+    {
+        "id": 7,
+        "name": "פן בייביליס",
+        "price": "120",
+        "duration": 30,
+        "color": "#a44bc2",
+        "category": {
+            "name": "Hair Styling",
+            "id": 1
+        }
+    },
+    {
+        "id": 8,
+        "name": "תסרוקת ערב",
+        "price": "250",
+        "duration": 60,
+        "color": "#a44bc2",
+        "category": {
+            "name": "Hair Styling",
+            "id": 1
+        }
+    },
+    {
+        "id": 9,
+        "name": "תספורת אישה + פן",
+        "price": "180",
+        "duration": 60,
+        "color": "#a44bc2",
+        "category": {
+            "name": "Hair Styling",
+            "id": 1
+        }
+    },
+    {
+        "id": 10,
+        "name": "תספורת גבר + זקן",
+        "price": "70",
+        "duration": 30,
+        "color": "#a44bc2",
+        "category": {
+            "name": "Hair Styling",
+            "id": 1
+        }
+    },
+    {
+        "id": 11,
+        "name": "יעוץ החלקה",
+        "price": "0",
+        "duration": 15,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Hair Coloring",
+            "id": 2
+        }
+    },
+    {
+        "id": 12,
+        "name": "צבע ראש מלא",
+        "price": "220",
+        "duration": 15,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Hair Coloring",
+            "id": 2
+        }
+    },
+    {
+        "id": 13,
+        "name": "צבע שורש",
+        "price": "150",
+        "duration": 15,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Hair Coloring",
+            "id": 2
+        }
+    },
+    {
+        "id": 14,
+        "name": "שטיפה",
+        "price": "150",
+        "duration": 15,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Hair Coloring",
+            "id": 2
+        }
+    },
+    {
+        "id": 15,
+        "name": "גוונים ראש מלא",
+        "price": "500",
+        "duration": 75,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Hair Coloring",
+            "id": 2
+        }
+    },
+    {
+        "id": 16,
+        "name": "גוונים חצי ראש",
+        "price": "300",
+        "duration": 45,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Hair Coloring",
+            "id": 2
+        }
+    },
+    {
+        "id": 17,
+        "name": "אומברה",
+        "price": "600",
+        "duration": 120,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Hair Coloring",
+            "id": 2
+        }
+    },
+    {
+        "id": 18,
+        "name": "בליאז'",
+        "price": "800",
+        "duration": 120,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Hair Coloring",
+            "id": 2
+        }
+    },
+    {
+        "id": 19,
+        "name": "הבהרה",
+        "price": "150",
+        "duration": 60,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Hair Coloring",
+            "id": 2
+        }
+    },
+    {
+        "id": 20,
+        "name": "פתיחת תלתלים",
+        "price": "250",
+        "duration": 45,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Hair Coloring",
+            "id": 2
+        }
+    },
+    {
+        "id": 21,
+        "name": "החלקת קארטין",
+        "price": "600",
+        "duration": 45,
+        "color": "#fff581",
+        "category": {
+            "name": "Hair Straightening",
+            "id": 3
+        }
+    },
+    {
+        "id": 22,
+        "name": "החלקה אורגנית",
+        "price": "600",
+        "duration": 45,
+        "color": "#fff581",
+        "category": {
+            "name": "Hair Straightening",
+            "id": 3
+        }
+    },
+    {
+        "id": 23,
+        "name": "החלקה משולבת",
+        "price": "800",
+        "duration": 120,
+        "color": "#fff581",
+        "category": {
+            "name": "Hair Straightening",
+            "id": 3
+        }
+    },
+    {
+        "id": 24,
+        "name": "החלקה יפנית",
+        "price": "1200",
+        "duration": 60,
+        "color": "#fff581",
+        "category": {
+            "name": "Hair Straightening",
+            "id": 3
+        }
+    },
+    {
+        "id": 25,
+        "name": "מחליק / גיהוץ",
+        "price": "0",
+        "duration": 90,
+        "color": "#fff581",
+        "category": {
+            "name": "Hair Straightening",
+            "id": 3
+        }
+    }
+]

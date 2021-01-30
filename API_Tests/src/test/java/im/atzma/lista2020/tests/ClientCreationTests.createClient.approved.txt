@@ -6,7 +6,6 @@ Connection=keep-alive
 Vary=Accept-Encoding
 Set-##Cookie###
 Set-##Cookie###
-###X-Request-Id##
 Strict-Transport-Security=max-age=604800
 X-Content-Type-Options=nosniff
 X-Robots-Tag=noindex
@@ -21,8 +20,34 @@ Content-Encoding=gzip
         "phone": "0547613154",
         "###profile_image##
         "address": "Israel, Rokah 18, Ramat Gan",
-        "status": null,
+        "status": "status - before",
+        "permit_ads": false,
+        "is_unsubscribed": false,
         "###last_appointment##
         "phone_canonical": "+972547613154"
+    },
+    {
+        "##ID##
+        "name": "ירדנה דיין - לקוחה לדוגמה",
+        "phone": "0501234567",
+        "###profile_image##
+        "address": "הרצל 45, תל אביב יפו, ישראל",
+        "status": null,
+        "permit_ads": false,
+        "is_unsubscribed": false,
+        "###last_appointment##
+        "phone_canonical": "+972501234567"
+    },
+    {
+        "##ID##
+        "name": "סיגלית טלמור - לקוחה לדוגמה",
+        "phone": "0547654321",
+        "###profile_image##
+        "address": "בן יהודה 25, תל אביב יפו, ישראל",
+        "status": null,
+        "permit_ads": false,
+        "is_unsubscribed": false,
+        "###last_appointment##
+        "phone_canonical": "+972547654321"
     }
 ]

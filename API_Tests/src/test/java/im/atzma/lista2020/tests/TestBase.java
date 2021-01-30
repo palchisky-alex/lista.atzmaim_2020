@@ -1,13 +1,7 @@
 package im.atzma.lista2020.tests;
 
 import im.atzma.lista2020.appmanager.ApplicationRestManager;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.testng.annotations.*;
-
-import java.io.IOException;
-import java.lang.reflect.Method;
-import java.util.Arrays;
 
 
 public class TestBase {

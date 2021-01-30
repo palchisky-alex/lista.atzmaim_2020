@@ -6,7 +6,6 @@ Connection=keep-alive
 Vary=Accept-Encoding
 Set-#####
 Set-#####
-X-Request-#####
 Strict-Transport-Security=max-age=604800
 X-Content-Type-Options=nosniff
 X-Robots-Tag=noindex
@@ -15,6 +14,94 @@ X-Powered-By=php/4.3.10-16
 Content-Encoding=gzip
 
 [
+    {
+        "#####
+        "name": "ייעוץ",
+        "price": "0",
+        "duration": 60,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Alternative Therapy Specialists",
+            "#####
+        }
+    },
+    {
+        "#####
+        "name": "פגישת אבחון ראשונה",
+        "price": "0",
+        "duration": 90,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Alternative Therapy Specialists",
+            "#####
+        }
+    },
+    {
+        "#####
+        "name": "טיפול - 30 דק'",
+        "price": "0",
+        "duration": 30,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Alternative Therapy Specialists",
+            "#####
+        }
+    },
+    {
+        "#####
+        "name": "טיפול - 45 דק'",
+        "price": "0",
+        "duration": 45,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Alternative Therapy Specialists",
+            "#####
+        }
+    },
+    {
+        "#####
+        "name": "טיפול - 60 דק', ",
+        "price": "0",
+        "duration": 60,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Alternative Therapy Specialists",
+            "#####
+        }
+    },
+    {
+        "#####
+        "name": "טיפול - 90 דק'",
+        "price": "0",
+        "duration": 90,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Alternative Therapy Specialists",
+            "#####
+        }
+    },
+    {
+        "#####
+        "name": "ביקורת",
+        "price": "0",
+        "duration": 60,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Alternative Therapy Specialists",
+            "#####
+        }
+    },
+    {
+        "#####
+        "name": "שיחה טלפונית",
+        "price": "0",
+        "duration": 30,
+        "color": "#efa5fe",
+        "category": {
+            "name": "Alternative Therapy Specialists",
+            "#####
+        }
+    },
     {
         "#####
         "name": "TestService",

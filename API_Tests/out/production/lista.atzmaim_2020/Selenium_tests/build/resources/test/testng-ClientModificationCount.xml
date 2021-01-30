@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="clientModif">
+    <test verbose="1" preserve-order="true" name="test count after client creation">
+        <classes>
+            <!--<class name="im.atzma.lista.tests.Login">-->
+                <!--<methods>-->
+                    <!--<include name="login"/>-->
+                <!--</methods>-->
+            <!--</class>-->
+            <class name="im.atzma.lista2020.tests.SingupTest">
+                <methods>
+                    <include name="testLoginPage"/>
+                    <include name="testSingupPage"/>
+                    <include name="testBusinessTypePage"/>
+                    <include name="testAllSetPage"/>
+                    <include name="testOnboardingPage"/>
+                    <include name="testOnboarding1Page"/>
+                    <include name="testOnboarding2Page"/>
+                    <include name="testCalendarPage"/>
+                    <include name="testPopupInstallation"/>
+                </methods>
+            </class>
+            <class name="im.atzma.lista2020.tests.ClientModificationTest">
+                <methods>
+<!--                    <include name="testVerifyClientForm"/>-->
+                    <include name="testCreateClientCount_1"/>
+<!--                    <include name="testCreateClientCount_2"/>-->
+                    <include name="testModificateClient_1"/>
+<!--                    <include name="testModificateClient_2"/>-->
+                    <include name="testCompareClient"/>
+                </methods>
+            </class>
+            <class name="im.atzma.lista2020.tests.DeleteAccountTest">
+                <methods>
+                    <include name="testDeleteAccount"/>
+                    <include name="testDeleteAccountVerification"/>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+</suite>

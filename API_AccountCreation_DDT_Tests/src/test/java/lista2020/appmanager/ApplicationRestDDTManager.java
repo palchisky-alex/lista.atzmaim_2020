@@ -1,8 +1,10 @@
 package lista2020.appmanager;
 
 import io.restassured.RestAssured;
+
 import java.io.IOException;
 import java.util.Properties;
+
 import static io.restassured.RestAssured.baseURI;
 import static io.restassured.RestAssured.config;
 import static io.restassured.config.EncoderConfig.encoderConfig;

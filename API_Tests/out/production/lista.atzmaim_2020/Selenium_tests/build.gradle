@@ -1,0 +1,211 @@
+apply plugin: 'java'
+compileJava.options.encoding = 'UTF-8'
+compileTestJava.options.encoding = 'UTF-8'
+
+
+repositories {
+    mavenCentral()
+}
+dependencies {
+    implementation 'org.testng:testng:7.0.0'
+    implementation 'org.seleniumhq.selenium:selenium-java:4.0.0-alpha-2'
+    implementation 'org.hamcrest:java-hamcrest:2.0.0.0'
+    compile group: 'org.apache.poi', name: 'poi', version: '4.1.1'
+    // https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml
+    compile group: 'org.apache.poi', name: 'poi-ooxml', version: '4.1.1'
+
+    // https://mvnrepository.com/artifact/io.rest-assured/rest-assured
+    testCompile group: 'io.rest-assured', name: 'rest-assured', version: '4.1.2'
+    // https://mvnrepository.com/artifact/io.rest-assured/json-path
+    implementation 'io.rest-assured:json-path:4.1.2'
+    // https://mvnrepository.com/artifact/io.rest-assured/json-schema-validator
+    compile group: 'io.rest-assured', name: 'json-schema-validator', version: '4.1.2'
+   
+    compile group: 'net.minidev', name: 'json-smart', version: '2.3'
+
+
+}
+
+task p81_MembersActivationTest(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/p81_MembersActivation.xml'
+    }
+}
+task p81_ChangeRoleTest(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/p81_ChangeRole.xml'
+    }
+}
+
+task p81_DeleteMembersTest(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/p81_MembersDeletion.xml'
+    }
+}
+
+task p81_Login(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/p81_Login.xml'
+    }
+}
+task p81_Login_negative(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/p81_Login_negative.xml'
+    }
+}
+task p81_PoliciesTest(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/p81_Policies.xml'
+    }
+}
+task p81_InviteMembersTest(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/p81_MembersInvitation.xml'
+    }
+}
+task p81_InviteMembersTest_negative(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/p81_MembersInvitation_negative.xml'
+    }
+}
+
+
+task testNewAppointment_A(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/testng-AppointmentCreation_A.xml'
+    }
+}
+
+task testNewAppointment_B(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/testng-AppointmentCreation_B.xml'
+    }
+}
+
+task testNewAppointment_C(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/testng-AppointmentCreation_C.xml'
+    }
+}
+
+task testNewAppointment_D(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/testng-AppointmentCreation_D.xml'
+    }
+}
+
+task testNewAppointment_E(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/testng-AppointmentCreation_E.xml'
+    }
+}
+
+task testNewAppointment_F(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/testng-AppointmentCreation_F.xml'
+    }
+    if (project.hasProperty('browser')) {
+        systemProperty 'browser', "${browser}"
+    }
+
+    if (project.hasProperty('target')) {
+        systemProperty 'target', "${target}"
+    }
+}
+
+task testNewAppointment_G(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/testng-AppointmentCreation_G.xml'
+    }
+}
+
+
+task testNewAppointmentModification(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/testng-AppointmentModification.xml'
+    }
+    if (project.hasProperty('browser')) {
+        systemProperty 'browser', "${browser}"
+    }
+
+    if (project.hasProperty('target')) {
+        systemProperty 'target', "${target}"
+    }
+}
+
+task testClientCreationCount(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/testng-ClientCreationCount.xml'
+    }
+    if (project.hasProperty('browser')) {
+        systemProperty 'browser', "${browser}"
+    }
+
+    if (project.hasProperty('target')) {
+        systemProperty 'target', "${target}"
+    }
+}
+
+task testClientDeletionCount(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/testng-ClientDeletionCount.xml'
+    }
+    if (project.hasProperty('browser')) {
+        systemProperty 'browser', "${browser}"
+    }
+
+    if (project.hasProperty('target')) {
+        systemProperty 'target', "${target}"
+    }
+}
+
+task testClientCompareCount(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/testng-ClientCompareCount.xml'
+    }
+    if (project.hasProperty('browser')) {
+        systemProperty 'browser', "${browser}"
+    }
+
+    if (project.hasProperty('target')) {
+        systemProperty 'target', "${target}"
+    }
+}
+
+task testClientModificationCount(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/testng-ClientModificationCount.xml'
+    }
+    if (project.hasProperty('browser')) {
+        systemProperty 'browser', "${browser}"
+    }
+
+    if (project.hasProperty('target')) {
+        systemProperty 'target', "${target}"
+    }
+}
+
+task testSingup(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/testng-Singup.xml'
+    }
+    if (project.hasProperty('browser')) {
+        systemProperty 'browser', "${browser}"
+    }
+
+    if (project.hasProperty('target')) {
+        systemProperty 'target', "${target}"
+    }
+}
+
+task testMenu(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/testng-Menu.xml'
+    }
+}
+
+task testService(type: Test) {
+    useTestNG() {
+        suites './src/test/resources/testng-Service.xml'
+    }
+}

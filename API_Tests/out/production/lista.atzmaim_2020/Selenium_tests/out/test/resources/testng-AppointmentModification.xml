@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite_newClient">
+    <test verbose="1" preserve-order="true" name="modify app">
+        <classes>
+            <!--<class name="im.atzma.lista.tests.Login">-->
+                <!--<methods>-->
+                    <!--<include name="login"/>-->
+                <!--</methods>-->
+            <!--</class>-->
+            <class name="im.atzma.lista2020.tests.SingupTest">
+                <methods>
+                    <include name="testVerifySignupPageElements"/>
+                    <include name="testPasswordVisibleIcons"/>
+                    <include name="testVerifyBusinessTypePageElements"/>
+                    <include name="testMarkBussnessType_atzmaimButtonChecked"/>
+                    <include name="testVerifyAllSetPageElements"/>
+                    <include name="testVerifyAllTestPageCheckboxes"/>
+                    <include name="testCreateNewAccount_submit"/>
+                    <include name="testLogOut"/>
+                    <include name="testVerifyLoginWithNewUser"/>
+                    <include name="testVerifyDefaultClientPage()"/>
+                </methods>
+            </class>
+
+            <class name="im.atzma.lista2020.tests.ClientCreationTest">
+                <methods>
+                    <include name="initNewClientCreation"/>
+                    <include name="verifyClientForm"/>
+                    <include name="fillClientForm"/>
+                </methods>
+            </class>
+            <class name="im.atzma.lista2020.tests.CreateAppointmentTest">
+                <methods>
+                    <include name="testAppointmentCreation"/>
+                </methods>
+            </class>
+            <class name="im.atzma.lista2020.tests.ModifyAppointmentTest">
+                <methods>
+                    <include name="createSecondTempClient"/>
+                    <include name="modifyAppointment"/>
+                    <include name="verifyModifiedAppointment"/>
+                    <include name="verifyModifiedAppointmentForm"/>
+                </methods>
+            </class>
+            <class name="im.atzma.lista2020.tests.DeleteAccountTest">
+                <methods>
+                    <include name="testDeleteAccount"/>
+                    <include name="testDeleteAccountVerification"/>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+</suite>

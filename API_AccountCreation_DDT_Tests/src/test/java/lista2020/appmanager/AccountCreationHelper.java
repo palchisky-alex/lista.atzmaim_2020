@@ -1,6 +1,5 @@
 package lista2020.appmanager;
 
-import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
 import java.time.LocalDate;
@@ -12,7 +11,7 @@ import static io.restassured.RestAssured.*;
 
 public class AccountCreationHelper {
     CookieManager cookieManager;
-    String key = "7b7a53e239400a13bd6be6c91c4f6c4e";
+    String key = "05a5cf06982ba7892ed2a6d38fe832d6";
     String value;
     String status;
     Response get_response;

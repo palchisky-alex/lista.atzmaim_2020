@@ -4,9 +4,6 @@ import java.io.IOException;
 import java.util.Map;
 import java.util.Properties;
 
-import static io.restassured.RestAssured.given;
-import static org.testng.Assert.fail;
-
 public class ApplicationRestManager {
 
     ServiceCreationHelper serviceCreationHelper;

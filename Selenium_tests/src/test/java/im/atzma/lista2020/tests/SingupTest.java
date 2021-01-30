@@ -1,13 +1,7 @@
 package im.atzma.lista2020.tests;
 
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 public class SingupTest extends TestBase {
     private boolean acceptNextAlert = true;

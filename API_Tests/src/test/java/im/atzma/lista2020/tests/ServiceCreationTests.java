@@ -1,10 +1,7 @@
 package im.atzma.lista2020.tests;
+
 import org.approvaltests.Approvals;
 import org.testng.annotations.Test;
-
-import java.util.HashSet;
-
-import static org.testng.Assert.assertEquals;
 
 public class ServiceCreationTests extends TestBase {
 

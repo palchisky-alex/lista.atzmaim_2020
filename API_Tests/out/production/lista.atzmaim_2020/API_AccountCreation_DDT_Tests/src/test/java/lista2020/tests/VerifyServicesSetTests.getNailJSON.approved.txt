@@ -1,0 +1,216 @@
+Server=nginx
+###Date##
+Content-Type=application/json; charset=utf-8
+Transfer-Encoding=chunked
+Connection=keep-alive
+Vary=Accept-Encoding
+###Set-Cookie##
+###Set-Cookie##
+###X-Request-Id##
+Strict-Transport-Security=max-age=604800
+X-Content-Type-Options=nosniff
+X-Robots-Tag=noindex
+Content-Security-Policy=upgrade-insecure-requests
+X-Powered-By=php/4.3.10-16
+Content-Encoding=gzip
+
+[
+    {
+        "id": 1,
+        "name": "לק ג'ל",
+        "price": "120",
+        "duration": 45,
+        "color": "#efefff",
+        "category": {
+            "name": "Manicure Pedicure",
+            "id": 1
+        }
+    },
+    {
+        "id": 2,
+        "name": "לק ג'ל ברגליים",
+        "price": "150",
+        "duration": 30,
+        "color": "#efefff",
+        "category": {
+            "name": "Manicure Pedicure",
+            "id": 1
+        }
+    },
+    {
+        "id": 3,
+        "name": "מניקור אקספרס",
+        "price": "45",
+        "duration": 15,
+        "color": "#efefff",
+        "category": {
+            "name": "Manicure Pedicure",
+            "id": 1
+        }
+    },
+    {
+        "id": 4,
+        "name": "מניקור",
+        "price": "70",
+        "duration": 30,
+        "color": "#efefff",
+        "category": {
+            "name": "Manicure Pedicure",
+            "id": 1
+        }
+    },
+    {
+        "id": 5,
+        "name": "פדיקור אקספרס",
+        "price": "55",
+        "duration": 15,
+        "color": "#efefff",
+        "category": {
+            "name": "Manicure Pedicure",
+            "id": 1
+        }
+    },
+    {
+        "id": 6,
+        "name": "פדיקור",
+        "price": "140",
+        "duration": 45,
+        "color": "#efefff",
+        "category": {
+            "name": "Manicure Pedicure",
+            "id": 1
+        }
+    },
+    {
+        "id": 7,
+        "name": "פדיקור רפואי",
+        "price": "155",
+        "duration": 45,
+        "color": "#efefff",
+        "category": {
+            "name": "Manicure Pedicure",
+            "id": 1
+        }
+    },
+    {
+        "id": 8,
+        "name": "בנייה + לק ג'ל",
+        "price": "240",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+            "name": "Nail Sculpting",
+            "id": 2
+        }
+    },
+    {
+        "id": 9,
+        "name": "מילוי + לק ג'ל",
+        "price": "130",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+            "name": "Nail Sculpting",
+            "id": 2
+        }
+    },
+    {
+        "id": 10,
+        "name": "בניית ציפורניים",
+        "price": "300",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+            "name": "Nail Sculpting",
+            "id": 2
+        }
+    },
+    {
+        "id": 11,
+        "name": "בנייה בג'ל",
+        "price": "220",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+            "name": "Nail Sculpting",
+            "id": 2
+        }
+    },
+    {
+        "id": 12,
+        "name": "תיקון ציפורן",
+        "price": "0",
+        "duration": 15,
+        "color": "#759bfa",
+        "category": {
+            "name": "Nail Sculpting",
+            "id": 2
+        }
+    },
+    {
+        "id": 13,
+        "name": "מילוי רגיל",
+        "price": "110",
+        "duration": 60,
+        "color": "#759bfa",
+        "category": {
+            "name": "Nail Sculpting",
+            "id": 2
+        }
+    },
+    {
+        "id": 14,
+        "name": "הסרת בנייה/לק ג'ל",
+        "price": "50",
+        "duration": 30,
+        "color": "#759bfa",
+        "category": {
+            "name": "Nail Sculpting",
+            "id": 2
+        }
+    },
+    {
+        "id": 15,
+        "name": "הדבקת ציפורניים",
+        "price": "0",
+        "duration": 30,
+        "color": "#759bfa",
+        "category": {
+            "name": "Nail Sculpting",
+            "id": 2
+        }
+    },
+    {
+        "id": 16,
+        "name": "סידור גבות",
+        "price": "30",
+        "duration": 15,
+        "color": "#b8e986",
+        "category": {
+            "name": "Eyebrows / Mustache",
+            "id": 3
+        }
+    },
+    {
+        "id": 17,
+        "name": "שפם",
+        "price": "30",
+        "duration": 15,
+        "color": "#b8e986",
+        "category": {
+            "name": "Eyebrows / Mustache",
+            "id": 3
+        }
+    },
+    {
+        "id": 18,
+        "name": "שפם + גבות",
+        "price": "50",
+        "duration": 30,
+        "color": "#b8e986",
+        "category": {
+            "name": "Eyebrows / Mustache",
+            "id": 3
+        }
+    }
+]

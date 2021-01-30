@@ -2,7 +2,6 @@ package im.atzma.lista2020.Tests;
 
 import io.restassured.response.Response;
 import org.mockserver.client.MockServerClient;
-import org.mockserver.model.Format;
 import org.mockserver.model.Header;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -19,7 +18,6 @@ import static org.mockserver.model.HttpRequest.request;
 import static org.mockserver.model.HttpResponse.response;
 import static org.mockserver.model.StringBody.exact;
 import static org.testng.Assert.assertEquals;
-import static org.mockserver.integration.ClientAndServer.startClientAndServer;
 
 @Listeners(LogListener.class)
 public class AccountCreation_UI_API_Tests extends TestBase_UI_API {

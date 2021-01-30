@@ -6,7 +6,6 @@ Connection=keep-alive
 Vary=Accept-Encoding
 Set-#####
 Set-#####
-X-Request-#####
 Strict-Transport-Security=max-age=604800
 X-Content-Type-Options=nosniff
 X-Robots-Tag=noindex
@@ -17,6 +16,126 @@ Content-Encoding=gzip
 [
     {
         "#####
+        "name": "סיגלית טלמור - לקוחה לדוגמה",
+        "#####
+        "#####
+        "total_price": "200",
+        "phone": "0547654321",
+        "note": "מאחרת",
+        "client_#####
+        "#####
+        "status": null,
+        "permit_ads": false,
+        "is_unsubscribed": false,
+        "off_time": null,
+        "address": null,
+        "birthdate": "01-19",
+        "durationEditable": null,
+        "added_date": "2021-01-30 07:31",
+        "services": [
+            {
+                "color": "#efa5fe",
+                "price": "0",
+                "duration": 90,
+                "count": 1,
+                "#####
+                "name": "פגישת אבחון ראשונה"
+            }
+        ],
+        "phone_canonical": "+972547654321"
+    },
+    {
+        "#####
+        "name": "סיגלית טלמור - לקוחה לדוגמה",
+        "#####
+        "#####
+        "total_price": "200",
+        "phone": "0547654321",
+        "note": "מאחרת",
+        "client_#####
+        "#####
+        "status": null,
+        "permit_ads": false,
+        "is_unsubscribed": false,
+        "off_time": null,
+        "address": "הרצל 45, תל אביב יפו, ישראל",
+        "birthdate": "01-19",
+        "durationEditable": null,
+        "added_date": "2021-01-30 07:31",
+        "services": [
+            {
+                "color": "#efa5fe",
+                "price": "0",
+                "duration": 90,
+                "count": 1,
+                "#####
+                "name": "פגישת אבחון ראשונה"
+            }
+        ],
+        "phone_canonical": "+972547654321"
+    },
+    {
+        "#####
+        "name": "ירדנה דיין - לקוחה לדוגמה",
+        "#####
+        "#####
+        "total_price": "150",
+        "phone": "0501234567",
+        "note": "חוב 150 שח טיפול קודם",
+        "client_#####
+        "#####
+        "status": null,
+        "permit_ads": false,
+        "is_unsubscribed": false,
+        "off_time": null,
+        "address": null,
+        "birthdate": "01-28",
+        "durationEditable": null,
+        "added_date": "2021-01-30 07:31",
+        "services": [
+            {
+                "color": "#efa5fe",
+                "price": "0",
+                "duration": 60,
+                "count": 1,
+                "#####
+                "name": "ייעוץ"
+            }
+        ],
+        "phone_canonical": "+972501234567"
+    },
+    {
+        "#####
+        "name": "ירדנה דיין - לקוחה לדוגמה",
+        "#####
+        "#####
+        "total_price": "150",
+        "phone": "0501234567",
+        "note": "חוב 150 שח טיפול קודם",
+        "client_#####
+        "#####
+        "status": null,
+        "permit_ads": false,
+        "is_unsubscribed": false,
+        "off_time": null,
+        "address": "הרצל 45, תל אביב יפו, ישראל",
+        "birthdate": "01-28",
+        "durationEditable": null,
+        "added_date": "2021-01-30 07:31",
+        "services": [
+            {
+                "color": "#efa5fe",
+                "price": "0",
+                "duration": 60,
+                "count": 1,
+                "#####
+                "name": "ייעוץ"
+            }
+        ],
+        "phone_canonical": "+972501234567"
+    },
+    {
+        "#####
         "name": "Test_changeClientsData_before",
         "#####
         "#####
@@ -25,7 +144,9 @@ Content-Encoding=gzip
         "note": "call one hour before",
         "client_#####
         "#####
-        "status": null,
+        "status": "status - before",
+        "permit_ads": false,
+        "is_unsubscribed": false,
         "off_time": null,
         "address": "Israel, Rokah 18, Ramat Gan",
         "birthdate": "06-26",
@@ -53,7 +174,9 @@ Content-Encoding=gzip
         "note": "call one hour before",
         "client_#####
         "#####
-        "status": null,
+        "status": "status - before",
+        "permit_ads": false,
+        "is_unsubscribed": false,
         "off_time": null,
         "address": "Israel, Rokah 18, Ramat Gan",
         "birthdate": "06-26",
@@ -81,7 +204,9 @@ Content-Encoding=gzip
         "note": "call one hour before",
         "client_#####
         "#####
-        "status": null,
+        "status": "status - before",
+        "permit_ads": false,
+        "is_unsubscribed": false,
         "off_time": null,
         "address": "Israel, Rokah 18, Ramat Gan",
         "birthdate": "06-26",
@@ -109,7 +234,9 @@ Content-Encoding=gzip
         "note": "call one hour before",
         "client_#####
         "#####
-        "status": null,
+        "status": "status - before",
+        "permit_ads": false,
+        "is_unsubscribed": false,
         "off_time": null,
         "address": "Israel, Rokah 18, Ramat Gan",
         "birthdate": "06-26",
@@ -137,7 +264,9 @@ Content-Encoding=gzip
         "note": "call one hour before",
         "client_#####
         "#####
-        "status": null,
+        "status": "status - before",
+        "permit_ads": false,
+        "is_unsubscribed": false,
         "off_time": null,
         "address": "Israel, Rokah 18, Ramat Gan",
         "birthdate": "06-26",
@@ -165,7 +294,9 @@ Content-Encoding=gzip
         "note": "call one hour before",
         "client_#####
         "#####
-        "status": null,
+        "status": "status - before",
+        "permit_ads": false,
+        "is_unsubscribed": false,
         "off_time": null,
         "address": "Israel, Rokah 18, Ramat Gan",
         "birthdate": "06-26",
@@ -193,7 +324,9 @@ Content-Encoding=gzip
         "note": "call one hour before",
         "client_#####
         "#####
-        "status": null,
+        "status": "status - before",
+        "permit_ads": false,
+        "is_unsubscribed": false,
         "off_time": null,
         "address": "Israel, Rokah 18, Ramat Gan",
         "birthdate": "06-26",
@@ -221,7 +354,9 @@ Content-Encoding=gzip
         "note": "call one hour before",
         "client_#####
         "#####
-        "status": null,
+        "status": "status - before",
+        "permit_ads": false,
+        "is_unsubscribed": false,
         "off_time": null,
         "address": "Israel, Rokah 18, Ramat Gan",
         "birthdate": "06-26",
@@ -249,7 +384,9 @@ Content-Encoding=gzip
         "note": "call one hour before",
         "client_#####
         "#####
-        "status": null,
+        "status": "status - before",
+        "permit_ads": false,
+        "is_unsubscribed": false,
         "off_time": null,
         "address": "Israel, Rokah 18, Ramat Gan",
         "birthdate": "06-26",
@@ -277,7 +414,9 @@ Content-Encoding=gzip
         "note": "call one hour before",
         "client_#####
         "#####
-        "status": null,
+        "status": "status - before",
+        "permit_ads": false,
+        "is_unsubscribed": false,
         "off_time": null,
         "address": "Israel, Rokah 18, Ramat Gan",
         "birthdate": "06-26",
@@ -305,7 +444,9 @@ Content-Encoding=gzip
         "note": "call one hour before",
         "client_#####
         "#####
-        "status": null,
+        "status": "status - before",
+        "permit_ads": false,
+        "is_unsubscribed": false,
         "off_time": null,
         "address": "Israel, Rokah 18, Ramat Gan",
         "birthdate": "06-26",
@@ -333,7 +474,9 @@ Content-Encoding=gzip
         "note": "call one hour before",
         "client_#####
         "#####
-        "status": null,
+        "status": "status - before",
+        "permit_ads": false,
+        "is_unsubscribed": false,
         "off_time": null,
         "address": "Israel, Rokah 18, Ramat Gan",
         "birthdate": "06-26",

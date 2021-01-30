@@ -1,7 +1,6 @@
 package im.atzma.lista2020.tests;
 
 import org.approvaltests.Approvals;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.IOException;

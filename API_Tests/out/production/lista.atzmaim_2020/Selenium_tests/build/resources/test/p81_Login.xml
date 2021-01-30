@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Account_creation_suite">
+    <test verbose="1" preserve-order="true" name="create and delete account">
+        <parameter name="testName"  value="SingupTest" />
+        <classes>
+            <class name="im.atzma.lista2020.tests.P81_Login">
+                <methods>
+                    <include name="login"/>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+</suite>

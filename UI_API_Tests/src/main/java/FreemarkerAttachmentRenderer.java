@@ -16,10 +16,6 @@
 
 import freemarker.template.Configuration;
 import freemarker.template.Template;
-import io.qameta.allure.attachment.AttachmentData;
-import io.qameta.allure.attachment.AttachmentRenderException;
-import io.qameta.allure.attachment.AttachmentRenderer;
-import io.qameta.allure.attachment.DefaultAttachmentContent;
 
 import java.io.StringWriter;
 import java.io.Writer;

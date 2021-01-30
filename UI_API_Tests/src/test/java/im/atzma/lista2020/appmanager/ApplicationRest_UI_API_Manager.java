@@ -1,14 +1,10 @@
 package im.atzma.lista2020.appmanager;
 
-import io.qameta.allure.attachment.DefaultAttachmentContent;
-import io.qameta.allure.attachment.FreemarkerAttachmentRenderer;
-import io.qameta.allure.attachment.http.HttpRequestAttachment;
 import io.restassured.RestAssured;
 
 import java.io.IOException;
 import java.util.Properties;
 
-import static im.atzma.lista2020.Tests.testdata.TestData.randomHttpRequestAttachment;
 import static io.restassured.RestAssured.baseURI;
 import static io.restassured.RestAssured.config;
 import static io.restassured.config.EncoderConfig.encoderConfig;
