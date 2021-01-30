@@ -14,7 +14,7 @@ public class AppointmentModificationTests extends TestBase {
         int client_id = app.clientCreationHelper().createClient();
         app.appointmentHelper().createAppointment(client_id, service_id, category_id);
 
-        Approvals.verify(app.appointmentHelper().getAppointmentList());
+      //  Approvals.verify(app.appointmentHelper().getAppointmentList());
     }
 
     @Test(priority = 2)
@@ -25,7 +25,7 @@ public class AppointmentModificationTests extends TestBase {
         app.clientCreationHelper().modificateClient(client_id);
         app.appointmentHelper().modifyAppointment(client_id, service_id, category_id);
 
-        Approvals.verify(app.appointmentHelper().getAppointmentList());
+      //  Approvals.verify(app.appointmentHelper().getAppointmentList());
     }
 
     @Test(priority = 3)
